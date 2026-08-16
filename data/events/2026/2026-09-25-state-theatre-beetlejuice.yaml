@@ -1,0 +1,55 @@
+id: 2026-09-25-state-theatre-beetlejuice
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Beetlejuice
+  start: '2026-09-25T19:30:00-04:00'
+  end: '2026-09-27T20:30:00-04:00'
+  additional_dates: []
+  venue: State Theatre New Jersey
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  price_min: 52.0
+  price_max: 52.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/beetlejuice-2026
+  ticket_url: https://my.stnj.org/overview/24975
+  description_snippet: “A JOYFUL, EBULLIENT ANTIDOTE TO REALITY!” — Rolling StoneHe earned his stripes
+    on Broadway… now the ghost-with-the-most is coming to New Brunswick.It’s showtime! Based on Tim Burton’s
+    dearly beloved film, this hilarious musical tells the story of Lydia Deetz, a strange and unusual
+    teenager whose whole life changes when she meets a recently deceased couple and a demon with a thing
+    for stripes. With an irreverent book and a score that’s out of this Netherworld, Beetlejuice is “SCREAMINGLY
+    GOOD FUN!” (Variety). And under its uproarious surface (six feet under, to be exact), it’s a remarkably
+    tou
+  content_hash: cf3349929e015961
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/beetlejuice-2026
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://my.stnj.org/overview/24975
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:19.968403-04:00'
+  - url: https://www.stnj.org/events/detail/beetlejuice-2026
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:20.406599-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:19.968399-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

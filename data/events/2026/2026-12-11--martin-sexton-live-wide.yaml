@@ -1,0 +1,47 @@
+id: 2026-12-11--martin-sexton-live-wide
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Martin Sexton Live Wide Open Tour
+  start: '2026-12-11T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/martin-sexton-2026/
+  ticket_url: ''
+  description_snippet: Martin Sexton Live Wide Open Tour FRI, DEC 11, 2026 at 7:30PM Buy Tickets Martin
+    Sexton brings his soul-marinated voice, acoustic guitar, and legendary live show to SOPAC in celebration
+    of the 25th anniversary of Live Wide Open, his critically acclaimed double vinyl live album. Praised
+    by Billboard, Rolling Stone, the Wall Street Journal, and John Mayer himself, Sexton is the rare performer
+    who makes every show feel like a once-in-a-lifetime experience. Buy Tickets Learn More
+  content_hash: e1decb101537ec25
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/martin-sexton-2026/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/martin-sexton-2026/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:32.146064-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:32.146059-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

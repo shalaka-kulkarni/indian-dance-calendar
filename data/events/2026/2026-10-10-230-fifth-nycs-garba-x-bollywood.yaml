@@ -1,0 +1,45 @@
+id: 2026-10-10-230-fifth-nycs-garba-x-bollywood
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Nycs Garba X Bollywood At 230 Fifth Rooftop
+  start: '2026-10-10T17:00:00-04:00'
+  end: '2026-10-11T03:30:00-04:00'
+  additional_dates: []
+  venue: 230 FIFTH ROOFTOP BAR
+  address: 1150 Broadway, New York, NY
+  region: manhattan
+  price_min: 30.0
+  price_max: 30.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/nyc-s-garba-x-bollywood-at-230-fifth-rooftop_event-in_new-york-ny_401176
+  ticket_url: https://events.sulekha.com/nyc-s-garba-x-bollywood-at-230-fifth-rooftop_event-in_new-york-ny_401176
+  description_snippet: Nycs Garba X Bollywood At 230 Fifth Rooftop
+  content_hash: c4a2170ad7b8ecf5
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/nyc-s-garba-x-bollywood-at-230-fifth-rooftop_event-in_new-york-ny_401176
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/nyc-s-garba-x-bollywood-at-230-fifth-rooftop_event-in_new-york-ny_401176
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:28.666293-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:28.666286-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

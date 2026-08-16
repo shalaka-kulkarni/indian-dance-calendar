@@ -1,0 +1,46 @@
+id: 2026-11-21-tilles-center-legacy-udit-narayan-aditya
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Legacy – Udit Narayan & Aditya Narayan Live In New York
+  start: '2026-11-21T20:00:00-04:00'
+  end: '2026-11-21T23:30:00-04:00'
+  additional_dates: []
+  venue: Tilles Center for the Performing Arts
+  address: 720 Northern Blvd, Greenvale, NY
+  region: unknown
+  price_min: 49.0
+  price_max: 49.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/legacy-udit-narayan-aditya-narayan-live-in-new-york_event-in_greenvale-ny_401310
+  ticket_url: https://events.sulekha.com/legacy-udit-narayan-aditya-narayan-live-in-new-york_event-in_greenvale-ny_401310
+  description_snippet: Legacy – Udit Narayan & Aditya Narayan Live In New York
+  content_hash: 5e84b36d7466729f
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/legacy-udit-narayan-aditya-narayan-live-in-new-york_event-in_greenvale-ny_401310
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/legacy-udit-narayan-aditya-narayan-live-in-new-york_event-in_greenvale-ny_401310
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:31.700796-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:31.700791-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

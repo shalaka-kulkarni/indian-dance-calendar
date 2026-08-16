@@ -1,0 +1,47 @@
+id: 2026-09-10--cyrille-aime-quartet
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Cyrille Aimée Quartet
+  start: '2026-09-10T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/cyrille-aimee-quartet/
+  ticket_url: ''
+  description_snippet: Cyrille Aimée Quartet THU, SEP 10, 2026 at 7:30PM Buy Tickets Cyrille Aimée is
+    a GRAMMY-nominated jazz vocalist whose multilingual, multicultural upbringing infuses her music with
+    a warmth and range that is entirely her own. She blends jazz sophistication, Caribbean rhythm, and
+    pop accessibility into something intimate, alive, and impossible to categorize. Buy Tickets Learn
+    More
+  content_hash: 8fe0de2ccf5def8e
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/cyrille-aimee-quartet/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/cyrille-aimee-quartet/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:15.708635-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:15.708629-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

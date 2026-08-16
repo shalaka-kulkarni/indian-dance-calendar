@@ -1,0 +1,45 @@
+id: 2026-09-05-skyport-marina-sept-5-nyc-bollywood
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: 'Sept 5: Nyc Bollywood Boat Party At Skyport Marina'
+  start: '2026-09-05T22:45:00-05:00'
+  end: '2026-09-06T03:00:00-05:00'
+  additional_dates: []
+  venue: SKYPORT MARINA
+  address: 2430 FDR Drive, New York, NY
+  region: manhattan
+  price_min: 24.99
+  price_max: 24.99
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/sept-5-nyc-bollywood-boat-party-at-skyport-marina_event-in_new-york-ny_401071
+  ticket_url: https://events.sulekha.com/sept-5-nyc-bollywood-boat-party-at-skyport-marina_event-in_new-york-ny_401071
+  description_snippet: 'Sept 5: Nyc Bollywood Boat Party At Skyport Marina'
+  content_hash: 24dee671db7b9105
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/sept-5-nyc-bollywood-boat-party-at-skyport-marina_event-in_new-york-ny_401071
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/sept-5-nyc-bollywood-boat-party-at-skyport-marina_event-in_new-york-ny_401071
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:15.271166-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:15.271160-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

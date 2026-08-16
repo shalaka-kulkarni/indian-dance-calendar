@@ -1,0 +1,48 @@
+id: 2026-09-18--sunny-jains-wild-wild
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Sunny Jain’s Wild Wild East
+  start: '2026-09-18T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/sunny-jain-2026/
+  ticket_url: ''
+  description_snippet: Sunny Jain’s Wild Wild East FRI, SEP 18, 2026 at 7:30PM Buy Tickets The founder
+    and dhol drummer of Brooklyn's beloved Red Baraat , composer and drummer Sunny Jain brings his acclaimed
+    five-piece band Wild Wild East to SOPAC for a genre-defying journey through Bollywood, Punjabi folk,
+    jazz, and psychedelic rock. Fresh off a viral NPR Tiny Desk Concert and tours of The Kennedy Center
+    and Monterey Jazz Festival, Jain weaves his family's immigration story into music that is both deeply
+    personal and electrifyingly alive. Buy Tickets Learn More
+  content_hash: 20a22ce75243c80a
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/sunny-jain-2026/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/sunny-jain-2026/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:16.645202-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:16.645197-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

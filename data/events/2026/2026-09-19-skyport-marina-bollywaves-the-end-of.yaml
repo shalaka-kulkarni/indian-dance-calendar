@@ -1,0 +1,45 @@
+id: 2026-09-19-skyport-marina-bollywaves-the-end-of
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Bollywaves – The End Of Summer Cruise Party
+  start: '2026-09-19T13:00:00-04:00'
+  end: '2026-09-19T17:00:00-04:00'
+  additional_dates: []
+  venue: Skyport Marina
+  address: 2430 FDR Drive, New York, NY
+  region: manhattan
+  price_min: 20.0
+  price_max: 20.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/bollywaves-the-end-of-summer-cruise-party_event-in_new-york-ny_401073
+  ticket_url: https://events.sulekha.com/bollywaves-the-end-of-summer-cruise-party_event-in_new-york-ny_401073
+  description_snippet: Bollywaves – The End Of Summer Cruise Party
+  content_hash: 42b3295a00b41917
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/bollywaves-the-end-of-summer-cruise-party_event-in_new-york-ny_401073
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/bollywaves-the-end-of-summer-cruise-party_event-in_new-york-ny_401073
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:17.410726-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:17.410719-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,45 @@
+id: 2026-09-12-pier-36-bollywood-cruise-party-desi
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Bollywood Cruise Party Desi Dinner Buffet Saturday Night Sep 12
+  start: '2026-09-12T18:00:00-04:00'
+  end: '2026-09-12T22:00:00-04:00'
+  additional_dates: []
+  venue: Pier 36 NYC
+  address: 299 South St, New York, NY
+  region: manhattan
+  price_min: 39.0
+  price_max: 39.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/bollywood-cruise-party-desi-dinner-buffet-saturday-night-sep-12_event-in_new-york-ny_401294
+  ticket_url: https://events.sulekha.com/bollywood-cruise-party-desi-dinner-buffet-saturday-night-sep-12_event-in_new-york-ny_401294
+  description_snippet: Bollywood Cruise Party Desi Dinner Buffet Saturday Night Sep 12
+  content_hash: 17a24f3c737dbeaf
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/bollywood-cruise-party-desi-dinner-buffet-saturday-night-sep-12_event-in_new-york-ny_401294
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/bollywood-cruise-party-desi-dinner-buffet-saturday-night-sep-12_event-in_new-york-ny_401294
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:16.004473-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:16.004469-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

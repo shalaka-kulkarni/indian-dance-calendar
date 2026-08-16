@@ -1,0 +1,48 @@
+id: 2026-10-16--the-improvised-shakespeare-company
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: The Improvised Shakespeare Company
+  start: '2026-10-16T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/the-improvised-shakespeare-company-2026/
+  ticket_url: ''
+  description_snippet: The Improvised Shakespeare Company FRI, OCT 16, 2026 at 7:30PM, SAT, OCT 17, 2026
+    at 7:30PM Buy Tickets The Improvised Shakespeare Company takes one audience suggestion and builds
+    a complete, fully improvised Shakespearean play from scratch. No script, no rehearsal, no idea where
+    it’s going until it gets there. A Chicago institution since 2005 and celebrated at venues from the
+    Kennedy Center to the Soho Theatre in London, their show is as funny, surprising, and as thrilling
+    as live performance gets. Buy Tickets Learn More
+  content_hash: 6953c6400950f88f
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/the-improvised-shakespeare-company-2026/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/the-improvised-shakespeare-company-2026/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:30.299415-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:30.299410-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

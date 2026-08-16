@@ -1,0 +1,49 @@
+id: 2026-09-25--darlingside
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Darlingside
+  start: '2026-09-25T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/darlingside-2026/
+  ticket_url: ''
+  description_snippet: Darlingside FRI, SEP 25, 2026 at 7:30PM Buy Tickets Darlingside is a Boston-based
+    folk-pop trio praised by NPR, Rolling Stone , and The New Yorker for their exquisitely arranged harmonies
+    and literary songwriting. Their acclaimed album Everything Is Alive weaves together baroque folk,
+    orchestral richness, and deeply personal storytelling, and their live performances are exactly the
+    kind of rare, transportive experience that reminds you why live music matters. Darlingside currently
+    tours and performs as a trio; one founding member remains part of the band's creative core — writing
+    and recording
+  content_hash: 9199c75e59a5e14b
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/darlingside-2026/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/darlingside-2026/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:19.893993-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:19.893987-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

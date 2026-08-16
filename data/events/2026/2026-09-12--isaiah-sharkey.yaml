@@ -1,0 +1,47 @@
+id: 2026-09-12--isaiah-sharkey
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Isaiah Sharkey
+  start: '2026-09-12T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/isaiah-sharkey-2026/
+  ticket_url: ''
+  description_snippet: Isaiah Sharkey SAT, SEP 12, 2026 at 7:30PM Buy Tickets GRAMMY Award winning guitarist,
+    vocalist, and composer Isaiah Sharkey is one of contemporary music's most sought after artists, with
+    credits alongside D'Angelo, John Mayer, Cory Henry, and Lalah Hathaway. His live show is a masterclass
+    in groove, harmony, and emotional connection, and with his current release RED building serious momentum,
+    this is a great moment to experience him live. Buy Tickets Learn More
+  content_hash: 4de27c5e87dae965
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/isaiah-sharkey-2026/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/isaiah-sharkey-2026/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:15.930389-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:15.930383-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

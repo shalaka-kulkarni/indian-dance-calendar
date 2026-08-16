@@ -1,0 +1,47 @@
+id: 2026-09-19--liz-glazer-big-waitlist
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Liz Glazer Big Waitlist Energy
+  start: '2026-09-19T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/liz-glazer-2026/
+  ticket_url: ''
+  description_snippet: Liz Glazer Big Waitlist Energy SAT, SEP 19, 2026 at 8PM Buy Tickets SOPAC favorite
+    Liz Glazer - former tenured law professor, Tonight Show alum, and SOPAC fan favorite - returns with
+    her new show, Big Waitlist Energy . Sharp, warm, and completely her own, Liz is exactly the kind of
+    comedian who makes you laugh and think at the same time, often within the same sentence. Buy Tickets
+    Learn More
+  content_hash: 911aefe01569a71a
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/liz-glazer-2026/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/liz-glazer-2026/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:16.719695-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:16.719690-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

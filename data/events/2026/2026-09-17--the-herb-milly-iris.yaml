@@ -1,0 +1,47 @@
+id: 2026-09-17--the-herb-milly-iris
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: The Herb + Milly Iris Gallery presents unveiled26 Studio Tour SOMA Opening Reception
+  start: '2026-09-17T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/unveiled-26/
+  ticket_url: ''
+  description_snippet: The Herb + Milly Iris Gallery presents unveiled26 Studio Tour SOMA Opening Reception
+    THU, SEP 17, 2026 at 6:00 PM RSVP Here The captivating preview exhibition of the 23rd Annual SOMA
+    Studio Tour, unveiled26 , goes on view in the Herb + Milly Iris Gallery at SOPAC beginning SEP 17
+    and ending NOV 8. The carefully curated exhibition of works is the fifth tandem exhibition with the
+    Tour and celebrates the talented artists within the SOMA community. RSVP Here Learn More
+  content_hash: 8c9a88d7e864bb18
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/unveiled-26/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/unveiled-26/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:16.570886-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:16.570880-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

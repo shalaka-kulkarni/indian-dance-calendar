@@ -1,0 +1,48 @@
+id: 2026-11-19--ladies-of-laughter
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Ladies of Laughter
+  start: '2026-11-19T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/ladies-of-laughter-nov-26/
+  ticket_url: ''
+  description_snippet: Ladies of Laughter THU, NOV 19, 2026 at 7:30PM Buy Tickets Ladies of Laughter ,
+    the celebrated national comedy competition known as "The Careerbuilder for Women in Comedy," brings
+    four standout comedians to SOPAC for a night of nonstop laughs. Featuring late night veteran Carmen
+    Lynch, national headliner Monique Latise, theatrical comedy royalty Sheba Mason, and rising star Ellen
+    Feeney, this is an evening that proves the funniest voices in the room are often the women in it.
+    Buy Tickets Learn More
+  content_hash: 8bb37be3ba0df5ca
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/ladies-of-laughter-nov-26/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/ladies-of-laughter-nov-26/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:31.478274-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:31.478269-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

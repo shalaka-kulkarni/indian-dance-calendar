@@ -1,0 +1,45 @@
+id: 2026-08-22-eden-nyc-nyc-bollywood-night-ft
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Nyc Bollywood Night Ft. Dj Aj + Anahat Band Live At Eden
+  start: '2026-08-22T21:00:00-05:00'
+  end: '2026-08-23T04:00:00-05:00'
+  additional_dates: []
+  venue: EDEN NYC
+  address: 20 West 36th Street, New York, NY
+  region: manhattan
+  price_min: 35.0
+  price_max: 35.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/nyc-bollywood-night-ft-dj-aj-at-eden_event-in_new-york-ny_400937
+  ticket_url: https://events.sulekha.com/nyc-bollywood-night-ft-dj-aj-at-eden_event-in_new-york-ny_400937
+  description_snippet: Nyc Bollywood Night Ft. Dj Aj + Anahat Band Live At Eden
+  content_hash: 16231bfc42a563d6
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/nyc-bollywood-night-ft-dj-aj-at-eden_event-in_new-york-ny_400937
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/nyc-bollywood-night-ft-dj-aj-at-eden_event-in_new-york-ny_400937
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:14.517963-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:14.517957-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

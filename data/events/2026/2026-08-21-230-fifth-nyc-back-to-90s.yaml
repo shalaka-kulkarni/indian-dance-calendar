@@ -1,0 +1,45 @@
+id: 2026-08-21-230-fifth-nyc-back-to-90s
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Nyc Back To 90s Bollywood Party At 230 Fifth
+  start: '2026-08-21T22:30:00-04:00'
+  end: '2026-08-22T03:00:00-04:00'
+  additional_dates: []
+  venue: 230 FIFTH ROOFTOP BAR
+  address: 1150 Broadway, New York, NY
+  region: manhattan
+  price_min: 24.99
+  price_max: 24.99
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/nyc-back-to-90-s-bollywood-party-at-230-fifth_event-in_new-york-ny_401173
+  ticket_url: https://events.sulekha.com/nyc-back-to-90-s-bollywood-party-at-230-fifth_event-in_new-york-ny_401173
+  description_snippet: Nyc Back To 90s Bollywood Party At 230 Fifth
+  content_hash: 43ad8397fb2375fc
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/nyc-back-to-90-s-bollywood-party-at-230-fifth_event-in_new-york-ny_401173
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/nyc-back-to-90-s-bollywood-party-at-230-fifth_event-in_new-york-ny_401173
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:14.178628-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:14.178622-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

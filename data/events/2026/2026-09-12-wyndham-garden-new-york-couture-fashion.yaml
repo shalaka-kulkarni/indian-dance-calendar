@@ -1,0 +1,45 @@
+id: 2026-09-12-wyndham-garden-new-york-couture-fashion
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: New York Couture Fashion Week Gala With Designer Samina Mughal -sep 12 2026
+  start: '2026-09-12T15:00:00-05:00'
+  end: '2026-09-12T21:00:00-05:00'
+  additional_dates: []
+  venue: Wyndham Garden Chinatown
+  address: 93 Bowery, New York, NY
+  region: manhattan
+  price_min: 30.0
+  price_max: 30.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/new-york-couture-fashion-week-gala-with-designer-samina-mughal-sep-12-2026_event-in_new-york-ny_398230
+  ticket_url: https://events.sulekha.com/new-york-couture-fashion-week-gala-with-designer-samina-mughal-sep-12-2026_event-in_new-york-ny_398230
+  description_snippet: New York Couture Fashion Week Gala With Designer Samina Mughal -sep 12 2026
+  content_hash: ec7651d3c941f0a5
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/new-york-couture-fashion-week-gala-with-designer-samina-mughal-sep-12-2026_event-in_new-york-ny_398230
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/new-york-couture-fashion-week-gala-with-designer-samina-mughal-sep-12-2026_event-in_new-york-ny_398230
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:16.164638-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:16.164632-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

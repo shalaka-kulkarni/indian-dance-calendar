@@ -1,0 +1,47 @@
+id: 2026-12-06--dar-williams
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Dar Williams
+  start: '2026-12-06T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/dar-williams-2026/
+  ticket_url: ''
+  description_snippet: Dar Williams SUN, DEC 6, 2026 at 7:30 PM Buy Tickets Dar Williams is a beloved
+    American folk songwriter with thirteen albums, a playwright's gift for character, and a genuine devotion
+    to community and connection. Her latest album, Hummingbird Highway, finds her at her most nuanced
+    and alive, and her live performances are exactly the kind of warm, intimate experience that reminds
+    you what folk music is for. Buy Tickets Learn More
+  content_hash: 43bd0377d1a9f66a
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/dar-williams-2026/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/dar-williams-2026/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:31.997853-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:31.997850-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

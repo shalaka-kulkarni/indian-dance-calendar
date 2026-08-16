@@ -1,0 +1,55 @@
+id: 2026-10-08-state-theatre-the-moth-mainstage-tightrope
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: 'The Moth Mainstage: TIGHTROPE'
+  start: '2026-10-08T19:30:00-04:00'
+  end: '2026-10-08T19:30:00-04:00'
+  additional_dates: []
+  venue: State Theatre New Jersey
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  price_min: 34.0
+  price_max: 34.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/the-moth-mainstage-2026
+  ticket_url: https://my.stnj.org/25072/25073
+  description_snippet: One foot in front of another…Join The Moth this fall for TIGHTROPE, an evening
+    of extraordinary true stories about what happens when there&#39;s no clear path—only the courage to
+    keep moving forward.Stories of balancing without a net. Trusting your gut. Taking the leap before
+    you know where you&#39;ll land. Of big gambles and near misses, quiet acts of bravery, and glorious
+    mistakes. Of sending the text, booking the flight, sharing the secret you&#39;ve carried for years,
+    and watching everything change.The Mainstage tour is The Moth’s signature live show, featuring a carefully
+    curated lineup o
+  content_hash: ee033a178c70880f
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/the-moth-mainstage-2026
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.stnj.org/events/detail/the-moth-mainstage-2026
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:27.154064-04:00'
+  - url: https://my.stnj.org/25072/25073
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:27.197585-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:27.154058-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,45 @@
+id: 2026-08-28-broadway-comedy-laughing-lassi-the-1
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: 'Laughing Lassi – The #1 South Asian Stand-up Comedy Show In New York City!'
+  start: '2026-08-28T19:00:00-05:00'
+  end: '2026-08-28T20:30:00-05:00'
+  additional_dates: []
+  venue: Broadway Comedy Club
+  address: 318 West 53rd Street, New York, NY
+  region: manhattan
+  price_min: 25.0
+  price_max: 25.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/laughing-lassi-the-1-south-asian-stand-up-comedy-show-in-new-york-city_event-in_new-york-ny_401291
+  ticket_url: https://events.sulekha.com/laughing-lassi-the-1-south-asian-stand-up-comedy-show-in-new-york-city_event-in_new-york-ny_401291
+  description_snippet: 'Laughing Lassi – The #1 South Asian Stand-up Comedy Show In New York City!'
+  content_hash: 0a97b9b066467e02
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/laughing-lassi-the-1-south-asian-stand-up-comedy-show-in-new-york-city_event-in_new-york-ny_401291
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/laughing-lassi-the-1-south-asian-stand-up-comedy-show-in-new-york-city_event-in_new-york-ny_401291
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:15.128449-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:15.128443-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

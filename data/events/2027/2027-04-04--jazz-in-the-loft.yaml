@@ -1,0 +1,46 @@
+id: 2027-04-04--jazz-in-the-loft
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Jazz in the LOFT
+  start: '2027-04-04T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/jitl-apr-2027/
+  ticket_url: ''
+  description_snippet: Jazz in the LOFT SUN, APR 4, 2027 at 7:30PM Buy Tickets Jazz in the Loft is SOPAC’s
+    premier jazz series, curated by Grammy-winning producer John Lee and showcasing some of today’s most
+    exciting and innovative artists. Experience world-class jazz in an intimate setting. Buy Tickets Learn
+    More
+  content_hash: 34919e6ca2d0d0a9
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/jitl-apr-2027/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/jitl-apr-2027/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:32.737962-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:32.737956-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

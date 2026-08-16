@@ -1,0 +1,46 @@
+id: 2026-10-03--somi
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: SOMI
+  start: '2026-10-03T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/somi-2026/
+  ticket_url: ''
+  description_snippet: SOMI SAT, OCT 3, 2026 at 7:30PM Buy Tickets Grammy nominated vocalist, composer,
+    playwright, and Broadway star Somi is one of the most compelling and multidimensional artists in contemporary
+    jazz. With her new album What Does It Take to Bloom? out in August, this is a rare and perfectly timed
+    chance to experience her live. Buy Tickets Learn More
+  content_hash: 74430fc4931c4e53
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/somi-2026/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/somi-2026/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:22.682553-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:22.682547-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

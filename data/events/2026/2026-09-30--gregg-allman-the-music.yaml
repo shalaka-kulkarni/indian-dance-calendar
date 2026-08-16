@@ -1,0 +1,49 @@
+id: 2026-09-30--gregg-allman-the-music
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: 'Gregg Allman: The Music of My Soul Documentary Hosted by Michael Lehman & Alan Paul'
+  start: '2026-09-30T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/gregg-allman-the-music-of-my-soul/
+  ticket_url: ''
+  description_snippet: 'Gregg Allman: The Music of My Soul Documentary Hosted by Michael Lehman & Alan
+    Paul WED, SEP 30, 2026 at 7:00 PM Buy Tickets Gregg Allman: The Music of My Soul is the documentary
+    portrait of the Allman Brothers Band co-founder, directed by GRAMMY and Emmy winner James Keach and
+    built from archival recordings, rare live footage, and unseen interviews. The screening will be followed
+    by a talkback and Q&A with Michael Lehman, Gregg''s longtime manager and the film''s producer; and
+    Alan Paul, New York Times bestselling author and member of Friends of the Brothers. Buy Tickets Learn
+    More'
+  content_hash: fb88f50e7f6ab944
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/gregg-allman-the-music-of-my-soul/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/gregg-allman-the-music-of-my-soul/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:20.599822-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:20.599817-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

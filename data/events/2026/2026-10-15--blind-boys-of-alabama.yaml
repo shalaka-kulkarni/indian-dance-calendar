@@ -1,0 +1,49 @@
+id: 2026-10-15--blind-boys-of-alabama
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Blind Boys of Alabama A Tribute to Stevie Wonder’s Songs In The Key of Life
+  start: '2026-10-15T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/the-blind-boys-of-alabama/
+  ticket_url: ''
+  description_snippet: Blind Boys of Alabama A Tribute to Stevie Wonder’s Songs In The Key of Life THU,
+    OCT 15, 2026 at 7:30PM Buy Tickets The Blind Boys of Alabama celebrate the 50th Anniversary of the
+    classic Stevie Wonder album & More! Six-time GRAMMY winners and Lifetime Achievement honorees with
+    a career spanning more than 70 years, Blind Boys of Alabama remain one of the most powerful live acts
+    in American music. From the Jim Crow South to the world's greatest stages, their gospel rooted sound
+    has always crossed every boundary it encounters, and a night with them is as close to a transcendent
+    experience as a c
+  content_hash: 169f8507b8144e74
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/the-blind-boys-of-alabama/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/the-blind-boys-of-alabama/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:30.225022-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:30.225016-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

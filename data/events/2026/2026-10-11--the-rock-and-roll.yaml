@@ -1,0 +1,48 @@
+id: 2026-10-11--the-rock-and-roll
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: The Rock and Roll Playhouse Plays the Music of David Bowie & More
+  start: '2026-10-11T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/rock-and-roll-playhouse-2026/
+  ticket_url: ''
+  description_snippet: The Rock and Roll Playhouse Plays the Music of David Bowie & More SUN, OCT 11,
+    2026 at 12 PM Buy Tickets The Rock and Roll Playhous e is the largest kid-friendly live concert series
+    in the country, bringing the music of rock's most iconic artists to families with children aged one
+    to seven in a joyful, high-energy celebration of music and movement. Parents get to rock out to the
+    songs they love while their little ones experience the magic of live music for the very first time.
+    Buy Tickets Learn More
+  content_hash: 05a299b0887b7075
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/rock-and-roll-playhouse-2026/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/rock-and-roll-playhouse-2026/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:29.016550-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:29.016544-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

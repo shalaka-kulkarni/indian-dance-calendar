@@ -1,0 +1,55 @@
+id: 2026-10-02-state-theatre-kenny-wayne-shepherd-band
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Kenny Wayne Shepherd Band
+  start: '2026-10-02T19:30:00-04:00'
+  end: '2026-10-02T19:30:00-04:00'
+  additional_dates: []
+  venue: State Theatre New Jersey
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  price_min: 52.0
+  price_max: 52.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/kenny-wayne-shepherd-2026
+  ticket_url: https://my.stnj.org/24906/24907
+  description_snippet: Blues-rock powerhouse Kenny Wayne Shepherd celebrates 30 years of his groundbreaking
+    debut Ledbetter Heights with a milestone tour coming to State Theatre New Jersey. In this electrifying
+    live experience, Shepherd and his band perform the landmark album in full, along with a second set
+    of career-spanning favorites that showcase his signature blend of fiery guitar work, blues tradition,
+    and rock energy.When Ledbetter Heights was first released in 1995, it introduced a teenage guitar
+    prodigy and quickly became a defining album of modern blues, earning Gold and Platinum status and
+    helping return
+  content_hash: c9d54cebde1abb94
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/kenny-wayne-shepherd-2026
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.stnj.org/events/detail/kenny-wayne-shepherd-2026
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:20.748095-04:00'
+  - url: https://my.stnj.org/24906/24907
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:21.007978-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:20.748091-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

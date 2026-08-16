@@ -1,0 +1,48 @@
+id: 2027-05-23--clifford-the-big-red
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: 'Clifford the Big Red Dog: The Musical'
+  start: '2027-05-23T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/clifford-the-big-red-dog-the-musical-2027/
+  ticket_url: ''
+  description_snippet: 'Clifford the Big Red Dog: The Musical SUN, MAY 23, 2027 at 12PM Buy Tickets This
+    musical brings everyone''s favorite oversized pup to the SOPAC stage in a joyful, laugh-filled celebration
+    of friendship, belonging, and unconditional love from TheatreWorksUSA. When Emily Elizabeth''s giant
+    love makes Clifford grow into a giant, the two head to Birdwell Island for big adventures, big laughs,
+    and a heartwarming reminder that what makes you different just might make you a hero. Buy Tickets
+    Learn More'
+  content_hash: 70c85727bad7225c
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/clifford-the-big-red-dog-the-musical-2027/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/clifford-the-big-red-dog-the-musical-2027/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:32.811728-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:32.811724-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

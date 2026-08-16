@@ -1,0 +1,46 @@
+id: 2026-09-05-the-space-sufi-sham-with-hansraj
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Sufi Sham With Hansraj Hans Live Concert In New York
+  start: '2026-09-05T20:00:00-04:00'
+  end: '2026-09-05T23:00:00-04:00'
+  additional_dates: []
+  venue: The Space at Westbury
+  address: 250 Post Ave, Westbury, NY
+  region: unknown
+  price_min: 59.0
+  price_max: 59.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/sufi-sham-with-hansraj-hans-usa-tour-2026_event-in_westbury-ny_401134
+  ticket_url: https://events.sulekha.com/sufi-sham-with-hansraj-hans-usa-tour-2026_event-in_westbury-ny_401134
+  description_snippet: Sufi Sham With Hansraj Hans Live Concert In New York
+  content_hash: 9d27aba6d6cda6bd
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/sufi-sham-with-hansraj-hans-usa-tour-2026_event-in_westbury-ny_401134
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/sufi-sham-with-hansraj-hans-usa-tour-2026_event-in_westbury-ny_401134
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:15.538796-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:15.538789-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,49 @@
+id: 2026-09-16--the-unwitting-magician-by
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: The Unwitting Magician By Jeremy Dobrish
+  start: '2026-09-16T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  price_min: 0.0
+  price_max: 0.0
+  is_free: true
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/the-unwitting-magician-2026/
+  ticket_url: ''
+  description_snippet: The Unwitting Magician By Jeremy Dobrish WED, SEP 16, 2026 at 7:00PM Buy Tickets
+    The Unwitting Magician is a one-night-only theatrical event in which an actor performs a script they
+    have truly never seen, and somehow, impossibly, pulls off real magic along the way. Created by director
+    and playwright Jeremy Dobrish , it is a singular evening of wonder, surprise, and genuinely big questions
+    about free will that nobody in the room, including the performer, will see coming. Buy Tickets Learn
+    More
+  content_hash: 4be8f6ed7ce0dd9d
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/the-unwitting-magician-2026/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/the-unwitting-magician-2026/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:16.496448-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:16.496442-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,52 @@
+id: 2026-10-03-state-theatre-the-rocky-horror-picture
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: The Rocky Horror Picture Show with Barry Bostwick (The Original Brad Majors)
+  start: '2026-10-03T19:30:00-04:00'
+  end: '2026-10-03T19:30:00-04:00'
+  additional_dates: []
+  venue: State Theatre New Jersey
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  price_min: 34.0
+  price_max: 34.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/rocky-horror-picture-show-2026
+  ticket_url: https://my.stnj.org/25133/25134
+  description_snippet: Join the original &quot;Brad Majors&quot;—BARRY BOSTWICK—for a screening of the
+    movie in a new 4k restoration with a live shadow cast by the Friday Nite Specials and audience participation!
+    Plus a memorabilia display with artifacts and an actual costume from the movie, a costume contest,
+    an after party immersive experience, and more!
+  content_hash: 8cd9fb527ef8e91d
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/rocky-horror-picture-show-2026
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://my.stnj.org/25133/25134
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:22.756428-04:00'
+  - url: https://www.stnj.org/events/detail/rocky-horror-picture-show-2026
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:23.990459-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:22.756424-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

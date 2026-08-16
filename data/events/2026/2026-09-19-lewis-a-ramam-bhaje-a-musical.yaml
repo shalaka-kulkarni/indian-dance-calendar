@@ -1,0 +1,46 @@
+id: 2026-09-19-lewis-a-ramam-bhaje-a-musical
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Ramam Bhaje – A Musical Celebration Of Lord Rama
+  start: '2026-09-19T18:00:00-04:00'
+  end: '2026-09-19T22:00:00-04:00'
+  additional_dates: []
+  venue: Lewis A. Swyer Theatre
+  address: 100 South Mall Arterial, Albany, NY
+  region: unknown
+  price_min: 0.0
+  price_max: 0.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/ramam-bhaje-a-musical-celebration-of-lord-rama_event-in_albany-ny_401182
+  ticket_url: https://events.sulekha.com/ramam-bhaje-a-musical-celebration-of-lord-rama_event-in_albany-ny_401182
+  description_snippet: Ramam Bhaje – A Musical Celebration Of Lord Rama
+  content_hash: 629b3b8c54d91232
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/ramam-bhaje-a-musical-celebration-of-lord-rama_event-in_albany-ny_401182
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/ramam-bhaje-a-musical-celebration-of-lord-rama_event-in_albany-ny_401182
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:17.162169-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:17.162163-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

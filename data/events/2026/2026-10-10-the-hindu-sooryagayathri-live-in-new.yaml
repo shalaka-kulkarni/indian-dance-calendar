@@ -1,0 +1,45 @@
+id: 2026-10-10-the-hindu-sooryagayathri-live-in-new
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Sooryagayathri Live In New York – A Musical Celebration Of Lord Rama
+  start: '2026-10-10T16:00:00-04:00'
+  end: '2026-10-10T20:00:00-04:00'
+  additional_dates: []
+  venue: The Hindu Temple Community Center
+  address: 143-09 Holly Avenue, Flushing, NY
+  region: queens
+  price_min: 0.0
+  price_max: 0.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/sooryagayathri-live-in-new-york-a-musical-celebration-of-lord-rama_event-in_flushing-ny_401191
+  ticket_url: https://events.sulekha.com/sooryagayathri-live-in-new-york-a-musical-celebration-of-lord-rama_event-in_flushing-ny_401191
+  description_snippet: Sooryagayathri Live In New York – A Musical Celebration Of Lord Rama
+  content_hash: b1786e17f7634275
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/sooryagayathri-live-in-new-york-a-musical-celebration-of-lord-rama_event-in_flushing-ny_401191
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/sooryagayathri-live-in-new-york-a-musical-celebration-of-lord-rama_event-in_flushing-ny_401191
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:28.806487-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:28.806481-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

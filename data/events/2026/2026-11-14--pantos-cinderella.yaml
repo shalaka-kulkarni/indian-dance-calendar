@@ -1,0 +1,49 @@
+id: 2026-11-14--pantos-cinderella
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: PANTO’s Cinderella
+  start: '2026-11-14T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/panto-cinderella-2026/
+  ticket_url: ''
+  description_snippet: PANTO’s Cinderella SAT, NOV 14, 2026 at 1PM Buy Tickets Bullied by her two cruel
+    step-sisters, Cinder’s future looks bleak until her Fairy Godmother casts a magical spell to send
+    her to the royal ball. How will the prince ever find her when she flees at the stroke of midnight,
+    leaving behind a single glass slipper? This enchanting tale is brought to life in a musical production
+    in true Panto Company USA fashion, featuring original modern songs and overflowing with humor. True
+    to the story, it promises to entertain audiences of all ages and, of course, a happy ending. Buy Tickets
+    Learn More
+  content_hash: 47a549425a1eb941
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/panto-cinderella-2026/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/panto-cinderella-2026/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:30.373752-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:30.373747-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,55 @@
+id: 2026-10-06-state-theatre-compagnie-herv-koubi
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Compagnie HERVÉ KOUBI
+  start: '2026-10-06T19:30:00-04:00'
+  end: '2026-10-06T19:30:00-04:00'
+  additional_dates: []
+  venue: State Theatre New Jersey
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  price_min: 33.0
+  price_max: 33.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/compagnie-herve-koubi
+  ticket_url: https://my.stnj.org/23395/23396
+  description_snippet: “They Fly. They Spin. They Change How You See the Amazing.”—The New York TimesAbsolutely
+    unique and utterly original, this fearless, powerful company reigns from France, Algeria, and beyond.
+    Combining contemporary and urban dance movements, capoeira, and martial arts with powerful imagery
+    and inspired choreography, the dancers defy gravity. Inspired by Algerian author Yasmina Khadra’s
+    novel, What The Day Owes To The Night traces Koubi’s own personal lineage as a French-Algerian choreographer.
+    After learning about his family’s Algerian roots, Koubi returned to the country of his ancestors to
+    co
+  content_hash: 2315e89c40d7e18a
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/compagnie-herve-koubi
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.stnj.org/events/detail/compagnie-herve-koubi
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:25.945100-04:00'
+  - url: https://my.stnj.org/23395/23396
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:25.998931-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:25.945094-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

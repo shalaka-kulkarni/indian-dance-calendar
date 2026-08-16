@@ -1,0 +1,47 @@
+id: 2026-12-18--take-6-spread-love
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Take 6 Spread Love for Christmas
+  start: '2026-12-18T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/take-6-2026/
+  ticket_url: ''
+  description_snippet: Take 6 Spread Love for Christmas FRI, DEC 18, 2026 at 7:30 PM Buy Tickets Take
+    6 is a six-time GRAMMY-winning a cappella sextet whose forty-year career has spanned gospel, jazz,
+    and R&B, with collaborators ranging from Quincy Jones and Whitney Houston to Stevie Wonder and Ray
+    Charles. Their live performances, built entirely on six extraordinary human voices, are the kind of
+    experience that stays with you long after the last note fades. Buy Tickets Learn More
+  content_hash: e702191cb8cc9902
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/take-6-2026/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/take-6-2026/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T13:50:32.294424-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T13:50:32.294420-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}
