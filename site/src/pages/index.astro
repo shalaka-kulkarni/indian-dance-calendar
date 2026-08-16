@@ -93,8 +93,8 @@ const usedPresenters = [...new Set(events.map((e) => e.presenterType).filter((p)
       {events.length === 0 && (
         <section class="empty">
           <p>
-            No upcoming events are published yet — the first automated sweep of
-            {' '}{data.sources.length} venue calendars and listings will populate this page.
+            No upcoming events are published yet — the next automated sweep of
+            {' '}{data.sourceCount} venue calendars and listings will populate this page.
           </p>
         </section>
       )}
@@ -133,20 +133,10 @@ const usedPresenters = [...new Set(events.map((e) => e.presenterType).filter((p)
                 {e.description && <p class="event-desc">{e.description}</p>}
                 {e.editorNote && <p class="event-note">{e.editorNote}</p>}
                 <p class="event-links">
-                  <a class="btn btn-small" href={e.infoUrl} target="_blank" rel="noopener">Event info ↗</a>
+                  <a class="btn btn-small" href={e.infoUrl} target="_blank" rel="noopener">Info</a>
                   {e.ticketUrl && e.ticketUrl !== e.infoUrl && (
-                    <a class="btn btn-small btn-accent" href={e.ticketUrl} target="_blank" rel="noopener">Tickets ↗</a>
+                    <a class="btn btn-small btn-accent" href={e.ticketUrl} target="_blank" rel="noopener">Book tickets</a>
                   )}
-                </p>
-                <p class="event-sources">
-                  Listed via {e.sources.map((s, i) => (
-                    <>
-                      {i > 0 && ' · '}
-                      <a href={s.url} target="_blank" rel="noopener">{
-                        data.sources.find((src) => src.id === s.id)?.name ?? s.id
-                      }</a>
-                    </>
-                  ))}
                 </p>
               </div>
             </article>
@@ -163,9 +153,8 @@ const usedPresenters = [...new Set(events.map((e) => e.presenterType).filter((p)
         dates, prices and tickets.
       </p>
       <p class="sources-list">
-        Watching {data.sources.length} sources including {' '}
-        {data.sources.slice(0, 12).map((s) => s.name).join(', ')}, and more —
-        plus a weekly broad search for events beyond them.
+        Watching {data.sourceCount} venue calendars and listings, plus a weekly
+        broad search for events beyond them.
       </p>
     </footer>
 
