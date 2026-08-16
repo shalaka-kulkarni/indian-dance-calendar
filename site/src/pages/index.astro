@@ -101,7 +101,7 @@ const TITLE = 'Indian Dance Calendar — every Indian dance event across the New
       </button>
       <button class="tab" id="tab-past" role="tab" aria-selected="false"
               aria-controls="panel-past">
-        <span>What you missed</span><span class="n">{past.length}</span>
+        <span>Past events</span><span class="n">{past.length}</span>
       </button>
     </nav>
 
@@ -378,8 +378,18 @@ const TITLE = 'Indian Dance Calendar — every Indian dance event across the New
       }
 
             .hero-art { position: absolute; bottom: 0; height: 100%; width: auto; z-index: 0; }
-      .hero-art-left { left: 0; }
-      .hero-art-right { right: 0; }
+      /* Dissolve the ornament at its inner edge so it reads as engraving on the
+         ground, not as a pasted-on panel with a rectangular border. */
+      .hero-art-left {
+        left: 0;
+        -webkit-mask-image: linear-gradient(100deg, #000 0 35%, transparent 92%);
+                mask-image: linear-gradient(100deg, #000 0 35%, transparent 92%);
+      }
+      .hero-art-right {
+        right: 0;
+        -webkit-mask-image: linear-gradient(260deg, #000 0 40%, transparent 95%);
+                mask-image: linear-gradient(260deg, #000 0 40%, transparent 95%);
+      }
       /* Below this width the art would crowd the words, so it steps aside. */
       @media (max-width: 1080px) { .hero-art-left { display: none; } }
       @media (max-width: 780px) { .hero-art-right { opacity: .35; } }

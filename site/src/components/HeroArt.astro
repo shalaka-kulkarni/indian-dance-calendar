@@ -1,65 +1,63 @@
 ---
-// Masthead artwork, deliberately split to the LEFT and RIGHT edges so the
-// title sits on clean ground between them rather than on top of the art.
-// Hex values are hardcoded: the masthead keeps its poster colours in both themes.
+// Masthead artwork: fine engraved linework rather than flat cut-out shapes —
+// a jaali lattice on one side, a mandala and ogee arch on the other. Drawn in
+// thin gold strokes so it reads as ornament behind the title, not clipart.
 const { side = 'left' } = Astro.props;
 ---
 {side === 'left' && (
-  <svg class="hero-art hero-art-left" viewBox="0 0 260 420" aria-hidden="true"
-       focusable="false" xmlns="http://www.w3.org/2000/svg">
+  <svg class="hero-art hero-art-left" viewBox="0 0 240 420" aria-hidden="true"
+       focusable="false" xmlns="http://www.w3.org/2000/svg"
+       fill="none" stroke="#c9a227" stroke-width="1.1">
     <defs>
-      <g id="rangoli-l">
-        <circle r="94" fill="#2947c4"/>
-        <g fill="#f7ce1a">
-          <path id="petal-l" d="M0-92C22-56 22-40 0-16-22-40-22-56 0-92Z"/>
-          <use href="#petal-l" transform="rotate(30)"/><use href="#petal-l" transform="rotate(60)"/>
-          <use href="#petal-l" transform="rotate(90)"/><use href="#petal-l" transform="rotate(120)"/>
-          <use href="#petal-l" transform="rotate(150)"/><use href="#petal-l" transform="rotate(180)"/>
-          <use href="#petal-l" transform="rotate(210)"/><use href="#petal-l" transform="rotate(240)"/>
-          <use href="#petal-l" transform="rotate(270)"/><use href="#petal-l" transform="rotate(300)"/>
-          <use href="#petal-l" transform="rotate(330)"/>
-        </g>
-        <circle r="34" fill="#c4162a"/>
-        <circle r="15" fill="#fff9ec"/>
-      </g>
+      {/* jaali: interlocking pointed arches, the screen you see cut into stone */}
+      <pattern id="jaali" x="0" y="0" width="60" height="72" patternUnits="userSpaceOnUse">
+        <path d="M30 0C30 20 46 30 60 36 46 42 30 52 30 72 30 52 14 42 0 36 14 30 30 20 30 0Z"/>
+        <path d="M0 36C0 16 14 6 30 0 14 6 0 16 0 36Z" opacity=".5"/>
+        <circle cx="30" cy="36" r="7"/>
+        <circle cx="0" cy="36" r="3.2"/>
+        <circle cx="60" cy="36" r="3.2"/>
+      </pattern>
     </defs>
-    <use href="#rangoli-l" transform="translate(40 128) scale(.92)"/>
-    <use href="#rangoli-l" transform="translate(150 320) scale(.58)"/>
-    <rect x="0" y="404" width="260" height="16" fill="#007c7a"/>
+    <rect x="-10" y="20" width="250" height="384" fill="url(#jaali)" opacity=".62"/>
+    <path d="M18 20v384M112 20v384M206 20v384" opacity=".35"/>
+    <path d="M-10 118h250M-10 262h250" opacity=".28"/>
   </svg>
 )}
 
 {side === 'right' && (
-  <svg class="hero-art hero-art-right" viewBox="0 0 300 420" aria-hidden="true"
-       focusable="false" xmlns="http://www.w3.org/2000/svg">
+  <svg class="hero-art hero-art-right" viewBox="0 0 320 420" aria-hidden="true"
+       focusable="false" xmlns="http://www.w3.org/2000/svg"
+       fill="none" stroke="#c9a227" stroke-width="1.1">
     <defs>
-      <clipPath id="gopuram-clip">
-        <path d="M150 30 205 100 183 100 233 178 205 178 268 280 233 280 300 404 0 404 67 280 32 280 95 178 67 178 117 100 95 100Z"/>
-      </clipPath>
-      <g id="rangoli-r">
-        <circle r="94" fill="#2947c4"/>
-        <g fill="#f7ce1a">
-          <path id="petal-r" d="M0-92C22-56 22-40 0-16-22-40-22-56 0-92Z"/>
-          <use href="#petal-r" transform="rotate(30)"/><use href="#petal-r" transform="rotate(60)"/>
-          <use href="#petal-r" transform="rotate(90)"/><use href="#petal-r" transform="rotate(120)"/>
-          <use href="#petal-r" transform="rotate(150)"/><use href="#petal-r" transform="rotate(180)"/>
-          <use href="#petal-r" transform="rotate(210)"/><use href="#petal-r" transform="rotate(240)"/>
-          <use href="#petal-r" transform="rotate(270)"/><use href="#petal-r" transform="rotate(300)"/>
-          <use href="#petal-r" transform="rotate(330)"/>
-        </g>
-        <circle r="34" fill="#c4162a"/>
-        <circle r="15" fill="#fff9ec"/>
+      {/* one petal, revolved — a mandala drawn rather than stamped */}
+      <g id="ring">
+        <path id="pet" d="M0-128C26-92 26-64 0-40-26-64-26-92 0-128Z"/>
+        <use href="#pet" transform="rotate(22.5)"/><use href="#pet" transform="rotate(45)"/>
+        <use href="#pet" transform="rotate(67.5)"/><use href="#pet" transform="rotate(90)"/>
+        <use href="#pet" transform="rotate(112.5)"/><use href="#pet" transform="rotate(135)"/>
+        <use href="#pet" transform="rotate(157.5)"/><use href="#pet" transform="rotate(180)"/>
+        <use href="#pet" transform="rotate(202.5)"/><use href="#pet" transform="rotate(225)"/>
+        <use href="#pet" transform="rotate(247.5)"/><use href="#pet" transform="rotate(270)"/>
+        <use href="#pet" transform="rotate(292.5)"/><use href="#pet" transform="rotate(315)"/>
+        <use href="#pet" transform="rotate(337.5)"/>
       </g>
     </defs>
-    <path d="M150 30 205 100 183 100 233 178 205 178 268 280 233 280 300 404 0 404 67 280 32 280 95 178 67 178 117 100 95 100Z" fill="#c4162a"/>
-    <g clip-path="url(#gopuram-clip)">
-      <rect x="0" y="120" width="300" height="15" fill="#f7ce1a"/>
-      <rect x="0" y="205" width="300" height="15" fill="#f7ce1a"/>
-      <rect x="0" y="300" width="300" height="15" fill="#f7ce1a"/>
-      <rect x="0" y="344" width="300" height="60" fill="#007c7a"/>
-      <path d="M150 344a38 38 0 0 1 38 38v22h-76v-22a38 38 0 0 1 38-38Z" fill="#15110f"/>
+
+    {/* ogee arch, the temple doorway, kept as an outline */}
+    <path d="M160 44c0 34 26 52 48 68 26 19 40 42 40 78v190H72V190c0-36 14-59 40-78 22-16 48-34 48-68Z"
+          opacity=".75"/>
+    <path d="M160 92c0 24 18 37 34 48 18 13 27 29 27 54v186H99V194c0-25 9-41 27-54 16-11 34-24 34-48Z"
+          opacity=".5"/>
+    <path d="M160 300a30 30 0 0 1 30 30v50h-60v-50a30 30 0 0 1 30-30Z" opacity=".6"/>
+
+    <g transform="translate(232 148)" opacity=".8">
+      <use href="#ring"/>
+      <use href="#ring" transform="rotate(11.25) scale(.72)" opacity=".8"/>
+      <circle r="34"/>
+      <circle r="20" opacity=".7"/>
+      <circle r="7" fill="#c9a227" stroke="none" opacity=".85"/>
     </g>
-    <use href="#rangoli-r" transform="translate(272 96) scale(.62)"/>
-    <rect x="0" y="404" width="300" height="16" fill="#007c7a"/>
+
+    <path d="M0 404h320" opacity=".5"/>
   </svg>
 )}
