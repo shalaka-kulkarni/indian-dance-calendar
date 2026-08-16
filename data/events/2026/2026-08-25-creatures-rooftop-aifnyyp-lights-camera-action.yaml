@@ -35,16 +35,19 @@ validation:
   passed: false
   checks:
     has_info_url: true
-    links_live: false
+    links_live: true
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks: []
+  link_checks:
+  - url: https://allevents.in/new-york/aifnyyp-lights-camera-action-a-bollywood-trivia-night/100001997513613991
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T14:01:39.305883-04:00'
   problems:
-  - links not yet verified (offline run)
   - classified not-relevant
-  validated_at: '2026-08-16T13:56:33.014480-04:00'
+  validated_at: '2026-08-16T14:01:39.305875-04:00'
 curated:
   forms: []
   editor_note: ''

@@ -1,0 +1,45 @@
+id: 2026-10-30-queens-theatre-our-town-by-thornton
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Our Town — by Thornton Wilder
+  start: '2026-10-30T19:30:00-04:00'
+  additional_dates: []
+  venue: Queens Theatre
+  address: 14 United Nations Avenue South, Corona
+  region: queens
+  is_free: false
+  price_note: ''
+  info_url: https://queenstheatre.org/events/our-town-51mn
+  ticket_url: ''
+  description_snippet: Thornton Wilder’s Pulitzer Prize-winning drama presents a timeless commentary on
+    the transience of human existence. Emergent love. Stunning comprehension. Shattering grief. Brilliant
+    shards of life th…
+  content_hash: 0fcd1913078bfcea
+  sources:
+  - source_id: queens_theatre
+    url: https://queenstheatre.org/events/our-town-51mn
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://queenstheatre.org/events/our-town-51mn
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T14:02:04.726205-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T14:02:04.726199-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

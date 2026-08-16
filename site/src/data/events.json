@@ -1,6 +1,92 @@
 {
- "generatedAt": "2026-08-16T13:57:43.062094-04:00",
- "events": [],
+ "generatedAt": "2026-08-16T14:02:10.121283-04:00",
+ "events": [
+  {
+   "id": "2026-09-19-kaye-playhouse-erasing-borders-festival-of",
+   "title": "Erasing Borders Festival of Indian Dance, 18th edition",
+   "start": "2026-09-19T18:00:00-04:00",
+   "end": null,
+   "additionalDates": [
+    "2026-09-20T18:00:00-04:00"
+   ],
+   "venue": "Kaye Playhouse at Hunter College",
+   "address": "695 Park Ave, New York, NY",
+   "region": "manhattan",
+   "price": "$20",
+   "priceNote": "from $20",
+   "isFree": false,
+   "infoUrl": "https://iaac.us/dance/",
+   "ticketUrl": "https://iaac.us/ebdf2026-ibs/",
+   "description": "IAAC's annual festival; six classical forms. Radhe Jaggi & Team (Bharatanatyam + Kalaripayattu), Sreelakshmy Kallungal Govardhanan (Kuchipudi), Shila Mehta trio (Kathak), Radha Varadan (Kathak), Neena Prasad (Mohiniyattam), Arushi Mudgal (Odissi), Preeti Vasudevan (contemporary), Aparna Sindhoor.",
+   "forms": [
+    "bharatanatyam",
+    "kuchipudi",
+    "kathak",
+    "mohiniyattam",
+    "odissi",
+    "contemporary_indian"
+   ],
+   "kind": "festival",
+   "presenterType": "professional_company",
+   "editorNote": "",
+   "circuits": [
+    "diaspora",
+    "mainstream"
+   ],
+   "sources": [
+    {
+     "id": "manual",
+     "url": "https://iaac.us/dance/",
+     "lastSeen": "2026-08-16"
+    },
+    {
+     "id": "dance_enthusiast",
+     "url": "https://www.dance-enthusiast.com/dance-listings/events/view/Indo-American-Arts-Council-presents-Erasing-Borders-Dance-Festival-2026-09-19_20",
+     "lastSeen": "2026-08-16"
+    }
+   ],
+   "lastValidated": "2026-08-16T14:01:42.992056-04:00"
+  },
+  {
+   "id": "2026-10-13-the-joyce-nrityagram-dance-ensemble-khankhana",
+   "title": "Nrityagram Dance Ensemble: KHANKHANA",
+   "start": "2026-10-13T19:30:00-04:00",
+   "end": "2026-10-18T19:30:00-04:00",
+   "additionalDates": [],
+   "venue": "The Joyce Theater",
+   "address": "175 8th Ave, New York, NY",
+   "region": "manhattan",
+   "price": "$17\u2013$72",
+   "priceNote": "",
+   "isFree": false,
+   "infoUrl": "https://www.joyce.org/performances/nrityagram-dance-ensemble-clk1",
+   "ticketUrl": "",
+   "description": "Odissi with live music from the one fully professional tourable Indian classical ensemble. Six-day run; Curtain Chat Oct 14. Curtain times to be confirmed against the Joyce listing.",
+   "forms": [
+    "odissi"
+   ],
+   "kind": "performance",
+   "presenterType": "professional_company",
+   "editorNote": "",
+   "circuits": [
+    "diaspora",
+    "mainstream"
+   ],
+   "sources": [
+    {
+     "id": "manual",
+     "url": "https://www.joyce.org/performances/nrityagram-dance-ensemble-clk1",
+     "lastSeen": "2026-08-16"
+    },
+    {
+     "id": "joyce",
+     "url": "https://www.joyce.org/performances/nrityagram-dance-ensemble-clk1",
+     "lastSeen": "2026-08-16"
+    }
+   ],
+   "lastValidated": "2026-08-16T14:02:00.676750-04:00"
+  }
+ ],
  "sources": [
   {
    "id": "joyce",

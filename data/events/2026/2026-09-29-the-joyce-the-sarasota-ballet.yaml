@@ -1,0 +1,44 @@
+id: 2026-09-29-the-joyce-the-sarasota-ballet
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: The Sarasota Ballet
+  start: '2026-09-29T19:30:00-04:00'
+  additional_dates: []
+  venue: The Joyce Theater
+  address: The Joyce Theater
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.joyce.org/performances/the-sarasota-ballet-typc
+  ticket_url: ''
+  description_snippet: The Sarasota Ballet lands at The Joyce with a program honoring three of Britain’s
+    great choreographers–Sir Frederick Ashton, Antony Tudor, and Sir Peter Wright.
+  content_hash: 26bcff4386170f6d
+  sources:
+  - source_id: joyce
+    url: https://www.joyce.org/performances/the-sarasota-ballet-typc
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.joyce.org/performances/the-sarasota-ballet-typc
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T14:01:49.386116-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T14:01:49.386110-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

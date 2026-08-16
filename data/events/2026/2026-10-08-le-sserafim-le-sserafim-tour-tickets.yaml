@@ -1,0 +1,45 @@
+id: 2026-10-08-le-sserafim-le-sserafim-tour-tickets
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: LE SSERAFIM Tour Tickets New Jersey 2026
+  start: '2026-10-08T19:30:00-04:00'
+  end: '2026-10-08T20:30:00-04:00'
+  additional_dates: []
+  venue: LE SSERAFIM Tour Tickets New Jersey 2026
+  address: LE SSERAFIM Tour Tickets New Jersey 2026
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.prucenter.com/events/le-sserafim
+  ticket_url: ''
+  description_snippet: LE SSERAFIM performs at Prudential Center on October 8 on their 8 stop North American
+    tour. Get tickets now, you don't want to miss the K-pop stars!
+  content_hash: 6dd2b80843165d48
+  sources:
+  - source_id: prudential_center
+    url: https://www.prucenter.com/events/le-sserafim
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.prucenter.com/events/le-sserafim
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T14:01:56.078652-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T14:01:56.078634-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

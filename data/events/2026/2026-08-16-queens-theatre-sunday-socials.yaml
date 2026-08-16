@@ -1,0 +1,45 @@
+id: 2026-08-16-queens-theatre-sunday-socials
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Sunday Socials
+  start: '2026-08-16T14:30:00-04:00'
+  additional_dates: []
+  venue: Queens Theatre
+  address: 14 United Nations Avenue South, Corona
+  region: queens
+  is_free: false
+  price_note: ''
+  info_url: https://queenstheatre.org/events/sunday-socials-nr6f
+  ticket_url: ''
+  description_snippet: Join us for a series of free concerts right outside Queens Theatre’s historic building,
+    in the heart of Flushing Meadows Corona Park. A short dance class will precede all the performances,
+    so get your…
+  content_hash: f567f151dca9dd49
+  sources:
+  - source_id: queens_theatre
+    url: https://queenstheatre.org/events/sunday-socials-nr6f
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://queenstheatre.org/events/sunday-socials-nr6f
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T14:01:36.712534-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T14:01:36.712522-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

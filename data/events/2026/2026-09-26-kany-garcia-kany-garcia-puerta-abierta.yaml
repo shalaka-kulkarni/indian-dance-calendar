@@ -1,0 +1,45 @@
+id: 2026-09-26-kany-garcia-kany-garcia-puerta-abierta
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: 'Kany Garcia: Puerta Abierta Tour Tickets NJ'
+  start: '2026-09-26T20:00:00-04:00'
+  end: '2026-09-26T21:00:00-04:00'
+  additional_dates: []
+  venue: 'Kany Garcia: Puerta Abierta Tour Tickets NJ'
+  address: 'Kany Garcia: Puerta Abierta Tour Tickets NJ'
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.prucenter.com/events/kany-garcia
+  ticket_url: ''
+  description_snippet: Kany Garcia brings her Puerta Abierta Tour to Prudential Center on Saturday, September
+    26. Get tickets to see her perform live!
+  content_hash: aa196e92721b35a2
+  sources:
+  - source_id: prudential_center
+    url: https://www.prucenter.com/events/kany-garcia
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.prucenter.com/events/kany-garcia
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T14:01:49.152494-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T14:01:49.152487-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

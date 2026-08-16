@@ -1,0 +1,44 @@
+id: 2026-11-04-the-joyce-garth-fagan-dance
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Garth Fagan Dance
+  start: '2026-11-04T19:30:00-05:00'
+  additional_dates: []
+  venue: The Joyce Theater
+  address: The Joyce Theater
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.joyce.org/performances/garth-fagan-dance-f2nq
+  ticket_url: ''
+  description_snippet: The Rochester-based Garth Fagan Dance comes back to The Joyce Theater for its 55th
+    season with its signature fusion of modern, post-modern, Afro-Caribbean, and ballet influences.
+  content_hash: 1d25cfb7cb6b03b2
+  sources:
+  - source_id: joyce
+    url: https://www.joyce.org/performances/garth-fagan-dance-f2nq
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.joyce.org/performances/garth-fagan-dance-f2nq
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T14:02:05.797676-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T14:02:05.797669-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,45 @@
+id: 2026-09-19-queens-theatre-kingdom-choice-awards-2026
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Kingdom Choice Awards 2026
+  start: '2026-09-19T19:00:00-04:00'
+  additional_dates: []
+  venue: Queens Theatre
+  address: 14 United Nations Avenue South, Corona
+  region: queens
+  is_free: false
+  price_note: ''
+  info_url: https://queenstheatre.org/events/kingdom-choice-awards-2026-dqr9
+  ticket_url: ''
+  description_snippet: The 2026 Kingdom Choice Awards is back and bigger than ever! As the nation’s official
+    award show for Christian Hip Hop and Urban Kingdom music, the KCA celebrates the artists, creatives,
+    and visionari…
+  content_hash: c3c2110f1a7d62ab
+  sources:
+  - source_id: queens_theatre
+    url: https://queenstheatre.org/events/kingdom-choice-awards-2026-dqr9
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://queenstheatre.org/events/kingdom-choice-awards-2026-dqr9
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T14:01:43.728271-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T14:01:43.728264-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

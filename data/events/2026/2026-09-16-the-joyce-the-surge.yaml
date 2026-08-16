@@ -1,0 +1,45 @@
+id: 2026-09-16-the-joyce-the-surge
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: The Surge
+  start: '2026-09-16T19:30:00-04:00'
+  additional_dates: []
+  venue: The Joyce Theater
+  address: The Joyce Theater
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.joyce.org/performances/the-surge-b1jd
+  ticket_url: ''
+  description_snippet: Tony Award-winning choreographer and director Sonya Tayeh draws on Sinéad O’Connor’s
+    uncompromising voice and spirit to create a powerful meditation on voice, protest, and the courage
+    to live a life t…
+  content_hash: b0b051e2dbc67bca
+  sources:
+  - source_id: joyce
+    url: https://www.joyce.org/performances/the-surge-b1jd
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.joyce.org/performances/the-surge-b1jd
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T14:01:41.777888-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T14:01:41.777881-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

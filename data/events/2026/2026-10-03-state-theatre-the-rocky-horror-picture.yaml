@@ -44,11 +44,19 @@ validation:
     price_known: true
     in_metro: true
     classified: false
-  link_checks: []
+  link_checks:
+  - url: https://my.stnj.org/25133/25134
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T14:01:51.410792-04:00'
+  - url: https://www.stnj.org/events/detail/rocky-horror-picture-show-2026
+    ok: false
+    status_code: 406
+    checked_at: '2026-08-16T14:01:52.412703-04:00'
   problems:
-  - links not yet verified (offline run)
+  - 'dead links: https://www.stnj.org/events/detail/rocky-horror-picture-show-2026'
   - classified not-relevant
-  validated_at: '2026-08-16T13:56:33.173331-04:00'
+  validated_at: '2026-08-16T14:01:51.410786-04:00'
 curated:
   forms: []
   editor_note: ''

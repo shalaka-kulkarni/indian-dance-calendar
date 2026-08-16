@@ -1,0 +1,45 @@
+id: 2026-10-29-queens-theatre-eva-aylln-with-daniela
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Eva Ayllón with Daniela Darcourt
+  start: '2026-10-29T20:00:00-04:00'
+  additional_dates: []
+  venue: Queens Theatre
+  address: 14 United Nations Avenue South, Corona
+  region: queens
+  is_free: false
+  price_note: ''
+  info_url: https://queenstheatre.org/events/eva-ayllon-with-daniela-darcourt-shn2
+  ticket_url: ''
+  description_snippet: Eva Ayllón carries her homeland of Peru in her heart and her spectacular songs.
+    Known as the Queen of Landó, she’s been a legend of Afro Peruvian music for over 50 years. In 2019,
+    she won the much-des…
+  content_hash: 3f173d211d108381
+  sources:
+  - source_id: queens_theatre
+    url: https://queenstheatre.org/events/eva-ayllon-with-daniela-darcourt-shn2
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://queenstheatre.org/events/eva-ayllon-with-daniela-darcourt-shn2
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T14:02:04.223724-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T14:02:04.223717-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

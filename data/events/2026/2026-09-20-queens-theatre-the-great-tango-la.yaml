@@ -1,0 +1,45 @@
+id: 2026-09-20-queens-theatre-the-great-tango-la
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: The Great Tango — La Pasión del Tango en Vivo
+  start: '2026-09-20T18:00:00-04:00'
+  additional_dates: []
+  venue: Queens Theatre
+  address: 14 United Nations Avenue South, Corona
+  region: queens
+  is_free: false
+  price_note: ''
+  info_url: https://queenstheatre.org/events/the-great-tango-6ftb
+  ticket_url: ''
+  description_snippet: The Great Tango – La Pasión del Tango en Vivo Disfrute de una noche inolvidable
+    dedicada a la pasión, la elegancia y la tradición del tango argentino y uruguayo con The Great Tango,
+    un espectáculo en …
+  content_hash: 47f469c984ae868b
+  sources:
+  - source_id: queens_theatre
+    url: https://queenstheatre.org/events/the-great-tango-6ftb
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://queenstheatre.org/events/the-great-tango-6ftb
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T14:01:46.839452-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T14:01:46.839445-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

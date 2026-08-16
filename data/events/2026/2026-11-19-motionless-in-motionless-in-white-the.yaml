@@ -1,0 +1,45 @@
+id: 2026-11-19-motionless-in-motionless-in-white-the
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: 'Motionless in White: The Sweat and Blood Tour Tickets'
+  start: '2026-11-19T18:30:00-05:00'
+  end: '2026-11-19T19:30:00-05:00'
+  additional_dates: []
+  venue: 'Motionless in White: The Sweat and Blood Tour Tickets'
+  address: 'Motionless in White: The Sweat and Blood Tour Tickets'
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.prucenter.com/events/motionless-in-white
+  ticket_url: ''
+  description_snippet: Motionless in White brings The Sweat and Blood Tour to Prudential Center on Thursday,
+    November 19. Get tickets to one unforgettable night!
+  content_hash: 11d11d77b038a98a
+  sources:
+  - source_id: prudential_center
+    url: https://www.prucenter.com/events/motionless-in-white
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.prucenter.com/events/motionless-in-white
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T14:02:07.527158-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T14:02:07.527151-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

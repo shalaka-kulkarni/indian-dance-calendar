@@ -1,0 +1,44 @@
+id: 2026-09-04-matchroom-boxing-matchroom-boxing
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Matchroom Boxing
+  start: '2026-09-04T18:15:00-04:00'
+  end: '2026-09-04T19:00:00-04:00'
+  additional_dates: []
+  venue: Matchroom Boxing
+  address: Matchroom Boxing
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.prucenter.com/events/matchroom-boxing
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: d9ae7b0d92d4b361
+  sources:
+  - source_id: prudential_center
+    url: https://www.prucenter.com/events/matchroom-boxing
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.prucenter.com/events/matchroom-boxing
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T14:01:40.141802-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T14:01:40.141795-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,45 @@
+id: 2026-10-17-queens-theatre-allan-harris-the-poetry
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: Allan Harris — The Poetry of Jazz
+  start: '2026-10-17T19:00:00-04:00'
+  additional_dates: []
+  venue: Queens Theatre
+  address: Queens Theatre
+  region: queens
+  is_free: false
+  price_note: ''
+  info_url: https://queenstheatre.org/events/allan-harris-l3lg
+  ticket_url: ''
+  description_snippet: Brooklyn-born and Harlem-based, vocalist/guitarist/composer Allan Harris has earned
+    his place as one of the most exceptional jazz singers of his generation. Described by the Miami Herald
+    as having “th…
+  content_hash: e905efcc146089df
+  sources:
+  - source_id: queens_theatre
+    url: https://queenstheatre.org/events/allan-harris-l3lg
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://queenstheatre.org/events/allan-harris-l3lg
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T14:02:01.614997-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T14:02:01.614990-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

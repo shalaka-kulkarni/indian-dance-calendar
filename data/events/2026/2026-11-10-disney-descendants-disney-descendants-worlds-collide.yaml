@@ -1,0 +1,45 @@
+id: 2026-11-10-disney-descendants-disney-descendants-worlds-collide
+status: needs_attention
+needs_recheck: false
+scraped:
+  title: 'Disney Descendants: Worlds Collide Concert Tour Tickets'
+  start: '2026-11-10T19:00:00-05:00'
+  end: '2026-11-11T20:00:00-05:00'
+  additional_dates: []
+  venue: 'Disney Descendants: Worlds Collide Concert Tour Tickets'
+  address: 'Disney Descendants: Worlds Collide Concert Tour Tickets'
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.prucenter.com/events/disney-worlds-collide-concert-tour
+  ticket_url: ''
+  description_snippet: Disney Descendants, Zombies & Camp Rock join forces for the Worlds Collide Concert
+    Tour! Get tickets to see the action live on November 10 at Prudential!
+  content_hash: 65805f05405e0426
+  sources:
+  - source_id: prudential_center
+    url: https://www.prucenter.com/events/disney-worlds-collide-concert-tour
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.prucenter.com/events/disney-worlds-collide-concert-tour
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T14:02:06.192803-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T14:02:06.192794-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}
