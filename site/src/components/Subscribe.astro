@@ -1,0 +1,35 @@
+---
+// Email signup. Posts straight to Buttondown, which owns the list, handles
+// confirmation and unsubscribes, and reports subscriber counts and open rates.
+// Renders nothing until a username is configured, so the site never shows a
+// form that quietly discards addresses.
+import config from '../config.json';
+
+const { variant = 'block' } = Astro.props;
+const user = config.buttondownUsername;
+---
+{user && (
+  <form
+    class={`subscribe subscribe-${variant}`}
+    action={`https://buttondown.com/api/emails/embed-subscribe/${user}`}
+    method="post"
+    target="popupwindow"
+    onsubmit={`window.open('https://buttondown.com/${user}', 'popupwindow')`}
+  >
+    <label class="sub-label" for={`bd-email-${variant}`}>
+      Monthly email — every new event, once a month
+    </label>
+    <div class="sub-row">
+      <input
+        id={`bd-email-${variant}`}
+        type="email"
+        name="email"
+        required
+        placeholder="you@example.com"
+        autocomplete="email"
+      />
+      <button class="btn-poster btn-ticket" type="submit">Subscribe</button>
+    </div>
+    <p class="sub-fine">One email a month. Unsubscribe any time.</p>
+  </form>
+)}

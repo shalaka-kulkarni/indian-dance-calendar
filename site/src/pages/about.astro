@@ -1,6 +1,7 @@
 ---
 import '../styles/tokens.css';
 import data from '../data/events.json';
+import Subscribe from '../components/Subscribe.astro';
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const feedHttps = new URL(`${base}/calendar.ics`, Astro.site ?? 'https://shalaka-kulkarni.github.io').href;
@@ -50,8 +51,15 @@ const feedWebcal = feedHttps.replace(/^https?:/, 'webcal:');
         The venue's own page is always the authority on dates, prices and tickets.
       </p>
 
-      <h2>Subscribe</h2>
-      <p>Put every listed event straight into the calendar app you already use.</p>
+      <h2>Get it by email</h2>
+      <p>
+        One email a month listing every event added to the calendar since the
+        last one. Nothing else, and you can unsubscribe from any of them.
+      </p>
+      <Subscribe variant="about" />
+
+      <h2>Or add it to your calendar app</h2>
+      <p>Put every listed event straight into the calendar you already use.</p>
       <p class="cta-row">
         <a class="btn-poster btn-sub" href={feedWebcal}>＋ Subscribe — auto-updates</a>
       </p>

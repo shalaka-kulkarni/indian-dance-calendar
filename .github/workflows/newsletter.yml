@@ -1,0 +1,55 @@
+# registered: skyd scheduled job
+name: newsletter
+# Monthly email: everything added to the calendar since the last issue.
+# Sends automatically when BUTTONDOWN_API_KEY is set; otherwise it just writes
+# the draft to the run's artifacts so nothing is lost.
+
+on:
+  schedule:
+    - cron: "0 13 1 * *" # 1st of the month, ~8-9am ET
+  workflow_dispatch:
+    inputs:
+      send:
+        description: "Send it (otherwise create a draft only)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: event-data
+  cancel-in-progress: false
+
+jobs:
+  newsletter:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - name: Install
+        run: uv venv && uv pip install -e .
+      - name: Build the issue
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.send }}" = "true" ]; then
+            uv run python -m newsletter.draft --send
+          else
+            uv run python -m newsletter.draft
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: newsletter-draft
+          path: out/newsletter-*.md
+          if-no-files-found: warn
+      - name: Record what was sent
+        run: |
+          git config user.name "skyd-newsletter"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/newsletter_state.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "nothing to record"; else
+            git commit -m "newsletter: record issue sent"
+            git push
+          fi
