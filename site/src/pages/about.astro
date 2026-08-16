@@ -1,5 +1,6 @@
 ---
 import data from '../data/events.json';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const bySources = data.sources;
 const mainstream = bySources.filter((s) => s.circuit === 'mainstream');
 const diaspora = bySources.filter((s) => s.circuit === 'diaspora');
@@ -14,7 +15,7 @@ const platform = bySources.filter((s) => s.circuit === 'platform');
   </head>
   <body>
     <main>
-      <p><a href="/">← Back to the calendar</a></p>
+      <p><a href={`${base}/`}>← Back to the calendar</a></p>
       <h1>About this calendar</h1>
       <p>
         Indian dance in New York is listed in two worlds that don't talk to each
@@ -47,7 +48,7 @@ const platform = bySources.filter((s) => s.circuit === 'platform');
       <h2>Subscribe</h2>
       <p>
         Add the whole calendar to Google or Apple Calendar with the
-        <a href="/calendar.ics">calendar feed</a>. A short weekly email digest is
+        <a href={`${base}/calendar.ics`}>calendar feed</a>. A short weekly email digest is
         coming; subscription details will appear here.
       </p>
       <p class="fine">
