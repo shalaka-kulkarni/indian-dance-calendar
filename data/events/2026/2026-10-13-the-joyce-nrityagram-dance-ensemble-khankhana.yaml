@@ -1,5 +1,6 @@
 id: 2026-10-13-the-joyce-nrityagram-dance-ensemble-khankhana
 status: published
+was_published: false
 needs_recheck: false
 scraped:
   title: 'Nrityagram Dance Ensemble: KHANKHANA'
@@ -12,11 +13,11 @@ scraped:
   price_min: 17.0
   price_max: 72.0
   is_free: false
-  price_note: ''
+  price_note: $17–$72 incl. fees
   info_url: https://www.joyce.org/performances/nrityagram-dance-ensemble-clk1
   ticket_url: ''
-  description_snippet: Odissi with live music from the one fully professional tourable Indian classical
-    ensemble. Six-day run; Curtain Chat Oct 14. Curtain times to be confirmed against the Joyce listing.
+  description_snippet: India's foremost Odissi company in KHAṄKHAṆĀ — the sound of dancing feet, choreographed
+    by Surupa Sen and performed to an original live score.
   content_hash: 84788b95c76136b9
   sources:
   - source_id: manual

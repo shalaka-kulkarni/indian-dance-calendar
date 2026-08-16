@@ -5,10 +5,14 @@ events get re-checked on every healthcheck run:
   1. links_live       — info_url (and ticket_url when present) answer with < 400
   2. has_info_url     — an information page exists
   3. date_valid       — parseable date, in the future (or currently running)
-  4. price_known      — a price range, a free flag, or verbatim price text
-  5. in_metro         — venue/address resolves to the NYC-metro region
-  6. classified       — Claude marked it relevant with medium+ confidence
+  4. in_metro         — venue/address resolves to the NYC-metro region
+  5. classified       — Claude marked it relevant with medium+ confidence
                         (or the source is assume_relevant with any classification)
+
+`price_known` is recorded but is NOT blocking: plenty of real listings (free
+library lectures, programmes announced before tickets go on sale) never state a
+price, and the site renders those honestly as "Price TBA" with a live link to
+the venue. Withholding a real event over a missing price serves nobody.
 
 A failure never deletes an event — it moves it to needs_attention with the
 problem list attached, and the healthcheck surfaces the queue as a report.
@@ -33,6 +37,9 @@ from pipeline.scrapers.base import log
 
 NY_TZ = ZoneInfo("America/New_York")
 LINK_TIMEOUT = 20.0
+
+# Checks that gate publication. price_known is deliberately absent — see module docstring.
+BLOCKING_CHECKS = ("has_info_url", "links_live", "date_valid", "in_metro", "classified")
 
 
 def check_link(client: httpx.Client, url: str) -> LinkCheck:
@@ -110,7 +117,7 @@ def validate_event(
             problems.append("relevance confidence too low for auto-publish")
 
     return Validation(
-        passed=all(checks.values()),
+        passed=all(checks[name] for name in BLOCKING_CHECKS),
         checks=checks,
         link_checks=link_checks,
         problems=problems,

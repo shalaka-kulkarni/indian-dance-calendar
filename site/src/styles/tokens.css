@@ -1,0 +1,149 @@
+/* HOARDING — flat, saturated, hard-edged. Nothing translucent, nothing blurred.
+   A form colour is always a FILL, never a foreground, so no colour pairing can
+   fail contrast: every coloured block sets background and its matching ink. */
+
+:root {
+  /* ---------- light: poster paper ---------- */
+  --bg:           #fff9ec;
+  --bg-alt:       #f3e9d6;
+  --surface:      #ffffff;
+  --surface-sunk: #f7efe0;
+
+  --ink:          #17130e;
+  --ink-muted:    #5a4f44;
+  --ink-disabled: #8d8275;
+  --ink-on-block: #fff9ec;
+
+  --rule:         #17130e;
+  --rule-soft:    #d9cdba;
+  --offset:       #17130e;
+
+  /* The filter rail and archive bands stay a dark bar in BOTH themes, so they
+     need their own pair — --ink inverts at night and would flip them to cream. */
+  --rail-bg:      #17130e;
+  --rail-ink:     #fff9ec;
+
+  --turmeric: #f5c400;  --turmeric-ink: #14110d;
+  --marigold: #e58a00;  --marigold-ink: #17130e;
+  --kumkum:   #c4162a;  --kumkum-ink:   #fff9ec;
+  --peacock:  #007c7a;  --peacock-ink:  #fff9ec;
+  --indigo:   #2947c4;  --indigo-ink:   #fff9ec;
+  --leaf:     #0e7a45;  --leaf-ink:     #fff9ec;
+
+  --cta:       #c4162a; --cta-ink: #fff9ec;
+  --cta-hover: #9e0f20;
+  --link:      #b3121f;
+  --focus:     #2947c4;
+
+  --form-bharatanatyam: #c4162a;       --form-bharatanatyam-ink: #fff9ec;
+  --form-kathak: #e58a00;              --form-kathak-ink: #17130e;
+  --form-odissi: #007c7a;              --form-odissi-ink: #fff9ec;
+  --form-kuchipudi: #2947c4;           --form-kuchipudi-ink: #fff9ec;
+  --form-mohiniyattam: #ebd8a4;        --form-mohiniyattam-ink: #17130e;
+  --form-manipuri: #f0709a;            --form-manipuri-ink: #17130e;
+  --form-sattriya: #e85d04;            --form-sattriya-ink: #17130e;
+  --form-kathakali: #0e7a45;           --form-kathakali-ink: #fff9ec;
+  --form-folk: #f5c400;                --form-folk-ink: #17130e;
+  --form-bollywood: #d6006e;           --form-bollywood-ink: #fff9ec;
+  --form-fusion: #6d28d9;              --form-fusion-ink: #fff9ec;
+  --form-contemporary_indian: #37424e; --form-contemporary_indian-ink: #fff9ec;
+  --form-other: #55606b;               --form-other-ink: #fff9ec;
+
+  /* type */
+  --font-display: Impact, Haettenschweiler, 'Franklin Gothic Heavy', 'Arial Black',
+                  'Helvetica Neue', Helvetica, sans-serif;
+  --font-condensed: 'Arial Narrow', 'Helvetica Neue Condensed', 'Liberation Sans Narrow',
+                    'Roboto Condensed', system-ui, sans-serif;
+  --font-ui: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  --t-hero: clamp(2.1rem, 7vw, 5rem);
+  --t-band: clamp(1.4rem, 4vw, 2.4rem);
+  --t-day:  clamp(1.7rem, 4vw, 2.3rem);
+  --t-title: clamp(1.08rem, 1rem + 0.55vw, 1.4rem);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:           #141014;
+    --bg-alt:       #1a151c;
+    --surface:      #1f1a22;
+    --surface-sunk: #171319;
+
+    --ink:          #fbf1df;
+    --ink-muted:    #b6aa99;
+    --ink-disabled: #7d7365;
+    --ink-on-block: #14110d;
+
+    --rule:         #fbf1df;
+    --rule-soft:    #3a3340;
+    --offset:       #000000;
+
+    --rail-bg:      #241d26;
+    --rail-ink:     #fbf1df;
+
+    --turmeric: #f7ce1a;  --turmeric-ink: #14110d;
+    --marigold: #f5a310;  --marigold-ink: #14110d;
+    --kumkum:   #e63946;  --kumkum-ink:   #14110d;
+    --peacock:  #00a39f;  --peacock-ink:  #14110d;
+    --indigo:   #5c7bf0;  --indigo-ink:   #14110d;
+    --leaf:     #18a55e;  --leaf-ink:     #14110d;
+
+    --cta:       #e63946; --cta-ink: #14110d;
+    --cta-hover: #ff5a66;
+    --link:      #f5a310;
+    --focus:     #f7ce1a;
+
+    --form-bharatanatyam: #e63946;       --form-bharatanatyam-ink: #14110d;
+    --form-kathak: #f5a310;              --form-kathak-ink: #14110d;
+    --form-odissi: #00a39f;              --form-odissi-ink: #14110d;
+    --form-kuchipudi: #5c7bf0;           --form-kuchipudi-ink: #14110d;
+    --form-mohiniyattam: #ebd8a4;        --form-mohiniyattam-ink: #14110d;
+    --form-manipuri: #f98aae;            --form-manipuri-ink: #14110d;
+    --form-sattriya: #fa7317;            --form-sattriya-ink: #14110d;
+    --form-kathakali: #18a55e;           --form-kathakali-ink: #14110d;
+    --form-folk: #f7ce1a;                --form-folk-ink: #14110d;
+    --form-bollywood: #f5308f;           --form-bollywood-ink: #14110d;
+    --form-fusion: #a176ff;              --form-fusion-ink: #14110d;
+    --form-contemporary_indian: #7e8c9c; --form-contemporary_indian-ink: #14110d;
+    --form-other: #94a0ad;               --form-other-ink: #14110d;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 400 1rem/1.55 var(--font-ui);
+  -webkit-text-size-adjust: 100%;
+}
+
+:where(a, button):focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+
+.wrap { max-width: 1180px; margin: 0 auto; padding: 0 clamp(1rem, 3vw, 2rem); }
+
+/* poster button — hard offset plate, snaps on press */
+.btn-poster {
+  display: inline-flex; align-items: center; justify-content: center; gap: .4rem;
+  font: 900 .85rem/1 var(--font-display);
+  letter-spacing: .05em; text-transform: uppercase;
+  padding: .68rem 1rem;
+  border: 3px solid var(--rule); border-radius: 0;
+  text-decoration: none;
+  background: var(--surface); color: var(--ink);
+  box-shadow: 4px 4px 0 0 var(--offset);
+  cursor: pointer;
+  transition: transform .1s steps(2), box-shadow .1s steps(2);
+}
+.btn-poster:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 0 var(--offset); }
+.btn-poster:active { transform: translate(4px, 4px); box-shadow: 0 0 0 0 var(--offset); }
+.btn-ticket { background: var(--cta); color: var(--cta-ink); border-color: var(--rule); }
+.btn-ticket::after { content: "→"; }
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-poster, .btn-poster:hover, .btn-poster:active { transition: none; transform: none; }
+}

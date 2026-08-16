@@ -1,0 +1,41 @@
+id: 2026-11-07-asia-society-diwali-lights-up-asia
+status: needs_attention
+was_published: false
+needs_recheck: true
+scraped:
+  title: 'Diwali: Lights Up Asia Society 2026'
+  start: '2026-11-07T13:00:00-05:00'
+  end: '2026-11-07T16:00:00-05:00'
+  additional_dates: []
+  venue: Asia Society New York
+  address: 725 Park Ave, New York, NY
+  region: manhattan
+  price_min: 20.0
+  price_max: 25.0
+  is_free: false
+  price_note: Members $20, non-members $25
+  info_url: https://asiasociety.org/new-york/events/diwali-lights-asia-society-2026
+  ticket_url: ''
+  description_snippet: Family Diwali celebration with Indian dance and music performances in the Visitor
+    Center and Auditorium, plus storytelling and craft activities.
+  content_hash: d769371848966f68
+  sources:
+  - source_id: asia_society
+    url: https://asiasociety.org/new-york/events/diwali-lights-asia-society-2026
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+ai:
+  relevant: true
+  kind: festival
+  forms:
+  - folk
+  presenter_type: mixed
+  confidence: high
+  reasoning: Diwali festival programme at Asia Society including Indian dance performances.
+  model: claude-fable-5
+  classified_at: '2026-08-16'
+curated:
+  forms:
+  - folk
+  editor_note: ''
+  overrides: {}

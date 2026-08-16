@@ -28,8 +28,8 @@ export const REGION_LABELS = {
 };
 
 export const PRESENTER_LABELS = {
-  professional_company: 'Professional company',
-  academy_student: 'Academy / student',
+  professional_company: 'Professional',
+  academy_student: 'Academy',
   mixed: 'Mixed bill',
   unknown: '',
 };
@@ -37,7 +37,7 @@ export const PRESENTER_LABELS = {
 export const KIND_LABELS = {
   performance: '',
   festival: 'Festival',
-  talk: 'Talk / lecture',
+  talk: 'Talk',
   workshop: 'Workshop',
   other: '',
 };
