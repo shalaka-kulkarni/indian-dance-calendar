@@ -1,5 +1,6 @@
 id: 2026-11-14--pantos-cinderella
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: PANTO’s Cinderella
@@ -48,11 +49,11 @@ validation:
   - url: https://www.sopacnow.org/events/panto-cinderella-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:02:06.704973-04:00'
+    checked_at: '2026-08-16T15:23:30.119052-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T14:02:06.704965-04:00'
+  validated_at: '2026-08-16T15:23:30.119044-04:00'
 curated:
   forms: []
   editor_note: ''

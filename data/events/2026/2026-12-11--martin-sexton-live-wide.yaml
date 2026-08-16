@@ -1,5 +1,6 @@
 id: 2026-12-11--martin-sexton-live-wide
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: Martin Sexton Live Wide Open Tour
@@ -46,11 +47,11 @@ validation:
   - url: https://www.sopacnow.org/events/martin-sexton-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:02:08.456657-04:00'
+    checked_at: '2026-08-16T15:23:33.978312-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T14:02:08.456651-04:00'
+  validated_at: '2026-08-16T15:23:33.978304-04:00'
 curated:
   forms: []
   editor_note: ''

@@ -1,5 +1,6 @@
 id: 2026-10-30-queens-theatre-our-town-by-thornton
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: Our Town — by Thornton Wilder
@@ -35,17 +36,20 @@ validation:
   passed: false
   checks:
     has_info_url: true
-    links_live: false
+    links_live: true
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks: []
+  link_checks:
+  - url: https://queenstheatre.org/events/our-town-51mn
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T15:23:27.959320-04:00'
   problems:
-  - links not yet verified (offline run)
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T14:03:28.678016-04:00'
+  validated_at: '2026-08-16T15:23:27.959312-04:00'
 curated:
   forms: []
   editor_note: ''

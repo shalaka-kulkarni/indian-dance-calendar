@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-16T15:22:24.884003-04:00",
+ "generatedAt": "2026-08-16T15:23:38.058161-04:00",
  "events": [
   {
    "id": "2026-09-19-kaye-playhouse-erasing-borders-festival-of",
@@ -30,6 +30,27 @@
    "editorNote": ""
   },
   {
+   "id": "2026-09-24-bruno-walter-5th-annual-dr-sunil",
+   "title": "5th Annual Dr. Sunil Kothari Lecture: Rama Vaidyanathan",
+   "start": "2026-09-24T18:00:00-04:00",
+   "end": null,
+   "additionalDates": [],
+   "venue": "Bruno Walter Auditorium, NYPL for the Performing Arts",
+   "address": "111 Amsterdam Ave, New York, NY",
+   "region": "manhattan",
+   "price": null,
+   "isFree": false,
+   "infoUrl": "https://iaac.us/erasing-borders-dance-festival-2026/",
+   "ticketUrl": null,
+   "description": "Fifth annual lecture honouring dance scholar Dr Sunil Kothari: Rama Vaidyanathan on \"The Balanced Dance as a Journey Towards Inner Stillness and Equanimity\", presented with the NYPL Jerome Robbins Dance Division.",
+   "forms": [
+    "bharatanatyam"
+   ],
+   "kind": "talk",
+   "presenterType": "professional_company",
+   "editorNote": ""
+  },
+  {
    "id": "2026-10-13-the-joyce-nrityagram-dance-ensemble-khankhana",
    "title": "Nrityagram Dance Ensemble: KHANKHANA",
    "start": "2026-10-13T19:30:00-04:00",
@@ -49,6 +70,27 @@
    "kind": "performance",
    "presenterType": "professional_company",
    "editorNote": ""
+  },
+  {
+   "id": "2026-11-14-gibney-agnes-carved-in-time-mesma",
+   "title": "Carved in Time \u2014 Mesma Belsare & Sonali Skandan",
+   "start": "2026-11-14T19:00:00-05:00",
+   "end": null,
+   "additionalDates": [],
+   "venue": "Gibney Agnes Varis Performing Arts Center",
+   "address": "53A Chambers St, New York, NY",
+   "region": "manhattan",
+   "price": null,
+   "isFree": false,
+   "infoUrl": "https://gibneydance.org/",
+   "ticketUrl": null,
+   "description": "Evening-length work by Mesma Belsare and Sonali Skandan.",
+   "forms": [
+    "bharatanatyam"
+   ],
+   "kind": "performance",
+   "presenterType": "professional_company",
+   "editorNote": ""
   }
  ],
  "pastEvents": [],
@@ -60,7 +102,7 @@
    },
    {
     "value": "bharatanatyam",
-    "count": 1
+    "count": 3
    },
    {
     "value": "odissi",
@@ -110,7 +152,7 @@
   "regions": [
    {
     "value": "manhattan",
-    "count": 2
+    "count": 4
    },
    {
     "value": "brooklyn",
@@ -144,7 +186,7 @@
   "presenterTypes": [
    {
     "value": "professional_company",
-    "count": 2
+    "count": 4
    },
    {
     "value": "academy_student",
@@ -158,7 +200,7 @@
   "kinds": [
    {
     "value": "performance",
-    "count": 1
+    "count": 2
    },
    {
     "value": "festival",
@@ -166,7 +208,7 @@
    },
    {
     "value": "talk",
-    "count": 0
+    "count": 1
    },
    {
     "value": "workshop",

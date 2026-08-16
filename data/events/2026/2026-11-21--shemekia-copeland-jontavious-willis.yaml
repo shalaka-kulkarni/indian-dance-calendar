@@ -1,5 +1,6 @@
 id: 2026-11-21--shemekia-copeland-jontavious-willis
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: Shemekia Copeland & Jontavious Willis
@@ -46,11 +47,11 @@ validation:
   - url: https://www.sopacnow.org/events/shemekia-copeland-jontavious-willis/
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:02:07.692884-04:00'
+    checked_at: '2026-08-16T15:23:31.986302-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T14:02:07.692877-04:00'
+  validated_at: '2026-08-16T15:23:31.986294-04:00'
 curated:
   forms: []
   editor_note: ''

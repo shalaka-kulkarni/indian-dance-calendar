@@ -1,5 +1,6 @@
 id: 2026-09-19-queens-theatre-kingdom-choice-awards-2026
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: Kingdom Choice Awards 2026
@@ -35,17 +36,20 @@ validation:
   passed: false
   checks:
     has_info_url: true
-    links_live: false
+    links_live: true
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks: []
+  link_checks:
+  - url: https://queenstheatre.org/events/kingdom-choice-awards-2026-dqr9
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T15:23:01.620961-04:00'
   problems:
-  - links not yet verified (offline run)
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T14:03:28.565790-04:00'
+  validated_at: '2026-08-16T15:23:01.620953-04:00'
 curated:
   forms: []
   editor_note: ''

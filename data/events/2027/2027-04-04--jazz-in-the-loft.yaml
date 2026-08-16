@@ -1,5 +1,6 @@
 id: 2027-04-04--jazz-in-the-loft
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: Jazz in the LOFT
@@ -45,11 +46,11 @@ validation:
   - url: https://www.sopacnow.org/events/jitl-apr-2027/
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:02:09.055269-04:00'
+    checked_at: '2026-08-16T15:23:36.764886-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T14:02:09.055263-04:00'
+  validated_at: '2026-08-16T15:23:36.764878-04:00'
 curated:
   forms: []
   editor_note: ''

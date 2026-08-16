@@ -1,5 +1,6 @@
 id: 2026-10-03-state-theatre-the-rocky-horror-picture
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: The Rocky Horror Picture Show with Barry Bostwick (The Original Brad Majors)
@@ -48,15 +49,15 @@ validation:
   - url: https://my.stnj.org/25133/25134
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:01:51.410792-04:00'
+    checked_at: '2026-08-16T15:23:10.872737-04:00'
   - url: https://www.stnj.org/events/detail/rocky-horror-picture-show-2026
     ok: false
     status_code: 406
-    checked_at: '2026-08-16T14:01:52.412703-04:00'
+    checked_at: '2026-08-16T15:23:12.305457-04:00'
   problems:
   - 'dead links: https://www.stnj.org/events/detail/rocky-horror-picture-show-2026'
   - classified not-relevant
-  validated_at: '2026-08-16T14:01:51.410786-04:00'
+  validated_at: '2026-08-16T15:23:10.872730-04:00'
 curated:
   forms: []
   editor_note: ''

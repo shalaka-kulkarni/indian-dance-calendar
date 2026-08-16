@@ -1,5 +1,6 @@
 id: 2026-08-21-flte-champagne-desi-indian-amp-south
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: Desi, Indian &amp; South Asian Singles - Speed Dating
@@ -44,10 +45,10 @@ validation:
   - url: https://allevents.in/new-york/desi-indian-and-south-asian-singles-speed-dating/100001995609973150
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:01:38.292228-04:00'
+    checked_at: '2026-08-16T15:22:54.771280-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-16T14:01:38.292221-04:00'
+  validated_at: '2026-08-16T15:22:54.771272-04:00'
 curated:
   forms: []
   editor_note: ''

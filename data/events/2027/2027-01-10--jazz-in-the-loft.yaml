@@ -1,5 +1,6 @@
 id: 2027-01-10--jazz-in-the-loft
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: Jazz in the LOFT
@@ -45,11 +46,11 @@ validation:
   - url: https://www.sopacnow.org/events/jitl-jan-10-2027/
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:02:08.706493-04:00'
+    checked_at: '2026-08-16T15:23:35.054352-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T14:02:08.706485-04:00'
+  validated_at: '2026-08-16T15:23:35.054346-04:00'
 curated:
   forms: []
   editor_note: ''

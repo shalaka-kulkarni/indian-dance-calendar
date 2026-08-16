@@ -1,5 +1,6 @@
 id: 2026-09-05-skyport-marina-sept-5-nyc-bollywood
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: 'Sept 5: Nyc Bollywood Boat Party At Skyport Marina'
@@ -44,10 +45,10 @@ validation:
   - url: https://events.sulekha.com/sept-5-nyc-bollywood-boat-party-at-skyport-marina_event-in_new-york-ny_401071
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:01:40.401856-04:00'
+    checked_at: '2026-08-16T15:22:56.208389-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-16T14:01:40.401849-04:00'
+  validated_at: '2026-08-16T15:22:56.208382-04:00'
 curated:
   forms: []
   editor_note: ''

@@ -1,5 +1,6 @@
 id: 2026-10-29-queens-theatre-eva-aylln-with-daniela
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: Eva Ayllón with Daniela Darcourt
@@ -35,17 +36,20 @@ validation:
   passed: false
   checks:
     has_info_url: true
-    links_live: false
+    links_live: true
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks: []
+  link_checks:
+  - url: https://queenstheatre.org/events/eva-ayllon-with-daniela-darcourt-shn2
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T15:23:27.449655-04:00'
   problems:
-  - links not yet verified (offline run)
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T14:03:28.672363-04:00'
+  validated_at: '2026-08-16T15:23:27.449648-04:00'
 curated:
   forms: []
   editor_note: ''

@@ -1,5 +1,6 @@
 id: 2026-09-16--the-unwitting-magician-by
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: The Unwitting Magician By Jeremy Dobrish
@@ -49,10 +50,10 @@ validation:
   - url: https://www.sopacnow.org/events/the-unwitting-magician-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:01:41.737710-04:00'
+    checked_at: '2026-08-16T15:22:58.361833-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-16T14:01:41.737703-04:00'
+  validated_at: '2026-08-16T15:22:58.361823-04:00'
 curated:
   forms: []
   editor_note: ''

@@ -1,6 +1,7 @@
 id: 2026-11-14-gibney-agnes-carved-in-time-mesma
-status: needs_attention
-needs_recheck: true
+status: published
+was_published: true
+needs_recheck: false
 scraped:
   title: Carved in Time — Mesma Belsare & Sonali Skandan
   start: '2026-11-14T19:00:00-05:00'
@@ -31,7 +32,7 @@ ai:
   model: claude-fable-5
   classified_at: '2026-08-16'
 validation:
-  passed: false
+  passed: true
   checks:
     has_info_url: true
     links_live: true
@@ -43,10 +44,10 @@ validation:
   - url: https://gibneydance.org/
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:02:06.818591-04:00'
+    checked_at: '2026-08-16T15:23:30.564135-04:00'
   problems:
   - no price information
-  validated_at: '2026-08-16T14:02:06.818585-04:00'
+  validated_at: '2026-08-16T15:23:30.564128-04:00'
 curated:
   forms:
   - bharatanatyam

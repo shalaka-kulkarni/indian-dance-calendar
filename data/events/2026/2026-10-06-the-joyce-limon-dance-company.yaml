@@ -1,5 +1,6 @@
 id: 2026-10-06-the-joyce-limon-dance-company
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: Limon Dance Company
@@ -34,17 +35,20 @@ validation:
   passed: false
   checks:
     has_info_url: true
-    links_live: false
+    links_live: true
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks: []
+  link_checks:
+  - url: https://www.joyce.org/performances/limon-dance-company-ns9f
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T15:23:16.040420-04:00'
   problems:
-  - links not yet verified (offline run)
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T14:03:28.600399-04:00'
+  validated_at: '2026-08-16T15:23:16.040412-04:00'
 curated:
   forms: []
   editor_note: ''

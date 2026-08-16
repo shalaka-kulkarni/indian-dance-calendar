@@ -1,5 +1,6 @@
 id: 2026-10-06-state-theatre-compagnie-herv-koubi
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: Compagnie HERVÉ KOUBI
@@ -50,15 +51,15 @@ validation:
   - url: https://www.stnj.org/events/detail/compagnie-herve-koubi
     ok: false
     status_code: 406
-    checked_at: '2026-08-16T14:01:54.137948-04:00'
+    checked_at: '2026-08-16T15:23:14.196090-04:00'
   - url: https://my.stnj.org/23395/23396
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:01:54.261535-04:00'
+    checked_at: '2026-08-16T15:23:14.356799-04:00'
   problems:
   - 'dead links: https://www.stnj.org/events/detail/compagnie-herve-koubi'
   - classified not-relevant
-  validated_at: '2026-08-16T14:01:54.137942-04:00'
+  validated_at: '2026-08-16T15:23:14.196084-04:00'
 curated:
   forms: []
   editor_note: ''

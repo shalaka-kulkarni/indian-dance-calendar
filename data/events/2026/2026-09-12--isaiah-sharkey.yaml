@@ -1,5 +1,6 @@
 id: 2026-09-12--isaiah-sharkey
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: Isaiah Sharkey
@@ -46,11 +47,11 @@ validation:
   - url: https://www.sopacnow.org/events/isaiah-sharkey-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:01:41.147273-04:00'
+    checked_at: '2026-08-16T15:22:57.348425-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T14:01:41.147264-04:00'
+  validated_at: '2026-08-16T15:22:57.348418-04:00'
 curated:
   forms: []
   editor_note: ''

@@ -1,5 +1,6 @@
 id: 2026-11-20--back-to-back-to
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: 'back to BACK TO BLACK: the Amy Winehouse Celebration Featuring Remember Jones'
@@ -46,11 +47,11 @@ validation:
   - url: https://www.sopacnow.org/events/remember-jones-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:02:07.654400-04:00'
+    checked_at: '2026-08-16T15:23:31.681458-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T14:02:07.654394-04:00'
+  validated_at: '2026-08-16T15:23:31.681451-04:00'
 curated:
   forms: []
   editor_note: ''

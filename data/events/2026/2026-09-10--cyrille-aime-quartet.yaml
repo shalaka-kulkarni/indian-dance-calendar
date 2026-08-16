@@ -1,5 +1,6 @@
 id: 2026-09-10--cyrille-aime-quartet
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: Cyrille Aimée Quartet
@@ -46,11 +47,11 @@ validation:
   - url: https://www.sopacnow.org/events/cyrille-aimee-quartet/
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:01:40.684022-04:00'
+    checked_at: '2026-08-16T15:22:56.525760-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T14:01:40.684015-04:00'
+  validated_at: '2026-08-16T15:22:56.525753-04:00'
 curated:
   forms: []
   editor_note: ''

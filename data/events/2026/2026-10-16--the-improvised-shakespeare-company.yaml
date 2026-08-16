@@ -1,5 +1,6 @@
 id: 2026-10-16--the-improvised-shakespeare-company
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: The Improvised Shakespeare Company
@@ -47,11 +48,11 @@ validation:
   - url: https://www.sopacnow.org/events/the-improvised-shakespeare-company-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:02:01.446082-04:00'
+    checked_at: '2026-08-16T15:23:23.803592-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T14:02:01.446076-04:00'
+  validated_at: '2026-08-16T15:23:23.803583-04:00'
 curated:
   forms: []
   editor_note: ''

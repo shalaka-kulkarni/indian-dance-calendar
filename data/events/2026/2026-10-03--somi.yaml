@@ -1,5 +1,6 @@
 id: 2026-10-03--somi
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: SOMI
@@ -45,11 +46,11 @@ validation:
   - url: https://www.sopacnow.org/events/somi-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:01:51.372965-04:00'
+    checked_at: '2026-08-16T15:23:10.468841-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T14:01:51.372958-04:00'
+  validated_at: '2026-08-16T15:23:10.468835-04:00'
 curated:
   forms: []
   editor_note: ''

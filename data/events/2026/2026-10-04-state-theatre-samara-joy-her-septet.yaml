@@ -1,5 +1,6 @@
 id: 2026-10-04-state-theatre-samara-joy-her-septet
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: Samara Joy & Her Septet
@@ -51,15 +52,15 @@ validation:
   - url: https://www.stnj.org/events/detail/samara-joy-her-septet
     ok: false
     status_code: 406
-    checked_at: '2026-08-16T14:01:52.687448-04:00'
+    checked_at: '2026-08-16T15:23:12.572454-04:00'
   - url: https://my.stnj.org/24901/24902
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:01:52.804040-04:00'
+    checked_at: '2026-08-16T15:23:12.684954-04:00'
   problems:
   - 'dead links: https://www.stnj.org/events/detail/samara-joy-her-septet'
   - classified not-relevant
-  validated_at: '2026-08-16T14:01:52.687441-04:00'
+  validated_at: '2026-08-16T15:23:12.572449-04:00'
 curated:
   forms: []
   editor_note: ''

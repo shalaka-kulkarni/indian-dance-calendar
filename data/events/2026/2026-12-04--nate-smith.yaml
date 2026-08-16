@@ -1,5 +1,6 @@
 id: 2026-12-04--nate-smith
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: Nate Smith
@@ -44,11 +45,11 @@ validation:
   - url: https://www.sopacnow.org/events/nate-smith-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:02:08.341786-04:00'
+    checked_at: '2026-08-16T15:23:33.058041-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T14:02:08.341779-04:00'
+  validated_at: '2026-08-16T15:23:33.058034-04:00'
 curated:
   forms: []
   editor_note: ''

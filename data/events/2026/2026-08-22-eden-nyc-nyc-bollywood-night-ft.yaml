@@ -1,5 +1,6 @@
 id: 2026-08-22-eden-nyc-nyc-bollywood-night-ft
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: Nyc Bollywood Night Ft. Dj Aj + Anahat Band Live At Eden
@@ -44,10 +45,10 @@ validation:
   - url: https://events.sulekha.com/nyc-bollywood-night-ft-dj-aj-at-eden_event-in_new-york-ny_400937
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:01:38.437316-04:00'
+    checked_at: '2026-08-16T15:22:54.945764-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-16T14:01:38.437309-04:00'
+  validated_at: '2026-08-16T15:22:54.945756-04:00'
 curated:
   forms: []
   editor_note: ''

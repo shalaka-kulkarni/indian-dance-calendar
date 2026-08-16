@@ -1,5 +1,6 @@
 id: 2026-11-19-motionless-in-motionless-in-white-the
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: 'Motionless in White: The Sweat and Blood Tour Tickets'
@@ -35,17 +36,20 @@ validation:
   passed: false
   checks:
     has_info_url: true
-    links_live: false
+    links_live: true
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks: []
+  link_checks:
+  - url: https://www.prucenter.com/events/motionless-in-white
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T15:23:31.547065-04:00'
   problems:
-  - links not yet verified (offline run)
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T14:03:28.712432-04:00'
+  validated_at: '2026-08-16T15:23:31.547057-04:00'
 curated:
   forms: []
   editor_note: ''

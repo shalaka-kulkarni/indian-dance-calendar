@@ -1,5 +1,6 @@
 id: 2026-09-19-state-theatre-comedy-night-live-featuring
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: Comedy Night Live Featuring Nico Carney, Yvette Sagan, Josh Mandl, and host Vinnie Brand
@@ -41,7 +42,7 @@ validation:
   passed: false
   checks:
     has_info_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
@@ -50,14 +51,15 @@ validation:
   - url: https://my.stnj.org/25277/25278
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:01:44.859433-04:00'
+    checked_at: '2026-08-16T15:23:02.801762-04:00'
   - url: https://www.stnj.org/events/detail/comedy-night-live-2027
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-16T14:01:46.691089-04:00'
+    ok: false
+    status_code: 406
+    checked_at: '2026-08-16T15:23:04.573656-04:00'
   problems:
+  - 'dead links: https://www.stnj.org/events/detail/comedy-night-live-2027'
   - classified not-relevant
-  validated_at: '2026-08-16T14:01:44.859426-04:00'
+  validated_at: '2026-08-16T15:23:02.801756-04:00'
 curated:
   forms: []
   editor_note: ''

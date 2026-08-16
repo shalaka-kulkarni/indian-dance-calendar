@@ -1,5 +1,6 @@
 id: 2026-09-19--liz-glazer-big-waitlist
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: Liz Glazer Big Waitlist Energy
@@ -46,11 +47,11 @@ validation:
   - url: https://www.sopacnow.org/events/liz-glazer-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:01:42.823832-04:00'
+    checked_at: '2026-08-16T15:23:00.298756-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T14:01:42.823824-04:00'
+  validated_at: '2026-08-16T15:23:00.298743-04:00'
 curated:
   forms: []
   editor_note: ''

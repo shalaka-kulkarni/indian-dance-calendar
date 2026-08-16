@@ -1,5 +1,6 @@
 id: 2026-09-19-lewis-a-ramam-bhaje-a-musical
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: Ramam Bhaje – A Musical Celebration Of Lord Rama
@@ -44,11 +45,11 @@ validation:
   - url: https://events.sulekha.com/ramam-bhaje-a-musical-celebration-of-lord-rama_event-in_albany-ny_401182
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:01:43.456538-04:00'
+    checked_at: '2026-08-16T15:23:01.410494-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-08-16T14:01:43.456531-04:00'
+  validated_at: '2026-08-16T15:23:01.410486-04:00'
 curated:
   forms: []
   editor_note: ''

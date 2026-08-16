@@ -1,6 +1,6 @@
 id: 2026-10-13-the-joyce-nrityagram-dance-ensemble-khankhana
 status: published
-was_published: false
+was_published: true
 needs_recheck: false
 scraped:
   title: 'Nrityagram Dance Ensemble: KHANKHANA'
@@ -51,9 +51,9 @@ validation:
   - url: https://www.joyce.org/performances/nrityagram-dance-ensemble-clk1
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:02:00.676757-04:00'
+    checked_at: '2026-08-16T15:23:22.742024-04:00'
   problems: []
-  validated_at: '2026-08-16T14:02:00.676750-04:00'
+  validated_at: '2026-08-16T15:23:22.742016-04:00'
 curated:
   forms:
   - odissi

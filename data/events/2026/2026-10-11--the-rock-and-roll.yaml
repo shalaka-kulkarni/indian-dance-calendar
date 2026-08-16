@@ -1,5 +1,6 @@
 id: 2026-10-11--the-rock-and-roll
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: The Rock and Roll Playhouse Plays the Music of David Bowie & More
@@ -47,11 +48,11 @@ validation:
   - url: https://www.sopacnow.org/events/rock-and-roll-playhouse-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:01:59.661998-04:00'
+    checked_at: '2026-08-16T15:23:21.356733-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T14:01:59.661991-04:00'
+  validated_at: '2026-08-16T15:23:21.356725-04:00'
 curated:
   forms: []
   editor_note: ''

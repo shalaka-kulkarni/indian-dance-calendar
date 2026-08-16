@@ -1,5 +1,6 @@
 id: 2026-11-19--ladies-of-laughter
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: Ladies of Laughter
@@ -47,11 +48,11 @@ validation:
   - url: https://www.sopacnow.org/events/ladies-of-laughter-nov-26/
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:02:07.488617-04:00'
+    checked_at: '2026-08-16T15:23:31.231646-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T14:02:07.488610-04:00'
+  validated_at: '2026-08-16T15:23:31.231638-04:00'
 curated:
   forms: []
   editor_note: ''

@@ -1,5 +1,6 @@
 id: 2026-11-15--the-last-waltz-celebration
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: The Last Waltz Celebration Featuring The THE BAND Band & Special Guests
@@ -46,11 +47,11 @@ validation:
   - url: https://www.sopacnow.org/events/the-last-waltz-celebration-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:02:07.450132-04:00'
+    checked_at: '2026-08-16T15:23:30.848158-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T14:02:07.450126-04:00'
+  validated_at: '2026-08-16T15:23:30.848152-04:00'
 curated:
   forms: []
   editor_note: ''

@@ -1,5 +1,6 @@
 id: 2026-09-19-skyport-marina-bollywaves-the-end-of
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: Bollywaves – The End Of Summer Cruise Party
@@ -44,10 +45,10 @@ validation:
   - url: https://events.sulekha.com/bollywaves-the-end-of-summer-cruise-party_event-in_new-york-ny_401073
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T14:01:44.741188-04:00'
+    checked_at: '2026-08-16T15:23:02.664100-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-16T14:01:44.741181-04:00'
+  validated_at: '2026-08-16T15:23:02.664092-04:00'
 curated:
   forms: []
   editor_note: ''

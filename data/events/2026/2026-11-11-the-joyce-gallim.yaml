@@ -1,5 +1,6 @@
 id: 2026-11-11-the-joyce-gallim
 status: rejected
+was_published: false
 needs_recheck: false
 scraped:
   title: GALLIM
@@ -33,17 +34,20 @@ validation:
   passed: false
   checks:
     has_info_url: true
-    links_live: false
+    links_live: true
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks: []
+  link_checks:
+  - url: https://www.joyce.org/performances/gallim-rhr7
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T15:23:29.707204-04:00'
   problems:
-  - links not yet verified (offline run)
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T14:03:28.701504-04:00'
+  validated_at: '2026-08-16T15:23:29.707197-04:00'
 curated:
   forms: []
   editor_note: ''
