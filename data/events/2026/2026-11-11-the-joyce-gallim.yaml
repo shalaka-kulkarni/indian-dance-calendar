@@ -44,11 +44,11 @@ validation:
   - url: https://www.joyce.org/performances/gallim-rhr7
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T17:04:41.697254-04:00'
+    checked_at: '2026-08-16T17:07:29.993793-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T17:04:41.697232-04:00'
+  validated_at: '2026-08-16T17:07:29.993768-04:00'
 curated:
   forms: []
   editor_note: ''

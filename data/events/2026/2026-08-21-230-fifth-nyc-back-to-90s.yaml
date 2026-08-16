@@ -46,10 +46,10 @@ validation:
   - url: https://events.sulekha.com/nyc-back-to-90-s-bollywood-party-at-230-fifth_event-in_new-york-ny_401173
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T17:02:55.843945-04:00'
+    checked_at: '2026-08-16T17:06:56.628161-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-16T17:02:55.843922-04:00'
+  validated_at: '2026-08-16T17:06:56.628137-04:00'
 curated:
   forms: []
   editor_note: ''

@@ -41,9 +41,9 @@ validation:
   - url: https://theaterforthenewcity.net/shows/festival-of-india-sitar-workshop/
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T17:02:39.645182-04:00'
+    checked_at: '2026-08-16T17:06:45.135723-04:00'
   problems: []
-  validated_at: '2026-08-16T17:02:39.645170-04:00'
+  validated_at: '2026-08-16T17:06:45.135710-04:00'
 curated:
   forms:
   - kuchipudi

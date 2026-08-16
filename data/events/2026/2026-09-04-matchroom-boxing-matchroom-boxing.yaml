@@ -45,11 +45,11 @@ validation:
   - url: https://www.prucenter.com/events/matchroom-boxing
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T17:02:59.269263-04:00'
+    checked_at: '2026-08-16T17:06:58.581912-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T17:02:59.269240-04:00'
+  validated_at: '2026-08-16T17:06:58.581859-04:00'
 curated:
   forms: []
   editor_note: ''

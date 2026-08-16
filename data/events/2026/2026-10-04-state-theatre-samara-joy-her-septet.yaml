@@ -50,17 +50,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.stnj.org/events/detail/samara-joy-her-septet
-    ok: true
-    status_code: 406
-    checked_at: '2026-08-16T17:03:55.671868-04:00'
   - url: https://my.stnj.org/24901/24902
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T17:03:55.977321-04:00'
+    checked_at: '2026-08-16T17:07:14.266802-04:00'
+  - url: https://www.stnj.org/events/detail/samara-joy-her-septet
+    ok: true
+    status_code: 406
+    checked_at: '2026-08-16T17:07:15.218482-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-16T17:03:55.671847-04:00'
+  validated_at: '2026-08-16T17:07:14.266775-04:00'
 curated:
   forms: []
   editor_note: ''

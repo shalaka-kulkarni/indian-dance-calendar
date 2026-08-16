@@ -40,9 +40,9 @@ validation:
   - url: https://www.tickettailor.com/events/fragranceofalegendrememberingrukminideviarundale/2075113
     ok: true
     status_code: 403
-    checked_at: '2026-08-16T17:02:42.251555-04:00'
+    checked_at: '2026-08-16T17:06:47.833691-04:00'
   problems: []
-  validated_at: '2026-08-16T17:02:42.251550-04:00'
+  validated_at: '2026-08-16T17:06:47.833685-04:00'
 curated:
   forms:
   - bharatanatyam
