@@ -1,0 +1,48 @@
+name: discovery
+# Weekly broad search for events and venues beyond the registry.
+
+on:
+  schedule:
+    - cron: "0 12 * * 0" # Sundays ~7-8am ET
+  workflow_dispatch:
+
+concurrency:
+  group: event-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - name: Install
+        run: uv venv && uv pip install -e .
+      - name: Run discovery battery
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+        run: uv run python -m pipeline.run discover
+      - name: Rebuild site data
+        run: uv run python -m pipeline.run build
+      - name: Commit
+        run: |
+          git config user.name "skyd-discovery"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/events site/src/data/events.json site/public/calendar.ics
+          if git diff --cached --quiet; then echo "no changes"; else
+            git commit -m "discovery: automated event update"
+            git push
+          fi
+      - name: Propose new sources as an issue
+        if: hashFiles('out/proposed_sources.json') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          body="Discovery found event-yielding hosts not in the registry:\n\n\`\`\`json\n$(cat out/proposed_sources.json)\n\`\`\`\n\nConsider adding productive ones to data/sources.yaml."
+          gh issue create --title "Discovery: proposed new sources $(date +%F)" --body "$(printf "$body")" || true

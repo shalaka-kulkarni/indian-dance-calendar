@@ -1,0 +1,52 @@
+name: healthcheck
+# Weekly: re-verify every published event's links and surface broken scrapers
+# and the needs_attention queue as a GitHub issue — rot is loud, never silent.
+
+on:
+  schedule:
+    - cron: "0 13 * * 6" # Saturdays ~8-9am ET
+  workflow_dispatch:
+
+concurrency:
+  group: event-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  healthcheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - name: Install
+        run: uv venv && uv pip install -e .
+      - name: Re-validate all live events (full link check)
+        run: uv run python -m pipeline.run validate
+      - name: Rebuild site data
+        run: uv run python -m pipeline.run build
+      - name: Commit
+        run: |
+          git config user.name "skyd-healthcheck"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/events site/src/data/events.json site/public/calendar.ics
+          if git diff --cached --quiet; then echo "no changes"; else
+            git commit -m "healthcheck: revalidation update"
+            git push
+          fi
+      - name: Report queue and source health
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          uv run python -m pipeline.run report > report.txt || true
+          cat report.txt
+          # Open an issue only when something needs eyes.
+          if grep -q "needs_attention queue (0)" report.txt; then
+            echo "queue empty"
+          else
+            gh issue create --title "Healthcheck: events need attention $(date +%F)" \
+              --body "$(printf '```\n%s\n```' "$(cat report.txt)")" || true
+          fi
