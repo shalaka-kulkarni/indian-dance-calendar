@@ -36,16 +36,18 @@ jobs:
         run: uv run python -m pipeline.run classify
       - name: Re-validate everything live (links, dates, prices)
         run: uv run python -m pipeline.run validate
-      - name: Rebuild site data
-        run: uv run python -m pipeline.run build
       - name: Commit
         run: |
           git config user.name "skyd-sweep"
           git config user.email "actions@users.noreply.github.com"
-          git add data/events site/src/data/events.json site/public/calendar.ics
+          git add data/events
           if git diff --cached --quiet; then
             echo "no changes"
           else
             git commit -m "sweep: automated event update"
-            git push
+            for attempt in 1 2 3; do
+              git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push && exit 0
+              echo "push race, retrying ($attempt)"; sleep 5
+            done
+            exit 1
           fi

@@ -29,16 +29,20 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
         run: uv run python -m pipeline.run discover
-      - name: Rebuild site data
-        run: uv run python -m pipeline.run build
       - name: Commit
         run: |
           git config user.name "skyd-discovery"
           git config user.email "actions@users.noreply.github.com"
-          git add data/events site/src/data/events.json site/public/calendar.ics
-          if git diff --cached --quiet; then echo "no changes"; else
+          git add data/events
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
             git commit -m "discovery: automated event update"
-            git push
+            for attempt in 1 2 3; do
+              git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push && exit 0
+              echo "push race, retrying ($attempt)"; sleep 5
+            done
+            exit 1
           fi
       - name: Propose new sources as an issue
         if: hashFiles('out/proposed_sources.json') != ''

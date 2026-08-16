@@ -12,8 +12,10 @@ node_modules/
 site/dist/
 site/.astro/
 
-# Generated artifacts: events.json and calendar.ics ARE committed so the
-# site deploy (Cloudflare Pages git integration) needs only the Node build.
+# Generated from data/events by `pipeline.run build` — never committed, so
+# concurrent workflows can't collide on them. The deploy regenerates them.
+site/src/data/events.json
+site/public/calendar.ics
 out/
 
 # Local env

@@ -30,14 +30,18 @@ jobs:
         run: uv venv && uv pip install -e .
       - name: Validate (live link checks) and publish
         run: uv run python -m pipeline.run validate
-      - name: Rebuild site data
-        run: uv run python -m pipeline.run build
       - name: Commit
         run: |
           git config user.name "skyd-publish"
           git config user.email "actions@users.noreply.github.com"
-          git add data/events site/src/data/events.json site/public/calendar.ics
-          if git diff --cached --quiet; then echo "no changes"; else
-            git commit -m "publish: validate and rebuild after event-data push"
-            git push
+          git add data/events
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "publish: validate after event-data push"
+            for attempt in 1 2 3; do
+              git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push && exit 0
+              echo "push race, retrying ($attempt)"; sleep 5
+            done
+            exit 1
           fi
