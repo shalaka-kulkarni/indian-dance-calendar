@@ -1,0 +1,52 @@
+id: 2026-09-23-150-east-cnns-dana-bash-in
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'CNN’s Dana Bash in Conversation with Leigh McGowan ( PoliticsGirl ): Elections that Changed
+    the World'
+  start: '2026-09-23T19:00:00-04:00'
+  additional_dates: []
+  venue: 150 East 91st Street
+  address: ''
+  region: manhattan
+  price_min: 40.0
+  price_max: 40.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/cnn-s-dana-bash
+  ticket_url: https://seats.92ny.org/single/210411
+  description_snippet: CNN’s Dana Bash explores the pivotal elections that shaped history and what they
+    reveal about our political moment.
+  content_hash: f6b32629ef89c011
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/cnn-s-dana-bash
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/210411
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T17:03:26.704453-04:00'
+  - url: https://www.92ny.org/event/cnn-s-dana-bash
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T17:03:26.841454-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T17:03:26.704428-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

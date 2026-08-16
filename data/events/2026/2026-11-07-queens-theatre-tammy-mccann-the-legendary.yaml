@@ -1,0 +1,47 @@
+id: 2026-11-07-queens-theatre-tammy-mccann-the-legendary
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Tammy McCann — “The Legendary Ladies of Jazz”
+  start: '2026-11-07T20:00:00-05:00'
+  additional_dates: []
+  venue: Queens Theatre
+  address: 14 United Nations Avenue South, Corona
+  region: queens
+  is_free: false
+  price_note: ''
+  info_url: https://queenstheatre.org/events/tammy-mccann-nrmf
+  ticket_url: ''
+  description_snippet: THE LEGENDARY LADIES OF JAZZ ~ ELLA, SARAH DINAH & BILLIE At the end of the 1940’s,
+    four unique women appeared on the scene with distinctly original styles of delivery and mastery of
+    improvisation tha…
+  content_hash: 1625177f84032f56
+  sources:
+  - source_id: queens_theatre
+    url: https://queenstheatre.org/events/tammy-mccann-nrmf
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: false
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://queenstheatre.org/events/tammy-mccann-nrmf
+    ok: false
+    checked_at: '2026-08-16T17:04:36.814422-04:00'
+  problems:
+  - 'dead links: https://queenstheatre.org/events/tammy-mccann-nrmf'
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T17:04:36.814396-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

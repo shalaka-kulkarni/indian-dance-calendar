@@ -1,0 +1,45 @@
+id: 2026-11-07--in-the-heights
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: In the Heights
+  start: '2026-11-07T00:30:00Z'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.nycitycenter.org/events/instances/947cphs6/2026-11-06/2026-2027-in-the-heights
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 0f5bcdb475c91acc
+  sources:
+  - source_id: city_center
+    url: https://www.nycitycenter.org/events/instances/947cphs6/2026-11-06/2026-2027-in-the-heights
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.nycitycenter.org/events/instances/947cphs6/2026-11-06/2026-2027-in-the-heights
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T17:04:36.586448-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T17:04:36.586428-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

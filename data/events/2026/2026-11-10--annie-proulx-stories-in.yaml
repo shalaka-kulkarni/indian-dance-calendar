@@ -1,0 +1,51 @@
+id: 2026-11-10--annie-proulx-stories-in
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Annie Proulx: Stories , in Conversation with Yiyun Li'
+  start: '2026-11-10T19:30:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  price_min: 25.0
+  price_max: 25.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/annie-proulx-stories
+  ticket_url: https://seats.92ny.org/single/210919
+  description_snippet: Pulitzer Prize and National Book Award winner Annie Proulx launches her New and
+    Collected Stories , in conversation with Yiyun Li.
+  content_hash: eefb3b7c80ef7260
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/annie-proulx-stories
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/210919
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T17:04:39.203562-04:00'
+  - url: https://www.92ny.org/event/annie-proulx-stories
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T17:04:39.284241-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T17:04:39.203540-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

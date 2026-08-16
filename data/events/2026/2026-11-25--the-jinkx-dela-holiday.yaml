@@ -1,0 +1,48 @@
+id: 2026-11-25--the-jinkx-dela-holiday
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: The Jinkx & DeLa Holiday Show
+  start: '2026-11-25T05:00:00Z'
+  end: '2026-11-28T04:50:00Z'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.nycitycenter.org/events/2026-2027-the-jinkx-and-dela-holiday-show
+  ticket_url: ''
+  description_snippet: '&ldquo;The Jinkx & DeLa Holiday Show promises to combat the world’s devastation
+    with campy magic and mirth that only a queer interpretation of Christmas can provide.&rdquo; &ndash;
+    <em>Los Angeles Times</em>'
+  content_hash: 016647591e7fe810
+  sources:
+  - source_id: city_center
+    url: https://www.nycitycenter.org/events/2026-2027-the-jinkx-and-dela-holiday-show
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.nycitycenter.org/events/2026-2027-the-jinkx-and-dela-holiday-show
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T17:04:51.528943-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T17:04:51.528919-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

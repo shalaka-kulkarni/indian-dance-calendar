@@ -1,0 +1,51 @@
+id: 2026-10-07-92nd-street-across-the-divide-a
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Across the Divide: A Palestinian and an Israeli Father Choose Dialogue'
+  start: '2026-10-07T19:30:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 25.0
+  price_max: 25.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/across-the-divide
+  ticket_url: https://seats.92ny.org/single/211142
+  description_snippet: Join us for a unique and candid exchange about what Israelis and Palestinians can
+    do now to create a different future for their children and grandchildren.
+  content_hash: 1d2ac8575613bd42
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/across-the-divide
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/across-the-divide
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T17:04:02.273090-04:00'
+  - url: https://seats.92ny.org/single/211142
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T17:04:06.664813-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T17:04:02.273065-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

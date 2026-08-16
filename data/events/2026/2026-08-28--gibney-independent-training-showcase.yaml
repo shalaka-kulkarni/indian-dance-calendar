@@ -1,0 +1,49 @@
+id: 2026-08-28--gibney-independent-training-showcase
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Gibney Independent Training Showcase: Aidé Hernandez Gayosso'
+  start: '2026-08-28T19:00:00-04:00'
+  end: '2026-08-28T21:30:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  price_min: 0.0
+  price_max: 0.0
+  is_free: false
+  price_note: ''
+  info_url: https://gibneydance.org/event/gibney-independent-training-showcase-aide-hernandez-gayosso/
+  ticket_url: https://gibneydance.org/event/gibney-independent-training-showcase-aide-hernandez-gayosso/
+  description_snippet: Gibney Education proudly presents an evening of work by Aidé Hernandez Gayosso.
+    Experience the work of our full time training student in a culminating performance of their time as
+    a [&hellip;]
+  content_hash: 246ba7c8d58f8d51
+  sources:
+  - source_id: gibney
+    url: https://gibneydance.org/event/gibney-independent-training-showcase-aide-hernandez-gayosso/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://gibneydance.org/event/gibney-independent-training-showcase-aide-hernandez-gayosso/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T17:02:58.566471-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T17:02:58.566449-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,52 @@
+id: 2026-09-17-online-annie-meyers-shyer-in-conversation
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Annie Meyers-Shyer in Conversation with Katie Lee Biegel: This Oak House'
+  start: '2026-09-17T20:00:00-04:00'
+  additional_dates: []
+  venue: Online
+  address: ''
+  region: manhattan
+  price_min: 25.0
+  price_max: 25.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/annie-meyers-shyer-with-katie-lee-biegel
+  ticket_url: https://seats.92ny.org/single/210936
+  description_snippet: Annie Meyers-Shyer talks to Katie Lee Biegel about This Oak House , her beautiful
+    and deeply practical new book that chronicles the years-long renovation of her family’s historic Los
+    Angeles home.
+  content_hash: de49f0129eff6756
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/annie-meyers-shyer-with-katie-lee-biegel
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/annie-meyers-shyer-with-katie-lee-biegel
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T17:03:16.077997-04:00'
+  - url: https://seats.92ny.org/single/210936
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T17:03:18.374899-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T17:03:16.077973-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

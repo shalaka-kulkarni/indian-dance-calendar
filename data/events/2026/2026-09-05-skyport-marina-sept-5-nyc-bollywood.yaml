@@ -46,10 +46,10 @@ validation:
   - url: https://events.sulekha.com/sept-5-nyc-bollywood-boat-party-at-skyport-marina_event-in_new-york-ny_401071
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T16:02:54.264485-04:00'
+    checked_at: '2026-08-16T17:02:59.593809-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-16T16:02:54.264466-04:00'
+  validated_at: '2026-08-16T17:02:59.593785-04:00'
 curated:
   forms: []
   editor_note: ''

@@ -1,0 +1,45 @@
+id: 2026-10-17--alex-edelman---what
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Alex Edelman - What Are You Going to Do
+  start: '2026-10-17T23:30:00Z'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.nycitycenter.org/events/instances/wnt551fm/2026-10-17/2026-2027-alex-edelman
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: f679e88cd642e514
+  sources:
+  - source_id: city_center
+    url: https://www.nycitycenter.org/events/instances/wnt551fm/2026-10-17/2026-2027-alex-edelman
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.nycitycenter.org/events/instances/wnt551fm/2026-10-17/2026-2027-alex-edelman
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T17:04:14.686946-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T17:04:14.686925-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

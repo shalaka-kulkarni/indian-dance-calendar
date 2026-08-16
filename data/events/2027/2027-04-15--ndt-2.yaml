@@ -1,0 +1,47 @@
+id: 2027-04-15--ndt-2
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: NDT 2
+  start: '2027-04-15T04:00:00Z'
+  end: '2027-04-19T03:50:00Z'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.nycitycenter.org/events/2026-2027-ndt2
+  ticket_url: ''
+  description_snippet: Bold. Innovative. Unforgettable. US premieres from Sharon Eyal & Gai Behar and
+    Johan Inger
+  content_hash: 6fddfbbefc95b410
+  sources:
+  - source_id: city_center
+    url: https://www.nycitycenter.org/events/2026-2027-ndt2
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.nycitycenter.org/events/2026-2027-ndt2
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T17:04:53.578039-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T17:04:53.578022-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,51 @@
+id: 2026-09-24--your-glp-1-game-plan
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Your GLP-1 Game Plan: How to Eat, Move and Thrive on Weight Loss Medications'
+  start: '2026-09-24T18:30:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  price_min: 20.0
+  price_max: 20.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/your-glp-1-game-plan-how-to-eat-move-and-thrive-on-weight-loss-medications
+  ticket_url: https://seats.92ny.org/single/211095
+  description_snippet: Join Spark Your Health and sports nutritionist, exercise physiologist and New York
+    Times best-selling author, Heidi Skolnik, as she launches her new book, Your GLP-1 Game Plan.
+  content_hash: 3ecfee6a0cac787c
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/your-glp-1-game-plan-how-to-eat-move-and-thrive-on-weight-loss-medications
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/211095
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T17:03:32.337704-04:00'
+  - url: https://www.92ny.org/event/your-glp-1-game-plan-how-to-eat-move-and-thrive-on-weight-loss-medications
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T17:03:32.440327-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T17:03:32.337677-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

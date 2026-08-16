@@ -1,0 +1,47 @@
+id: 2027-01-13--gibney-dance
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Gibney Dance
+  start: '2027-01-13T05:00:00Z'
+  end: '2027-01-18T04:50:00Z'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.nycitycenter.org/events/2026-2027-gibney-dance
+  ticket_url: ''
+  description_snippet: '<em>Another Look</em>: a world premiere from Lucinda Childs set to music by Philip
+    Glass'
+  content_hash: 3e3fdb5b1040f84f
+  sources:
+  - source_id: city_center
+    url: https://www.nycitycenter.org/events/2026-2027-gibney-dance
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.nycitycenter.org/events/2026-2027-gibney-dance
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T17:04:52.855849-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T17:04:52.855828-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

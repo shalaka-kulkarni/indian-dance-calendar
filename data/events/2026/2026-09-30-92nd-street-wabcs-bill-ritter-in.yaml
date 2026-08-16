@@ -1,0 +1,52 @@
+id: 2026-09-30-92nd-street-wabcs-bill-ritter-in
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'WABC’s Bill Ritter in Conversation with Allison Gilbert: Living with Alzheimer’s, Caregiving,
+    and the Importance of Community'
+  start: '2026-09-30T19:30:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Warburg Lounge
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 28.0
+  price_max: 28.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/wabc-s-bill-ritter-with-allison-gilbert
+  ticket_url: https://seats.92ny.org/single/211063
+  description_snippet: Bill Ritter joins Allison Gilbert to lead a deeply personal conversation about
+    facing the diagnosis and the role connection and support can play during a serious health challenge.
+  content_hash: 790ca6bb229f7587
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/wabc-s-bill-ritter-with-allison-gilbert
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/wabc-s-bill-ritter-with-allison-gilbert
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T17:03:51.788973-04:00'
+  - url: https://seats.92ny.org/single/211063
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T17:03:51.916657-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T17:03:51.788954-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}

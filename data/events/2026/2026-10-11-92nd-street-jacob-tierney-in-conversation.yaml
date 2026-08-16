@@ -1,0 +1,51 @@
+id: 2026-10-11-92nd-street-jacob-tierney-in-conversation
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Jacob Tierney in Conversation: I’ll Believe in Anything and the Making of Heated Rivalry'
+  start: '2026-10-11T17:00:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 45.0
+  price_max: 45.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/jacob-tierney
+  ticket_url: https://seats.92ny.org/single/211100
+  description_snippet: Go behind the scenes of the hit series Heated Rivalry as creator Jacob Tierney
+    discusses adapting Rachel Reid’s bestselling novels.
+  content_hash: ebe8b8dd6a562886
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/jacob-tierney
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/jacob-tierney
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T17:04:12.192099-04:00'
+  - url: https://seats.92ny.org/single/211100
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T17:04:12.443628-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-16T17:04:12.192074-04:00'
+curated:
+  forms: []
+  editor_note: ''
+  overrides: {}
