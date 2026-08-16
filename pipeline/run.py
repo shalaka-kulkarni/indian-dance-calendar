@@ -35,6 +35,7 @@ from pipeline.scrapers.html_sources import (
 )
 from pipeline.scrapers.ics import extract_ics_events
 from pipeline.scrapers.platforms import eventbrite_events, ticketmaster_events
+from pipeline.scrapers.sitemap import sitemap_extract
 from pipeline.store import (
     expire_past_events,
     load_all_events,
@@ -72,6 +73,10 @@ def scrape_source(client: httpx.Client, source: Source) -> ScrapeResult:
             # detail pages usually carry JSON-LD — follow links and extract.
             if not result.events:
                 result.events = deep_extract(client, source.id, source.url, html)
+            # Client-side calendars expose no links at all; the sitemap still
+            # lists every event page for search engines.
+            if not result.events:
+                result.events = sitemap_extract(client, source.id, source.url)
     except Exception as exc:  # noqa: BLE001 — isolation: one source never sinks the sweep
         result.error = f"{type(exc).__name__}: {exc}"
         log.warning("source %s failed: %s", source.id, result.error)
