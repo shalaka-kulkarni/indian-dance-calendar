@@ -37,20 +37,20 @@ validation:
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
   link_checks:
   - url: https://queenstheatre.org/events/allan-harris-l3lg
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-16T15:56:30.391278-04:00'
+    ok: false
+    checked_at: '2026-08-16T16:03:21.353981-04:00'
   problems:
+  - 'dead links: https://queenstheatre.org/events/allan-harris-l3lg'
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T15:56:30.391251-04:00'
+  validated_at: '2026-08-16T16:03:21.353961-04:00'
 curated:
   forms: []
   editor_note: ''

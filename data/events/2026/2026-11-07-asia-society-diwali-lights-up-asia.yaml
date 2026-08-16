@@ -1,7 +1,7 @@
 id: 2026-11-07-asia-society-diwali-lights-up-asia
-status: needs_attention
-was_published: false
-needs_recheck: true
+status: published
+was_published: true
+needs_recheck: false
 scraped:
   title: 'Diwali: Lights Up Asia Society 2026'
   start: '2026-11-07T13:00:00-05:00'
@@ -34,6 +34,23 @@ ai:
   reasoning: Diwali festival programme at Asia Society including Indian dance performances.
   model: claude-fable-5
   classified_at: '2026-08-16'
+validation:
+  passed: true
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: true
+  link_checks:
+  - url: https://asiasociety.org/new-york/events/diwali-lights-asia-society-2026
+    ok: true
+    status_code: 403
+    checked_at: '2026-08-16T16:03:26.346470-04:00'
+  problems: []
+  validated_at: '2026-08-16T16:03:26.346450-04:00'
 curated:
   forms:
   - folk

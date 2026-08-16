@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-16T16:02:08.840538-04:00",
+ "generatedAt": "2026-08-16T16:03:35.216492-04:00",
  "events": [
   {
    "id": "2026-09-19-kaye-playhouse-erasing-borders-festival-of",
@@ -69,6 +69,27 @@
    ],
    "kind": "performance",
    "presenterType": "professional_company",
+   "editorNote": ""
+  },
+  {
+   "id": "2026-11-07-asia-society-diwali-lights-up-asia",
+   "title": "Diwali: Lights Up Asia Society 2026",
+   "start": "2026-11-07T13:00:00-05:00",
+   "end": "2026-11-07T16:00:00-05:00",
+   "additionalDates": [],
+   "venue": "Asia Society New York",
+   "address": "725 Park Ave, New York, NY",
+   "region": "manhattan",
+   "price": "$20\u2013$25",
+   "isFree": false,
+   "infoUrl": "https://asiasociety.org/new-york/events/diwali-lights-asia-society-2026",
+   "ticketUrl": null,
+   "description": "Family Diwali celebration with Indian dance and music performances in the Visitor Center and Auditorium, plus storytelling and craft activities.",
+   "forms": [
+    "folk"
+   ],
+   "kind": "festival",
+   "presenterType": "mixed",
    "editorNote": ""
   }
  ],
@@ -444,7 +465,7 @@
    },
    {
     "value": "folk",
-    "count": 0
+    "count": 1
    },
    {
     "value": "bollywood",
@@ -466,7 +487,7 @@
   "regions": [
    {
     "value": "manhattan",
-    "count": 3
+    "count": 4
    },
    {
     "value": "brooklyn",
@@ -508,7 +529,7 @@
    },
    {
     "value": "mixed",
-    "count": 0
+    "count": 1
    }
   ],
   "kinds": [
@@ -518,7 +539,7 @@
    },
    {
     "value": "festival",
-    "count": 1
+    "count": 2
    },
    {
     "value": "talk",

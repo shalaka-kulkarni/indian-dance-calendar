@@ -38,6 +38,28 @@ ai:
   reasoning: Contemporary dance company (French-Algerian) — dance, but not Indian dance.
   model: claude-fable-5
   classified_at: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.stnj.org/events/detail/compagnie-herve-koubi
+    ok: true
+    status_code: 406
+    checked_at: '2026-08-16T16:03:12.879506-04:00'
+  - url: https://my.stnj.org/23395/23396
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T16:03:13.054212-04:00'
+  problems:
+  - classified not-relevant
+  validated_at: '2026-08-16T16:03:12.879487-04:00'
 curated:
   forms: []
   editor_note: ''

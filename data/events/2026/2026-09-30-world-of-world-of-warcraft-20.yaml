@@ -46,11 +46,11 @@ validation:
   - url: https://www.prucenter.com/events/world-of-warcraft-20-years-of-music
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T15:56:16.230191-04:00'
+    checked_at: '2026-08-16T16:03:07.404949-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T15:56:16.230165-04:00'
+  validated_at: '2026-08-16T16:03:07.404930-04:00'
 curated:
   forms: []
   editor_note: ''
