@@ -35,7 +35,7 @@ jobs:
       - name: Build site
         working-directory: site
         env:
-          BASE_PATH: /skyd-app
+          BASE_PATH: /indian-dance-calendar
         run: npm ci && npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
