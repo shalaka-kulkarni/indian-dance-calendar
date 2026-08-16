@@ -1,0 +1,45 @@
+[project]
+name = "skyd"
+version = "0.1.0"
+description = "NYC-metro Indian dance calendar: scrape, classify, validate, publish"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.27",
+    "beautifulsoup4>=4.12",
+    "extruct>=0.17",
+    "icalendar>=5.0",
+    "pydantic>=2.7",
+    "PyYAML>=6.0",
+    "rapidfuzz>=3.6",
+    "python-dateutil>=2.9",
+    "anthropic>=0.40",
+    "jinja2>=3.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.4",
+]
+
+[project.scripts]
+skyd = "cli.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["pipeline", "cli", "newsletter"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "UP", "B"]
+ignore = ["E501", "UP042"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

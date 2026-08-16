@@ -1,0 +1,333 @@
+# Source registry — everywhere Indian dance events in the NYC metro get announced.
+#
+# strategy: jsonld = schema.org/Event structured data embedded in pages (preferred,
+#           rots slowest) | ics = calendar feed | html = bespoke parser |
+#           api = platform API client | search = discovery search battery |
+#           manual = human-entered only
+#
+# NOTE: strategies below are best-guesses pending the first live audit
+# (this build environment cannot reach these sites). The sweep tries JSON-LD
+# first for every 'jsonld'/'html' source and falls back gracefully; the
+# healthcheck flags any source that yields nothing so parsers get fixed fast.
+
+sources:
+  # ── Mainstream Manhattan ────────────────────────────────────────────────
+  - id: joyce
+    name: The Joyce Theater
+    circuit: mainstream
+    strategy: jsonld
+    url: https://www.joyce.org/performances
+    region: manhattan
+    scrape_all_listings: true
+    notes: "Premier NYC dance house; books Nrityagram. Tessitura-based site."
+  - id: carnegie
+    name: Carnegie Hall (full calendar)
+    circuit: mainstream
+    strategy: jsonld
+    url: https://www.carnegiehall.org/Calendar
+    region: manhattan
+    scrape_all_listings: true
+    notes: "MUST use the full calendar: rentals (e.g. All-Indian Dance Festival) never appear in Carnegie's own marketing."
+  - id: city_center
+    name: New York City Center
+    circuit: mainstream
+    strategy: jsonld
+    url: https://www.nycitycenter.org/pdps-and-events/
+    region: manhattan
+    scrape_all_listings: true
+    notes: "Fall for Dance each Sept/Oct."
+  - id: lincoln_center
+    name: Lincoln Center (incl. Summer for the City)
+    circuit: mainstream
+    strategy: jsonld
+    url: https://www.lincolncenter.org/calendar
+    region: manhattan
+    scrape_all_listings: true
+    notes: "Kathak opened Summer for the City 2026. Lineup drops April."
+  - id: nyla
+    name: New York Live Arts
+    circuit: mainstream
+    strategy: jsonld
+    url: https://newyorklivearts.org/events/
+    region: manhattan
+    scrape_all_listings: true
+    notes: "Hosted NY Kathak Festival 4th edition."
+  - id: gibney
+    name: Gibney (Agnes Varis PAC)
+    circuit: mainstream
+    strategy: jsonld
+    url: https://gibneydance.org/performances/
+    region: manhattan
+    scrape_all_listings: true
+  - id: skirball
+    name: NYU Skirball
+    circuit: mainstream
+    strategy: jsonld
+    url: https://nyuskirball.org/events/
+    region: manhattan
+    scrape_all_listings: true
+  - id: ailey_citigroup
+    name: Ailey Citigroup Theater
+    circuit: mainstream
+    strategy: html
+    url: https://www.alvinailey.org/performances
+    region: manhattan
+    scrape_all_listings: true
+    notes: "Rental house for NY Kathak Festival + Erasing Borders editions."
+  - id: kaye_playhouse
+    name: Kaye Playhouse at Hunter College
+    circuit: mainstream
+    strategy: html
+    url: https://kayeplayhouse.hunter.cuny.edu/events/
+    region: manhattan
+    scrape_all_listings: true
+    notes: "IAAC rents here (Erasing Borders 18th)."
+  - id: symphony_space
+    name: Symphony Space
+    circuit: mainstream
+    strategy: jsonld
+    url: https://www.symphonyspace.org/calendar
+    region: manhattan
+    scrape_all_listings: true
+  - id: ninety_second_y
+    name: 92NY (92nd Street Y)
+    circuit: mainstream
+    strategy: jsonld
+    url: https://www.92ny.org/events
+    region: manhattan
+    scrape_all_listings: true
+    notes: "Long history of presenting Indian classical dance."
+  - id: asia_society
+    name: Asia Society New York
+    circuit: mainstream
+    strategy: jsonld
+    url: https://asiasociety.org/new-york/events
+    region: manhattan
+    scrape_all_listings: true
+  - id: met_live_arts
+    name: MetLiveArts (Metropolitan Museum)
+    circuit: mainstream
+    strategy: jsonld
+    url: https://www.metmuseum.org/events/metlivearts
+    region: manhattan
+    scrape_all_listings: true
+  - id: wmi
+    name: World Music Institute
+    circuit: mainstream
+    strategy: jsonld
+    url: https://worldmusicinstitute.org/events/
+    region: manhattan
+    scrape_all_listings: true
+    notes: "'World music AND dance' — currently zero Indian dance. Named, addressable gap; watch it."
+  - id: town_hall
+    name: The Town Hall
+    circuit: mainstream
+    strategy: jsonld
+    url: https://thetownhall.org/calendar
+    region: manhattan
+    scrape_all_listings: true
+  - id: bam
+    name: BAM (Brooklyn Academy of Music)
+    circuit: mainstream
+    strategy: jsonld
+    url: https://www.bam.org/whats-on
+    region: brooklyn
+    scrape_all_listings: true
+  - id: pac_nyc
+    name: PAC NYC (Perelman Performing Arts Center, World Trade Center)
+    circuit: mainstream
+    strategy: jsonld
+    url: https://pacnyc.org/whats-on/
+    region: manhattan
+    scrape_all_listings: true
+    notes: "Newer downtown venue — watch even though Indian programming is unproven."
+
+  # ── Outer boroughs ──────────────────────────────────────────────────────
+  - id: queens_theatre
+    name: Queens Theatre
+    circuit: mainstream
+    strategy: jsonld
+    url: https://queenstheatre.org/events/
+    region: queens
+    scrape_all_listings: true
+    notes: "Presented Nrityagram Oct 2025. Season drops August."
+  - id: flushing_town_hall
+    name: Flushing Town Hall
+    circuit: mainstream
+    strategy: jsonld
+    url: https://www.flushingtownhall.org/events
+    region: queens
+    scrape_all_listings: true
+    notes: "Annual Holi folk program."
+  - id: laguardia_pac
+    name: LaGuardia Performing Arts Center (CUNY)
+    circuit: mainstream
+    strategy: html
+    url: https://www.laguardiaperformingarts.com/
+    region: queens
+    scrape_all_listings: true
+    notes: "NY Kathak Festival has curated here."
+  - id: battery_dance
+    name: Battery Dance Festival
+    circuit: mainstream
+    strategy: html
+    url: https://batterydance.org/battery-dance-festival/
+    region: manhattan
+    scrape_all_listings: true
+    notes: "Free outdoor festival; annual Indian night (mid-Aug)."
+  - id: ganesha_temple
+    name: Hindu Temple Society of North America (Ganesha Temple, Flushing)
+    circuit: diaspora
+    strategy: html
+    url: https://nyganeshtemple.org/
+    region: queens
+    assume_relevant: true
+    notes: "Temple auditorium cultural calendar; arangetrams + visiting artists."
+
+  # ── New Jersey metro ────────────────────────────────────────────────────
+  - id: njpac
+    name: NJPAC (New Jersey Performing Arts Center, Newark)
+    circuit: mainstream
+    strategy: jsonld
+    url: https://www.njpac.org/events/
+    region: new_jersey
+    scrape_all_listings: true
+    notes: "Major Indian classical + Bollywood presenter."
+  - id: prudential_center
+    name: Prudential Center (Newark)
+    circuit: mainstream
+    strategy: jsonld
+    url: https://www.prucenter.com/events
+    region: new_jersey
+    scrape_all_listings: true
+    notes: "Arena — big touring Bollywood/dance spectaculars."
+  - id: state_theatre_nj
+    name: State Theatre New Jersey (New Brunswick)
+    circuit: mainstream
+    strategy: jsonld
+    url: https://www.stnj.org/events
+    region: new_jersey
+    scrape_all_listings: true
+    notes: "Large desi audience; frequent Indian touring productions."
+  - id: sopac
+    name: SOPAC (South Orange Performing Arts Center)
+    circuit: mainstream
+    strategy: jsonld
+    url: https://www.sopacnow.org/events/
+    region: new_jersey
+    scrape_all_listings: true
+  - id: loews_jersey
+    name: Loew's Jersey Theatre (Journal Square, Jersey City)
+    circuit: mainstream
+    strategy: html
+    url: https://loewsjersey.org/
+    region: new_jersey
+    scrape_all_listings: true
+    notes: "Historic Journal Square movie palace reopening as a live venue after renovation — watch for its event calendar coming online; likely desi programming given Jersey City demographics."
+
+  # ── Diaspora circuit ────────────────────────────────────────────────────
+  - id: narthaki
+    name: Narthaki events listing
+    circuit: diaspora
+    strategy: html
+    url: https://narthaki.com/info/fevents.html
+    region: unknown
+    assume_relevant: true
+    notes: "Anita Ratnam's 25-year listing; filter to NY-metro entries."
+  - id: iaac
+    name: Indo-American Arts Council
+    circuit: diaspora
+    strategy: html
+    url: https://iaac.us/
+    region: manhattan
+    assume_relevant: true
+    notes: "Runs Erasing Borders dance festival."
+  - id: ny_kathak_festival
+    name: New York Kathak Festival
+    circuit: diaspora
+    strategy: html
+    url: https://www.newyorkkathakfestival.org/
+    region: manhattan
+    assume_relevant: true
+    notes: "Young 501(c)(3), 4 editions."
+  - id: consulate
+    name: Consulate General of India, New York
+    circuit: diaspora
+    strategy: html
+    url: https://www.indiainnewyork.gov.in/
+    region: manhattan
+    assume_relevant: true
+    notes: "Cultural diplomacy events; co-sponsors big festivals."
+  - id: sulekha
+    name: Sulekha Events (New York)
+    circuit: platform
+    strategy: html
+    url: https://events.sulekha.com/new-york-metro-area
+    region: unknown
+    assume_relevant: true
+    notes: "Heavily used desi events platform; dance keyword filter."
+
+  # ── Cross-circuit listings ──────────────────────────────────────────────
+  - id: dance_enthusiast
+    name: The Dance Enthusiast listings
+    circuit: mainstream
+    strategy: html
+    url: https://www.dance-enthusiast.com/events
+    region: unknown
+    scrape_all_listings: true
+    notes: "The ONE listing where both circuits already appear. Robert Johnson (key critic) writes here."
+  - id: nyc_arts
+    name: NYC-ARTS calendar (WNET)
+    circuit: mainstream
+    strategy: html
+    url: https://www.nyc-arts.org/events/
+    region: unknown
+    scrape_all_listings: true
+  - id: timeout_ny
+    name: Time Out New York — Dance
+    circuit: mainstream
+    strategy: html
+    url: https://www.timeout.com/newyork/dance
+    region: unknown
+    scrape_all_listings: true
+
+  # ── Platform APIs (long tail: one-off shows at venues on nobody's list) ─
+  - id: eventbrite
+    name: Eventbrite API
+    circuit: platform
+    strategy: api
+    url: https://www.eventbriteapi.com/v3/
+    region: unknown
+    notes: "Keyword+geo queries; needs EVENTBRITE_TOKEN secret."
+  - id: ticketmaster
+    name: Ticketmaster Discovery API
+    circuit: platform
+    strategy: api
+    url: https://app.ticketmaster.com/discovery/v2/
+    region: unknown
+    notes: "Keyword+geo queries; needs TICKETMASTER_KEY secret (free)."
+  - id: allevents
+    name: AllEvents.in (New York)
+    circuit: platform
+    strategy: html
+    url: https://allevents.in/new%20york/indian
+    region: unknown
+    assume_relevant: true
+    notes: "Heavily used for desi events."
+
+  # ── Manual entries (owner-verified; still pass the publish checker) ─────
+  - id: manual
+    name: Manual entry (owner-verified)
+    circuit: diaspora
+    strategy: manual
+    url: ""
+    assume_relevant: true
+    notes: "Events entered by hand from verified knowledge. Links and dates still go through validation like everything else."
+
+  # ── Broad discovery (the 'events we don't know about' job) ──────────────
+  - id: discovery_search
+    name: Discovery search battery
+    circuit: discovery
+    strategy: search
+    url: ""
+    notes: "Weekly search-API battery over dance-form × metro-area queries; see pipeline/discovery.py. Needs BRAVE_API_KEY secret. New venues found get proposed as registry additions via GitHub issue."

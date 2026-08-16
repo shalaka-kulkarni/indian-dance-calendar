@@ -1,0 +1,132 @@
+"""The publish checker. Because publishing is automatic (no human gate), every
+event must pass ALL of these before it appears on the site, and published
+events get re-checked on every healthcheck run:
+
+  1. links_live       — info_url (and ticket_url when present) answer with < 400
+  2. has_info_url     — an information page exists
+  3. date_valid       — parseable date, in the future (or currently running)
+  4. price_known      — a price range, a free flag, or verbatim price text
+  5. in_metro         — venue/address resolves to the NYC-metro region
+  6. classified       — Claude marked it relevant with medium+ confidence
+                        (or the source is assume_relevant with any classification)
+
+A failure never deletes an event — it moves it to needs_attention with the
+problem list attached, and the healthcheck surfaces the queue as a report.
+"""
+
+from __future__ import annotations
+
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
+import httpx
+
+from pipeline.models import (
+    Confidence,
+    Event,
+    LinkCheck,
+    Region,
+    Status,
+    Validation,
+)
+from pipeline.scrapers.base import log
+
+NY_TZ = ZoneInfo("America/New_York")
+LINK_TIMEOUT = 20.0
+
+
+def check_link(client: httpx.Client, url: str) -> LinkCheck:
+    now = datetime.now(NY_TZ)
+    try:
+        resp = client.head(url, follow_redirects=True, timeout=LINK_TIMEOUT)
+        # Many servers reject HEAD; retry those with GET before failing the link.
+        if resp.status_code >= 400:
+            resp = client.get(url, follow_redirects=True, timeout=LINK_TIMEOUT)
+        return LinkCheck(url=url, ok=resp.status_code < 400, status_code=resp.status_code, checked_at=now)
+    except httpx.HTTPError as exc:
+        log.debug("link check failed %s: %s", url, exc)
+        return LinkCheck(url=url, ok=False, status_code=None, checked_at=now)
+
+
+def validate_event(
+    event: Event,
+    assume_relevant: bool = False,
+    client: httpx.Client | None = None,
+    check_links: bool = True,
+    now: datetime | None = None,
+) -> Validation:
+    now = now or datetime.now(NY_TZ)
+    scraped = event.scraped
+    checks: dict[str, bool] = {}
+    problems: list[str] = []
+    link_checks: list[LinkCheck] = []
+
+    checks["has_info_url"] = bool(scraped.info_url)
+    if not checks["has_info_url"]:
+        problems.append("no info URL")
+
+    if check_links and client is not None:
+        urls = [u for u in {scraped.info_url, scraped.ticket_url} if u]
+        link_checks = [check_link(client, u) for u in urls]
+        checks["links_live"] = all(lc.ok for lc in link_checks) and bool(link_checks)
+        if not checks["links_live"]:
+            dead = [lc.url for lc in link_checks if not lc.ok]
+            problems.append(f"dead links: {', '.join(dead) or 'none reachable'}")
+    else:
+        # Offline runs (tests, no-network environments) leave links unverified —
+        # which counts as NOT passed, so nothing unverified goes live by accident.
+        checks["links_live"] = False
+        problems.append("links not yet verified (offline run)")
+
+    last_date = max(
+        [scraped.start, *(scraped.additional_dates or [])]
+        + ([scraped.end] if scraped.end else [])
+    )
+    checks["date_valid"] = last_date >= now
+    if not checks["date_valid"]:
+        problems.append(f"event date {last_date.date()} is in the past")
+
+    checks["price_known"] = (
+        scraped.is_free or scraped.price_min is not None or bool(scraped.price_note)
+    )
+    if not checks["price_known"]:
+        problems.append("no price information")
+
+    checks["in_metro"] = scraped.region != Region.UNKNOWN
+    if not checks["in_metro"]:
+        problems.append("region unknown — can't confirm NYC metro")
+
+    if event.ai is None:
+        checks["classified"] = False
+        problems.append("not yet classified (no API key run)")
+    elif not event.ai.relevant:
+        checks["classified"] = False
+        problems.append("classified not-relevant")
+    elif assume_relevant:
+        checks["classified"] = True
+    else:
+        checks["classified"] = event.ai.confidence in (Confidence.HIGH, Confidence.MEDIUM)
+        if not checks["classified"]:
+            problems.append("relevance confidence too low for auto-publish")
+
+    return Validation(
+        passed=all(checks.values()),
+        checks=checks,
+        link_checks=link_checks,
+        problems=problems,
+        validated_at=now,
+    )
+
+
+def apply_publish_policy(event: Event, validation: Validation) -> Status:
+    """Decide the event's status from its validation. Rejected stays rejected
+    (dedup memory); everything else is published iff validation passed."""
+    event.validation = validation
+    if event.ai is not None and not event.ai.relevant and event.ai.confidence == Confidence.HIGH:
+        event.status = Status.REJECTED
+    elif validation.passed:
+        event.status = Status.PUBLISHED
+        event.needs_recheck = False
+    else:
+        event.status = Status.NEEDS_ATTENTION
+    return event.status

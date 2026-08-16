@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+uv.lock
+
+# Node / Astro
+node_modules/
+site/dist/
+site/.astro/
+
+# Generated artifacts: events.json and calendar.ics ARE committed so the
+# site deploy (Cloudflare Pages git integration) needs only the Node build.
+out/
+
+# Local env
+.env
