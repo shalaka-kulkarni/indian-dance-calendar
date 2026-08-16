@@ -1,0 +1,30 @@
+id: 2026-10-13-the-joyce-nrityagram-dance-ensemble-khankhana
+status: needs_attention
+needs_recheck: true
+scraped:
+  title: 'Nrityagram Dance Ensemble: KHANKHANA'
+  start: '2026-10-13T19:30:00-04:00'
+  end: '2026-10-18T19:30:00-04:00'
+  additional_dates: []
+  venue: The Joyce Theater
+  address: 175 8th Ave, New York, NY
+  region: manhattan
+  price_min: 17.0
+  price_max: 72.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.joyce.org/
+  ticket_url: ''
+  description_snippet: Odissi with live music from the one fully professional tourable Indian classical
+    ensemble. Six-day run; Curtain Chat Oct 14. Curtain times to be confirmed against the Joyce listing.
+  content_hash: f56f9a9a46da0981
+  sources:
+  - source_id: manual
+    url: https://www.joyce.org/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+curated:
+  forms:
+  - odissi
+  editor_note: ''
+  overrides: {}

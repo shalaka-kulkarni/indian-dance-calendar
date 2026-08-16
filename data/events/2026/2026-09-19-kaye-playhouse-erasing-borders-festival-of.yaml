@@ -1,0 +1,37 @@
+id: 2026-09-19-kaye-playhouse-erasing-borders-festival-of
+status: needs_attention
+needs_recheck: true
+scraped:
+  title: Erasing Borders Festival of Indian Dance, 18th edition
+  start: '2026-09-19T18:00:00-04:00'
+  additional_dates:
+  - '2026-09-20T18:00:00-04:00'
+  venue: Kaye Playhouse at Hunter College
+  address: 695 Park Ave, New York, NY
+  region: manhattan
+  price_min: 20.0
+  price_max: 20.0
+  is_free: false
+  price_note: from $20
+  info_url: https://iaac.us/
+  ticket_url: ''
+  description_snippet: IAAC's annual festival; six classical forms. Radhe Jaggi & Team (Bharatanatyam
+    + Kalaripayattu), Sreelakshmy Kallungal Govardhanan (Kuchipudi), Shila Mehta trio (Kathak), Radha
+    Varadan (Kathak), Neena Prasad (Mohiniyattam), Arushi Mudgal (Odissi), Preeti Vasudevan (contemporary),
+    Aparna Sindhoor.
+  content_hash: 2acbd506bb52420a
+  sources:
+  - source_id: manual
+    url: https://iaac.us/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+curated:
+  forms:
+  - bharatanatyam
+  - kuchipudi
+  - kathak
+  - mohiniyattam
+  - odissi
+  - contemporary_indian
+  editor_note: ''
+  overrides: {}

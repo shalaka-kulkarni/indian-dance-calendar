@@ -1,0 +1,26 @@
+id: 2026-11-14-gibney-agnes-carved-in-time-mesma
+status: needs_attention
+needs_recheck: true
+scraped:
+  title: Carved in Time — Mesma Belsare & Sonali Skandan
+  start: '2026-11-14T19:00:00-05:00'
+  additional_dates: []
+  venue: Gibney Agnes Varis Performing Arts Center
+  address: 53A Chambers St, New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://gibneydance.org/
+  ticket_url: ''
+  description_snippet: Evening-length work by Mesma Belsare and Sonali Skandan.
+  content_hash: 87e5c578d7618712
+  sources:
+  - source_id: manual
+    url: https://gibneydance.org/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+curated:
+  forms:
+  - bharatanatyam
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sample Venue Calendar</title>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "DanceEvent",
+      "name": "Ragamala Dance Company: Fires of Varanasi",
+      "startDate": "2026-09-18T19:30:00-04:00",
+      "endDate": "2026-09-18T21:00:00-04:00",
+      "url": "https://example-venue.org/events/ragamala",
+      "description": "Ragamala Dance Company performs an evening-length Bharatanatyam work.",
+      "location": {
+        "@type": "Place",
+        "name": "Example Venue Theater",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "175 8th Ave",
+          "addressLocality": "New York",
+          "addressRegion": "NY"
+        }
+      },
+      "offers": [
+        {
+          "@type": "AggregateOffer",
+          "lowPrice": "12",
+          "highPrice": "72",
+          "priceCurrency": "USD",
+          "url": "https://example-venue.org/tickets/ragamala"
+        }
+      ]
+    },
+    {
+      "@type": "TheaterEvent",
+      "name": "An Evening of Chamber Music",
+      "startDate": "2026-09-25T20:00:00-04:00",
+      "url": "https://example-venue.org/events/chamber",
+      "location": {"@type": "Place", "name": "Example Venue Theater"},
+      "offers": {"@type": "Offer", "price": "45", "priceCurrency": "USD", "url": "https://example-venue.org/tickets/chamber"}
+    }
+  ]
+}
+</script>
+</head>
+<body><h1>Calendar</h1></body>
+</html>

@@ -1,0 +1,27 @@
+id: 2026-09-24-bruno-walter-5th-annual-dr-sunil
+status: needs_attention
+needs_recheck: true
+scraped:
+  title: '5th Annual Dr. Sunil Kothari Lecture: Rama Vaidyanathan'
+  start: '2026-09-24T18:00:00-04:00'
+  additional_dates: []
+  venue: Bruno Walter Auditorium, NYPL for the Performing Arts
+  address: 111 Amsterdam Ave, New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.nypl.org/locations/lpa
+  ticket_url: ''
+  description_snippet: Annual dance-scholarship lecture honoring critic Dr. Sunil Kothari, delivered by
+    Bharatanatyam artist Rama Vaidyanathan.
+  content_hash: a5bfade8427ccd0f
+  sources:
+  - source_id: manual
+    url: https://www.nypl.org/locations/lpa
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+curated:
+  forms:
+  - bharatanatyam
+  editor_note: ''
+  overrides: {}
