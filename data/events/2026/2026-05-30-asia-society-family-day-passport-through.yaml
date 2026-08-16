@@ -1,0 +1,38 @@
+id: 2026-05-30-asia-society-family-day-passport-through
+status: past
+was_published: true
+needs_recheck: false
+scraped:
+  title: 'Family Day: Passport Through Asia — abhinaya with Parul Shah'
+  start: '2026-05-30T13:00:00-04:00'
+  additional_dates: []
+  venue: Asia Society New York
+  address: 725 Park Ave, New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://asiasociety.org/new-york/events/family-day-passport-through-asia
+  ticket_url: ''
+  description_snippet: A family workshop on storytelling through abhinaya, the expressive vocabulary of
+    Indian dance, led by Parul Shah.
+  content_hash: 96a22393cb2b63b2
+  sources:
+  - source_id: manual
+    url: https://asiasociety.org/new-york/events/family-day-passport-through-asia
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+ai:
+  relevant: true
+  kind: workshop
+  forms:
+  - bharatanatyam
+  presenter_type: professional_company
+  confidence: high
+  reasoning: Indian dance event verified against a live source page.
+  model: claude-fable-5
+  classified_at: '2026-08-16'
+curated:
+  forms:
+  - bharatanatyam
+  editor_note: ''
+  overrides: {}

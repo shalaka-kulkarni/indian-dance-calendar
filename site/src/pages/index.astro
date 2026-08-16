@@ -44,31 +44,43 @@ function groupByMonth(list) {
 const upcomingMonths = groupByMonth(upcoming);
 const pastMonths = groupByMonth(past);
 
-// Multi-day runs and extra performance dates both need a tail on the badge.
-function dateTail(e) {
-  if (e.end && fmtDay(e.end, { day: 'numeric' }) !== fmtDay(e.start, { day: 'numeric' })) {
-    return `thru ${fmtDay(e.end, { month: 'short', day: 'numeric' })}`;
+// Every date is spelled out. "+1 more" told the reader nothing they could act on.
+const dayLabel = (iso) => fmtDay(iso, { weekday: 'short', month: 'short', day: 'numeric' });
+function datesLine(e) {
+  const t = fmtTime(e.start);
+  const sameDay = (a, b) => a.slice(0, 10) === b.slice(0, 10);
+  if (e.end && !sameDay(e.end, e.start)) {
+    return `${dayLabel(e.start)} – ${dayLabel(e.end)}${t ? ` · from ${t}` : ''}`;
   }
-  if (e.additionalDates?.length) return `+${e.additionalDates.length} more`;
-  return '';
+  const all = [e.start, ...(e.additionalDates ?? [])];
+  if (all.length > 1) {
+    return all.map((d) => `${dayLabel(d)}${fmtTime(d) ? ` ${fmtTime(d)}` : ''}`).join('  ·  ');
+  }
+  return `${dayLabel(e.start)}${t ? ` · ${t}` : ''}`;
 }
 
-const TITLE = 'Indian classical & semi-classical dance events across the New York City metro area';
+// webcal: makes Apple Calendar / Outlook treat this as a live subscription that
+// keeps updating, rather than a one-off .ics download.
+const feedHttps = new URL(`${base}/calendar.ics`, Astro.site ?? 'https://shalaka-kulkarni.github.io').href;
+const feedWebcal = feedHttps.replace(/^https?:/, 'webcal:');
+
+const TITLE = 'Indian Dance Calendar — every Indian dance event across the New York City metro area';
 ---
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Indian Classical &amp; Semi-Classical Dance — NYC Metro Calendar</title>
+    <title>Indian Dance Calendar — New York City metro</title>
     <meta name="description" content={TITLE} />
     <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
   </head>
   <body>
     <header class="masthead">
-      <HeroArt />
+      <HeroArt side="left" />
+      <HeroArt side="right" />
       <div class="masthead-inner wrap">
         <h1>
-          <span class="h1-a">Indian classical &amp;<br />semi-classical dance</span>
+          <span class="h1-a">Indian Dance<br />Calendar</span>
           <span class="h1-b">events across the New York City metro area</span>
         </h1>
         <p class="tagline">
@@ -76,7 +88,7 @@ const TITLE = 'Indian classical & semi-classical dance events across the New Yor
           community halls, in one calendar.
         </p>
         <p class="masthead-cta">
-          <a class="btn-poster btn-sub" href={`${base}/calendar.ics`}>＋ Subscribe in your calendar</a>
+          <a class="btn-poster btn-sub" href={feedWebcal}>＋ Subscribe — auto-updates</a>
           <a class="btn-poster" href={`${base}/about`}>About</a>
         </p>
       </div>
@@ -178,16 +190,21 @@ const TITLE = 'Indian classical & semi-classical dance events across the New Yor
                              data-presenter={e.presenterType}
                              data-kind={e.kind}
                              style={`--form: var(--form-${primaryForm(e)}); --form-ink: var(--form-${primaryForm(e)}-ink);`}>
-                      <div class="poster-panel">
-                        <Motif form={primaryForm(e)} />
-                        {panel.isPast && <span class="stamp">Past</span>}
+                      <div class="date-col">
+                        <span class="date-m">{fmtDay(e.start, { month: 'short' })}</span>
+                        <span class="date-d">{fmtDay(e.start, { day: 'numeric' })}</span>
+                        <span class="date-w">{fmtDay(e.start, { weekday: 'short' })}</span>
+                        <Motif form={primaryForm(e)} class="date-motif" />
                       </div>
-                      <div class="date-badge">
-                        <span class="m">{fmtDay(e.start, { month: 'short' })}</span>
-                        <span class="d">{fmtDay(e.start, { day: 'numeric' })}</span>
-                        <span class="w">{fmtDay(e.start, { weekday: 'short' })}</span>
-                      </div>
+
                       <div class="event-body">
+                        <h3>{e.title}{panel.isPast && <span class="stamp">Past</span>}</h3>
+                        <p class="when">{datesLine(e)}</p>
+                        <p class="meta">
+                          <span class="venue">{e.venue}</span>
+                          {REGION_LABELS[e.region] && <span class="dot">·</span>}
+                          {REGION_LABELS[e.region] && <span>{REGION_LABELS[e.region]}</span>}
+                        </p>
                         <p class="chips-row">
                           {(e.forms ?? []).map((f) => (
                             <span class="tag" style={`--form-c: var(--form-${f}); --form-c-ink: var(--form-${f}-ink);`}>
@@ -195,44 +212,26 @@ const TITLE = 'Indian classical & semi-classical dance events across the New Yor
                             </span>
                           ))}
                           {KIND_LABELS[e.kind] && <span class="tag tag-outline">{KIND_LABELS[e.kind]}</span>}
-                        </p>
-                        <h3>{e.title}</h3>
-                        <p class="meta">
-                          <span class="venue">{e.venue}</span>
-                          {REGION_LABELS[e.region] && <span class="sep">▸</span>}
-                          {REGION_LABELS[e.region] && <span>{REGION_LABELS[e.region]}</span>}
-                        </p>
-                        <p class="meta when">
-                          {fmtTime(e.start) && <span>{fmtTime(e.start)}</span>}
-                          {dateTail(e) && <span class="tail">{dateTail(e)}</span>}
-                        </p>
-                        <div class="price-row">
-                          {e.isFree && <span class="price-free">Free</span>}
-                          {!e.isFree && e.price && <span class="price">{e.price}</span>}
-                          {!e.isFree && !e.price && <span class="price-tba">Price TBA</span>}
                           {PRESENTER_LABELS[e.presenterType] && (
-                            <span class="presenter">{PRESENTER_LABELS[e.presenterType]}</span>
+                            <span class="tag tag-outline">{PRESENTER_LABELS[e.presenterType]}</span>
                           )}
-                        </div>
+                        </p>
                         {e.description && <p class="desc">{e.description}</p>}
                         {e.editorNote && <p class="note">{e.editorNote}</p>}
-                        {!panel.isPast && (
-                          <p class="ctas">
-                            {e.ticketUrl && e.ticketUrl !== e.infoUrl ? (
-                              <>
-                                <a class="btn-poster btn-ticket" href={e.ticketUrl} target="_blank" rel="noopener">Book tickets</a>
-                                <a class="btn-poster btn-info" href={e.infoUrl} target="_blank" rel="noopener">Info</a>
-                              </>
-                            ) : (
-                              <a class="btn-poster btn-ticket" href={e.infoUrl} target="_blank" rel="noopener">Info &amp; tickets</a>
-                            )}
-                          </p>
+                      </div>
+
+                      <div class="action-col">
+                        {e.isFree && <span class="price-free">Free</span>}
+                        {!e.isFree && e.price && <span class="price">{e.price}</span>}
+                        {!e.isFree && !e.price && !panel.isPast && <span class="price-tba">Price TBA</span>}
+                        {!panel.isPast && e.ticketUrl && e.ticketUrl !== e.infoUrl && (
+                          <a class="btn-poster btn-ticket" href={e.ticketUrl} target="_blank" rel="noopener">Book tickets</a>
                         )}
-                        {panel.isPast && (
-                          <p class="past-links">
-                            <span>Tickets closed —</span>
-                            <a href={e.infoUrl} target="_blank" rel="noopener">Info</a>
-                          </p>
+                        {!panel.isPast && (!e.ticketUrl || e.ticketUrl === e.infoUrl) && (
+                          <a class="btn-poster btn-ticket" href={e.infoUrl} target="_blank" rel="noopener">Info &amp; tickets</a>
+                        )}
+                        {(panel.isPast || (e.ticketUrl && e.ticketUrl !== e.infoUrl)) && (
+                          <a class="btn-poster btn-info" href={e.infoUrl} target="_blank" rel="noopener">Info</a>
                         )}
                       </div>
                     </article>
@@ -253,7 +252,10 @@ const TITLE = 'Indian classical & semi-classical dance events across the New Yor
           })} — watching {data.sourceCount} venue calendars and listings, plus a weekly
           broad search. The venue's own page is always the authority on dates, prices and tickets.
         </p>
-        <p><a href={`${base}/about`}>About</a> · <a href={`${base}/calendar.ics`}>Calendar feed</a></p>
+        <p>
+          <a href={`${base}/about`}>About &amp; how to subscribe</a> ·
+          <a href={`${base}/calendar.ics`}>Download .ics</a>
+        </p>
       </div>
     </footer>
 
@@ -374,15 +376,16 @@ const TITLE = 'Indian classical & semi-classical dance events across the New Yor
         padding: clamp(2rem, 6vw, 3.5rem) 0 clamp(1.5rem, 3vw, 2.25rem);
         background: #15110f;
       }
-      /* Scrim: the artwork is decoration, the type must never fight it. */
-      .masthead::after {
-        content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
-        background:
-          linear-gradient(100deg, #15110f 0 34%, rgba(21,17,15,.86) 58%, rgba(21,17,15,.45) 100%),
-          linear-gradient(to top, #15110f 0 12%, rgba(21,17,15,0) 62%);
-      }
-      .hero-art { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -2; opacity: .85; }
-      .masthead-inner { position: relative; z-index: 1; }
+
+            .hero-art { position: absolute; bottom: 0; height: 100%; width: auto; z-index: 0; }
+      .hero-art-left { left: 0; }
+      .hero-art-right { right: 0; }
+      /* Below this width the art would crowd the words, so it steps aside. */
+      @media (max-width: 1080px) { .hero-art-left { display: none; } }
+      @media (max-width: 780px) { .hero-art-right { opacity: .35; } }
+            .masthead-inner { position: relative; z-index: 1; }
+      @media (min-width: 1081px) { .masthead-inner { padding-left: 15rem; padding-right: 17rem; } }
+      @media (min-width: 781px) and (max-width: 1080px) { .masthead-inner { padding-right: 15rem; } }
       .masthead h1 { margin: 0 0 .8rem; }
       .h1-a {
         display: block;
@@ -476,9 +479,10 @@ const TITLE = 'Indian classical & semi-classical dance events across the New Yor
       /* ---------- month bands ---------- */
       .month-band {
         margin: 0; border-bottom: 3px solid var(--rule);
-        font: 900 var(--t-band)/1 var(--font-display);
+        font: 900 clamp(1.1rem, 2.4vw, 1.6rem)/1 var(--font-display);
         text-transform: uppercase; letter-spacing: .02em;
-        padding: .55rem 0 .4rem; background: var(--bg); color: var(--ink);
+        padding: .45rem 0 .35rem; background: var(--bg); color: var(--ink);
+        position: sticky; top: var(--rail-h, 0); z-index: 5;
       }
       .month-band .band-inner { border-left: 10px solid var(--band-c, var(--turmeric)); padding-left: .7rem; }
       .band-inner { display: flex; justify-content: space-between; align-items: baseline; }
@@ -490,114 +494,93 @@ const TITLE = 'Indian classical & semi-classical dance events across the New Yor
       .panel-past .month-band { --band-c: var(--ink-muted); }
       .panel-past { background: var(--bg-alt); }
 
-      /* ---------- cards ---------- */
+      /* ---------- event rows ----------
+         A list, not a grid: single-event months no longer leave two empty
+         cells, and the horizontal space goes to the description instead. */
       main { padding-bottom: 3rem; }
-      .month { margin-bottom: 2rem; }
-      .event-grid {
-        display: grid; gap: 1.6rem; padding-top: 1.6rem;
-        grid-template-columns: repeat(auto-fill, minmax(18.5rem, 1fr));
-      }
+      .month { margin-bottom: 1.6rem; }
+      .event-grid { display: flex; flex-direction: column; gap: .9rem; padding-top: 1rem; }
+
       .event {
-        position: relative; background: var(--surface);
-        border: 3px solid var(--rule); border-radius: 0;
+        position: relative;
+        display: grid;
+        grid-template-columns: 5.5rem minmax(0, 1fr) minmax(9.5rem, auto);
+        gap: 1.1rem;
+        background: var(--surface);
+        border: 3px solid var(--rule);
+        border-left: 10px solid var(--form);
+        padding: 1rem 1.1rem;
         box-shadow: 4px 4px 0 0 var(--offset);
-        transition: transform .12s steps(2), box-shadow .12s steps(2);
+        /* No hover lift: nothing happens when you click a row, so it must not
+           behave like a button. Only the real links react. */
       }
-      .event:hover, .event:focus-within {
-        transform: translate(-2px, -2px); box-shadow: 6px 6px 0 0 var(--offset);
+      @media (max-width: 760px) {
+        .event { grid-template-columns: 4.2rem minmax(0, 1fr); }
+        .action-col { grid-column: 1 / -1; flex-direction: row; align-items: center; flex-wrap: wrap; }
       }
-      .poster-panel {
-        position: relative; overflow: hidden; aspect-ratio: 5/2;
-        background: var(--form); color: var(--form-ink);
-        border-bottom: 3px solid var(--rule);
+
+      .date-col {
+        text-align: center; border-right: 2px solid var(--rule-soft); padding-right: .6rem;
+        display: flex; flex-direction: column; align-items: center; gap: .05rem;
       }
-      .poster-panel .motif {
-        position: absolute; right: 4%; bottom: -30%;
-        height: 150%; width: auto; opacity: .5;
+      .date-m {
+        font: 700 .68rem/1 var(--font-condensed); letter-spacing: .14em;
+        text-transform: uppercase; color: var(--form);
       }
-      .date-badge {
-        position: absolute; top: -14px; left: -14px; z-index: 2;
-        background: var(--ink); color: var(--ink-on-block);
-        border: 3px solid var(--rule); box-shadow: 4px 4px 0 0 var(--form);
-        padding: .35rem .6rem .3rem; text-align: center; min-width: 4rem;
+      .date-d { font: 900 var(--t-day)/0.9 var(--font-display); color: var(--ink); }
+      .date-w {
+        font: 700 .66rem/1 var(--font-condensed); letter-spacing: .1em;
+        text-transform: uppercase; color: var(--ink-muted);
       }
-      .date-badge .m {
-        display: block; font: 700 .68rem/1 var(--font-condensed);
-        letter-spacing: .14em; text-transform: uppercase; color: var(--turmeric);
+      .date-motif { width: 2rem; height: 2rem; margin-top: .5rem; color: var(--form); opacity: .9; }
+
+      .event-body h3 {
+        margin: 0 0 .3rem; font: 800 var(--t-title)/1.25 var(--font-ui);
+        text-wrap: balance;
       }
-      .date-badge .d { display: block; font: 900 var(--t-day)/0.85 var(--font-display); }
-      .date-badge .w {
-        display: block; font: 700 .66rem/1 var(--font-condensed);
-        letter-spacing: .1em; text-transform: uppercase;
+      .when {
+        margin: 0 0 .2rem; font: 700 .9rem/1.4 var(--font-ui); color: var(--ink);
       }
-      .event-body { padding: 1rem 1.1rem 1.2rem; }
+      .meta { margin: 0 0 .5rem; font: 400 .9rem/1.4 var(--font-ui); color: var(--ink-muted); }
+      .meta .venue { font-weight: 600; color: var(--ink); }
+      .meta .dot { margin: 0 .4rem; color: var(--ink-muted); }
       .chips-row { display: flex; gap: .3rem; flex-wrap: wrap; margin: 0 0 .5rem; }
       .tag {
         background: var(--form-c); color: var(--form-c-ink);
-        border: 2px solid var(--rule); padding: .16rem .45rem;
-        font: 700 .7rem/1 var(--font-condensed);
+        border: 2px solid var(--rule); padding: .14rem .42rem;
+        font: 700 .68rem/1 var(--font-condensed);
         letter-spacing: .07em; text-transform: uppercase;
       }
-      .tag-outline { background: transparent; color: var(--ink); }
-      .event-body h3 {
-        margin: 0 0 .4rem; font: 800 var(--t-title)/1.22 var(--font-ui);
-        text-wrap: balance;
+      .tag-outline { background: transparent; color: var(--ink-muted); border-color: var(--rule-soft); }
+      /* Full description — a clamped card with no way to expand is a dead end. */
+      .desc { margin: 0; font-size: .93rem; line-height: 1.5; max-width: 70ch; }
+      .note { margin: .4rem 0 0; font-size: .9rem; font-style: italic; color: var(--ink-muted); }
+
+      .action-col {
+        display: flex; flex-direction: column; align-items: stretch; gap: .5rem;
+        border-left: 2px solid var(--rule-soft); padding-left: 1rem;
       }
-      .meta { margin: 0 0 .25rem; font: 600 .88rem/1.4 var(--font-ui); color: var(--ink-muted); }
-      .meta .venue { color: var(--ink); }
-      .meta .sep { color: var(--form); margin: 0 .35rem; font-weight: 900; }
-      .when { display: flex; gap: .5rem; flex-wrap: wrap; }
-      .when .tail {
-        font: 700 .7rem/1.5 var(--font-condensed); letter-spacing: .08em;
-        text-transform: uppercase; color: var(--ink);
-        border: 2px solid var(--rule); padding: 0 .35rem;
-      }
-      .price-row {
-        display: flex; align-items: center; justify-content: space-between; gap: .6rem;
-        border-top: 2px solid var(--rule); margin-top: .7rem; padding-top: .7rem;
-      }
-      .price { font: 900 1.25rem/1 var(--font-display); border: 2px solid var(--rule); padding: .15rem .45rem; }
+      @media (max-width: 760px) { .action-col { border-left: 0; padding-left: 0; padding-top: .6rem; } }
+      .price { font: 900 1.3rem/1 var(--font-display); text-align: center; }
       .price-free {
         background: var(--turmeric); color: var(--turmeric-ink);
-        border: 2px solid var(--rule); padding: .2rem .5rem;
+        border: 2px solid var(--rule); padding: .22rem .5rem; text-align: center;
         font: 700 .78rem/1 var(--font-condensed); letter-spacing: .1em; text-transform: uppercase;
       }
       .price-tba {
-        color: var(--ink-muted); border: 2px dashed var(--ink-muted); padding: .18rem .45rem;
-        font: 700 .72rem/1 var(--font-condensed); letter-spacing: .08em; text-transform: uppercase;
+        color: var(--ink-muted); border: 2px dashed var(--rule-soft); padding: .2rem .45rem;
+        text-align: center;
+        font: 700 .7rem/1 var(--font-condensed); letter-spacing: .08em; text-transform: uppercase;
       }
-      .presenter {
-        font: 700 .68rem/1.2 var(--font-condensed); letter-spacing: .08em;
-        text-transform: uppercase; color: var(--ink-muted); text-align: right;
-      }
-      .desc {
-        margin: .7rem 0 0; font-size: .93rem;
-        display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
-      }
-      .note { margin: .5rem 0 0; font-size: .9rem; font-style: italic; color: var(--ink-muted); }
-      .ctas { display: grid; grid-template-columns: 1fr auto; gap: .5rem; margin: .9rem 0 0; }
-      .ctas .btn-poster { width: 100%; }
-      @media (max-width: 380px) { .ctas { grid-template-columns: 1fr; } }
 
-      /* ---------- past ---------- */
-      .event.is-past { box-shadow: none; }
-      .event.is-past:hover { transform: none; box-shadow: none; }
-      .event.is-past .poster-panel {
-        background: repeating-linear-gradient(45deg,
-          var(--form) 0 10px, var(--surface) 10px 20px);
-      }
-      .event.is-past .date-badge { background: var(--surface); color: var(--ink); box-shadow: none; }
-      .event.is-past .date-badge .m { color: var(--ink-muted); }
+      /* ---------- archive rows ---------- */
+      .event.is-past { box-shadow: none; background: var(--surface); }
+      .event.is-past .date-d, .event.is-past .date-m { color: var(--ink-muted); }
       .stamp {
-        position: absolute; top: .8rem; right: -.3rem; z-index: 3; transform: rotate(-7deg);
-        background: var(--ink); color: var(--ink-on-block);
-        border: 3px solid var(--rule); padding: .2rem .6rem;
-        font: 900 .78rem/1 var(--font-display); letter-spacing: .2em; text-transform: uppercase;
-      }
-      .past-links { margin: .9rem 0 0; font-size: .9rem; color: var(--ink-muted); }
-      .past-links a {
-        color: var(--link); font-weight: 700;
-        text-decoration-thickness: 2px; text-underline-offset: 3px; margin-left: .3rem;
+        display: inline-block; margin-left: .5rem; vertical-align: middle;
+        background: var(--rail-bg); color: var(--rail-ink);
+        border: 2px solid var(--rule); padding: .1rem .4rem;
+        font: 900 .62rem/1.3 var(--font-display); letter-spacing: .18em; text-transform: uppercase;
       }
 
       .empty {

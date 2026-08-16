@@ -1,0 +1,38 @@
+id: 2026-04-25-theater-at-garden-of-dance-a
+status: past
+was_published: true
+needs_recheck: false
+scraped:
+  title: 'Garden of Dance: a living tribute to Rukmini Devi Arundale'
+  start: '2026-04-25T18:30:00-04:00'
+  additional_dates: []
+  venue: Theater at St. Jean
+  address: 150 E 76th St, New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.tickettailor.com/events/fragranceofalegendrememberingrukminideviarundale/2075113
+  ticket_url: ''
+  description_snippet: An International Dance Day tribute to Bharatanatyam figure Rukmini Devi Arundale,
+    presented by Kalakshetra Foundation alumni Damir Tasmagambetov and Tatyana Popova.
+  content_hash: a5bbdfb74688eb28
+  sources:
+  - source_id: manual
+    url: https://www.tickettailor.com/events/fragranceofalegendrememberingrukminideviarundale/2075113
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+ai:
+  relevant: true
+  kind: performance
+  forms:
+  - bharatanatyam
+  presenter_type: professional_company
+  confidence: high
+  reasoning: Indian dance event verified against a live source page.
+  model: claude-fable-5
+  classified_at: '2026-08-16'
+curated:
+  forms:
+  - bharatanatyam
+  editor_note: ''
+  overrides: {}

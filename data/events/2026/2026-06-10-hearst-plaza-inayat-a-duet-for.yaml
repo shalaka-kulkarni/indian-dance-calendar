@@ -1,0 +1,41 @@
+id: 2026-06-10-hearst-plaza-inayat-a-duet-for
+status: past
+was_published: true
+needs_recheck: false
+scraped:
+  title: 'Inayat: A Duet for Four'
+  start: '2026-06-10T17:00:00-04:00'
+  additional_dates: []
+  venue: Hearst Plaza, Lincoln Center
+  address: 10 Lincoln Center Plaza, New York, NY
+  region: manhattan
+  is_free: true
+  price_note: Free / choose-what-you-pay
+  info_url: https://www.lincolncenter.org/series/summer-for-the-city/inayat-a-duet-for-four-267
+  ticket_url: ''
+  description_snippet: Opening night of Lincoln Center's Summer for the City paired Rajasthani folk music
+    from the Langa musicians of SAZ with new Kathak danced by Tarini Tripathi and choreographed by Gauri
+    Sharma Tripathi, in collaboration with Jodhpur RIFF.
+  content_hash: b576b079ec04e622
+  sources:
+  - source_id: manual
+    url: https://www.lincolncenter.org/series/summer-for-the-city/inayat-a-duet-for-four-267
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+ai:
+  relevant: true
+  kind: performance
+  forms:
+  - kathak
+  - folk
+  presenter_type: professional_company
+  confidence: high
+  reasoning: Indian dance event verified against a live source page.
+  model: claude-fable-5
+  classified_at: '2026-08-16'
+curated:
+  forms:
+  - kathak
+  - folk
+  editor_note: ''
+  overrides: {}

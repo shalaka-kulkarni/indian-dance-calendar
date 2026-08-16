@@ -21,6 +21,7 @@ problem list attached, and the healthcheck surfaces the queue as a report.
 from __future__ import annotations
 
 from datetime import datetime
+from urllib.parse import urlparse
 from zoneinfo import ZoneInfo
 
 import httpx
@@ -39,7 +40,14 @@ NY_TZ = ZoneInfo("America/New_York")
 LINK_TIMEOUT = 20.0
 
 # Checks that gate publication. price_known is deliberately absent — see module docstring.
-BLOCKING_CHECKS = ("has_info_url", "links_live", "date_valid", "in_metro", "classified")
+BLOCKING_CHECKS = (
+    "has_info_url",
+    "specific_url",
+    "links_live",
+    "date_valid",
+    "in_metro",
+    "classified",
+)
 
 
 def check_link(client: httpx.Client, url: str) -> LinkCheck:
@@ -71,6 +79,14 @@ def validate_event(
     checks["has_info_url"] = bool(scraped.info_url)
     if not checks["has_info_url"]:
         problems.append("no info URL")
+
+    # A live link is not the same as a useful one. A bare homepage passes a
+    # reachability check while telling the reader nothing about the event, so
+    # the link must point somewhere deeper than the domain root.
+    path = urlparse(scraped.info_url).path if scraped.info_url else ""
+    checks["specific_url"] = len(path.strip("/")) > 0
+    if not checks["specific_url"]:
+        problems.append(f"info URL is a bare homepage, not an event page: {scraped.info_url}")
 
     if check_links and client is not None:
         urls = [u for u in {scraped.info_url, scraped.ticket_url} if u]
@@ -140,11 +156,11 @@ def validate_past_event(
         checks["links_live"] = link_checks[0].ok
         if not checks["links_live"]:
             problems.append(f"archive info link dead: {event.scraped.info_url}")
-    else:
-        # Offline: keep whatever the last online check concluded rather than
-        # dropping the whole archive off the site.
-        previous = event.validation.checks.get("links_live") if event.validation else None
-        checks["links_live"] = bool(previous)
+    elif event.validation and "links_live" in event.validation.checks:
+        # Offline: carry forward the last real verdict rather than inventing one.
+        checks["links_live"] = event.validation.checks["links_live"]
+    # Otherwise leave links_live absent entirely — "not yet checked" must never
+    # be recorded as "dead", which would silently empty the archive.
     return Validation(
         passed=all(checks.values()),
         checks=checks,

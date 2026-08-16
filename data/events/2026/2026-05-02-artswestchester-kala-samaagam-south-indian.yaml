@@ -1,0 +1,40 @@
+id: 2026-05-02-artswestchester-kala-samaagam-south-indian
+status: past
+was_published: true
+needs_recheck: false
+scraped:
+  title: 'Kala Samaagam: South Indian Music & Dance Festival community day'
+  start: '2026-05-02T11:00:00-04:00'
+  additional_dates: []
+  venue: ArtsWestchester
+  address: 31 Mamaroneck Ave, White Plains, NY
+  region: westchester
+  is_free: true
+  price_note: ''
+  info_url: https://www.eventbrite.com/e/kala-samaagam-south-indian-music-dance-festival-tickets-1985448320373
+  ticket_url: ''
+  description_snippet: A free family day of South Indian arts with close to a dozen folk, classical and
+    devotional dance styles alongside music and workshops.
+  content_hash: d08b998808d55dfb
+  sources:
+  - source_id: manual
+    url: https://www.eventbrite.com/e/kala-samaagam-south-indian-music-dance-festival-tickets-1985448320373
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+ai:
+  relevant: true
+  kind: festival
+  forms:
+  - folk
+  - bharatanatyam
+  presenter_type: mixed
+  confidence: high
+  reasoning: Indian dance event verified against a live source page.
+  model: claude-fable-5
+  classified_at: '2026-08-16'
+curated:
+  forms:
+  - folk
+  - bharatanatyam
+  editor_note: ''
+  overrides: {}

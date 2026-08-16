@@ -36,21 +36,19 @@ validation:
   passed: false
   checks:
     has_info_url: true
-    links_live: true
+    specific_url: true
+    links_live: false
     date_valid: false
     price_known: false
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://queenstheatre.org/events/sunday-socials-nr6f
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-16T15:22:52.838465-04:00'
+  link_checks: []
   problems:
+  - links not yet verified (offline run)
   - event date 2026-08-16 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T15:22:52.838452-04:00'
+  validated_at: '2026-08-16T15:53:24.317232-04:00'
 curated:
   forms: []
   editor_note: ''

@@ -94,3 +94,36 @@ def test_past_event_validation_is_link_only(sample_event):
     # Past date and missing tickets must not fail an archive entry.
     assert validation.passed
     assert set(validation.checks) == {"has_info_url", "links_live"}
+
+
+def test_bare_homepage_url_blocks_publication(sample_event, monkeypatch):
+    """A live link is not a useful one: a homepage passes reachability but tells
+    the reader nothing about the event, so it must not publish."""
+    from pipeline import validate as validate_module
+    from pipeline.models import LinkCheck
+
+    sample_event.ai = relevant_ai()
+    sample_event.scraped.info_url = "https://gibneydance.org/"
+    sample_event.scraped.ticket_url = ""
+    monkeypatch.setattr(
+        validate_module,
+        "check_link",
+        lambda client, url: LinkCheck(url=url, ok=True, status_code=200, checked_at=NOW),
+    )
+    validation = validate_event(sample_event, client=object(), check_links=True, now=NOW)
+    assert validation.checks["links_live"] is True  # the link works...
+    assert validation.checks["specific_url"] is False  # ...but points nowhere useful
+    assert not validation.passed
+    assert apply_publish_policy(sample_event, validation) == Status.NEEDS_ATTENTION
+
+
+def test_offline_past_validation_never_records_a_dead_link(sample_event):
+    """'Not yet checked' must not be stored as 'dead', which would empty the archive."""
+    from pipeline.models import Status as S
+    from pipeline.validate import validate_past_event
+
+    sample_event.status = S.PAST
+    sample_event.was_published = True
+    sample_event.validation = None
+    validation = validate_past_event(sample_event, client=None, now=NOW)
+    assert "links_live" not in validation.checks

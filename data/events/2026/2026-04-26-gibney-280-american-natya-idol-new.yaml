@@ -1,0 +1,44 @@
+id: 2026-04-26-gibney-280-american-natya-idol-new
+status: past
+was_published: true
+needs_recheck: false
+scraped:
+  title: American Natya Idol — New York regionals
+  start: '2026-04-26T10:30:00-04:00'
+  additional_dates: []
+  venue: Gibney, 280 Broadway
+  address: 53A Chambers St, New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://natya.org/new-york-natya-idol-2026/
+  ticket_url: ''
+  description_snippet: Regional round of the national classical Indian dance competition, judged by Prasanna
+    Kasthuri and Pushyami Lanka Gottupati.
+  content_hash: f1d7c39604a3384b
+  sources:
+  - source_id: manual
+    url: https://natya.org/new-york-natya-idol-2026/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+ai:
+  relevant: true
+  kind: other
+  forms:
+  - bharatanatyam
+  - kathak
+  - kuchipudi
+  - folk
+  presenter_type: academy_student
+  confidence: high
+  reasoning: Indian dance event verified against a live source page.
+  model: claude-fable-5
+  classified_at: '2026-08-16'
+curated:
+  forms:
+  - bharatanatyam
+  - kathak
+  - kuchipudi
+  - folk
+  editor_note: ''
+  overrides: {}

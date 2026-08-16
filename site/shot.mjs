@@ -1,0 +1,15 @@
+import { chromium } from 'playwright';
+const S='/tmp/claude-0/-home-user-skyd-app/ed2bb6ea-ee87-5344-8c43-397ba0ca3569/scratchpad';
+const b=await chromium.launch({executablePath:'/opt/pw-browsers/chromium'});
+const ctx=await b.newContext({colorScheme:'light',viewport:{width:1280,height:1250}});
+const p=await ctx.newPage();
+await p.goto('http://localhost:8767/index.html');
+await p.waitForTimeout(400);
+await p.evaluate(()=>window.scrollTo(0,520));
+await p.waitForTimeout(250);
+await p.screenshot({path:`${S}/rows-upcoming.png`});
+await p.click('#tab-past');
+await p.evaluate(()=>window.scrollTo(0,520));
+await p.waitForTimeout(250);
+await p.screenshot({path:`${S}/rows-past.png`});
+await b.close(); console.log('ok');

@@ -1,44 +1,65 @@
 ---
-// Gopuram tower flanked by two rangoli discs, deliberately cropped by the
-// masthead so it reads as printed artwork rather than a placed illustration.
-// Hex values are hardcoded: the hero keeps its poster colours in both themes.
+// Masthead artwork, deliberately split to the LEFT and RIGHT edges so the
+// title sits on clean ground between them rather than on top of the art.
+// Hex values are hardcoded: the masthead keeps its poster colours in both themes.
+const { side = 'left' } = Astro.props;
 ---
-<svg class="hero-art" viewBox="0 0 1200 420" preserveAspectRatio="xMidYMax slice"
-     aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <clipPath id="gopuram-clip">
-      <path d="M600 8 665 88 640 88 700 178 668 178 740 288 700 288 780 412 420 412 500 288 460 288 532 178 500 178 560 88 535 88Z"/>
-    </clipPath>
-    <g id="rangoli">
-      <circle r="94" fill="#2947c4"/>
-      <g fill="#f7ce1a">
-        <path id="petal" d="M0-92C22-56 22-40 0-16-22-40-22-56 0-92Z"/>
-        <use href="#petal" transform="rotate(30)"/>
-        <use href="#petal" transform="rotate(60)"/>
-        <use href="#petal" transform="rotate(90)"/>
-        <use href="#petal" transform="rotate(120)"/>
-        <use href="#petal" transform="rotate(150)"/>
-        <use href="#petal" transform="rotate(180)"/>
-        <use href="#petal" transform="rotate(210)"/>
-        <use href="#petal" transform="rotate(240)"/>
-        <use href="#petal" transform="rotate(270)"/>
-        <use href="#petal" transform="rotate(300)"/>
-        <use href="#petal" transform="rotate(330)"/>
+{side === 'left' && (
+  <svg class="hero-art hero-art-left" viewBox="0 0 260 420" aria-hidden="true"
+       focusable="false" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <g id="rangoli-l">
+        <circle r="94" fill="#2947c4"/>
+        <g fill="#f7ce1a">
+          <path id="petal-l" d="M0-92C22-56 22-40 0-16-22-40-22-56 0-92Z"/>
+          <use href="#petal-l" transform="rotate(30)"/><use href="#petal-l" transform="rotate(60)"/>
+          <use href="#petal-l" transform="rotate(90)"/><use href="#petal-l" transform="rotate(120)"/>
+          <use href="#petal-l" transform="rotate(150)"/><use href="#petal-l" transform="rotate(180)"/>
+          <use href="#petal-l" transform="rotate(210)"/><use href="#petal-l" transform="rotate(240)"/>
+          <use href="#petal-l" transform="rotate(270)"/><use href="#petal-l" transform="rotate(300)"/>
+          <use href="#petal-l" transform="rotate(330)"/>
+        </g>
+        <circle r="34" fill="#c4162a"/>
+        <circle r="15" fill="#fff9ec"/>
       </g>
-      <circle r="34" fill="#c4162a"/>
-      <circle r="15" fill="#fff9ec"/>
+    </defs>
+    <use href="#rangoli-l" transform="translate(40 128) scale(.92)"/>
+    <use href="#rangoli-l" transform="translate(150 320) scale(.58)"/>
+    <rect x="0" y="404" width="260" height="16" fill="#007c7a"/>
+  </svg>
+)}
+
+{side === 'right' && (
+  <svg class="hero-art hero-art-right" viewBox="0 0 300 420" aria-hidden="true"
+       focusable="false" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <clipPath id="gopuram-clip">
+        <path d="M150 30 205 100 183 100 233 178 205 178 268 280 233 280 300 404 0 404 67 280 32 280 95 178 67 178 117 100 95 100Z"/>
+      </clipPath>
+      <g id="rangoli-r">
+        <circle r="94" fill="#2947c4"/>
+        <g fill="#f7ce1a">
+          <path id="petal-r" d="M0-92C22-56 22-40 0-16-22-40-22-56 0-92Z"/>
+          <use href="#petal-r" transform="rotate(30)"/><use href="#petal-r" transform="rotate(60)"/>
+          <use href="#petal-r" transform="rotate(90)"/><use href="#petal-r" transform="rotate(120)"/>
+          <use href="#petal-r" transform="rotate(150)"/><use href="#petal-r" transform="rotate(180)"/>
+          <use href="#petal-r" transform="rotate(210)"/><use href="#petal-r" transform="rotate(240)"/>
+          <use href="#petal-r" transform="rotate(270)"/><use href="#petal-r" transform="rotate(300)"/>
+          <use href="#petal-r" transform="rotate(330)"/>
+        </g>
+        <circle r="34" fill="#c4162a"/>
+        <circle r="15" fill="#fff9ec"/>
+      </g>
+    </defs>
+    <path d="M150 30 205 100 183 100 233 178 205 178 268 280 233 280 300 404 0 404 67 280 32 280 95 178 67 178 117 100 95 100Z" fill="#c4162a"/>
+    <g clip-path="url(#gopuram-clip)">
+      <rect x="0" y="120" width="300" height="15" fill="#f7ce1a"/>
+      <rect x="0" y="205" width="300" height="15" fill="#f7ce1a"/>
+      <rect x="0" y="300" width="300" height="15" fill="#f7ce1a"/>
+      <rect x="0" y="344" width="300" height="60" fill="#007c7a"/>
+      <path d="M150 344a38 38 0 0 1 38 38v22h-76v-22a38 38 0 0 1 38-38Z" fill="#15110f"/>
     </g>
-  </defs>
-
-  <use href="#rangoli" transform="translate(120 300) scale(.62)"/>
-  <use href="#rangoli" transform="translate(1085 285) scale(.55)"/>
-
-  <path d="M600 8 665 88 640 88 700 178 668 178 740 288 700 288 780 412 420 412 500 288 460 288 532 178 500 178 560 88 535 88Z" fill="#c4162a"/>
-  <g clip-path="url(#gopuram-clip)">
-    <rect x="420" y="112" width="360" height="16" fill="#f7ce1a"/>
-    <rect x="420" y="206" width="360" height="16" fill="#f7ce1a"/>
-    <rect x="420" y="312" width="360" height="16" fill="#f7ce1a"/>
-    <rect x="420" y="352" width="360" height="60" fill="#007c7a"/>
-    <path d="M600 352a40 40 0 0 1 40 40v20h-80v-20a40 40 0 0 1 40-40Z" fill="#17130e"/>
-  </g>
-</svg>
+    <use href="#rangoli-r" transform="translate(272 96) scale(.62)"/>
+    <rect x="0" y="404" width="300" height="16" fill="#007c7a"/>
+  </svg>
+)}

@@ -1,0 +1,39 @@
+id: 2026-07-31-new-york-new-york-kathak-festival
+status: past
+was_published: true
+needs_recheck: false
+scraped:
+  title: New York Kathak Festival 2026, 4th edition
+  start: '2026-07-31T19:00:00-04:00'
+  end: '2026-08-02T15:00:00-04:00'
+  additional_dates: []
+  venue: New York Live Arts
+  address: 219 W 19th St, New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://newyorklivearts.org/event/new-york-kathak-festival-2026/
+  ticket_url: ''
+  description_snippet: The fourth edition ran across three days of performances, workshops and conversations
+    centred on Kathak, headlined by Prashant Shah and Sandip Mallick.
+  content_hash: 37f114cbdc3227e7
+  sources:
+  - source_id: manual
+    url: https://newyorklivearts.org/event/new-york-kathak-festival-2026/
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+ai:
+  relevant: true
+  kind: festival
+  forms:
+  - kathak
+  presenter_type: professional_company
+  confidence: high
+  reasoning: Indian dance event verified against a live source page.
+  model: claude-fable-5
+  classified_at: '2026-08-16'
+curated:
+  forms:
+  - kathak
+  editor_note: ''
+  overrides: {}

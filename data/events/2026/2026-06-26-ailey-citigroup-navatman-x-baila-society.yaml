@@ -1,0 +1,44 @@
+id: 2026-06-26-ailey-citigroup-navatman-x-baila-society
+status: past
+was_published: true
+needs_recheck: false
+scraped:
+  title: 'Navatman x Baila Society: When the Sun Rises'
+  start: '2026-06-26T20:00:00-04:00'
+  additional_dates:
+  - '2026-06-27T19:30:00-04:00'
+  - '2026-06-28T15:00:00-04:00'
+  venue: Ailey Citigroup Theater
+  address: 405 W 55th St, New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://natlawreview.com/press-releases/kathak-bharatanatyam-and-salsa-converge-alvin-ailey-stage-weekend-only
+  ticket_url: ''
+  description_snippet: Kathak, Bharatanatyam and salsa shared one stage with an original live score, directed
+    by Ahtoy Juliana and Sahasra Sambamoorthi.
+  content_hash: c6a6b54b6de40b03
+  sources:
+  - source_id: manual
+    url: https://natlawreview.com/press-releases/kathak-bharatanatyam-and-salsa-converge-alvin-ailey-stage-weekend-only
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+ai:
+  relevant: true
+  kind: performance
+  forms:
+  - kathak
+  - bharatanatyam
+  - fusion
+  presenter_type: professional_company
+  confidence: high
+  reasoning: Indian dance event verified against a live source page.
+  model: claude-fable-5
+  classified_at: '2026-08-16'
+curated:
+  forms:
+  - kathak
+  - bharatanatyam
+  - fusion
+  editor_note: ''
+  overrides: {}

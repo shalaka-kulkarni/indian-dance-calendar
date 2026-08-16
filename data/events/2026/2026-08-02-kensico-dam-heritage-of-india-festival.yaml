@@ -1,0 +1,40 @@
+id: 2026-08-02-kensico-dam-heritage-of-india-festival
+status: past
+was_published: true
+needs_recheck: false
+scraped:
+  title: Heritage of India Festival, 26th annual
+  start: '2026-08-02T12:00:00-04:00'
+  additional_dates: []
+  venue: Kensico Dam Plaza
+  address: Valhalla, NY
+  region: westchester
+  is_free: true
+  price_note: ''
+  info_url: https://parks.westchestercountyny.gov/press-releases/celebrate-culture-and-community-at-the-heritage-of-india-festival-at-kensico-dam-plaza-on-august-2
+  ticket_url: ''
+  description_snippet: A free outdoor Westchester festival with more than 40 performers of traditional
+    and contemporary Indian dance and music.
+  content_hash: e5bc00e632b67058
+  sources:
+  - source_id: manual
+    url: https://parks.westchestercountyny.gov/press-releases/celebrate-culture-and-community-at-the-heritage-of-india-festival-at-kensico-dam-plaza-on-august-2
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+ai:
+  relevant: true
+  kind: festival
+  forms:
+  - folk
+  - bharatanatyam
+  presenter_type: mixed
+  confidence: high
+  reasoning: Indian dance event verified against a live source page.
+  model: claude-fable-5
+  classified_at: '2026-08-16'
+curated:
+  forms:
+  - folk
+  - bharatanatyam
+  editor_note: ''
+  overrides: {}

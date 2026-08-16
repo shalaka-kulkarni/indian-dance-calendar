@@ -1,0 +1,41 @@
+id: 2026-04-25-flushing-town-holi-dance-music-celebration
+status: past
+was_published: true
+needs_recheck: false
+scraped:
+  title: 'Holi Dance & Music Celebration: Festival of Colors'
+  start: '2026-04-25T14:15:00-04:00'
+  additional_dates: []
+  venue: Flushing Town Hall
+  address: 137-35 Northern Blvd, Flushing, NY
+  region: queens
+  price_min: 12.0
+  price_max: 20.0
+  is_free: false
+  price_note: $12–$20 depending on advance or day-of
+  info_url: https://www.flushingtownhall.org/show-details/holi-dance-music-celebration-festival-of-colors
+  ticket_url: ''
+  description_snippet: Abha B. Roy and dancers of Srijan Dance Company performed regional Indian folk
+    dances from Bengal, Kashmir, Tamil Nadu, Rajasthan, Gujarat and Uttar Pradesh, with Hindustani vocalist
+    Sanjukta Sen, closing with colour-throwing in the garden.
+  content_hash: 448e4ba8b6d48f44
+  sources:
+  - source_id: manual
+    url: https://www.flushingtownhall.org/show-details/holi-dance-music-celebration-festival-of-colors
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+ai:
+  relevant: true
+  kind: performance
+  forms:
+  - folk
+  presenter_type: professional_company
+  confidence: high
+  reasoning: Indian dance event verified against a live source page.
+  model: claude-fable-5
+  classified_at: '2026-08-16'
+curated:
+  forms:
+  - folk
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,38 @@
+id: 2026-08-15-queens-theatre-queensboro-dance-festival-finale
+status: past
+was_published: true
+needs_recheck: false
+scraped:
+  title: Queensboro Dance Festival finale — Neela Zareen (Kathak)
+  start: '2026-08-15T19:00:00-04:00'
+  additional_dates: []
+  venue: Queens Theatre
+  address: Flushing Meadows Corona Park, Queens, NY
+  region: queens
+  is_free: false
+  price_note: ''
+  info_url: https://www.queenstheatre.org/events/2026-queensboro-dance-festival-tour-finale-1jdr
+  ticket_url: ''
+  description_snippet: The borough-wide festival's mainstage finale included Kathak by Neela Zareen of
+    Neela Dance Academy among 20 Queens dance companies.
+  content_hash: 96c024664ffcb052
+  sources:
+  - source_id: manual
+    url: https://www.queenstheatre.org/events/2026-queensboro-dance-festival-tour-finale-1jdr
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+ai:
+  relevant: true
+  kind: performance
+  forms:
+  - kathak
+  presenter_type: professional_company
+  confidence: high
+  reasoning: Indian dance event verified against a live source page.
+  model: claude-fable-5
+  classified_at: '2026-08-16'
+curated:
+  forms:
+  - kathak
+  editor_note: ''
+  overrides: {}
