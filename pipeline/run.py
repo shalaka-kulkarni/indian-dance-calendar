@@ -28,6 +28,7 @@ from pipeline.models import Event, Region, Source, Status, Strategy
 from pipeline.normalize import normalize
 from pipeline.registry import load_sources
 from pipeline.scrapers.base import RawEvent, ScrapeResult, fetch_text, log, make_client
+from pipeline.scrapers.crawl import deep_extract
 from pipeline.scrapers.html_sources import (
     extract_listing_blocks,
     extract_narthaki,
@@ -67,6 +68,10 @@ def scrape_source(client: httpx.Client, source: Source) -> ScrapeResult:
                 result.events = extractor(html, source.id, source.url)
             else:
                 result.events = extract_listing_blocks(html, source.id, source.url)
+            # JS-rendered listing pages yield nothing here, but their event
+            # detail pages usually carry JSON-LD — follow links and extract.
+            if not result.events:
+                result.events = deep_extract(client, source.id, source.url, html)
     except Exception as exc:  # noqa: BLE001 — isolation: one source never sinks the sweep
         result.error = f"{type(exc).__name__}: {exc}"
         log.warning("source %s failed: %s", source.id, result.error)

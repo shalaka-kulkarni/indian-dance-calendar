@@ -13,33 +13,39 @@ scraped:
   price_max: 72.0
   is_free: false
   price_note: ''
-  info_url: https://www.joyce.org/
+  info_url: https://www.joyce.org/performances/nrityagram-dance-ensemble-clk1
   ticket_url: ''
   description_snippet: Odissi with live music from the one fully professional tourable Indian classical
     ensemble. Six-day run; Curtain Chat Oct 14. Curtain times to be confirmed against the Joyce listing.
-  content_hash: f56f9a9a46da0981
+  content_hash: 84788b95c76136b9
   sources:
   - source_id: manual
-    url: https://www.joyce.org/
+    url: https://www.joyce.org/performances/nrityagram-dance-ensemble-clk1
     first_seen: '2026-08-16'
     last_seen: '2026-08-16'
+ai:
+  relevant: true
+  kind: performance
+  forms:
+  - odissi
+  presenter_type: professional_company
+  confidence: high
+  reasoning: Odissi performance by the professional Nrityagram ensemble with live music.
+  model: claude-fable-5
+  classified_at: '2026-08-16'
 validation:
   passed: false
   checks:
     has_info_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
-    classified: false
-  link_checks:
-  - url: https://www.joyce.org/
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-16T13:50:29.381086-04:00'
+    classified: true
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-08-16T13:50:29.381080-04:00'
+  - links not yet verified (offline run)
+  validated_at: '2026-08-16T13:56:33.225723-04:00'
 curated:
   forms:
   - odissi

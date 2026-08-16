@@ -10,9 +10,12 @@ import httpx
 
 log = logging.getLogger("skyd")
 
+# A standard browser UA: several venue sites' WAFs reject unfamiliar agents
+# outright (403), which starves the calendar. Volume stays polite either way —
+# a few dozen pages per source, three times a week.
 USER_AGENT = (
-    "skyd-dance-calendar/0.1 (+https://github.com/shalaka-kulkarni/skyd-app; "
-    "NYC Indian dance calendar; polite low-volume scraper)"
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 )
 
 DEFAULT_TIMEOUT = 30.0

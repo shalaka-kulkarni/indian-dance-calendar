@@ -32,7 +32,7 @@ sources:
     name: New York City Center
     circuit: mainstream
     strategy: jsonld
-    url: https://www.nycitycenter.org/pdps-and-events/
+    url: https://www.nycitycenter.org/calendar/
     region: manhattan
     scrape_all_listings: true
     notes: "Fall for Dance each Sept/Oct."
@@ -56,7 +56,7 @@ sources:
     name: Gibney (Agnes Varis PAC)
     circuit: mainstream
     strategy: jsonld
-    url: https://gibneydance.org/performances/
+    url: https://gibneydance.org/calendar/category/performances/list/?hide_subsequent_recurrences=1
     region: manhattan
     scrape_all_listings: true
   - id: skirball
@@ -86,7 +86,7 @@ sources:
     name: Symphony Space
     circuit: mainstream
     strategy: jsonld
-    url: https://www.symphonyspace.org/calendar
+    url: https://www.symphonyspace.org/events/calendar
     region: manhattan
     scrape_all_listings: true
   - id: ninety_second_y
@@ -115,7 +115,7 @@ sources:
     name: World Music Institute
     circuit: mainstream
     strategy: jsonld
-    url: https://worldmusicinstitute.org/events/
+    url: https://www.worldmusicinstitute.org/upcoming-events/
     region: manhattan
     scrape_all_listings: true
     notes: "'World music AND dance' — currently zero Indian dance. Named, addressable gap; watch it."
@@ -123,14 +123,14 @@ sources:
     name: The Town Hall
     circuit: mainstream
     strategy: jsonld
-    url: https://thetownhall.org/calendar
+    url: https://www.thetownhall.org/calendar
     region: manhattan
     scrape_all_listings: true
   - id: bam
     name: BAM (Brooklyn Academy of Music)
     circuit: mainstream
     strategy: jsonld
-    url: https://www.bam.org/whats-on
+    url: https://www.bam.org/programs
     region: brooklyn
     scrape_all_listings: true
   - id: pac_nyc
@@ -163,7 +163,7 @@ sources:
     name: LaGuardia Performing Arts Center (CUNY)
     circuit: mainstream
     strategy: html
-    url: https://www.laguardiaperformingarts.com/
+    url: https://www.lpac.nyc/
     region: queens
     scrape_all_listings: true
     notes: "NY Kathak Festival has curated here."
@@ -246,7 +246,7 @@ sources:
     name: New York Kathak Festival
     circuit: diaspora
     strategy: html
-    url: https://www.newyorkkathakfestival.org/
+    url: https://kathakfestival.com/
     region: manhattan
     assume_relevant: true
     notes: "Young 501(c)(3), 4 editions."
@@ -272,7 +272,7 @@ sources:
     name: The Dance Enthusiast listings
     circuit: mainstream
     strategy: html
-    url: https://www.dance-enthusiast.com/events
+    url: https://www.dance-enthusiast.com/dance-listings/events
     region: unknown
     scrape_all_listings: true
     notes: "The ONE listing where both circuits already appear. Robert Johnson (key critic) writes here."

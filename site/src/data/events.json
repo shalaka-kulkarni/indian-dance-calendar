@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-16T13:50:33.586131-04:00",
+ "generatedAt": "2026-08-16T13:57:43.062094-04:00",
  "events": [],
  "sources": [
   {
@@ -18,7 +18,7 @@
    "id": "city_center",
    "name": "New York City Center",
    "circuit": "mainstream",
-   "url": "https://www.nycitycenter.org/pdps-and-events/"
+   "url": "https://www.nycitycenter.org/calendar/"
   },
   {
    "id": "lincoln_center",
@@ -36,7 +36,7 @@
    "id": "gibney",
    "name": "Gibney (Agnes Varis PAC)",
    "circuit": "mainstream",
-   "url": "https://gibneydance.org/performances/"
+   "url": "https://gibneydance.org/calendar/category/performances/list/?hide_subsequent_recurrences=1"
   },
   {
    "id": "skirball",
@@ -60,7 +60,7 @@
    "id": "symphony_space",
    "name": "Symphony Space",
    "circuit": "mainstream",
-   "url": "https://www.symphonyspace.org/calendar"
+   "url": "https://www.symphonyspace.org/events/calendar"
   },
   {
    "id": "ninety_second_y",
@@ -84,19 +84,19 @@
    "id": "wmi",
    "name": "World Music Institute",
    "circuit": "mainstream",
-   "url": "https://worldmusicinstitute.org/events/"
+   "url": "https://www.worldmusicinstitute.org/upcoming-events/"
   },
   {
    "id": "town_hall",
    "name": "The Town Hall",
    "circuit": "mainstream",
-   "url": "https://thetownhall.org/calendar"
+   "url": "https://www.thetownhall.org/calendar"
   },
   {
    "id": "bam",
    "name": "BAM (Brooklyn Academy of Music)",
    "circuit": "mainstream",
-   "url": "https://www.bam.org/whats-on"
+   "url": "https://www.bam.org/programs"
   },
   {
    "id": "pac_nyc",
@@ -120,7 +120,7 @@
    "id": "laguardia_pac",
    "name": "LaGuardia Performing Arts Center (CUNY)",
    "circuit": "mainstream",
-   "url": "https://www.laguardiaperformingarts.com/"
+   "url": "https://www.lpac.nyc/"
   },
   {
    "id": "battery_dance",
@@ -180,7 +180,7 @@
    "id": "ny_kathak_festival",
    "name": "New York Kathak Festival",
    "circuit": "diaspora",
-   "url": "https://www.newyorkkathakfestival.org/"
+   "url": "https://kathakfestival.com/"
   },
   {
    "id": "consulate",
@@ -198,7 +198,7 @@
    "id": "dance_enthusiast",
    "name": "The Dance Enthusiast listings",
    "circuit": "mainstream",
-   "url": "https://www.dance-enthusiast.com/events"
+   "url": "https://www.dance-enthusiast.com/dance-listings/events"
   },
   {
    "id": "nyc_arts",

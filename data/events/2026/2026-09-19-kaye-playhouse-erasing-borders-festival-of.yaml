@@ -13,35 +13,50 @@ scraped:
   price_max: 20.0
   is_free: false
   price_note: from $20
-  info_url: https://iaac.us/
-  ticket_url: ''
+  info_url: https://iaac.us/dance/
+  ticket_url: https://iaac.us/ebdf2026-ibs/
   description_snippet: IAAC's annual festival; six classical forms. Radhe Jaggi & Team (Bharatanatyam
     + Kalaripayattu), Sreelakshmy Kallungal Govardhanan (Kuchipudi), Shila Mehta trio (Kathak), Radha
     Varadan (Kathak), Neena Prasad (Mohiniyattam), Arushi Mudgal (Odissi), Preeti Vasudevan (contemporary),
     Aparna Sindhoor.
-  content_hash: 2acbd506bb52420a
+  content_hash: 26ac0138885d5307
   sources:
   - source_id: manual
-    url: https://iaac.us/
+    url: https://iaac.us/dance/
     first_seen: '2026-08-16'
     last_seen: '2026-08-16'
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/Indo-American-Arts-Council-presents-Erasing-Borders-Dance-Festival-2026-09-19_20
+    first_seen: '2026-08-16'
+    last_seen: '2026-08-16'
+ai:
+  relevant: true
+  kind: festival
+  forms:
+  - bharatanatyam
+  - kuchipudi
+  - kathak
+  - mohiniyattam
+  - odissi
+  - contemporary_indian
+  presenter_type: professional_company
+  confidence: high
+  reasoning: IAAC's annual Indian classical dance festival; six classical forms by professional artists.
+  model: claude-fable-5
+  classified_at: '2026-08-16'
 validation:
   passed: false
   checks:
     has_info_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
-    classified: false
-  link_checks:
-  - url: https://iaac.us/
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-16T13:50:16.793764-04:00'
+    classified: true
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-08-16T13:50:16.793759-04:00'
+  - links not yet verified (offline run)
+  validated_at: '2026-08-16T13:56:33.096739-04:00'
 curated:
   forms:
   - bharatanatyam

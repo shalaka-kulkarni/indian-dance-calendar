@@ -57,3 +57,22 @@ def test_listing_blocks_fallback_requires_date_and_link():
     kathak = next(e for e in events if "Kathak" in e.title)
     assert kathak.price_raw.startswith("$25")
     assert kathak.info_url == "https://example.org/events/kathak-night"
+
+
+def test_deep_crawl_candidate_links():
+    from pipeline.scrapers.crawl import candidate_links
+
+    html = """
+    <a href="/events/kathak-night">Kathak Night</a>
+    <a href="/events/kathak-night">dup</a>
+    <a href="/events/category/dance/">category page</a>
+    <a href="/events/list/">list view</a>
+    <a href="https://other-host.com/events/foo">offsite</a>
+    <a href="/about">not an event</a>
+    <a href="/performances/nrityagram-2026">Nrityagram</a>
+    """
+    links = candidate_links(html, "https://venue.org/events/")
+    assert links == [
+        "https://venue.org/events/kathak-night",
+        "https://venue.org/performances/nrityagram-2026",
+    ]

@@ -1,5 +1,5 @@
 id: 2026-08-21-230-fifth-nyc-back-to-90s
-status: needs_attention
+status: rejected
 needs_recheck: false
 scraped:
   title: Nyc Back To 90s Bollywood Party At 230 Fifth
@@ -22,23 +22,29 @@ scraped:
     url: https://events.sulekha.com/nyc-back-to-90-s-bollywood-party-at-230-fifth_event-in_new-york-ny_401173
     first_seen: '2026-08-16'
     last_seen: '2026-08-16'
+ai:
+  relevant: false
+  kind: other
+  forms: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: Social DJ/club/cruise party night, not a dance performance, class, or talk.
+  model: claude-fable-5
+  classified_at: '2026-08-16'
 validation:
   passed: false
   checks:
     has_info_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://events.sulekha.com/nyc-back-to-90-s-bollywood-party-at-230-fifth_event-in_new-york-ny_401173
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-16T13:50:14.178628-04:00'
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-08-16T13:50:14.178622-04:00'
+  - links not yet verified (offline run)
+  - classified not-relevant
+  validated_at: '2026-08-16T13:56:32.989529-04:00'
 curated:
   forms: []
   editor_note: ''
