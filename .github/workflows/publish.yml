@@ -1,0 +1,43 @@
+# registered: skyd scheduled job
+name: publish
+# Runs when event data is pushed from outside GitHub Actions (e.g. a Claude
+# session that classified pending events): re-validates with live link checks,
+# publishes what passes, and rebuilds site data. Pushes made BY workflows use
+# GITHUB_TOKEN and never re-trigger this, so there is no loop.
+
+on:
+  push:
+    branches: [main, claude/indian-dance-ramp-up-plan-4nkxxp]
+    paths:
+      - "data/events/**"
+  workflow_dispatch:
+
+concurrency:
+  group: event-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - name: Install
+        run: uv venv && uv pip install -e .
+      - name: Validate (live link checks) and publish
+        run: uv run python -m pipeline.run validate
+      - name: Rebuild site data
+        run: uv run python -m pipeline.run build
+      - name: Commit
+        run: |
+          git config user.name "skyd-publish"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/events site/src/data/events.json site/public/calendar.ics
+          if git diff --cached --quiet; then echo "no changes"; else
+            git commit -m "publish: validate and rebuild after event-data push"
+            git push
+          fi
