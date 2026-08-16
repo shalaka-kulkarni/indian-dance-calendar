@@ -7,22 +7,31 @@ before anything publishes. Full design: [SPEC.md](SPEC.md).
 
 ## Go-live checklist (one-time, ~15 minutes)
 
-1. **Merge this branch to `main`** — scheduled jobs only run on the default branch.
-2. **Add repo secrets** (Settings → Secrets and variables → Actions → New repository secret):
-   - `ANTHROPIC_API_KEY` — required; powers event classification (console.anthropic.com)
-   - `BRAVE_API_KEY` — recommended; powers weekly broad discovery (free tier at brave.com/search/api)
-   - `TICKETMASTER_KEY` — optional; free at developer.ticketmaster.com
-   - `EVENTBRITE_TOKEN` — optional; free at eventbrite.com/platform
+The scheduled jobs are already armed: this branch is the repository's default
+branch, which is where GitHub runs cron workflows. (Optionally rename it to
+`main` under the repo's Branches page — GitHub redirects everything cleanly.)
+
+1. **Add repo secrets** ([Settings → Secrets and variables → Actions](../../settings/secrets/actions)):
+   - `ANTHROPIC_API_KEY` — required; powers event classification ([console.anthropic.com/settings/keys](https://console.anthropic.com/settings/keys))
+   - `BRAVE_API_KEY` — recommended; powers weekly broad discovery (free tier at [brave.com/search/api](https://brave.com/search/api/))
+   - `TICKETMASTER_KEY` — optional; free at [developer.ticketmaster.com](https://developer.ticketmaster.com/)
+   - `EVENTBRITE_TOKEN` — optional; free at [eventbrite.com/platform](https://www.eventbrite.com/platform)
    Any missing key just disables that layer gracefully — nothing breaks.
-3. **First sweep:** Actions tab → `sweep` → Run workflow. It scrapes every
-   source, classifies, verifies links/dates/prices, and commits published
-   events. Check the run summary and `python -m pipeline.run report` output.
-4. **Deploy the site (free, no domain needed):** create a free Cloudflare
-   account → Workers & Pages → Create → Pages → *Connect to Git* → authorize
-   GitHub and pick this repo → build settings:
-   - Root directory: `site`
-   - Build command: `npm run build`
-   - Output directory: `dist`
+2. **First sweep:** [Actions → sweep](../../actions/workflows/sweep.yml) → Run
+   workflow. It scrapes every source, classifies, verifies links/dates/prices,
+   and commits published events. Check the run summary and
+   `python -m pipeline.run report` output.
+3. **Deploy the site (free, no domain needed).** Two options:
+   - *Repo stays public:* GitHub Pages works with no new accounts — ask a
+     Claude session to add the Pages deploy workflow, or use the Cloudflare
+     option below.
+   - *Repo private (or preferred anyway):* create a free
+     [Cloudflare account](https://dash.cloudflare.com/sign-up) → Workers &
+     Pages → Create → Pages → *Connect to Git* → authorize GitHub and pick
+     this repo → build settings:
+     - Root directory: `site`
+     - Build command: `npm run build`
+     - Output directory: `dist`
 
    The site goes live at `https://<project-name>.pages.dev` and redeploys on
    every sweep commit automatically.
