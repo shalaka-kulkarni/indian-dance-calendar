@@ -1,3 +1,4 @@
+# registered: skyd scheduled job
 name: healthcheck
 # Weekly: re-verify every published event's links and surface broken scrapers
 # and the needs_attention queue as a GitHub issue — rot is loud, never silent.

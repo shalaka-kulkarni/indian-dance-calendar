@@ -1,3 +1,4 @@
+# registered: skyd scheduled job
 name: sweep
 # Scrape every registered source, classify new events with Claude, run the
 # publish checker, rebuild site data, and commit. Runs unattended.
