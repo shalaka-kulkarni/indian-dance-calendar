@@ -1,15 +1,30 @@
 """Emit site artifacts from the event store: events.json for the Astro site and
-calendar.ics (the subscribable feed). Only PUBLISHED events are emitted — the
-publish gate lives in validate.py, not here."""
+calendar.ics (the subscribable feed).
+
+Two event lists are emitted:
+  * upcoming — status PUBLISHED, the live calendar
+  * past     — status PAST and previously published, last 6 months, newest
+               first, with the ticket link deliberately stripped
+
+The site also gets the canonical filter vocabulary with counts, so filters can
+show every borough/form/type and grey out the ones nothing matches.
+"""
 
 from __future__ import annotations
 
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from pipeline.models import Event, Status
+from pipeline.models import (
+    DanceForm,
+    Event,
+    EventKind,
+    PresenterType,
+    Region,
+    Status,
+)
 from pipeline.registry import load_sources
 from pipeline.store import load_all_events
 
@@ -18,24 +33,41 @@ ROOT = Path(__file__).resolve().parent.parent
 SITE_DATA = ROOT / "site" / "src" / "data" / "events.json"
 SITE_ICS = ROOT / "site" / "public" / "calendar.ics"
 
+ARCHIVE_DAYS = 183  # ~6 months of past events
 
-def event_to_site(event: Event, circuit_by_source: dict[str, str] | None = None) -> dict:
+# Regions we surface as filters even when empty (greyed out in the UI).
+FILTER_REGIONS = [
+    Region.MANHATTAN,
+    Region.BROOKLYN,
+    Region.QUEENS,
+    Region.BRONX,
+    Region.STATEN_ISLAND,
+    Region.NEW_JERSEY,
+    Region.LONG_ISLAND,
+    Region.WESTCHESTER,
+]
+FILTER_FORMS = [f for f in DanceForm]
+FILTER_PRESENTERS = [
+    PresenterType.PROFESSIONAL_COMPANY,
+    PresenterType.ACADEMY_STUDENT,
+    PresenterType.MIXED,
+]
+FILTER_KINDS = [EventKind.PERFORMANCE, EventKind.FESTIVAL, EventKind.TALK, EventKind.WORKSHOP]
+
+
+def price_label(event: Event) -> str | None:
     s = event.scraped
-    circuit_by_source = circuit_by_source or {}
-    circuits = sorted({
-        circuit_by_source.get(r.source_id, "")
-        for r in s.sources
-        if circuit_by_source.get(r.source_id)
-    })
-    price = None
     if s.is_free:
-        price = "Free"
-    elif s.price_min is not None:
-        price = (
-            f"${s.price_min:g}" if s.price_min == s.price_max else f"${s.price_min:g}–${s.price_max:g}"
-        )
-    elif s.price_note:
-        price = s.price_note
+        return "Free"
+    if s.price_min is not None:
+        if s.price_min == s.price_max:
+            return f"${s.price_min:g}"
+        return f"${s.price_min:g}–${s.price_max:g}"
+    return s.price_note or None
+
+
+def event_to_site(event: Event, include_tickets: bool = True) -> dict:
+    s = event.scraped
     return {
         "id": event.id,
         "title": str(event.effective_scraped_value("title")),
@@ -45,24 +77,15 @@ def event_to_site(event: Event, circuit_by_source: dict[str, str] | None = None)
         "venue": str(event.effective_scraped_value("venue")),
         "address": s.address,
         "region": s.region.value,
-        "price": price,
-        "priceNote": s.price_note,
+        "price": price_label(event),
         "isFree": s.is_free,
         "infoUrl": s.info_url,
-        "ticketUrl": s.ticket_url,
+        "ticketUrl": (s.ticket_url or None) if include_tickets else None,
         "description": s.description_snippet,
         "forms": [f.value for f in event.effective_forms],
         "kind": event.ai.kind.value if event.ai else "performance",
         "presenterType": event.effective_presenter_type.value,
         "editorNote": event.curated.editor_note,
-        "circuits": circuits,
-        "sources": [
-            {"id": r.source_id, "url": r.url, "lastSeen": r.last_seen.isoformat()}
-            for r in s.sources
-        ],
-        "lastValidated": event.validation.validated_at.isoformat()
-        if event.validation and event.validation.validated_at
-        else None,
     }
 
 
@@ -81,23 +104,23 @@ def build_ics(events: list[Event]) -> str:
     now = datetime.now(NY_TZ).strftime("%Y%m%dT%H%M%S")
     for event in events:
         s = event.scraped
-        dates = [s.start, *s.additional_dates]
-        for i, start in enumerate(dates):
-            uid = f"{event.id}-{i}@skyd"
+        for i, start in enumerate([s.start, *s.additional_dates]):
             lines += [
                 "BEGIN:VEVENT",
-                f"UID:{uid}",
+                f"UID:{event.id}-{i}@skyd",
                 f"DTSTAMP:{now}",
                 f"DTSTART;TZID=America/New_York:{start.strftime('%Y%m%dT%H%M%S')}",
             ]
             if s.end and i == 0 and s.end.date() == start.date():
                 lines.append(f"DTEND;TZID=America/New_York:{s.end.strftime('%Y%m%dT%H%M%S')}")
-            summary = str(event.effective_scraped_value("title"))
             location = ", ".join(p for p in (s.venue, s.address) if p)
+            detail = f"Info: {s.info_url}"
+            if s.ticket_url:
+                detail += f" | Tickets: {s.ticket_url}"
             lines += [
-                f"SUMMARY:{_ics_escape(summary)}",
+                f"SUMMARY:{_ics_escape(str(event.effective_scraped_value('title')))}",
                 f"LOCATION:{_ics_escape(location)}",
-                f"DESCRIPTION:{_ics_escape('Info: ' + s.info_url + (' | Tickets: ' + s.ticket_url if s.ticket_url else ''))}",
+                f"DESCRIPTION:{_ics_escape(detail)}",
                 f"URL:{s.info_url}",
                 "END:VEVENT",
             ]
@@ -105,22 +128,66 @@ def build_ics(events: list[Event]) -> str:
     return "\r\n".join(lines) + "\r\n"
 
 
-def build_site_data() -> dict:
-    events = [e for e in load_all_events() if e.status == Status.PUBLISHED]
-    events.sort(key=lambda e: e.scraped.start)
-    sources = load_sources(enabled_only=False)
-    circuit_by_source = {s.id: s.circuit.value for s in sources}
-    payload = {
-        "generatedAt": datetime.now(NY_TZ).isoformat(),
-        "events": [event_to_site(e, circuit_by_source) for e in events],
-        "sources": [
-            {"id": s.id, "name": s.name, "circuit": s.circuit.value, "url": s.url}
-            for s in sources
-            if s.enabled
+def _counts(events: list[dict]) -> dict:
+    forms: dict[str, int] = {}
+    regions: dict[str, int] = {}
+    presenters: dict[str, int] = {}
+    kinds: dict[str, int] = {}
+    free = 0
+    for e in events:
+        for f in e["forms"]:
+            forms[f] = forms.get(f, 0) + 1
+        regions[e["region"]] = regions.get(e["region"], 0) + 1
+        presenters[e["presenterType"]] = presenters.get(e["presenterType"], 0) + 1
+        kinds[e["kind"]] = kinds.get(e["kind"], 0) + 1
+        if e["isFree"]:
+            free += 1
+    return {
+        "forms": [{"value": f.value, "count": forms.get(f.value, 0)} for f in FILTER_FORMS],
+        "regions": [{"value": r.value, "count": regions.get(r.value, 0)} for r in FILTER_REGIONS],
+        "presenterTypes": [
+            {"value": p.value, "count": presenters.get(p.value, 0)} for p in FILTER_PRESENTERS
         ],
+        "kinds": [{"value": k.value, "count": kinds.get(k.value, 0)} for k in FILTER_KINDS],
+        "free": free,
+    }
+
+
+def build_site_data() -> dict:
+    now = datetime.now(NY_TZ)
+    cutoff = now - timedelta(days=ARCHIVE_DAYS)
+    all_events = load_all_events()
+
+    upcoming_events = sorted(
+        (e for e in all_events if e.status == Status.PUBLISHED),
+        key=lambda e: e.scraped.start,
+    )
+    past_events = sorted(
+        (
+            e
+            for e in all_events
+            if e.status == Status.PAST
+            and e.was_published
+            and e.scraped.start >= cutoff
+            # Never surface an archive entry whose info link is known dead.
+            and not (e.validation and e.validation.checks.get("links_live") is False)
+        ),
+        key=lambda e: e.scraped.start,
+        reverse=True,
+    )
+
+    upcoming = [event_to_site(e) for e in upcoming_events]
+    past = [event_to_site(e, include_tickets=False) for e in past_events]
+
+    payload = {
+        "generatedAt": now.isoformat(),
+        "events": upcoming,
+        "pastEvents": past,
+        "filters": _counts(upcoming),
+        "sourceCount": len([s for s in load_sources(enabled_only=False) if s.enabled]),
     }
     SITE_DATA.parent.mkdir(parents=True, exist_ok=True)
     SITE_DATA.write_text(json.dumps(payload, indent=1))
     SITE_ICS.parent.mkdir(parents=True, exist_ok=True)
-    SITE_ICS.write_text(build_ics(events))
-    return {"published": len(events)}
+    SITE_ICS.write_text(build_ics(upcoming_events))
+    return {"published": len(upcoming), "past": len(past)}

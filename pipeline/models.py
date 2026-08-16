@@ -199,6 +199,10 @@ class Event(BaseModel):
 
     id: str
     status: Status
+    # Latches True the first time an event goes live. The past-events archive
+    # shows only events that were actually published — never ones that expired
+    # while still stuck in the needs_attention queue.
+    was_published: bool = False
     needs_recheck: bool = False
     scraped: Scraped
     ai: Classification | None = None

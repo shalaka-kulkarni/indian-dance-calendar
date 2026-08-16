@@ -118,6 +118,35 @@ def validate_event(
     )
 
 
+def validate_past_event(
+    event: Event, client: httpx.Client | None = None, now: datetime | None = None
+) -> Validation:
+    """Archive events keep only the checks that still mean something: an info
+    page that is still reachable. They carry no ticket link and their date is
+    expected to be in the past."""
+    now = now or datetime.now(NY_TZ)
+    checks = {"has_info_url": bool(event.scraped.info_url)}
+    problems: list[str] = [] if checks["has_info_url"] else ["no info URL"]
+    link_checks: list[LinkCheck] = []
+    if client is not None and event.scraped.info_url:
+        link_checks = [check_link(client, event.scraped.info_url)]
+        checks["links_live"] = link_checks[0].ok
+        if not checks["links_live"]:
+            problems.append(f"archive info link dead: {event.scraped.info_url}")
+    else:
+        # Offline: keep whatever the last online check concluded rather than
+        # dropping the whole archive off the site.
+        previous = event.validation.checks.get("links_live") if event.validation else None
+        checks["links_live"] = bool(previous)
+    return Validation(
+        passed=all(checks.values()),
+        checks=checks,
+        link_checks=link_checks,
+        problems=problems,
+        validated_at=now,
+    )
+
+
 def apply_publish_policy(event: Event, validation: Validation) -> Status:
     """Decide the event's status from its validation. Rejected stays rejected
     (dedup memory); everything else is published iff validation passed."""
@@ -126,6 +155,7 @@ def apply_publish_policy(event: Event, validation: Validation) -> Status:
         event.status = Status.REJECTED
     elif validation.passed:
         event.status = Status.PUBLISHED
+        event.was_published = True
         event.needs_recheck = False
     else:
         event.status = Status.NEEDS_ATTENTION

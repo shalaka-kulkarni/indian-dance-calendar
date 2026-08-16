@@ -71,3 +71,26 @@ def test_fully_valid_event_publishes(sample_event, monkeypatch):
     assert validation.passed, validation.problems
     assert apply_publish_policy(sample_event, validation) == Status.PUBLISHED
     assert len(validation.link_checks) == 2  # info + ticket URLs checked separately
+
+
+def test_past_event_validation_is_link_only(sample_event):
+    from pipeline.models import LinkCheck, Status
+    from pipeline.validate import validate_past_event
+
+    sample_event.status = Status.PAST
+    sample_event.was_published = True
+
+    class FakeClient:
+        pass
+
+    import pipeline.validate as vmod
+
+    original = vmod.check_link
+    vmod.check_link = lambda client, url: LinkCheck(url=url, ok=True, status_code=200, checked_at=NOW)
+    try:
+        validation = validate_past_event(sample_event, client=FakeClient(), now=NOW)
+    finally:
+        vmod.check_link = original
+    # Past date and missing tickets must not fail an archive entry.
+    assert validation.passed
+    assert set(validation.checks) == {"has_info_url", "links_live"}

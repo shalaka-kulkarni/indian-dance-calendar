@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-16T14:02:10.121283-04:00",
+ "generatedAt": "2026-08-16T14:42:12.304921-04:00",
  "events": [
   {
    "id": "2026-09-19-kaye-playhouse-erasing-borders-festival-of",
@@ -13,7 +13,6 @@
    "address": "695 Park Ave, New York, NY",
    "region": "manhattan",
    "price": "$20",
-   "priceNote": "from $20",
    "isFree": false,
    "infoUrl": "https://iaac.us/dance/",
    "ticketUrl": "https://iaac.us/ebdf2026-ibs/",
@@ -28,24 +27,7 @@
    ],
    "kind": "festival",
    "presenterType": "professional_company",
-   "editorNote": "",
-   "circuits": [
-    "diaspora",
-    "mainstream"
-   ],
-   "sources": [
-    {
-     "id": "manual",
-     "url": "https://iaac.us/dance/",
-     "lastSeen": "2026-08-16"
-    },
-    {
-     "id": "dance_enthusiast",
-     "url": "https://www.dance-enthusiast.com/dance-listings/events/view/Indo-American-Arts-Council-presents-Erasing-Borders-Dance-Festival-2026-09-19_20",
-     "lastSeen": "2026-08-16"
-    }
-   ],
-   "lastValidated": "2026-08-16T14:01:42.992056-04:00"
+   "editorNote": ""
   },
   {
    "id": "2026-10-13-the-joyce-nrityagram-dance-ensemble-khankhana",
@@ -57,276 +39,141 @@
    "address": "175 8th Ave, New York, NY",
    "region": "manhattan",
    "price": "$17\u2013$72",
-   "priceNote": "",
    "isFree": false,
    "infoUrl": "https://www.joyce.org/performances/nrityagram-dance-ensemble-clk1",
-   "ticketUrl": "",
+   "ticketUrl": null,
    "description": "Odissi with live music from the one fully professional tourable Indian classical ensemble. Six-day run; Curtain Chat Oct 14. Curtain times to be confirmed against the Joyce listing.",
    "forms": [
     "odissi"
    ],
    "kind": "performance",
    "presenterType": "professional_company",
-   "editorNote": "",
-   "circuits": [
-    "diaspora",
-    "mainstream"
-   ],
-   "sources": [
-    {
-     "id": "manual",
-     "url": "https://www.joyce.org/performances/nrityagram-dance-ensemble-clk1",
-     "lastSeen": "2026-08-16"
-    },
-    {
-     "id": "joyce",
-     "url": "https://www.joyce.org/performances/nrityagram-dance-ensemble-clk1",
-     "lastSeen": "2026-08-16"
-    }
-   ],
-   "lastValidated": "2026-08-16T14:02:00.676750-04:00"
+   "editorNote": ""
   }
  ],
- "sources": [
-  {
-   "id": "joyce",
-   "name": "The Joyce Theater",
-   "circuit": "mainstream",
-   "url": "https://www.joyce.org/performances"
-  },
-  {
-   "id": "carnegie",
-   "name": "Carnegie Hall (full calendar)",
-   "circuit": "mainstream",
-   "url": "https://www.carnegiehall.org/Calendar"
-  },
-  {
-   "id": "city_center",
-   "name": "New York City Center",
-   "circuit": "mainstream",
-   "url": "https://www.nycitycenter.org/calendar/"
-  },
-  {
-   "id": "lincoln_center",
-   "name": "Lincoln Center (incl. Summer for the City)",
-   "circuit": "mainstream",
-   "url": "https://www.lincolncenter.org/calendar"
-  },
-  {
-   "id": "nyla",
-   "name": "New York Live Arts",
-   "circuit": "mainstream",
-   "url": "https://newyorklivearts.org/events/"
-  },
-  {
-   "id": "gibney",
-   "name": "Gibney (Agnes Varis PAC)",
-   "circuit": "mainstream",
-   "url": "https://gibneydance.org/calendar/category/performances/list/?hide_subsequent_recurrences=1"
-  },
-  {
-   "id": "skirball",
-   "name": "NYU Skirball",
-   "circuit": "mainstream",
-   "url": "https://nyuskirball.org/events/"
-  },
-  {
-   "id": "ailey_citigroup",
-   "name": "Ailey Citigroup Theater",
-   "circuit": "mainstream",
-   "url": "https://www.alvinailey.org/performances"
-  },
-  {
-   "id": "kaye_playhouse",
-   "name": "Kaye Playhouse at Hunter College",
-   "circuit": "mainstream",
-   "url": "https://kayeplayhouse.hunter.cuny.edu/events/"
-  },
-  {
-   "id": "symphony_space",
-   "name": "Symphony Space",
-   "circuit": "mainstream",
-   "url": "https://www.symphonyspace.org/events/calendar"
-  },
-  {
-   "id": "ninety_second_y",
-   "name": "92NY (92nd Street Y)",
-   "circuit": "mainstream",
-   "url": "https://www.92ny.org/events"
-  },
-  {
-   "id": "asia_society",
-   "name": "Asia Society New York",
-   "circuit": "mainstream",
-   "url": "https://asiasociety.org/new-york/events"
-  },
-  {
-   "id": "met_live_arts",
-   "name": "MetLiveArts (Metropolitan Museum)",
-   "circuit": "mainstream",
-   "url": "https://www.metmuseum.org/events/metlivearts"
-  },
-  {
-   "id": "wmi",
-   "name": "World Music Institute",
-   "circuit": "mainstream",
-   "url": "https://www.worldmusicinstitute.org/upcoming-events/"
-  },
-  {
-   "id": "town_hall",
-   "name": "The Town Hall",
-   "circuit": "mainstream",
-   "url": "https://www.thetownhall.org/calendar"
-  },
-  {
-   "id": "bam",
-   "name": "BAM (Brooklyn Academy of Music)",
-   "circuit": "mainstream",
-   "url": "https://www.bam.org/programs"
-  },
-  {
-   "id": "pac_nyc",
-   "name": "PAC NYC (Perelman Performing Arts Center, World Trade Center)",
-   "circuit": "mainstream",
-   "url": "https://pacnyc.org/whats-on/"
-  },
-  {
-   "id": "queens_theatre",
-   "name": "Queens Theatre",
-   "circuit": "mainstream",
-   "url": "https://queenstheatre.org/events/"
-  },
-  {
-   "id": "flushing_town_hall",
-   "name": "Flushing Town Hall",
-   "circuit": "mainstream",
-   "url": "https://www.flushingtownhall.org/events"
-  },
-  {
-   "id": "laguardia_pac",
-   "name": "LaGuardia Performing Arts Center (CUNY)",
-   "circuit": "mainstream",
-   "url": "https://www.lpac.nyc/"
-  },
-  {
-   "id": "battery_dance",
-   "name": "Battery Dance Festival",
-   "circuit": "mainstream",
-   "url": "https://batterydance.org/battery-dance-festival/"
-  },
-  {
-   "id": "ganesha_temple",
-   "name": "Hindu Temple Society of North America (Ganesha Temple, Flushing)",
-   "circuit": "diaspora",
-   "url": "https://nyganeshtemple.org/"
-  },
-  {
-   "id": "njpac",
-   "name": "NJPAC (New Jersey Performing Arts Center, Newark)",
-   "circuit": "mainstream",
-   "url": "https://www.njpac.org/events/"
-  },
-  {
-   "id": "prudential_center",
-   "name": "Prudential Center (Newark)",
-   "circuit": "mainstream",
-   "url": "https://www.prucenter.com/events"
-  },
-  {
-   "id": "state_theatre_nj",
-   "name": "State Theatre New Jersey (New Brunswick)",
-   "circuit": "mainstream",
-   "url": "https://www.stnj.org/events"
-  },
-  {
-   "id": "sopac",
-   "name": "SOPAC (South Orange Performing Arts Center)",
-   "circuit": "mainstream",
-   "url": "https://www.sopacnow.org/events/"
-  },
-  {
-   "id": "loews_jersey",
-   "name": "Loew's Jersey Theatre (Journal Square, Jersey City)",
-   "circuit": "mainstream",
-   "url": "https://loewsjersey.org/"
-  },
-  {
-   "id": "narthaki",
-   "name": "Narthaki events listing",
-   "circuit": "diaspora",
-   "url": "https://narthaki.com/info/fevents.html"
-  },
-  {
-   "id": "iaac",
-   "name": "Indo-American Arts Council",
-   "circuit": "diaspora",
-   "url": "https://iaac.us/"
-  },
-  {
-   "id": "ny_kathak_festival",
-   "name": "New York Kathak Festival",
-   "circuit": "diaspora",
-   "url": "https://kathakfestival.com/"
-  },
-  {
-   "id": "consulate",
-   "name": "Consulate General of India, New York",
-   "circuit": "diaspora",
-   "url": "https://www.indiainnewyork.gov.in/"
-  },
-  {
-   "id": "sulekha",
-   "name": "Sulekha Events (New York)",
-   "circuit": "platform",
-   "url": "https://events.sulekha.com/new-york-metro-area"
-  },
-  {
-   "id": "dance_enthusiast",
-   "name": "The Dance Enthusiast listings",
-   "circuit": "mainstream",
-   "url": "https://www.dance-enthusiast.com/dance-listings/events"
-  },
-  {
-   "id": "nyc_arts",
-   "name": "NYC-ARTS calendar (WNET)",
-   "circuit": "mainstream",
-   "url": "https://www.nyc-arts.org/events/"
-  },
-  {
-   "id": "timeout_ny",
-   "name": "Time Out New York \u2014 Dance",
-   "circuit": "mainstream",
-   "url": "https://www.timeout.com/newyork/dance"
-  },
-  {
-   "id": "eventbrite",
-   "name": "Eventbrite API",
-   "circuit": "platform",
-   "url": "https://www.eventbriteapi.com/v3/"
-  },
-  {
-   "id": "ticketmaster",
-   "name": "Ticketmaster Discovery API",
-   "circuit": "platform",
-   "url": "https://app.ticketmaster.com/discovery/v2/"
-  },
-  {
-   "id": "allevents",
-   "name": "AllEvents.in (New York)",
-   "circuit": "platform",
-   "url": "https://allevents.in/new%20york/indian"
-  },
-  {
-   "id": "manual",
-   "name": "Manual entry (owner-verified)",
-   "circuit": "diaspora",
-   "url": ""
-  },
-  {
-   "id": "discovery_search",
-   "name": "Discovery search battery",
-   "circuit": "discovery",
-   "url": ""
-  }
- ]
+ "pastEvents": [],
+ "filters": {
+  "forms": [
+   {
+    "value": "kathak",
+    "count": 1
+   },
+   {
+    "value": "bharatanatyam",
+    "count": 1
+   },
+   {
+    "value": "odissi",
+    "count": 2
+   },
+   {
+    "value": "kuchipudi",
+    "count": 1
+   },
+   {
+    "value": "mohiniyattam",
+    "count": 1
+   },
+   {
+    "value": "manipuri",
+    "count": 0
+   },
+   {
+    "value": "sattriya",
+    "count": 0
+   },
+   {
+    "value": "kathakali",
+    "count": 0
+   },
+   {
+    "value": "folk",
+    "count": 0
+   },
+   {
+    "value": "bollywood",
+    "count": 0
+   },
+   {
+    "value": "fusion",
+    "count": 0
+   },
+   {
+    "value": "contemporary_indian",
+    "count": 1
+   },
+   {
+    "value": "other",
+    "count": 0
+   }
+  ],
+  "regions": [
+   {
+    "value": "manhattan",
+    "count": 2
+   },
+   {
+    "value": "brooklyn",
+    "count": 0
+   },
+   {
+    "value": "queens",
+    "count": 0
+   },
+   {
+    "value": "bronx",
+    "count": 0
+   },
+   {
+    "value": "staten_island",
+    "count": 0
+   },
+   {
+    "value": "new_jersey",
+    "count": 0
+   },
+   {
+    "value": "long_island",
+    "count": 0
+   },
+   {
+    "value": "westchester",
+    "count": 0
+   }
+  ],
+  "presenterTypes": [
+   {
+    "value": "professional_company",
+    "count": 2
+   },
+   {
+    "value": "academy_student",
+    "count": 0
+   },
+   {
+    "value": "mixed",
+    "count": 0
+   }
+  ],
+  "kinds": [
+   {
+    "value": "performance",
+    "count": 1
+   },
+   {
+    "value": "festival",
+    "count": 1
+   },
+   {
+    "value": "talk",
+    "count": 0
+   },
+   {
+    "value": "workshop",
+    "count": 0
+   }
+  ],
+  "free": 0
+ },
+ "sourceCount": 40
 }

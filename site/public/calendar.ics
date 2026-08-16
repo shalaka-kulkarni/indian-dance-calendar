@@ -5,7 +5,7 @@ X-WR-CALNAME:NYC Indian Dance
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
 UID:2026-09-19-kaye-playhouse-erasing-borders-festival-of-0@skyd
-DTSTAMP:20260816T140210
+DTSTAMP:20260816T144212
 DTSTART;TZID=America/New_York:20260919T180000
 SUMMARY:Erasing Borders Festival of Indian Dance\, 18th edition
 LOCATION:Kaye Playhouse at Hunter College\, 695 Park Ave\, New York\, NY
@@ -14,7 +14,7 @@ URL:https://iaac.us/dance/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-19-kaye-playhouse-erasing-borders-festival-of-1@skyd
-DTSTAMP:20260816T140210
+DTSTAMP:20260816T144212
 DTSTART;TZID=America/New_York:20260920T180000
 SUMMARY:Erasing Borders Festival of Indian Dance\, 18th edition
 LOCATION:Kaye Playhouse at Hunter College\, 695 Park Ave\, New York\, NY
@@ -23,7 +23,7 @@ URL:https://iaac.us/dance/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-13-the-joyce-nrityagram-dance-ensemble-khankhana-0@skyd
-DTSTAMP:20260816T140210
+DTSTAMP:20260816T144212
 DTSTART;TZID=America/New_York:20261013T193000
 SUMMARY:Nrityagram Dance Ensemble: KHANKHANA
 LOCATION:The Joyce Theater\, 175 8th Ave\, New York\, NY

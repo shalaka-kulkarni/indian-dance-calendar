@@ -43,3 +43,14 @@ def test_expire_past_events(tmp_path, sample_event):
     assert load_event(tmp_path / "2026" / f"{sample_event.id}.yaml").status == Status.PAST
     # Idempotent: second run flips nothing.
     assert expire_past_events(base=tmp_path, today=date(2026, 12, 1)) == 0
+
+
+def test_expire_marks_past_and_preserves_was_published(tmp_path, sample_event):
+    # Simulate a successful publish so the archive latch is set.
+    sample_event.status = Status.PUBLISHED
+    sample_event.was_published = True
+    save_event(sample_event, base=tmp_path)
+    expire_past_events(base=tmp_path, today=date(2026, 12, 1))
+    reloaded = load_event(tmp_path / "2026" / f"{sample_event.id}.yaml")
+    assert reloaded.status == Status.PAST
+    assert reloaded.was_published is True

@@ -41,7 +41,7 @@ from pipeline.store import (
     make_event_id,
     save_event,
 )
-from pipeline.validate import apply_publish_policy, validate_event
+from pipeline.validate import apply_publish_policy, validate_event, validate_past_event
 
 NY_TZ = ZoneInfo("America/New_York")
 HEALTH_PATH = Path(__file__).resolve().parent.parent / "out" / "source_health.json"
@@ -183,7 +183,12 @@ def cmd_validate(check_links: bool = True) -> dict:
     sources_by_id = {s.id: s for s in load_sources(enabled_only=False)}
     stats = {"published": 0, "needs_attention": 0, "rejected": 0}
     for event in load_all_events():
-        if event.status in (Status.PAST,):
+        if event.status == Status.PAST:
+            # Archive entries: re-check the info link so the past-events page
+            # never shows a dead link. Status stays PAST either way.
+            if event.was_published:
+                event.validation = validate_past_event(event, client=client)
+                save_event(event)
             continue
         # Offline runs can't verify links; never let that demote a live event.
         if not check_links and event.status == Status.PUBLISHED:

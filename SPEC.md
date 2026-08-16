@@ -104,16 +104,29 @@ needs only Node.
 Scheduled workflows run on the **default branch** — merge to main to activate.
 Site deploys via Cloudflare Pages git integration watching `site/`.
 
+## Past events archive
+
+An event that has been published and whose last date passes flips to `past` on
+the next sweep (`expire_past_events`). The site keeps six months of those in a
+separate archive view: same info link, **ticket link deliberately stripped**
+(nothing on sale), so people can see what they missed. Only events that were
+actually published ever reach the archive — the `was_published` latch keeps
+events that expired while stuck in the queue out of it. Archive entries are
+re-checked for a live info link on every validate run; one that goes dead is
+dropped from the site rather than shown broken.
+
 ## The site (site/, Astro, static)
 
-Single calendar page grouped by month. Filter chips: dance form, region
-(boroughs + NJ/LI/Westchester), free, professional company vs academy. Each
-card: full dates/times, venue + region, price range, **Event info and Tickets
-as separate links**, description from the source, every source it was seen in,
-last-validated stamp in the data. `/calendar.ics` is the subscribable feed
-(Google/Apple Calendar). About page explains scope and lists every watched
-source. Honest empty/freshness states — visible staleness is the trust killer,
-so the footer shows the last sweep date.
+Single calendar page grouped by month, plus a past-events archive. Filter
+chips cover the **canonical vocabulary** — every dance form, every region
+(boroughs + NJ/Long Island/Westchester), presenter type, and free — with
+options that match no current event rendered **disabled/greyed out** rather
+than hidden, so the shape of what's covered is always visible. `build.py`
+emits those counts in `filters`. Each card: full dates/times, venue + region,
+price range, form chips, and exactly two links — **Info** and **Book tickets**
+(archive cards show Info only). `/calendar.ics` is the subscribable feed
+(Google/Apple Calendar). Honest empty/freshness states — visible staleness is
+the trust killer, so the footer shows the last sweep date.
 
 ## Newsletter (newsletter/draft.py — manual send for now)
 
