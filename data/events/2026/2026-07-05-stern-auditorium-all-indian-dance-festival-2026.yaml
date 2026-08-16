@@ -34,6 +34,19 @@ ai:
   reasoning: Indian dance event verified against a live source page.
   model: claude-fable-5
   classified_at: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: false
+  link_checks:
+  - url: https://www.carnegiehall.org/Calendar/2026/07/05/All-Indian-Dance-Festival-2026-0200PM
+    ok: false
+    status_code: 403
+    checked_at: '2026-08-16T15:55:56.613909-04:00'
+  problems:
+  - 'archive info link dead: https://www.carnegiehall.org/Calendar/2026/07/05/All-Indian-Dance-Festival-2026-0200PM'
+  validated_at: '2026-08-16T15:55:56.613902-04:00'
 curated:
   forms:
   - bharatanatyam

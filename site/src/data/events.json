@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-16T15:55:13.557904-04:00",
+ "generatedAt": "2026-08-16T15:56:43.497894-04:00",
  "events": [
   {
    "id": "2026-09-19-kaye-playhouse-erasing-borders-festival-of",
@@ -160,29 +160,6 @@
    "editorNote": ""
   },
   {
-   "id": "2026-07-05-stern-auditorium-all-indian-dance-festival-2026",
-   "title": "All-Indian Dance Festival 2026",
-   "start": "2026-07-05T14:00:00-04:00",
-   "end": null,
-   "additionalDates": [],
-   "venue": "Stern Auditorium / Perelman Stage, Carnegie Hall",
-   "address": "881 7th Ave, New York, NY",
-   "region": "manhattan",
-   "price": null,
-   "isFree": false,
-   "infoUrl": "https://www.carnegiehall.org/Calendar/2026/07/05/All-Indian-Dance-Festival-2026-0200PM",
-   "ticketUrl": null,
-   "description": "387 dancers performed Indian classical and folk works to an audience of nearly 2,800, produced by the Philadelphia nonprofit Three Aksha and curated by Viji Rao with the Consulate General of India, New York.",
-   "forms": [
-    "bharatanatyam",
-    "kathak",
-    "folk"
-   ],
-   "kind": "festival",
-   "presenterType": "mixed",
-   "editorNote": ""
-  },
-  {
    "id": "2026-06-26-ailey-citigroup-navatman-x-baila-society",
    "title": "Navatman x Baila Society: When the Sun Rises",
    "start": "2026-06-26T20:00:00-04:00",
@@ -254,27 +231,6 @@
    "editorNote": ""
   },
   {
-   "id": "2026-05-30-asia-society-family-day-passport-through",
-   "title": "Family Day: Passport Through Asia \u2014 abhinaya with Parul Shah",
-   "start": "2026-05-30T13:00:00-04:00",
-   "end": null,
-   "additionalDates": [],
-   "venue": "Asia Society New York",
-   "address": "725 Park Ave, New York, NY",
-   "region": "manhattan",
-   "price": null,
-   "isFree": false,
-   "infoUrl": "https://asiasociety.org/new-york/events/family-day-passport-through-asia",
-   "ticketUrl": null,
-   "description": "A family workshop on storytelling through abhinaya, the expressive vocabulary of Indian dance, led by Parul Shah.",
-   "forms": [
-    "bharatanatyam"
-   ],
-   "kind": "workshop",
-   "presenterType": "professional_company",
-   "editorNote": ""
-  },
-  {
    "id": "2026-05-02-artswestchester-kala-samaagam-south-indian",
    "title": "Kala Samaagam: South Indian Music & Dance Festival community day",
    "start": "2026-05-02T11:00:00-04:00",
@@ -318,27 +274,6 @@
    ],
    "kind": "other",
    "presenterType": "academy_student",
-   "editorNote": ""
-  },
-  {
-   "id": "2026-04-25-theater-at-garden-of-dance-a",
-   "title": "Garden of Dance: a living tribute to Rukmini Devi Arundale",
-   "start": "2026-04-25T18:30:00-04:00",
-   "end": null,
-   "additionalDates": [],
-   "venue": "Theater at St. Jean",
-   "address": "150 E 76th St, New York, NY",
-   "region": "manhattan",
-   "price": null,
-   "isFree": false,
-   "infoUrl": "https://www.tickettailor.com/events/fragranceofalegendrememberingrukminideviarundale/2075113",
-   "ticketUrl": null,
-   "description": "An International Dance Day tribute to Bharatanatyam figure Rukmini Devi Arundale, presented by Kalakshetra Foundation alumni Damir Tasmagambetov and Tatyana Popova.",
-   "forms": [
-    "bharatanatyam"
-   ],
-   "kind": "performance",
-   "presenterType": "professional_company",
    "editorNote": ""
   },
   {

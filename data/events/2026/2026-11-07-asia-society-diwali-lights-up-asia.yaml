@@ -44,10 +44,14 @@ validation:
     price_known: true
     in_metro: true
     classified: true
-  link_checks: []
+  link_checks:
+  - url: https://asiasociety.org/new-york/events/diwali-lights-asia-society-2026
+    ok: false
+    status_code: 403
+    checked_at: '2026-08-16T15:56:35.348604-04:00'
   problems:
-  - links not yet verified (offline run)
-  validated_at: '2026-08-16T15:53:24.784184-04:00'
+  - 'dead links: https://asiasociety.org/new-york/events/diwali-lights-asia-society-2026'
+  validated_at: '2026-08-16T15:56:35.348579-04:00'
 curated:
   forms:
   - folk

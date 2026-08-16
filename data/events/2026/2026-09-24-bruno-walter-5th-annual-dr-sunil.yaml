@@ -36,6 +36,7 @@ validation:
   passed: true
   checks:
     has_info_url: true
+    specific_url: true
     links_live: true
     date_valid: true
     price_known: false
@@ -45,10 +46,10 @@ validation:
   - url: https://iaac.us/erasing-borders-dance-festival-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T15:23:05.956535-04:00'
+    checked_at: '2026-08-16T15:56:13.601462-04:00'
   problems:
   - no price information
-  validated_at: '2026-08-16T15:23:05.956526-04:00'
+  validated_at: '2026-08-16T15:56:13.601436-04:00'
 curated:
   forms:
   - bharatanatyam

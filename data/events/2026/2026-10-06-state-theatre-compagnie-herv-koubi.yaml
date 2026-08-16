@@ -48,11 +48,19 @@ validation:
     price_known: true
     in_metro: true
     classified: false
-  link_checks: []
+  link_checks:
+  - url: https://www.stnj.org/events/detail/compagnie-herve-koubi
+    ok: false
+    status_code: 406
+    checked_at: '2026-08-16T15:56:22.119846-04:00'
+  - url: https://my.stnj.org/23395/23396
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T15:56:22.251991-04:00'
   problems:
-  - links not yet verified (offline run)
+  - 'dead links: https://www.stnj.org/events/detail/compagnie-herve-koubi'
   - classified not-relevant
-  validated_at: '2026-08-16T15:53:24.633728-04:00'
+  validated_at: '2026-08-16T15:56:22.119819-04:00'
 curated:
   forms: []
   editor_note: ''

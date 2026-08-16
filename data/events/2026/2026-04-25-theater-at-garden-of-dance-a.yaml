@@ -31,6 +31,19 @@ ai:
   reasoning: Indian dance event verified against a live source page.
   model: claude-fable-5
   classified_at: '2026-08-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    links_live: false
+  link_checks:
+  - url: https://www.tickettailor.com/events/fragranceofalegendrememberingrukminideviarundale/2075113
+    ok: false
+    status_code: 403
+    checked_at: '2026-08-16T15:55:52.373366-04:00'
+  problems:
+  - 'archive info link dead: https://www.tickettailor.com/events/fragranceofalegendrememberingrukminideviarundale/2075113'
+  validated_at: '2026-08-16T15:55:52.373362-04:00'
 curated:
   forms:
   - bharatanatyam

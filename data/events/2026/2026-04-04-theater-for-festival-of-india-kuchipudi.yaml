@@ -32,6 +32,18 @@ ai:
   reasoning: Indian dance event verified against a live source page.
   model: claude-fable-5
   classified_at: '2026-08-16'
+validation:
+  passed: true
+  checks:
+    has_info_url: true
+    links_live: true
+  link_checks:
+  - url: https://theaterforthenewcity.net/shows/festival-of-india-sitar-workshop/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T15:55:51.038341-04:00'
+  problems: []
+  validated_at: '2026-08-16T15:55:51.038328-04:00'
 curated:
   forms:
   - kuchipudi

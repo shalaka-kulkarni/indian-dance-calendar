@@ -35,20 +35,21 @@ validation:
   passed: false
   checks:
     has_info_url: true
+    specific_url: false
     links_live: true
     date_valid: true
     price_known: false
     in_metro: true
     classified: true
-    specific_url: false
   link_checks:
   - url: https://gibneydance.org/
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T15:23:30.564135-04:00'
+    checked_at: '2026-08-16T15:56:36.428359-04:00'
   problems:
   - 'info URL is a bare homepage, not an event page: https://gibneydance.org/'
-  validated_at: '2026-08-16T15:23:30.564128-04:00'
+  - no price information
+  validated_at: '2026-08-16T15:56:36.428337-04:00'
 curated:
   forms:
   - bharatanatyam

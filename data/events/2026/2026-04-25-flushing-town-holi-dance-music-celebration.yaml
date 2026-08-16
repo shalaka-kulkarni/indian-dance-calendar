@@ -34,6 +34,18 @@ ai:
   reasoning: Indian dance event verified against a live source page.
   model: claude-fable-5
   classified_at: '2026-08-16'
+validation:
+  passed: true
+  checks:
+    has_info_url: true
+    links_live: true
+  link_checks:
+  - url: https://www.flushingtownhall.org/show-details/holi-dance-music-celebration-festival-of-colors
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-16T15:55:51.363088-04:00'
+  problems: []
+  validated_at: '2026-08-16T15:55:51.363085-04:00'
 curated:
   forms:
   - folk
