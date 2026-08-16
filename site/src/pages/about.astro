@@ -1,0 +1,73 @@
+---
+import data from '../data/events.json';
+const bySources = data.sources;
+const mainstream = bySources.filter((s) => s.circuit === 'mainstream');
+const diaspora = bySources.filter((s) => s.circuit === 'diaspora');
+const platform = bySources.filter((s) => s.circuit === 'platform');
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About — NYC Indian Dance</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💃</text></svg>" />
+  </head>
+  <body>
+    <main>
+      <p><a href="/">← Back to the calendar</a></p>
+      <h1>About this calendar</h1>
+      <p>
+        Indian dance in New York is listed in two worlds that don't talk to each
+        other. Community listings carry the festivals and recitals but miss what
+        the big presenters put on; the mainstream venues present world-class
+        Indian artists but never file them anywhere you'd think to look. Ten
+        events can happen at ten different venues in a year with no single place
+        that knew about all ten.
+      </p>
+      <p>
+        This calendar merges both worlds. Automated sweeps read the calendars of
+        the venues and presenters below several times a week, a broader search
+        looks for events beyond them, and every listing is checked before it
+        appears here — working links, a real date, a price. Each event links to
+        its <em>info page</em> and its <em>ticket page</em> separately, and shows
+        every source it was found in. The source is always authoritative.
+      </p>
+      <h2>What's included</h2>
+      <p>
+        Indian dance in all its forms — Kathak, Bharatanatyam, Odissi, Kuchipudi,
+        Mohiniyattam, Manipuri, Sattriya, Kathakali, folk, Bollywood, and
+        Indian-rooted fusion and contemporary work — plus dance talks and
+        workshops, across the five boroughs, New Jersey, Long Island and
+        Westchester. Pure music concerts are out of scope.
+      </p>
+      <h2>Sources watched</h2>
+      <p><strong>Presenters &amp; venues:</strong> {mainstream.map((s) => s.name).join(' · ')}</p>
+      <p><strong>Community circuit:</strong> {diaspora.map((s) => s.name).join(' · ')}</p>
+      <p><strong>Platforms:</strong> {platform.map((s) => s.name).join(' · ')}</p>
+      <h2>Subscribe</h2>
+      <p>
+        Add the whole calendar to Google or Apple Calendar with the
+        <a href="/calendar.ics">calendar feed</a>. A short weekly email digest is
+        coming; subscription details will appear here.
+      </p>
+      <p class="fine">
+        Spotted a mistake, or want your event listed? Every listing improves the
+        calendar for everyone — contact details coming with the newsletter.
+      </p>
+    </main>
+    <style is:global>
+      :root {
+        --bg: #faf7f2; --ink: #2b2118; --muted: #7a6a5c; --accent: #b3512f; --line: #e8dfd3;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root { --bg: #191411; --ink: #f0e7dc; --muted: #a89a8a; --accent: #e07a4f; --line: #3a3129; }
+      }
+      body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, 'Segoe UI', sans-serif; }
+      main { max-width: 720px; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+      h1 { font-family: Georgia, serif; letter-spacing: -.02em; }
+      h2 { font-family: Georgia, serif; font-size: 1.15rem; margin-top: 2rem; }
+      a { color: var(--accent); }
+      .fine { color: var(--muted); font-size: .9rem; border-top: 1px solid var(--line); padding-top: 1rem; margin-top: 2.5rem; }
+    </style>
+  </body>
+</html>

@@ -1,0 +1,308 @@
+---
+import data from '../data/events.json';
+import { FORM_LABELS, REGION_LABELS, PRESENTER_LABELS, KIND_LABELS } from '../labels.js';
+
+const events = data.events;
+const generatedAt = new Date(data.generatedAt);
+
+const monthKey = (iso) => iso.slice(0, 7);
+const monthName = (iso) =>
+  new Date(iso + '-02T00:00:00').toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+
+const months = [...new Set(events.map((e) => monthKey(e.start)))];
+
+const fmtDay = (iso) =>
+  new Date(iso).toLocaleDateString('en-US', {
+    weekday: 'short', month: 'short', day: 'numeric', timeZone: 'America/New_York',
+  });
+const fmtTime = (iso) => {
+  const d = new Date(iso);
+  const t = d.toLocaleTimeString('en-US', {
+    hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York',
+  });
+  return t === '12:00 AM' ? '' : t; // midnight = time unknown, don't show a fake time
+};
+const dateLine = (e) => {
+  const first = `${fmtDay(e.start)}${fmtTime(e.start) ? ' · ' + fmtTime(e.start) : ''}`;
+  if (e.end && e.end.slice(0, 10) !== e.start.slice(0, 10)) {
+    return `${fmtDay(e.start)} – ${fmtDay(e.end)}`;
+  }
+  if (e.additionalDates?.length) {
+    return [first, ...e.additionalDates.map((d) => `${fmtDay(d)}${fmtTime(d) ? ' · ' + fmtTime(d) : ''}`)].join('  +  ');
+  }
+  return first;
+};
+
+const usedForms = [...new Set(events.flatMap((e) => e.forms))].sort();
+const usedRegions = [...new Set(events.map((e) => e.region).filter((r) => REGION_LABELS[r]))].sort();
+const hasFree = events.some((e) => e.isFree);
+const usedPresenters = [...new Set(events.map((e) => e.presenterType).filter((p) => PRESENTER_LABELS[p]))];
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NYC Indian Dance — every Indian dance event in the New York metro</title>
+    <meta
+      name="description"
+      content="One calendar for every Indian dance event in the New York metro area — classical, folk, Bollywood and fusion, from Lincoln Center to Flushing Town Hall to NJPAC."
+    />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💃</text></svg>" />
+  </head>
+  <body>
+    <header class="masthead">
+      <h1>NYC Indian Dance</h1>
+      <p class="tagline">
+        Every Indian dance event in the New York metro — classical, folk, Bollywood, fusion —
+        from the big houses and the community halls, in one calendar.
+      </p>
+      <nav class="actions">
+        <a class="btn btn-accent" href="/calendar.ics">＋ Subscribe (Google / Apple Calendar)</a>
+        <a class="btn" href="/about">About this calendar</a>
+      </nav>
+    </header>
+
+    <main>
+      {events.length > 0 && (
+        <section class="filters" aria-label="Filters">
+          <div class="filter-group">
+            <span class="filter-label">Form</span>
+            {usedForms.map((f) => (
+              <button class="chip" data-filter="form" data-value={f}>{FORM_LABELS[f] ?? f}</button>
+            ))}
+          </div>
+          <div class="filter-group">
+            <span class="filter-label">Where</span>
+            {usedRegions.map((r) => (
+              <button class="chip" data-filter="region" data-value={r}>{REGION_LABELS[r]}</button>
+            ))}
+          </div>
+          <div class="filter-group">
+            {hasFree && <button class="chip" data-filter="free" data-value="true">Free</button>}
+            {usedPresenters.map((p) => (
+              <button class="chip" data-filter="presenter" data-value={p}>{PRESENTER_LABELS[p]}</button>
+            ))}
+            <button class="chip chip-clear" id="clear-filters" hidden>Clear ✕</button>
+          </div>
+          <p class="count"><span id="shown-count">{events.length}</span> upcoming {events.length === 1 ? 'event' : 'events'}</p>
+        </section>
+      )}
+
+      {events.length === 0 && (
+        <section class="empty">
+          <p>
+            No upcoming events are published yet — the first automated sweep of
+            {' '}{data.sources.length} venue calendars and listings will populate this page.
+          </p>
+        </section>
+      )}
+
+      {months.map((m) => (
+        <section class="month" data-month={m}>
+          <h2>{monthName(m)}</h2>
+          {events.filter((e) => monthKey(e.start) === m).map((e) => (
+            <article
+              class="event"
+              data-forms={e.forms.join(',')}
+              data-region={e.region}
+              data-free={String(e.isFree)}
+              data-presenter={e.presenterType}
+            >
+              <div class="event-when">{dateLine(e)}</div>
+              <div class="event-body">
+                <h3>{e.title}</h3>
+                <p class="event-meta">
+                  <span class="venue">{e.venue}</span>
+                  {REGION_LABELS[e.region] && <span class="region">{REGION_LABELS[e.region]}</span>}
+                  {e.price && <span class="price">{e.isFree ? 'Free' : e.price}</span>}
+                  {e.priceNote && !e.isFree && e.priceNote !== e.price && (
+                    <span class="price-note">({e.priceNote})</span>
+                  )}
+                </p>
+                <p class="event-tags">
+                  {e.forms.map((f) => (
+                    <span class="tag tag-form">{FORM_LABELS[f] ?? f}</span>
+                  ))}
+                  {KIND_LABELS[e.kind] && <span class="tag">{KIND_LABELS[e.kind]}</span>}
+                  {PRESENTER_LABELS[e.presenterType] && (
+                    <span class="tag tag-presenter">{PRESENTER_LABELS[e.presenterType]}</span>
+                  )}
+                </p>
+                {e.description && <p class="event-desc">{e.description}</p>}
+                {e.editorNote && <p class="event-note">{e.editorNote}</p>}
+                <p class="event-links">
+                  <a class="btn btn-small" href={e.infoUrl} target="_blank" rel="noopener">Event info ↗</a>
+                  {e.ticketUrl && e.ticketUrl !== e.infoUrl && (
+                    <a class="btn btn-small btn-accent" href={e.ticketUrl} target="_blank" rel="noopener">Tickets ↗</a>
+                  )}
+                </p>
+                <p class="event-sources">
+                  Listed via {e.sources.map((s, i) => (
+                    <>
+                      {i > 0 && ' · '}
+                      <a href={s.url} target="_blank" rel="noopener">{
+                        data.sources.find((src) => src.id === s.id)?.name ?? s.id
+                      }</a>
+                    </>
+                  ))}
+                </p>
+              </div>
+            </article>
+          ))}
+        </section>
+      ))}
+    </main>
+
+    <footer>
+      <p>
+        Updated automatically — last sweep {generatedAt.toLocaleDateString('en-US', {
+          month: 'short', day: 'numeric', year: 'numeric', timeZone: 'America/New_York',
+        })}. Every listing links to its source; the source is authoritative for
+        dates, prices and tickets.
+      </p>
+      <p class="sources-list">
+        Watching {data.sources.length} sources including {' '}
+        {data.sources.slice(0, 12).map((s) => s.name).join(', ')}, and more —
+        plus a weekly broad search for events beyond them.
+      </p>
+    </footer>
+
+    <script>
+      const active = { form: new Set(), region: new Set(), free: new Set(), presenter: new Set() };
+      const chips = document.querySelectorAll('.chip[data-filter]');
+      const clearBtn = document.getElementById('clear-filters');
+      const countEl = document.getElementById('shown-count');
+
+      function apply() {
+        let shown = 0;
+        document.querySelectorAll('article.event').forEach((card) => {
+          const forms = (card.dataset.forms || '').split(',').filter(Boolean);
+          const ok =
+            (!active.form.size || forms.some((f) => active.form.has(f))) &&
+            (!active.region.size || active.region.has(card.dataset.region)) &&
+            (!active.free.size || card.dataset.free === 'true') &&
+            (!active.presenter.size || active.presenter.has(card.dataset.presenter));
+          card.hidden = !ok;
+          if (ok) shown += 1;
+        });
+        document.querySelectorAll('section.month').forEach((month) => {
+          month.hidden = ![...month.querySelectorAll('article.event')].some((c) => !c.hidden);
+        });
+        if (countEl) countEl.textContent = String(shown);
+        const any = Object.values(active).some((s) => s.size);
+        if (clearBtn) clearBtn.hidden = !any;
+      }
+
+      chips.forEach((chip) => {
+        chip.addEventListener('click', () => {
+          const { filter, value } = chip.dataset;
+          const set = active[filter];
+          if (set.has(value)) { set.delete(value); chip.classList.remove('on'); }
+          else { set.add(value); chip.classList.add('on'); }
+          apply();
+        });
+      });
+      clearBtn?.addEventListener('click', () => {
+        Object.values(active).forEach((s) => s.clear());
+        chips.forEach((c) => c.classList.remove('on'));
+        apply();
+      });
+    </script>
+
+    <style is:global>
+      :root {
+        --bg: #faf7f2;
+        --card: #ffffff;
+        --ink: #2b2118;
+        --muted: #7a6a5c;
+        --accent: #b3512f;
+        --accent-ink: #ffffff;
+        --line: #e8dfd3;
+        --tag-bg: #f3ece1;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #191411;
+          --card: #221c17;
+          --ink: #f0e7dc;
+          --muted: #a89a8a;
+          --accent: #e07a4f;
+          --accent-ink: #1c120c;
+          --line: #3a3129;
+          --tag-bg: #2f2721;
+        }
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font: 16px/1.55 system-ui, -apple-system, 'Segoe UI', sans-serif;
+      }
+      .masthead { max-width: 880px; margin: 0 auto; padding: 3rem 1.25rem 1rem; }
+      .masthead h1 {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: clamp(2rem, 6vw, 3.2rem);
+        margin: 0 0 .4rem;
+        letter-spacing: -.02em;
+      }
+      .masthead h1::after { content: ''; display: block; width: 4.5rem; height: 4px; background: var(--accent); margin-top: .55rem; border-radius: 2px; }
+      .tagline { color: var(--muted); max-width: 46rem; margin: .8rem 0 1.2rem; }
+      .actions { display: flex; gap: .6rem; flex-wrap: wrap; }
+      .btn {
+        display: inline-block; padding: .45rem .9rem; border: 1px solid var(--line);
+        border-radius: 999px; background: var(--card); color: var(--ink);
+        text-decoration: none; font-size: .9rem;
+      }
+      .btn:hover { border-color: var(--accent); }
+      .btn-accent { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+      .btn-small { padding: .3rem .75rem; font-size: .85rem; }
+      main { max-width: 880px; margin: 0 auto; padding: 0 1.25rem 3rem; }
+      .filters { border-top: 1px solid var(--line); padding-top: 1.1rem; margin-top: 1.4rem; }
+      .filter-group { display: flex; align-items: center; gap: .4rem; flex-wrap: wrap; margin-bottom: .55rem; }
+      .filter-label { font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-right: .2rem; min-width: 3.2rem; }
+      .chip {
+        border: 1px solid var(--line); background: var(--card); color: var(--ink);
+        border-radius: 999px; padding: .28rem .8rem; font-size: .85rem; cursor: pointer;
+      }
+      .chip:hover { border-color: var(--accent); }
+      .chip.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+      .chip-clear { border-style: dashed; color: var(--muted); }
+      .count { color: var(--muted); font-size: .85rem; margin: .6rem 0 0; }
+      .empty { border: 1px dashed var(--line); border-radius: 12px; padding: 2rem; margin-top: 2rem; color: var(--muted); }
+      .month { margin-top: 2.2rem; }
+      .month h2 {
+        font-family: Georgia, serif; font-size: 1.15rem; text-transform: uppercase;
+        letter-spacing: .12em; color: var(--muted); border-bottom: 1px solid var(--line);
+        padding-bottom: .45rem; margin: 0 0 1rem;
+      }
+      article.event {
+        display: grid; grid-template-columns: 9.5rem 1fr; gap: 1rem;
+        background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+        padding: 1.1rem 1.2rem; margin-bottom: .9rem;
+      }
+      @media (max-width: 620px) { article.event { grid-template-columns: 1fr; gap: .3rem; } }
+      .event-when { font-weight: 600; font-size: .92rem; color: var(--accent); }
+      .event-body h3 { margin: 0 0 .3rem; font-size: 1.12rem; line-height: 1.3; }
+      .event-meta { margin: 0 0 .45rem; font-size: .9rem; color: var(--muted); }
+      .event-meta .venue { color: var(--ink); }
+      .event-meta span + span::before { content: ' · '; color: var(--muted); }
+      .price { font-weight: 600; }
+      .event-tags { margin: 0 0 .5rem; display: flex; gap: .35rem; flex-wrap: wrap; }
+      .tag {
+        background: var(--tag-bg); border-radius: 999px; padding: .12rem .6rem;
+        font-size: .76rem; color: var(--muted);
+      }
+      .tag-form { color: var(--accent); font-weight: 600; }
+      .event-desc { margin: 0 0 .55rem; font-size: .92rem; }
+      .event-note { margin: 0 0 .55rem; font-size: .92rem; font-style: italic; color: var(--muted); }
+      .event-links { margin: .2rem 0 .55rem; display: flex; gap: .5rem; flex-wrap: wrap; }
+      .event-sources { margin: 0; font-size: .78rem; color: var(--muted); }
+      .event-sources a { color: var(--muted); }
+      footer {
+        border-top: 1px solid var(--line); color: var(--muted); font-size: .84rem;
+        max-width: 880px; margin: 0 auto; padding: 1.4rem 1.25rem 3rem;
+      }
+    </style>
+  </body>
+</html>

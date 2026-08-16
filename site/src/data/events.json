@@ -1,0 +1,246 @@
+{
+ "generatedAt": "2026-08-16T12:18:06.332239-04:00",
+ "events": [],
+ "sources": [
+  {
+   "id": "joyce",
+   "name": "The Joyce Theater",
+   "circuit": "mainstream",
+   "url": "https://www.joyce.org/performances"
+  },
+  {
+   "id": "carnegie",
+   "name": "Carnegie Hall (full calendar)",
+   "circuit": "mainstream",
+   "url": "https://www.carnegiehall.org/Calendar"
+  },
+  {
+   "id": "city_center",
+   "name": "New York City Center",
+   "circuit": "mainstream",
+   "url": "https://www.nycitycenter.org/pdps-and-events/"
+  },
+  {
+   "id": "lincoln_center",
+   "name": "Lincoln Center (incl. Summer for the City)",
+   "circuit": "mainstream",
+   "url": "https://www.lincolncenter.org/calendar"
+  },
+  {
+   "id": "nyla",
+   "name": "New York Live Arts",
+   "circuit": "mainstream",
+   "url": "https://newyorklivearts.org/events/"
+  },
+  {
+   "id": "gibney",
+   "name": "Gibney (Agnes Varis PAC)",
+   "circuit": "mainstream",
+   "url": "https://gibneydance.org/performances/"
+  },
+  {
+   "id": "skirball",
+   "name": "NYU Skirball",
+   "circuit": "mainstream",
+   "url": "https://nyuskirball.org/events/"
+  },
+  {
+   "id": "ailey_citigroup",
+   "name": "Ailey Citigroup Theater",
+   "circuit": "mainstream",
+   "url": "https://www.alvinailey.org/performances"
+  },
+  {
+   "id": "kaye_playhouse",
+   "name": "Kaye Playhouse at Hunter College",
+   "circuit": "mainstream",
+   "url": "https://kayeplayhouse.hunter.cuny.edu/events/"
+  },
+  {
+   "id": "symphony_space",
+   "name": "Symphony Space",
+   "circuit": "mainstream",
+   "url": "https://www.symphonyspace.org/calendar"
+  },
+  {
+   "id": "ninety_second_y",
+   "name": "92NY (92nd Street Y)",
+   "circuit": "mainstream",
+   "url": "https://www.92ny.org/events"
+  },
+  {
+   "id": "asia_society",
+   "name": "Asia Society New York",
+   "circuit": "mainstream",
+   "url": "https://asiasociety.org/new-york/events"
+  },
+  {
+   "id": "met_live_arts",
+   "name": "MetLiveArts (Metropolitan Museum)",
+   "circuit": "mainstream",
+   "url": "https://www.metmuseum.org/events/metlivearts"
+  },
+  {
+   "id": "wmi",
+   "name": "World Music Institute",
+   "circuit": "mainstream",
+   "url": "https://worldmusicinstitute.org/events/"
+  },
+  {
+   "id": "town_hall",
+   "name": "The Town Hall",
+   "circuit": "mainstream",
+   "url": "https://thetownhall.org/calendar"
+  },
+  {
+   "id": "bam",
+   "name": "BAM (Brooklyn Academy of Music)",
+   "circuit": "mainstream",
+   "url": "https://www.bam.org/whats-on"
+  },
+  {
+   "id": "pac_nyc",
+   "name": "PAC NYC (Perelman Performing Arts Center, World Trade Center)",
+   "circuit": "mainstream",
+   "url": "https://pacnyc.org/whats-on/"
+  },
+  {
+   "id": "queens_theatre",
+   "name": "Queens Theatre",
+   "circuit": "mainstream",
+   "url": "https://queenstheatre.org/events/"
+  },
+  {
+   "id": "flushing_town_hall",
+   "name": "Flushing Town Hall",
+   "circuit": "mainstream",
+   "url": "https://www.flushingtownhall.org/events"
+  },
+  {
+   "id": "laguardia_pac",
+   "name": "LaGuardia Performing Arts Center (CUNY)",
+   "circuit": "mainstream",
+   "url": "https://www.laguardiaperformingarts.com/"
+  },
+  {
+   "id": "battery_dance",
+   "name": "Battery Dance Festival",
+   "circuit": "mainstream",
+   "url": "https://batterydance.org/battery-dance-festival/"
+  },
+  {
+   "id": "ganesha_temple",
+   "name": "Hindu Temple Society of North America (Ganesha Temple, Flushing)",
+   "circuit": "diaspora",
+   "url": "https://nyganeshtemple.org/"
+  },
+  {
+   "id": "njpac",
+   "name": "NJPAC (New Jersey Performing Arts Center, Newark)",
+   "circuit": "mainstream",
+   "url": "https://www.njpac.org/events/"
+  },
+  {
+   "id": "prudential_center",
+   "name": "Prudential Center (Newark)",
+   "circuit": "mainstream",
+   "url": "https://www.prucenter.com/events"
+  },
+  {
+   "id": "state_theatre_nj",
+   "name": "State Theatre New Jersey (New Brunswick)",
+   "circuit": "mainstream",
+   "url": "https://www.stnj.org/events"
+  },
+  {
+   "id": "sopac",
+   "name": "SOPAC (South Orange Performing Arts Center)",
+   "circuit": "mainstream",
+   "url": "https://www.sopacnow.org/events/"
+  },
+  {
+   "id": "loews_jersey",
+   "name": "Loew's Jersey Theatre (Journal Square, Jersey City)",
+   "circuit": "mainstream",
+   "url": "https://loewsjersey.org/"
+  },
+  {
+   "id": "narthaki",
+   "name": "Narthaki events listing",
+   "circuit": "diaspora",
+   "url": "https://narthaki.com/info/fevents.html"
+  },
+  {
+   "id": "iaac",
+   "name": "Indo-American Arts Council",
+   "circuit": "diaspora",
+   "url": "https://iaac.us/"
+  },
+  {
+   "id": "ny_kathak_festival",
+   "name": "New York Kathak Festival",
+   "circuit": "diaspora",
+   "url": "https://www.newyorkkathakfestival.org/"
+  },
+  {
+   "id": "consulate",
+   "name": "Consulate General of India, New York",
+   "circuit": "diaspora",
+   "url": "https://www.indiainnewyork.gov.in/"
+  },
+  {
+   "id": "sulekha",
+   "name": "Sulekha Events (New York)",
+   "circuit": "platform",
+   "url": "https://events.sulekha.com/new-york-metro-area"
+  },
+  {
+   "id": "dance_enthusiast",
+   "name": "The Dance Enthusiast listings",
+   "circuit": "mainstream",
+   "url": "https://www.dance-enthusiast.com/events"
+  },
+  {
+   "id": "nyc_arts",
+   "name": "NYC-ARTS calendar (WNET)",
+   "circuit": "mainstream",
+   "url": "https://www.nyc-arts.org/events/"
+  },
+  {
+   "id": "timeout_ny",
+   "name": "Time Out New York \u2014 Dance",
+   "circuit": "mainstream",
+   "url": "https://www.timeout.com/newyork/dance"
+  },
+  {
+   "id": "eventbrite",
+   "name": "Eventbrite API",
+   "circuit": "platform",
+   "url": "https://www.eventbriteapi.com/v3/"
+  },
+  {
+   "id": "ticketmaster",
+   "name": "Ticketmaster Discovery API",
+   "circuit": "platform",
+   "url": "https://app.ticketmaster.com/discovery/v2/"
+  },
+  {
+   "id": "allevents",
+   "name": "AllEvents.in (New York)",
+   "circuit": "platform",
+   "url": "https://allevents.in/new%20york/indian"
+  },
+  {
+   "id": "manual",
+   "name": "Manual entry (owner-verified)",
+   "circuit": "diaspora",
+   "url": ""
+  },
+  {
+   "id": "discovery_search",
+   "name": "Discovery search battery",
+   "circuit": "discovery",
+   "url": ""
+  }
+ ]
+}
