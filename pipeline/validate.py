@@ -50,15 +50,29 @@ BLOCKING_CHECKS = (
 )
 
 
+# Only these mean the page is genuinely gone. Big venue sites (Carnegie Hall,
+# Asia Society, ticketing platforms) sit behind WAFs that answer automated
+# requests with 403/405/429 while serving humans perfectly well, and 5xx is the
+# server having a bad day. Treating any of those as "dead" deletes good
+# listings, which is a worse failure than keeping a link we could not re-verify.
+GONE_CODES = {404, 410}
+
+
 def check_link(client: httpx.Client, url: str) -> LinkCheck:
     now = datetime.now(NY_TZ)
     try:
         resp = client.head(url, follow_redirects=True, timeout=LINK_TIMEOUT)
-        # Many servers reject HEAD; retry those with GET before failing the link.
+        # Many servers reject HEAD; retry those with GET before judging.
         if resp.status_code >= 400:
             resp = client.get(url, follow_redirects=True, timeout=LINK_TIMEOUT)
-        return LinkCheck(url=url, ok=resp.status_code < 400, status_code=resp.status_code, checked_at=now)
+        return LinkCheck(
+            url=url,
+            ok=resp.status_code not in GONE_CODES,
+            status_code=resp.status_code,
+            checked_at=now,
+        )
     except httpx.HTTPError as exc:
+        # Could not reach it at all — that is a real failure.
         log.debug("link check failed %s: %s", url, exc)
         return LinkCheck(url=url, ok=False, status_code=None, checked_at=now)
 

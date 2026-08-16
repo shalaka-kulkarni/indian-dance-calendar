@@ -34,24 +34,6 @@ ai:
   reasoning: Diwali festival programme at Asia Society including Indian dance performances.
   model: claude-fable-5
   classified_at: '2026-08-16'
-validation:
-  passed: false
-  checks:
-    has_info_url: true
-    specific_url: true
-    links_live: false
-    date_valid: true
-    price_known: true
-    in_metro: true
-    classified: true
-  link_checks:
-  - url: https://asiasociety.org/new-york/events/diwali-lights-asia-society-2026
-    ok: false
-    status_code: 403
-    checked_at: '2026-08-16T15:56:35.348604-04:00'
-  problems:
-  - 'dead links: https://asiasociety.org/new-york/events/diwali-lights-asia-society-2026'
-  validated_at: '2026-08-16T15:56:35.348579-04:00'
 curated:
   forms:
   - folk

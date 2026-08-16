@@ -39,29 +39,6 @@ ai:
     non-Indian programming).
   model: claude-fable-5
   classified_at: '2026-08-16'
-validation:
-  passed: false
-  checks:
-    has_info_url: true
-    specific_url: true
-    links_live: false
-    date_valid: true
-    price_known: true
-    in_metro: true
-    classified: false
-  link_checks:
-  - url: https://my.stnj.org/24901/24902
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-16T15:56:19.194793-04:00'
-  - url: https://www.stnj.org/events/detail/samara-joy-her-septet
-    ok: false
-    status_code: 406
-    checked_at: '2026-08-16T15:56:21.312198-04:00'
-  problems:
-  - 'dead links: https://www.stnj.org/events/detail/samara-joy-her-septet'
-  - classified not-relevant
-  validated_at: '2026-08-16T15:56:19.194768-04:00'
 curated:
   forms: []
   editor_note: ''

@@ -39,29 +39,6 @@ ai:
     non-Indian programming).
   model: claude-fable-5
   classified_at: '2026-08-16'
-validation:
-  passed: false
-  checks:
-    has_info_url: true
-    specific_url: true
-    links_live: false
-    date_valid: true
-    price_known: true
-    in_metro: true
-    classified: false
-  link_checks:
-  - url: https://www.stnj.org/events/detail/kenny-wayne-shepherd-2026
-    ok: false
-    status_code: 406
-    checked_at: '2026-08-16T15:56:16.504239-04:00'
-  - url: https://my.stnj.org/24906/24907
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-16T15:56:16.650850-04:00'
-  problems:
-  - 'dead links: https://www.stnj.org/events/detail/kenny-wayne-shepherd-2026'
-  - classified not-relevant
-  validated_at: '2026-08-16T15:56:16.504217-04:00'
 curated:
   forms: []
   editor_note: ''

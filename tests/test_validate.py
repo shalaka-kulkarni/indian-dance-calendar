@@ -127,3 +127,36 @@ def test_offline_past_validation_never_records_a_dead_link(sample_event):
     sample_event.validation = None
     validation = validate_past_event(sample_event, client=None, now=NOW)
     assert "links_live" not in validation.checks
+
+
+def test_bot_blocked_link_is_not_treated_as_dead(monkeypatch):
+    """Carnegie Hall and friends answer bots with 403 while serving humans fine.
+    Deleting those listings is a worse failure than keeping an unverifiable link."""
+    import httpx
+
+    from pipeline.validate import check_link
+
+    class FakeResponse:
+        def __init__(self, code):
+            self.status_code = code
+
+    class FakeClient:
+        def __init__(self, code):
+            self.code = code
+
+        def head(self, url, **kw):
+            return FakeResponse(self.code)
+
+        def get(self, url, **kw):
+            return FakeResponse(self.code)
+
+    for code in (403, 405, 429, 500):
+        assert check_link(FakeClient(code), "https://example.org/e").ok, code
+    for code in (404, 410):
+        assert not check_link(FakeClient(code), "https://example.org/e").ok, code
+
+    class ExplodingClient:
+        def head(self, url, **kw):
+            raise httpx.ConnectError("no route")
+
+    assert not check_link(ExplodingClient(), "https://example.org/e").ok

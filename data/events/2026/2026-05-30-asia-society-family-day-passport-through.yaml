@@ -31,19 +31,6 @@ ai:
   reasoning: Indian dance event verified against a live source page.
   model: claude-fable-5
   classified_at: '2026-08-16'
-validation:
-  passed: false
-  checks:
-    has_info_url: true
-    links_live: false
-  link_checks:
-  - url: https://asiasociety.org/new-york/events/family-day-passport-through-asia
-    ok: false
-    status_code: 403
-    checked_at: '2026-08-16T15:55:54.022815-04:00'
-  problems:
-  - 'archive info link dead: https://asiasociety.org/new-york/events/family-day-passport-through-asia'
-  validated_at: '2026-08-16T15:55:54.022810-04:00'
 curated:
   forms:
   - bharatanatyam
