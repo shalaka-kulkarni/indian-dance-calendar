@@ -1,5 +1,5 @@
 id: 2026-09-16-the-joyce-the-surge
-status: needs_attention
+status: rejected
 needs_recheck: false
 scraped:
   title: The Surge
@@ -21,24 +21,30 @@ scraped:
     url: https://www.joyce.org/performances/the-surge-b1jd
     first_seen: '2026-08-16'
     last_seen: '2026-08-16'
+ai:
+  relevant: false
+  kind: other
+  forms: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: Dance/ballet/tango/flamenco, but not an Indian dance form.
+  model: claude-fable-5
+  classified_at: '2026-08-16'
 validation:
   passed: false
   checks:
     has_info_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://www.joyce.org/performances/the-surge-b1jd
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-16T14:01:41.777888-04:00'
+  link_checks: []
   problems:
+  - links not yet verified (offline run)
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-08-16T14:01:41.777881-04:00'
+  - classified not-relevant
+  validated_at: '2026-08-16T14:03:28.549903-04:00'
 curated:
   forms: []
   editor_note: ''

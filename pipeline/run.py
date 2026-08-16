@@ -185,6 +185,9 @@ def cmd_validate(check_links: bool = True) -> dict:
     for event in load_all_events():
         if event.status in (Status.PAST,):
             continue
+        # Offline runs can't verify links; never let that demote a live event.
+        if not check_links and event.status == Status.PUBLISHED:
+            continue
         first_source = event.scraped.sources[0].source_id if event.scraped.sources else ""
         source = sources_by_id.get(first_source)
         assume = source.assume_relevant if source else False
