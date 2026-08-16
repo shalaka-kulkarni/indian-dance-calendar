@@ -1,5 +1,5 @@
 id: 2026-10-20-92nd-street-simon-schama-in-conversation
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -22,28 +22,30 @@ scraped:
     url: https://www.92ny.org/event/simon-schama-with-rabbi-david-ingber
     first_seen: '2026-08-16'
     last_seen: '2026-08-16'
+ai:
+  relevant: false
+  kind: other
+  forms: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: No Indian dance content in the listing (talk, screening, comedy, jazz, yoga or general programming).
+  model: claude-fable-5
+  classified_at: '2026-08-16'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://seats.92ny.org/single/210844
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-16T17:04:25.632305-04:00'
-  - url: https://www.92ny.org/event/simon-schama-with-rabbi-david-ingber
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-16T17:04:25.709568-04:00'
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-08-16T17:04:25.632282-04:00'
+  - links not yet verified (offline run)
+  - classified not-relevant
+  validated_at: '2026-08-16T17:06:21.928210-04:00'
 curated:
   forms: []
   editor_note: ''

@@ -1,5 +1,5 @@
 id: 2026-10-13--the-unbelievers
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -22,25 +22,31 @@ scraped:
     url: https://www.nycitycenter.org/events/2026-2027-the-unbelievers
     first_seen: '2026-08-16'
     last_seen: '2026-08-16'
+ai:
+  relevant: false
+  kind: other
+  forms: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: No Indian dance content in the listing (talk, screening, comedy, jazz, yoga or general programming).
+  model: claude-fable-5
+  classified_at: '2026-08-16'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://www.nycitycenter.org/events/2026-2027-the-unbelievers
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-16T17:04:13.490732-04:00'
+  link_checks: []
   problems:
+  - links not yet verified (offline run)
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-08-16T17:04:13.490710-04:00'
+  - classified not-relevant
+  validated_at: '2026-08-16T17:06:21.886848-04:00'
 curated:
   forms: []
   editor_note: ''

@@ -1,5 +1,5 @@
 id: 2026-11-07-queens-theatre-tammy-mccann-the-legendary
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -22,6 +22,15 @@ scraped:
     url: https://queenstheatre.org/events/tammy-mccann-nrmf
     first_seen: '2026-08-16'
     last_seen: '2026-08-16'
+ai:
+  relevant: false
+  kind: other
+  forms: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: No Indian dance content in the listing (talk, screening, comedy, jazz, yoga or general programming).
+  model: claude-fable-5
+  classified_at: '2026-08-16'
 validation:
   passed: false
   checks:
@@ -32,15 +41,12 @@ validation:
     price_known: false
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://queenstheatre.org/events/tammy-mccann-nrmf
-    ok: false
-    checked_at: '2026-08-16T17:04:36.814422-04:00'
+  link_checks: []
   problems:
-  - 'dead links: https://queenstheatre.org/events/tammy-mccann-nrmf'
+  - links not yet verified (offline run)
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-08-16T17:04:36.814396-04:00'
+  - classified not-relevant
+  validated_at: '2026-08-16T17:06:22.001024-04:00'
 curated:
   forms: []
   editor_note: ''
