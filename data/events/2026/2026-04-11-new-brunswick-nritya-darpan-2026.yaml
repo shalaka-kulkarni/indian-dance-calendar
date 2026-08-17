@@ -48,9 +48,9 @@ validation:
   - url: https://newsindiatimes.com/nritya-darpans-sold-out-show-highlights-emerging-established-artists/
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T08:43:43.890264-04:00'
+    checked_at: '2026-08-17T08:54:34.257761-04:00'
   problems: []
-  validated_at: '2026-08-17T08:43:43.890258-04:00'
+  validated_at: '2026-08-17T08:54:34.257756-04:00'
 curated:
   forms:
   - kathak

@@ -1,7 +1,7 @@
 id: 2026-11-05-adler-hall-niladri-kumar-the-space
-status: needs_attention
-was_published: false
-needs_recheck: true
+status: published
+was_published: true
+needs_recheck: false
 scraped:
   title: 'Niladri Kumar: The Space Between the Notes'
   start: '2026-11-05T20:00:00-05:00'
@@ -37,6 +37,23 @@ ai:
   reasoning: Researched and corroborated against a source page found in search.
   model: claude-fable-5
   classified_at: '2026-08-17'
+validation:
+  passed: true
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: true
+  link_checks:
+  - url: https://www.worldmusicinstitute.org/niladri-kumar-at-adler-hall/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-17T08:57:17.149403-04:00'
+  problems: []
+  validated_at: '2026-08-17T08:57:17.149382-04:00'
 curated:
   forms: []
   art_form: music

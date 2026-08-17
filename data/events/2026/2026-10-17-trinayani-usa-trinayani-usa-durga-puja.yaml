@@ -39,6 +39,24 @@ ai:
   reasoning: Researched and corroborated against a source page found in search.
   model: claude-fable-5
   classified_at: '2026-08-17'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: false
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: true
+  link_checks:
+  - url: https://trinayaninj.org/durgapuja2026/
+    ok: false
+    checked_at: '2026-08-17T08:56:22.840811-04:00'
+  problems:
+  - 'dead links: https://trinayaninj.org/durgapuja2026/'
+  - no price information
+  validated_at: '2026-08-17T08:56:22.840786-04:00'
 curated:
   forms:
   - folk

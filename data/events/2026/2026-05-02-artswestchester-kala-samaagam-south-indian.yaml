@@ -46,9 +46,9 @@ validation:
   - url: https://www.eventbrite.com/e/kala-samaagam-south-indian-music-dance-festival-tickets-1985448320373
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T08:43:46.175420-04:00'
+    checked_at: '2026-08-17T08:54:35.445208-04:00'
   problems: []
-  validated_at: '2026-08-17T08:43:46.175415-04:00'
+  validated_at: '2026-08-17T08:54:35.445204-04:00'
 curated:
   forms:
   - folk

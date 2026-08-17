@@ -1,7 +1,7 @@
 id: 2026-10-03-nassau-veterans-rahat-fateh-ali-khan
-status: needs_attention
-was_published: false
-needs_recheck: true
+status: published
+was_published: true
+needs_recheck: false
 scraped:
   title: Rahat Fateh Ali Khan live in concert
   start: '2026-10-03T00:00:00-04:00'
@@ -34,6 +34,24 @@ ai:
   reasoning: Researched and corroborated against a source page found in search.
   model: claude-fable-5
   classified_at: '2026-08-17'
+validation:
+  passed: true
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: true
+  link_checks:
+  - url: https://www.ticketmaster.com/rahat-fateh-ali-khan-uniondale-new-york-10-03-2026/event/00006486D4A6C91E
+    ok: true
+    status_code: 403
+    checked_at: '2026-08-17T08:55:56.087415-04:00'
+  problems:
+  - no price information
+  validated_at: '2026-08-17T08:55:56.087394-04:00'
 curated:
   forms: []
   art_form: music

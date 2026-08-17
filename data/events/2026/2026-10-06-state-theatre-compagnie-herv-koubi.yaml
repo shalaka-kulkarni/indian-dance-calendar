@@ -55,14 +55,14 @@ validation:
   - url: https://my.stnj.org/23395/23396
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T08:45:26.518174-04:00'
+    checked_at: '2026-08-17T08:56:03.536845-04:00'
   - url: https://www.stnj.org/events/detail/compagnie-herve-koubi
     ok: true
     status_code: 406
-    checked_at: '2026-08-17T08:45:30.587355-04:00'
+    checked_at: '2026-08-17T08:56:05.296349-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T08:45:26.518147-04:00'
+  validated_at: '2026-08-17T08:56:03.536820-04:00'
 curated:
   forms: []
   traditions: []

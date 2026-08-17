@@ -49,11 +49,11 @@ validation:
   - url: https://queenstheatre.org/events/dany-hoyos-y-suso-el-paspi-xng6
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T08:45:37.510495-04:00'
+    checked_at: '2026-08-17T08:56:12.248750-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-17T08:45:37.510467-04:00'
+  validated_at: '2026-08-17T08:56:12.248726-04:00'
 curated:
   forms: []
   traditions: []

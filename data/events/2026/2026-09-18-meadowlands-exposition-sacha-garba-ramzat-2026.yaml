@@ -1,7 +1,7 @@
 id: 2026-09-18-meadowlands-exposition-sacha-garba-ramzat-2026
-status: needs_attention
-was_published: false
-needs_recheck: true
+status: published
+was_published: true
+needs_recheck: false
 scraped:
   title: Sacha Garba Ramzat 2026 with Geeta Rabari
   start: '2026-09-18T21:00:00-04:00'
@@ -35,6 +35,24 @@ ai:
   reasoning: Researched and corroborated against a source page found in search.
   model: claude-fable-5
   classified_at: '2026-08-17'
+validation:
+  passed: true
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: true
+  link_checks:
+  - url: https://www.premiertickets.co/event/sacha-garba-ramzat-2026-with-geeta-rabari-in-new-jersey/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-17T08:55:14.440355-04:00'
+  problems:
+  - no price information
+  validated_at: '2026-08-17T08:55:14.440331-04:00'
 curated:
   forms:
   - folk

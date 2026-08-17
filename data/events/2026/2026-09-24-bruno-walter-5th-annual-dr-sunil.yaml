@@ -1,7 +1,7 @@
 id: 2026-09-24-bruno-walter-5th-annual-dr-sunil
 status: published
 was_published: true
-needs_recheck: true
+needs_recheck: false
 scraped:
   title: '5th Annual Dr. Sunil Kothari Lecture: Rama Vaidyanathan'
   start: '2026-09-24T18:00:00-04:00'
@@ -47,13 +47,13 @@ validation:
     in_metro: true
     classified: true
   link_checks:
-  - url: https://iaac.us/erasing-borders-dance-festival-2026/
+  - url: https://www.amnewscurtainraiser.com/2026/08/erasing-borders-dance-festival-returns.html
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T08:44:44.666042-04:00'
+    checked_at: '2026-08-17T08:55:35.028741-04:00'
   problems:
   - no price information
-  validated_at: '2026-08-17T08:44:44.666014-04:00'
+  validated_at: '2026-08-17T08:55:35.028717-04:00'
 curated:
   forms:
   - bharatanatyam

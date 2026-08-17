@@ -1,7 +1,7 @@
 id: 2026-10-22-hk-hall-diwali-on-the-hudson
-status: needs_attention
-was_published: false
-needs_recheck: true
+status: published
+was_published: true
+needs_recheck: false
 scraped:
   title: Diwali on the Hudson 2026
   start: '2026-10-22T19:00:00-04:00'
@@ -36,6 +36,24 @@ ai:
   reasoning: Researched and corroborated against a source page found in search.
   model: claude-fable-5
   classified_at: '2026-08-17'
+validation:
+  passed: true
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: true
+  link_checks:
+  - url: https://events.sulekha.com/diwali-on-the-hudson-2026_event-in_new-york-ny_399524
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-17T08:57:07.894880-04:00'
+  problems:
+  - no price information
+  validated_at: '2026-08-17T08:57:07.894856-04:00'
 curated:
   forms:
   - bollywood

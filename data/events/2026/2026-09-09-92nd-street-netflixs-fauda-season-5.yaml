@@ -50,14 +50,14 @@ validation:
   - url: https://www.92ny.org/event/netflix-s-fauda
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T08:44:06.204216-04:00'
+    checked_at: '2026-08-17T08:54:56.751171-04:00'
   - url: https://seats.92ny.org/single/211043
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T08:44:13.188469-04:00'
+    checked_at: '2026-08-17T08:54:58.584504-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T08:44:06.204187-04:00'
+  validated_at: '2026-08-17T08:54:56.751150-04:00'
 curated:
   forms: []
   traditions: []

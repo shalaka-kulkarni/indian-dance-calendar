@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/harry-connick-jr-babe-elaboratio
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T08:45:06.764256-04:00'
+    checked_at: '2026-08-17T08:55:47.597705-04:00'
   - url: https://seats.92ny.org/single/211068
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T08:45:09.111908-04:00'
+    checked_at: '2026-08-17T08:55:47.690714-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T08:45:06.764228-04:00'
+  validated_at: '2026-08-17T08:55:47.597678-04:00'
 curated:
   forms: []
   traditions: []

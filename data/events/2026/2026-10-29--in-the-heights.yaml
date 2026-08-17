@@ -46,11 +46,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/sq2wedc2/2026-10-29/2026-2027-in-the-heights
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T08:45:55.626737-04:00'
+    checked_at: '2026-08-17T08:57:13.290170-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-17T08:45:55.626711-04:00'
+  validated_at: '2026-08-17T08:57:13.290145-04:00'
 curated:
   forms: []
   traditions: []

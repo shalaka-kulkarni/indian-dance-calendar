@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/remember-jones-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T08:46:11.440542-04:00'
+    checked_at: '2026-08-17T08:57:31.355233-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-17T08:46:11.440516-04:00'
+  validated_at: '2026-08-17T08:57:31.355209-04:00'
 curated:
   forms: []
   traditions: []

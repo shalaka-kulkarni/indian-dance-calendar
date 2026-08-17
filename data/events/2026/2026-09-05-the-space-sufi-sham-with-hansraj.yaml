@@ -1,6 +1,6 @@
 id: 2026-09-05-the-space-sufi-sham-with-hansraj
-status: needs_attention
-was_published: false
+status: published
+was_published: true
 needs_recheck: false
 scraped:
   title: Sufi Sham With Hansraj Hans Live Concert In New York
@@ -38,19 +38,22 @@ ai:
   model: claude-fable-5
   classified_at: '2026-08-17'
 validation:
-  passed: false
+  passed: true
   checks:
     has_info_url: true
     specific_url: true
-    links_live: false
+    links_live: true
     date_valid: true
     price_known: true
     in_metro: true
     classified: true
-  link_checks: []
-  problems:
-  - links not yet verified (offline run)
-  validated_at: '2026-08-17T08:47:47.877200-04:00'
+  link_checks:
+  - url: https://events.sulekha.com/sufi-sham-with-hansraj-hans-usa-tour-2026_event-in_westbury-ny_401134
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-17T08:54:55.641259-04:00'
+  problems: []
+  validated_at: '2026-08-17T08:54:55.641236-04:00'
 curated:
   forms: []
   traditions: []

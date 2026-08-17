@@ -46,11 +46,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/5gfemcta/2026-11-01/2026-2027-in-the-heights
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T08:45:57.613202-04:00'
+    checked_at: '2026-08-17T08:57:16.042077-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-17T08:45:57.613174-04:00'
+  validated_at: '2026-08-17T08:57:16.042051-04:00'
 curated:
   forms: []
   traditions: []

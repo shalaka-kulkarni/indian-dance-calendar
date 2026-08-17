@@ -1,6 +1,6 @@
 id: 2026-10-10-the-hindu-sooryagayathri-live-in-new
-status: needs_attention
-was_published: false
+status: published
+was_published: true
 needs_recheck: false
 scraped:
   title: Sooryagayathri Live In New York – A Musical Celebration Of Lord Rama
@@ -38,19 +38,22 @@ ai:
   model: claude-fable-5
   classified_at: '2026-08-17'
 validation:
-  passed: false
+  passed: true
   checks:
     has_info_url: true
     specific_url: true
-    links_live: false
+    links_live: true
     date_valid: true
     price_known: true
     in_metro: true
     classified: true
-  link_checks: []
-  problems:
-  - links not yet verified (offline run)
-  validated_at: '2026-08-17T08:47:47.890712-04:00'
+  link_checks:
+  - url: https://events.sulekha.com/sooryagayathri-live-in-new-york-a-musical-celebration-of-lord-rama_event-in_flushing-ny_401191
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-17T08:56:13.032365-04:00'
+  problems: []
+  validated_at: '2026-08-17T08:56:13.032341-04:00'
 curated:
   forms: []
   traditions: []

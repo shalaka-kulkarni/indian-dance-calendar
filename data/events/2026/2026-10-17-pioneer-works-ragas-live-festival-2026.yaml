@@ -1,7 +1,7 @@
 id: 2026-10-17-pioneer-works-ragas-live-festival-2026
-status: needs_attention
-was_published: false
-needs_recheck: true
+status: published
+was_published: true
+needs_recheck: false
 scraped:
   title: Ragas Live Festival 2026
   start: '2026-10-17T00:00:00-04:00'
@@ -38,6 +38,28 @@ ai:
   reasoning: Researched and corroborated against a source page found in search.
   model: claude-fable-5
   classified_at: '2026-08-17'
+validation:
+  passed: true
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: true
+  link_checks:
+  - url: https://pioneerworks.org/programs/ragas-live-festival-2026
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-17T08:56:19.789166-04:00'
+  - url: https://www.eventbrite.com/e/ragas-live-festival-2026-tickets-1989613275867
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-17T08:56:20.311818-04:00'
+  problems:
+  - no price information
+  validated_at: '2026-08-17T08:56:19.789142-04:00'
 curated:
   forms: []
   art_form: music

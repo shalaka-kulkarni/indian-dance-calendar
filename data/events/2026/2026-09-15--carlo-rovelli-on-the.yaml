@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/211052
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T08:44:18.282225-04:00'
+    checked_at: '2026-08-17T08:55:03.010151-04:00'
   - url: https://www.92ny.org/event/carlo-rovelli-on-the-equality-of-all-things
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T08:44:18.301822-04:00'
+    checked_at: '2026-08-17T08:55:03.093678-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T08:44:18.282200-04:00'
+  validated_at: '2026-08-17T08:55:03.010127-04:00'
 curated:
   forms: []
   traditions: []
