@@ -65,13 +65,13 @@ function datesLine(e) {
 const feedHttps = new URL(`${base}/calendar.ics`, Astro.site ?? 'https://shalaka-kulkarni.github.io').href;
 const feedWebcal = feedHttps.replace(/^https?:/, 'webcal:');
 
-const TITLE = 'Indian Dance Calendar — every Indian dance event across the New York City metro area';
+const TITLE = 'Rasa — every Indian dance and music event across the New York City metro area, in one calendar.';
 ---
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Indian Dance Calendar — New York City metro</title>
+    <title>Rasa — Indian performing arts in New York</title>
     <meta name="description" content={TITLE} />
     <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
   </head>
@@ -81,12 +81,12 @@ const TITLE = 'Indian Dance Calendar — every Indian dance event across the New
       <HeroArt side="right" />
       <div class="masthead-inner wrap">
         <h1>
-          <span class="h1-a">Indian Dance<br />Calendar</span>
-          <span class="h1-b">events across the New York City metro area</span>
+          <span class="h1-a">Rasa</span>
+          <span class="h1-b">Indian performing arts across the New York City metro area</span>
         </h1>
         <p class="tagline">
-          Classical, folk, Bollywood and fusion — from the big houses to the
-          community halls, in one calendar.
+          Dance and music — classical, folk, fusion and film — from the big
+          houses to the community halls, in one calendar.
         </p>
         <Subscribe variant="hero" />
         <p class="masthead-cta">
@@ -402,10 +402,10 @@ const TITLE = 'Indian Dance Calendar — every Indian dance event across the New
       .masthead h1 { margin: 0 0 .8rem; }
       .h1-a {
         display: block;
-        font: 900 var(--t-hero)/0.9 var(--font-display);
-        text-transform: uppercase; letter-spacing: -0.01em;
+        font: 900 var(--t-hero)/0.88 var(--font-display);
+        text-transform: uppercase; letter-spacing: .04em;
         color: #fff9ec;
-        text-shadow: 4px 4px 0 #c4162a;
+        text-shadow: 5px 5px 0 #c4162a;
       }
       .h1-b {
         display: block; margin-top: .8rem; color: #f5c400;

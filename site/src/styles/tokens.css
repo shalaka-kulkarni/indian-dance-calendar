@@ -56,7 +56,7 @@
                     'Roboto Condensed', system-ui, sans-serif;
   --font-ui: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 
-  --t-hero: clamp(2.1rem, 7vw, 5rem);
+  --t-hero: clamp(3.2rem, 12vw, 7.5rem);
   --t-band: clamp(1.4rem, 4vw, 2.4rem);
   --t-day:  clamp(1.7rem, 4vw, 2.3rem);
   --t-title: clamp(1.08rem, 1rem + 0.55vw, 1.4rem);
