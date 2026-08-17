@@ -28,7 +28,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: Indian music concert with no stated dance component; dance-only calendar excludes pure music.
@@ -48,12 +51,14 @@ validation:
   - url: https://www.sopacnow.org/events/sunny-jain-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:36:03.880247-04:00'
+    checked_at: '2026-08-17T08:44:27.581356-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-17T07:36:03.880222-04:00'
+  validated_at: '2026-08-17T08:44:27.581317-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

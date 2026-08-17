@@ -24,7 +24,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: Dance, but not an Indian dance form (ballet, flamenco, contemporary or musical theatre).
@@ -44,12 +47,14 @@ validation:
   - url: https://www.nycitycenter.org/events/2026-2027-alvin-ailey-american-dance-theater
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:37:28.046218-04:00'
+    checked_at: '2026-08-17T08:46:12.762572-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-17T07:37:28.046194-04:00'
+  validated_at: '2026-08-17T08:46:12.762549-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

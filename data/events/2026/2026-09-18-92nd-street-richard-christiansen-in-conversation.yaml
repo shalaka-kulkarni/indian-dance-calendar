@@ -26,7 +26,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: No Indian dance content in the listing (talk, screening, comedy, jazz, yoga or general programming).
@@ -43,18 +46,20 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211098
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-17T07:36:04.079150-04:00'
   - url: https://www.92ny.org/event/richard-christiansen-with-martha-stewart
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:36:04.092943-04:00'
+    checked_at: '2026-08-17T08:44:28.002769-04:00'
+  - url: https://seats.92ny.org/single/211098
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-17T08:44:29.697027-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T07:36:04.079128-04:00'
+  validated_at: '2026-08-17T08:44:28.002746-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

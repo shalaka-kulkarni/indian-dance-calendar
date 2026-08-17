@@ -24,7 +24,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: No Indian dance content in the listing (talk, screening, comedy, jazz, yoga or general programming).
@@ -44,12 +47,14 @@ validation:
   - url: https://www.nycitycenter.org/events/2026-2027-studio-5
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:36:43.926004-04:00'
+    checked_at: '2026-08-17T08:45:23.698367-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-17T07:36:43.925980-04:00'
+  validated_at: '2026-08-17T08:45:23.698328-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

@@ -26,7 +26,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: No Indian dance content in the listing (talk, screening, comedy, jazz, yoga or general programming).
@@ -43,18 +46,20 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/nexus-dinner-before-the-jazz
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-17T07:37:00.566424-04:00'
   - url: https://seats.92ny.org/single/211107
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:37:02.135524-04:00'
+    checked_at: '2026-08-17T08:45:42.616765-04:00'
+  - url: https://www.92ny.org/event/nexus-dinner-before-the-jazz
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-17T08:45:42.626088-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T07:37:00.566399-04:00'
+  validated_at: '2026-08-17T08:45:42.616738-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

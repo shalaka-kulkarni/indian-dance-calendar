@@ -26,7 +26,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: No Indian dance content in the listing (talk, screening, comedy, jazz, yoga or general programming).
@@ -46,15 +49,17 @@ validation:
   - url: https://seats.92ny.org/single/211011
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:37:16.525807-04:00'
+    checked_at: '2026-08-17T08:45:59.409651-04:00'
   - url: https://www.92ny.org/event/aziz-abu-sarah-and-maoz-inon
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:37:16.559005-04:00'
+    checked_at: '2026-08-17T08:45:59.430199-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T07:37:16.525785-04:00'
+  validated_at: '2026-08-17T08:45:59.409623-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

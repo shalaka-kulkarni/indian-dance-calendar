@@ -29,7 +29,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: No Indian dance content in listing text (jazz/rock/folk/comedy/theater/children's or other
@@ -50,15 +53,17 @@ validation:
   - url: https://www.stnj.org/events/detail/rocky-horror-picture-show-2026
     ok: true
     status_code: 406
-    checked_at: '2026-08-17T07:36:41.569134-04:00'
+    checked_at: '2026-08-17T08:45:17.745604-04:00'
   - url: https://my.stnj.org/25133/25134
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:36:41.616816-04:00'
+    checked_at: '2026-08-17T08:45:17.779656-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T07:36:41.569111-04:00'
+  validated_at: '2026-08-17T08:45:17.745580-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

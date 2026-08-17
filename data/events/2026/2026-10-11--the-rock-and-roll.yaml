@@ -28,7 +28,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: No Indian dance content in listing text (jazz/rock/folk/comedy/theater/children's or other
@@ -49,12 +52,14 @@ validation:
   - url: https://www.sopacnow.org/events/rock-and-roll-playhouse-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:36:54.714549-04:00'
+    checked_at: '2026-08-17T08:45:38.383972-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-17T07:36:54.714522-04:00'
+  validated_at: '2026-08-17T08:45:38.383945-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

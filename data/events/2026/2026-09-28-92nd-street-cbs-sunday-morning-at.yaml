@@ -26,7 +26,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: No Indian dance content in the listing (talk, screening, comedy, jazz, yoga or general programming).
@@ -46,15 +49,17 @@ validation:
   - url: https://seats.92ny.org/single/211079
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:36:27.809062-04:00'
+    checked_at: '2026-08-17T08:44:52.577881-04:00'
   - url: https://www.92ny.org/event/sylvester-stallone-with-tracy-smith
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:36:27.823878-04:00'
+    checked_at: '2026-08-17T08:44:52.586602-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T07:36:27.809036-04:00'
+  validated_at: '2026-08-17T08:44:52.577858-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

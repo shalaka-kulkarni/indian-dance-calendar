@@ -25,7 +25,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: Dance/ballet/tango/flamenco, but not an Indian dance form.
@@ -45,12 +48,14 @@ validation:
   - url: https://queenstheatre.org/events/the-great-tango-6ftb
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:36:12.956791-04:00'
+    checked_at: '2026-08-17T08:44:36.032319-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-17T07:36:12.956766-04:00'
+  validated_at: '2026-08-17T08:44:36.032292-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

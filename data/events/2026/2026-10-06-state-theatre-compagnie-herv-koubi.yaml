@@ -32,7 +32,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: Contemporary dance company (French-Algerian) — dance, but not Indian dance.
@@ -49,18 +52,20 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.stnj.org/events/detail/compagnie-herve-koubi
-    ok: true
-    status_code: 406
-    checked_at: '2026-08-17T07:36:46.337117-04:00'
   - url: https://my.stnj.org/23395/23396
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:36:46.385790-04:00'
+    checked_at: '2026-08-17T08:45:26.518174-04:00'
+  - url: https://www.stnj.org/events/detail/compagnie-herve-koubi
+    ok: true
+    status_code: 406
+    checked_at: '2026-08-17T08:45:30.587355-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T07:36:46.337092-04:00'
+  validated_at: '2026-08-17T08:45:26.518147-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

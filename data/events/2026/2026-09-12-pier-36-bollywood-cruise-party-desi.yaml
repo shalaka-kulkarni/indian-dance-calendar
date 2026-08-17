@@ -26,7 +26,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: Social DJ/club/cruise party night, not a dance performance, class, or talk.
@@ -46,11 +49,13 @@ validation:
   - url: https://events.sulekha.com/bollywood-cruise-party-desi-dinner-buffet-saturday-night-sep-12_event-in_new-york-ny_401294
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:35:45.950531-04:00'
+    checked_at: '2026-08-17T08:44:14.797720-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T07:35:45.950506-04:00'
+  validated_at: '2026-08-17T08:44:14.797692-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

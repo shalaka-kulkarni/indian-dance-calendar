@@ -1,6 +1,6 @@
 id: 2026-08-22-gantry-plaza-garba-bollywood-dance-party
-status: needs_attention
-was_published: false
+status: published
+was_published: true
 needs_recheck: false
 scraped:
   title: Garba & Bollywood Dance Party In Ny
@@ -41,7 +41,7 @@ ai:
   model: claude-fable-5
   classified_at: '2026-08-16'
 validation:
-  passed: false
+  passed: true
   checks:
     has_info_url: true
     specific_url: true
@@ -49,15 +49,14 @@ validation:
     date_valid: true
     price_known: true
     in_metro: true
-    classified: false
+    classified: true
   link_checks:
   - url: https://events.sulekha.com/garba-bollywood-dance-party-in-ny_event-in_long-island-city-ny_401246
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:35:40.068502-04:00'
-  problems:
-  - classified not-relevant
-  validated_at: '2026-08-17T07:35:40.068477-04:00'
+    checked_at: '2026-08-17T08:43:58.133073-04:00'
+  problems: []
+  validated_at: '2026-08-17T08:43:58.133039-04:00'
 curated:
   forms:
   - folk

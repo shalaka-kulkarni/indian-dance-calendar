@@ -26,7 +26,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: Hindi theater play (Anupam Kher), not dance.
@@ -46,11 +49,13 @@ validation:
   - url: https://events.sulekha.com/jaane-pehchaane-anjane-a-musical-play-by-anupam-kher-swaroop-sampat_event-in_new-york-ny_400217
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:36:43.598295-04:00'
+    checked_at: '2026-08-17T08:45:23.055238-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T07:36:43.598270-04:00'
+  validated_at: '2026-08-17T08:45:23.055213-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

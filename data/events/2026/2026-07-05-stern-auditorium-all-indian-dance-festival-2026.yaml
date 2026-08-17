@@ -48,9 +48,9 @@ validation:
   - url: https://www.carnegiehall.org/Calendar/2026/07/05/All-Indian-Dance-Festival-2026-0200PM
     ok: true
     status_code: 403
-    checked_at: '2026-08-17T07:35:31.837711-04:00'
+    checked_at: '2026-08-17T08:43:48.887970-04:00'
   problems: []
-  validated_at: '2026-08-17T07:35:31.837705-04:00'
+  validated_at: '2026-08-17T08:43:48.887964-04:00'
 curated:
   forms:
   - bharatanatyam

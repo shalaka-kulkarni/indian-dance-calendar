@@ -26,7 +26,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: Indian music concert with no stated dance component; dance-only calendar excludes pure music.
@@ -46,12 +49,14 @@ validation:
   - url: https://events.sulekha.com/legacy-udit-narayan-aditya-narayan-live-in-new-york_event-in_greenvale-ny_401310
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:37:27.725555-04:00'
+    checked_at: '2026-08-17T08:46:12.184545-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-08-17T07:37:27.725527-04:00'
+  validated_at: '2026-08-17T08:46:12.184520-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

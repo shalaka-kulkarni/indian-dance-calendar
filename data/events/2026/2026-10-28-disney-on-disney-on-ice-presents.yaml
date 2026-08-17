@@ -24,7 +24,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: No Indian dance content in listing text (arena concert, sports, ice show, theater, jazz,
@@ -45,12 +48,14 @@ validation:
   - url: https://www.prucenter.com/events/disney-on-ice-presents-spotlight-magic
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:37:12.740374-04:00'
+    checked_at: '2026-08-17T08:45:55.515785-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-17T07:37:12.740344-04:00'
+  validated_at: '2026-08-17T08:45:55.515759-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

@@ -25,7 +25,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: Dance/ballet/tango/flamenco, but not an Indian dance form.
@@ -45,12 +48,14 @@ validation:
   - url: https://www.joyce.org/performances/limon-dance-company-ns9f
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:36:47.547311-04:00'
+    checked_at: '2026-08-17T08:45:30.645389-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-17T07:36:47.547285-04:00'
+  validated_at: '2026-08-17T08:45:30.645366-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

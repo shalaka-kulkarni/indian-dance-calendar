@@ -24,7 +24,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: Dance/ballet/tango/flamenco, but not an Indian dance form.
@@ -44,12 +47,14 @@ validation:
   - url: https://www.joyce.org/performances/garth-fagan-dance-f2nq
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:37:15.082947-04:00'
+    checked_at: '2026-08-17T08:45:57.709870-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-17T07:37:15.082921-04:00'
+  validated_at: '2026-08-17T08:45:57.709848-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

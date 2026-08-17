@@ -25,7 +25,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: No Indian dance content in listing text (arena concert, sports, ice show, theater, jazz,
@@ -46,13 +49,15 @@ validation:
   - url: https://queenstheatre.org/events/sunday-socials-nr6f
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:35:34.320454-04:00'
+    checked_at: '2026-08-17T08:43:51.055177-04:00'
   problems:
   - event date 2026-08-16 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-17T07:35:34.320428-04:00'
+  validated_at: '2026-08-17T08:43:51.055148-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

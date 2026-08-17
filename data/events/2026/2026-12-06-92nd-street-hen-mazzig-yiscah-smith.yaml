@@ -26,7 +26,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: No Indian dance content in the listing (talk, screening, comedy, jazz, yoga or general programming).
@@ -43,18 +46,20 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/hen-mazzig-yiscah-smith-and-rabbi-david-ingber
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-17T07:37:28.119297-04:00'
   - url: https://seats.92ny.org/single/211059
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:37:29.915525-04:00'
+    checked_at: '2026-08-17T08:46:13.416987-04:00'
+  - url: https://www.92ny.org/event/hen-mazzig-yiscah-smith-and-rabbi-david-ingber
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-17T08:46:13.437552-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T07:37:28.119277-04:00'
+  validated_at: '2026-08-17T08:46:13.416958-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

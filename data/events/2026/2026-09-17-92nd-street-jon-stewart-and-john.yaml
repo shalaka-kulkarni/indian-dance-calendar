@@ -26,7 +26,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: No Indian dance content in the listing (talk, screening, comedy, jazz, yoga or general programming).
@@ -46,15 +49,17 @@ validation:
   - url: https://www.92ny.org/event/an-evening-with-jon-stewart-and-john-feal
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:35:56.719073-04:00'
+    checked_at: '2026-08-17T08:44:25.390512-04:00'
   - url: https://seats.92ny.org/single/210811
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:36:00.361881-04:00'
+    checked_at: '2026-08-17T08:44:25.489041-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T07:35:56.719047-04:00'
+  validated_at: '2026-08-17T08:44:25.390489-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

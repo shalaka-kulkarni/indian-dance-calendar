@@ -24,7 +24,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: Dance/ballet/tango/flamenco, but not an Indian dance form.
@@ -44,12 +47,14 @@ validation:
   - url: https://www.joyce.org/performances/the-sarasota-ballet-typc
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:36:36.861270-04:00'
+    checked_at: '2026-08-17T08:45:11.436823-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-17T07:36:36.861246-04:00'
+  validated_at: '2026-08-17T08:45:11.436797-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

@@ -25,7 +25,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: No Indian dance content in the listing (talk, screening, comedy, jazz, yoga or general programming).
@@ -42,18 +45,20 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211036
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-17T07:35:53.453161-04:00'
   - url: https://www.92ny.org/event/nexus-happy-hour-at-la-bomboniera
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:35:53.572744-04:00'
+    checked_at: '2026-08-17T08:44:23.703449-04:00'
+  - url: https://seats.92ny.org/single/211036
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-17T08:44:25.371558-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T07:35:53.453142-04:00'
+  validated_at: '2026-08-17T08:44:23.703424-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

@@ -26,7 +26,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: No Indian dance content in the listing (talk, screening, comedy, jazz, yoga or general programming).
@@ -43,18 +46,20 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211068
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-17T07:36:33.371138-04:00'
   - url: https://www.92ny.org/event/harry-connick-jr-babe-elaboratio
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:36:33.393591-04:00'
+    checked_at: '2026-08-17T08:45:06.764256-04:00'
+  - url: https://seats.92ny.org/single/211068
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-17T08:45:09.111908-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T07:36:33.371115-04:00'
+  validated_at: '2026-08-17T08:45:06.764228-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

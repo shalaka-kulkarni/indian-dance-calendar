@@ -27,7 +27,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: No Indian dance content in listing text (jazz/rock/folk/comedy/theater/children's or other
@@ -48,12 +51,14 @@ validation:
   - url: https://www.sopacnow.org/events/the-last-waltz-celebration-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:37:24.302679-04:00'
+    checked_at: '2026-08-17T08:46:07.797958-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-17T07:37:24.302652-04:00'
+  validated_at: '2026-08-17T08:46:07.797933-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

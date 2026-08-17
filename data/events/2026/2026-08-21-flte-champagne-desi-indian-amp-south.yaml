@@ -26,7 +26,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: Singles speed-dating event, not dance.
@@ -46,11 +49,13 @@ validation:
   - url: https://allevents.in/new-york/desi-indian-and-south-asian-singles-speed-dating/100001995609973150
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:35:39.852585-04:00'
+    checked_at: '2026-08-17T08:43:57.555845-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T07:35:39.852560-04:00'
+  validated_at: '2026-08-17T08:43:57.555821-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

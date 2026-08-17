@@ -29,7 +29,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: No Indian dance content in listing text (jazz/rock/folk/comedy/theater/children's or other
@@ -50,12 +53,14 @@ validation:
   - url: https://www.sopacnow.org/events/gregg-allman-the-music-of-my-soul/
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:36:37.781903-04:00'
+    checked_at: '2026-08-17T08:45:12.100386-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-17T07:36:37.781879-04:00'
+  validated_at: '2026-08-17T08:45:12.100357-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

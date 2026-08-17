@@ -27,7 +27,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: No Indian dance content in the listing (talk, screening, comedy, jazz, yoga or general programming).
@@ -44,18 +47,20 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210964
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-17T07:36:25.907796-04:00'
   - url: https://www.92ny.org/event/robert-kolker-the-vanishing-family
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:36:25.925092-04:00'
+    checked_at: '2026-08-17T08:44:49.492300-04:00'
+  - url: https://seats.92ny.org/single/210964
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-17T08:44:52.541971-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T07:36:25.907771-04:00'
+  validated_at: '2026-08-17T08:44:49.492273-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

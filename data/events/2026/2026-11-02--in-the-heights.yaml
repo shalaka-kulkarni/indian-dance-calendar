@@ -23,7 +23,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: Dance, but not an Indian dance form (ballet, flamenco, contemporary or musical theatre).
@@ -43,12 +46,14 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/nfapby2m/2026-11-01/2026-2027-in-the-heights
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:37:15.007171-04:00'
+    checked_at: '2026-08-17T08:45:57.643008-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-17T07:37:15.007146-04:00'
+  validated_at: '2026-08-17T08:45:57.642985-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

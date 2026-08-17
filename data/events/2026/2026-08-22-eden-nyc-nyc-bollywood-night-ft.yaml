@@ -26,7 +26,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: Social DJ/club/cruise party night, not a dance performance, class, or talk.
@@ -46,11 +49,13 @@ validation:
   - url: https://events.sulekha.com/nyc-bollywood-night-ft-dj-aj-at-eden_event-in_new-york-ny_400937
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:35:39.952675-04:00'
+    checked_at: '2026-08-17T08:43:57.707291-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T07:35:39.952653-04:00'
+  validated_at: '2026-08-17T08:43:57.707268-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

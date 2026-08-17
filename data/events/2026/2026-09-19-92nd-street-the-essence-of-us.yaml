@@ -28,7 +28,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: No Indian dance content in the listing (talk, screening, comedy, jazz, yoga or general programming).
@@ -45,18 +48,20 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/the-essence-of-us-a-cuban-story
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-17T07:36:08.462167-04:00'
   - url: https://seats.92ny.org/single/210360
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:36:08.525219-04:00'
+    checked_at: '2026-08-17T08:44:30.242897-04:00'
+  - url: https://www.92ny.org/event/the-essence-of-us-a-cuban-story
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-17T08:44:30.264510-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T07:36:08.462147-04:00'
+  validated_at: '2026-08-17T08:44:30.242872-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

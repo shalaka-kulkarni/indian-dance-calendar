@@ -32,7 +32,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: No Indian dance content in listing text (jazz/rock/folk/comedy/theater/children's or other
@@ -53,15 +56,17 @@ validation:
   - url: https://my.stnj.org/24901/24902
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:36:42.495940-04:00'
+    checked_at: '2026-08-17T08:45:21.253559-04:00'
   - url: https://www.stnj.org/events/detail/samara-joy-her-septet
     ok: true
     status_code: 406
-    checked_at: '2026-08-17T07:36:43.545657-04:00'
+    checked_at: '2026-08-17T08:45:22.993395-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T07:36:42.495916-04:00'
+  validated_at: '2026-08-17T08:45:21.253530-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

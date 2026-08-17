@@ -26,7 +26,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: No Indian dance content in the listing (talk, screening, comedy, jazz, yoga or general programming).
@@ -46,15 +49,17 @@ validation:
   - url: https://seats.92ny.org/single/211095
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:36:20.083914-04:00'
+    checked_at: '2026-08-17T08:44:42.864308-04:00'
   - url: https://www.92ny.org/event/your-glp-1-game-plan-how-to-eat-move-and-thrive-on-weight-loss-medications
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:36:20.101614-04:00'
+    checked_at: '2026-08-17T08:44:42.878870-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T07:36:20.083889-04:00'
+  validated_at: '2026-08-17T08:44:42.864279-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

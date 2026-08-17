@@ -31,7 +31,10 @@ scraped:
 ai:
   relevant: false
   kind: other
+  art_form: dance
+  traditions: []
   forms: []
+  music_styles: []
   presenter_type: unknown
   confidence: high
   reasoning: No Indian dance content in listing text (jazz/rock/folk/comedy/theater/children's or other
@@ -52,11 +55,13 @@ validation:
   - url: https://www.sopacnow.org/events/peter-pan-2027/
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T07:37:30.434446-04:00'
+    checked_at: '2026-08-17T08:46:18.497204-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T07:37:30.434425-04:00'
+  validated_at: '2026-08-17T08:46:18.497181-04:00'
 curated:
   forms: []
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}
