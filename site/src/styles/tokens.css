@@ -35,6 +35,14 @@
   --link:      #b3121f;
   --focus:     #2947c4;
 
+
+  /* Five traditions, shared by dance and music, replacing thirteen dance-only hues. */
+  --trad-classical: #c4162a;             --trad-classical-ink: #fff9ec;
+  --trad-semi_classical_fusion: #e58a00; --trad-semi_classical_fusion-ink: #17130e;
+  --trad-folk: #f5c400;                  --trad-folk-ink: #17130e;
+  --trad-contemporary: #007c7a;          --trad-contemporary-ink: #fff9ec;
+  --trad-popular_film: #d6006e;          --trad-popular_film-ink: #fff9ec;
+
   --form-bharatanatyam: #c4162a;       --form-bharatanatyam-ink: #fff9ec;
   --form-kathak: #e58a00;              --form-kathak-ink: #17130e;
   --form-odissi: #007c7a;              --form-odissi-ink: #fff9ec;
@@ -92,6 +100,13 @@
     --cta-hover: #ff5a66;
     --link:      #f5a310;
     --focus:     #f7ce1a;
+
+
+    --trad-classical: #e63946;             --trad-classical-ink: #14110d;
+    --trad-semi_classical_fusion: #f5a310; --trad-semi_classical_fusion-ink: #14110d;
+    --trad-folk: #f7ce1a;                  --trad-folk-ink: #14110d;
+    --trad-contemporary: #00a39f;          --trad-contemporary-ink: #14110d;
+    --trad-popular_film: #f5308f;          --trad-popular_film-ink: #14110d;
 
     --form-bharatanatyam: #e63946;       --form-bharatanatyam-ink: #14110d;
     --form-kathak: #f5a310;              --form-kathak-ink: #14110d;

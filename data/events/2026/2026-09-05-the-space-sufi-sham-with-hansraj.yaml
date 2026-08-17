@@ -1,5 +1,5 @@
 id: 2026-09-05-the-space-sufi-sham-with-hansraj
-status: rejected
+status: needs_attention
 was_published: false
 needs_recheck: false
 scraped:
@@ -9,7 +9,7 @@ scraped:
   additional_dates: []
   venue: The Space at Westbury
   address: 250 Post Ave, Westbury, NY
-  region: unknown
+  region: long_island
   price_min: 59.0
   price_max: 59.0
   is_free: false
@@ -24,36 +24,33 @@ scraped:
     first_seen: '2026-08-16'
     last_seen: '2026-08-17'
 ai:
-  relevant: false
-  kind: other
-  art_form: dance
-  traditions: []
+  relevant: true
+  kind: performance
+  art_form: music
+  traditions:
+  - semi_classical_fusion
   forms: []
-  music_styles: []
-  presenter_type: unknown
+  music_styles:
+  - thumri_ghazal
+  presenter_type: professional_company
   confidence: high
-  reasoning: Indian music concert with no stated dance component; dance-only calendar excludes pure music.
+  reasoning: Sufi vocal concert with Hansraj Hans.
   model: claude-fable-5
-  classified_at: '2026-08-16'
+  classified_at: '2026-08-17'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
-    in_metro: false
-    classified: false
-  link_checks:
-  - url: https://events.sulekha.com/sufi-sham-with-hansraj-hans-usa-tour-2026_event-in_westbury-ny_401134
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-17T08:44:05.712428-04:00'
+    in_metro: true
+    classified: true
+  link_checks: []
   problems:
-  - region unknown — can't confirm NYC metro
-  - classified not-relevant
-  validated_at: '2026-08-17T08:44:05.712401-04:00'
+  - links not yet verified (offline run)
+  validated_at: '2026-08-17T08:47:47.877200-04:00'
 curated:
   forms: []
   traditions: []

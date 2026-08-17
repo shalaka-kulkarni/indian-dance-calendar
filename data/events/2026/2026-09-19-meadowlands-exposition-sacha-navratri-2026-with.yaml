@@ -1,0 +1,47 @@
+id: 2026-09-19-meadowlands-exposition-sacha-navratri-2026-with
+status: needs_attention
+was_published: false
+needs_recheck: true
+scraped:
+  title: Sacha Navratri 2026 with Kinjal Dave
+  start: '2026-09-19T21:00:00-04:00'
+  additional_dates: []
+  venue: Meadowlands Exposition Center
+  address: Secaucus, NJ
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.premiertickets.co/event/sacha-navratri-2026-with-kinjal-dave-in-new-jersey/
+  ticket_url: ''
+  description_snippet: Navratri garba and dandiya night with Gujarati singer Kinjal Dave.
+  content_hash: 5f2abccbeaca6644
+  sources:
+  - source_id: manual
+    url: https://www.premiertickets.co/event/sacha-navratri-2026-with-kinjal-dave-in-new-jersey/
+    first_seen: '2026-08-17'
+    last_seen: '2026-08-17'
+ai:
+  relevant: true
+  kind: community
+  art_form: both
+  traditions:
+  - folk
+  forms:
+  - folk
+  music_styles:
+  - folk_music
+  presenter_type: mixed
+  confidence: high
+  reasoning: Researched and corroborated against a source page found in search.
+  model: claude-fable-5
+  classified_at: '2026-08-17'
+curated:
+  forms:
+  - folk
+  art_form: both
+  traditions:
+  - folk
+  music_styles:
+  - folk_music
+  editor_note: ''
+  overrides: {}

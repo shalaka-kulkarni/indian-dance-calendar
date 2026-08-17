@@ -1,0 +1,45 @@
+id: 2026-10-03-nassau-veterans-rahat-fateh-ali-khan
+status: needs_attention
+was_published: false
+needs_recheck: true
+scraped:
+  title: Rahat Fateh Ali Khan live in concert
+  start: '2026-10-03T00:00:00-04:00'
+  additional_dates: []
+  venue: Nassau Veterans Memorial Coliseum
+  address: Uniondale, NY
+  region: long_island
+  is_free: false
+  price_note: ''
+  info_url: https://www.ticketmaster.com/rahat-fateh-ali-khan-uniondale-new-york-10-03-2026/event/00006486D4A6C91E
+  ticket_url: ''
+  description_snippet: Qawwali and Sufi vocalist Rahat Fateh Ali Khan in concert.
+  content_hash: 7b6764fcc246652b
+  sources:
+  - source_id: manual
+    url: https://www.ticketmaster.com/rahat-fateh-ali-khan-uniondale-new-york-10-03-2026/event/00006486D4A6C91E
+    first_seen: '2026-08-17'
+    last_seen: '2026-08-17'
+ai:
+  relevant: true
+  kind: performance
+  art_form: music
+  traditions:
+  - semi_classical_fusion
+  forms: []
+  music_styles:
+  - qawwali
+  presenter_type: professional_company
+  confidence: high
+  reasoning: Researched and corroborated against a source page found in search.
+  model: claude-fable-5
+  classified_at: '2026-08-17'
+curated:
+  forms: []
+  art_form: music
+  traditions:
+  - semi_classical_fusion
+  music_styles:
+  - qawwali
+  editor_note: ''
+  overrides: {}

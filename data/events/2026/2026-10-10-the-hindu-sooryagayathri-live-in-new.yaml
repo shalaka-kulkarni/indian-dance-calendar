@@ -1,5 +1,5 @@
 id: 2026-10-10-the-hindu-sooryagayathri-live-in-new
-status: rejected
+status: needs_attention
 was_published: false
 needs_recheck: false
 scraped:
@@ -24,35 +24,33 @@ scraped:
     first_seen: '2026-08-16'
     last_seen: '2026-08-17'
 ai:
-  relevant: false
-  kind: other
-  art_form: dance
-  traditions: []
+  relevant: true
+  kind: performance
+  art_form: music
+  traditions:
+  - semi_classical_fusion
   forms: []
-  music_styles: []
-  presenter_type: unknown
+  music_styles:
+  - bhajan_kirtan
+  presenter_type: professional_company
   confidence: high
-  reasoning: Indian music concert with no stated dance component; dance-only calendar excludes pure music.
+  reasoning: Devotional vocal concert by Sooryagayathri.
   model: claude-fable-5
-  classified_at: '2026-08-16'
+  classified_at: '2026-08-17'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
-    classified: false
-  link_checks:
-  - url: https://events.sulekha.com/sooryagayathri-live-in-new-york-a-musical-celebration-of-lord-rama_event-in_flushing-ny_401191
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-17T08:45:38.174178-04:00'
+    classified: true
+  link_checks: []
   problems:
-  - classified not-relevant
-  validated_at: '2026-08-17T08:45:38.174149-04:00'
+  - links not yet verified (offline run)
+  validated_at: '2026-08-17T08:47:47.890712-04:00'
 curated:
   forms: []
   traditions: []

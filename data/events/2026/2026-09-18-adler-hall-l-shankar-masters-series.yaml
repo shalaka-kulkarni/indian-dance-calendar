@@ -1,0 +1,50 @@
+id: 2026-09-18-adler-hall-l-shankar-masters-series
+status: needs_attention
+was_published: false
+needs_recheck: true
+scraped:
+  title: L. Shankar — Masters Series
+  start: '2026-09-18T20:00:00-04:00'
+  additional_dates: []
+  venue: Adler Hall, New York Society for Ethical Culture
+  address: 2 W 64th St, New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://worldmusiccentral.org/l-shankar-to-present-decades-of-violin-innovation-in-manhattan/
+  ticket_url: ''
+  description_snippet: World Music Institute presents violinist L. Shankar, co-founder of Shakti, in a
+    programme spanning decades of Carnatic and East–West fusion work.
+  content_hash: 1db3cf078f291c68
+  sources:
+  - source_id: manual
+    url: https://worldmusiccentral.org/l-shankar-to-present-decades-of-violin-innovation-in-manhattan/
+    first_seen: '2026-08-17'
+    last_seen: '2026-08-17'
+ai:
+  relevant: true
+  kind: performance
+  art_form: music
+  traditions:
+  - classical
+  - semi_classical_fusion
+  forms: []
+  music_styles:
+  - carnatic
+  - fusion_music
+  presenter_type: professional_company
+  confidence: high
+  reasoning: Researched and corroborated against a source page found in search.
+  model: claude-fable-5
+  classified_at: '2026-08-17'
+curated:
+  forms: []
+  art_form: music
+  traditions:
+  - classical
+  - semi_classical_fusion
+  music_styles:
+  - carnatic
+  - fusion_music
+  editor_note: ''
+  overrides: {}

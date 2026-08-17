@@ -1,5 +1,5 @@
 id: 2026-09-05-shreya-ghoshal-shreya-ghoshal-the-unstoppable
-status: rejected
+status: needs_attention
 was_published: false
 needs_recheck: false
 scraped:
@@ -23,37 +23,34 @@ scraped:
     first_seen: '2026-08-16'
     last_seen: '2026-08-17'
 ai:
-  relevant: false
-  kind: other
-  art_form: dance
-  traditions: []
+  relevant: true
+  kind: performance
+  art_form: music
+  traditions:
+  - popular_film
   forms: []
-  music_styles: []
-  presenter_type: unknown
+  music_styles:
+  - filmi
+  presenter_type: professional_company
   confidence: high
-  reasoning: Indian music concert (playback vocalist) with no stated dance component; dance-only calendar
-    excludes pure music.
+  reasoning: Playback singer Shreya Ghoshal on her Unstoppable Tour.
   model: claude-fable-5
-  classified_at: '2026-08-16'
+  classified_at: '2026-08-17'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: false
     in_metro: true
-    classified: false
-  link_checks:
-  - url: https://www.prucenter.com/events/shreya-ghoshal
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-17T08:44:05.398095-04:00'
+    classified: true
+  link_checks: []
   problems:
+  - links not yet verified (offline run)
   - no price information
-  - classified not-relevant
-  validated_at: '2026-08-17T08:44:05.398072-04:00'
+  validated_at: '2026-08-17T08:47:47.870034-04:00'
 curated:
   forms: []
   traditions: []

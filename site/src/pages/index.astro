@@ -4,21 +4,19 @@ import HeroArt from '../components/HeroArt.astro';
 import Motif from '../components/Motif.astro';
 import Subscribe from '../components/Subscribe.astro';
 import data from '../data/events.json';
-import { FORM_LABELS, REGION_LABELS, PRESENTER_LABELS, KIND_LABELS } from '../labels.js';
+import { FORM_LABELS, STYLE_LABELS, TRADITION_LABELS, ART_FORM_LABELS, REGION_LABELS, PRESENTER_LABELS, KIND_LABELS } from '../labels.js';
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const upcoming = data.events ?? [];
 const past = data.pastEvents ?? [];
-const filters = data.filters ?? { forms: [], regions: [], presenterTypes: [], kinds: [], free: 0 };
+const filters = data.filters ?? { artForms: [], traditions: [], regions: [], presenterTypes: [], kinds: [], free: 0 };
 const generatedAt = new Date(data.generatedAt);
 
-// Classical forms lead, so a mixed bill takes its colour from the classical form.
-const FORM_PRIORITY = [
-  'bharatanatyam', 'kathak', 'odissi', 'kuchipudi', 'mohiniyattam', 'manipuri',
-  'sattriya', 'kathakali', 'contemporary_indian', 'fusion', 'folk', 'bollywood', 'other',
-];
-const primaryForm = (e) =>
-  FORM_PRIORITY.find((f) => (e.forms ?? []).includes(f)) ?? 'other';
+// A mixed bill takes its colour from the most "classical" tradition present.
+const TRADITION_PRIORITY = ['classical', 'semi_classical_fusion', 'contemporary', 'folk', 'popular_film'];
+const primaryTradition = (e) =>
+  TRADITION_PRIORITY.find((t) => (e.traditions ?? []).includes(t)) ?? 'classical';
+const styleLabel = (v) => STYLE_LABELS[v] ?? FORM_LABELS[v] ?? v;
 
 const NY = 'America/New_York';
 const fmtDay = (iso, opts) =>
@@ -109,15 +107,29 @@ const TITLE = 'Rasa — every Indian dance and music event across the New York C
 
     <div class="rail">
       <div class="wrap rail-inner">
-        <div class="fgroup" role="group" aria-label="Dance form">
-          <span class="flabel">Form</span>
+        <div class="fgroup fgroup-primary" role="group" aria-label="Dance or music">
+          <span class="flabel">Show</span>
           <div class="chips">
-            {filters.forms.map((f) => (
+            {filters.artForms.map((a) => (
+              <button type="button" role="checkbox"
+                      aria-checked={a.value === 'dance' ? 'true' : 'false'}
+                      class:list={['chip', 'chip-art', a.value === 'dance' && 'on']}
+                      data-filter="art" data-value={a.value}
+                      aria-disabled={a.count === 0 ? 'true' : 'false'}>
+                {ART_FORM_LABELS[a.value]}<span class="n">{a.count}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+        <div class="fgroup" role="group" aria-label="Tradition">
+          <span class="flabel">Style</span>
+          <div class="chips">
+            {filters.traditions.map((t) => (
               <button class="chip" type="button" role="checkbox" aria-checked="false"
-                      data-filter="form" data-value={f.value}
-                      style={`--chip-form: var(--form-${f.value}); --chip-form-ink: var(--form-${f.value}-ink);`}
-                      aria-disabled={f.count === 0 ? 'true' : 'false'}>
-                {FORM_LABELS[f.value] ?? f.value}<span class="n">{f.count}</span>
+                      data-filter="tradition" data-value={t.value}
+                      style={`--chip-form: var(--trad-${t.value}); --chip-form-ink: var(--trad-${t.value}-ink);`}
+                      aria-disabled={t.count === 0 ? 'true' : 'false'}>
+                {TRADITION_LABELS[t.value]}<span class="n">{t.count}</span>
               </button>
             ))}
           </div>
@@ -186,17 +198,18 @@ const TITLE = 'Rasa — every Indian dance and music event across the New York C
                 <div class="event-grid">
                   {m.events.map((e) => (
                     <article class={panel.isPast ? 'event is-past' : 'event'}
-                             data-forms={(e.forms ?? []).join(',')}
                              data-region={e.region}
                              data-free={String(e.isFree)}
                              data-presenter={e.presenterType}
                              data-kind={e.kind}
-                             style={`--form: var(--form-${primaryForm(e)}); --form-ink: var(--form-${primaryForm(e)}-ink);`}>
+                             data-art={e.artForm}
+                             data-traditions={(e.traditions ?? []).join(',')}
+                             style={`--form: var(--trad-${primaryTradition(e)}); --form-ink: var(--trad-${primaryTradition(e)}-ink);`}>
                       <div class="date-col">
                         <span class="date-m">{fmtDay(e.start, { month: 'short' })}</span>
                         <span class="date-d">{fmtDay(e.start, { day: 'numeric' })}</span>
                         <span class="date-w">{fmtDay(e.start, { weekday: 'short' })}</span>
-                        <Motif form={primaryForm(e)} class="date-motif" />
+                        <Motif form={e.artForm === 'music' ? 'music' : primaryTradition(e)} class="date-motif" />
                       </div>
 
                       <div class="event-body">
@@ -208,11 +221,18 @@ const TITLE = 'Rasa — every Indian dance and music event across the New York C
                           {REGION_LABELS[e.region] && <span>{REGION_LABELS[e.region]}</span>}
                         </p>
                         <p class="chips-row">
-                          {(e.forms ?? []).map((f) => (
-                            <span class="tag" style={`--form-c: var(--form-${f}); --form-c-ink: var(--form-${f}-ink);`}>
-                              {FORM_LABELS[f] ?? f}
+                          {(e.traditions ?? []).map((t) => (
+                            <span class="tag" style={`--form-c: var(--trad-${t}); --form-c-ink: var(--trad-${t}-ink);`}>
+                              {TRADITION_LABELS[t] ?? t}
                             </span>
                           ))}
+                          {(e.styles ?? [])
+                            .filter((v) => !(e.traditions ?? []).some(
+                              (t) => TRADITION_LABELS[t]?.toLowerCase() === styleLabel(v).toLowerCase()
+                            ))
+                            .map((v) => (
+                              <span class="tag tag-outline">{styleLabel(v)}</span>
+                            ))}
                           {KIND_LABELS[e.kind] && <span class="tag tag-outline">{KIND_LABELS[e.kind]}</span>}
                           {PRESENTER_LABELS[e.presenterType] && (
                             <span class="tag tag-outline">{PRESENTER_LABELS[e.presenterType]}</span>
@@ -263,7 +283,13 @@ const TITLE = 'Rasa — every Indian dance and music event across the New York C
     </footer>
 
     <script>
-      const active = { form: new Set(), region: new Set(), free: new Set(), presenter: new Set(), kind: new Set() };
+      // Dance is on by default; music is opt-in. An event tagged "both" answers
+      // to either, so community nights never vanish when you pick one.
+      const active = {
+        art: new Set(['dance']),
+        tradition: new Set(), region: new Set(), free: new Set(),
+        presenter: new Set(), kind: new Set(),
+      };
       const chips = [...document.querySelectorAll('.chip[data-filter]')];
       const clearBtn = document.getElementById('clear-filters');
       const countEl = document.getElementById('shown-count');
@@ -274,7 +300,8 @@ const TITLE = 'Rasa — every Indian dance and music event across the New York C
       let currentTab = 'tab-upcoming';
 
       const cardData = (card) => ({
-        forms: (card.dataset.forms || '').split(',').filter(Boolean),
+        art: card.dataset.art === 'both' ? ['dance', 'music'] : [card.dataset.art],
+        traditions: (card.dataset.traditions || '').split(',').filter(Boolean),
         region: card.dataset.region,
         free: card.dataset.free === 'true',
         presenter: card.dataset.presenter,
@@ -282,7 +309,8 @@ const TITLE = 'Rasa — every Indian dance and music event across the New York C
       });
 
       function matches(d, sel) {
-        if (sel.form.size && !d.forms.some((f) => sel.form.has(f))) return false;
+        if (sel.art.size && !d.art.some((a) => sel.art.has(a))) return false;
+        if (sel.tradition.size && !d.traditions.some((t) => sel.tradition.has(t))) return false;
         if (sel.region.size && !sel.region.has(d.region)) return false;
         if (sel.free.size && !d.free) return false;
         if (sel.presenter.size && !sel.presenter.has(d.presenter)) return false;
@@ -310,6 +338,7 @@ const TITLE = 'Rasa — every Indian dance and music event across the New York C
         for (const chip of chips) {
           const { filter, value } = chip.dataset;
           if (!filter) continue;
+          if (filter === 'art') continue;  // keeps its build-time total
           const isOn = active[filter].has(value);
           let n;
           if (isOn) {
@@ -325,8 +354,11 @@ const TITLE = 'Rasa — every Indian dance and music event across the New York C
           chip.setAttribute('aria-disabled', n === 0 && !isOn ? 'true' : 'false');
         }
 
-        const any = Object.values(active).some((s) => s.size);
-        if (clearBtn) clearBtn.hidden = !any;
+        const nonDefault =
+          active.tradition.size || active.region.size || active.free.size ||
+          active.presenter.size || active.kind.size ||
+          !(active.art.size === 1 && active.art.has('dance'));
+        if (clearBtn) clearBtn.hidden = !nonDefault;
       }
 
       for (const chip of chips) {
@@ -334,14 +366,24 @@ const TITLE = 'Rasa — every Indian dance and music event across the New York C
           if (chip.getAttribute('aria-disabled') === 'true') return;
           const { filter, value } = chip.dataset;
           const set = active[filter];
-          if (set.has(value)) { set.delete(value); chip.classList.remove('on'); chip.setAttribute('aria-checked', 'false'); }
-          else { set.add(value); chip.classList.add('on'); chip.setAttribute('aria-checked', 'true'); }
+          if (set.has(value)) {
+            // Turning the last art-form chip off would show nothing at all.
+            if (filter === 'art' && set.size === 1) return;
+            set.delete(value); chip.classList.remove('on'); chip.setAttribute('aria-checked', 'false');
+          } else {
+            set.add(value); chip.classList.add('on'); chip.setAttribute('aria-checked', 'true');
+          }
           apply();
         });
       }
       clearBtn?.addEventListener('click', () => {
         for (const s of Object.values(active)) s.clear();
-        for (const c of chips) { c.classList.remove('on'); c.setAttribute('aria-checked', 'false'); }
+        active.art.add('dance');
+        for (const c of chips) {
+          const isDance = c.dataset.filter === 'art' && c.dataset.value === 'dance';
+          c.classList.toggle('on', isDance);
+          c.setAttribute('aria-checked', String(isDance));
+        }
         apply();
       });
 
@@ -469,6 +511,10 @@ const TITLE = 'Rasa — every Indian dance and music event across the New York C
       }
       .chip[aria-disabled="true"] .n { color: var(--ink-disabled); }
       .chip-clear { background: var(--kumkum); color: var(--kumkum-ink); border-color: var(--kumkum); }
+      /* The art-form toggle is the top-level control, so it is bigger and louder. */
+      .fgroup-primary { padding-bottom: .2rem; border-bottom: 2px solid var(--rule-soft); margin-bottom: .55rem; }
+      .chip-art { font-size: .88rem; padding: .5rem .95rem; letter-spacing: .1em; }
+      .chip-art.on { background: var(--turmeric); color: var(--turmeric-ink); border-color: var(--turmeric); }
       /* display:inline-flex would otherwise beat the hidden attribute */
       .chip[hidden] { display: none; }
 

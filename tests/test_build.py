@@ -3,7 +3,7 @@ from zoneinfo import ZoneInfo
 
 from pipeline import build as build_module
 from pipeline.build import _counts, event_to_site, price_label
-from pipeline.models import DanceForm, Region, Status
+from pipeline.models import ArtForm, DanceForm, Region, Status, Tradition
 
 NY = ZoneInfo("America/New_York")
 
@@ -27,15 +27,33 @@ def test_past_events_drop_ticket_link(sample_event):
 
 def test_filter_counts_include_empty_options(sample_event):
     sample_event.curated.forms = [DanceForm.ODISSI]
+    sample_event.curated.traditions = [Tradition.CLASSICAL]
     counts = _counts([event_to_site(sample_event)])
-    forms = {f["value"]: f["count"] for f in counts["forms"]}
+    traditions = {t["value"]: t["count"] for t in counts["traditions"]}
     regions = {r["value"]: r["count"] for r in counts["regions"]}
     # Every canonical option is present so the UI can grey out the empty ones.
-    assert forms["odissi"] == 1
-    assert forms["kathak"] == 0
+    assert traditions["classical"] == 1
+    assert traditions["folk"] == 0
     assert regions["manhattan"] == 1
     assert regions["new_jersey"] == 0
     assert Region.UNKNOWN.value not in regions
+
+
+def test_both_counts_towards_dance_and_music(sample_event):
+    """A community night that is genuinely both must not disappear from either
+    side of the Dance/Music toggle."""
+    sample_event.curated.art_form = ArtForm.BOTH
+    sample_event.curated.traditions = [Tradition.FOLK]
+    counts = _counts([event_to_site(sample_event)])
+    art = {a["value"]: a["count"] for a in counts["artForms"]}
+    assert art["dance"] == 1
+    assert art["music"] == 1
+
+
+def test_ticket_link_identical_to_info_is_dropped(sample_event):
+    """One destination should render as one button, not two that go to the same page."""
+    sample_event.scraped.ticket_url = sample_event.scraped.info_url
+    assert event_to_site(sample_event)["ticketUrl"] is None
 
 
 def test_archive_window_excludes_old_and_dead_links(tmp_path, sample_event, monkeypatch):

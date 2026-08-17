@@ -1,0 +1,51 @@
+id: 2026-10-17-pioneer-works-ragas-live-festival-2026
+status: needs_attention
+was_published: false
+needs_recheck: true
+scraped:
+  title: Ragas Live Festival 2026
+  start: '2026-10-17T00:00:00-04:00'
+  end: '2026-10-18T00:00:00-04:00'
+  additional_dates: []
+  venue: Pioneer Works
+  address: 159 Pioneer St, Brooklyn, NY
+  region: brooklyn
+  is_free: false
+  price_note: ''
+  info_url: https://pioneerworks.org/programs/ragas-live-festival-2026
+  ticket_url: https://www.eventbrite.com/e/ragas-live-festival-2026-tickets-1989613275867
+  description_snippet: The 24-hour raga marathon returns to Pioneer Works with more than 50 artists across
+    South Asian classical and contemporary collaborations. Full line-up announced in September.
+  content_hash: a0cc9fb574ee231f
+  sources:
+  - source_id: manual
+    url: https://pioneerworks.org/programs/ragas-live-festival-2026
+    first_seen: '2026-08-17'
+    last_seen: '2026-08-17'
+ai:
+  relevant: true
+  kind: festival
+  art_form: music
+  traditions:
+  - classical
+  - contemporary
+  forms: []
+  music_styles:
+  - hindustani
+  - fusion_music
+  presenter_type: professional_company
+  confidence: high
+  reasoning: Researched and corroborated against a source page found in search.
+  model: claude-fable-5
+  classified_at: '2026-08-17'
+curated:
+  forms: []
+  art_form: music
+  traditions:
+  - classical
+  - contemporary
+  music_styles:
+  - hindustani
+  - fusion_music
+  editor_note: ''
+  overrides: {}

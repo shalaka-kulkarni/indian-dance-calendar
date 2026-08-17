@@ -1,0 +1,54 @@
+id: 2027-05-21-carnegie-hall-naad-2027-a-festival
+status: needs_attention
+was_published: false
+needs_recheck: true
+scraped:
+  title: 'Naad 2027: a festival of Indian music'
+  start: '2027-05-21T19:30:00-04:00'
+  end: '2027-05-23T15:00:00-04:00'
+  additional_dates: []
+  venue: Carnegie Hall
+  address: 881 7th Ave, New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.carnegiehall.org/Events/Highlights/Festivals-and-Artistic-Focuses/Naad-2027
+  ticket_url: ''
+  description_snippet: 'Carnegie Hall''s inaugural Indian music festival across three days: Rakesh Chaurasia
+    in Zankel Hall (21 May), A.R. Rahman''s Carnegie Hall debut on the Stern Auditorium stage (22 May),
+    and SIFAR led by Kaushiki Chakraborty with Ambi Subramaniam, Soumik Datta and Ishaan Ghosh (23 May).'
+  content_hash: e06fcd2785172a29
+  sources:
+  - source_id: manual
+    url: https://www.carnegiehall.org/Events/Highlights/Festivals-and-Artistic-Focuses/Naad-2027
+    first_seen: '2026-08-17'
+    last_seen: '2026-08-17'
+ai:
+  relevant: true
+  kind: festival
+  art_form: music
+  traditions:
+  - classical
+  - popular_film
+  forms: []
+  music_styles:
+  - hindustani
+  - carnatic
+  - filmi
+  presenter_type: professional_company
+  confidence: high
+  reasoning: Researched and corroborated against a source page found in search.
+  model: claude-fable-5
+  classified_at: '2026-08-17'
+curated:
+  forms: []
+  art_form: music
+  traditions:
+  - classical
+  - popular_film
+  music_styles:
+  - hindustani
+  - carnatic
+  - filmi
+  editor_note: ''
+  overrides: {}

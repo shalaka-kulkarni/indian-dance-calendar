@@ -1,5 +1,5 @@
 id: 2026-11-21-tilles-center-legacy-udit-narayan-aditya
-status: rejected
+status: needs_attention
 was_published: false
 needs_recheck: false
 scraped:
@@ -9,7 +9,7 @@ scraped:
   additional_dates: []
   venue: Tilles Center for the Performing Arts
   address: 720 Northern Blvd, Greenvale, NY
-  region: unknown
+  region: long_island
   price_min: 49.0
   price_max: 49.0
   is_free: false
@@ -24,36 +24,33 @@ scraped:
     first_seen: '2026-08-16'
     last_seen: '2026-08-17'
 ai:
-  relevant: false
-  kind: other
-  art_form: dance
-  traditions: []
+  relevant: true
+  kind: performance
+  art_form: music
+  traditions:
+  - popular_film
   forms: []
-  music_styles: []
-  presenter_type: unknown
+  music_styles:
+  - filmi
+  presenter_type: professional_company
   confidence: high
-  reasoning: Indian music concert with no stated dance component; dance-only calendar excludes pure music.
+  reasoning: Playback singers Udit Narayan and Aditya Narayan in concert.
   model: claude-fable-5
-  classified_at: '2026-08-16'
+  classified_at: '2026-08-17'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
-    in_metro: false
-    classified: false
-  link_checks:
-  - url: https://events.sulekha.com/legacy-udit-narayan-aditya-narayan-live-in-new-york_event-in_greenvale-ny_401310
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-17T08:46:12.184545-04:00'
+    in_metro: true
+    classified: true
+  link_checks: []
   problems:
-  - region unknown — can't confirm NYC metro
-  - classified not-relevant
-  validated_at: '2026-08-17T08:46:12.184520-04:00'
+  - links not yet verified (offline run)
+  validated_at: '2026-08-17T08:47:47.897372-04:00'
 curated:
   forms: []
   traditions: []

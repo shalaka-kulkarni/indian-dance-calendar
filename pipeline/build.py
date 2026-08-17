@@ -18,12 +18,13 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from pipeline.models import (
-    DanceForm,
+    ArtForm,
     Event,
     EventKind,
     PresenterType,
     Region,
     Status,
+    Tradition,
 )
 from pipeline.registry import load_sources
 from pipeline.store import load_all_events
@@ -46,13 +47,19 @@ FILTER_REGIONS = [
     Region.LONG_ISLAND,
     Region.WESTCHESTER,
 ]
-FILTER_FORMS = [f for f in DanceForm]
+FILTER_ART_FORMS = [ArtForm.DANCE, ArtForm.MUSIC]
+FILTER_TRADITIONS = [t for t in Tradition]
 FILTER_PRESENTERS = [
     PresenterType.PROFESSIONAL_COMPANY,
     PresenterType.ACADEMY_STUDENT,
     PresenterType.MIXED,
 ]
-FILTER_KINDS = [EventKind.PERFORMANCE, EventKind.FESTIVAL, EventKind.TALK, EventKind.WORKSHOP]
+FILTER_KINDS = [
+    EventKind.FESTIVAL,
+    EventKind.COMMUNITY,
+    EventKind.TALK,
+    EventKind.WORKSHOP,
+]
 
 
 def price_label(event: Event) -> str | None:
@@ -80,9 +87,16 @@ def event_to_site(event: Event, include_tickets: bool = True) -> dict:
         "price": price_label(event),
         "isFree": s.is_free,
         "infoUrl": s.info_url,
-        "ticketUrl": (s.ticket_url or None) if include_tickets else None,
+        "ticketUrl": (
+            (s.ticket_url or None) if include_tickets and s.ticket_url != s.info_url else None
+        ),
         "description": s.description_snippet,
-        "forms": [f.value for f in event.effective_forms],
+        "artForm": event.effective_art_form.value,
+        "traditions": [t.value for t in event.effective_traditions],
+        "styles": (
+            [f.value for f in event.effective_forms]
+            + [m.value for m in event.effective_music_styles]
+        ),
         "kind": event.ai.kind.value if event.ai else "performance",
         "presenterType": event.effective_presenter_type.value,
         "editorNote": event.curated.editor_note,
@@ -129,21 +143,29 @@ def build_ics(events: list[Event]) -> str:
 
 
 def _counts(events: list[dict]) -> dict:
-    forms: dict[str, int] = {}
+    art: dict[str, int] = {}
+    traditions: dict[str, int] = {}
     regions: dict[str, int] = {}
     presenters: dict[str, int] = {}
     kinds: dict[str, int] = {}
     free = 0
     for e in events:
-        for f in e["forms"]:
-            forms[f] = forms.get(f, 0) + 1
+        # "both" counts towards dance AND music, so the toggle never hides a
+        # community event that is genuinely half of each.
+        for a in (["dance", "music"] if e["artForm"] == "both" else [e["artForm"]]):
+            art[a] = art.get(a, 0) + 1
+        for t in e["traditions"]:
+            traditions[t] = traditions.get(t, 0) + 1
         regions[e["region"]] = regions.get(e["region"], 0) + 1
         presenters[e["presenterType"]] = presenters.get(e["presenterType"], 0) + 1
         kinds[e["kind"]] = kinds.get(e["kind"], 0) + 1
         if e["isFree"]:
             free += 1
     return {
-        "forms": [{"value": f.value, "count": forms.get(f.value, 0)} for f in FILTER_FORMS],
+        "artForms": [{"value": a.value, "count": art.get(a.value, 0)} for a in FILTER_ART_FORMS],
+        "traditions": [
+            {"value": t.value, "count": traditions.get(t.value, 0)} for t in FILTER_TRADITIONS
+        ],
         "regions": [{"value": r.value, "count": regions.get(r.value, 0)} for r in FILTER_REGIONS],
         "presenterTypes": [
             {"value": p.value, "count": presenters.get(p.value, 0)} for p in FILTER_PRESENTERS

@@ -1,0 +1,49 @@
+id: 2026-10-22-hk-hall-diwali-on-the-hudson
+status: needs_attention
+was_published: false
+needs_recheck: true
+scraped:
+  title: Diwali on the Hudson 2026
+  start: '2026-10-22T19:00:00-04:00'
+  additional_dates: []
+  venue: HK HALL
+  address: 605 W 48th St, New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/diwali-on-the-hudson-2026_event-in_new-york-ny_399524
+  ticket_url: ''
+  description_snippet: Long-running Manhattan Diwali celebration with live entertainment and dancing.
+  content_hash: 5de8326f95060856
+  sources:
+  - source_id: manual
+    url: https://events.sulekha.com/diwali-on-the-hudson-2026_event-in_new-york-ny_399524
+    first_seen: '2026-08-17'
+    last_seen: '2026-08-17'
+ai:
+  relevant: true
+  kind: community
+  art_form: both
+  traditions:
+  - popular_film
+  - folk
+  forms:
+  - bollywood
+  music_styles:
+  - filmi
+  presenter_type: mixed
+  confidence: high
+  reasoning: Researched and corroborated against a source page found in search.
+  model: claude-fable-5
+  classified_at: '2026-08-17'
+curated:
+  forms:
+  - bollywood
+  art_form: both
+  traditions:
+  - popular_film
+  - folk
+  music_styles:
+  - filmi
+  editor_note: ''
+  overrides: {}

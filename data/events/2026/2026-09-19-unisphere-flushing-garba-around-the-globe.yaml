@@ -1,0 +1,48 @@
+id: 2026-09-19-unisphere-flushing-garba-around-the-globe
+status: needs_attention
+was_published: false
+needs_recheck: true
+scraped:
+  title: Garba Around the Globe
+  start: '2026-09-19T17:00:00-04:00'
+  additional_dates: []
+  venue: Unisphere, Flushing Meadows Corona Park
+  address: Queens, NY
+  region: queens
+  is_free: false
+  price_note: ''
+  info_url: https://www.eventbrite.com/e/garba-around-the-globe-tickets-1992664047808
+  ticket_url: ''
+  description_snippet: Open-air garba and dandiya at the Unisphere with live dhol, presented by Vivarta
+    Arts.
+  content_hash: 8a5ada55f9265531
+  sources:
+  - source_id: manual
+    url: https://www.eventbrite.com/e/garba-around-the-globe-tickets-1992664047808
+    first_seen: '2026-08-17'
+    last_seen: '2026-08-17'
+ai:
+  relevant: true
+  kind: community
+  art_form: both
+  traditions:
+  - folk
+  forms:
+  - folk
+  music_styles:
+  - folk_music
+  presenter_type: mixed
+  confidence: high
+  reasoning: Researched and corroborated against a source page found in search.
+  model: claude-fable-5
+  classified_at: '2026-08-17'
+curated:
+  forms:
+  - folk
+  art_form: both
+  traditions:
+  - folk
+  music_styles:
+  - folk_music
+  editor_note: ''
+  overrides: {}

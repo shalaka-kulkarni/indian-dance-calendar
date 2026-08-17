@@ -1,0 +1,47 @@
+id: 2026-09-18-meadowlands-exposition-sacha-garba-ramzat-2026
+status: needs_attention
+was_published: false
+needs_recheck: true
+scraped:
+  title: Sacha Garba Ramzat 2026 with Geeta Rabari
+  start: '2026-09-18T21:00:00-04:00'
+  additional_dates: []
+  venue: Meadowlands Exposition Center
+  address: Secaucus, NJ
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.premiertickets.co/event/sacha-garba-ramzat-2026-with-geeta-rabari-in-new-jersey/
+  ticket_url: ''
+  description_snippet: Navratri garba night with Gujarati singer Geeta Rabari.
+  content_hash: 22893d07222f53a5
+  sources:
+  - source_id: manual
+    url: https://www.premiertickets.co/event/sacha-garba-ramzat-2026-with-geeta-rabari-in-new-jersey/
+    first_seen: '2026-08-17'
+    last_seen: '2026-08-17'
+ai:
+  relevant: true
+  kind: community
+  art_form: both
+  traditions:
+  - folk
+  forms:
+  - folk
+  music_styles:
+  - folk_music
+  presenter_type: mixed
+  confidence: high
+  reasoning: Researched and corroborated against a source page found in search.
+  model: claude-fable-5
+  classified_at: '2026-08-17'
+curated:
+  forms:
+  - folk
+  art_form: both
+  traditions:
+  - folk
+  music_styles:
+  - folk_music
+  editor_note: ''
+  overrides: {}

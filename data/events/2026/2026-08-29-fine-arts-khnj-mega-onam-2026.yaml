@@ -1,0 +1,48 @@
+id: 2026-08-29-fine-arts-khnj-mega-onam-2026
+status: needs_attention
+was_published: false
+needs_recheck: true
+scraped:
+  title: KHNJ Mega Onam 2026
+  start: '2026-08-29T00:00:00-04:00'
+  additional_dates: []
+  venue: Fine Arts Center, Jackson Township school complex
+  address: Jackson, NJ
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.khnj.us/post/khnj-mega-onam-2026
+  ticket_url: ''
+  description_snippet: Kerala Hindus of New Jersey's Onam celebration with traditional dances, Chenda
+    Melam, children's performances and Sadhya.
+  content_hash: 418390f9733ff445
+  sources:
+  - source_id: manual
+    url: https://www.khnj.us/post/khnj-mega-onam-2026
+    first_seen: '2026-08-17'
+    last_seen: '2026-08-17'
+ai:
+  relevant: true
+  kind: community
+  art_form: both
+  traditions:
+  - folk
+  forms:
+  - folk
+  music_styles:
+  - folk_music
+  presenter_type: mixed
+  confidence: high
+  reasoning: Researched and corroborated against a source page found in search.
+  model: claude-fable-5
+  classified_at: '2026-08-17'
+curated:
+  forms:
+  - folk
+  art_form: both
+  traditions:
+  - folk
+  music_styles:
+  - folk_music
+  editor_note: ''
+  overrides: {}

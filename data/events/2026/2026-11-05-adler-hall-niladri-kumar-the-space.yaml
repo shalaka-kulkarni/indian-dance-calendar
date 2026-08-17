@@ -1,0 +1,48 @@
+id: 2026-11-05-adler-hall-niladri-kumar-the-space
+status: needs_attention
+was_published: false
+needs_recheck: true
+scraped:
+  title: 'Niladri Kumar: The Space Between the Notes'
+  start: '2026-11-05T20:00:00-05:00'
+  additional_dates: []
+  venue: Adler Hall, New York Society for Ethical Culture
+  address: 2 W 64th St, New York, NY
+  region: manhattan
+  price_min: 45.0
+  price_max: 45.0
+  is_free: false
+  price_note: $45 advance
+  info_url: https://www.worldmusicinstitute.org/niladri-kumar-at-adler-hall/
+  ticket_url: ''
+  description_snippet: Sitarist Niladri Kumar performs a programme drawn from his recorded work with the
+    late Zakir Hussain.
+  content_hash: caf5a58e8103474a
+  sources:
+  - source_id: manual
+    url: https://www.worldmusicinstitute.org/niladri-kumar-at-adler-hall/
+    first_seen: '2026-08-17'
+    last_seen: '2026-08-17'
+ai:
+  relevant: true
+  kind: performance
+  art_form: music
+  traditions:
+  - classical
+  forms: []
+  music_styles:
+  - hindustani
+  presenter_type: professional_company
+  confidence: high
+  reasoning: Researched and corroborated against a source page found in search.
+  model: claude-fable-5
+  classified_at: '2026-08-17'
+curated:
+  forms: []
+  art_form: music
+  traditions:
+  - classical
+  music_styles:
+  - hindustani
+  editor_note: ''
+  overrides: {}

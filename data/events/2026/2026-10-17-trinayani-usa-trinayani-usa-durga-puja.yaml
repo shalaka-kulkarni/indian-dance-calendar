@@ -1,0 +1,53 @@
+id: 2026-10-17-trinayani-usa-trinayani-usa-durga-puja
+status: needs_attention
+was_published: false
+needs_recheck: true
+scraped:
+  title: Trinayani USA Durga Puja 2026
+  start: '2026-10-17T00:00:00-04:00'
+  end: '2026-10-18T00:00:00-04:00'
+  additional_dates: []
+  venue: Trinayani USA, Plainsboro
+  address: Plainsboro, NJ
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://trinayaninj.org/durgapuja2026/
+  ticket_url: ''
+  description_snippet: Two-day Bengali Durga Puja with traditional rituals and evening concerts by Chandrabindoo
+    and Neeraj Shridhar's Bombay Vikings.
+  content_hash: 11f31fe0d1aef0ee
+  sources:
+  - source_id: manual
+    url: https://trinayaninj.org/durgapuja2026/
+    first_seen: '2026-08-17'
+    last_seen: '2026-08-17'
+ai:
+  relevant: true
+  kind: community
+  art_form: both
+  traditions:
+  - folk
+  - popular_film
+  forms:
+  - folk
+  music_styles:
+  - folk_music
+  - filmi
+  presenter_type: mixed
+  confidence: high
+  reasoning: Researched and corroborated against a source page found in search.
+  model: claude-fable-5
+  classified_at: '2026-08-17'
+curated:
+  forms:
+  - folk
+  art_form: both
+  traditions:
+  - folk
+  - popular_film
+  music_styles:
+  - folk_music
+  - filmi
+  editor_note: ''
+  overrides: {}

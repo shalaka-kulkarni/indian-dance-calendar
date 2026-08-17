@@ -1,0 +1,45 @@
+id: 2026-10-02-adler-hall-rakesh-chaurasia-salar-nader
+status: needs_attention
+was_published: false
+needs_recheck: true
+scraped:
+  title: Rakesh Chaurasia & Salar Nader
+  start: '2026-10-02T20:00:00-04:00'
+  additional_dates: []
+  venue: Adler Hall, New York Society for Ethical Culture
+  address: 2 W 64th St, New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://ethical.nyc/events/worldclassmusic-live-presents-rakesh-chaurasia-salar-nader/
+  ticket_url: https://tickets.worldclassmusic.live/events/wcml
+  description_snippet: Bansuri player Rakesh Chaurasia with Afghan tabla player Salar Nader.
+  content_hash: 186bd9b9542b3399
+  sources:
+  - source_id: manual
+    url: https://ethical.nyc/events/worldclassmusic-live-presents-rakesh-chaurasia-salar-nader/
+    first_seen: '2026-08-17'
+    last_seen: '2026-08-17'
+ai:
+  relevant: true
+  kind: performance
+  art_form: music
+  traditions:
+  - classical
+  forms: []
+  music_styles:
+  - hindustani
+  presenter_type: professional_company
+  confidence: high
+  reasoning: Researched and corroborated against a source page found in search.
+  model: claude-fable-5
+  classified_at: '2026-08-17'
+curated:
+  forms: []
+  art_form: music
+  traditions:
+  - classical
+  music_styles:
+  - hindustani
+  editor_note: ''
+  overrides: {}

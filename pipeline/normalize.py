@@ -23,9 +23,16 @@ REGION_HINTS: list[tuple[re.Pattern, Region]] = [
     (re.compile(r"queens|flushing|astoria|laguardia", re.I), Region.QUEENS),
     (re.compile(r"bronx", re.I), Region.BRONX),
     (re.compile(r"staten island", re.I), Region.STATEN_ISLAND),
-    (re.compile(r"new jersey|\bnj\b|newark|jersey city|new brunswick|south orange|hoboken", re.I), Region.NEW_JERSEY),
-    (re.compile(r"long island|hempstead|brookville", re.I), Region.LONG_ISLAND),
-    (re.compile(r"westchester|yonkers|white plains|tarrytown", re.I), Region.WESTCHESTER),
+    (re.compile(
+        r"new jersey|\bnj\b|newark|jersey city|new brunswick|south orange|hoboken|"
+        r"edison|iselin|secaucus|east brunswick|plainsboro|robbinsville|jackson township|"
+        r"bridgewater|piscataway|parsippany|montclair", re.I), Region.NEW_JERSEY),
+    (re.compile(
+        r"long island|hempstead|brookville|westbury|uniondale|greenvale|garden city|"
+        r"hicksville|jericho|syosset|melville|huntington|stony brook|nassau|suffolk",
+        re.I), Region.LONG_ISLAND),
+    (re.compile(r"westchester|yonkers|white plains|tarrytown|valhalla|purchase|scarsdale", re.I),
+     Region.WESTCHESTER),
     (re.compile(r"manhattan|new york,?\s*ny|nyc|broadway|lincoln center|chelsea|harlem", re.I), Region.MANHATTAN),
 ]
 

@@ -1,3 +1,24 @@
+export const ART_FORM_LABELS = {
+  dance: 'Dance',
+  music: 'Music',
+  both: 'Dance & music',
+};
+
+export const TRADITION_LABELS = {
+  classical: 'Classical',
+  semi_classical_fusion: 'Semi-classical & fusion',
+  folk: 'Folk',
+  contemporary: 'Contemporary',
+  popular_film: 'Popular & film',
+};
+
+export const STYLE_LABELS = {
+  hindustani: 'Hindustani', carnatic: 'Carnatic', dhrupad: 'Dhrupad',
+  thumri_ghazal: 'Thumri / ghazal', qawwali: 'Qawwali',
+  bhajan_kirtan: 'Bhajan / kirtan', filmi: 'Filmi', folk_music: 'Folk music',
+  fusion_music: 'Fusion', other_music: 'Other',
+};
+
 export const FORM_LABELS = {
   kathak: 'Kathak',
   bharatanatyam: 'Bharatanatyam',
@@ -37,6 +58,7 @@ export const PRESENTER_LABELS = {
 export const KIND_LABELS = {
   performance: '',
   festival: 'Festival',
+  community: 'Community',
   talk: 'Talk',
   workshop: 'Workshop',
   other: '',
