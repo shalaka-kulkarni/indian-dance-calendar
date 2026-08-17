@@ -21,7 +21,7 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/2026-2027-gibney-dance
     first_seen: '2026-08-16'
-    last_seen: '2026-08-16'
+    last_seen: '2026-08-17'
 ai:
   relevant: false
   kind: other
@@ -45,11 +45,11 @@ validation:
   - url: https://www.nycitycenter.org/events/2026-2027-gibney-dance
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T17:07:37.139881-04:00'
+    checked_at: '2026-08-17T07:37:30.190666-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T17:07:37.139858-04:00'
+  validated_at: '2026-08-17T07:37:30.190643-04:00'
 curated:
   forms: []
   editor_note: ''

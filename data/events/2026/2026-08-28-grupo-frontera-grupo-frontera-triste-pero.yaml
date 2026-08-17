@@ -21,7 +21,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/grupo-frontera
     first_seen: '2026-08-16'
-    last_seen: '2026-08-16'
+    last_seen: '2026-08-17'
 ai:
   relevant: false
   kind: other
@@ -46,11 +46,11 @@ validation:
   - url: https://www.prucenter.com/events/grupo-frontera
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T17:06:58.186175-04:00'
+    checked_at: '2026-08-17T07:35:42.095943-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T17:06:58.186140-04:00'
+  validated_at: '2026-08-17T07:35:42.095919-04:00'
 curated:
   forms: []
   editor_note: ''

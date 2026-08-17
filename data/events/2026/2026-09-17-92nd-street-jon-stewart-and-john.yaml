@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/an-evening-with-jon-stewart-and-john-feal
     first_seen: '2026-08-16'
-    last_seen: '2026-08-16'
+    last_seen: '2026-08-17'
 ai:
   relevant: false
   kind: other
@@ -46,14 +46,14 @@ validation:
   - url: https://www.92ny.org/event/an-evening-with-jon-stewart-and-john-feal
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T17:07:02.162688-04:00'
+    checked_at: '2026-08-17T07:35:56.719073-04:00'
   - url: https://seats.92ny.org/single/210811
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T17:07:02.359615-04:00'
+    checked_at: '2026-08-17T07:36:00.361881-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-16T17:07:02.162667-04:00'
+  validated_at: '2026-08-17T07:35:56.719047-04:00'
 curated:
   forms: []
   editor_note: ''

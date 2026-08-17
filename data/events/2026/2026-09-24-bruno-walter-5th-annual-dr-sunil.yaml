@@ -46,10 +46,10 @@ validation:
   - url: https://iaac.us/erasing-borders-dance-festival-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T17:07:09.300082-04:00'
+    checked_at: '2026-08-17T07:36:21.978209-04:00'
   problems:
   - no price information
-  validated_at: '2026-08-16T17:07:09.300059-04:00'
+  validated_at: '2026-08-17T07:36:21.978183-04:00'
 curated:
   forms:
   - bharatanatyam

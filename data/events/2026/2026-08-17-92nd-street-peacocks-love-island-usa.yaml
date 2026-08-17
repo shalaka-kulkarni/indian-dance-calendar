@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/peacock-s-love-island-usa
     first_seen: '2026-08-16'
-    last_seen: '2026-08-16'
+    last_seen: '2026-08-17'
 ai:
   relevant: false
   kind: other
@@ -46,14 +46,14 @@ validation:
   - url: https://seats.92ny.org/single/211070
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T17:06:56.552866-04:00'
+    checked_at: '2026-08-17T07:35:38.157125-04:00'
   - url: https://www.92ny.org/event/peacock-s-love-island-usa
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T17:06:56.571709-04:00'
+    checked_at: '2026-08-17T07:35:38.178137-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-16T17:06:56.552841-04:00'
+  validated_at: '2026-08-17T07:35:38.157100-04:00'
 curated:
   forms: []
   editor_note: ''

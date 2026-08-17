@@ -20,7 +20,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/matchroom-boxing
     first_seen: '2026-08-16'
-    last_seen: '2026-08-16'
+    last_seen: '2026-08-17'
 ai:
   relevant: false
   kind: other
@@ -45,11 +45,11 @@ validation:
   - url: https://www.prucenter.com/events/matchroom-boxing
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T17:06:58.581912-04:00'
+    checked_at: '2026-08-17T07:35:42.490858-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T17:06:58.581859-04:00'
+  validated_at: '2026-08-17T07:35:42.490834-04:00'
 curated:
   forms: []
   editor_note: ''

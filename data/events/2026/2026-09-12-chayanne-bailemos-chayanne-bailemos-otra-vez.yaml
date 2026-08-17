@@ -21,7 +21,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/chayanne
     first_seen: '2026-08-16'
-    last_seen: '2026-08-16'
+    last_seen: '2026-08-17'
 ai:
   relevant: false
   kind: other
@@ -46,11 +46,11 @@ validation:
   - url: https://www.prucenter.com/events/chayanne
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T17:07:00.597711-04:00'
+    checked_at: '2026-08-17T07:35:45.839847-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T17:07:00.597688-04:00'
+  validated_at: '2026-08-17T07:35:45.839827-04:00'
 curated:
   forms: []
   editor_note: ''

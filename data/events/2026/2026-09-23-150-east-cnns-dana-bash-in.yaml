@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/cnn-s-dana-bash
     first_seen: '2026-08-16'
-    last_seen: '2026-08-16'
+    last_seen: '2026-08-17'
 ai:
   relevant: false
   kind: other
@@ -47,14 +47,14 @@ validation:
   - url: https://seats.92ny.org/single/210411
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T17:07:08.978496-04:00'
+    checked_at: '2026-08-17T07:36:13.836815-04:00'
   - url: https://www.92ny.org/event/cnn-s-dana-bash
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T17:07:09.015822-04:00'
+    checked_at: '2026-08-17T07:36:13.873665-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-16T17:07:08.978468-04:00'
+  validated_at: '2026-08-17T07:36:13.836791-04:00'
 curated:
   forms: []
   editor_note: ''

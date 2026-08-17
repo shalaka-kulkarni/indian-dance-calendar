@@ -20,7 +20,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/disney-on-ice-presents-magic-in-the-stars
     first_seen: '2026-08-16'
-    last_seen: '2026-08-16'
+    last_seen: '2026-08-17'
 ai:
   relevant: false
   kind: other
@@ -45,11 +45,11 @@ validation:
   - url: https://www.prucenter.com/events/disney-on-ice-presents-magic-in-the-stars
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T17:07:36.834757-04:00'
+    checked_at: '2026-08-17T07:37:30.055488-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T17:07:36.834733-04:00'
+  validated_at: '2026-08-17T07:37:30.055465-04:00'
 curated:
   forms: []
   editor_note: ''

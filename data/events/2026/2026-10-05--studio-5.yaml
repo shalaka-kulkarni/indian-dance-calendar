@@ -20,7 +20,7 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/2026-2027-studio-5
     first_seen: '2026-08-16'
-    last_seen: '2026-08-16'
+    last_seen: '2026-08-17'
 ai:
   relevant: false
   kind: other
@@ -44,11 +44,11 @@ validation:
   - url: https://www.nycitycenter.org/events/2026-2027-studio-5
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T17:07:15.543827-04:00'
+    checked_at: '2026-08-17T07:36:43.926004-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-16T17:07:15.543802-04:00'
+  validated_at: '2026-08-17T07:36:43.925980-04:00'
 curated:
   forms: []
   editor_note: ''

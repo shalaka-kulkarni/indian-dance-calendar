@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/jacob-tierney
     first_seen: '2026-08-16'
-    last_seen: '2026-08-16'
+    last_seen: '2026-08-17'
 ai:
   relevant: false
   kind: other
@@ -46,14 +46,14 @@ validation:
   - url: https://www.92ny.org/event/jacob-tierney
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T17:07:21.363589-04:00'
+    checked_at: '2026-08-17T07:36:54.956455-04:00'
   - url: https://seats.92ny.org/single/211100
     ok: true
     status_code: 200
-    checked_at: '2026-08-16T17:07:21.393176-04:00'
+    checked_at: '2026-08-17T07:36:57.055903-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-16T17:07:21.363567-04:00'
+  validated_at: '2026-08-17T07:36:54.956431-04:00'
 curated:
   forms: []
   editor_note: ''
