@@ -24,9 +24,14 @@ scraped:
 ai:
   relevant: true
   kind: festival
+  art_form: dance
+  traditions:
+  - folk
+  - classical
   forms:
   - folk
   - bharatanatyam
+  music_styles: []
   presenter_type: mixed
   confidence: high
   reasoning: Indian dance event verified against a live source page.
@@ -48,5 +53,7 @@ curated:
   forms:
   - folk
   - bharatanatyam
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

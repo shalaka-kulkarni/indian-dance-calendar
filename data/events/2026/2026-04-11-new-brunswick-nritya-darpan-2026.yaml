@@ -24,11 +24,16 @@ scraped:
 ai:
   relevant: true
   kind: festival
+  art_form: dance
+  traditions:
+  - classical
+  - semi_classical_fusion
   forms:
   - kathak
   - bharatanatyam
   - kuchipudi
   - fusion
+  music_styles: []
   presenter_type: professional_company
   confidence: high
   reasoning: Indian dance event verified against a live source page.
@@ -52,5 +57,7 @@ curated:
   - bharatanatyam
   - kuchipudi
   - fusion
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

@@ -24,13 +24,20 @@ scraped:
     first_seen: '2026-08-16'
     last_seen: '2026-08-17'
 ai:
-  relevant: false
-  kind: other
-  forms: []
+  relevant: true
+  kind: community
+  art_form: both
+  traditions:
+  - folk
+  - popular_film
+  forms:
+  - folk
+  - bollywood
+  music_styles: []
   presenter_type: unknown
   confidence: medium
-  reasoning: Participatory garba/Bollywood social dance event, not a performance or class — borderline;
-    held for review.
+  reasoning: Public garba and Bollywood dance celebration — a community occasion with participatory Indian
+    dance.
   model: claude-fable-5
   classified_at: '2026-08-16'
 validation:
@@ -52,6 +59,10 @@ validation:
   - classified not-relevant
   validated_at: '2026-08-17T07:35:40.068477-04:00'
 curated:
-  forms: []
+  forms:
+  - folk
+  - bollywood
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

@@ -24,10 +24,16 @@ scraped:
 ai:
   relevant: true
   kind: performance
+  art_form: dance
+  traditions:
+  - popular_film
+  - folk
+  - classical
   forms:
   - bollywood
   - folk
   - bharatanatyam
+  music_styles: []
   presenter_type: academy_student
   confidence: high
   reasoning: Indian dance event verified against a live source page.
@@ -50,5 +56,7 @@ curated:
   - bollywood
   - folk
   - bharatanatyam
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

@@ -24,11 +24,16 @@ scraped:
 ai:
   relevant: true
   kind: other
+  art_form: dance
+  traditions:
+  - classical
+  - folk
   forms:
   - bharatanatyam
   - kathak
   - kuchipudi
   - folk
+  music_styles: []
   presenter_type: academy_student
   confidence: high
   reasoning: Indian dance event verified against a live source page.
@@ -52,5 +57,7 @@ curated:
   - kathak
   - kuchipudi
   - folk
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

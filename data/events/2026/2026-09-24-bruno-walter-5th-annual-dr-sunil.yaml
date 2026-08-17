@@ -25,8 +25,12 @@ scraped:
 ai:
   relevant: true
   kind: talk
+  art_form: dance
+  traditions:
+  - classical
   forms:
   - bharatanatyam
+  music_styles: []
   presenter_type: professional_company
   confidence: high
   reasoning: Dance-scholarship lecture by professional Bharatanatyam artist Rama Vaidyanathan.
@@ -53,5 +57,7 @@ validation:
 curated:
   forms:
   - bharatanatyam
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

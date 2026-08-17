@@ -26,10 +26,15 @@ scraped:
 ai:
   relevant: true
   kind: performance
+  art_form: dance
+  traditions:
+  - classical
+  - semi_classical_fusion
   forms:
   - kathak
   - bharatanatyam
   - fusion
+  music_styles: []
   presenter_type: professional_company
   confidence: high
   reasoning: Indian dance event verified against a live source page.
@@ -52,5 +57,7 @@ curated:
   - kathak
   - bharatanatyam
   - fusion
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

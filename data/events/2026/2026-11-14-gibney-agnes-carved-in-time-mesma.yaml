@@ -23,8 +23,12 @@ scraped:
 ai:
   relevant: true
   kind: performance
+  art_form: dance
+  traditions:
+  - classical
   forms:
   - bharatanatyam
+  music_styles: []
   presenter_type: professional_company
   confidence: high
   reasoning: Evening-length work by professional Indian classical dance artists Mesma Belsare and Sonali
@@ -53,5 +57,7 @@ validation:
 curated:
   forms:
   - bharatanatyam
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

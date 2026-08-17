@@ -33,6 +33,10 @@ scraped:
 ai:
   relevant: true
   kind: festival
+  art_form: dance
+  traditions:
+  - classical
+  - contemporary
   forms:
   - bharatanatyam
   - kuchipudi
@@ -40,6 +44,7 @@ ai:
   - mohiniyattam
   - odissi
   - contemporary_indian
+  music_styles: []
   presenter_type: professional_company
   confidence: high
   reasoning: IAAC's annual Indian classical dance festival; six classical forms by professional artists.
@@ -74,5 +79,7 @@ curated:
   - mohiniyattam
   - odissi
   - contemporary_indian
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

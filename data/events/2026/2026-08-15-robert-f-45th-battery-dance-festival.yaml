@@ -25,9 +25,14 @@ scraped:
 ai:
   relevant: true
   kind: festival
+  art_form: dance
+  traditions:
+  - classical
+  - semi_classical_fusion
   forms:
   - bharatanatyam
   - fusion
+  music_styles: []
   presenter_type: professional_company
   confidence: high
   reasoning: Indian dance event verified against a live source page.
@@ -49,5 +54,7 @@ curated:
   forms:
   - bharatanatyam
   - fusion
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

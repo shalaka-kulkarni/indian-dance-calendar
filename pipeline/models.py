@@ -36,6 +36,38 @@ class Strategy(str, enum.Enum):
     MANUAL = "manual"
 
 
+class ArtForm(str, enum.Enum):
+    """The primary filter: is this a dance event, a music event, or both."""
+
+    DANCE = "dance"
+    MUSIC = "music"
+    BOTH = "both"
+
+
+class Tradition(str, enum.Enum):
+    """Shared vocabulary across dance and music, so one filter set covers both.
+    A Bharatanatyam recital and a Carnatic vocal concert are both CLASSICAL."""
+
+    CLASSICAL = "classical"
+    SEMI_CLASSICAL_FUSION = "semi_classical_fusion"
+    FOLK = "folk"
+    CONTEMPORARY = "contemporary"
+    POPULAR_FILM = "popular_film"
+
+
+class MusicStyle(str, enum.Enum):
+    HINDUSTANI = "hindustani"
+    CARNATIC = "carnatic"
+    DHRUPAD = "dhrupad"
+    THUMRI_GHAZAL = "thumri_ghazal"
+    QAWWALI = "qawwali"
+    BHAJAN_KIRTAN = "bhajan_kirtan"
+    FILMI = "filmi"
+    FOLK_MUSIC = "folk_music"
+    FUSION_MUSIC = "fusion_music"
+    OTHER_MUSIC = "other_music"
+
+
 class DanceForm(str, enum.Enum):
     KATHAK = "kathak"
     BHARATANATYAM = "bharatanatyam"
@@ -55,8 +87,12 @@ class DanceForm(str, enum.Enum):
 class EventKind(str, enum.Enum):
     PERFORMANCE = "performance"
     FESTIVAL = "festival"
-    TALK = "talk"  # lectures/lecture-demonstrations on Indian dance
+    TALK = "talk"  # lectures and lecture-demonstrations
     WORKSHOP = "workshop"
+    # Public celebrations where dance and music are central but the event is a
+    # community occasion rather than a ticketed concert: garba nights, Diwali
+    # melas, temple festival programmes.
+    COMMUNITY = "community"
     OTHER = "other"
 
 
@@ -154,7 +190,10 @@ class Classification(BaseModel):
 
     relevant: bool
     kind: EventKind = EventKind.PERFORMANCE
+    art_form: ArtForm = ArtForm.DANCE
+    traditions: list[Tradition] = Field(default_factory=list)
     forms: list[DanceForm] = Field(default_factory=list)
+    music_styles: list[MusicStyle] = Field(default_factory=list)
     presenter_type: PresenterType = PresenterType.UNKNOWN
     confidence: Confidence = Confidence.LOW
     reasoning: str = ""
@@ -189,6 +228,9 @@ class Curated(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
     forms: list[DanceForm] = Field(default_factory=list)
+    art_form: ArtForm | None = None
+    traditions: list[Tradition] = Field(default_factory=list)
+    music_styles: list[MusicStyle] = Field(default_factory=list)
     presenter_type: PresenterType | None = None
     editor_note: str = ""
     overrides: dict[str, str | float | bool] = Field(default_factory=dict)
@@ -212,6 +254,20 @@ class Event(BaseModel):
     @property
     def effective_forms(self) -> list[DanceForm]:
         return self.curated.forms or (self.ai.forms if self.ai else [])
+
+    @property
+    def effective_art_form(self) -> ArtForm:
+        if self.curated.art_form is not None:
+            return self.curated.art_form
+        return self.ai.art_form if self.ai else ArtForm.DANCE
+
+    @property
+    def effective_traditions(self) -> list[Tradition]:
+        return self.curated.traditions or (self.ai.traditions if self.ai else [])
+
+    @property
+    def effective_music_styles(self) -> list[MusicStyle]:
+        return self.curated.music_styles or (self.ai.music_styles if self.ai else [])
 
     @property
     def effective_presenter_type(self) -> PresenterType:

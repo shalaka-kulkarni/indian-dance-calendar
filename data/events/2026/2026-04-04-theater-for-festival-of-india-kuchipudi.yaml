@@ -25,8 +25,12 @@ scraped:
 ai:
   relevant: true
   kind: performance
+  art_form: dance
+  traditions:
+  - classical
   forms:
   - kuchipudi
+  music_styles: []
   presenter_type: professional_company
   confidence: high
   reasoning: Indian dance event verified against a live source page.
@@ -47,5 +51,7 @@ validation:
 curated:
   forms:
   - kuchipudi
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}

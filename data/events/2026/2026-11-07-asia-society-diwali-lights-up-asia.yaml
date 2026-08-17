@@ -26,9 +26,14 @@ scraped:
     last_seen: '2026-08-16'
 ai:
   relevant: true
-  kind: festival
+  kind: community
+  art_form: both
+  traditions:
+  - folk
+  - classical
   forms:
   - folk
+  music_styles: []
   presenter_type: mixed
   confidence: high
   reasoning: Diwali festival programme at Asia Society including Indian dance performances.
@@ -54,5 +59,7 @@ validation:
 curated:
   forms:
   - folk
+  traditions: []
+  music_styles: []
   editor_note: ''
   overrides: {}
