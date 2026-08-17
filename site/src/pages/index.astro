@@ -3,6 +3,7 @@ import '../styles/tokens.css';
 import HeroArt from '../components/HeroArt.astro';
 import Motif from '../components/Motif.astro';
 import Subscribe from '../components/Subscribe.astro';
+import Disclaimer from '../components/Disclaimer.astro';
 import data from '../data/events.json';
 import { FORM_LABELS, STYLE_LABELS, TRADITION_LABELS, ART_FORM_LABELS, REGION_LABELS, PRESENTER_LABELS, KIND_LABELS } from '../labels.js';
 
@@ -74,6 +75,8 @@ const TITLE = 'Rasa — every Indian dance and music event across the New York C
     <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
   </head>
   <body>
+    <Disclaimer variant="short" />
+
     <header class="masthead">
       <HeroArt side="left" />
       <HeroArt side="right" />
@@ -269,6 +272,7 @@ const TITLE = 'Rasa — every Indian dance and music event across the New York C
     <footer>
       <div class="wrap">
         <Subscribe variant="footer" />
+        <Disclaimer variant="long" />
         <p>
           Updated automatically. Last sweep {generatedAt.toLocaleDateString('en-US', {
             month: 'short', day: 'numeric', year: 'numeric', timeZone: NY,
@@ -670,6 +674,19 @@ const TITLE = 'Rasa — every Indian dance and music event across the New York C
         border-top: 6px solid var(--rule); background: var(--surface-sunk);
         padding: 1.5rem 0 3rem; color: var(--ink-muted); font-size: .86rem;
       }
+      .disclaimer-strip {
+        margin: 0; background: var(--rail-bg); color: var(--rail-ink);
+        text-align: center; padding: .45rem 1rem;
+        font: 700 .7rem/1.4 var(--font-condensed);
+        letter-spacing: .1em; text-transform: uppercase;
+        border-bottom: 2px solid var(--turmeric);
+      }
+      .disclaimer-long { margin: 1.6rem 0 0; max-width: 60ch; }
+      .disclaimer-long h2 {
+        font: 900 .95rem/1 var(--font-display); text-transform: uppercase;
+        letter-spacing: .1em; color: var(--ink); margin: 0 0 .6rem;
+      }
+      .disclaimer-long p { margin: 0 0 .7rem; font-size: .82rem; line-height: 1.55; }
       footer a { color: var(--link); }
 
       @media (prefers-reduced-motion: reduce) {
