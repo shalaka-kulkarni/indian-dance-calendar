@@ -10,6 +10,12 @@ on:
       - "site/**"
       - "data/events/**"
       - ".github/workflows/deploy-site.yml"
+  # A push made by a workflow (using GITHUB_TOKEN) deliberately does NOT
+  # trigger other workflows, so sweep/publish commits would never reach the
+  # site. Listen for those runs finishing instead.
+  workflow_run:
+    workflows: [sweep, publish, healthcheck, discovery]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
