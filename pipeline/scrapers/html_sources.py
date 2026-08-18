@@ -122,22 +122,13 @@ def extract_narthaki(html: str, source_id: str, page_url: str) -> list[RawEvent]
     return list(unique.values())
 
 
-# CMANA writes its date in one span per event, in a shape no generic date pattern
-# matches: "Event Date:Sunday Sep 6 ,2026" — a stray space before the comma and
-# no space after it.
-CMANA_DATE = re.compile(
-    r"Event\s*Date\s*:\s*(?:Mon|Tues?|Wed(?:nes)?|Thurs?|Fri|Satur?|Sun)[a-z]*\s*,?\s*"
-    r"((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2})\s*,\s*(\d{4})",
-    re.IGNORECASE,
-)
+def extract_eventin(html: str, source_id: str, page_url: str) -> list[RawEvent]:
+    """The "EventIn" WordPress plugin, which prefixes every class with `etn-`.
 
-
-def extract_cmana(html: str, source_id: str, page_url: str) -> list[RawEvent]:
-    """cmana.org/events — Carnatic concerts across New Jersey.
-
-    The listing carries no structured data and its detail links go to membership
-    forms, so both the crawl and the sitemap come back empty. Every event does
-    carry one dated span; anchor on that and read the surrounding card.
+    CMANA runs it. The plugin emits no structured data, its only crawlable links
+    are a membership form and a password reset, and its sitemap lists no events —
+    but the listing markup itself is clean and stable, one `.etn-event-item` per
+    event with the title, date, location and blurb in named children.
     """
     events = extract_jsonld_events(html, source_id, page_url)
     if events:
@@ -146,39 +137,34 @@ def extract_cmana(html: str, source_id: str, page_url: str) -> list[RawEvent]:
     soup = BeautifulSoup(html, "html.parser")
     found: list[RawEvent] = []
     seen: set[str] = set()
-    for span in soup.find_all("span"):
-        match = CMANA_DATE.search(span.get_text(" ", strip=True))
-        if not match:
+    for item in soup.select(".etn-event-item"):
+        link = item.select_one(".etn-event-title a, .etn-title a")
+        title = link.get_text(" ", strip=True) if link else ""
+        date_node = item.select_one(".etn-event-date")
+        date_text = date_node.get_text(" ", strip=True) if date_node else ""
+        date_match = DATE_PAT.search(date_text)
+        if not (title and date_match):
             continue
-        start_raw = f"{match.group(1)}, {match.group(2)}"
-
-        # Walk out to the card that holds this date, and stop as soon as it also
-        # holds a heading — that heading is the concert title.
-        card, title = span, ""
-        for _ in range(5):
-            card = card.parent
-            if card is None:
-                break
-            heading = card.find(["h1", "h2", "h3", "h4", "h5"])
-            if heading is not None:
-                title = heading.get_text(" ", strip=True)
-                break
-        if not title or title in seen:
+        info_url = urljoin(page_url, link["href"]) if link and link.get("href") else page_url
+        if info_url in seen:
             continue
-        seen.add(title)
+        seen.add(info_url)
 
-        text = card.get_text(" ", strip=True) if card else ""
-        price = PRICE_PAT.search(text)
-        link = card.find("a", href=True) if card else None
+        location = item.select_one(".etn-event-location")
+        blurb = item.select_one(".etn-title-info p")
+        price = PRICE_PAT.search(item.get_text(" ", strip=True))
         found.append(
             RawEvent(
                 source_id=source_id,
                 source_url=page_url,
                 title=title,
-                start_raw=start_raw,
+                start_raw=date_match.group(1),
+                # The plugin runs venue and street address together in one line;
+                # normalize.py reads the region out of it either way.
+                address=location.get_text(" ", strip=True) if location else "",
                 price_raw=price.group(1) if price else "",
-                info_url=urljoin(page_url, link["href"]) if link else page_url,
-                description=text[:600],
+                info_url=info_url,
+                description=blurb.get_text(" ", strip=True)[:600] if blurb else "",
             )
         )
     return found

@@ -275,7 +275,14 @@ sources:
     url: https://www.brooklynragamassive.org/events
     region: brooklyn
     assume_relevant: true
-    notes: "70+ concerts a year — the single densest Indian-music source in the metro. Runs the Ragini Festival each spring."
+    enabled: false
+    notes: >-
+      Densest Indian-music source in the metro, but not scrapable as it stands:
+      the Webflow markup prints a date with NO YEAR ("Aug 13"), and the site was
+      last published months before that date, so its listing carries past events
+      indistinguishable from upcoming ones. Inferring a year would publish wrong
+      dates. Their tickets run through viewcy.com — that is the way in. Until
+      then, enter their concerts by hand.
   - id: chhandayan
     name: Chhandayan Center for Indian Music
     circuit: diaspora
@@ -299,7 +306,7 @@ sources:
     url: https://www.cmana.org/events/
     region: new_jersey
     assume_relevant: true
-    notes: "Carnatic concerts across NJ since 1976; C3 festival over Labor Day weekend."
+    notes: "Carnatic concerts across NJ since 1976; C3 festival over Labor Day weekend. Runs the EventIn WordPress plugin — parsed from its .etn-* listing markup."
   - id: sanskriti_nj
     name: Sanskriti of New Jersey
     circuit: diaspora
