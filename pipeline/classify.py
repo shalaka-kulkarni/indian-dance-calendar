@@ -1,6 +1,7 @@
-"""Claude classification: is this an Indian dance event, what form, professional
-or student. Advisory only — facts never originate here. Skips gracefully when
-ANTHROPIC_API_KEY is absent (events wait in needs_attention until a keyed run).
+"""Claude classification: is this an Indian performing-arts event, dance or music,
+which tradition, professional or student. Advisory only — facts never originate
+here. Skips gracefully when ANTHROPIC_API_KEY is absent (events wait in
+needs_attention until a keyed run).
 
 Every listing from mainstream venues gets classified — NO keyword pre-filter.
 "Ragamala Dance Company: Fires of Varanasi" contains no form keyword; a keyword
@@ -15,27 +16,66 @@ from datetime import date
 from pydantic import BaseModel, ConfigDict
 
 from pipeline.models import (
+    ArtForm,
     Classification,
     Confidence,
     DanceForm,
     EventKind,
+    MusicStyle,
     PresenterType,
     Scraped,
+    Tradition,
 )
 from pipeline.scrapers.base import log
 
 MODEL = os.environ.get("SKYD_CLASSIFY_MODEL", "claude-opus-5")
 
-SYSTEM_PROMPT = """You classify NYC-metro event listings for an Indian dance calendar.
+SYSTEM_PROMPT = """You classify NYC-metro event listings for a calendar of Indian
+performing arts — dance AND music.
 
-An event is RELEVANT only if Indian dance is performed, taught, or discussed as a
-substantial part of it: classical forms (Kathak, Bharatanatyam, Odissi, Kuchipudi,
-Mohiniyattam, Manipuri, Sattriya, Kathakali), Indian folk forms (garba, bhangra,
-lavani, Rajasthani folk, etc.), Bollywood/filmi dance, Indian-rooted fusion or
-contemporary work by Indian-form-trained artists, dance-focused lectures or
-lecture-demonstrations, and dance workshops. Pure music concerts (Hindustani or
-Carnatic vocal/instrumental with no dance component stated) are NOT relevant.
-Non-Indian dance is NOT relevant.
+An event is RELEVANT only if Indian dance or Indian music is performed, taught, or
+discussed as a substantial part of it.
+
+DANCE: classical forms (Kathak, Bharatanatyam, Odissi, Kuchipudi, Mohiniyattam,
+Manipuri, Sattriya, Kathakali), Indian folk forms (garba, bhangra, lavani,
+Rajasthani folk), Bollywood/filmi dance, Indian-rooted fusion or contemporary work
+by Indian-form-trained artists.
+
+MUSIC: Hindustani and Carnatic classical (vocal and instrumental — sitar, sarod,
+sarangi, veena, flute, violin, tabla, mridangam), dhrupad, thumri and ghazal,
+qawwali, bhajan and kirtan, filmi and Indi-pop, Indian folk music, and raga-rooted
+fusion or contemporary work by Indian-trained musicians.
+
+Also relevant: festivals, lecture-demonstrations, talks and workshops centred on
+either. Community programmes count when Indian dance or music is a substantial
+part of them (garba nights, Diwali or Durga Puja cultural programmes) — use
+kind=community for those.
+
+NOT relevant: non-Indian dance or music; yoga, meditation and devotional services
+with no performance; film screenings; class-term registration and ongoing course
+enrolment (a recurring weekly class is not an event); purely culinary, literary or
+political programmes.
+
+art_form: dance = dance only; music = music only; both = the listing clearly
+carries substantial dance AND music (many festivals, Drive East-style programmes,
+some temple and community events). Do not use "both" just because a dance recital
+has accompanying musicians — live accompaniment is normal for dance.
+
+traditions (shared vocabulary across dance and music, pick all that apply):
+- classical: the codified traditions — Bharatanatyam, Kathak, Odissi et al.;
+  Hindustani and Carnatic classical, dhrupad.
+- semi_classical_fusion: thumri, ghazal, qawwali, bhajan/kirtan, light-classical
+  repertoire, and raga- or classical-rooted crossover with jazz, western
+  classical, electronic or other traditions.
+- folk: regional folk and devotional-folk repertoire — garba, bhangra, lavani,
+  baul, Rajasthani, dandiya.
+- contemporary: contemporary or experimental work by Indian-trained artists that
+  is not presented as classical repertoire.
+- popular_film: Bollywood/filmi, Indi-pop, playback-singer concerts, film-music
+  tributes.
+
+forms: only for dance events, the specific dance form(s). Leave empty for music.
+music_styles: only for music events, the specific style(s). Leave empty for dance.
 
 presenter_type cues: touring/repertory companies, presented series, named
 professional ensembles -> professional_company. School annual shows, student
@@ -55,7 +95,10 @@ class ClassifyResponse(BaseModel):
 
     relevant: bool
     kind: EventKind
+    art_form: ArtForm
+    traditions: list[Tradition]
     forms: list[DanceForm]
+    music_styles: list[MusicStyle]
     presenter_type: PresenterType
     confidence: Confidence
     reasoning: str
@@ -95,8 +138,9 @@ def classify_event(
     if assume_relevant:
         prompt += (
             "\n\nNote: this source lists Indian arts events specifically, so treat"
-            " relevance as likely — but still verify the text describes dance, and"
-            " focus on tagging forms and presenter_type."
+            " relevance as likely — but still verify the text describes a dance or"
+            " music event rather than a class term, a service or an appeal, and"
+            " focus on tagging art_form, traditions and presenter_type."
         )
     try:
         response = client.messages.parse(
@@ -113,7 +157,12 @@ def classify_event(
     return Classification(
         relevant=parsed.relevant,
         kind=parsed.kind,
-        forms=parsed.forms,
+        art_form=parsed.art_form,
+        traditions=parsed.traditions,
+        # Keep the specific vocabularies on the right side of the dance/music line
+        # so a mis-tagged listing can't put a sitar recital under "Kathak".
+        forms=[] if parsed.art_form is ArtForm.MUSIC else parsed.forms,
+        music_styles=[] if parsed.art_form is ArtForm.DANCE else parsed.music_styles,
         presenter_type=parsed.presenter_type,
         confidence=parsed.confidence,
         reasoning=parsed.reasoning[:400],

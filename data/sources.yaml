@@ -267,6 +267,90 @@ sources:
     assume_relevant: true
     notes: "Heavily used desi events platform; dance keyword filter."
 
+  # ── Indian music presenters (dedicated raga/Carnatic circuit) ───────────
+  - id: brooklyn_raga_massive
+    name: Brooklyn Raga Massive
+    circuit: diaspora
+    strategy: jsonld
+    url: https://www.brooklynragamassive.org/events
+    region: brooklyn
+    assume_relevant: true
+    notes: "70+ concerts a year — the single densest Indian-music source in the metro. Runs the Ragini Festival each spring."
+  - id: chhandayan
+    name: Chhandayan Center for Indian Music
+    circuit: diaspora
+    strategy: jsonld
+    url: https://chhandayan.org/calendar
+    region: manhattan
+    assume_relevant: true
+    notes: "Hindustani vocal/instrumental concerts in Manhattan and Jackson Heights; annual all-night concert each May."
+  - id: navatman
+    name: Navatman
+    circuit: diaspora
+    strategy: jsonld
+    url: https://www.navatman.org/events.html
+    region: manhattan
+    assume_relevant: true
+    notes: "Bharatanatyam, Kathak and Carnatic under one roof; runs the Drive East festival. Dance AND music."
+  - id: cmana
+    name: Carnatic Music Association of North America (CMANA)
+    circuit: diaspora
+    strategy: jsonld
+    url: https://www.cmana.org/events/
+    region: new_jersey
+    assume_relevant: true
+    notes: "Carnatic concerts across NJ since 1976; C3 festival over Labor Day weekend."
+  - id: sanskriti_nj
+    name: Sanskriti of New Jersey
+    circuit: diaspora
+    strategy: jsonld
+    url: https://www.sanskritiofnj.org/events
+    region: new_jersey
+    assume_relevant: true
+    notes: "Samvaad concert series and India Fest. Wild Apricot site — listing pages are server-rendered."
+  - id: ragas_live
+    name: Ragas Live Festival
+    circuit: diaspora
+    strategy: jsonld
+    url: https://ragaslive.com/
+    region: brooklyn
+    assume_relevant: true
+    notes: "24-hour raga marathon each October at Pioneer Works; 50-70 musicians."
+
+  # ── Mainstream venues that programme Indian music ───────────────────────
+  - id: pioneer_works
+    name: Pioneer Works
+    circuit: mainstream
+    strategy: jsonld
+    url: https://pioneerworks.org/programs
+    region: brooklyn
+    scrape_all_listings: true
+    notes: "Hosts Ragas Live and other raga-adjacent programming."
+  - id: drom
+    name: Drom
+    circuit: mainstream
+    strategy: jsonld
+    url: https://dromnyc.com/calendar/
+    region: manhattan
+    scrape_all_listings: true
+    notes: "East Village global-music room; regular Hindustani and Carnatic evenings."
+  - id: tilles_center
+    name: Tilles Center for the Performing Arts (LIU Post)
+    circuit: mainstream
+    strategy: jsonld
+    url: https://www.tillescenter.org/calendar
+    region: long_island
+    scrape_all_listings: true
+    notes: "Long Island's main hall — books Amjad Ali Khan, Brooklyn Raga Massive and touring Indian dance."
+  - id: kupferberg
+    name: Kupferberg Center for the Arts (Queens College)
+    circuit: mainstream
+    strategy: jsonld
+    url: https://kupferbergcenter.org/events/
+    region: queens
+    scrape_all_listings: true
+    notes: "Colden Auditorium; large Queens venue serving a dense South Asian catchment."
+
   # ── Cross-circuit listings ──────────────────────────────────────────────
   - id: dance_enthusiast
     name: The Dance Enthusiast listings
