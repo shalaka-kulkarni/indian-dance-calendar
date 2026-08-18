@@ -1,5 +1,5 @@
 id: 2026-11-05-adler-hall-niladri-kumar-the-space
-status: needs_attention
+status: published
 was_published: true
 needs_recheck: false
 scraped:
@@ -38,18 +38,22 @@ ai:
   model: claude-fable-5
   classified_at: '2026-08-17'
 validation:
-  passed: false
+  passed: true
   checks:
     has_info_url: true
     specific_url: true
+    links_live: true
     date_valid: true
     price_known: true
     in_metro: true
     classified: true
-  link_checks: []
-  problems:
-  - 'dead links: https://www.worldmusicinstitute.org/niladri-kumar-at-adler-hall/'
-  validated_at: '2026-08-18T11:42:17.730249-04:00'
+  link_checks:
+  - url: https://www.worldmusicinstitute.org/niladri-kumar-at-adler-hall/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T11:55:22.796761-04:00'
+  problems: []
+  validated_at: '2026-08-18T11:55:22.796742-04:00'
 curated:
   forms: []
   art_form: music

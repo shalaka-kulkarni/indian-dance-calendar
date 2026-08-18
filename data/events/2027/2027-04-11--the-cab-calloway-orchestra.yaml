@@ -38,11 +38,11 @@ validation:
   - url: https://www.sopacnow.org/events/the-cab-calloway-orchestra-2027/
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:42:49.335431-04:00'
+    checked_at: '2026-08-18T11:55:47.107398-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-18T11:42:49.335412-04:00'
+  validated_at: '2026-08-18T11:55:47.107379-04:00'
 curated:
   forms: []
   traditions: []

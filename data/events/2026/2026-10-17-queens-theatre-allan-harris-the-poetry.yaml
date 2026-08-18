@@ -49,11 +49,11 @@ validation:
   - url: https://queenstheatre.org/events/allan-harris-l3lg
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:42:07.331199-04:00'
+    checked_at: '2026-08-18T11:53:43.294828-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-18T11:42:07.331180-04:00'
+  validated_at: '2026-08-18T11:53:43.294803-04:00'
 curated:
   forms: []
   traditions: []

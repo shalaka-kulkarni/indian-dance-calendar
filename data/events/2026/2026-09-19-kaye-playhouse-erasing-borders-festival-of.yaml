@@ -1,5 +1,5 @@
 id: 2026-09-19-kaye-playhouse-erasing-borders-festival-of
-status: needs_attention
+status: published
 was_published: true
 needs_recheck: false
 scraped:
@@ -51,10 +51,11 @@ ai:
   model: claude-fable-5
   classified_at: '2026-08-16'
 validation:
-  passed: false
+  passed: true
   checks:
     has_info_url: true
     specific_url: true
+    links_live: true
     date_valid: true
     price_known: true
     in_metro: true
@@ -63,10 +64,13 @@ validation:
   - url: https://iaac.us/dance/
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:41:37.703579-04:00'
-  problems:
-  - 'dead links: https://iaac.us/ebdf2026-ibs/'
-  validated_at: '2026-08-18T11:41:17.619785-04:00'
+    checked_at: '2026-08-18T11:52:32.412677-04:00'
+  - url: https://iaac.us/ebdf2026-ibs/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T11:52:32.887141-04:00'
+  problems: []
+  validated_at: '2026-08-18T11:52:32.412652-04:00'
 curated:
   forms:
   - bharatanatyam

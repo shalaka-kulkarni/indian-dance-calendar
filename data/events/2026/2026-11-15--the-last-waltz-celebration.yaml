@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/the-last-waltz-celebration-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:42:43.376651-04:00'
+    checked_at: '2026-08-18T11:55:33.875065-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-18T11:42:43.376632-04:00'
+  validated_at: '2026-08-18T11:55:33.875046-04:00'
 curated:
   forms: []
   traditions: []

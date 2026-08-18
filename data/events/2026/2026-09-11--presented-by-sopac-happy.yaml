@@ -37,11 +37,11 @@ validation:
   - url: https://www.sopacnow.org/events/happy-hour-in-the-loft-water-towers/
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:41:05.747566-04:00'
+    checked_at: '2026-08-18T11:52:12.003731-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-18T11:41:05.747546-04:00'
+  validated_at: '2026-08-18T11:52:12.003707-04:00'
 curated:
   forms: []
   traditions: []

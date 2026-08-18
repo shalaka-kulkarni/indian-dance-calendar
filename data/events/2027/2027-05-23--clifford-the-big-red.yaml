@@ -52,11 +52,11 @@ validation:
   - url: https://www.sopacnow.org/events/clifford-the-big-red-dog-the-musical-2027/
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:42:50.660175-04:00'
+    checked_at: '2026-08-18T11:55:48.452740-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-18T11:42:50.660152-04:00'
+  validated_at: '2026-08-18T11:55:48.452717-04:00'
 curated:
   forms: []
   traditions: []

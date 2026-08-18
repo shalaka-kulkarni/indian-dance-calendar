@@ -34,11 +34,11 @@ validation:
   - url: https://pioneerworks.org/programs/leenalchi
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:42:13.674962-04:00'
+    checked_at: '2026-08-18T11:55:17.622570-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-18T11:42:13.674944-04:00'
+  validated_at: '2026-08-18T11:55:17.622551-04:00'
 curated:
   forms: []
   traditions: []

@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/nexus-dinner-before-the-jazz
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:42:06.443958-04:00'
+    checked_at: '2026-08-18T11:53:40.037029-04:00'
   - url: https://seats.92ny.org/single/211107
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:42:06.544143-04:00'
+    checked_at: '2026-08-18T11:53:41.332384-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-18T11:42:06.443940-04:00'
+  validated_at: '2026-08-18T11:53:40.037009-04:00'
 curated:
   forms: []
   traditions: []
