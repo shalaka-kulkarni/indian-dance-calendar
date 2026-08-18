@@ -231,8 +231,12 @@ def cmd_report() -> dict:
 def main(argv: list[str] | None = None) -> int:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
     parser = argparse.ArgumentParser(prog="pipeline.run")
-    parser.add_argument("command", choices=["sweep", "discover", "classify", "validate", "build", "report"])
+    parser.add_argument(
+        "command",
+        choices=["sweep", "discover", "classify", "validate", "build", "report", "probe"],
+    )
     parser.add_argument("--no-link-check", action="store_true", help="skip network link verification (offline runs)")
+    parser.add_argument("targets", nargs="*", help="probe: source ids or URLs to diagnose")
     args = parser.parse_args(argv)
     if args.command == "sweep":
         print(json.dumps(cmd_sweep(check_links=not args.no_link_check)))
@@ -246,6 +250,12 @@ def main(argv: list[str] | None = None) -> int:
         print(json.dumps(site_build.build_site_data()))
     elif args.command == "report":
         cmd_report()
+    elif args.command == "probe":
+        from pipeline.probe import probe_sources
+
+        if not args.targets:
+            parser.error("probe needs at least one source id or URL")
+        probe_sources(args.targets)
     return 0
 
 

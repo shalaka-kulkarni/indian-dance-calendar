@@ -21,6 +21,11 @@ jobs:
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
+        with:
+          # A dispatched or scheduled run pins its SHA when it is QUEUED, so a
+          # job that waited behind another writer starts from a stale tree and
+          # its commit conflicts on push. Always start from the branch tip.
+          ref: ${{ github.ref_name }}
       - uses: astral-sh/setup-uv@v5
       - name: Install
         run: uv venv && uv pip install -e .
@@ -39,7 +44,13 @@ jobs:
           else
             git commit -m "discovery: automated event update"
             for attempt in 1 2 3; do
-              git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push && exit 0
+              if git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push; then
+                exit 0
+              fi
+              # A conflicted rebase leaves unmerged files behind, and every
+              # later attempt then fails on "Pulling is not possible" rather
+              # than on the race it was retrying. Clear it before going again.
+              git rebase --abort 2>/dev/null || true
               echo "push race, retrying ($attempt)"; sleep 5
             done
             exit 1

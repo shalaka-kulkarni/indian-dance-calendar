@@ -60,7 +60,8 @@ def make_client() -> httpx.Client:
         headers={
             "User-Agent": USER_AGENT,
             "Accept": ACCEPT,
-            "Accept-Language": "en-US,en",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Upgrade-Insecure-Requests": "1",
         },
         timeout=DEFAULT_TIMEOUT,
         follow_redirects=True,

@@ -27,6 +27,11 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          # A dispatched or scheduled run pins its SHA when it is QUEUED, so a
+          # job that waited behind another writer starts from a stale tree and
+          # its commit conflicts on push. Always start from the branch tip.
+          ref: ${{ github.ref_name }}
       - uses: astral-sh/setup-uv@v5
       - name: Install
         run: uv venv && uv pip install -e .

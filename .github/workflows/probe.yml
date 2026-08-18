@@ -1,0 +1,36 @@
+# registered: skyd scheduled job
+name: probe
+# Diagnose why a source yields nothing. Prints, for one or more sources, what
+# every rung of the scrape ladder actually sees — status codes, structured-data
+# counts, crawlable links, sitemap URLs, plugin API responses. Read-only: it
+# never writes to the event store.
+#
+# Run it from Actions -> probe -> Run workflow, with a space-separated list of
+# source ids (from data/sources.yaml) or bare URLs.
+
+on:
+  workflow_dispatch:
+    inputs:
+      targets:
+        description: "Source ids or URLs, space separated (e.g. 'kupferberg tilles_center')"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - name: Install
+        run: uv venv && uv pip install -e .
+      - name: Probe
+        # Via env, not direct interpolation — dispatch input must never be
+        # pasted into a shell line.
+        env:
+          TARGETS: ${{ inputs.targets }}
+        run: uv run python -m pipeline.run probe $TARGETS
