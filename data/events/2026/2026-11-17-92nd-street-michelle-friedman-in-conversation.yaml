@@ -50,14 +50,14 @@ validation:
   - url: https://www.92ny.org/event/michelle-friedman-with-rabbi-david-ingber
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T10:10:04.067498-04:00'
+    checked_at: '2026-08-18T10:18:36.666088-04:00'
   - url: https://seats.92ny.org/single/210723
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T10:10:04.284869-04:00'
+    checked_at: '2026-08-18T10:18:38.673025-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-18T10:10:04.067472-04:00'
+  validated_at: '2026-08-18T10:18:36.666061-04:00'
 curated:
   forms: []
   traditions: []

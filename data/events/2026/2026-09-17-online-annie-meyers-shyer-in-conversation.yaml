@@ -50,14 +50,14 @@ validation:
   - url: https://seats.92ny.org/single/210936
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T10:08:24.043210-04:00'
+    checked_at: '2026-08-18T10:17:11.240958-04:00'
   - url: https://www.92ny.org/event/annie-meyers-shyer-with-katie-lee-biegel
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T10:08:24.084655-04:00'
+    checked_at: '2026-08-18T10:17:11.251129-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-18T10:08:24.043191-04:00'
+  validated_at: '2026-08-18T10:17:11.240936-04:00'
 curated:
   forms: []
   traditions: []

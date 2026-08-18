@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/dar-williams-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T10:10:12.139674-04:00'
+    checked_at: '2026-08-18T10:18:41.104207-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-18T10:10:12.139645-04:00'
+  validated_at: '2026-08-18T10:18:41.104179-04:00'
 curated:
   forms: []
   traditions: []

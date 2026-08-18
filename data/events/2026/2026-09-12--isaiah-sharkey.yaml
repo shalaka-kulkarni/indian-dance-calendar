@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/isaiah-sharkey-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T10:08:17.498519-04:00'
+    checked_at: '2026-08-18T10:16:58.503449-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-18T10:08:17.498491-04:00'
+  validated_at: '2026-08-18T10:16:58.503417-04:00'
 curated:
   forms: []
   traditions: []

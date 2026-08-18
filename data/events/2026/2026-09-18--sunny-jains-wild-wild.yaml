@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/sunny-jain-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T10:08:24.179806-04:00'
+    checked_at: '2026-08-18T10:17:13.468993-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-18T10:08:24.179784-04:00'
+  validated_at: '2026-08-18T10:17:13.468968-04:00'
 curated:
   forms: []
   traditions: []

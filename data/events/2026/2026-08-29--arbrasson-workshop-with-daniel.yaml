@@ -34,11 +34,11 @@ validation:
   - url: https://pioneerworks.org/classes/arbrasson-workshop-with-daniel-fishkin
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T10:08:06.847863-04:00'
+    checked_at: '2026-08-18T10:16:50.072299-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-18T10:08:06.847843-04:00'
+  validated_at: '2026-08-18T10:16:50.072278-04:00'
 curated:
   forms: []
   traditions: []

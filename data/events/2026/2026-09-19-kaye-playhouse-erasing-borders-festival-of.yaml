@@ -61,16 +61,16 @@ validation:
     in_metro: true
     classified: true
   link_checks:
-  - url: https://iaac.us/ebdf2026-ibs/
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-18T10:08:26.161245-04:00'
   - url: https://iaac.us/dance/
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T10:08:26.647059-04:00'
+    checked_at: '2026-08-18T10:17:16.961594-04:00'
+  - url: https://iaac.us/ebdf2026-ibs/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:17:17.425909-04:00'
   problems: []
-  validated_at: '2026-08-18T10:08:26.161227-04:00'
+  validated_at: '2026-08-18T10:17:16.961569-04:00'
 curated:
   forms:
   - bharatanatyam

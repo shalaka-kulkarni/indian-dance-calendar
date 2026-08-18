@@ -56,14 +56,14 @@ validation:
   - url: https://my.stnj.org/24906/24907
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T10:08:49.588009-04:00'
+    checked_at: '2026-08-18T10:17:43.423678-04:00'
   - url: https://www.stnj.org/events/detail/kenny-wayne-shepherd-2026
     ok: true
-    status_code: 406
-    checked_at: '2026-08-18T10:08:52.979298-04:00'
+    status_code: 200
+    checked_at: '2026-08-18T10:17:44.631074-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-18T10:08:49.587985-04:00'
+  validated_at: '2026-08-18T10:17:43.423653-04:00'
 curated:
   forms: []
   traditions: []

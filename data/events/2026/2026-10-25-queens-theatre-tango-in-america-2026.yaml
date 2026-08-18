@@ -39,20 +39,20 @@ validation:
   checks:
     has_info_url: true
     specific_url: true
-    links_live: false
+    links_live: true
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
   link_checks:
   - url: https://queenstheatre.org/events/tango-in-america-2026-8l3s
-    ok: false
-    checked_at: '2026-08-18T10:09:27.785509-04:00'
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:18:11.577069-04:00'
   problems:
-  - 'dead links: https://queenstheatre.org/events/tango-in-america-2026-8l3s'
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-18T10:09:27.785490-04:00'
+  validated_at: '2026-08-18T10:18:11.577045-04:00'
 curated:
   forms: []
   traditions: []

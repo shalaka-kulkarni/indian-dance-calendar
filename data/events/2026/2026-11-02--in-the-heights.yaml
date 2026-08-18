@@ -46,11 +46,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/nfapby2m/2026-11-01/2026-2027-in-the-heights
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T10:09:34.832610-04:00'
+    checked_at: '2026-08-18T10:18:23.930601-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-18T10:09:34.832582-04:00'
+  validated_at: '2026-08-18T10:18:23.930572-04:00'
 curated:
   forms: []
   traditions: []
