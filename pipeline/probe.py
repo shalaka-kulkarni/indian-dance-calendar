@@ -9,25 +9,77 @@ container has no outbound access to venue sites) and read the log.
 
 from __future__ import annotations
 
+import json
+import re
 from urllib.parse import urljoin
 
 import httpx
+from bs4 import BeautifulSoup
 
 from pipeline.registry import load_sources
 from pipeline.scrapers.base import RawEvent, get, make_client
 from pipeline.scrapers.crawl import candidate_links
 from pipeline.scrapers.html_sources import extract_listing_blocks
-from pipeline.scrapers.jsonld import extract_jsonld_events
+from pipeline.scrapers.jsonld import _walk, extract_jsonld_events
 from pipeline.scrapers.sitemap import discover_event_urls
 from pipeline.scrapers.tribe import API_PATH, tribe_events
 
 SNIPPET = 400
+LD_DUMP = 700
+DATE_TEXT = re.compile(
+    r"\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2}\b", re.I
+)
 
 
 def _show(label: str, events: list[RawEvent]) -> None:
     print(f"  {label}: {len(events)} events")
     for raw in events[:5]:
         print(f"      - {raw.title[:70]!r} start={raw.start_raw[:30]!r} url={raw.info_url[:80]}")
+
+
+def _ld_types(html: str, label: str) -> None:
+    """A page can carry ld+json we ignore because its @type is not one we accept.
+    Print what is actually declared rather than guessing."""
+    soup = BeautifulSoup(html, "html.parser")
+    blocks = soup.find_all("script", type="application/ld+json")
+    print(f"  {label}: {len(blocks)} ld+json block(s)")
+    for block in blocks[:3]:
+        text = (block.string or "").strip()
+        try:
+            data = json.loads(text)
+        except (json.JSONDecodeError, TypeError):
+            print(f"      UNPARSEABLE: {text[:LD_DUMP]!r}")
+            continue
+        types, keys = [], []
+        for node in _walk(data):
+            t = node.get("@type")
+            if t:
+                types.append(t if isinstance(t, str) else str(t))
+                keys.append(sorted(node.keys())[:12])
+        print(f"      @types: {types[:12]}")
+        for k in keys[:3]:
+            print(f"        keys: {k}")
+        if not types:
+            print(f"        raw: {text[:LD_DUMP]!r}")
+
+
+def _date_shaped_blocks(html: str) -> None:
+    """For pages with no structured data at all: what repeated element carries a
+    date? That is where a bespoke parser has to anchor."""
+    soup = BeautifulSoup(html, "html.parser")
+    for tag in ("time", "[datetime]"):
+        nodes = soup.select(tag) if tag.startswith("[") else soup.find_all(tag)
+        if nodes:
+            print(f"  <{tag}> nodes: {len(nodes)}")
+            for n in nodes[:5]:
+                print(f"      {str(n)[:160]}")
+            return
+    hits = soup.find_all(string=DATE_TEXT)
+    print(f"  date-shaped text nodes: {len(hits)}")
+    for h in hits[:6]:
+        parent = h.parent
+        cls = parent.get("class") if parent else None
+        print(f"      {h.strip()[:60]!r} in <{parent.name if parent else '?'} class={cls}>")
 
 
 def probe(url: str) -> None:
@@ -51,9 +103,10 @@ def probe(url: str) -> None:
     print(f"  html length: {len(html)}")
 
     # Rung 1: structured data on the listing page itself.
-    ld_count = html.count("application/ld+json")
-    print(f"  ld+json blocks on page: {ld_count}")
+    _ld_types(html, "listing page")
     _show("jsonld (listing page)", extract_jsonld_events(html, "probe", url))
+    if "application/ld+json" not in html:
+        _date_shaped_blocks(html)
 
     # Rung 2: the generic HTML block reader.
     _show("html blocks", extract_listing_blocks(html, "probe", url))
@@ -66,9 +119,11 @@ def probe(url: str) -> None:
     if links:
         try:
             detail = get(client, links[0])
-            print(f"  first detail page: {detail.status_code}, ld+json blocks="
-                  f"{detail.text.count('application/ld+json')}")
+            print(f"  first detail page: {detail.status_code}")
+            _ld_types(detail.text, "detail page")
             _show("jsonld (detail page)", extract_jsonld_events(detail.text, "probe", links[0]))
+            if "application/ld+json" not in detail.text:
+                _date_shaped_blocks(detail.text)
         except httpx.HTTPError as exc:
             print(f"  detail fetch failed: {exc}")
 
