@@ -26,6 +26,7 @@ from pipeline.scrapers.tribe import API_PATH, tribe_events
 
 SNIPPET = 400
 LD_DUMP = 700
+CARD_DUMP = 1200
 DATE_TEXT = re.compile(
     r"\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2}\b", re.I
 )
@@ -76,10 +77,26 @@ def _date_shaped_blocks(html: str) -> None:
             return
     hits = soup.find_all(string=DATE_TEXT)
     print(f"  date-shaped text nodes: {len(hits)}")
-    for h in hits[:6]:
+    for h in hits[:4]:
         parent = h.parent
         cls = parent.get("class") if parent else None
         print(f"      {h.strip()[:60]!r} in <{parent.name if parent else '?'} class={cls}>")
+        # A parser has to find the TITLE from here, so show the card that holds
+        # the date — guessing its shape is what produced a parser that ran and
+        # found nothing.
+        card = parent
+        for depth in range(1, 4):
+            if card is None or card.parent is None:
+                break
+            card = card.parent
+            markup = " ".join(str(card).split())
+            print(f"        ancestor -{depth} <{card.name} class={card.get('class')}> "
+                  f"len={len(markup)}")
+            if depth == 3 or len(markup) > 2500:
+                print(f"        markup: {markup[:CARD_DUMP]}")
+                break
+        else:
+            print(f"        markup: {' '.join(str(card).split())[:CARD_DUMP]}")
 
 
 def probe(url: str) -> None:
