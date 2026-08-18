@@ -1,0 +1,48 @@
+id: 2026-09-15--colin-stetson-brghde-chaimbeul
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Colin Stetson & Brìghde Chaimbeul (duo), Space Lady, Clarice Jensen
+  start: '2026-09-15T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: brooklyn
+  is_free: false
+  price_note: ''
+  info_url: https://pioneerworks.org/programs/colin-stetson-and-brighde-chaimbeul-duo
+  ticket_url: ''
+  description_snippet: program Tuesday, Sep 15, 2026 Colin Stetson & Brìghde Chaimbeul (duo), Space Lady,
+    Clarice Jensen
+  content_hash: ad17180637ed446b
+  sources:
+  - source_id: pioneer_works
+    url: https://pioneerworks.org/programs/colin-stetson-and-brighde-chaimbeul-duo
+    first_seen: '2026-08-18'
+    last_seen: '2026-08-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://pioneerworks.org/programs/colin-stetson-and-brighde-chaimbeul-duo
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:08:19.276217-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-18T10:08:19.276199-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

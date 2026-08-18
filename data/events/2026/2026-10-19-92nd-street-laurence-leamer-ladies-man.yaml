@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/laurence-leamer-ladies-man
     first_seen: '2026-08-16'
-    last_seen: '2026-08-17'
+    last_seen: '2026-08-18'
 ai:
   relevant: false
   kind: other
@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211083
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-17T08:57:03.341677-04:00'
   - url: https://www.92ny.org/event/laurence-leamer-ladies-man
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T08:57:03.698501-04:00'
+    checked_at: '2026-08-18T10:09:26.924051-04:00'
+  - url: https://seats.92ny.org/single/211083
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:09:27.025132-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T08:57:03.341652-04:00'
+  validated_at: '2026-08-18T10:09:26.924024-04:00'
 curated:
   forms: []
   traditions: []

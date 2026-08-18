@@ -1,0 +1,48 @@
+id: 2027-05-09-yuri-lucero-yuri-lucero
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Yuri & Lucero
+  start: '2027-05-09T20:00:00-04:00'
+  end: '2027-05-09T22:00:00-04:00'
+  additional_dates: []
+  venue: Yuri & Lucero
+  address: Yuri & Lucero
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.prucenter.com/events/yuri-lucero
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: c3c8c71e95d5acb2
+  sources:
+  - source_id: prudential_center
+    url: https://www.prucenter.com/events/yuri-lucero
+    first_seen: '2026-08-18'
+    last_seen: '2026-08-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.prucenter.com/events/yuri-lucero
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:10:28.651775-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-18T10:10:28.651747-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

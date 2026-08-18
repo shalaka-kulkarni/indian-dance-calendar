@@ -1,0 +1,53 @@
+id: 2026-10-24--chhandayan-2026-all-night-concert
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Chhandayan 2026 All-Night Concert
+  start: '2026-10-24T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://chhandayan.org/calendar/2026/10/24/chhandayan-2026-all-night-concert
+  ticket_url: ''
+  description_snippet: 'Oct 24 to Oct 25 All-Night Chhandayan 2026 All-Night Concert Sat, Oct 24, 2026
+    9:30 PM 21:30 Sun, Oct 25, 2026 5:30 AM 05:30 Northern Virginia Baha''i Center (map) Google Calendar
+    ICS The 2026 All-night Concert will be held on October 24th. The venue has been finalized at the Northern
+    Virginia Baha’i Center. The Event is supported by the RTOT tourism grant of Loudoun County, Virginia
+    . Performers are being finalized. Be sure to save the date and keep checking for updates. Program:
+    Program: Tarini Nagarkar - vocal, with Abhay Kulkarni on tabla and Sheyash Ravi on harmonium Swarnendu
+    - sarod, wit'
+  content_hash: 2fcd816bc5601e13
+  sources:
+  - source_id: chhandayan
+    url: https://chhandayan.org/calendar/2026/10/24/chhandayan-2026-all-night-concert
+    first_seen: '2026-08-18'
+    last_seen: '2026-08-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://chhandayan.org/calendar/2026/10/24/chhandayan-2026-all-night-concert
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:09:27.475651-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-18T10:09:27.475633-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

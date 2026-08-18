@@ -1,7 +1,7 @@
 id: 2026-10-17-trinayani-usa-trinayani-usa-durga-puja
-status: needs_attention
-was_published: false
-needs_recheck: true
+status: published
+was_published: true
+needs_recheck: false
 scraped:
   title: Trinayani USA Durga Puja 2026
   start: '2026-10-17T00:00:00-04:00'
@@ -40,23 +40,23 @@ ai:
   model: claude-fable-5
   classified_at: '2026-08-17'
 validation:
-  passed: false
+  passed: true
   checks:
     has_info_url: true
     specific_url: true
-    links_live: false
+    links_live: true
     date_valid: true
     price_known: false
     in_metro: true
     classified: true
   link_checks:
   - url: https://trinayaninj.org/durgapuja2026/
-    ok: false
-    checked_at: '2026-08-17T08:56:22.840811-04:00'
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:09:26.315714-04:00'
   problems:
-  - 'dead links: https://trinayaninj.org/durgapuja2026/'
   - no price information
-  validated_at: '2026-08-17T08:56:22.840786-04:00'
+  validated_at: '2026-08-18T10:09:26.315684-04:00'
 curated:
   forms:
   - folk

@@ -1,0 +1,47 @@
+id: 2026-09-22--science-society-the-ocean
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Science & Society: The Ocean Frontier'
+  start: '2026-09-22T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: brooklyn
+  is_free: false
+  price_note: ''
+  info_url: https://pioneerworks.org/programs/science-and-society-the-oceans-frontier
+  ticket_url: ''
+  description_snippet: 'program Tuesday, Sep 22, 2026 Science & Society: The Ocean Frontier'
+  content_hash: f2509e4ae2dbf35c
+  sources:
+  - source_id: pioneer_works
+    url: https://pioneerworks.org/programs/science-and-society-the-oceans-frontier
+    first_seen: '2026-08-18'
+    last_seen: '2026-08-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://pioneerworks.org/programs/science-and-society-the-oceans-frontier
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:08:35.094117-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-18T10:08:35.094089-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,47 @@
+id: 2026-10-03--kelsey-lu
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Kelsey Lu
+  start: '2026-10-03T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: brooklyn
+  is_free: false
+  price_note: ''
+  info_url: https://pioneerworks.org/programs/kelsey-lu
+  ticket_url: ''
+  description_snippet: program Saturday, Oct 3, 2026 Kelsey Lu
+  content_hash: 146744f5f9dbb607
+  sources:
+  - source_id: pioneer_works
+    url: https://pioneerworks.org/programs/kelsey-lu
+    first_seen: '2026-08-18'
+    last_seen: '2026-08-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://pioneerworks.org/programs/kelsey-lu
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:08:53.136231-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-18T10:08:53.136206-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

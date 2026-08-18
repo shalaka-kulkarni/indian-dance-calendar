@@ -1,0 +1,51 @@
+id: 2027-04-03--dizzy-gillespie-big-band
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Dizzy Gillespie Big Band
+  start: '2027-04-03T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/dizzy-gillespie-big-band-2027/
+  ticket_url: ''
+  description_snippet: Dizzy Gillespie Big Band SAT, APR 3, 2027 at 7:30 PM Buy Tickets The Dizzy Gillespie
+    Big Band carries forward the legacy of one of jazz's true immortals, led by Gillespie alumnus and
+    bassist, and friend of SOPAC John Lee with the authenticity and passion of musicians who know this
+    music from the inside out. Expect an evening of big band brilliance built around some of the most
+    joyful and enduring compositions in the American songbook. Buy Tickets Learn More
+  content_hash: a2031a266677d16d
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/dizzy-gillespie-big-band-2027/
+    first_seen: '2026-08-18'
+    last_seen: '2026-08-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/dizzy-gillespie-big-band-2027/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:10:26.095888-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-18T10:10:26.095857-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

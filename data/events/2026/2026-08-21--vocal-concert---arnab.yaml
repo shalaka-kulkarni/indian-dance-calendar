@@ -1,0 +1,53 @@
+id: 2026-08-21--vocal-concert---arnab
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Vocal Concert - Arnab Chatterjee
+  start: '2026-08-21T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://chhandayan.org/calendar/2026/8/14/vocal-concert-arnab-chatterjee
+  ticket_url: ''
+  description_snippet: Aug 21 8:00 PM 20:00 New York , Online Vocal Concert - Arnab Chatterjee Friday,
+    August 21, 2026 8:00 PM 9:30 PM 20:00 21:30 Chhandayan Center for Indian Music (map) Google Calendar
+    ICS Arnab Chatterjee - Vocal Samir Chatterjee - Tabla Srikar Ayyalasomayajula - Harmonium Come join
+    us at the Chhandayan Center for an evening vocal performance by renowned artist Arnab Chatterjee,
+    accompanied by Srikar Ayyalasomayajula on harmonium and Samir Chatterjee on tabla. The performance
+    will also be streamed live. Purchase Tickets/Streaming Access Arnab Chatterjee Arnab Chatterjee was
+    born and groomed in a
+  content_hash: 224a76ac114ba0b6
+  sources:
+  - source_id: chhandayan
+    url: https://chhandayan.org/calendar/2026/8/14/vocal-concert-arnab-chatterjee
+    first_seen: '2026-08-18'
+    last_seen: '2026-08-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://chhandayan.org/calendar/2026/8/14/vocal-concert-arnab-chatterjee
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:08:03.896075-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-18T10:08:03.896058-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

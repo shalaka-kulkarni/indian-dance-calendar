@@ -21,7 +21,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/xg
     first_seen: '2026-08-16'
-    last_seen: '2026-08-17'
+    last_seen: '2026-08-18'
 ai:
   relevant: false
   kind: other
@@ -49,11 +49,11 @@ validation:
   - url: https://www.prucenter.com/events/xg
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T08:57:28.118548-04:00'
+    checked_at: '2026-08-18T10:10:02.507459-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-17T08:57:28.118524-04:00'
+  validated_at: '2026-08-18T10:10:02.507433-04:00'
 curated:
   forms: []
   traditions: []

@@ -1,0 +1,47 @@
+id: 2026-10-08--horse-lords-jules-reidy
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Horse Lords, Jules Reidy, Silk Fence
+  start: '2026-10-08T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: brooklyn
+  is_free: false
+  price_note: ''
+  info_url: https://pioneerworks.org/programs/horse-lords
+  ticket_url: ''
+  description_snippet: program Thursday, Oct 8, 2026 Horse Lords, Jules Reidy, Silk Fence
+  content_hash: 9158baa96023dda8
+  sources:
+  - source_id: pioneer_works
+    url: https://pioneerworks.org/programs/horse-lords
+    first_seen: '2026-08-18'
+    last_seen: '2026-08-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://pioneerworks.org/programs/horse-lords
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:09:11.042102-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-18T10:09:11.042073-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

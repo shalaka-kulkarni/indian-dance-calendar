@@ -1,0 +1,52 @@
+id: 2026-11-07--2026-diwali-festival-celebration
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 2026 Diwali Festival Celebration
+  start: '2026-11-07T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://chhandayan.org/calendar/2023/11/5/dewali-festival-celebration-in-virginia-db3ge-ml6kj
+  ticket_url: ''
+  description_snippet: 'Nov 7 12:00 PM 12:00 Social Gathering , New Jersey 2026 Diwali Festival Celebration
+    Saturday, November 7, 2026 12:00 PM 5:00 PM 12:00 17:00 PeopleCare Center (map) Google Calendar ICS
+    Come celebrate Diwali with us in Bridgewater, NJ Purchase Tickets The event will take place from 12
+    to 5 with a variety of performances from the community. Sitting: Mostly sitting on chairs. Dress Code:
+    Festive. Food and beverage: There will be snacks, meal and beverage available for purchase. The event
+    will start at noon and end at 5 pm. View Event →'
+  content_hash: 52e04cdacfe7354a
+  sources:
+  - source_id: chhandayan
+    url: https://chhandayan.org/calendar/2023/11/5/dewali-festival-celebration-in-virginia-db3ge-ml6kj
+    first_seen: '2026-08-18'
+    last_seen: '2026-08-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://chhandayan.org/calendar/2023/11/5/dewali-festival-celebration-in-virginia-db3ge-ml6kj
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:09:37.890746-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-18T10:09:37.890716-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

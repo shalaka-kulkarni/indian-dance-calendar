@@ -1,0 +1,53 @@
+id: 2026-09-05--kathak-dance-workshop--
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Kathak Dance Workshop - Sandeep Mahavir
+  start: '2026-09-05T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://chhandayan.org/calendar/2026/9/5/kathak-dance-workshop-sandeep-mahavir
+  ticket_url: ''
+  description_snippet: Sep 5 to Sep 7 New York , Workshop Kathak Dance Workshop - Sandeep Mahavir Sat,
+    Sep 5, 2026 12:00 PM 12:00 Mon, Sep 7, 2026 6:00 PM 18:00 Chhandayan Center for Indian Music (map)
+    Google Calendar ICS Kathak Dance and Instruction - Sandeep Mahavir Come join us at the Chhandayan
+    Center for a 3-day workshop on Kathak Dance and performance, conducted by renowned dancer and choreographer
+    Sandeep Mahavir. Students of Kathak may join. Students of all teachers and institutions are welcome.
+    A minimum level of learning experience is required. Students should bring their ankle bells, notebooks,
+    a non-intr
+  content_hash: 83577de5f6bc6573
+  sources:
+  - source_id: chhandayan
+    url: https://chhandayan.org/calendar/2026/9/5/kathak-dance-workshop-sandeep-mahavir
+    first_seen: '2026-08-18'
+    last_seen: '2026-08-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://chhandayan.org/calendar/2026/9/5/kathak-dance-workshop-sandeep-mahavir
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:08:10.270295-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-18T10:08:10.270278-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

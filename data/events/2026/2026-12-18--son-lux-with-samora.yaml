@@ -1,0 +1,48 @@
+id: 2026-12-18--son-lux-with-samora
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Son Lux with Samora Pinderhughes, Holland Andrews, mmeadows, Vines
+  start: '2026-12-18T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: brooklyn
+  is_free: false
+  price_note: ''
+  info_url: https://pioneerworks.org/programs/son-lux
+  ticket_url: ''
+  description_snippet: program December 18 – 19, 2026 Son Lux with Samora Pinderhughes, Holland Andrews,
+    mmeadows, Vines
+  content_hash: df2ca69c65444a46
+  sources:
+  - source_id: pioneer_works
+    url: https://pioneerworks.org/programs/son-lux
+    first_seen: '2026-08-18'
+    last_seen: '2026-08-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://pioneerworks.org/programs/son-lux
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:10:16.975268-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-18T10:10:16.975240-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

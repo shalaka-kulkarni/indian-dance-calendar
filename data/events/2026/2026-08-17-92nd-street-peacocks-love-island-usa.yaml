@@ -41,7 +41,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: true
     in_metro: true
     classified: false
@@ -49,14 +49,15 @@ validation:
   - url: https://seats.92ny.org/single/211070
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T08:54:48.190140-04:00'
+    checked_at: '2026-08-18T10:08:03.784293-04:00'
   - url: https://www.92ny.org/event/peacock-s-love-island-usa
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T08:54:48.277346-04:00'
+    checked_at: '2026-08-18T10:08:03.832822-04:00'
   problems:
+  - event date 2026-08-17 is in the past
   - classified not-relevant
-  validated_at: '2026-08-17T08:54:48.190116-04:00'
+  validated_at: '2026-08-18T10:08:03.784272-04:00'
 curated:
   forms: []
   traditions: []

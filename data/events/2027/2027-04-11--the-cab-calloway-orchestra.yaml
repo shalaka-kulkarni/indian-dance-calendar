@@ -1,0 +1,51 @@
+id: 2027-04-11--the-cab-calloway-orchestra
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: The Cab Calloway Orchestra Directed by Cab's Grandson - C. Calloway Brooks
+  start: '2027-04-11T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/the-cab-calloway-orchestra-2027/
+  ticket_url: ''
+  description_snippet: The Cab Calloway Orchestra Directed by Cab's Grandson - C. Calloway Brooks SUN,
+    APR 11, 2027 at 3:00PM On Sale Soon Led by Cab Calloway's grandson C. Calloway Brooks, the Cab Calloway
+    Orchestra brings the legendary Cotton Club sound back to life with vintage orchestrations, authentic
+    big band swing, and the irresistible showmanship that made Cab Calloway one of the great icons of
+    American music. Come ready to jump, jive, and holler Hi-De-Ho. On Sale Soon Learn More
+  content_hash: a3b066a947ee0a57
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/the-cab-calloway-orchestra-2027/
+    first_seen: '2026-08-18'
+    last_seen: '2026-08-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/the-cab-calloway-orchestra-2027/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:10:27.324996-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-18T10:10:27.324967-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,51 @@
+id: 2027-01-15--classic-stones-live-the
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Classic Stones LIVE The Greatest Rock And Roll Tribute In The World
+  start: '2027-01-15T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/classic-stones-live-2027/
+  ticket_url: ''
+  description_snippet: Classic Stones LIVE The Greatest Rock And Roll Tribute In The World FRI, JAN 15,
+    2027 at 7:30PM On Sale Soon Classic Stones Live is the world's premier Rolling Stones tribute band,
+    led by an uncannily convincing "Glimmer Twins" and backed by a powerhouse eight-piece band. Expect
+    every detail, every riff, and every classic hit delivered in original tunings with the raw swagger
+    and electrifying energy of the Stones in their prime. On Sale Soon Learn More
+  content_hash: 9607b36f450d48d9
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/classic-stones-live-2027/
+    first_seen: '2026-08-18'
+    last_seen: '2026-08-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/classic-stones-live-2027/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:10:21.225793-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-18T10:10:21.225768-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

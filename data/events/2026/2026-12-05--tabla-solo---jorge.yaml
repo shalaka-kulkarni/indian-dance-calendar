@@ -1,0 +1,53 @@
+id: 2026-12-05--tabla-solo---jorge
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Tabla Solo - Jorge Ramiro
+  start: '2026-12-05T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://chhandayan.org/calendar/2026/12/5/tabla-solo-jorge-ramiro
+  ticket_url: ''
+  description_snippet: Dec 5 7:30 PM 19:30 Baithak , New York , Online Tabla Solo - Jorge Ramiro Saturday,
+    December 5, 2026 7:30 PM 9:00 PM 19:30 21:00 Chhandayan Center for Indian Music (map) Google Calendar
+    ICS Jorge Ramiro - Tabla Come join us at the Chhandayan Center for an evening tabla performance by
+    Jorge Ramiro. The performance will also be streamed live. Purchase Tickets/Streaming Access Jorge
+    Ramiro Jorge Ramiro grew up in Mexico and moved to the U.S. at the age of 18. Ramiro holds a Bachelor
+    of Arts in Music from the State University of New York. He has been studying tabla, pakhawaj and classical
+    Indian m
+  content_hash: d5fa619a7f5cb327
+  sources:
+  - source_id: chhandayan
+    url: https://chhandayan.org/calendar/2026/12/5/tabla-solo-jorge-ramiro
+    first_seen: '2026-08-18'
+    last_seen: '2026-08-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://chhandayan.org/calendar/2026/12/5/tabla-solo-jorge-ramiro
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:10:11.663639-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-18T10:10:11.663609-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

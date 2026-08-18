@@ -1,0 +1,48 @@
+id: 2026-11-29-rock-the-rock-the-bells
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Rock The Bells
+  start: '2026-11-29T19:00:00-05:00'
+  end: '2026-11-29T23:00:00-05:00'
+  additional_dates: []
+  venue: Rock The Bells
+  address: Rock The Bells
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.prucenter.com/events/rock-the-bells
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: b70293402854774a
+  sources:
+  - source_id: prudential_center
+    url: https://www.prucenter.com/events/rock-the-bells
+    first_seen: '2026-08-18'
+    last_seen: '2026-08-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.prucenter.com/events/rock-the-bells
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:10:09.163356-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-18T10:10:09.163326-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

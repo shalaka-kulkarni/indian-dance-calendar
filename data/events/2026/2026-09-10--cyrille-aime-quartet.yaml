@@ -23,7 +23,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/cyrille-aimee-quartet/
     first_seen: '2026-08-16'
-    last_seen: '2026-08-17'
+    last_seen: '2026-08-18'
 ai:
   relevant: false
   kind: other
@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/cyrille-aimee-quartet/
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T08:54:58.704166-04:00'
+    checked_at: '2026-08-18T10:08:15.218034-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-17T08:54:58.704142-04:00'
+  validated_at: '2026-08-18T10:08:15.218012-04:00'
 curated:
   forms: []
   traditions: []

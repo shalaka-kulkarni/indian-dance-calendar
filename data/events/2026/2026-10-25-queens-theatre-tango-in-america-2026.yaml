@@ -21,7 +21,7 @@ scraped:
   - source_id: queens_theatre
     url: https://queenstheatre.org/events/tango-in-america-2026-8l3s
     first_seen: '2026-08-16'
-    last_seen: '2026-08-17'
+    last_seen: '2026-08-18'
 ai:
   relevant: false
   kind: other
@@ -39,20 +39,20 @@ validation:
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
   link_checks:
   - url: https://queenstheatre.org/events/tango-in-america-2026-8l3s
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-17T08:57:08.642392-04:00'
+    ok: false
+    checked_at: '2026-08-18T10:09:27.785509-04:00'
   problems:
+  - 'dead links: https://queenstheatre.org/events/tango-in-america-2026-8l3s'
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-17T08:57:08.642368-04:00'
+  validated_at: '2026-08-18T10:09:27.785490-04:00'
 curated:
   forms: []
   traditions: []

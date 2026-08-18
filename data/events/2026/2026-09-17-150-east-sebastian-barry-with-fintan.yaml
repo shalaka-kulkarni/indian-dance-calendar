@@ -1,0 +1,53 @@
+id: 2026-09-17-150-east-sebastian-barry-with-fintan
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Sebastian Barry with Fintan O’Toole: The Newer World'
+  start: '2026-09-17T18:00:00-04:00'
+  additional_dates: []
+  venue: 150 East 91st Street
+  address: ''
+  region: manhattan
+  price_min: 35.0
+  price_max: 35.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/sebastian-barry-the-newer-world
+  ticket_url: https://seats.92ny.org/single/210960
+  description_snippet: Irish writers Sebastian Barry and Fintan O’Toole discuss Barry’s new post-Civil
+    War novel, The Newer World .
+  content_hash: 3d1f6e9a767d7877
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/sebastian-barry-the-newer-world
+    first_seen: '2026-08-18'
+    last_seen: '2026-08-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/210960
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:08:23.779540-04:00'
+  - url: https://www.92ny.org/event/sebastian-barry-the-newer-world
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:08:23.823750-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-18T10:08:23.779517-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

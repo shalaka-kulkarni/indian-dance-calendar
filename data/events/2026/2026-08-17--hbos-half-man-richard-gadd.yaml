@@ -41,22 +41,23 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: true
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211139
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-17T08:54:44.129432-04:00'
   - url: https://www.92ny.org/event/hbo-s-half-man
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T08:54:46.102436-04:00'
+    checked_at: '2026-08-18T10:08:01.859394-04:00'
+  - url: https://seats.92ny.org/single/211139
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:08:03.386484-04:00'
   problems:
+  - event date 2026-08-17 is in the past
   - classified not-relevant
-  validated_at: '2026-08-17T08:54:44.129411-04:00'
+  validated_at: '2026-08-18T10:08:01.859371-04:00'
 curated:
   forms: []
   traditions: []

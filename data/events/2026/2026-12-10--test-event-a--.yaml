@@ -1,0 +1,47 @@
+id: 2026-12-10--test-event-a--
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Test Event A - black text
+  start: '2026-12-10T00:30:00Z'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.nycitycenter.org/events/instances/vk94533b/2026-12-09/test-event-b-white-text
+  ticket_url: ''
+  description_snippet: A new era begins with six world premieres and beloved classics including Revelations.
+  content_hash: 5df2a6c764834180
+  sources:
+  - source_id: city_center
+    url: https://www.nycitycenter.org/events/instances/vk94533b/2026-12-09/test-event-b-white-text
+    first_seen: '2026-08-18'
+    last_seen: '2026-08-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.nycitycenter.org/events/instances/vk94533b/2026-12-09/test-event-b-white-text
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:10:13.659523-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-18T10:10:13.659502-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

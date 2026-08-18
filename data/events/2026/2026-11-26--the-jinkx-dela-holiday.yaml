@@ -13,13 +13,15 @@ scraped:
   price_note: ''
   info_url: https://www.nycitycenter.org/events/instances/7scpcmc3/2026-11-25/2026-2027-the-jinkx-and-dela-holiday-show
   ticket_url: ''
-  description_snippet: ''
+  description_snippet: '&ldquo;The Jinkx & DeLa Holiday Show promises to combat the world’s devastation
+    with campy magic and mirth that only a queer interpretation of Christmas can provide.&rdquo; &ndash;
+    <em>Los Angeles Times</em>'
   content_hash: f609236c904482a2
   sources:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/instances/7scpcmc3/2026-11-25/2026-2027-the-jinkx-and-dela-holiday-show
     first_seen: '2026-08-16'
-    last_seen: '2026-08-17'
+    last_seen: '2026-08-18'
 ai:
   relevant: false
   kind: other
@@ -46,11 +48,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/7scpcmc3/2026-11-25/2026-2027-the-jinkx-and-dela-holiday-show
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T08:57:32.780142-04:00'
+    checked_at: '2026-08-18T10:10:08.454051-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-17T08:57:32.780121-04:00'
+  validated_at: '2026-08-18T10:10:08.454023-04:00'
 curated:
   forms: []
   traditions: []

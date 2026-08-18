@@ -1,0 +1,53 @@
+id: 2026-08-22--carnatic-violin-concert--
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Carnatic Violin Concert - Siddarth Ashokkumar
+  start: '2026-08-22T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://chhandayan.org/calendar/2026/8/22/carnatic-violin-concert-siddarth-ashokkumar
+  ticket_url: ''
+  description_snippet: Aug 22 7:30 PM 19:30 Baithak , New York , Online Carnatic Violin Concert - Siddarth
+    Ashokkumar Saturday, August 22, 2026 7:30 PM 9:00 PM 19:30 21:00 Chhandayan Center for Indian Music
+    (map) Google Calendar ICS Siddarth Ashokkumar - Carnatic Violin Sriram Raman - Mrdangam Come join
+    us at the Chhandayan Center for an evening performance Carnatic violin music performed by Siddarth
+    Ashokkumar accompanied by Sriram Raman on Mridangam. The concert will also be streamed live. Purchase
+    Tickets/Streaming Access Siddarth Ashokkumar Siddharth Ashokkumar is a violinist and music educator
+    based in Brookly
+  content_hash: a6a64dc6af994b30
+  sources:
+  - source_id: chhandayan
+    url: https://chhandayan.org/calendar/2026/8/22/carnatic-violin-concert-siddarth-ashokkumar
+    first_seen: '2026-08-18'
+    last_seen: '2026-08-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://chhandayan.org/calendar/2026/8/22/carnatic-violin-concert-siddarth-ashokkumar
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:08:04.607709-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-18T10:08:04.607691-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

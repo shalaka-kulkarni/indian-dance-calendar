@@ -21,7 +21,7 @@ scraped:
   - source_id: queens_theatre
     url: https://queenstheatre.org/events/las-anez-ryt7
     first_seen: '2026-08-16'
-    last_seen: '2026-08-17'
+    last_seen: '2026-08-18'
 ai:
   relevant: false
   kind: other
@@ -49,11 +49,11 @@ validation:
   - url: https://queenstheatre.org/events/las-anez-ryt7
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T08:56:10.247360-04:00'
+    checked_at: '2026-08-18T10:09:15.725221-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-17T08:56:10.247339-04:00'
+  validated_at: '2026-08-18T10:09:15.725194-04:00'
 curated:
   forms: []
   traditions: []

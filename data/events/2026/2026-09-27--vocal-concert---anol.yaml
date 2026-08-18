@@ -1,0 +1,53 @@
+id: 2026-09-27--vocal-concert---anol
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Vocal Concert - Anol Chatterjee
+  start: '2026-09-27T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://chhandayan.org/calendar/2026/9/27/vocal-concert-anol-chatterjee
+  ticket_url: ''
+  description_snippet: Sep 27 4:30 PM 16:30 New York , Online Vocal Concert - Anol Chatterjee Sunday,
+    September 27, 2026 4:30 PM 7:00 PM 16:30 19:00 Chhandayan Center for Indian Music (map) Google Calendar
+    ICS Anol Chatterjee - Vocal Gaurav Venkateshwar - Harmonium Sandip Ghosh - Tabla Come join us at the
+    Chhandayan Center for an afternoon/early evening Vocal concert performed by Anol Chatterjee accompanied
+    by Sandip Ghosh on tabla. The concert will also be streamed live. Purchase Tickets/Streaming Access
+    Anol Chatterjee Anol Chatterjee is a rising name in the field of Indian Classical Vocal Music. The
+    flavour of An
+  content_hash: 7ee408408fe9b991
+  sources:
+  - source_id: chhandayan
+    url: https://chhandayan.org/calendar/2026/9/27/vocal-concert-anol-chatterjee
+    first_seen: '2026-08-18'
+    last_seen: '2026-08-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://chhandayan.org/calendar/2026/9/27/vocal-concert-anol-chatterjee
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:08:43.432084-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-18T10:08:43.432053-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

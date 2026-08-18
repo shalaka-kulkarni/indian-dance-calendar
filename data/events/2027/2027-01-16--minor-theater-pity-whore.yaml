@@ -1,0 +1,48 @@
+id: 2027-01-16--minor-theater-pity-whore
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Minor Theater: Pity Whore'
+  start: '2027-01-16T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://tickets.nyu.edu/19155
+  ticket_url: ''
+  description_snippet: 'Wed Jan 13 – Sat Jan 16, 2027 Minor Theater: Pity Whore No one walks away clean.
+    World Premiere Theater Buy Tickets Learn More'
+  content_hash: d2da8fb13ad7d59b
+  sources:
+  - source_id: skirball
+    url: https://tickets.nyu.edu/19155
+    first_seen: '2026-08-18'
+    last_seen: '2026-08-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://tickets.nyu.edu/19155
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:10:21.264220-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-18T10:10:21.264201-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

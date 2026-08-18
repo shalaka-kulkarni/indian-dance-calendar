@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210970
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-17T08:55:30.799302-04:00'
   - url: https://www.92ny.org/event/what-are-you-so-afraid-of
     ok: true
     status_code: 200
-    checked_at: '2026-08-17T08:55:30.875553-04:00'
+    checked_at: '2026-08-18T10:08:39.057246-04:00'
+  - url: https://seats.92ny.org/single/210970
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T10:08:41.159789-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-17T08:55:30.799281-04:00'
+  validated_at: '2026-08-18T10:08:39.057225-04:00'
 curated:
   forms: []
   traditions: []
