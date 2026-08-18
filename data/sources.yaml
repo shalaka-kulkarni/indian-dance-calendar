@@ -303,10 +303,14 @@ sources:
     name: Carnatic Music Association of North America (CMANA)
     circuit: diaspora
     strategy: jsonld
-    url: https://www.cmana.org/events/
+    url: https://www.cmana.org/etn/
     region: new_jersey
     assume_relevant: true
-    notes: "Carnatic concerts across NJ since 1976; C3 festival over Labor Day weekend. Runs the EventIn WordPress plugin — parsed from its .etn-* listing markup."
+    notes: >-
+      Carnatic concerts across NJ since 1976; C3 festival over Labor Day
+      weekend. Runs the EventIn WordPress plugin. Point at /etn/, the plugin's
+      own archive — /events/ renders a sparser widget the parser cannot read,
+      and every event detail link goes to /etn/<slug>/ anyway.
   - id: sanskriti_nj
     name: Sanskriti of New Jersey
     circuit: diaspora

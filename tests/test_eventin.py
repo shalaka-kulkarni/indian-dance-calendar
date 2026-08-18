@@ -73,3 +73,46 @@ def test_eventin_prefers_structured_data_when_a_page_gains_it():
 
 def test_eventin_returns_nothing_for_a_site_without_the_plugin():
     assert extract_eventin("<html><body><div class='x'></div></body></html>", "c", "https://x.org/e/") == []
+
+
+# The plugin's ARCHIVE template (at /etn/) differs from the single listing: the
+# thumbnail link comes first and carries the name, and the date sits in
+# .etn-event-footer instead of .etn-event-date.
+ARCHIVE = """
+<html><body>
+<div class="etn-col-md-6 etn-col-lg-4">
+  <div class="etn-event-item">
+    <div class="etn-event-thumb">
+      <a aria-label="2026 Flute J A Jayant" href="https://www.cmana.org/etn/2026-flute-j-a-jayant/">
+        <img alt="" src="x.jpeg"/>
+      </a>
+    </div>
+    <div class="etn-event-content">
+      <div class="etn-event-location"><i></i> Community Middle School, Plainsboro NJ 08536</div>
+      <h3 class="etn-title etn-event-title">
+        <a href="https://www.cmana.org/etn/2026-flute-j-a-jayant/">2026 Flute J A Jayant</a>
+      </h3>
+    </div>
+    <div class="etn-event-footer"><span> October 3, 2026 </span></div>
+  </div>
+</div>
+</body></html>
+"""
+
+
+def test_eventin_reads_the_archive_template():
+    events = extract_eventin(ARCHIVE, "cmana", "https://www.cmana.org/etn/")
+    assert len(events) == 1
+    assert events[0].title == "2026 Flute J A Jayant"
+    assert events[0].start_raw == "October 3, 2026"
+    assert events[0].info_url == "https://www.cmana.org/etn/2026-flute-j-a-jayant/"
+
+
+def test_eventin_falls_back_to_an_aria_label_when_the_link_has_no_text():
+    html = """<div class="etn-event-item">
+      <a aria-label="Veena Recital" href="/etn/veena/"><img src="x"/></a>
+      <div class="etn-event-footer">November 8, 2026</div>
+    </div>"""
+    events = extract_eventin(html, "cmana", "https://www.cmana.org/etn/")
+    assert [e.title for e in events] == ["Veena Recital"]
+    assert events[0].start_raw == "November 8, 2026"

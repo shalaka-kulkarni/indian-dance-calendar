@@ -138,11 +138,24 @@ def extract_eventin(html: str, source_id: str, page_url: str) -> list[RawEvent]:
     found: list[RawEvent] = []
     seen: set[str] = set()
     for item in soup.select(".etn-event-item"):
-        link = item.select_one(".etn-event-title a, .etn-title a")
-        title = link.get_text(" ", strip=True) if link else ""
-        date_node = item.select_one(".etn-event-date")
-        date_text = date_node.get_text(" ", strip=True) if date_node else ""
-        date_match = DATE_PAT.search(date_text)
+        link = item.select_one(".etn-event-title a, .etn-title a") or item.select_one("a[href]")
+        # The card's own heading is best, but the archive template puts the
+        # thumbnail link first and labels it with the event name.
+        title = (link.get_text(" ", strip=True) if link else "") or (
+            link.get("aria-label", "") if link else ""
+        )
+        # The plugin's templates disagree about where the date goes: the single
+        # listing puts it in .etn-event-date, the archive in .etn-event-footer.
+        # Read whichever exists, then fall back to the card's own text.
+        date_match = None
+        for selector in (".etn-event-date", ".etn-event-footer"):
+            node = item.select_one(selector)
+            if node is not None:
+                date_match = DATE_PAT.search(node.get_text(" ", strip=True))
+                if date_match:
+                    break
+        if date_match is None:
+            date_match = DATE_PAT.search(item.get_text(" ", strip=True))
         if not (title and date_match):
             continue
         info_url = urljoin(page_url, link["href"]) if link and link.get("href") else page_url
