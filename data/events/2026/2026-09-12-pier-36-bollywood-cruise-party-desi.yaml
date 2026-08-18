@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/bollywood-cruise-party-desi-dinner-buffet-saturday-night-sep-12_event-in_new-york-ny_401294
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:19:14.209946-04:00'
+    checked_at: '2026-08-18T11:41:06.121474-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-18T11:19:14.209915-04:00'
+  validated_at: '2026-08-18T11:41:06.121453-04:00'
 curated:
   forms: []
   traditions: []

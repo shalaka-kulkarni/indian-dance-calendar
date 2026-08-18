@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/take-6-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:20:09.249321-04:00'
+    checked_at: '2026-08-18T11:42:47.370429-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-18T11:20:09.249291-04:00'
+  validated_at: '2026-08-18T11:42:47.370409-04:00'
 curated:
   forms: []
   traditions: []

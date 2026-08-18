@@ -47,11 +47,11 @@ validation:
   - url: https://queenstheatre.org/events/love-flamenco-m5sx
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:19:45.057463-04:00'
+    checked_at: '2026-08-18T11:42:04.453639-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-18T11:19:45.057432-04:00'
+  validated_at: '2026-08-18T11:42:04.453620-04:00'
 curated:
   forms: []
   traditions: []

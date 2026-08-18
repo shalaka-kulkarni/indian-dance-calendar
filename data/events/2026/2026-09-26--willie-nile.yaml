@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/willie-nile-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:19:34.365174-04:00'
+    checked_at: '2026-08-18T11:41:51.800987-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-18T11:19:34.365144-04:00'
+  validated_at: '2026-08-18T11:41:51.800967-04:00'
 curated:
   forms: []
   traditions: []

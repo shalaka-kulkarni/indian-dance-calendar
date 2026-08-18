@@ -1,23 +1,23 @@
-id: 2026-10-29--leenalchi
+id: 2026-09-06--2026-k-s-vishnudev
 status: needs_attention
 was_published: false
 needs_recheck: false
 scraped:
-  title: Leenalchi
-  start: '2026-10-29T00:00:00-04:00'
+  title: 2026 K S Vishnudev Fall Tour
+  start: '2026-09-06T00:00:00-04:00'
   additional_dates: []
   venue: ''
-  address: ''
-  region: brooklyn
+  address: Raritan Valley Community College,118 Lamington Road, Branchburg NJ 08876 Lamington Road,
+  region: new_jersey
   is_free: false
   price_note: ''
-  info_url: https://pioneerworks.org/programs/leenalchi
+  info_url: https://www.cmana.org/etn/2026-k-s-vishnudev-fall-tour/
   ticket_url: ''
-  description_snippet: program Thursday, Oct 29, 2026 Leenalchi
-  content_hash: a72ca4e618206e5d
+  description_snippet: ''
+  content_hash: a07ae64ceca6f1a2
   sources:
-  - source_id: pioneer_works
-    url: https://pioneerworks.org/programs/leenalchi
+  - source_id: cmana
+    url: https://www.cmana.org/etn/2026-k-s-vishnudev-fall-tour/
     first_seen: '2026-08-18'
     last_seen: '2026-08-18'
 validation:
@@ -31,14 +31,14 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://pioneerworks.org/programs/leenalchi
+  - url: https://www.cmana.org/etn/2026-k-s-vishnudev-fall-tour/
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:42:13.674962-04:00'
+    checked_at: '2026-08-18T11:41:02.948107-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-18T11:42:13.674944-04:00'
+  validated_at: '2026-08-18T11:41:02.948088-04:00'
 curated:
   forms: []
   traditions: []

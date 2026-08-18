@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/friends-of-the-brothers-26/
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:19:36.756853-04:00'
+    checked_at: '2026-08-18T11:41:55.184516-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-18T11:19:36.756823-04:00'
+  validated_at: '2026-08-18T11:41:55.184497-04:00'
 curated:
   forms: []
   traditions: []

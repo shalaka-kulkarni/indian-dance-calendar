@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/unveiled-26/
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:19:18.794269-04:00'
+    checked_at: '2026-08-18T11:41:11.276218-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-18T11:19:18.794241-04:00'
+  validated_at: '2026-08-18T11:41:11.276197-04:00'
 curated:
   forms: []
   traditions: []

@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/an-evening-with-jon-stewart-and-john-feal
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-18T11:19:20.694216-04:00'
   - url: https://seats.92ny.org/single/210811
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:19:20.767643-04:00'
+    checked_at: '2026-08-18T11:41:13.342683-04:00'
+  - url: https://www.92ny.org/event/an-evening-with-jon-stewart-and-john-feal
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T11:41:13.420367-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-18T11:19:20.694188-04:00'
+  validated_at: '2026-08-18T11:41:13.342662-04:00'
 curated:
   forms: []
   traditions: []
