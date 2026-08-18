@@ -33,17 +33,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210572
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-18T10:59:02.693508-04:00'
   - url: https://www.92ny.org/event/patti-lupone-a-life-in-notes
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T10:59:02.721315-04:00'
+    checked_at: '2026-08-18T11:19:36.703253-04:00'
+  - url: https://seats.92ny.org/single/210572
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-18T11:19:36.730642-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-08-18T10:59:02.693486-04:00'
+  validated_at: '2026-08-18T11:19:36.703224-04:00'
 curated:
   forms: []
   traditions: []

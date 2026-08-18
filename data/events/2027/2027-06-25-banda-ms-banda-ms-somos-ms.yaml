@@ -49,11 +49,11 @@ validation:
   - url: https://www.prucenter.com/events/banda-ms
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:00:01.376470-04:00'
+    checked_at: '2026-08-18T11:20:11.081902-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-18T11:00:01.376453-04:00'
+  validated_at: '2026-08-18T11:20:11.081877-04:00'
 curated:
   forms: []
   traditions: []
