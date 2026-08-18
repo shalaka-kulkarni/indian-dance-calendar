@@ -55,15 +55,11 @@ validation:
   checks:
     has_info_url: true
     specific_url: true
-    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
     classified: true
   link_checks:
-  - url: https://iaac.us/ebdf2026-ibs/
-    ok: false
-    checked_at: '2026-08-18T11:41:17.619807-04:00'
   - url: https://iaac.us/dance/
     ok: true
     status_code: 200

@@ -71,10 +71,26 @@ def check_link(client: httpx.Client, url: str) -> LinkCheck:
             status_code=resp.status_code,
             checked_at=now,
         )
+    except httpx.HTTPError:
+        pass
+
+    # A timeout or reset is not a verdict. Try once more with GET before giving
+    # up on reaching it.
+    try:
+        resp = client.get(url, follow_redirects=True, timeout=LINK_TIMEOUT)
+        return LinkCheck(
+            url=url,
+            ok=resp.status_code not in GONE_CODES,
+            status_code=resp.status_code,
+            checked_at=now,
+        )
     except httpx.HTTPError as exc:
-        # Could not reach it at all — that is a real failure.
-        log.debug("link check failed %s: %s", url, exc)
-        return LinkCheck(url=url, ok=False, status_code=None, checked_at=now)
+        # Still unreachable. That means UNKNOWN, not dead — exactly the reasoning
+        # applied to 403 and 5xx above. A slow venue site timing out during one
+        # sweep used to pull a live, correct event off the calendar; unpublishing
+        # on a transport error is the worse mistake. Only 404/410 remove a link.
+        log.warning("link unreachable, leaving it published: %s (%s)", url, exc)
+        return LinkCheck(url=url, ok=True, status_code=None, checked_at=now)
 
 
 def validate_event(

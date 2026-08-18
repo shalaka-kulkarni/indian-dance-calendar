@@ -132,7 +132,6 @@ def test_offline_past_validation_never_records_a_dead_link(sample_event):
 def test_bot_blocked_link_is_not_treated_as_dead(monkeypatch):
     """Carnegie Hall and friends answer bots with 403 while serving humans fine.
     Deleting those listings is a worse failure than keeping an unverifiable link."""
-    import httpx
 
     from pipeline.validate import check_link
 
@@ -155,8 +154,48 @@ def test_bot_blocked_link_is_not_treated_as_dead(monkeypatch):
     for code in (404, 410):
         assert not check_link(FakeClient(code), "https://example.org/e").ok, code
 
+
+def test_unreachable_link_is_unknown_not_dead(monkeypatch):
+    """A timeout or reset is not a verdict. Treating one as 'dead' pulled two
+    live, correct events off the calendar during a sweep. Only 404/410 remove a
+    link — the same reasoning that spares 403 and 5xx."""
+    import httpx
+
+    from pipeline.validate import check_link
+
     class ExplodingClient:
+        def __init__(self):
+            self.gets = 0
+
         def head(self, url, **kw):
             raise httpx.ConnectError("no route")
 
-    assert not check_link(ExplodingClient(), "https://example.org/e").ok
+        def get(self, url, **kw):
+            self.gets += 1
+            raise httpx.ConnectError("no route")
+
+    client = ExplodingClient()
+    result = check_link(client, "https://example.org/e")
+    assert result.ok
+    assert result.status_code is None
+    # It retries with GET before concluding it cannot be reached.
+    assert client.gets == 1
+
+
+def test_a_head_failure_still_publishes_when_get_succeeds():
+    import httpx
+
+    from pipeline.validate import check_link
+
+    class HeadHostileClient:
+        def head(self, url, **kw):
+            raise httpx.ReadTimeout("slow")
+
+        def get(self, url, **kw):
+            class R:
+                status_code = 200
+
+            return R()
+
+    check = check_link(HeadHostileClient(), "https://example.org/e")
+    assert check.ok and check.status_code == 200
