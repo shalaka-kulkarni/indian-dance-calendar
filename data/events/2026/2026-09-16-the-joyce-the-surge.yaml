@@ -48,11 +48,11 @@ validation:
   - url: https://www.joyce.org/performances/the-surge-b1jd
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T10:17:03.203591-04:00'
+    checked_at: '2026-08-18T10:58:28.269317-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-18T10:17:03.203563-04:00'
+  validated_at: '2026-08-18T10:58:28.269299-04:00'
 curated:
   forms: []
   traditions: []

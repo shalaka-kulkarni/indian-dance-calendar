@@ -37,10 +37,10 @@ validation:
   - url: https://events.sulekha.com/jaane-pehchaane-anjane-a-musical-play-by-anupam-kher-swaroop-sampat_event-in_westbury-ny_400217
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T10:17:47.323718-04:00'
+    checked_at: '2026-08-18T10:59:06.632734-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-08-18T10:17:47.323702-04:00'
+  validated_at: '2026-08-18T10:59:06.632721-04:00'
 curated:
   forms: []
   traditions: []

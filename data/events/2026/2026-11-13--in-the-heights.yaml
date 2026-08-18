@@ -13,7 +13,8 @@ scraped:
   price_note: ''
   info_url: https://www.nycitycenter.org/events/instances/gzncd6sj/2026-11-12/2026-2027-in-the-heights
   ticket_url: ''
-  description_snippet: ''
+  description_snippet: Feel the heat and heartbeat of Lin-Manuel Miranda and Quiara Alegría Hudes's beloved,
+    Tony-winning musical
   content_hash: ca40326b7cd92589
   sources:
   - source_id: city_center
@@ -46,11 +47,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/gzncd6sj/2026-11-12/2026-2027-in-the-heights
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T10:18:35.353530-04:00'
+    checked_at: '2026-08-18T10:59:51.338197-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-18T10:18:35.353504-04:00'
+  validated_at: '2026-08-18T10:59:51.338174-04:00'
 curated:
   forms: []
   traditions: []

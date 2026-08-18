@@ -13,7 +13,8 @@ scraped:
   price_note: ''
   info_url: https://www.nycitycenter.org/events/instances/wnt551fm/2026-10-17/2026-2027-alex-edelman
   ticket_url: ''
-  description_snippet: ''
+  description_snippet: The award-winning comedian brings his unique mix of stand-up and storytelling to
+    City Center
   content_hash: f679e88cd642e514
   sources:
   - source_id: city_center
@@ -46,11 +47,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/wnt551fm/2026-10-17/2026-2027-alex-edelman
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T10:17:59.305042-04:00'
+    checked_at: '2026-08-18T10:59:16.841620-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-18T10:17:59.305016-04:00'
+  validated_at: '2026-08-18T10:59:16.841603-04:00'
 curated:
   forms: []
   traditions: []

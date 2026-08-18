@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/cyrille-aimee-quartet/
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T10:16:56.494848-04:00'
+    checked_at: '2026-08-18T10:58:21.509479-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-18T10:16:56.494824-04:00'
+  validated_at: '2026-08-18T10:58:21.509461-04:00'
 curated:
   forms: []
   traditions: []

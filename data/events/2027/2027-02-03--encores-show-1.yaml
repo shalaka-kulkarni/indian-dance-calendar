@@ -35,11 +35,11 @@ validation:
   - url: https://www.nycitycenter.org/events/encores-show-1
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T10:18:44.988466-04:00'
+    checked_at: '2026-08-18T10:59:59.459648-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-18T10:18:44.988438-04:00'
+  validated_at: '2026-08-18T10:59:59.459631-04:00'
 curated:
   forms: []
   traditions: []
