@@ -64,13 +64,13 @@ function datesLine(e) {
 const feedHttps = new URL(`${base}/calendar.ics`, Astro.site ?? 'https://shalaka-kulkarni.github.io').href;
 const feedWebcal = feedHttps.replace(/^https?:/, 'webcal:');
 
-const TITLE = 'Rasa — every Indian dance and music event across the New York City metro area, in one calendar.';
+const TITLE = 'Rasa Calendar — every Indian dance and music event across the New York City metro area, in one calendar.';
 ---
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Rasa — Indian performing arts in New York</title>
+    <title>Rasa Calendar — Indian performing arts in New York</title>
     <meta name="description" content={TITLE} />
     <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
   </head>
@@ -82,7 +82,7 @@ const TITLE = 'Rasa — every Indian dance and music event across the New York C
       <HeroArt side="right" />
       <div class="masthead-inner wrap">
         <h1>
-          <span class="h1-a">Rasa</span>
+          <span class="h1-a">Rasa<span class="h1-word">Calendar</span></span>
           <span class="h1-b">Indian performing arts across the New York City metro area</span>
         </h1>
         <p class="tagline">
@@ -452,6 +452,12 @@ const TITLE = 'Rasa — every Indian dance and music event across the New York C
         text-transform: uppercase; letter-spacing: .04em;
         color: #fff9ec;
         text-shadow: 5px 5px 0 #c4162a;
+      }
+      .h1-word {
+        display: block; margin-top: .1em;
+        font: 700 clamp(1rem, 2.6vw, 1.6rem)/1 var(--font-condensed);
+        letter-spacing: .42em; text-indent: .42em;
+        color: #f5c400; text-shadow: none;
       }
       .h1-b {
         display: block; margin-top: .8rem; color: #f5c400;

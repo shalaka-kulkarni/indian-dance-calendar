@@ -1,15 +1,15 @@
-# skyd — NYC Indian Dance Calendar
+# Rasa Calendar — Indian performing arts in New York
 
-A self-updating public calendar of every Indian dance event in the New York
-metro: classical, folk, Bollywood, fusion — merged from ~40 venue calendars,
-listings, platform APIs, and a weekly broad web search, checked automatically
-before anything publishes. Full design: [SPEC.md](SPEC.md).
+A self-updating public calendar of Indian dance and music across the New York
+metro: classical, semi-classical and fusion, folk, contemporary, and film and
+popular repertoire — merged from ~40 venue calendars, listings, platform APIs,
+and a weekly broad web search, checked automatically before anything publishes.
+Full design: [SPEC.md](SPEC.md).
 
 ## Go-live checklist (one-time, ~15 minutes)
 
-The scheduled jobs are already armed: this branch is the repository's default
-branch, which is where GitHub runs cron workflows. (Optionally rename it to
-`main` under the repo's Branches page — GitHub redirects everything cleanly.)
+The scheduled jobs are already armed on the repository's default branch, which
+is where GitHub runs cron workflows.
 
 1. **Add repo secrets** ([Settings → Secrets and variables → Actions](../../settings/secrets/actions)):
    - `ANTHROPIC_API_KEY` — required; powers event classification ([console.anthropic.com/settings/keys](https://console.anthropic.com/settings/keys))
