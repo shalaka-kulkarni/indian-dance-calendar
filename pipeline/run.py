@@ -36,6 +36,7 @@ from pipeline.scrapers.html_sources import (
 from pipeline.scrapers.ics import extract_ics_events
 from pipeline.scrapers.platforms import eventbrite_events, ticketmaster_events
 from pipeline.scrapers.sitemap import sitemap_extract
+from pipeline.scrapers.tribe import tribe_events
 from pipeline.store import (
     expire_past_events,
     load_all_events,
@@ -77,6 +78,11 @@ def scrape_source(client: httpx.Client, source: Source) -> ScrapeResult:
             # lists every event page for search engines.
             if not result.events:
                 result.events = sitemap_extract(client, source.id, source.url)
+            # WordPress venues whose detail pages carry no JSON-LD defeat all of
+            # the above even though every page fetches fine. Their plugin's API
+            # does not.
+            if not result.events:
+                result.events = tribe_events(client, source.id, source.url)
     except Exception as exc:  # noqa: BLE001 — isolation: one source never sinks the sweep
         result.error = f"{type(exc).__name__}: {exc}"
         log.warning("source %s failed: %s", source.id, result.error)

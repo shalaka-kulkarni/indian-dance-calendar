@@ -4,6 +4,7 @@ and per-source error isolation so one broken source never sinks a sweep."""
 from __future__ import annotations
 
 import logging
+import time
 from dataclasses import dataclass, field
 
 import httpx
@@ -18,7 +19,21 @@ USER_AGENT = (
     "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 )
 
+# Some WAFs (Cloudflare, Akamai, Sitecore) reject a request that sends no Accept
+# header at all with 406 Not Acceptable — Tilles Center and State Theatre NJ both
+# did. Send what a browser sends.
+ACCEPT = (
+    "text/html,application/xhtml+xml,application/xml;q=0.9,"
+    "image/avif,image/webp,*/*;q=0.8"
+)
+
 DEFAULT_TIMEOUT = 30.0
+
+# 429/503 are "slow down", not "go away". One backoff retry recovers Navatman and
+# the Met, which rate-limit the first hit of a sweep and then serve fine.
+RETRY_STATUSES = frozenset({429, 503})
+RETRY_WAIT_SECONDS = 5.0
+MAX_RETRY_WAIT_SECONDS = 30.0
 
 
 @dataclass
@@ -42,14 +57,37 @@ class RawEvent:
 
 def make_client() -> httpx.Client:
     return httpx.Client(
-        headers={"User-Agent": USER_AGENT, "Accept-Language": "en-US,en"},
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": ACCEPT,
+            "Accept-Language": "en-US,en",
+        },
         timeout=DEFAULT_TIMEOUT,
         follow_redirects=True,
     )
 
 
-def fetch_text(client: httpx.Client, url: str) -> str:
+def _retry_wait(resp: httpx.Response) -> float:
+    """Honour Retry-After when the server sends a sane one, else back off."""
+    header = resp.headers.get("Retry-After", "").strip()
+    if header.isdigit():
+        return min(float(header), MAX_RETRY_WAIT_SECONDS)
+    return RETRY_WAIT_SECONDS
+
+
+def get(client: httpx.Client, url: str) -> httpx.Response:
+    """GET with one polite retry on rate-limit responses."""
     resp = client.get(url)
+    if resp.status_code in RETRY_STATUSES:
+        wait = _retry_wait(resp)
+        log.info("%s returned %d — retrying in %.0fs", url, resp.status_code, wait)
+        time.sleep(wait)
+        resp = client.get(url)
+    return resp
+
+
+def fetch_text(client: httpx.Client, url: str) -> str:
+    resp = get(client, url)
     resp.raise_for_status()
     return resp.text
 

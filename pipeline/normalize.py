@@ -76,6 +76,17 @@ def infer_region(venue: str, address: str, fallback: Region = Region.UNKNOWN) ->
     return fallback
 
 
+# Venues leave their own staging rows in live calendars — City Center publishes
+# "Test Event A - black text" pages that a sitemap crawl happily picks up. These
+# are the venue's placeholders, not thin listings, so drop them at the floor
+# rather than spending a classification call rejecting each one.
+PLACEHOLDER_TITLE = re.compile(
+    r"^(test|sample|dummy|placeholder|example|lorem ipsum|do not use|xxx+)\b"
+    r"|\b(test event|test performance|tbd test)\b",
+    re.IGNORECASE,
+)
+
+
 def normalize(raw: RawEvent, source_region: Region = Region.UNKNOWN, today: date | None = None) -> Scraped | None:
     """Returns None when the raw record can't meet the floor: a title, a
     parseable future-ish date, and some URL."""
@@ -83,6 +94,8 @@ def normalize(raw: RawEvent, source_region: Region = Region.UNKNOWN, today: date
     start = parse_when(raw.start_raw)
     info_url = raw.info_url or raw.source_url
     if not title or start is None or not info_url:
+        return None
+    if PLACEHOLDER_TITLE.search(title):
         return None
     end = parse_when(raw.end_raw)
     if end is not None and end < start:

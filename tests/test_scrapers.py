@@ -76,3 +76,51 @@ def test_deep_crawl_candidate_links():
         "https://venue.org/events/kathak-night",
         "https://venue.org/performances/nrityagram-2026",
     ]
+
+
+def test_client_sends_an_accept_header():
+    """No Accept header earns a 406 from several venue WAFs."""
+    from pipeline.scrapers.base import make_client
+
+    with make_client() as client:
+        assert "text/html" in client.headers["Accept"]
+
+
+def test_get_retries_once_on_rate_limit(monkeypatch):
+    from pipeline.scrapers import base
+
+    monkeypatch.setattr(base.time, "sleep", lambda _: None)
+
+    class Resp:
+        def __init__(self, code):
+            self.status_code, self.headers = code, {"Retry-After": "2"}
+
+    class Client:
+        def __init__(self):
+            self.codes = [429, 200]
+            self.calls = 0
+
+        def get(self, url, **kwargs):
+            self.calls += 1
+            return Resp(self.codes.pop(0))
+
+    client = Client()
+    assert base.get(client, "https://venue.org/events").status_code == 200
+    assert client.calls == 2
+
+
+def test_get_does_not_retry_a_normal_response():
+    from pipeline.scrapers import base
+
+    class Resp:
+        status_code, headers = 200, {}
+
+    class Client:
+        calls = 0
+
+        def get(self, url, **kwargs):
+            Client.calls += 1
+            return Resp()
+
+    base.get(Client(), "https://venue.org/events")
+    assert Client.calls == 1

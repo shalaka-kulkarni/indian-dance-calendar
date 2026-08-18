@@ -47,3 +47,31 @@ def test_normalize_floor_requirements():
     assert normalize(missing_date, today=date(2026, 8, 16)) is None
     missing_title = RawEvent(source_id="joyce", source_url="https://x.org/cal", start_raw="Oct 1, 2026", info_url="https://x.org/show")
     assert normalize(missing_title, today=date(2026, 8, 16)) is None
+
+
+def test_normalize_drops_venue_placeholder_rows():
+    """City Center publishes real, link-live pages titled 'Test Event A'."""
+    from pipeline.scrapers.base import RawEvent
+
+    for title in ("Test Event A - black text", "SAMPLE listing", "Placeholder show"):
+        raw = RawEvent(
+            source_id="city_center",
+            source_url="https://www.nycitycenter.org/events/instances/z423wc3g/",
+            title=title,
+            start_raw="2026-12-02T19:30:00",
+            info_url="https://www.nycitycenter.org/events/instances/z423wc3g/",
+        )
+        assert normalize(raw) is None, title
+
+
+def test_normalize_keeps_real_titles_containing_test_words():
+    from pipeline.scrapers.base import RawEvent
+
+    raw = RawEvent(
+        source_id="joyce",
+        source_url="https://www.joyce.org/performances/contest-of-the-ragas",
+        title="Contest of the Ragas",
+        start_raw="2026-12-02T19:30:00",
+        info_url="https://www.joyce.org/performances/contest-of-the-ragas",
+    )
+    assert normalize(raw) is not None
