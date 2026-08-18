@@ -104,8 +104,12 @@ def probe(url: str) -> None:
 
     # Rung 1: structured data on the listing page itself.
     _ld_types(html, "listing page")
-    _show("jsonld (listing page)", extract_jsonld_events(html, "probe", url))
-    if "application/ld+json" not in html:
+    listing_events = extract_jsonld_events(html, "probe", url)
+    _show("jsonld (listing page)", listing_events)
+    # Kupferberg's pages DO carry ld+json — all of it Yoast SEO boilerplate with
+    # no Event node. Zero events is the signal to show date anchors, not zero
+    # blocks.
+    if not listing_events:
         _date_shaped_blocks(html)
 
     # Rung 2: the generic HTML block reader.
@@ -121,8 +125,9 @@ def probe(url: str) -> None:
             detail = get(client, links[0])
             print(f"  first detail page: {detail.status_code}")
             _ld_types(detail.text, "detail page")
-            _show("jsonld (detail page)", extract_jsonld_events(detail.text, "probe", links[0]))
-            if "application/ld+json" not in detail.text:
+            detail_events = extract_jsonld_events(detail.text, "probe", links[0])
+            _show("jsonld (detail page)", detail_events)
+            if not detail_events:
                 _date_shaped_blocks(detail.text)
         except httpx.HTTPError as exc:
             print(f"  detail fetch failed: {exc}")

@@ -120,3 +120,65 @@ def extract_narthaki(html: str, source_id: str, page_url: str) -> list[RawEvent]
         if key not in unique:
             unique[key] = event
     return list(unique.values())
+
+
+# CMANA writes its date in one span per event, in a shape no generic date pattern
+# matches: "Event Date:Sunday Sep 6 ,2026" — a stray space before the comma and
+# no space after it.
+CMANA_DATE = re.compile(
+    r"Event\s*Date\s*:\s*(?:Mon|Tues?|Wed(?:nes)?|Thurs?|Fri|Satur?|Sun)[a-z]*\s*,?\s*"
+    r"((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2})\s*,\s*(\d{4})",
+    re.IGNORECASE,
+)
+
+
+def extract_cmana(html: str, source_id: str, page_url: str) -> list[RawEvent]:
+    """cmana.org/events — Carnatic concerts across New Jersey.
+
+    The listing carries no structured data and its detail links go to membership
+    forms, so both the crawl and the sitemap come back empty. Every event does
+    carry one dated span; anchor on that and read the surrounding card.
+    """
+    events = extract_jsonld_events(html, source_id, page_url)
+    if events:
+        return events
+
+    soup = BeautifulSoup(html, "html.parser")
+    found: list[RawEvent] = []
+    seen: set[str] = set()
+    for span in soup.find_all("span"):
+        match = CMANA_DATE.search(span.get_text(" ", strip=True))
+        if not match:
+            continue
+        start_raw = f"{match.group(1)}, {match.group(2)}"
+
+        # Walk out to the card that holds this date, and stop as soon as it also
+        # holds a heading — that heading is the concert title.
+        card, title = span, ""
+        for _ in range(5):
+            card = card.parent
+            if card is None:
+                break
+            heading = card.find(["h1", "h2", "h3", "h4", "h5"])
+            if heading is not None:
+                title = heading.get_text(" ", strip=True)
+                break
+        if not title or title in seen:
+            continue
+        seen.add(title)
+
+        text = card.get_text(" ", strip=True) if card else ""
+        price = PRICE_PAT.search(text)
+        link = card.find("a", href=True) if card else None
+        found.append(
+            RawEvent(
+                source_id=source_id,
+                source_url=page_url,
+                title=title,
+                start_raw=start_raw,
+                price_raw=price.group(1) if price else "",
+                info_url=urljoin(page_url, link["href"]) if link else page_url,
+                description=text[:600],
+            )
+        )
+    return found

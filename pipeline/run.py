@@ -30,6 +30,7 @@ from pipeline.registry import load_sources
 from pipeline.scrapers.base import RawEvent, ScrapeResult, fetch_text, log, make_client
 from pipeline.scrapers.crawl import deep_extract
 from pipeline.scrapers.html_sources import (
+    extract_cmana,
     extract_listing_blocks,
     extract_narthaki,
 )
@@ -50,6 +51,7 @@ HEALTH_PATH = Path(__file__).resolve().parent.parent / "out" / "source_health.js
 
 BESPOKE = {
     "narthaki": extract_narthaki,
+    "cmana": extract_cmana,
 }
 
 
