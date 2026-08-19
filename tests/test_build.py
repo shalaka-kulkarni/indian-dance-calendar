@@ -39,16 +39,18 @@ def test_filter_counts_include_empty_options(sample_event):
     assert Region.UNKNOWN.value not in regions
 
 
-def test_each_art_form_counts_only_under_its_own_chip(sample_event):
-    """"Dance" has to mean dance. A "both" event counts under Both, not under
-    Dance and Music as well — otherwise filtering to Dance returns concerts."""
+def test_both_is_listed_under_dance_and_under_music(sample_event):
+    """A garba night belongs in either list, so it counts towards both chips.
+    What keeps concerts out of Dance is the bar for earning "both" at
+    classification time, not the counting here."""
     sample_event.curated.art_form = ArtForm.BOTH
     sample_event.curated.traditions = [Tradition.FOLK]
     counts = _counts([event_to_site(sample_event)])
     art = {a["value"]: a["count"] for a in counts["artForms"]}
-    assert art.get("both") == 1
-    assert not art.get("dance")
-    assert not art.get("music")
+    assert art["dance"] == 1
+    assert art["music"] == 1
+    # Only two chips are offered.
+    assert {a["value"] for a in counts["artForms"]} == {"dance", "music"}
 
 
 def test_ticket_link_identical_to_info_is_dropped(sample_event):
@@ -63,7 +65,6 @@ def test_archive_window_excludes_old_and_dead_links(tmp_path, sample_event, monk
     now = datetime.now(NY)
     monkeypatch.setattr(build_module, "load_all_events", lambda: events)
     monkeypatch.setattr(build_module, "SITE_DATA", tmp_path / "events.json")
-    monkeypatch.setattr(build_module, "SITE_ICS", tmp_path / "calendar.ics")
 
     recent = sample_event.model_copy(deep=True)
     recent.id, recent.status, recent.was_published = "recent", Status.PAST, True

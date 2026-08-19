@@ -60,7 +60,7 @@ validation:
 curated:
   forms:
   - folk
-  art_form: music
+  art_form: both
   traditions:
   - folk
   - popular_film

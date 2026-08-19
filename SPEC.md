@@ -89,7 +89,7 @@ Three ownership zones, enforced by `pipeline/store.py`:
 
 Data lives in git: free audit history, human-editable from the GitHub UI,
 diffable re-scrapes. `site/src/data/events.json` and
-`site/public/calendar.ics` are build outputs, committed so the site deploy
+is a build output, committed so the site deploy
 needs only Node.
 
 ## Scheduled jobs (.github/workflows/)
@@ -124,7 +124,7 @@ options that match no current event rendered **disabled/greyed out** rather
 than hidden, so the shape of what's covered is always visible. `build.py`
 emits those counts in `filters`. Each card: full dates/times, venue + region,
 price range, form chips, and exactly two links — **Info** and **Book tickets**
-(archive cards show Info only). `/calendar.ics` is the subscribable feed
+(archive cards show Info only).
 (Google/Apple Calendar). Honest empty/freshness states — visible staleness is
 the trust killer, so the footer shows the last sweep date.
 

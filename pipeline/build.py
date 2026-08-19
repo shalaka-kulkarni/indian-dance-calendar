@@ -1,5 +1,5 @@
 """Emit site artifacts from the event store: events.json for the Astro site and
-calendar.ics (the subscribable feed).
+the site data the Astro pages read.
 
 Two event lists are emitted:
   * upcoming — status PUBLISHED, the live calendar
@@ -32,7 +32,6 @@ from pipeline.store import load_all_events
 NY_TZ = ZoneInfo("America/New_York")
 ROOT = Path(__file__).resolve().parent.parent
 SITE_DATA = ROOT / "site" / "src" / "data" / "events.json"
-SITE_ICS = ROOT / "site" / "public" / "calendar.ics"
 
 ARCHIVE_DAYS = 183  # ~6 months of past events
 
@@ -47,10 +46,7 @@ FILTER_REGIONS = [
     Region.LONG_ISLAND,
     Region.WESTCHESTER,
 ]
-# Three chips, each meaning exactly itself. "Both" earns its own so that a
-# genuinely mixed community night is still reachable without making "Dance"
-# return concerts.
-FILTER_ART_FORMS = [ArtForm.DANCE, ArtForm.MUSIC, ArtForm.BOTH]
+FILTER_ART_FORMS = [ArtForm.DANCE, ArtForm.MUSIC]
 FILTER_TRADITIONS = [t for t in Tradition]
 FILTER_PRESENTERS = [
     PresenterType.PROFESSIONAL_COMPANY,
@@ -110,41 +106,6 @@ def _ics_escape(text: str) -> str:
     return text.replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
 
 
-def build_ics(events: list[Event]) -> str:
-    lines = [
-        "BEGIN:VCALENDAR",
-        "VERSION:2.0",
-        "PRODID:-//skyd//NYC Indian Dance Calendar//EN",
-        "X-WR-CALNAME:NYC Indian Dance",
-        "X-WR-TIMEZONE:America/New_York",
-    ]
-    now = datetime.now(NY_TZ).strftime("%Y%m%dT%H%M%S")
-    for event in events:
-        s = event.scraped
-        for i, start in enumerate([s.start, *s.additional_dates]):
-            lines += [
-                "BEGIN:VEVENT",
-                f"UID:{event.id}-{i}@skyd",
-                f"DTSTAMP:{now}",
-                f"DTSTART;TZID=America/New_York:{start.strftime('%Y%m%dT%H%M%S')}",
-            ]
-            if s.end and i == 0 and s.end.date() == start.date():
-                lines.append(f"DTEND;TZID=America/New_York:{s.end.strftime('%Y%m%dT%H%M%S')}")
-            location = ", ".join(p for p in (s.venue, s.address) if p)
-            detail = f"Info: {s.info_url}"
-            if s.ticket_url:
-                detail += f" | Tickets: {s.ticket_url}"
-            lines += [
-                f"SUMMARY:{_ics_escape(str(event.effective_scraped_value('title')))}",
-                f"LOCATION:{_ics_escape(location)}",
-                f"DESCRIPTION:{_ics_escape(detail)}",
-                f"URL:{s.info_url}",
-                "END:VEVENT",
-            ]
-    lines.append("END:VCALENDAR")
-    return "\r\n".join(lines) + "\r\n"
-
-
 def _counts(events: list[dict]) -> dict:
     art: dict[str, int] = {}
     traditions: dict[str, int] = {}
@@ -153,10 +114,12 @@ def _counts(events: list[dict]) -> dict:
     kinds: dict[str, int] = {}
     free = 0
     for e in events:
-        # Each art form counts once, under its own chip. "Dance" has to mean
-        # only dance — a concert with no dancing in it does not belong there
-        # just because it shares a bill somewhere.
-        art[e["artForm"]] = art.get(e["artForm"], 0) + 1
+        # "both" is listed under Dance and under Music, because it means the
+        # event genuinely offers each. What keeps concerts out of Dance is the
+        # bar for earning "both" in the first place: an explicitly named dance
+        # performance, or a community event.
+        for a in (["dance", "music"] if e["artForm"] == "both" else [e["artForm"]]):
+            art[a] = art.get(a, 0) + 1
         for t in e["traditions"]:
             traditions[t] = traditions.get(t, 0) + 1
         regions[e["region"]] = regions.get(e["region"], 0) + 1
@@ -213,6 +176,4 @@ def build_site_data() -> dict:
     }
     SITE_DATA.parent.mkdir(parents=True, exist_ok=True)
     SITE_DATA.write_text(json.dumps(payload, indent=1))
-    SITE_ICS.parent.mkdir(parents=True, exist_ok=True)
-    SITE_ICS.write_text(build_ics(upcoming_events))
     return {"published": len(upcoming), "past": len(past)}

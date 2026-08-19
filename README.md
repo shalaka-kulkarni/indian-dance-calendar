@@ -5,7 +5,6 @@
 | | |
 |---|---|
 | **Live site** | https://shalaka-kulkarni.github.io/indian-dance-calendar/ |
-| **Calendar feed** | `webcal://shalaka-kulkarni.github.io/indian-dance-calendar/calendar.ics` |
 | **Refreshes** | Mon / Wed / Fri, ~7am ET, unattended |
 
 A self-updating public calendar of Indian dance and music across the New York
@@ -50,7 +49,7 @@ is where GitHub runs cron workflows.
 make install         # uv venv + Python deps + site npm install
 make test            # pytest (fixture-based, no network needed)
 make sweep           # full scrape -> classify -> validate -> save (needs network)
-make build           # regenerate site/src/data/events.json + calendar.ics
+make build           # regenerate site/src/data/events.json
 make site            # build the Astro site
 make draft           # write out/newsletter-YYYY-MM-DD.md
 uv run skyd report   # see the needs_attention queue

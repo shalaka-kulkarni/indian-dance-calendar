@@ -59,10 +59,6 @@ function datesLine(e) {
   return `${dayLabel(e.start)}${t ? ` · ${t}` : ''}`;
 }
 
-// webcal: makes Apple Calendar / Outlook treat this as a live subscription that
-// keeps updating, rather than a one-off .ics download.
-const feedHttps = new URL(`${base}/calendar.ics`, Astro.site ?? 'https://shalaka-kulkarni.github.io').href;
-const feedWebcal = feedHttps.replace(/^https?:/, 'webcal:');
 
 const TITLE = 'Rasa Calendar — every Indian dance and music event across the New York City metro area, in one calendar.';
 ---
@@ -91,8 +87,7 @@ const TITLE = 'Rasa Calendar — every Indian dance and music event across the N
         </p>
         <Subscribe variant="hero" />
         <p class="masthead-cta">
-          <a class="btn-poster btn-sub" href={feedWebcal}>＋ Add to your calendar app</a>
-          <a class="btn-poster" href={`${base}/about`}>About</a>
+          <a class="btn-poster btn-sub" href={`${base}/about`}>About</a>
         </p>
       </div>
     </header>
@@ -280,16 +275,16 @@ const TITLE = 'Rasa Calendar — every Indian dance and music event across the N
           broad search. The venue's own page is always the authority on dates, prices and tickets.
         </p>
         <p>
-          <a href={`${base}/about`}>About &amp; how to subscribe</a> ·
-          <a href={`${base}/calendar.ics`}>Download .ics</a>
+          <a href={`${base}/about`}>About &amp; how to subscribe</a>
         </p>
       </div>
     </footer>
 
     <script>
-      // Each chip means exactly what it says. "Dance" shows dance events only;
-      // a concert stays under Music even if it sits on a mixed bill elsewhere.
-      // "Both" is its own chip for the events that genuinely carry each.
+      // Two chips. An event tagged "both" answers to either, so a garba night
+      // shows up whichever one you picked. Concerts stay out of Dance because
+      // "both" is only awarded for a named dance performance or a community
+      // event — not because a bill happens to mix things.
       const active = {
         art: new Set(['dance']),
         tradition: new Set(), region: new Set(), free: new Set(),
@@ -305,7 +300,7 @@ const TITLE = 'Rasa Calendar — every Indian dance and music event across the N
       let currentTab = 'tab-upcoming';
 
       const cardData = (card) => ({
-        art: [card.dataset.art],
+        art: card.dataset.art === 'both' ? ['dance', 'music'] : [card.dataset.art],
         traditions: (card.dataset.traditions || '').split(',').filter(Boolean),
         region: card.dataset.region,
         free: card.dataset.free === 'true',

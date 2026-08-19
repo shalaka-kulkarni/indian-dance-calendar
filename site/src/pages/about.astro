@@ -5,8 +5,6 @@ import Subscribe from '../components/Subscribe.astro';
 import Disclaimer from '../components/Disclaimer.astro';
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const feedHttps = new URL(`${base}/calendar.ics`, Astro.site ?? 'https://shalaka-kulkarni.github.io').href;
-const feedWebcal = feedHttps.replace(/^https?:/, 'webcal:');
 ---
 <html lang="en">
   <head>
@@ -66,29 +64,6 @@ const feedWebcal = feedHttps.replace(/^https?:/, 'webcal:');
       </p>
       <Subscribe variant="about" />
 
-      <h2>Or add it to your calendar app</h2>
-      <p>
-        You can also subscribe to the calendar directly, so listed events show
-        up in the calendar app you already use.
-      </p>
-      <p class="cta-row">
-        <a class="btn-poster btn-sub" href={feedWebcal}>＋ Subscribe — auto-updates</a>
-      </p>
-      <ul class="how">
-        <li>
-          <strong>Apple Calendar / Outlook</strong> — the button above subscribes
-          directly. New events appear as they are added.
-        </li>
-        <li>
-          <strong>Google Calendar</strong> — Other calendars → <em>From URL</em>,
-          then paste: <code>{feedHttps}</code>
-        </li>
-        <li>
-          <strong>One-off import</strong> — <a href={`${base}/calendar.ics`}>download the .ics file</a>.
-          This is a snapshot of the calendar as it stands today and will not
-          update later.
-        </li>
-      </ul>
       <Disclaimer variant="long" />
     </main>
 

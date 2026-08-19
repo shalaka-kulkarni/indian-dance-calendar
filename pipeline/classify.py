@@ -56,19 +56,23 @@ with no performance; film screenings; class-term registration and ongoing course
 enrolment (a recurring weekly class is not an event); purely culinary, literary or
 political programmes.
 
-art_form: default to dance or music. Reserve "both" for listings that name
-dance AND name music as separate substantial parts of the same event.
+art_form: an event tagged "both" is listed under Dance AND under Music, so it
+has to genuinely offer each. Award it in exactly two cases:
+- the listing explicitly names a dance performance alongside music, or
+- the event is a community programme where people dance or watch dancing —
+  garba and dandiya nights, Diwali and Durga Puja programmes, Onam and similar
+  celebrations (use kind=community for these too).
 
-"both" is the exception, not a hedge. Do NOT use it when:
-- a dance recital has accompanying musicians — live accompaniment is normal for
-  dance, and the event is still dance;
-- a concert happens to have a dance item somewhere on the bill, or is described
-  only as a concert, recital or tour — that is music;
-- the listing is vague ("cultural programme", "live entertainment") and you are
-  guessing that both are present. Pick the one the text actually supports.
+Everything else is dance or music, whichever the text supports:
+- a dance recital with accompanying musicians is dance — live accompaniment is
+  normal for dance and does not make it "both";
+- a concert, recital or tour, including one with a dance item somewhere on the
+  bill, is music;
+- a vague listing ("cultural programme", "live entertainment") with no dance
+  named and no community occasion is music. Do not guess dance into it.
 
-A reader who filters to "dance" wants events they can watch dancing at. A
-concert must never appear there.
+A reader filtering to "dance" wants events with dancing in them. A concert must
+never appear there.
 
 traditions (shared vocabulary across dance and music, pick all that apply):
 - classical: the codified traditions — Bharatanatyam, Kathak, Odissi et al.;
