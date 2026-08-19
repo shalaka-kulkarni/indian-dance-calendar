@@ -47,11 +47,11 @@ validation:
   - url: https://www.joyce.org/performances/the-sarasota-ballet-typc
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T09:56:37.625151-04:00'
+    checked_at: '2026-08-19T10:39:39.645799-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-19T09:56:37.625131-04:00'
+  validated_at: '2026-08-19T10:39:39.645776-04:00'
 curated:
   forms: []
   traditions: []

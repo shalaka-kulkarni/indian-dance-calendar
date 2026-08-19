@@ -49,11 +49,11 @@ validation:
   - url: https://www.prucenter.com/events/ella-langley
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T09:55:41.904291-04:00'
+    checked_at: '2026-08-19T10:38:42.531787-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-19T09:55:41.904273-04:00'
+  validated_at: '2026-08-19T10:38:42.531765-04:00'
 curated:
   forms: []
   traditions: []

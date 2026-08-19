@@ -50,14 +50,14 @@ validation:
   - url: https://www.92ny.org/event/memories-of-a-good-meal
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T09:56:55.411185-04:00'
+    checked_at: '2026-08-19T10:40:01.142345-04:00'
   - url: https://seats.92ny.org/single/211148
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T09:56:57.649891-04:00'
+    checked_at: '2026-08-19T10:40:03.751417-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-19T09:56:55.411167-04:00'
+  validated_at: '2026-08-19T10:40:01.142323-04:00'
 curated:
   forms: []
   traditions: []

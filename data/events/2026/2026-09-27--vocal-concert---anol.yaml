@@ -54,10 +54,10 @@ validation:
   - url: https://chhandayan.org/calendar/2026/9/27/vocal-concert-anol-chatterjee
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T09:56:24.766168-04:00'
+    checked_at: '2026-08-19T10:39:28.315711-04:00'
   problems:
   - no price information
-  validated_at: '2026-08-19T09:56:24.766150-04:00'
+  validated_at: '2026-08-19T10:39:28.315688-04:00'
 curated:
   forms: []
   traditions: []

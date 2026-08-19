@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/ari-emanuel-with-rachel-maddow
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-19T09:56:13.843581-04:00'
   - url: https://seats.92ny.org/single/211145
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T09:56:14.070094-04:00'
+    checked_at: '2026-08-19T10:39:14.339254-04:00'
+  - url: https://www.92ny.org/event/ari-emanuel-with-rachel-maddow
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-19T10:39:14.375780-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-19T09:56:13.843557-04:00'
+  validated_at: '2026-08-19T10:39:14.339226-04:00'
 curated:
   forms: []
   traditions: []

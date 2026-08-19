@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/laughing-lassi-the-1-south-asian-stand-up-comedy-show-in-new-york-city_event-in_new-york-ny_401291
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T09:55:35.045396-04:00'
+    checked_at: '2026-08-19T10:38:37.050608-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-19T09:55:35.045374-04:00'
+  validated_at: '2026-08-19T10:38:37.050584-04:00'
 curated:
   forms: []
   traditions: []

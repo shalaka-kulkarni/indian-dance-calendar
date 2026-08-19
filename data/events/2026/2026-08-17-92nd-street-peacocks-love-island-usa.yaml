@@ -49,15 +49,15 @@ validation:
   - url: https://seats.92ny.org/single/211070
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T09:55:30.511092-04:00'
+    checked_at: '2026-08-19T10:38:34.258208-04:00'
   - url: https://www.92ny.org/event/peacock-s-love-island-usa
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T09:55:30.523416-04:00'
+    checked_at: '2026-08-19T10:38:34.271344-04:00'
   problems:
   - event date 2026-08-17 is in the past
   - classified not-relevant
-  validated_at: '2026-08-19T09:55:30.511068-04:00'
+  validated_at: '2026-08-19T10:38:34.258183-04:00'
 curated:
   forms: []
   traditions: []

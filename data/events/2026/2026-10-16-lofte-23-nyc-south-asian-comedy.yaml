@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/nyc-south-asian-comedy-festival-best-of-nyc_event-in_new-york-ny_401409
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T09:57:02.033237-04:00'
+    checked_at: '2026-08-19T10:40:12.582537-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-19T09:57:02.033217-04:00'
+  validated_at: '2026-08-19T10:40:12.582514-04:00'
 curated:
   forms: []
   traditions: []

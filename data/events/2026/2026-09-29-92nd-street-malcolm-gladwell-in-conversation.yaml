@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/malcolm-gladwell-in-conversation-the-american-way-of-killing
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T09:56:35.617242-04:00'
+    checked_at: '2026-08-19T10:39:37.576637-04:00'
   - url: https://seats.92ny.org/single/210650
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T09:56:37.568577-04:00'
+    checked_at: '2026-08-19T10:39:39.597937-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-19T09:56:35.617219-04:00'
+  validated_at: '2026-08-19T10:39:37.576614-04:00'
 curated:
   forms: []
   traditions: []
