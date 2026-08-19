@@ -25,18 +25,18 @@ scraped:
 ai:
   relevant: true
   kind: community
-  art_form: both
+  art_form: music
   traditions:
   - folk
   - popular_film
-  forms:
-  - folk
+  forms: []
   music_styles:
   - folk_music
   - filmi
   presenter_type: mixed
   confidence: high
-  reasoning: Researched and corroborated against a source page found in search.
+  reasoning: 'Researched and corroborated against a source page found in search. [art_form corrected to
+    music: the listing describes rituals and evening concerts, no dance.]'
   model: claude-fable-5
   classified_at: '2026-08-17'
 validation:
@@ -60,7 +60,7 @@ validation:
 curated:
   forms:
   - folk
-  art_form: both
+  art_form: music
   traditions:
   - folk
   - popular_film

@@ -27,43 +27,50 @@ const feedWebcal = feedHttps.replace(/^https?:/, 'webcal:');
 
     <main class="wrap">
       <p class="lede">
-        Indian performing arts in New York are listed in two places that never
-        overlap. Community listings carry the festivals, the garba nights and
-        the recitals. The big presenters book world-class Indian artists and
-        file them under "dance" or "world music." Neither knows about the
-        other. Dozens of events a year, dozens of venues, no single list.
+        Indian dance and music events in the New York area are announced in two
+        separate places. Community organisations post festivals, garba nights
+        and recitals on their own sites and mailing lists, while large venues
+        such as Carnegie Hall and the Joyce list Indian artists in their general
+        programmes. Someone who follows one of these rarely sees the other, so
+        events are easy to miss even when you are looking for them. This site
+        collects both into one calendar.
       </p>
-      <p class="lede"><strong>This is the single list.</strong></p>
 
       <h2>What's here</h2>
       <p>
-        Indian dance and music across the New York City metro area — classical
-        forms (Bharatanatyam, Kathak, Odissi, Kuchipudi and the rest; Hindustani
-        and Carnatic concerts), semi-classical and fusion, folk, contemporary,
-        and film and popular repertoire. Performances, festivals, talks and
-        workshops, plus community nights like garba and Diwali programmes.
-        Five boroughs, New Jersey, Long Island, Westchester.
+        Indian dance and music across the New York City metro area, covering the
+        five boroughs, New Jersey, Long Island and Westchester. That includes
+        classical dance forms such as Bharatanatyam, Kathak, Odissi and
+        Kuchipudi, Hindustani and Carnatic concerts, semi-classical and fusion
+        work, folk, contemporary pieces, and film and popular repertoire. Along
+        with performances you will find festivals, talks, workshops and
+        community events such as garba nights and Diwali programmes.
       </p>
 
       <h2>How it stays current</h2>
       <p>
         Automated sweeps read {data.sourceCount} venue calendars and listings
-        three times a week, plus a weekly search for events beyond them. Every
-        event is link-checked before it appears and re-checked afterwards.
-        Nothing is listed on a maybe. Past events move to <strong>Past events</strong> automatically and stay
-        for six months.
-        The venue's own page is always the authority on dates, prices and tickets.
+        three times a week, and a weekly search looks for events outside them.
+        Each event's links are checked before it appears here and again
+        afterwards, and an event is only listed once it has a working page of
+        its own. Events move to <strong>Past events</strong> on their own once
+        the date passes, and stay there for six months. Please treat the venue's
+        own page as the final word on dates, prices and tickets.
       </p>
 
       <h2>Get it by email</h2>
       <p>
-        One email a month listing every event added to the calendar since the
-        last one. Nothing else, and you can unsubscribe from any of them.
+        One email a month listing the events added to the calendar since the
+        previous one. There is nothing else in it, and every email has an
+        unsubscribe link.
       </p>
       <Subscribe variant="about" />
 
       <h2>Or add it to your calendar app</h2>
-      <p>Put every listed event straight into the calendar you already use.</p>
+      <p>
+        You can also subscribe to the calendar directly, so listed events show
+        up in the calendar app you already use.
+      </p>
       <p class="cta-row">
         <a class="btn-poster btn-sub" href={feedWebcal}>＋ Subscribe — auto-updates</a>
       </p>
@@ -78,7 +85,8 @@ const feedWebcal = feedHttps.replace(/^https?:/, 'webcal:');
         </li>
         <li>
           <strong>One-off import</strong> — <a href={`${base}/calendar.ics`}>download the .ics file</a>.
-          This is a snapshot: it will not update later.
+          This is a snapshot of the calendar as it stands today and will not
+          update later.
         </li>
       </ul>
       <Disclaimer variant="long" />

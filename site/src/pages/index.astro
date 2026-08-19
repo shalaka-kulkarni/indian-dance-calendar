@@ -287,8 +287,9 @@ const TITLE = 'Rasa Calendar — every Indian dance and music event across the N
     </footer>
 
     <script>
-      // Dance is on by default; music is opt-in. An event tagged "both" answers
-      // to either, so community nights never vanish when you pick one.
+      // Each chip means exactly what it says. "Dance" shows dance events only;
+      // a concert stays under Music even if it sits on a mixed bill elsewhere.
+      // "Both" is its own chip for the events that genuinely carry each.
       const active = {
         art: new Set(['dance']),
         tradition: new Set(), region: new Set(), free: new Set(),
@@ -304,7 +305,7 @@ const TITLE = 'Rasa Calendar — every Indian dance and music event across the N
       let currentTab = 'tab-upcoming';
 
       const cardData = (card) => ({
-        art: card.dataset.art === 'both' ? ['dance', 'music'] : [card.dataset.art],
+        art: [card.dataset.art],
         traditions: (card.dataset.traditions || '').split(',').filter(Boolean),
         region: card.dataset.region,
         free: card.dataset.free === 'true',

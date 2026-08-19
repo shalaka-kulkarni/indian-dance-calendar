@@ -56,10 +56,19 @@ with no performance; film screenings; class-term registration and ongoing course
 enrolment (a recurring weekly class is not an event); purely culinary, literary or
 political programmes.
 
-art_form: dance = dance only; music = music only; both = the listing clearly
-carries substantial dance AND music (many festivals, Drive East-style programmes,
-some temple and community events). Do not use "both" just because a dance recital
-has accompanying musicians — live accompaniment is normal for dance.
+art_form: default to dance or music. Reserve "both" for listings that name
+dance AND name music as separate substantial parts of the same event.
+
+"both" is the exception, not a hedge. Do NOT use it when:
+- a dance recital has accompanying musicians — live accompaniment is normal for
+  dance, and the event is still dance;
+- a concert happens to have a dance item somewhere on the bill, or is described
+  only as a concert, recital or tour — that is music;
+- the listing is vague ("cultural programme", "live entertainment") and you are
+  guessing that both are present. Pick the one the text actually supports.
+
+A reader who filters to "dance" wants events they can watch dancing at. A
+concert must never appear there.
 
 traditions (shared vocabulary across dance and music, pick all that apply):
 - classical: the codified traditions — Bharatanatyam, Kathak, Odissi et al.;

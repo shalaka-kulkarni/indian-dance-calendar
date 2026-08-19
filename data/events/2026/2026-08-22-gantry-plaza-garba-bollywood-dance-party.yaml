@@ -26,7 +26,7 @@ scraped:
 ai:
   relevant: true
   kind: community
-  art_form: both
+  art_form: dance
   traditions:
   - folk
   - popular_film
@@ -36,8 +36,8 @@ ai:
   music_styles: []
   presenter_type: unknown
   confidence: medium
-  reasoning: Public garba and Bollywood dance celebration — a community occasion with participatory Indian
-    dance.
+  reasoning: 'Public garba and Bollywood dance celebration — a community occasion with participatory Indian
+    dance. [art_form -> dance: the listing is a title only, and it names a dance party.]'
   model: claude-fable-5
   classified_at: '2026-08-16'
 validation:

@@ -57,7 +57,7 @@ validation:
 curated:
   forms:
   - bollywood
-  art_form: both
+  art_form: dance
   traditions:
   - popular_film
   - folk

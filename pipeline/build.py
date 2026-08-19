@@ -47,7 +47,10 @@ FILTER_REGIONS = [
     Region.LONG_ISLAND,
     Region.WESTCHESTER,
 ]
-FILTER_ART_FORMS = [ArtForm.DANCE, ArtForm.MUSIC]
+# Three chips, each meaning exactly itself. "Both" earns its own so that a
+# genuinely mixed community night is still reachable without making "Dance"
+# return concerts.
+FILTER_ART_FORMS = [ArtForm.DANCE, ArtForm.MUSIC, ArtForm.BOTH]
 FILTER_TRADITIONS = [t for t in Tradition]
 FILTER_PRESENTERS = [
     PresenterType.PROFESSIONAL_COMPANY,
@@ -150,10 +153,10 @@ def _counts(events: list[dict]) -> dict:
     kinds: dict[str, int] = {}
     free = 0
     for e in events:
-        # "both" counts towards dance AND music, so the toggle never hides a
-        # community event that is genuinely half of each.
-        for a in (["dance", "music"] if e["artForm"] == "both" else [e["artForm"]]):
-            art[a] = art.get(a, 0) + 1
+        # Each art form counts once, under its own chip. "Dance" has to mean
+        # only dance — a concert with no dancing in it does not belong there
+        # just because it shares a bill somewhere.
+        art[e["artForm"]] = art.get(e["artForm"], 0) + 1
         for t in e["traditions"]:
             traditions[t] = traditions.get(t, 0) + 1
         regions[e["region"]] = regions.get(e["region"], 0) + 1

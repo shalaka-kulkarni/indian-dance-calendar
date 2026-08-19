@@ -39,15 +39,16 @@ def test_filter_counts_include_empty_options(sample_event):
     assert Region.UNKNOWN.value not in regions
 
 
-def test_both_counts_towards_dance_and_music(sample_event):
-    """A community night that is genuinely both must not disappear from either
-    side of the Dance/Music toggle."""
+def test_each_art_form_counts_only_under_its_own_chip(sample_event):
+    """"Dance" has to mean dance. A "both" event counts under Both, not under
+    Dance and Music as well — otherwise filtering to Dance returns concerts."""
     sample_event.curated.art_form = ArtForm.BOTH
     sample_event.curated.traditions = [Tradition.FOLK]
     counts = _counts([event_to_site(sample_event)])
     art = {a["value"]: a["count"] for a in counts["artForms"]}
-    assert art["dance"] == 1
-    assert art["music"] == 1
+    assert art.get("both") == 1
+    assert not art.get("dance")
+    assert not art.get("music")
 
 
 def test_ticket_link_identical_to_info_is_dropped(sample_event):
