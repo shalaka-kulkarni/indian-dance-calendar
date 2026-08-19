@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/science-and-society-the-oceans-frontier
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T09:45:36.890228-04:00'
+    checked_at: '2026-08-19T09:56:13.533521-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-19T09:45:36.890202-04:00'
+  validated_at: '2026-08-19T09:56:13.533498-04:00'
 curated:
   forms: []
   traditions: []

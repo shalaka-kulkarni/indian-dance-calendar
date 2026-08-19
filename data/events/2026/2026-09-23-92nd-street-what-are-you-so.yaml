@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/what-are-you-so-afraid-of
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T09:45:42.249662-04:00'
+    checked_at: '2026-08-19T09:56:18.018036-04:00'
   - url: https://seats.92ny.org/single/210970
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T09:45:44.554394-04:00'
+    checked_at: '2026-08-19T09:56:19.754837-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-19T09:45:42.249641-04:00'
+  validated_at: '2026-08-19T09:56:18.018019-04:00'
 curated:
   forms: []
   traditions: []

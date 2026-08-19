@@ -44,17 +44,20 @@ validation:
   checks:
     has_info_url: true
     specific_url: true
-    links_live: false
+    links_live: true
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks: []
+  link_checks:
+  - url: https://chhandayan.org/calendar/2023/11/5/dewali-festival-celebration-in-virginia-db3ge-ml6kj
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-19T09:57:26.009162-04:00'
   problems:
-  - links not yet verified (offline run)
   - no price information
   - relevance confidence too low for auto-publish
-  validated_at: '2026-08-19T09:54:46.451889-04:00'
+  validated_at: '2026-08-19T09:57:26.009140-04:00'
 curated:
   forms: []
   traditions: []

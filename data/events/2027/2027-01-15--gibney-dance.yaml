@@ -47,11 +47,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/cantnpqn/2027-01-14/2026-2027-gibney-dance
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T09:47:11.049990-04:00'
+    checked_at: '2026-08-19T09:57:46.450992-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-19T09:47:11.049969-04:00'
+  validated_at: '2026-08-19T09:57:46.450972-04:00'
 curated:
   forms: []
   traditions: []
