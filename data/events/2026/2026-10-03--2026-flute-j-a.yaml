@@ -20,6 +20,20 @@ scraped:
     url: https://www.cmana.org/etn/2026-flute-j-a-jayant/
     first_seen: '2026-08-18'
     last_seen: '2026-08-19'
+ai:
+  relevant: true
+  kind: performance
+  art_form: music
+  traditions:
+  - classical
+  forms: []
+  music_styles:
+  - carnatic
+  presenter_type: professional_company
+  confidence: medium
+  reasoning: Carnatic flute concert presented by CMANA.
+  model: hand-classified (scheduled routine was unavailable)
+  classified_at: '2026-08-19'
 validation:
   passed: false
   checks:

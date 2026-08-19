@@ -1,5 +1,5 @@
 id: 2026-09-22--science-society-the-ocean
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -20,25 +20,34 @@ scraped:
     url: https://pioneerworks.org/programs/science-and-society-the-oceans-frontier
     first_seen: '2026-08-18'
     last_seen: '2026-08-19'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: Science talk.
+  model: hand-classified (scheduled routine was unavailable)
+  classified_at: '2026-08-19'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://pioneerworks.org/programs/science-and-society-the-oceans-frontier
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-19T09:10:56.857179-04:00'
+  link_checks: []
   problems:
+  - links not yet verified (offline run)
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-08-19T09:10:56.857154-04:00'
+  - classified not-relevant
+  validated_at: '2026-08-19T09:44:04.095424-04:00'
 curated:
   forms: []
   traditions: []

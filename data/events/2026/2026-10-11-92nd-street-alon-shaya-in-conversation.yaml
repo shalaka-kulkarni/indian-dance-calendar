@@ -1,5 +1,5 @@
 id: 2026-10-11-92nd-street-alon-shaya-in-conversation
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -24,28 +24,33 @@ scraped:
     url: https://www.92ny.org/event/memories-of-a-good-meal
     first_seen: '2026-08-19'
     last_seen: '2026-08-19'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: Author talk.
+  model: hand-classified (scheduled routine was unavailable)
+  classified_at: '2026-08-19'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://www.92ny.org/event/memories-of-a-good-meal
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-19T09:11:42.701386-04:00'
-  - url: https://seats.92ny.org/single/211148
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-19T09:11:44.669930-04:00'
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-08-19T09:11:42.701363-04:00'
+  - links not yet verified (offline run)
+  - classified not-relevant
+  validated_at: '2026-08-19T09:44:04.173645-04:00'
 curated:
   forms: []
   traditions: []

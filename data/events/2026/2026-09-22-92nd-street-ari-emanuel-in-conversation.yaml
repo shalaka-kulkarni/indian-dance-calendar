@@ -1,5 +1,5 @@
 id: 2026-09-22-92nd-street-ari-emanuel-in-conversation
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -23,28 +23,33 @@ scraped:
     url: https://www.92ny.org/event/ari-emanuel-with-rachel-maddow
     first_seen: '2026-08-18'
     last_seen: '2026-08-19'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: Author talk.
+  model: hand-classified (scheduled routine was unavailable)
+  classified_at: '2026-08-19'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://seats.92ny.org/single/211145
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-19T09:10:57.302970-04:00'
-  - url: https://www.92ny.org/event/ari-emanuel-with-rachel-maddow
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-19T09:10:57.533530-04:00'
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-08-19T09:10:57.302936-04:00'
+  - links not yet verified (offline run)
+  - classified not-relevant
+  validated_at: '2026-08-19T09:44:04.100276-04:00'
 curated:
   forms: []
   traditions: []

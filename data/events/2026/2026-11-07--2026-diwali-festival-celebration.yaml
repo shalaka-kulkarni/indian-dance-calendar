@@ -25,6 +25,20 @@ scraped:
     url: https://chhandayan.org/calendar/2023/11/5/dewali-festival-celebration-in-virginia-db3ge-ml6kj
     first_seen: '2026-08-18'
     last_seen: '2026-08-19'
+ai:
+  relevant: true
+  kind: community
+  art_form: music
+  traditions:
+  - folk
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: low
+  reasoning: Diwali gathering listed by a music organisation; the text names no performance, so this is
+    held rather than published.
+  model: hand-classified (scheduled routine was unavailable)
+  classified_at: '2026-08-19'
 validation:
   passed: false
   checks:

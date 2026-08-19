@@ -1,5 +1,5 @@
 id: 2026-10-16-lofte-23-nyc-south-asian-comedy
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -23,24 +23,33 @@ scraped:
     url: https://events.sulekha.com/nyc-south-asian-comedy-festival-best-of-nyc_event-in_new-york-ny_401409
     first_seen: '2026-08-19'
     last_seen: '2026-08-19'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: Stand-up comedy; not dance or music.
+  model: hand-classified (scheduled routine was unavailable)
+  classified_at: '2026-08-19'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://events.sulekha.com/nyc-south-asian-comedy-festival-best-of-nyc_event-in_new-york-ny_401409
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-19T09:11:49.680476-04:00'
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-08-19T09:11:49.680451-04:00'
+  - links not yet verified (offline run)
+  - classified not-relevant
+  validated_at: '2026-08-19T09:44:04.179221-04:00'
 curated:
   forms: []
   traditions: []

@@ -1,5 +1,5 @@
 id: 2027-04-11--ballet-hispnico-new-york
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -20,25 +20,34 @@ scraped:
     url: https://www.nycitycenter.org/events/instances/ez8b84ez/2027-04-11/2026-2027-ballet-hispanico
     first_seen: '2026-08-19'
     last_seen: '2026-08-19'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: Ballet company; not Indian dance.
+  model: hand-classified (scheduled routine was unavailable)
+  classified_at: '2026-08-19'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://www.nycitycenter.org/events/instances/ez8b84ez/2027-04-11/2026-2027-ballet-hispanico
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-19T09:12:44.831098-04:00'
+  link_checks: []
   problems:
+  - links not yet verified (offline run)
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-08-19T09:12:44.831075-04:00'
+  - classified not-relevant
+  validated_at: '2026-08-19T09:44:04.318353-04:00'
 curated:
   forms: []
   traditions: []

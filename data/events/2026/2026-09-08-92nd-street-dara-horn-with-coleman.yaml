@@ -1,5 +1,5 @@
 id: 2026-09-08-92nd-street-dara-horn-with-coleman
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -24,28 +24,33 @@ scraped:
     url: https://www.92ny.org/event/dara-horn-with-coleman-hughes
     first_seen: '2026-08-18'
     last_seen: '2026-08-19'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: Author talk.
+  model: hand-classified (scheduled routine was unavailable)
+  classified_at: '2026-08-19'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://www.92ny.org/event/dara-horn-with-coleman-hughes
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-19T09:10:17.523696-04:00'
-  - url: https://seats.92ny.org/single/210757
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-19T09:10:19.433931-04:00'
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-08-19T09:10:17.523669-04:00'
+  - links not yet verified (offline run)
+  - classified not-relevant
+  validated_at: '2026-08-19T09:44:04.013438-04:00'
 curated:
   forms: []
   traditions: []

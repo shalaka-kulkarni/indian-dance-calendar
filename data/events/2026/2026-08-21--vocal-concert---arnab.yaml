@@ -26,6 +26,20 @@ scraped:
     url: https://chhandayan.org/calendar/2026/8/14/vocal-concert-arnab-chatterjee
     first_seen: '2026-08-18'
     last_seen: '2026-08-19'
+ai:
+  relevant: true
+  kind: performance
+  art_form: music
+  traditions:
+  - classical
+  forms: []
+  music_styles:
+  - hindustani
+  presenter_type: professional_company
+  confidence: high
+  reasoning: Hindustani vocal concert at Chhandayan.
+  model: hand-classified (scheduled routine was unavailable)
+  classified_at: '2026-08-19'
 validation:
   passed: false
   checks:
