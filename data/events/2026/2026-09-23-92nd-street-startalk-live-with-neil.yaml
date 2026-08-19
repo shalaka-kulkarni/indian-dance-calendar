@@ -45,17 +45,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/neil-degrasse-tyson
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-19T07:38:11.654824-04:00'
   - url: https://seats.92ny.org/single/210946
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T07:38:13.489084-04:00'
+    checked_at: '2026-08-19T09:11:01.466479-04:00'
+  - url: https://www.92ny.org/event/neil-degrasse-tyson
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-19T09:11:01.515550-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-19T07:38:11.654796-04:00'
+  validated_at: '2026-08-19T09:11:01.466454-04:00'
 curated:
   forms: []
   traditions: []

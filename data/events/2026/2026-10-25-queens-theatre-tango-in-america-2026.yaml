@@ -48,11 +48,11 @@ validation:
   - url: https://queenstheatre.org/events/tango-in-america-2026-8l3s
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T07:39:12.761352-04:00'
+    checked_at: '2026-08-19T09:12:06.181435-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-19T07:39:12.761325-04:00'
+  validated_at: '2026-08-19T09:12:06.181406-04:00'
 curated:
   forms: []
   traditions: []

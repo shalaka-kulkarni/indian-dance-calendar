@@ -49,11 +49,11 @@ validation:
   - url: https://queenstheatre.org/events/las-anez-ryt7
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T07:38:47.583611-04:00'
+    checked_at: '2026-08-19T09:11:39.669515-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-19T07:38:47.583585-04:00'
+  validated_at: '2026-08-19T09:11:39.669486-04:00'
 curated:
   forms: []
   traditions: []

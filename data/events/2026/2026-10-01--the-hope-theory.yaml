@@ -35,11 +35,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/6sddaq20/2026-10-01/2026-2027-the-hope-theory
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T07:38:36.230716-04:00'
+    checked_at: '2026-08-19T09:11:21.125271-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-19T07:38:36.230691-04:00'
+  validated_at: '2026-08-19T09:11:21.125244-04:00'
 curated:
   forms: []
   traditions: []

@@ -55,10 +55,10 @@ validation:
   - url: https://www.sopacnow.org/events/peter-pan-2027/
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T07:39:56.800811-04:00'
+    checked_at: '2026-08-19T09:12:43.637541-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-19T07:39:56.800786-04:00'
+  validated_at: '2026-08-19T09:12:43.637517-04:00'
 curated:
   forms: []
   traditions: []

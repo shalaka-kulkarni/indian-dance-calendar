@@ -34,11 +34,11 @@ validation:
   - url: https://pioneerworks.org/programs/horse-lords
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T07:38:45.342307-04:00'
+    checked_at: '2026-08-19T09:11:38.658720-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-19T07:38:45.342279-04:00'
+  validated_at: '2026-08-19T09:11:38.658694-04:00'
 curated:
   forms: []
   traditions: []

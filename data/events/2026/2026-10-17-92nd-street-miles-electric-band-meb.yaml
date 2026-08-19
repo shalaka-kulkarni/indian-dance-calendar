@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/210428
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T07:38:59.760679-04:00'
+    checked_at: '2026-08-19T09:11:50.074730-04:00'
   - url: https://www.92ny.org/event/miles-electric-band-electric-miles
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T07:38:59.842585-04:00'
+    checked_at: '2026-08-19T09:11:50.159933-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-19T07:38:59.760650-04:00'
+  validated_at: '2026-08-19T09:11:50.074703-04:00'
 curated:
   forms: []
   traditions: []

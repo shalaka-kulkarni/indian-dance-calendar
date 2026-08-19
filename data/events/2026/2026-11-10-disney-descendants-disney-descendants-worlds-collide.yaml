@@ -49,11 +49,11 @@ validation:
   - url: https://www.prucenter.com/events/disney-worlds-collide-concert-tour
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T07:39:36.108771-04:00'
+    checked_at: '2026-08-19T09:12:23.763064-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-19T07:39:36.108744-04:00'
+  validated_at: '2026-08-19T09:12:23.763038-04:00'
 curated:
   forms: []
   traditions: []
