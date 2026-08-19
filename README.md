@@ -1,5 +1,13 @@
 # Rasa Calendar — Indian performing arts in New York
 
+### 🔗 **[rasa calendar → shalaka-kulkarni.github.io/indian-dance-calendar](https://shalaka-kulkarni.github.io/indian-dance-calendar/)**
+
+| | |
+|---|---|
+| **Live site** | https://shalaka-kulkarni.github.io/indian-dance-calendar/ |
+| **Calendar feed** | `webcal://shalaka-kulkarni.github.io/indian-dance-calendar/calendar.ics` |
+| **Refreshes** | Mon / Wed / Fri, ~7am ET, unattended |
+
 A self-updating public calendar of Indian dance and music across the New York
 metro: classical, semi-classical and fusion, folk, contemporary, and film and
 popular repertoire — merged from ~40 venue calendars, listings, platform APIs,
