@@ -23,7 +23,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/unveiled-26/
     first_seen: '2026-08-16'
-    last_seen: '2026-08-18'
+    last_seen: '2026-08-19'
 ai:
   relevant: false
   kind: other
@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/unveiled-26/
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:52:22.580925-04:00'
+    checked_at: '2026-08-19T07:37:40.354766-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-18T11:52:22.580903-04:00'
+  validated_at: '2026-08-19T07:37:40.354744-04:00'
 curated:
   forms: []
   traditions: []

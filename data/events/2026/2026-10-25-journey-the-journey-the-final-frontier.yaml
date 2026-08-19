@@ -21,7 +21,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/journey
     first_seen: '2026-08-16'
-    last_seen: '2026-08-18'
+    last_seen: '2026-08-19'
 ai:
   relevant: false
   kind: other
@@ -49,11 +49,11 @@ validation:
   - url: https://www.prucenter.com/events/journey
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:55:10.508381-04:00'
+    checked_at: '2026-08-19T07:39:12.482607-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-18T11:55:10.508359-04:00'
+  validated_at: '2026-08-19T07:39:12.482581-04:00'
 curated:
   forms: []
   traditions: []

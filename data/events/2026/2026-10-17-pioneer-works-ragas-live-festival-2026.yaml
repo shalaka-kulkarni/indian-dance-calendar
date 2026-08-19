@@ -25,7 +25,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/ragas-live-festival-2026
     first_seen: '2026-08-18'
-    last_seen: '2026-08-18'
+    last_seen: '2026-08-19'
 ai:
   relevant: true
   kind: festival
@@ -56,14 +56,14 @@ validation:
   - url: https://www.eventbrite.com/e/ragas-live-festival-2026-tickets-1989613275867
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:53:41.456413-04:00'
+    checked_at: '2026-08-19T07:39:04.547433-04:00'
   - url: https://pioneerworks.org/programs/ragas-live-festival-2026
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:53:41.611748-04:00'
+    checked_at: '2026-08-19T07:39:04.766285-04:00'
   problems:
   - no price information
-  validated_at: '2026-08-18T11:53:41.456386-04:00'
+  validated_at: '2026-08-19T07:39:04.547401-04:00'
 curated:
   forms: []
   art_form: music

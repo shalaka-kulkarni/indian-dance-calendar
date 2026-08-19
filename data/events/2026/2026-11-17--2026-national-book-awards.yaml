@@ -1,0 +1,48 @@
+id: 2026-11-17--2026-national-book-awards
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 2026 National Book Awards Finalist Reading
+  start: '2026-11-17T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://nyuskirball.org/performance/2026-national-book-awards/
+  ticket_url: ''
+  description_snippet: Tue Nov 17 2026 National Book Awards Finalist Reading National Book Foundation
+    & NYU Creative Writing Program Learn More
+  content_hash: bcfd902d685bb511
+  sources:
+  - source_id: skirball
+    url: https://nyuskirball.org/performance/2026-national-book-awards/
+    first_seen: '2026-08-19'
+    last_seen: '2026-08-19'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://nyuskirball.org/performance/2026-national-book-awards/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-19T07:39:44.128527-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-19T07:39:44.128498-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

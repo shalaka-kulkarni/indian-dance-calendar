@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/michelle-friedman-with-rabbi-david-ingber
     first_seen: '2026-08-16'
-    last_seen: '2026-08-18'
+    last_seen: '2026-08-19'
 ai:
   relevant: false
   kind: other
@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/michelle-friedman-with-rabbi-david-ingber
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-18T11:55:33.938900-04:00'
   - url: https://seats.92ny.org/single/210723
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:55:35.909514-04:00'
+    checked_at: '2026-08-19T07:39:44.501061-04:00'
+  - url: https://www.92ny.org/event/michelle-friedman-with-rabbi-david-ingber
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-19T07:39:44.607312-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-18T11:55:33.938874-04:00'
+  validated_at: '2026-08-19T07:39:44.501038-04:00'
 curated:
   forms: []
   traditions: []

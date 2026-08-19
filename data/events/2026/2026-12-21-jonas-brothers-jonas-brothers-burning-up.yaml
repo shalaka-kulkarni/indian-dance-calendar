@@ -21,7 +21,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/jonas-brothers
     first_seen: '2026-08-18'
-    last_seen: '2026-08-18'
+    last_seen: '2026-08-19'
 validation:
   passed: false
   checks:
@@ -36,11 +36,11 @@ validation:
   - url: https://www.prucenter.com/events/jonas-brothers
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:55:44.638570-04:00'
+    checked_at: '2026-08-19T07:39:54.209090-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-18T11:55:44.638551-04:00'
+  validated_at: '2026-08-19T07:39:54.209060-04:00'
 curated:
   forms: []
   traditions: []

@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/carlo-rovelli-on-the-equality-of-all-things
     first_seen: '2026-08-16'
-    last_seen: '2026-08-18'
+    last_seen: '2026-08-19'
 ai:
   relevant: false
   kind: other
@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/211052
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:52:16.815658-04:00'
+    checked_at: '2026-08-19T07:37:38.454730-04:00'
   - url: https://www.92ny.org/event/carlo-rovelli-on-the-equality-of-all-things
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:52:16.843478-04:00'
+    checked_at: '2026-08-19T07:37:38.537048-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-18T11:52:16.815636-04:00'
+  validated_at: '2026-08-19T07:37:38.454705-04:00'
 curated:
   forms: []
   traditions: []

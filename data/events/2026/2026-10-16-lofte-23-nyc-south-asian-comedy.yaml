@@ -1,0 +1,49 @@
+id: 2026-10-16-lofte-23-nyc-south-asian-comedy
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Nyc South Asian Comedy Festival - Best Of Nyc
+  start: '2026-10-16T19:00:00-04:00'
+  end: '2026-10-17T01:00:00-04:00'
+  additional_dates: []
+  venue: LOFTE 23 NYC
+  address: 22 West 23rd Street, New York, NY
+  region: manhattan
+  price_min: 20.0
+  price_max: 20.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/nyc-south-asian-comedy-festival-best-of-nyc_event-in_new-york-ny_401409
+  ticket_url: https://events.sulekha.com/nyc-south-asian-comedy-festival-best-of-nyc_event-in_new-york-ny_401409
+  description_snippet: Nyc South Asian Comedy Festival - Best Of Nyc
+  content_hash: 99d99537f5ec0820
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/nyc-south-asian-comedy-festival-best-of-nyc_event-in_new-york-ny_401409
+    first_seen: '2026-08-19'
+    last_seen: '2026-08-19'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/nyc-south-asian-comedy-festival-best-of-nyc_event-in_new-york-ny_401409
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-19T07:38:59.064428-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-19T07:38:59.064397-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

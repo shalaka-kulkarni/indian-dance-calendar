@@ -23,7 +23,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/false-harmonics-28-currawong-project-by-matthias-kriesberg-and-kevin-larke-feat-han-chen-arseniy
     first_seen: '2026-08-18'
-    last_seen: '2026-08-18'
+    last_seen: '2026-08-19'
 validation:
   passed: false
   checks:
@@ -38,11 +38,11 @@ validation:
   - url: https://pioneerworks.org/programs/false-harmonics-28-currawong-project-by-matthias-kriesberg-and-kevin-larke-feat-han-chen-arseniy
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:55:11.762383-04:00'
+    checked_at: '2026-08-19T07:39:13.904828-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-18T11:55:11.762359-04:00'
+  validated_at: '2026-08-19T07:39:13.904802-04:00'
 curated:
   forms: []
   traditions: []

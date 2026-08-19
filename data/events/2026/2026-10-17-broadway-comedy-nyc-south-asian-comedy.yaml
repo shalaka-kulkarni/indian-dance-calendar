@@ -1,0 +1,50 @@
+id: 2026-10-17-broadway-comedy-nyc-south-asian-comedy
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Nyc South Asian Comedy Festival Roast Battle – India Vs Pakistan Vs Bangladesh Vs Sri Lanka.
+  start: '2026-10-17T21:00:00-04:00'
+  end: '2026-10-17T23:30:00-04:00'
+  additional_dates: []
+  venue: Broadway Comedy Club, Red Room
+  address: 318 W 53rd St, New York, NY
+  region: manhattan
+  price_min: 25.0
+  price_max: 25.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/nyc-south-asian-comedy-festival-roast-battle-india-vs-pakistan-vs-bangladesh-vs-sri-lanka_event-in_new-york-ny_401411
+  ticket_url: https://events.sulekha.com/nyc-south-asian-comedy-festival-roast-battle-india-vs-pakistan-vs-bangladesh-vs-sri-lanka_event-in_new-york-ny_401411
+  description_snippet: Nyc South Asian Comedy Festival Roast Battle – India Vs Pakistan Vs Bangladesh
+    Vs Sri Lanka.
+  content_hash: 5411a55a9cdfbc77
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/nyc-south-asian-comedy-festival-roast-battle-india-vs-pakistan-vs-bangladesh-vs-sri-lanka_event-in_new-york-ny_401411
+    first_seen: '2026-08-19'
+    last_seen: '2026-08-19'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/nyc-south-asian-comedy-festival-roast-battle-india-vs-pakistan-vs-bangladesh-vs-sri-lanka_event-in_new-york-ny_401411
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-19T07:39:04.282004-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-19T07:39:04.281978-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

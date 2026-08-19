@@ -21,7 +21,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/bryson-tiller
     first_seen: '2026-08-16'
-    last_seen: '2026-08-18'
+    last_seen: '2026-08-19'
 ai:
   relevant: false
   kind: other
@@ -49,11 +49,11 @@ validation:
   - url: https://www.prucenter.com/events/bryson-tiller
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:52:32.304039-04:00'
+    checked_at: '2026-08-19T07:37:52.608328-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-18T11:52:32.304020-04:00'
+  validated_at: '2026-08-19T07:37:52.608303-04:00'
 curated:
   forms: []
   traditions: []

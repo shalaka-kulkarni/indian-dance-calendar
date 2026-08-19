@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/a-winged-victory-for-the-sullen
     first_seen: '2026-08-18'
-    last_seen: '2026-08-18'
+    last_seen: '2026-08-19'
 validation:
   passed: false
   checks:
@@ -34,11 +34,11 @@ validation:
   - url: https://pioneerworks.org/programs/a-winged-victory-for-the-sullen
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:52:50.277236-04:00'
+    checked_at: '2026-08-19T07:38:21.444756-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-18T11:52:50.277212-04:00'
+  validated_at: '2026-08-19T07:38:21.444727-04:00'
 curated:
   forms: []
   traditions: []

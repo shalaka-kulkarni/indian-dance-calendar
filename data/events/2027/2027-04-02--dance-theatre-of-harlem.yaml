@@ -1,0 +1,48 @@
+id: 2027-04-02--dance-theatre-of-harlem
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Dance Theatre of Harlem
+  start: '2027-04-02T22:30:00Z'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.nycitycenter.org/events/instances/ab2s119e/2027-04-02/2026-2027-dance-theatre-of-harlem
+  ticket_url: ''
+  description_snippet: Renowned for its powerful artistry and visionary approach to ballet, DTH brings
+    thrilling contemporary works and reimagined classics to life
+  content_hash: ca555f8c0ab6ff69
+  sources:
+  - source_id: city_center
+    url: https://www.nycitycenter.org/events/instances/ab2s119e/2027-04-02/2026-2027-dance-theatre-of-harlem
+    first_seen: '2026-08-19'
+    last_seen: '2026-08-19'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.nycitycenter.org/events/instances/ab2s119e/2027-04-02/2026-2027-dance-theatre-of-harlem
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-19T07:39:57.103390-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-19T07:39:57.103360-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/science-and-society-the-oceans-frontier
     first_seen: '2026-08-18'
-    last_seen: '2026-08-18'
+    last_seen: '2026-08-19'
 validation:
   passed: false
   checks:
@@ -34,11 +34,11 @@ validation:
   - url: https://pioneerworks.org/programs/science-and-society-the-oceans-frontier
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:52:39.669583-04:00'
+    checked_at: '2026-08-19T07:38:02.141806-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-18T11:52:39.669549-04:00'
+  validated_at: '2026-08-19T07:38:02.141782-04:00'
 curated:
   forms: []
   traditions: []

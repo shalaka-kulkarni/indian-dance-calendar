@@ -21,7 +21,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/opening-reception-for-tuomas-a-laitinen-lajune-mcmillian-and-finnegan-shannon-with-ariana
     first_seen: '2026-08-18'
-    last_seen: '2026-08-18'
+    last_seen: '2026-08-19'
 validation:
   passed: false
   checks:
@@ -36,11 +36,11 @@ validation:
   - url: https://pioneerworks.org/programs/opening-reception-for-tuomas-a-laitinen-lajune-mcmillian-and-finnegan-shannon-with-ariana
     ok: true
     status_code: 200
-    checked_at: '2026-08-18T11:52:11.382363-04:00'
+    checked_at: '2026-08-19T07:37:32.878270-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-18T11:52:11.382342-04:00'
+  validated_at: '2026-08-19T07:37:32.878242-04:00'
 curated:
   forms: []
   traditions: []

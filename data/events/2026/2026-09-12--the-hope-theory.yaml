@@ -1,0 +1,48 @@
+id: 2026-09-12--the-hope-theory
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: The Hope Theory
+  start: '2026-09-12T18:30:00Z'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.nycitycenter.org/events/instances/revcwnbf/2026-09-12/2026-2027-the-hope-theory
+  ticket_url: ''
+  description_snippet: A new theatrical event offering a unique perspective on America through the eyes
+    of an optimistic outsider
+  content_hash: 2e532528baf67416
+  sources:
+  - source_id: city_center
+    url: https://www.nycitycenter.org/events/instances/revcwnbf/2026-09-12/2026-2027-the-hope-theory
+    first_seen: '2026-08-19'
+    last_seen: '2026-08-19'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.nycitycenter.org/events/instances/revcwnbf/2026-09-12/2026-2027-the-hope-theory
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-19T07:37:33.472748-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-19T07:37:33.472723-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}
