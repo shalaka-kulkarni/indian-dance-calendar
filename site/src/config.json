@@ -1,4 +1,4 @@
 {
-  "buttondownUsername": "",
-  "_comment": "Set buttondownUsername to your Buttondown account name to switch on the email signup form across the site. Until it is set, no form is rendered — an inert form that silently drops addresses is worse than none."
+  "buttondownUsername": "shalakakulkarni",
+  "_comment": "Buttondown account name. Switches on the email signup form across the site. If cleared, no form is rendered — an inert form that silently drops addresses is worse than none."
 }
