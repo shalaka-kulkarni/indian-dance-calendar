@@ -1,6 +1,6 @@
 id: 2026-09-20--vignesh-ishwar
-status: needs_attention
-was_published: false
+status: published
+was_published: true
 needs_recheck: false
 scraped:
   title: Vignesh Ishwar
@@ -35,7 +35,7 @@ ai:
   model: hand-classified (scheduled routine was unavailable)
   classified_at: '2026-08-19'
 validation:
-  passed: false
+  passed: true
   checks:
     has_info_url: true
     specific_url: true
@@ -43,16 +43,15 @@ validation:
     date_valid: true
     price_known: false
     in_metro: true
-    classified: false
+    classified: true
   link_checks:
   - url: https://www.cmana.org/etn/vignesh-ishwar/
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T09:10:55.458443-04:00'
+    checked_at: '2026-08-19T09:45:35.565513-04:00'
   problems:
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-08-19T09:10:55.458417-04:00'
+  validated_at: '2026-08-19T09:45:35.565485-04:00'
 curated:
   forms: []
   traditions: []

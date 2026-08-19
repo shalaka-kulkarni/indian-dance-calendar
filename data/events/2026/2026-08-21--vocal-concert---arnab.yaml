@@ -1,6 +1,6 @@
 id: 2026-08-21--vocal-concert---arnab
-status: needs_attention
-was_published: false
+status: published
+was_published: true
 needs_recheck: false
 scraped:
   title: Vocal Concert - Arnab Chatterjee
@@ -41,7 +41,7 @@ ai:
   model: hand-classified (scheduled routine was unavailable)
   classified_at: '2026-08-19'
 validation:
-  passed: false
+  passed: true
   checks:
     has_info_url: true
     specific_url: true
@@ -49,16 +49,15 @@ validation:
     date_valid: true
     price_known: false
     in_metro: true
-    classified: false
+    classified: true
   link_checks:
   - url: https://chhandayan.org/calendar/2026/8/14/vocal-concert-arnab-chatterjee
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T09:10:10.608817-04:00'
+    checked_at: '2026-08-19T09:44:56.661444-04:00'
   problems:
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-08-19T09:10:10.608791-04:00'
+  validated_at: '2026-08-19T09:44:56.661420-04:00'
 curated:
   forms: []
   traditions: []

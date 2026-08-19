@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/211034
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T09:12:07.724301-04:00'
+    checked_at: '2026-08-19T09:46:43.368355-04:00'
   - url: https://www.92ny.org/event/narratives-let-go-of-the-stories-that-keep-you-stuck
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T09:12:07.829519-04:00'
+    checked_at: '2026-08-19T09:46:43.389051-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-19T09:12:07.724274-04:00'
+  validated_at: '2026-08-19T09:46:43.368328-04:00'
 curated:
   forms: []
   traditions: []
