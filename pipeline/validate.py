@@ -7,7 +7,6 @@ events get re-checked on every healthcheck run:
   3. date_valid       — parseable date, in the future (or currently running)
   4. in_metro         — venue/address resolves to the NYC-metro region
   5. classified       — Claude marked it relevant with medium+ confidence
-                        (or the source is assume_relevant with any classification)
 
 `price_known` is recorded but is NOT blocking: plenty of real listings (free
 library lectures, programmes announced before tickets go on sale) never state a
@@ -155,9 +154,12 @@ def validate_event(
     elif not event.ai.relevant:
         checks["classified"] = False
         problems.append("classified not-relevant")
-    elif assume_relevant:
-        checks["classified"] = True
     else:
+        # A source that only ever lists Indian arts vouches for the SUBJECT, not
+        # for the listing being an event at all — its calendar also carries class
+        # terms, socials and appeals. Low confidence means the text was too thin
+        # to tell, and that holds everywhere. assume_relevant still shapes the
+        # classifier's prompt; it no longer waves a listing past this gate.
         checks["classified"] = event.ai.confidence in (Confidence.HIGH, Confidence.MEDIUM)
         if not checks["classified"]:
             problems.append("relevance confidence too low for auto-publish")

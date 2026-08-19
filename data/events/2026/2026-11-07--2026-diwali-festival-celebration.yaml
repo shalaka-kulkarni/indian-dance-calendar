@@ -1,5 +1,5 @@
 id: 2026-11-07--2026-diwali-festival-celebration
-status: published
+status: needs_attention
 was_published: true
 needs_recheck: false
 scraped:
@@ -40,23 +40,21 @@ ai:
   model: hand-classified (scheduled routine was unavailable)
   classified_at: '2026-08-19'
 validation:
-  passed: true
+  passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: false
     in_metro: true
-    classified: true
-  link_checks:
-  - url: https://chhandayan.org/calendar/2023/11/5/dewali-festival-celebration-in-virginia-db3ge-ml6kj
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-19T09:46:53.614547-04:00'
+    classified: false
+  link_checks: []
   problems:
+  - links not yet verified (offline run)
   - no price information
-  validated_at: '2026-08-19T09:46:53.614519-04:00'
+  - relevance confidence too low for auto-publish
+  validated_at: '2026-08-19T09:54:46.451889-04:00'
 curated:
   forms: []
   traditions: []

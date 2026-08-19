@@ -199,3 +199,19 @@ def test_a_head_failure_still_publishes_when_get_succeeds():
 
     check = check_link(HeadHostileClient(), "https://example.org/e")
     assert check.ok and check.status_code == 200
+
+
+def test_low_confidence_is_held_even_at_a_trusted_source(sample_event):
+    """assume_relevant vouches for the subject, not for the listing being an
+    event. A dance-and-music organisation's calendar also carries class terms
+    and socials, and thin text on one of those must not auto-publish."""
+    sample_event.ai = relevant_ai(confidence=Confidence.LOW)
+    result = validate_event(sample_event, assume_relevant=True, check_links=False, now=NOW)
+    assert result.checks["classified"] is False
+    assert any("confidence" in p for p in result.problems)
+
+
+def test_medium_confidence_still_publishes_at_a_trusted_source(sample_event):
+    sample_event.ai = relevant_ai(confidence=Confidence.MEDIUM)
+    result = validate_event(sample_event, assume_relevant=True, check_links=False, now=NOW)
+    assert result.checks["classified"] is True
