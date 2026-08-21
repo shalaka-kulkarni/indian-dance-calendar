@@ -126,6 +126,13 @@
 
 * { box-sizing: border-box; }
 
+/* The `hidden` attribute carries `display: none` only from the UA stylesheet,
+   at the lowest possible specificity, so ANY author `display:` rule silently
+   beats it. That is how filtered-out event cards stayed on the page while the
+   counter correctly reported them as filtered out. Every element that hides
+   itself with `hidden` needs this. */
+[hidden] { display: none !important; }
+
 body {
   margin: 0;
   background: var(--bg);
