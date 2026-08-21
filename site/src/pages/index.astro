@@ -277,6 +277,7 @@ const TITLE = 'Rasa Calendar — every Indian dance and music event across the N
         <p>
           <a href={`${base}/about`}>About &amp; how to subscribe</a>
         </p>
+        <p class="byline">Created and maintained by Shalaka Kulkarni.</p>
       </div>
     </footer>
 
@@ -688,6 +689,10 @@ const TITLE = 'Rasa Calendar — every Indian dance and music event across the N
         letter-spacing: .1em; color: var(--ink); margin: 0 0 .6rem;
       }
       .disclaimer-long p { margin: 0 0 .7rem; font-size: .82rem; line-height: 1.55; }
+      footer .byline {
+        margin-top: 1.2rem; padding-top: .9rem;
+        border-top: 3px solid var(--rule-soft); color: var(--ink-muted);
+      }
       footer a { color: var(--link); }
 
       @media (prefers-reduced-motion: reduce) {

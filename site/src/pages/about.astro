@@ -64,6 +64,8 @@ const approxSources = Math.round(data.sourceCount / 10) * 10;
       <Subscribe variant="about" />
 
       <Disclaimer variant="long" />
+
+      <p class="byline">Created and maintained by Shalaka Kulkarni.</p>
     </main>
 
     <footer>
@@ -123,6 +125,10 @@ const approxSources = Math.round(data.sourceCount / 10) * 10;
         padding-left: .7rem;
       }
       .disclaimer-long p { color: var(--ink-muted); }
+      .byline {
+        margin-top: 2rem; padding-top: 1.1rem;
+        border-top: 3px solid var(--rule-soft); color: var(--ink-muted);
+      }
     </style>
   </body>
 </html>
