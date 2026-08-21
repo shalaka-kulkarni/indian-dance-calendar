@@ -25,13 +25,17 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
     <main class="wrap">
       <p class="lede">
-        Indian dance and music events in the New York area are announced in two
-        separate places. Community organisations post festivals, garba nights
-        and recitals on their own sites and mailing lists, while large venues
-        such as Carnegie Hall and the Joyce list Indian artists in their general
-        programmes. Someone who follows one of these rarely sees the other, so
-        events are easy to miss even when you are looking for them. This site
-        collects both into one calendar.
+        New York City and the metro area around it are full of chances to stay
+        close to Indian dance and music, whether you grew up with these forms in
+        the diaspora or are meeting them for the first time. There is no single
+        place that gathers them all. I kept finding out about events I would
+        happily have gone to only after they had happened, because I had no
+        reliable way of hearing about them in time.
+      </p>
+      <p class="lede">
+        Rasa Calendar is my attempt at fixing that for myself and for anyone
+        else with the same problem. It is a personal project, put together in
+        my spare time.
       </p>
 
       <h2>What's here</h2>
@@ -44,16 +48,12 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         with performances you will find festivals, talks, workshops and
         community events such as garba nights and Diwali programmes.
       </p>
-
-      <h2>How it stays current</h2>
       <p>
-        Automated sweeps read {data.sourceCount} venue calendars and listings
-        three times a week, and a weekly search looks for events outside them.
-        Each event's links are checked before it appears here and again
-        afterwards, and an event is only listed once it has a working page of
-        its own. Events move to <strong>Past events</strong> on their own once
-        the date passes, and stay there for six months. Please treat the venue's
-        own page as the final word on dates, prices and tickets.
+        The calendar checks {data.sourceCount} venue calendars and listings
+        three times a week, on Monday, Wednesday and Friday. Past events move to
+        <strong>Past events</strong> on their own and stay there for six months.
+        Please treat the venue's own page as the final word on dates, prices and
+        tickets.
       </p>
 
       <h2>Get it by email</h2>
