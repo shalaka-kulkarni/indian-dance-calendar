@@ -59,10 +59,28 @@ jobs:
         run: |
           uv run python -m pipeline.run report > report.txt || true
           cat report.txt
-          # Open an issue only when something needs eyes.
+
+          # One long-lived issue that tracks the queue, rather than a new issue
+          # every week restating the same two events. Reopened and rewritten
+          # when the queue is non-empty, closed when it clears.
+          TITLE="Healthcheck: events need attention"
+          EXISTING=$(gh issue list --state all --limit 20 \
+            --search "\"$TITLE\" in:title" --json number,state \
+            --jq 'first(.[]) | .number' 2>/dev/null || true)
+
           if grep -q "needs_attention queue (0)" report.txt; then
             echo "queue empty"
+            if [ -n "$EXISTING" ]; then
+              gh issue close "$EXISTING" \
+                --comment "Queue cleared as of $(date -u +'%F %H:%M UTC')." || true
+            fi
           else
-            gh issue create --title "Healthcheck: events need attention $(date +%F)" \
-              --body "$(printf '```\n%s\n```' "$(cat report.txt)")" || true
+            BODY=$(printf 'Updated %s by the weekly healthcheck.\n\n```\n%s\n```' \
+              "$(date -u +'%F %H:%M UTC')" "$(cat report.txt)")
+            if [ -n "$EXISTING" ]; then
+              gh issue edit "$EXISTING" --title "$TITLE" --body "$BODY" || true
+              gh issue reopen "$EXISTING" 2>/dev/null || true
+            else
+              gh issue create --title "$TITLE" --body "$BODY" || true
+            fi
           fi
