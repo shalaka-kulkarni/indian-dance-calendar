@@ -49,11 +49,11 @@ validation:
   - url: https://www.prucenter.com/events/chayanne
     ok: true
     status_code: 200
-    checked_at: '2026-08-19T10:38:43.511081-04:00'
+    checked_at: '2026-08-20T23:57:22.655833-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-19T10:38:43.511046-04:00'
+  validated_at: '2026-08-20T23:57:22.655807-04:00'
 curated:
   forms: []
   traditions: []
