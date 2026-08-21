@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/malcolm-gladwell-in-conversation-the-american-way-of-killing
     first_seen: '2026-08-16'
-    last_seen: '2026-08-19'
+    last_seen: '2026-08-21'
 ai:
   relevant: false
   kind: other
@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/malcolm-gladwell-in-conversation-the-american-way-of-killing
     ok: true
     status_code: 200
-    checked_at: '2026-08-20T23:58:28.477542-04:00'
+    checked_at: '2026-08-21T07:39:27.270882-04:00'
   - url: https://seats.92ny.org/single/210650
     ok: true
     status_code: 200
-    checked_at: '2026-08-20T23:58:30.409479-04:00'
+    checked_at: '2026-08-21T07:39:27.402671-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-20T23:58:28.477514-04:00'
+  validated_at: '2026-08-21T07:39:27.270856-04:00'
 curated:
   forms: []
   traditions: []

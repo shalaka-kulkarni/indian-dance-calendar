@@ -1,0 +1,49 @@
+id: 2026-10-10-mitchel-athletic-dandiya-night-with-garba
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Dandiya Night With Garba Queen Foram Shah & Group In Niew York
+  start: '2026-10-10T19:00:00-04:00'
+  end: '2026-10-10T23:00:00-04:00'
+  additional_dates: []
+  venue: Mitchel Athletic Complex
+  address: 1 Charles Lindbergh Blvd, Uniondale, NY
+  region: long_island
+  price_min: 20.0
+  price_max: 20.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/dandiya-night-with-garba-queen-foram-shah-group-in-niew-york_event-in_uniondale-ny_401416
+  ticket_url: https://events.sulekha.com/dandiya-night-with-garba-queen-foram-shah-group-in-niew-york_event-in_uniondale-ny_401416
+  description_snippet: Dandiya Night With Garba Queen Foram Shah & Group In Niew York
+  content_hash: 341f36af1e2dd9d6
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/dandiya-night-with-garba-queen-foram-shah-group-in-niew-york_event-in_uniondale-ny_401416
+    first_seen: '2026-08-21'
+    last_seen: '2026-08-21'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/dandiya-night-with-garba-queen-foram-shah-group-in-niew-york_event-in_uniondale-ny_401416
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-21T07:39:37.740412-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-21T07:39:37.740384-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

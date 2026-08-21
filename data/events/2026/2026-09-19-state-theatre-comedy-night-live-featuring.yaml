@@ -27,7 +27,7 @@ scraped:
   - source_id: state_theatre_nj
     url: https://www.stnj.org/events/detail/comedy-night-live-2027
     first_seen: '2026-08-16'
-    last_seen: '2026-08-18'
+    last_seen: '2026-08-21'
 ai:
   relevant: false
   kind: other
@@ -52,17 +52,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://my.stnj.org/25277/25278
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-20T23:57:52.947342-04:00'
   - url: https://www.stnj.org/events/detail/comedy-night-live-2027
     ok: true
     status_code: 406
-    checked_at: '2026-08-20T23:57:54.869082-04:00'
+    checked_at: '2026-08-21T07:39:09.453326-04:00'
+  - url: https://my.stnj.org/25277/25278
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-21T07:39:09.580808-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-20T23:57:52.947314-04:00'
+  validated_at: '2026-08-21T07:39:09.453301-04:00'
 curated:
   forms: []
   traditions: []

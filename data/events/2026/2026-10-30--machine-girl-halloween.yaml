@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/machine-girl
     first_seen: '2026-08-18'
-    last_seen: '2026-08-19'
+    last_seen: '2026-08-21'
 ai:
   relevant: false
   kind: performance
@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/machine-girl
     ok: true
     status_code: 200
-    checked_at: '2026-08-20T23:59:29.855000-04:00'
+    checked_at: '2026-08-21T07:39:58.354289-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-20T23:59:29.854973-04:00'
+  validated_at: '2026-08-21T07:39:58.354265-04:00'
 curated:
   forms: []
   traditions: []

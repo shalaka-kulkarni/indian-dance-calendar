@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/harry-connick-jr-babe-elaboratio
     first_seen: '2026-08-16'
-    last_seen: '2026-08-19'
+    last_seen: '2026-08-21'
 ai:
   relevant: false
   kind: other
@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/211068
     ok: true
     status_code: 200
-    checked_at: '2026-08-20T23:58:26.494187-04:00'
+    checked_at: '2026-08-21T07:39:27.047196-04:00'
   - url: https://www.92ny.org/event/harry-connick-jr-babe-elaboratio
     ok: true
     status_code: 200
-    checked_at: '2026-08-20T23:58:26.544776-04:00'
+    checked_at: '2026-08-21T07:39:27.123343-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-20T23:58:26.494160-04:00'
+  validated_at: '2026-08-21T07:39:27.047171-04:00'
 curated:
   forms: []
   traditions: []

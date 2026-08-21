@@ -1,0 +1,50 @@
+id: 2026-09-25-jeanne-rimsky-last-over---comedy
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Last Over - Comedy Play With Dhurandhar Rakesh Bedi & Anant Mahadevan Live In Ny
+  start: '2026-09-25T20:00:00-04:00'
+  end: '2026-09-25T22:00:00-04:00'
+  additional_dates: []
+  venue: Jeanne Rimsky Theater
+  address: 232 Main St, Port Washington, NY
+  region: unknown
+  price_min: 35.0
+  price_max: 35.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/last-over-comedy-play-with-dhurandhar-rakesh-bedi-anant-mahadevan-live-in-ny_event-in_port-washington-ny_401449
+  ticket_url: https://events.sulekha.com/last-over-comedy-play-with-dhurandhar-rakesh-bedi-anant-mahadevan-live-in-ny_event-in_port-washington-ny_401449
+  description_snippet: Last Over - Comedy Play With Dhurandhar Rakesh Bedi & Anant Mahadevan Live In Ny
+  content_hash: 8968077c86cdc72a
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/last-over-comedy-play-with-dhurandhar-rakesh-bedi-anant-mahadevan-live-in-ny_event-in_port-washington-ny_401449
+    first_seen: '2026-08-21'
+    last_seen: '2026-08-21'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/last-over-comedy-play-with-dhurandhar-rakesh-bedi-anant-mahadevan-live-in-ny_event-in_port-washington-ny_401449
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-21T07:39:24.140084-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-08-21T07:39:24.140059-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

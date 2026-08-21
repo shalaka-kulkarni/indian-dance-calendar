@@ -1,0 +1,53 @@
+id: 2026-09-10-92nd-street-netflixs-best-of-the
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Netflix’s Best of the Best : Special Screening and Cast and Creators in Conversation'
+  start: '2026-09-10T19:00:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 40.0
+  price_max: 40.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/netflix-s-best-of-the-best
+  ticket_url: https://seats.92ny.org/single/211152
+  description_snippet: Join the cast and creators of Best of the Best for an advance screening and conversation
+    about the new Bollywood-fusion dance comedy, friendship, and ambition.
+  content_hash: 950cfec52ba9aa25
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/netflix-s-best-of-the-best
+    first_seen: '2026-08-21'
+    last_seen: '2026-08-21'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/netflix-s-best-of-the-best
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-21T07:38:47.763981-04:00'
+  - url: https://seats.92ny.org/single/211152
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-21T07:38:47.857108-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-21T07:38:47.763957-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

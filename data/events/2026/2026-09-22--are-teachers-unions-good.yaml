@@ -1,0 +1,53 @@
+id: 2026-09-22--are-teachers-unions-good
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Are Teachers Unions Good for Kids?
+  start: '2026-09-22T19:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  price_min: 18.0
+  price_max: 18.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/are-teachers-unions-good-for-kids
+  ticket_url: https://seats.92ny.org/single/211162
+  description_snippet: Kate Dias and Tommy Schultz debate unions, school choice, accountability, and the
+    future of American education, moderated by Jonathan Lemire.
+  content_hash: 6d20c2336f39ed1b
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/are-teachers-unions-good-for-kids
+    first_seen: '2026-08-21'
+    last_seen: '2026-08-21'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/are-teachers-unions-good-for-kids
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-21T07:39:12.885688-04:00'
+  - url: https://seats.92ny.org/single/211162
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-21T07:39:13.033716-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-21T07:39:12.885660-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

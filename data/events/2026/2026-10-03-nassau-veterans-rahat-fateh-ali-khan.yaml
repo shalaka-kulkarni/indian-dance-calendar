@@ -48,10 +48,10 @@ validation:
   - url: https://www.ticketmaster.com/rahat-fateh-ali-khan-uniondale-new-york-10-03-2026/event/00006486D4A6C91E
     ok: true
     status_code: 403
-    checked_at: '2026-08-20T23:58:39.233862-04:00'
+    checked_at: '2026-08-21T07:39:31.474205-04:00'
   problems:
   - no price information
-  validated_at: '2026-08-20T23:58:39.233835-04:00'
+  validated_at: '2026-08-21T07:39:31.474182-04:00'
 curated:
   forms: []
   art_form: music

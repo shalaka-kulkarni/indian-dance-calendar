@@ -1,0 +1,48 @@
+id: 2027-05-14--paris-opera-ballet
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Paris Opera Ballet
+  start: '2027-05-14T23:30:00Z'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.nycitycenter.org/events/instances/ew9bhkcf/2027-05-14/2026-2027-paris-opera-ballet
+  ticket_url: ''
+  description_snippet: The world-renowned company showcases its multi-faceted artistry with works from
+    Jerome Robbins, Rudolf Nureyev, Trisha Brown, and more
+  content_hash: 93ce35a2e943df51
+  sources:
+  - source_id: city_center
+    url: https://www.nycitycenter.org/events/instances/ew9bhkcf/2027-05-14/2026-2027-paris-opera-ballet
+    first_seen: '2026-08-21'
+    last_seen: '2026-08-21'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.nycitycenter.org/events/instances/ew9bhkcf/2027-05-14/2026-2027-paris-opera-ballet
+    ok: true
+    status_code: 429
+    checked_at: '2026-08-21T07:40:30.956298-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-21T07:40:30.956274-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

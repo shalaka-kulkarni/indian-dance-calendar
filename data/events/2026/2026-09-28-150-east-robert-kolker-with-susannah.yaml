@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/robert-kolker-the-vanishing-family
     first_seen: '2026-08-16'
-    last_seen: '2026-08-19'
+    last_seen: '2026-08-21'
 ai:
   relevant: false
   kind: other
@@ -50,14 +50,14 @@ validation:
   - url: https://www.92ny.org/event/robert-kolker-the-vanishing-family
     ok: true
     status_code: 200
-    checked_at: '2026-08-20T23:58:17.118274-04:00'
+    checked_at: '2026-08-21T07:39:26.167961-04:00'
   - url: https://seats.92ny.org/single/210964
     ok: true
     status_code: 200
-    checked_at: '2026-08-20T23:58:20.123633-04:00'
+    checked_at: '2026-08-21T07:39:26.296267-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-20T23:58:17.118246-04:00'
+  validated_at: '2026-08-21T07:39:26.167936-04:00'
 curated:
   forms: []
   traditions: []

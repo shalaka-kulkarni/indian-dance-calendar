@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/muldoon-s-picnic-september
     ok: true
     status_code: 200
-    checked_at: '2026-08-20T23:57:24.649556-04:00'
+    checked_at: '2026-08-21T07:38:50.646944-04:00'
   - url: https://seats.92ny.org/single/210921
     ok: true
     status_code: 200
-    checked_at: '2026-08-20T23:57:26.925650-04:00'
+    checked_at: '2026-08-21T07:38:52.647633-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-20T23:57:24.649531-04:00'
+  validated_at: '2026-08-21T07:38:50.646914-04:00'
 curated:
   forms: []
   traditions: []

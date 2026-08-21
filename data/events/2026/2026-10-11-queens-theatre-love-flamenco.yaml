@@ -20,7 +20,7 @@ scraped:
   - source_id: queens_theatre
     url: https://queenstheatre.org/events/love-flamenco-m5sx
     first_seen: '2026-08-16'
-    last_seen: '2026-08-19'
+    last_seen: '2026-08-21'
 ai:
   relevant: false
   kind: other
@@ -47,11 +47,11 @@ validation:
   - url: https://queenstheatre.org/events/love-flamenco-m5sx
     ok: true
     status_code: 200
-    checked_at: '2026-08-20T23:58:58.276672-04:00'
+    checked_at: '2026-08-21T07:39:41.193827-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-20T23:58:58.276646-04:00'
+  validated_at: '2026-08-21T07:39:41.193801-04:00'
 curated:
   forms: []
   traditions: []

@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/hen-mazzig-yiscah-smith-and-rabbi-david-ingber
     first_seen: '2026-08-16'
-    last_seen: '2026-08-19'
+    last_seen: '2026-08-21'
 ai:
   relevant: false
   kind: other
@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/hen-mazzig-yiscah-smith-and-rabbi-david-ingber
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T00:00:08.736264-04:00'
+    checked_at: '2026-08-21T07:40:20.967061-04:00'
   - url: https://seats.92ny.org/single/211059
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T00:00:12.577181-04:00'
+    checked_at: '2026-08-21T07:40:21.104374-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-21T00:00:08.736239-04:00'
+  validated_at: '2026-08-21T07:40:20.967036-04:00'
 curated:
   forms: []
   traditions: []

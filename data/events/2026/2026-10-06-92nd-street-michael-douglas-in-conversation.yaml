@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/michael-douglas-in-conversation-one-helluva-ride
     first_seen: '2026-08-16'
-    last_seen: '2026-08-19'
+    last_seen: '2026-08-21'
 ai:
   relevant: false
   kind: other
@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/211087
     ok: true
     status_code: 200
-    checked_at: '2026-08-20T23:58:42.492462-04:00'
+    checked_at: '2026-08-21T07:39:33.140355-04:00'
   - url: https://www.92ny.org/event/michael-douglas-in-conversation-one-helluva-ride
     ok: true
     status_code: 200
-    checked_at: '2026-08-20T23:58:42.629735-04:00'
+    checked_at: '2026-08-21T07:39:33.218603-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-20T23:58:42.492433-04:00'
+  validated_at: '2026-08-21T07:39:33.140330-04:00'
 curated:
   forms: []
   traditions: []

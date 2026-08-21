@@ -1,0 +1,49 @@
+id: 2026-08-21-230-fifth-manhattan-bollywood-unplugged-live
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Manhattan Bollywood Unplugged Live Ft. Hardik Tailor At 230 Fifth Ave
+  start: '2026-08-21T19:30:00-04:00'
+  end: '2026-08-21T23:00:00-04:00'
+  additional_dates: []
+  venue: 230 FIFTH ROOFTOP BAR
+  address: 1150 Broadway, New York, NY
+  region: manhattan
+  price_min: 29.99
+  price_max: 29.99
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/manhattan-bollywood-unplugged-live-ft-hardik-tailor-at-230-fifth-ave_event-in_new-york-ny_401470
+  ticket_url: https://events.sulekha.com/manhattan-bollywood-unplugged-live-ft-hardik-tailor-at-230-fifth-ave_event-in_new-york-ny_401470
+  description_snippet: Manhattan Bollywood Unplugged Live Ft. Hardik Tailor At 230 Fifth Ave
+  content_hash: de4efed1f50f9680
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/manhattan-bollywood-unplugged-live-ft-hardik-tailor-at-230-fifth-ave_event-in_new-york-ny_401470
+    first_seen: '2026-08-21'
+    last_seen: '2026-08-21'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/manhattan-bollywood-unplugged-live-ft-hardik-tailor-at-230-fifth-ave_event-in_new-york-ny_401470
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-21T07:38:38.343706-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-21T07:38:38.343684-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

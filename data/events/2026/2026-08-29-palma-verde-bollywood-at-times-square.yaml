@@ -1,0 +1,49 @@
+id: 2026-08-29-palma-verde-bollywood-at-times-square
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Bollywood At Times Square At Palma Verde
+  start: '2026-08-29T22:00:00-04:00'
+  end: '2026-08-30T03:00:00-04:00'
+  additional_dates: []
+  venue: Palma Verde
+  address: 1604 Broadway - Floor 4, New York, NY
+  region: manhattan
+  price_min: 19.99
+  price_max: 19.99
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/bollywood-at-times-square-at-palma-verde_event-in_new-york-ny_401480
+  ticket_url: https://events.sulekha.com/bollywood-at-times-square-at-palma-verde_event-in_new-york-ny_401480
+  description_snippet: Bollywood At Times Square At Palma Verde
+  content_hash: 7c75804c7a109ebb
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/bollywood-at-times-square-at-palma-verde_event-in_new-york-ny_401480
+    first_seen: '2026-08-21'
+    last_seen: '2026-08-21'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/bollywood-at-times-square-at-palma-verde_event-in_new-york-ny_401480
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-21T07:38:44.109303-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-21T07:38:44.109276-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}
