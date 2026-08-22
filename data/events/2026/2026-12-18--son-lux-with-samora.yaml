@@ -47,11 +47,11 @@ validation:
   - url: https://pioneerworks.org/programs/son-lux
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T07:40:22.095859-04:00'
+    checked_at: '2026-08-22T09:29:06.729422-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-21T07:40:22.095834-04:00'
+  validated_at: '2026-08-22T09:29:06.729402-04:00'
 curated:
   forms: []
   traditions: []

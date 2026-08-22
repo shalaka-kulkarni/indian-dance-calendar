@@ -49,11 +49,11 @@ validation:
   - url: https://queenstheatre.org/events/charo-5cdn
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T07:39:59.867761-04:00'
+    checked_at: '2026-08-22T09:28:31.439772-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-21T07:39:59.867734-04:00'
+  validated_at: '2026-08-22T09:28:31.439749-04:00'
 curated:
   forms: []
   traditions: []

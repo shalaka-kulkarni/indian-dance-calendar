@@ -37,11 +37,11 @@ validation:
   - url: https://events.sulekha.com/last-over-comedy-play-with-dhurandhar-rakesh-bedi-anant-mahadevan-live-in-ny_event-in_port-washington-ny_401449
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T07:39:24.140084-04:00'
+    checked_at: '2026-08-22T09:27:09.203287-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-08-21T07:39:24.140059-04:00'
+  validated_at: '2026-08-22T09:27:09.203266-04:00'
 curated:
   forms: []
   traditions: []

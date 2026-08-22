@@ -48,11 +48,11 @@ validation:
   - url: https://queenstheatre.org/events/the-great-tango-6ftb
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T07:39:11.638622-04:00'
+    checked_at: '2026-08-22T09:26:47.007751-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-21T07:39:11.638596-04:00'
+  validated_at: '2026-08-22T09:26:47.007728-04:00'
 curated:
   forms: []
   traditions: []

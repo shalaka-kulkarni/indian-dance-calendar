@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/press-play-2026
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T07:40:21.433158-04:00'
+    checked_at: '2026-08-22T09:29:03.934354-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-21T07:40:21.433136-04:00'
+  validated_at: '2026-08-22T09:29:03.934334-04:00'
 curated:
   forms: []
   traditions: []

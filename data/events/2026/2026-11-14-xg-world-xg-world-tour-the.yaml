@@ -49,11 +49,11 @@ validation:
   - url: https://www.prucenter.com/events/xg
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T07:40:15.370442-04:00'
+    checked_at: '2026-08-22T09:28:52.087819-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-21T07:40:15.370419-04:00'
+  validated_at: '2026-08-22T09:28:52.087796-04:00'
 curated:
   forms: []
   traditions: []

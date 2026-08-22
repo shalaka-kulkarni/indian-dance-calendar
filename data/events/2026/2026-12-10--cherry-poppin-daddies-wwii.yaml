@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/cherry-poppin-daddies-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T07:40:21.190068-04:00'
+    checked_at: '2026-08-22T09:29:02.957878-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-21T07:40:21.190041-04:00'
+  validated_at: '2026-08-22T09:29:02.957857-04:00'
 curated:
   forms: []
   traditions: []

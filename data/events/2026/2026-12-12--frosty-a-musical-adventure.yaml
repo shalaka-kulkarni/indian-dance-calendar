@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/frosty-a-musical-adventure-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T07:40:21.352031-04:00'
+    checked_at: '2026-08-22T09:29:03.604001-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-21T07:40:21.352007-04:00'
+  validated_at: '2026-08-22T09:29:03.603981-04:00'
 curated:
   forms: []
   traditions: []

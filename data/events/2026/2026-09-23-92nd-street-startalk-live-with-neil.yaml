@@ -48,14 +48,14 @@ validation:
   - url: https://seats.92ny.org/single/210946
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T07:39:18.704956-04:00'
+    checked_at: '2026-08-22T09:26:55.979325-04:00'
   - url: https://www.92ny.org/event/neil-degrasse-tyson
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T07:39:18.781952-04:00'
+    checked_at: '2026-08-22T09:26:56.053337-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-21T07:39:18.704929-04:00'
+  validated_at: '2026-08-22T09:26:55.979304-04:00'
 curated:
   forms: []
   traditions: []

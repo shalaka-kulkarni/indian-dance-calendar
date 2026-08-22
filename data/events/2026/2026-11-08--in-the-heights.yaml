@@ -47,11 +47,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/mancmfvb/2026-11-07/2026-2027-in-the-heights
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T07:40:07.624287-04:00'
+    checked_at: '2026-08-22T09:28:38.615493-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-21T07:40:07.624262-04:00'
+  validated_at: '2026-08-22T09:28:38.615472-04:00'
 curated:
   forms: []
   traditions: []

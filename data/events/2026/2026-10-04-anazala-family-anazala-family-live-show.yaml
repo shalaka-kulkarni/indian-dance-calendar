@@ -49,11 +49,11 @@ validation:
   - url: https://www.prucenter.com/events/anazala-family-live-show-concert
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T07:39:31.879471-04:00'
+    checked_at: '2026-08-22T09:27:38.515284-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-21T07:39:31.879445-04:00'
+  validated_at: '2026-08-22T09:27:38.515261-04:00'
 curated:
   forms: []
   traditions: []

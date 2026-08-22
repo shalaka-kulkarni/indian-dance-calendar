@@ -35,11 +35,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/t4nvwxxg/2027-04-18/2026-2027-ndt2
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T07:40:30.065481-04:00'
+    checked_at: '2026-08-22T09:29:17.653761-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-21T07:40:30.065455-04:00'
+  validated_at: '2026-08-22T09:29:17.653738-04:00'
 curated:
   forms: []
   traditions: []

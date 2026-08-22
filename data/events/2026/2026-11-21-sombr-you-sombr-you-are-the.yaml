@@ -49,11 +49,11 @@ validation:
   - url: https://www.prucenter.com/events/sombr
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T07:40:18.292470-04:00'
+    checked_at: '2026-08-22T09:28:58.622955-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-21T07:40:18.292451-04:00'
+  validated_at: '2026-08-22T09:28:58.622936-04:00'
 curated:
   forms: []
   traditions: []

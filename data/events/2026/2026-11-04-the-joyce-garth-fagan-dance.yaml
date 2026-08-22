@@ -47,11 +47,11 @@ validation:
   - url: https://www.joyce.org/performances/garth-fagan-dance-f2nq
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T07:40:02.279575-04:00'
+    checked_at: '2026-08-22T09:28:33.522842-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-21T07:40:02.279549-04:00'
+  validated_at: '2026-08-22T09:28:33.522819-04:00'
 curated:
   forms: []
   traditions: []

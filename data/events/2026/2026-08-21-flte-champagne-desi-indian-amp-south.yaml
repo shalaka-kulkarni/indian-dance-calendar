@@ -49,11 +49,11 @@ validation:
   - url: https://allevents.in/new-york/desi-indian-and-south-asian-singles-speed-dating/100001995609973150
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T07:38:38.702109-04:00'
+    checked_at: '2026-08-22T09:25:39.204829-04:00'
   problems:
   - event date 2026-08-21 is in the past
   - classified not-relevant
-  validated_at: '2026-08-21T07:38:38.702085-04:00'
+  validated_at: '2026-08-22T09:25:39.204807-04:00'
 curated:
   forms: []
   traditions: []

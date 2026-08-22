@@ -47,11 +47,11 @@ validation:
   - url: https://www.joyce.org/performances/gallim-rhr7
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T07:40:11.979888-04:00'
+    checked_at: '2026-08-22T09:28:46.027355-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-21T07:40:11.979862-04:00'
+  validated_at: '2026-08-22T09:28:46.027333-04:00'
 curated:
   forms: []
   traditions: []

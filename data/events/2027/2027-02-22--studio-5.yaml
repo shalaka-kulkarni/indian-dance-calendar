@@ -34,11 +34,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/305ez20s/2027-02-22/2026-2027-studio-5
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T07:40:25.620320-04:00'
+    checked_at: '2026-08-22T09:29:11.677918-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-21T07:40:25.620294-04:00'
+  validated_at: '2026-08-22T09:29:11.677899-04:00'
 curated:
   forms: []
   traditions: []

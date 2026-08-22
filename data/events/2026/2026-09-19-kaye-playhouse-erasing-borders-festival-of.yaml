@@ -64,13 +64,13 @@ validation:
   - url: https://iaac.us/dance/
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T07:39:06.059816-04:00'
+    checked_at: '2026-08-22T09:26:39.457206-04:00'
   - url: https://iaac.us/ebdf2026-ibs/
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T07:39:06.333102-04:00'
+    checked_at: '2026-08-22T09:26:39.867848-04:00'
   problems: []
-  validated_at: '2026-08-21T07:39:06.059770-04:00'
+  validated_at: '2026-08-22T09:26:39.457183-04:00'
 curated:
   forms:
   - bharatanatyam

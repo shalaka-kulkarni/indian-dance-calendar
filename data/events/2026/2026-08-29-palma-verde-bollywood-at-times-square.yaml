@@ -37,10 +37,10 @@ validation:
   - url: https://events.sulekha.com/bollywood-at-times-square-at-palma-verde_event-in_new-york-ny_401480
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T07:38:44.109303-04:00'
+    checked_at: '2026-08-22T09:25:46.771935-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-08-21T07:38:44.109276-04:00'
+  validated_at: '2026-08-22T09:25:46.771917-04:00'
 curated:
   forms: []
   traditions: []

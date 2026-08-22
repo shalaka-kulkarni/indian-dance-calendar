@@ -1,5 +1,5 @@
 id: 2026-08-21-230-fifth-manhattan-bollywood-unplugged-live
-status: needs_attention
+status: past
 was_published: false
 needs_recheck: false
 scraped:
@@ -29,7 +29,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: true
     in_metro: true
     classified: false
@@ -37,10 +37,11 @@ validation:
   - url: https://events.sulekha.com/manhattan-bollywood-unplugged-live-ft-hardik-tailor-at-230-fifth-ave_event-in_new-york-ny_401470
     ok: true
     status_code: 200
-    checked_at: '2026-08-21T07:38:38.343706-04:00'
+    checked_at: '2026-08-22T09:25:37.908313-04:00'
   problems:
+  - event date 2026-08-21 is in the past
   - not yet classified (no API key run)
-  validated_at: '2026-08-21T07:38:38.343684-04:00'
+  validated_at: '2026-08-22T09:25:37.908295-04:00'
 curated:
   forms: []
   traditions: []
