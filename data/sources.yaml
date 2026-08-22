@@ -362,7 +362,50 @@ sources:
     scrape_all_listings: true
     notes: "Colden Auditorium; large Queens venue serving a dense South Asian catchment."
 
+  # ── Resident companies and artists ──────────────────────────────────────
+  # Companies announce their own dates on their own sites, often before any
+  # venue lists them and often at rooms too small to register on their own.
+  - id: ajna_dance
+    name: Ajna Dance Company
+    circuit: diaspora
+    strategy: jsonld
+    url: https://ajnadance.com/events/
+    region: manhattan
+    assume_relevant: true
+    notes: "Bollywood, bhangra, Bharatanatyam, Kathak and Gujarati folk; performs at Lincoln Center, Brooklyn Bridge Park and libraries across the boroughs. Runs The Events Calendar plugin — its REST API answers, so this reads cleanly."
+  - id: jiva_dance
+    name: Sonali Skandan & Jiva Dance
+    circuit: diaspora
+    strategy: jsonld
+    url: https://jivadance.org/
+    region: manhattan
+    assume_relevant: true
+    notes: "Bharatanatyam company founded 2007."
+  - id: malini_srinivasan
+    name: Malini Srinivasan and Dancers
+    circuit: diaspora
+    strategy: jsonld
+    url: https://www.malinisrinivasan.com/
+    region: brooklyn
+    assume_relevant: true
+    notes: "Bharatanatyam dancer and choreographer; performs at metro festivals and Independence Day programmes."
+
   # ── Cross-circuit listings ──────────────────────────────────────────────
+  - id: harmonyom
+    name: HarmoNYom
+    circuit: diaspora
+    strategy: html
+    url: https://www.harmonyom.org/concerts__events
+    region: manhattan
+    assume_relevant: true
+    notes: >-
+      Long-running NYC Indian classical music listing — the closest thing to a
+      peer for this calendar. Its concerts page is hand-maintained with no
+      structured data, no sitemap entries and event URLs under
+      /harmonyoms_events/<slug> that the crawl pattern does not match, so it
+      will yield nothing until it gets a bespoke parser. Registered so the
+      healthcheck keeps it visible rather than forgotten.
+
   - id: dance_enthusiast
     name: The Dance Enthusiast listings
     circuit: mainstream
