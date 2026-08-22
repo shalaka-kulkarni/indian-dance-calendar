@@ -20,7 +20,7 @@ scraped:
   - source_id: skirball
     url: https://nyuskirball.org/performance/2026-national-book-awards/
     first_seen: '2026-08-19'
-    last_seen: '2026-08-21'
+    last_seen: '2026-08-22'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://nyuskirball.org/performance/2026-national-book-awards/
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T09:28:53.853854-04:00'
+    checked_at: '2026-08-22T10:28:30.938231-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-22T09:28:53.853832-04:00'
+  validated_at: '2026-08-22T10:28:30.938213-04:00'
 curated:
   forms: []
   traditions: []

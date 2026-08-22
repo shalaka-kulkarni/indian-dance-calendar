@@ -1,0 +1,49 @@
+id: 2026-11-06-queens-theatre-clara-ulrich-yo-quiero
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Clara Ulrich: Yo Quiero Ser Mi Marido'
+  start: '2026-11-06T20:00:00-05:00'
+  additional_dates: []
+  venue: Queens Theatre
+  address: 14 United Nations Avenue South, Corona
+  region: queens
+  is_free: false
+  price_note: ''
+  info_url: https://queenstheatre.org/events/clara-ulrich-yo-quiero-ser-mi-marido-zvg4
+  ticket_url: ''
+  description_snippet: Clara Ulrich realiza una investigación muy poco seria sobre la relación de pareja.
+    Entre escenas cotidianas desopilantes y una observación detallada de los comportamientos masculinos
+    vs los femeninos,…
+  content_hash: 17b5a56cee566101
+  sources:
+  - source_id: queens_theatre
+    url: https://queenstheatre.org/events/clara-ulrich-yo-quiero-ser-mi-marido-zvg4
+    first_seen: '2026-08-22'
+    last_seen: '2026-08-22'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://queenstheatre.org/events/clara-ulrich-yo-quiero-ser-mi-marido-zvg4
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-22T10:28:20.859522-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-22T10:28:20.859503-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

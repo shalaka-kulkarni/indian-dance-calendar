@@ -25,7 +25,7 @@ scraped:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2026/10/24/chhandayan-2026-all-night-concert
     first_seen: '2026-08-18'
-    last_seen: '2026-08-21'
+    last_seen: '2026-08-22'
 ai:
   relevant: true
   kind: festival
@@ -54,10 +54,10 @@ validation:
   - url: https://chhandayan.org/calendar/2026/10/24/chhandayan-2026-all-night-concert
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T09:28:18.321750-04:00'
+    checked_at: '2026-08-22T10:28:11.138806-04:00'
   problems:
   - no price information
-  validated_at: '2026-08-22T09:28:18.321728-04:00'
+  validated_at: '2026-08-22T10:28:11.138784-04:00'
 curated:
   forms: []
   traditions: []

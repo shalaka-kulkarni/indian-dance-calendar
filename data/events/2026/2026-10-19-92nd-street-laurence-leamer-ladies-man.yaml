@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/laurence-leamer-ladies-man
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T09:28:11.193485-04:00'
+    checked_at: '2026-08-22T10:28:08.437045-04:00'
   - url: https://seats.92ny.org/single/211083
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T09:28:14.414843-04:00'
+    checked_at: '2026-08-22T10:28:10.317751-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-22T09:28:11.193464-04:00'
+  validated_at: '2026-08-22T10:28:08.437026-04:00'
 curated:
   forms: []
   traditions: []

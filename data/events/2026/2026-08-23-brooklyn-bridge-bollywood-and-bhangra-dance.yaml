@@ -1,0 +1,51 @@
+id: 2026-08-23-brooklyn-bridge-bollywood-and-bhangra-dance
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Bollywood and Bhangra Dance Workshop with Ajna Dance Company at Brooklyn Bridge Park
+  start: '2026-08-23T11:00:00Z'
+  end: '2026-08-23T12:00:00Z'
+  additional_dates: []
+  venue: Brooklyn Bridge Park
+  address: Brooklyn Bridge Park Pier 6 Liberty Lawn, Brooklyn, NY
+  region: brooklyn
+  is_free: false
+  price_note: ''
+  info_url: https://ajnadance.com/event/bollywood-and-bhangra-dance-workshop-with-ajna-dance-company-at-brooklyn-bridge-park/
+  ticket_url: ''
+  description_snippet: '&lt;p&gt;Join Ajna Dance Company on Sunday, August 23 for a fun and energetic
+    Bollywood &amp; Bhangra Dance Workshop! Learn easy-to-follow dance moves inspired by the vibrant rhythms
+    and traditions of South Asian culture. Whether you\''re dancing for the first time or looking to build
+    your skills, you\''ll leave energized and ready to hit the dance [&hellip;]&lt;/p&gt;\n'
+  content_hash: e7e3eb5e7afdb67a
+  sources:
+  - source_id: ajna_dance
+    url: https://ajnadance.com/event/bollywood-and-bhangra-dance-workshop-with-ajna-dance-company-at-brooklyn-bridge-park/
+    first_seen: '2026-08-22'
+    last_seen: '2026-08-22'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://ajnadance.com/event/bollywood-and-bhangra-dance-workshop-with-ajna-dance-company-at-brooklyn-bridge-park/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-22T10:27:05.592704-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-22T10:27:05.592678-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

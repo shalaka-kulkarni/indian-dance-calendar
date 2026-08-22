@@ -1,0 +1,53 @@
+id: 2026-10-21-92nd-street-susan-orlean-joyride
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Susan Orlean: Joyride'
+  start: '2026-10-21T19:30:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 30.0
+  price_max: 30.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/susan-orlean-joyride
+  ticket_url: https://seats.92ny.org/single/211187
+  description_snippet: Susan Orlean celebrates the paperback launch of Joyride , her witty, exuberant
+    memoir about writing, curiosity, creativity, and a life spent chasing stories.
+  content_hash: 64a2412302bc8b9e
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/susan-orlean-joyride
+    first_seen: '2026-08-22'
+    last_seen: '2026-08-22'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/susan-orlean-joyride
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-22T10:28:10.756500-04:00'
+  - url: https://seats.92ny.org/single/211187
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-22T10:28:10.882490-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-22T10:28:10.756476-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

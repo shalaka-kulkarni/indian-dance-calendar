@@ -25,7 +25,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/gregg-allman-the-music-of-my-soul/
     first_seen: '2026-08-16'
-    last_seen: '2026-08-21'
+    last_seen: '2026-08-22'
 ai:
   relevant: false
   kind: other
@@ -53,11 +53,11 @@ validation:
   - url: https://www.sopacnow.org/events/gregg-allman-the-music-of-my-soul/
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T09:27:25.337980-04:00'
+    checked_at: '2026-08-22T10:27:49.245532-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-22T09:27:25.337957-04:00'
+  validated_at: '2026-08-22T10:27:49.245508-04:00'
 curated:
   forms: []
   traditions: []

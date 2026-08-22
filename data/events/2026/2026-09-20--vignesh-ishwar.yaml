@@ -19,7 +19,7 @@ scraped:
   - source_id: cmana
     url: https://www.cmana.org/etn/vignesh-ishwar/
     first_seen: '2026-08-18'
-    last_seen: '2026-08-21'
+    last_seen: '2026-08-22'
 ai:
   relevant: true
   kind: performance
@@ -48,10 +48,10 @@ validation:
   - url: https://www.cmana.org/etn/vignesh-ishwar/
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T09:26:46.555532-04:00'
+    checked_at: '2026-08-22T10:27:37.477711-04:00'
   problems:
   - no price information
-  validated_at: '2026-08-22T09:26:46.555509-04:00'
+  validated_at: '2026-08-22T10:27:37.477691-04:00'
 curated:
   forms: []
   traditions: []

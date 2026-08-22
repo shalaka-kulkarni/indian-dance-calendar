@@ -21,7 +21,7 @@ scraped:
   - source_id: queens_theatre
     url: https://queenstheatre.org/events/eva-ayllon-with-daniela-darcourt-shn2
     first_seen: '2026-08-16'
-    last_seen: '2026-08-21'
+    last_seen: '2026-08-22'
 ai:
   relevant: false
   kind: other
@@ -49,11 +49,11 @@ validation:
   - url: https://queenstheatre.org/events/eva-ayllon-with-daniela-darcourt-shn2
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T09:28:28.319789-04:00'
+    checked_at: '2026-08-22T10:28:17.122732-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-22T09:28:28.319769-04:00'
+  validated_at: '2026-08-22T10:28:17.122714-04:00'
 curated:
   forms: []
   traditions: []

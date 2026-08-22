@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/netflix-s-fauda
     first_seen: '2026-08-16'
-    last_seen: '2026-08-21'
+    last_seen: '2026-08-22'
 ai:
   relevant: false
   kind: other
@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211043
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-22T09:25:57.974590-04:00'
   - url: https://www.92ny.org/event/netflix-s-fauda
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T09:25:58.079026-04:00'
+    checked_at: '2026-08-22T10:27:12.825491-04:00'
+  - url: https://seats.92ny.org/single/211043
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-22T10:27:12.943117-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-22T09:25:57.974572-04:00'
+  validated_at: '2026-08-22T10:27:12.825471-04:00'
 curated:
   forms: []
   traditions: []

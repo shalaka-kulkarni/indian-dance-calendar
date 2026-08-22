@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/garba-bollywood-dance-party-in-ny_event-in_long-island-city-ny_401246
     first_seen: '2026-08-16'
-    last_seen: '2026-08-21'
+    last_seen: '2026-08-22'
 ai:
   relevant: true
   kind: community
@@ -54,9 +54,9 @@ validation:
   - url: https://events.sulekha.com/garba-bollywood-dance-party-in-ny_event-in_long-island-city-ny_401246
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T09:25:39.930773-04:00'
+    checked_at: '2026-08-22T10:27:05.396993-04:00'
   problems: []
-  validated_at: '2026-08-22T09:25:39.930750-04:00'
+  validated_at: '2026-08-22T10:27:05.396965-04:00'
 curated:
   forms:
   - folk

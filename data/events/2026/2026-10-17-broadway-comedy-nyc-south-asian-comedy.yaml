@@ -23,7 +23,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/nyc-south-asian-comedy-festival-roast-battle-india-vs-pakistan-vs-bangladesh-vs-sri-lanka_event-in_new-york-ny_401411
     first_seen: '2026-08-19'
-    last_seen: '2026-08-21'
+    last_seen: '2026-08-22'
 ai:
   relevant: false
   kind: performance
@@ -50,10 +50,10 @@ validation:
   - url: https://events.sulekha.com/nyc-south-asian-comedy-festival-roast-battle-india-vs-pakistan-vs-bangladesh-vs-sri-lanka_event-in_new-york-ny_401411
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T09:28:07.067957-04:00'
+    checked_at: '2026-08-22T10:28:05.427169-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-22T09:28:07.067935-04:00'
+  validated_at: '2026-08-22T10:28:05.427145-04:00'
 curated:
   forms: []
   traditions: []

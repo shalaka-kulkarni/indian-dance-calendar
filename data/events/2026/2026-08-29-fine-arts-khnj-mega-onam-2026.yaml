@@ -50,10 +50,10 @@ validation:
   - url: https://www.khnj.us/post/khnj-mega-onam-2026
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T09:25:45.007313-04:00'
+    checked_at: '2026-08-22T10:27:09.985745-04:00'
   problems:
   - no price information
-  validated_at: '2026-08-22T09:25:45.007266-04:00'
+  validated_at: '2026-08-22T10:27:09.985722-04:00'
 curated:
   forms:
   - folk

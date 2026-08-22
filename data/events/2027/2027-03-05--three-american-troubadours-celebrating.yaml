@@ -1,0 +1,50 @@
+id: 2027-03-05--three-american-troubadours-celebrating
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Three American Troubadours Celebrating Taylor, Simon & King
+  start: '2027-03-05T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/three-american-troubadours-27/
+  ticket_url: ''
+  description_snippet: Three American Troubadours Celebrating Taylor, Simon & King FRI, MAR 5, 2027 at
+    7:30 PM On Sale Soon Three American Troubadours is a celebration of the music of James Taylor, Carly
+    Simon, and Carole King, featuring three powerhouse vocalists, a six-piece band, and all the hits from
+    three of the most beloved singer-songwriters in American music history. On Sale Soon Learn More
+  content_hash: bc397c13631e9888
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/three-american-troubadours-27/
+    first_seen: '2026-08-22'
+    last_seen: '2026-08-22'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/three-american-troubadours-27/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-22T10:28:40.075622-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-22T10:28:40.075603-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

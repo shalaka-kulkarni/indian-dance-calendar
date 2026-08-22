@@ -1,0 +1,52 @@
+id: 2026-09-10-brooklyn-commons-ajna-dance-company-at
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Ajna Dance Company at Downtown Brooklyn’s Fall Into Step – FREE
+  start: '2026-09-10T12:00:00Z'
+  end: '2026-09-10T14:00:00Z'
+  additional_dates: []
+  venue: Brooklyn Commons Park
+  address: 15 MetroTech Center suite 1920, Brooklyn, NY
+  region: brooklyn
+  is_free: false
+  price_note: ''
+  info_url: https://ajnadance.com/event/ajna-dance-company-at-downtown-brooklyns-fall-into-step-free-2/
+  ticket_url: ''
+  description_snippet: '&lt;p&gt;Enjoy a FREE performance by Ajna Dance Company during your lunch break
+    at Brooklyn Commons on Thursday, September 10th from 12:00pm – 2:00pm! This two-hour session features
+    special dance and dholi performances. From ballet to contemporary styles, Downtown Brooklyn’s Fall
+    Into Step series showcases a diverse range of performances from talented dancers and choreographers.
+    Each show will take [&hellip;]&lt;/p&gt;\n'
+  content_hash: 0c6493d8deb9d22f
+  sources:
+  - source_id: ajna_dance
+    url: https://ajnadance.com/event/ajna-dance-company-at-downtown-brooklyns-fall-into-step-free-2/
+    first_seen: '2026-08-22'
+    last_seen: '2026-08-22'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://ajnadance.com/event/ajna-dance-company-at-downtown-brooklyns-fall-into-step-free-2/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-22T10:27:13.471276-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-22T10:27:13.471257-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

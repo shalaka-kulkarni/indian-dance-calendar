@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/ari-emanuel-with-rachel-maddow
     first_seen: '2026-08-18'
-    last_seen: '2026-08-21'
+    last_seen: '2026-08-22'
 ai:
   relevant: false
   kind: performance
@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/ari-emanuel-with-rachel-maddow
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T09:26:51.353367-04:00'
+    checked_at: '2026-08-22T10:27:39.805297-04:00'
   - url: https://seats.92ny.org/single/211145
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T09:26:53.476667-04:00'
+    checked_at: '2026-08-22T10:27:39.937257-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-22T09:26:51.353345-04:00'
+  validated_at: '2026-08-22T10:27:39.805274-04:00'
 curated:
   forms: []
   traditions: []

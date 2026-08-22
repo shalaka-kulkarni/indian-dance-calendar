@@ -22,11 +22,11 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/te-ta-ma-16-0-times-square-nyc-a-new-era-of-south-indian-night-life_event-in_new-york-ny_401426
     first_seen: '2026-08-21'
-    last_seen: '2026-08-21'
+    last_seen: '2026-08-22'
   - source_id: allevents
     url: https://allevents.in/new-york/tetama-160-times-square-nyc-a-new-era-of-south-indian-night-life/100001998256310416
     first_seen: '2026-08-21'
-    last_seen: '2026-08-21'
+    last_seen: '2026-08-22'
 validation:
   passed: false
   checks:
@@ -41,10 +41,10 @@ validation:
   - url: https://events.sulekha.com/te-ta-ma-16-0-times-square-nyc-a-new-era-of-south-indian-night-life_event-in_new-york-ny_401426
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T09:25:47.796840-04:00'
+    checked_at: '2026-08-22T10:27:10.665870-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-08-22T09:25:47.796815-04:00'
+  validated_at: '2026-08-22T10:27:10.665846-04:00'
 curated:
   forms: []
   traditions: []

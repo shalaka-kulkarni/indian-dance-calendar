@@ -25,7 +25,7 @@ scraped:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2026/9/20/santoor-concert-vinay-desai
     first_seen: '2026-08-18'
-    last_seen: '2026-08-21'
+    last_seen: '2026-08-22'
 ai:
   relevant: true
   kind: performance
@@ -54,10 +54,10 @@ validation:
   - url: https://chhandayan.org/calendar/2026/9/20/santoor-concert-vinay-desai
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T09:26:45.809941-04:00'
+    checked_at: '2026-08-22T10:27:37.136064-04:00'
   problems:
   - no price information
-  validated_at: '2026-08-22T09:26:45.809919-04:00'
+  validated_at: '2026-08-22T10:27:37.136045-04:00'
 curated:
   forms: []
   traditions: []

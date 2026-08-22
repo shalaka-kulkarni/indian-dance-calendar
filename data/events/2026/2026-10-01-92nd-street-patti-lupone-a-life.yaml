@@ -21,7 +21,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/patti-lupone-a-life-in-notes
     first_seen: '2026-08-18'
-    last_seen: '2026-08-21'
+    last_seen: '2026-08-22'
 ai:
   relevant: false
   kind: performance
@@ -45,17 +45,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/patti-lupone-a-life-in-notes
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-22T09:27:29.175997-04:00'
   - url: https://seats.92ny.org/single/210572
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T09:27:32.495243-04:00'
+    checked_at: '2026-08-22T10:27:49.842621-04:00'
+  - url: https://www.92ny.org/event/patti-lupone-a-life-in-notes
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-22T10:27:49.916305-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-22T09:27:29.175973-04:00'
+  validated_at: '2026-08-22T10:27:49.842601-04:00'
 curated:
   forms: []
   traditions: []
