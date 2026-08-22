@@ -41,6 +41,23 @@ EXTRA_QUERIES = [
     "kathak recital new jersey",
 ]
 
+# Every query above hunts a single EVENT. That is how Ajna Dance Company — an
+# NYC company with a machine-readable calendar — went unnoticed: nothing ever
+# looked for the organisations that hold calendars, only for the events on
+# them. These look for the calendar-keepers themselves, so the run proposes
+# them as new sources.
+ORGANISATION_QUERIES = [
+    "indian dance company new york city",
+    "bharatanatyam dance company new york",
+    "kathak dance company new york",
+    "odissi dance company new york",
+    "indian dance school new jersey performances",
+    "indian classical music organization new york concerts",
+    "carnatic music sabha new jersey",
+    "hindustani classical concerts new york organization",
+    "indian performing arts nonprofit brooklyn queens",
+]
+
 # Hosts that are search noise, not event pages.
 SKIP_HOSTS = {
     "www.youtube.com", "youtube.com", "www.instagram.com", "instagram.com",
@@ -55,6 +72,7 @@ def build_queries() -> list[str]:
     queries = [f"{kw} {metro}" for kw in KEYWORDS for metro in METRO_TERMS[:3]]
     queries += [f"{kw} tickets new york" for kw in KEYWORDS[:6]]
     queries += EXTRA_QUERIES
+    queries += ORGANISATION_QUERIES
     return queries
 
 

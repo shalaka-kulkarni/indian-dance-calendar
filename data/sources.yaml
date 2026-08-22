@@ -381,6 +381,22 @@ sources:
     region: manhattan
     assume_relevant: true
     notes: "Bharatanatyam company founded 2007."
+  - id: surati
+    name: Surati for Performing Arts
+    circuit: diaspora
+    strategy: jsonld
+    url: https://www.suratifpa.org/
+    region: new_jersey
+    assume_relevant: true
+    notes: "Jersey City company founded 2002 — Odissi, Bharatanatyam, Manipuri, Kuchipudi, Mohiniyattam. Also sells through an Eventbrite organiser page, which the Eventbrite client may reach."
+  - id: natraj_center
+    name: Natraj Center for the Performing Arts
+    circuit: diaspora
+    strategy: jsonld
+    url: https://natrajcenter.wixsite.com/natrajcenterarts
+    region: queens
+    assume_relevant: true
+    notes: "Jamaica, Queens — Bharatanatyam, Kuchipudi, Kathak, Odissi, folk and film dance. Wix site, so structured data is unlikely; watch whether it yields."
   - id: malini_srinivasan
     name: Malini Srinivasan and Dancers
     circuit: diaspora
