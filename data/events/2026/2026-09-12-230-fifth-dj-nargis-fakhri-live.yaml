@@ -1,0 +1,49 @@
+id: 2026-09-12-230-fifth-dj-nargis-fakhri-live
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Dj Nargis Fakhri Live In Nyc At 230 Fifth
+  start: '2026-09-12T22:00:00-04:00'
+  end: '2026-09-13T03:30:00-04:00'
+  additional_dates: []
+  venue: 230 FIFTH ROOFTOP BAR
+  address: 1150 Broadway, New York, NY
+  region: manhattan
+  price_min: 39.99
+  price_max: 39.99
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/dj-nargis-fakhri-live-in-nyc-at-230-fifth_event-in_new-york-ny_401519
+  ticket_url: https://events.sulekha.com/dj-nargis-fakhri-live-in-nyc-at-230-fifth_event-in_new-york-ny_401519
+  description_snippet: Dj Nargis Fakhri Live In Nyc At 230 Fifth
+  content_hash: 93e8d1aaf162e101
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/dj-nargis-fakhri-live-in-nyc-at-230-fifth_event-in_new-york-ny_401519
+    first_seen: '2026-08-24'
+    last_seen: '2026-08-24'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/dj-nargis-fakhri-live-in-nyc-at-230-fifth_event-in_new-york-ny_401519
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-24T07:41:37.153770-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-24T07:41:37.153750-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

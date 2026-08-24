@@ -26,7 +26,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/the-unwitting-magician-2026/
     first_seen: '2026-08-16'
-    last_seen: '2026-08-22'
+    last_seen: '2026-08-24'
 ai:
   relevant: false
   kind: other
@@ -54,10 +54,10 @@ validation:
   - url: https://www.sopacnow.org/events/the-unwitting-magician-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T10:27:23.958860-04:00'
+    checked_at: '2026-08-24T07:41:46.549026-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-22T10:27:23.958826-04:00'
+  validated_at: '2026-08-24T07:41:46.549003-04:00'
 curated:
   forms: []
   traditions: []

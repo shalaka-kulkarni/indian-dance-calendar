@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210971
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-22T10:27:24.336295-04:00'
   - url: https://www.92ny.org/event/united-in-laughter
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T10:27:24.413838-04:00'
+    checked_at: '2026-08-24T07:41:46.764104-04:00'
+  - url: https://seats.92ny.org/single/210971
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-24T07:41:49.761815-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-22T10:27:24.336274-04:00'
+  validated_at: '2026-08-24T07:41:46.764084-04:00'
 curated:
   forms: []
   traditions: []

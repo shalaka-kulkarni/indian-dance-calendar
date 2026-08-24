@@ -21,7 +21,7 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/2026-2027-ndt2
     first_seen: '2026-08-16'
-    last_seen: '2026-08-22'
+    last_seen: '2026-08-24'
 ai:
   relevant: false
   kind: other
@@ -47,12 +47,12 @@ validation:
   link_checks:
   - url: https://www.nycitycenter.org/events/2026-2027-ndt2
     ok: true
-    status_code: 429
-    checked_at: '2026-08-22T10:28:40.968202-04:00'
+    status_code: 200
+    checked_at: '2026-08-24T07:44:34.598790-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-22T10:28:40.968167-04:00'
+  validated_at: '2026-08-24T07:44:34.598773-04:00'
 curated:
   forms: []
   traditions: []

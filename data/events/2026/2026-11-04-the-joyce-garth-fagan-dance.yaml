@@ -20,7 +20,7 @@ scraped:
   - source_id: joyce
     url: https://www.joyce.org/performances/garth-fagan-dance-f2nq
     first_seen: '2026-08-16'
-    last_seen: '2026-08-22'
+    last_seen: '2026-08-24'
 ai:
   relevant: false
   kind: other
@@ -47,11 +47,11 @@ validation:
   - url: https://www.joyce.org/performances/garth-fagan-dance-f2nq
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T10:28:19.459599-04:00'
+    checked_at: '2026-08-24T07:43:48.271065-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-22T10:28:19.459577-04:00'
+  validated_at: '2026-08-24T07:43:48.271040-04:00'
 curated:
   forms: []
   traditions: []

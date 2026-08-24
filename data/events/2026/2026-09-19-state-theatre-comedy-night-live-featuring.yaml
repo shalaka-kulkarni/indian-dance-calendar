@@ -55,14 +55,14 @@ validation:
   - url: https://www.stnj.org/events/detail/comedy-night-live-2027
     ok: true
     status_code: 406
-    checked_at: '2026-08-22T10:27:35.319679-04:00'
+    checked_at: '2026-08-24T07:42:09.284070-04:00'
   - url: https://my.stnj.org/25277/25278
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T10:27:35.443069-04:00'
+    checked_at: '2026-08-24T07:42:09.500210-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-22T10:27:35.319655-04:00'
+  validated_at: '2026-08-24T07:42:09.284048-04:00'
 curated:
   forms: []
   traditions: []

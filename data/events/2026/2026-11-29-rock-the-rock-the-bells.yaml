@@ -20,7 +20,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/rock-the-bells
     first_seen: '2026-08-18'
-    last_seen: '2026-08-22'
+    last_seen: '2026-08-24'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://www.prucenter.com/events/rock-the-bells
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T10:28:36.369065-04:00'
+    checked_at: '2026-08-24T07:44:17.478966-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-22T10:28:36.369047-04:00'
+  validated_at: '2026-08-24T07:44:17.478943-04:00'
 curated:
   forms: []
   traditions: []

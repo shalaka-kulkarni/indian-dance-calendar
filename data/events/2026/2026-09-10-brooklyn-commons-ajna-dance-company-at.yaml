@@ -24,7 +24,7 @@ scraped:
   - source_id: ajna_dance
     url: https://ajnadance.com/event/ajna-dance-company-at-downtown-brooklyns-fall-into-step-free-2/
     first_seen: '2026-08-22'
-    last_seen: '2026-08-22'
+    last_seen: '2026-08-24'
 validation:
   passed: false
   checks:
@@ -39,11 +39,11 @@ validation:
   - url: https://ajnadance.com/event/ajna-dance-company-at-downtown-brooklyns-fall-into-step-free-2/
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T10:27:13.471276-04:00'
+    checked_at: '2026-08-24T07:41:35.222033-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-22T10:27:13.471257-04:00'
+  validated_at: '2026-08-24T07:41:35.222008-04:00'
 curated:
   forms: []
   traditions: []

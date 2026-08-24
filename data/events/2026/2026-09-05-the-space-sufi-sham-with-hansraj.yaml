@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/sufi-sham-with-hansraj-hans-usa-tour-2026_event-in_westbury-ny_401134
     first_seen: '2026-08-16'
-    last_seen: '2026-08-22'
+    last_seen: '2026-08-24'
 ai:
   relevant: true
   kind: performance
@@ -51,9 +51,9 @@ validation:
   - url: https://events.sulekha.com/sufi-sham-with-hansraj-hans-usa-tour-2026_event-in_westbury-ny_401134
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T10:27:11.175950-04:00'
+    checked_at: '2026-08-24T07:41:27.493969-04:00'
   problems: []
-  validated_at: '2026-08-22T10:27:11.175924-04:00'
+  validated_at: '2026-08-24T07:41:27.493948-04:00'
 curated:
   forms: []
   traditions: []

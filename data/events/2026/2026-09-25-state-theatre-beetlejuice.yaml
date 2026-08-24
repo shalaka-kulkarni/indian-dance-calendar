@@ -56,14 +56,14 @@ validation:
   - url: https://my.stnj.org/overview/24975
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T10:27:45.480386-04:00'
+    checked_at: '2026-08-24T07:42:30.774094-04:00'
   - url: https://www.stnj.org/events/detail/beetlejuice-2026
     ok: true
-    status_code: 200
-    checked_at: '2026-08-22T10:27:45.855729-04:00'
+    status_code: 406
+    checked_at: '2026-08-24T07:42:31.408098-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-22T10:27:45.480362-04:00'
+  validated_at: '2026-08-24T07:42:30.774070-04:00'
 curated:
   forms: []
   traditions: []

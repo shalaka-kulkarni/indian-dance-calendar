@@ -21,7 +21,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/beres-hammond-beenie-man
     first_seen: '2026-08-16'
-    last_seen: '2026-08-22'
+    last_seen: '2026-08-24'
 ai:
   relevant: false
   kind: other
@@ -49,11 +49,11 @@ validation:
   - url: https://www.prucenter.com/events/beres-hammond-beenie-man
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T10:27:09.806827-04:00'
+    checked_at: '2026-08-24T07:41:26.074209-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-22T10:27:09.806806-04:00'
+  validated_at: '2026-08-24T07:41:26.074188-04:00'
 curated:
   forms: []
   traditions: []

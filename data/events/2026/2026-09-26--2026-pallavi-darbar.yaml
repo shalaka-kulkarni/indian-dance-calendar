@@ -1,0 +1,47 @@
+id: 2026-09-26--2026-pallavi-darbar
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 2026 PALLAVI DARBAR
+  start: '2026-09-26T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: Sri Guruvayoorpan Temple, 31 Wooleytown Road, Morganville NJ 08831
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.cmana.org/etn/2026-pallavi-darbar/
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 6e01a34d0a939cce
+  sources:
+  - source_id: cmana
+    url: https://www.cmana.org/etn/2026-pallavi-darbar/
+    first_seen: '2026-08-24'
+    last_seen: '2026-08-24'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.cmana.org/etn/2026-pallavi-darbar/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-24T07:42:31.568493-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-24T07:42:31.568469-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

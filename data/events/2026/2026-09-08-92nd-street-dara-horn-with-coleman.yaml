@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/dara-horn-with-coleman-hughes
     first_seen: '2026-08-18'
-    last_seen: '2026-08-22'
+    last_seen: '2026-08-24'
 ai:
   relevant: false
   kind: performance
@@ -50,14 +50,14 @@ validation:
   - url: https://seats.92ny.org/single/210757
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T10:27:11.949437-04:00'
+    checked_at: '2026-08-24T07:41:28.687236-04:00'
   - url: https://www.92ny.org/event/dara-horn-with-coleman-hughes
     ok: true
     status_code: 200
-    checked_at: '2026-08-22T10:27:12.173631-04:00'
+    checked_at: '2026-08-24T07:41:28.766251-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-22T10:27:11.949413-04:00'
+  validated_at: '2026-08-24T07:41:28.687215-04:00'
 curated:
   forms: []
   traditions: []
