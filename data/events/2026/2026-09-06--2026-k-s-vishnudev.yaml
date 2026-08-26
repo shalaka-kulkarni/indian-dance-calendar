@@ -19,7 +19,7 @@ scraped:
   - source_id: cmana
     url: https://www.cmana.org/etn/2026-k-s-vishnudev-fall-tour/
     first_seen: '2026-08-18'
-    last_seen: '2026-08-24'
+    last_seen: '2026-08-26'
 ai:
   relevant: true
   kind: performance
@@ -48,10 +48,10 @@ validation:
   - url: https://www.cmana.org/etn/2026-k-s-vishnudev-fall-tour/
     ok: true
     status_code: 200
-    checked_at: '2026-08-24T07:41:27.678650-04:00'
+    checked_at: '2026-08-26T07:42:45.468635-04:00'
   problems:
   - no price information
-  validated_at: '2026-08-24T07:41:27.678628-04:00'
+  validated_at: '2026-08-26T07:42:45.468612-04:00'
 curated:
   forms: []
   traditions: []

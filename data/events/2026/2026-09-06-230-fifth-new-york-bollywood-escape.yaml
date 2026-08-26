@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/new-york-bollywood-escape-labor-day-weekend-at-230-fifth_event-in_new-york-ny_401518
     first_seen: '2026-08-24'
-    last_seen: '2026-08-24'
+    last_seen: '2026-08-26'
 validation:
   passed: false
   checks:
@@ -37,10 +37,10 @@ validation:
   - url: https://events.sulekha.com/new-york-bollywood-escape-labor-day-weekend-at-230-fifth_event-in_new-york-ny_401518
     ok: true
     status_code: 200
-    checked_at: '2026-08-24T07:41:28.145598-04:00'
+    checked_at: '2026-08-26T07:42:46.075281-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-08-24T07:41:28.145572-04:00'
+  validated_at: '2026-08-26T07:42:46.075251-04:00'
 curated:
   forms: []
   traditions: []

@@ -1,0 +1,48 @@
+id: 2026-09-23--fall-for-dance-festival
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Fall for Dance Festival
+  start: '2026-09-23T23:30:00Z'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.nycitycenter.org/events/instances/f0js3nkz/2026-09-23/2026-2027-fall-for-dance-festival
+  ticket_url: ''
+  description_snippet: With 11 premieres and seven international companies, this year’s Festival celebrates
+    the world’s best
+  content_hash: f543cf31061004bf
+  sources:
+  - source_id: city_center
+    url: https://www.nycitycenter.org/events/instances/f0js3nkz/2026-09-23/2026-2027-fall-for-dance-festival
+    first_seen: '2026-08-26'
+    last_seen: '2026-08-26'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.nycitycenter.org/events/instances/f0js3nkz/2026-09-23/2026-2027-fall-for-dance-festival
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-26T07:43:16.652560-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-26T07:43:16.652538-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

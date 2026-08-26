@@ -1,0 +1,49 @@
+id: 2026-09-06-230-fifth-nyc-bollywood-movie-night
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Nyc Bollywood Movie Night Ft. Ddlj At 230 Fifth
+  start: '2026-09-06T19:00:00-04:00'
+  end: '2026-09-06T22:00:00-04:00'
+  additional_dates: []
+  venue: 230 FIFTH ROOFTOP BAR
+  address: 1150 Broadway, New York, NY
+  region: manhattan
+  price_min: 24.99
+  price_max: 24.99
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/nyc-bollywood-movie-night-ft-ddlj-at-230-fifth_event-in_new-york-ny_401545
+  ticket_url: https://events.sulekha.com/nyc-bollywood-movie-night-ft-ddlj-at-230-fifth_event-in_new-york-ny_401545
+  description_snippet: Nyc Bollywood Movie Night Ft. Ddlj At 230 Fifth
+  content_hash: 1ac3957bd17c1a8d
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/nyc-bollywood-movie-night-ft-ddlj-at-230-fifth_event-in_new-york-ny_401545
+    first_seen: '2026-08-26'
+    last_seen: '2026-08-26'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/nyc-bollywood-movie-night-ft-ddlj-at-230-fifth_event-in_new-york-ny_401545
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-26T07:42:46.308296-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-26T07:42:46.308268-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

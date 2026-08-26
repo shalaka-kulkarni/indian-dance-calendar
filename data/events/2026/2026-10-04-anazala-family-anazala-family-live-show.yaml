@@ -21,7 +21,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/anazala-family-live-show-concert
     first_seen: '2026-08-16'
-    last_seen: '2026-08-24'
+    last_seen: '2026-08-26'
 ai:
   relevant: false
   kind: other
@@ -49,11 +49,11 @@ validation:
   - url: https://www.prucenter.com/events/anazala-family-live-show-concert
     ok: true
     status_code: 200
-    checked_at: '2026-08-24T07:42:52.117369-04:00'
+    checked_at: '2026-08-26T07:43:49.752927-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-24T07:42:52.117346-04:00'
+  validated_at: '2026-08-26T07:43:49.752906-04:00'
 curated:
   forms: []
   traditions: []

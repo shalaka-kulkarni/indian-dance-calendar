@@ -20,7 +20,7 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/instances/ab2s119e/2027-04-02/2026-2027-dance-theatre-of-harlem
     first_seen: '2026-08-19'
-    last_seen: '2026-08-24'
+    last_seen: '2026-08-26'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/ab2s119e/2027-04-02/2026-2027-dance-theatre-of-harlem
     ok: true
     status_code: 200
-    checked_at: '2026-08-24T07:44:32.120548-04:00'
+    checked_at: '2026-08-26T07:45:13.994213-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-24T07:44:32.120526-04:00'
+  validated_at: '2026-08-26T07:45:13.994194-04:00'
 curated:
   forms: []
   traditions: []

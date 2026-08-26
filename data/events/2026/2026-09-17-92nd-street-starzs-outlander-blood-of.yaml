@@ -1,0 +1,53 @@
+id: 2026-09-17-92nd-street-starzs-outlander-blood-of
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'STARZ’s Outlander: Blood of my Blood'
+  start: '2026-09-17T20:00:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 80.0
+  price_max: 80.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/starz-s-outlander-blood-of-my-blood
+  ticket_url: https://seats.92ny.org/single/211178
+  description_snippet: 'See an advance screening of Outlander: Blood of My Blood , followed by a conversation
+    with Jeremy Irvine, Jamie Roy, Harriet Slater, and Maril Davis.'
+  content_hash: 33b4a9bc5175370a
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/starz-s-outlander-blood-of-my-blood
+    first_seen: '2026-08-26'
+    last_seen: '2026-08-26'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/211178
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-26T07:43:01.824612-04:00'
+  - url: https://www.92ny.org/event/starz-s-outlander-blood-of-my-blood
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-26T07:43:01.906110-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-26T07:43:01.824577-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

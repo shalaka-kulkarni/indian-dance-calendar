@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/laughing-lassi-the-1-south-asian-stand-up-comedy-show-in-new-york-city_event-in_new-york-ny_401291
     first_seen: '2026-08-16'
-    last_seen: '2026-08-24'
+    last_seen: '2026-08-26'
 ai:
   relevant: false
   kind: other
@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/laughing-lassi-the-1-south-asian-stand-up-comedy-show-in-new-york-city_event-in_new-york-ny_401291
     ok: true
     status_code: 200
-    checked_at: '2026-08-24T07:41:24.974299-04:00'
+    checked_at: '2026-08-26T07:42:41.800638-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-24T07:41:24.974276-04:00'
+  validated_at: '2026-08-26T07:42:41.800610-04:00'
 curated:
   forms: []
   traditions: []

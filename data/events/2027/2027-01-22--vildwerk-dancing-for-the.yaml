@@ -1,0 +1,48 @@
+id: 2027-01-22--vildwerk-dancing-for-the
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: vildwerk. Dancing for the Wild
+  start: '2027-01-22T00:00:00Z'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.nycitycenter.org/events/instances/2r7abtya/2027-01-21/2026-2027-vildwerk
+  ticket_url: ''
+  description_snippet: “The world's first non-profit organization solely dedicated to raising global environmental
+    conservation awareness through dance.” – <em>Broadway World</em>
+  content_hash: 99b015f5b58178d1
+  sources:
+  - source_id: city_center
+    url: https://www.nycitycenter.org/events/instances/2r7abtya/2027-01-21/2026-2027-vildwerk
+    first_seen: '2026-08-26'
+    last_seen: '2026-08-26'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.nycitycenter.org/events/instances/2r7abtya/2027-01-21/2026-2027-vildwerk
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-26T07:45:10.872861-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-26T07:45:10.872840-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

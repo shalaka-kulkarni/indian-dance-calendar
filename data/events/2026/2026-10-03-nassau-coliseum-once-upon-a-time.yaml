@@ -1,0 +1,49 @@
+id: 2026-10-03-nassau-coliseum-once-upon-a-time
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Once Upon A Time With Rahat Fateh Ali Khan & Shahzaman Ali Khan In Ny
+  start: '2026-10-03T20:00:00-04:00'
+  end: '2026-10-03T23:00:00-04:00'
+  additional_dates: []
+  venue: Nassau Coliseum
+  address: 1255 Hempstead Tpke, Uniondale, NY
+  region: long_island
+  price_min: 99.0
+  price_max: 99.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/once-upon-a-time-with-rahat-fateh-ali-khan-shahzaman-ali-khan-in-ny_event-in_uniondale-ny_400589
+  ticket_url: https://events.sulekha.com/once-upon-a-time-with-rahat-fateh-ali-khan-shahzaman-ali-khan-in-ny_event-in_uniondale-ny_400589
+  description_snippet: Once Upon A Time With Rahat Fateh Ali Khan & Shahzaman Ali Khan In Ny
+  content_hash: 1a3450390cd84a0d
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/once-upon-a-time-with-rahat-fateh-ali-khan-shahzaman-ali-khan-in-ny_event-in_uniondale-ny_400589
+    first_seen: '2026-08-26'
+    last_seen: '2026-08-26'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/once-upon-a-time-with-rahat-fateh-ali-khan-shahzaman-ali-khan-in-ny_event-in_uniondale-ny_400589
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-26T07:43:48.947887-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-26T07:43:48.947867-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

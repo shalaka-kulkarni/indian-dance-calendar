@@ -1,0 +1,49 @@
+id: 2026-10-23-queens-theatre-xiomara-laugart-rumbanza-celebrate
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Xiomara Laugart & Rumbanza Celebrate Celia Cruz — Musical Director, Axel Tosca
+  start: '2026-10-23T19:00:00-04:00'
+  additional_dates: []
+  venue: Queens Theatre
+  address: 14 United Nations Avenue South, Corona
+  region: queens
+  is_free: false
+  price_note: ''
+  info_url: https://queenstheatre.org/events/xiomara-laugart-and-rumbanza-celebrate-celia-cruz-519n
+  ticket_url: ''
+  description_snippet: Let’s wish a happy birthday to the Queen of Salsa with Xiomara Laugart & Rumbanza!
+    Xiomara Laugart, the seven-time Grammy-nominated artist known as "The Voice of Cuba," is an internationally
+    celebrate…
+  content_hash: a7775e7b71b3fb88
+  sources:
+  - source_id: queens_theatre
+    url: https://queenstheatre.org/events/xiomara-laugart-and-rumbanza-celebrate-celia-cruz-519n
+    first_seen: '2026-08-26'
+    last_seen: '2026-08-26'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://queenstheatre.org/events/xiomara-laugart-and-rumbanza-celebrate-celia-cruz-519n
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-26T07:44:18.477016-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-26T07:44:18.476993-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}
