@@ -1,0 +1,53 @@
+id: 2026-10-17--harmonium-concert---kedar
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Harmonium Concert - Kedar Naphade
+  start: '2026-10-17T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://chhandayan.org/calendar/2026/8/27/harmonium-concert-kedar-naphade
+  ticket_url: ''
+  description_snippet: Oct 17 7:30 PM 19:30 Baithak , New York , Online Harmonium Concert - Kedar Naphade
+    Saturday, October 17, 2026 7:30 PM 9:00 PM 19:30 21:00 Chhandayan Center for Indian Music (map) Google
+    Calendar ICS Kedar Naphade - Harmonium Samir Chatterjee - Tabla Come join us at the Chhandayan Center
+    for an evening concert on the harmonium by Kedar Naphade, accompanied by Samir Chatterjee. Both are
+    members of the Chhandayan faculty. The concert will also be streamed live. Purchase Tickets/Streaming
+    Access Kedar Naphade Kedar Naphade (born Jan 10, 1972) received preliminary training in Hindustani
+    Classical M
+  content_hash: f774394cadf2a2b7
+  sources:
+  - source_id: chhandayan
+    url: https://chhandayan.org/calendar/2026/8/27/harmonium-concert-kedar-naphade
+    first_seen: '2026-08-28'
+    last_seen: '2026-08-28'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://chhandayan.org/calendar/2026/8/27/harmonium-concert-kedar-naphade
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-28T17:31:58.680533-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-28T17:31:58.680507-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

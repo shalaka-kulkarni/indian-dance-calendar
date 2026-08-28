@@ -21,7 +21,7 @@ scraped:
   - source_id: joyce
     url: https://www.joyce.org/performances/limon-dance-company-ns9f
     first_seen: '2026-08-16'
-    last_seen: '2026-08-26'
+    last_seen: '2026-08-28'
 ai:
   relevant: false
   kind: other
@@ -48,11 +48,11 @@ validation:
   - url: https://www.joyce.org/performances/limon-dance-company-ns9f
     ok: true
     status_code: 200
-    checked_at: '2026-08-26T07:43:51.914499-04:00'
+    checked_at: '2026-08-28T17:31:33.071059-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-26T07:43:51.914477-04:00'
+  validated_at: '2026-08-28T17:31:33.071034-04:00'
 curated:
   forms: []
   traditions: []

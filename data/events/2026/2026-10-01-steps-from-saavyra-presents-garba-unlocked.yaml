@@ -1,0 +1,49 @@
+id: 2026-10-01-steps-from-saavyra-presents-garba-unlocked
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Saavyra Presents Garba Unlocked
+  start: '2026-10-01T18:00:00-04:00'
+  end: '2026-10-01T20:00:00-04:00'
+  additional_dates: []
+  venue: steps from Penn Station
+  address: Midtown Manhattan Manhattan, New York, NY
+  region: manhattan
+  price_min: 35.0
+  price_max: 35.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/saavyra-presents-garba-unlocked_event-in_new-york-ny_401475
+  ticket_url: https://events.sulekha.com/saavyra-presents-garba-unlocked_event-in_new-york-ny_401475
+  description_snippet: Saavyra Presents Garba Unlocked
+  content_hash: a2d9319ec92e06ed
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/saavyra-presents-garba-unlocked_event-in_new-york-ny_401475
+    first_seen: '2026-08-28'
+    last_seen: '2026-08-28'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/saavyra-presents-garba-unlocked_event-in_new-york-ny_401475
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-28T17:31:15.265826-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-28T17:31:15.265800-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,48 @@
+id: 2026-10-18--the-unbelievers
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: The Unbelievers
+  start: '2026-10-18T00:00:00Z'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.nycitycenter.org/events/instances/86cd6aqw/2026-10-17/2026-2027-the-unbelievers
+  ticket_url: ''
+  description_snippet: A poignant and funny new play written by Tony nominee Nick Payne (<em>Constellations</em>)
+    and directed by Tony nominee Knud Adams (<em>English</em>)
+  content_hash: 21902e3a5f8b15c7
+  sources:
+  - source_id: city_center
+    url: https://www.nycitycenter.org/events/instances/86cd6aqw/2026-10-17/2026-2027-the-unbelievers
+    first_seen: '2026-08-28'
+    last_seen: '2026-08-28'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.nycitycenter.org/events/instances/86cd6aqw/2026-10-17/2026-2027-the-unbelievers
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-28T17:32:07.998756-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-28T17:32:07.998731-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

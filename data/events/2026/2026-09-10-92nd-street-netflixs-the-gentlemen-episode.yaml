@@ -1,0 +1,54 @@
+id: 2026-09-10-92nd-street-netflixs-the-gentlemen-episode
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Netflix’s The Gentlemen : Episode Screening and Theo James and Kaya Scodelario in Conversation
+    with Jessica Shaw'
+  start: '2026-09-10T19:30:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 50.0
+  price_max: 50.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/netflix-s-the-gentlemen
+  ticket_url: https://seats.92ny.org/single/210980
+  description_snippet: Enjoy a screening of an episode from the new season of Netflix’s hit action-comedy
+    series The Gentlemen , followed by a conversation with stars Theo James and Kaya Scodelario.
+  content_hash: fdc5159844e0d93e
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/netflix-s-the-gentlemen
+    first_seen: '2026-08-28'
+    last_seen: '2026-08-28'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/210980
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-28T17:29:41.604785-04:00'
+  - url: https://www.92ny.org/event/netflix-s-the-gentlemen
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-28T17:29:41.701159-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-28T17:29:41.604761-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

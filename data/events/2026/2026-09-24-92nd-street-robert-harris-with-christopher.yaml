@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/robert-harris-agrippa
     first_seen: '2026-08-21'
-    last_seen: '2026-08-26'
+    last_seen: '2026-08-28'
 validation:
   passed: false
   checks:
@@ -37,14 +37,14 @@ validation:
   - url: https://www.92ny.org/event/robert-harris-agrippa
     ok: true
     status_code: 200
-    checked_at: '2026-08-26T07:43:26.420314-04:00'
+    checked_at: '2026-08-28T17:30:45.430182-04:00'
   - url: https://seats.92ny.org/single/210901
     ok: true
     status_code: 200
-    checked_at: '2026-08-26T07:43:26.532995-04:00'
+    checked_at: '2026-08-28T17:30:47.444768-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-08-26T07:43:26.420289-04:00'
+  validated_at: '2026-08-28T17:30:45.430156-04:00'
 curated:
   forms: []
   traditions: []

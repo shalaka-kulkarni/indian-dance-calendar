@@ -20,7 +20,7 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/instances/6sddaq20/2026-10-01/2026-2027-the-hope-theory
     first_seen: '2026-08-19'
-    last_seen: '2026-08-26'
+    last_seen: '2026-08-28'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/6sddaq20/2026-10-01/2026-2027-the-hope-theory
     ok: true
     status_code: 200
-    checked_at: '2026-08-26T07:43:45.236002-04:00'
+    checked_at: '2026-08-28T17:31:12.979899-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-26T07:43:45.235977-04:00'
+  validated_at: '2026-08-28T17:31:12.979873-04:00'
 curated:
   forms: []
   traditions: []

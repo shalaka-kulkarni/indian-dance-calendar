@@ -46,18 +46,18 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/sunset-yoga-mocktails
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-26T07:42:40.401776-04:00'
   - url: https://seats.92ny.org/single/210967
     ok: true
     status_code: 200
-    checked_at: '2026-08-26T07:42:40.552640-04:00'
+    checked_at: '2026-08-28T17:29:20.729584-04:00'
+  - url: https://www.92ny.org/event/sunset-yoga-mocktails
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-28T17:29:20.828712-04:00'
   problems:
   - event date 2026-08-24 is in the past
   - classified not-relevant
-  validated_at: '2026-08-26T07:42:40.401731-04:00'
+  validated_at: '2026-08-28T17:29:20.729559-04:00'
 curated:
   forms: []
   traditions: []

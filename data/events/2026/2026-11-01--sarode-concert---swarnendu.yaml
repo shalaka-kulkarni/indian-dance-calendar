@@ -1,0 +1,52 @@
+id: 2026-11-01--sarode-concert---swarnendu
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Sarode Concert - Swarnendu
+  start: '2026-11-01T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://chhandayan.org/calendar/2026/11/1/sarode-concert-swarnendu
+  ticket_url: ''
+  description_snippet: Nov 1 4:30 PM 16:30 New York , Online Sarode Concert - Swarnendu Sunday, November
+    1, 2026 4:30 PM 6:30 PM 16:30 18:30 Chhandayan Center for Indian Music (map) Google Calendar ICS Swarnendu
+    - Sarode Samir Chatterjee - Tabla Come join us at the Chhandayan Center for an afternoon concert on
+    the Sarode performed by Swarnendu accompanied by Samir Chatterjee. The performance will also be streamed
+    live. Purchase Tickets/Streaming Access Swarnendu Hailing from Kolkata, India, Swarnendu is a 23-year-old
+    prodigy, a Sarod virtuoso, and a master of Geology. Under the esteemed guidance of Pt. Buddhadev Das
+  content_hash: 37c6fc3690d6bf80
+  sources:
+  - source_id: chhandayan
+    url: https://chhandayan.org/calendar/2026/11/1/sarode-concert-swarnendu
+    first_seen: '2026-08-28'
+    last_seen: '2026-08-28'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://chhandayan.org/calendar/2026/11/1/sarode-concert-swarnendu
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-28T17:32:39.127224-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-28T17:32:39.127198-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

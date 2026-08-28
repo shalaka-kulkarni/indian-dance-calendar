@@ -52,17 +52,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://my.stnj.org/25277/25278
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-26T07:43:12.305732-04:00'
   - url: https://www.stnj.org/events/detail/comedy-night-live-2027
     ok: true
     status_code: 406
-    checked_at: '2026-08-26T07:43:12.380965-04:00'
+    checked_at: '2026-08-28T17:30:23.922398-04:00'
+  - url: https://my.stnj.org/25277/25278
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-28T17:30:24.739085-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-26T07:43:12.305707-04:00'
+  validated_at: '2026-08-28T17:30:23.922372-04:00'
 curated:
   forms: []
   traditions: []

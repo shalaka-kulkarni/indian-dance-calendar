@@ -1,0 +1,54 @@
+id: 2026-10-18-92nd-street-mario-documentary-screening-and
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Mario : Documentary Screening and Conversation with Ken Auletta, Madeline Cuomo, Steven Cohen,
+    and Teddy Kunhardt'
+  start: '2026-10-18T19:00:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 40.0
+  price_max: 40.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/mario-documentary-screening-and-conversation
+  ticket_url: https://seats.92ny.org/single/210931
+  description_snippet: Join us for a screening of Mario , a moving new documentary that explores the life
+    and legacy of former New York Governor Mario Cuomo, followed by a conversation.
+  content_hash: b07f9054c5829446
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/mario-documentary-screening-and-conversation
+    first_seen: '2026-08-28'
+    last_seen: '2026-08-28'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/210931
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-28T17:32:08.425620-04:00'
+  - url: https://www.92ny.org/event/mario-documentary-screening-and-conversation
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-28T17:32:08.550061-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-28T17:32:08.425593-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

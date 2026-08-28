@@ -20,7 +20,7 @@ scraped:
   - source_id: joyce
     url: https://www.joyce.org/performances/gallim-rhr7
     first_seen: '2026-08-16'
-    last_seen: '2026-08-26'
+    last_seen: '2026-08-28'
 ai:
   relevant: false
   kind: other
@@ -47,11 +47,11 @@ validation:
   - url: https://www.joyce.org/performances/gallim-rhr7
     ok: true
     status_code: 200
-    checked_at: '2026-08-26T07:44:47.488342-04:00'
+    checked_at: '2026-08-28T17:32:54.168060-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-26T07:44:47.488317-04:00'
+  validated_at: '2026-08-28T17:32:54.168035-04:00'
 curated:
   forms: []
   traditions: []

@@ -1,0 +1,51 @@
+id: 2027-02-19--take-me-to-the
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Take Me To The River All-Stars LIVE
+  start: '2027-02-19T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/take-me-to-the-river-26/
+  ticket_url: ''
+  description_snippet: Take Me To The River All-Stars LIVE FRI, FEB 19, 2027 at 7:30 PM On Sale Soon Take
+    Me to the River All-Stars Live brings together a constellation of New Orleans legends for an evening
+    rooted in the Grammy Award winning project dedicated to preserving the musical soul of New Orleans
+    and Memphis. Expect funk, soul, second line, and the blues delivered by the very artists who have
+    kept this music alive. On Sale Soon Learn More
+  content_hash: f58599cffaafcdb6
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/take-me-to-the-river-26/
+    first_seen: '2026-08-28'
+    last_seen: '2026-08-28'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/take-me-to-the-river-26/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-28T17:33:33.871329-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-28T17:33:33.871304-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

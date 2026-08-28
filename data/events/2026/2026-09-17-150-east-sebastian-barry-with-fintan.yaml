@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/sebastian-barry-the-newer-world
     first_seen: '2026-08-18'
-    last_seen: '2026-08-26'
+    last_seen: '2026-08-28'
 ai:
   relevant: false
   kind: performance
@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/210960
     ok: true
     status_code: 200
-    checked_at: '2026-08-26T07:43:01.200349-04:00'
+    checked_at: '2026-08-28T17:29:58.802085-04:00'
   - url: https://www.92ny.org/event/sebastian-barry-the-newer-world
     ok: true
     status_code: 200
-    checked_at: '2026-08-26T07:43:01.346321-04:00'
+    checked_at: '2026-08-28T17:29:58.897054-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-26T07:43:01.200321-04:00'
+  validated_at: '2026-08-28T17:29:58.802057-04:00'
 curated:
   forms: []
   traditions: []

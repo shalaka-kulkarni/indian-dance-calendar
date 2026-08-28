@@ -1,0 +1,53 @@
+id: 2026-10-11--sitar-concert---kalyanjit
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Sitar Concert - Kalyanjit Das
+  start: '2026-10-11T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://chhandayan.org/calendar/2025/7/26/sitar-concert-kalyanjit-das-lgsd8
+  ticket_url: ''
+  description_snippet: Oct 11 4:30 PM 16:30 New York , Online Sitar Concert - Kalyanjit Das Sunday, October
+    11, 2026 4:30 PM 6:00 PM 16:30 18:00 Chhandayan Center for Indian Music (map) Google Calendar ICS
+    Sitar - Kalyanjit Das Tabla - Manav Khurana Come join us at the Chhandayan Center for a Sunday afternoon
+    concert of sitar music played by Kalyanjit Das, accompanied by Manav Khurana. The performance will
+    also be streamed live. Tickets/Streaming Access Kalyanjit Das Born in a highly enriched musical family
+    of Kolkata, Kalyanjit is one of the brightest young sitarists in the field of Indian Classical Music.
+    His musi
+  content_hash: 75d6d7ff27c29096
+  sources:
+  - source_id: chhandayan
+    url: https://chhandayan.org/calendar/2025/7/26/sitar-concert-kalyanjit-das-lgsd8
+    first_seen: '2026-08-28'
+    last_seen: '2026-08-28'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://chhandayan.org/calendar/2025/7/26/sitar-concert-kalyanjit-das-lgsd8
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-28T17:31:43.804699-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-28T17:31:43.804672-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

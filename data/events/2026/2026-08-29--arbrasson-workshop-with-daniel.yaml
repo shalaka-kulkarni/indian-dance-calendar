@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/classes/arbrasson-workshop-with-daniel-fishkin
     first_seen: '2026-08-18'
-    last_seen: '2026-08-26'
+    last_seen: '2026-08-28'
 ai:
   relevant: false
   kind: performance
@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/classes/arbrasson-workshop-with-daniel-fishkin
     ok: true
     status_code: 200
-    checked_at: '2026-08-26T07:42:42.369884-04:00'
+    checked_at: '2026-08-28T17:29:24.998011-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-26T07:42:42.369859-04:00'
+  validated_at: '2026-08-28T17:29:24.997987-04:00'
 curated:
   forms: []
   traditions: []

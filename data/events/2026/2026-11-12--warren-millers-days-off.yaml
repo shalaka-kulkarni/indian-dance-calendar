@@ -1,0 +1,52 @@
+id: 2026-11-12--warren-millers-days-off
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Warren Miller's Days Off
+  start: '2026-11-12T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/days-off-26/
+  ticket_url: ''
+  description_snippet: Warren Miller's Days Off THU, NOV 12, 2026 at 7:00PM Buy Tickets Now Warren Miller's
+    Days Off marks the 77th installment of winter's most iconic ski and snowboard film tradition, following
+    host Katie Burrell — professional leisure athlete and ski industry lifer — as she uncovers what the
+    world's best athletes do when the cameras and competitions are off. From the backcountry of Alaska
+    to the powder of Japan and beyond, it's an unscripted celebration of skiing for skiing's sake. Buy
+    Tickets Now Learn More
+  content_hash: 795d5e0a6e97b72e
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/days-off-26/
+    first_seen: '2026-08-28'
+    last_seen: '2026-08-28'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/days-off-26/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-28T17:32:55.931588-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-28T17:32:55.931562-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

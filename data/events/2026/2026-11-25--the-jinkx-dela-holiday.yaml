@@ -22,7 +22,7 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/2026-2027-the-jinkx-and-dela-holiday-show
     first_seen: '2026-08-16'
-    last_seen: '2026-08-26'
+    last_seen: '2026-08-28'
 ai:
   relevant: false
   kind: other
@@ -49,11 +49,11 @@ validation:
   - url: https://www.nycitycenter.org/events/2026-2027-the-jinkx-and-dela-holiday-show
     ok: true
     status_code: 200
-    checked_at: '2026-08-26T07:45:00.137873-04:00'
+    checked_at: '2026-08-28T17:33:13.790569-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-26T07:45:00.137849-04:00'
+  validated_at: '2026-08-28T17:33:13.790543-04:00'
 curated:
   forms: []
   traditions: []

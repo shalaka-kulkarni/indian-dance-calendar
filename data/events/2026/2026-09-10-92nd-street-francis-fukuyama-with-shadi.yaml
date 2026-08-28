@@ -21,7 +21,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/francis-fukuyama-in-the-realm-of-the-last-man
     first_seen: '2026-08-26'
-    last_seen: '2026-08-26'
+    last_seen: '2026-08-28'
 validation:
   passed: false
   checks:
@@ -33,17 +33,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210567
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-26T07:42:48.556243-04:00'
   - url: https://www.92ny.org/event/francis-fukuyama-in-the-realm-of-the-last-man
     ok: true
     status_code: 200
-    checked_at: '2026-08-26T07:42:48.693864-04:00'
+    checked_at: '2026-08-28T17:29:37.702377-04:00'
+  - url: https://seats.92ny.org/single/210567
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-28T17:29:39.919705-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-08-26T07:42:48.556220-04:00'
+  validated_at: '2026-08-28T17:29:37.702344-04:00'
 curated:
   forms: []
   traditions: []

@@ -20,7 +20,7 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/instances/bjgqm3et/2026-09-26/2026-2027-fall-for-dance-festival
     first_seen: '2026-08-26'
-    last_seen: '2026-08-26'
+    last_seen: '2026-08-28'
 validation:
   passed: false
   checks:
@@ -35,11 +35,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/bjgqm3et/2026-09-26/2026-2027-fall-for-dance-festival
     ok: true
     status_code: 200
-    checked_at: '2026-08-26T07:43:29.130197-04:00'
+    checked_at: '2026-08-28T17:30:52.608547-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-26T07:43:29.130164-04:00'
+  validated_at: '2026-08-28T17:30:52.608522-04:00'
 curated:
   forms: []
   traditions: []

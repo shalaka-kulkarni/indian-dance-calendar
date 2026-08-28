@@ -1,0 +1,51 @@
+id: 2027-02-04--s-percussion-with-helado
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Sō Percussion with Helado Negro
+  start: '2027-02-04T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/so-percussion-27/
+  ticket_url: ''
+  description_snippet: Sō Percussion with Helado Negro THU, FEB 4, 2027 at 7:30 PM On Sale Soon Grammy
+    Award winning percussion ensemble Sō Percussion joins bilingual indie artist Helado Negro for an evening
+    of co-written songs that weave electronics, Latin-influenced grooves, marimba, Moog synthesizer, and
+    an arsenal of percussion into something entirely their own. Danceable, inventive, and unlike anything
+    else you will hear this year. On Sale Soon Learn More
+  content_hash: a515b1a68b170baf
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/so-percussion-27/
+    first_seen: '2026-08-28'
+    last_seen: '2026-08-28'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/so-percussion-27/
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-28T17:33:33.519316-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-28T17:33:33.519291-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

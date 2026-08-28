@@ -1,0 +1,53 @@
+id: 2026-10-07-150-east-kevin-roose-in-conversation
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Kevin Roose in Conversation: Human Connection in the Age of AI'
+  start: '2026-10-07T19:00:00-04:00'
+  additional_dates: []
+  venue: 150 East 91st Street
+  address: ''
+  region: manhattan
+  price_min: 35.0
+  price_max: 35.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/kevin-roose-in-conversation
+  ticket_url: https://seats.92ny.org/single/211229
+  description_snippet: Kevin Roose discusses The AGI Chronicles , the race to build artificial general
+    intelligence, and how we can preserve human connection and community in the age of AI.
+  content_hash: f05dbbb300ab6849
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/kevin-roose-in-conversation
+    first_seen: '2026-08-28'
+    last_seen: '2026-08-28'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/kevin-roose-in-conversation
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-28T17:31:33.870337-04:00'
+  - url: https://seats.92ny.org/single/211229
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-28T17:31:36.088971-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-08-28T17:31:33.870311-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}
