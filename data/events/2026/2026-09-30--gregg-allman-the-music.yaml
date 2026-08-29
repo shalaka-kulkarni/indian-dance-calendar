@@ -53,11 +53,11 @@ validation:
   - url: https://www.sopacnow.org/events/gregg-allman-the-music-of-my-soul/
     ok: true
     status_code: 200
-    checked_at: '2026-08-28T17:31:09.865341-04:00'
+    checked_at: '2026-08-29T12:57:19.647440-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-28T17:31:09.865315-04:00'
+  validated_at: '2026-08-29T12:57:19.647421-04:00'
 curated:
   forms: []
   traditions: []

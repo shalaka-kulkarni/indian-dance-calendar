@@ -51,14 +51,14 @@ validation:
   - url: https://seats.92ny.org/single/210360
     ok: true
     status_code: 200
-    checked_at: '2026-08-28T17:30:20.062112-04:00'
+    checked_at: '2026-08-29T12:56:41.259270-04:00'
   - url: https://www.92ny.org/event/the-essence-of-us-a-cuban-story
     ok: true
     status_code: 200
-    checked_at: '2026-08-28T17:30:20.200627-04:00'
+    checked_at: '2026-08-29T12:56:41.285414-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-28T17:30:20.062086-04:00'
+  validated_at: '2026-08-29T12:56:41.259251-04:00'
 curated:
   forms: []
   traditions: []

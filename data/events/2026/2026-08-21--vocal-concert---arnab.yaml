@@ -49,9 +49,9 @@ validation:
   - url: https://chhandayan.org/calendar/2026/8/14/vocal-concert-arnab-chatterjee
     ok: true
     status_code: 200
-    checked_at: '2026-08-28T17:29:18.934405-04:00'
+    checked_at: '2026-08-29T12:55:54.882871-04:00'
   problems: []
-  validated_at: '2026-08-28T17:29:18.934399-04:00'
+  validated_at: '2026-08-29T12:55:54.882868-04:00'
 curated:
   forms: []
   traditions: []

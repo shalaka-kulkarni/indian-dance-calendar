@@ -37,11 +37,11 @@ validation:
   - url: https://www.nycitycenter.org/events/2026-2027-vildwerk
     ok: true
     status_code: 200
-    checked_at: '2026-08-28T17:33:32.869331-04:00'
+    checked_at: '2026-08-29T12:59:17.111319-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-28T17:33:32.869305-04:00'
+  validated_at: '2026-08-29T12:59:17.111300-04:00'
 curated:
   forms: []
   traditions: []

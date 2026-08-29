@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/second-sundays-september-2026
     ok: true
     status_code: 200
-    checked_at: '2026-08-28T17:29:47.409319-04:00'
+    checked_at: '2026-08-29T12:56:16.174945-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-28T17:29:47.409293-04:00'
+  validated_at: '2026-08-29T12:56:16.174926-04:00'
 curated:
   forms: []
   traditions: []

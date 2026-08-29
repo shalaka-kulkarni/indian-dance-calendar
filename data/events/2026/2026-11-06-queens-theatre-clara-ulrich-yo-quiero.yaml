@@ -36,11 +36,11 @@ validation:
   - url: https://queenstheatre.org/events/clara-ulrich-yo-quiero-ser-mi-marido-zvg4
     ok: true
     status_code: 200
-    checked_at: '2026-08-28T17:32:44.388857-04:00'
+    checked_at: '2026-08-29T12:58:36.764876-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-28T17:32:44.388831-04:00'
+  validated_at: '2026-08-29T12:58:36.764857-04:00'
 curated:
   forms: []
   traditions: []

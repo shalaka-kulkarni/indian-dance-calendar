@@ -37,10 +37,10 @@ validation:
   - url: https://events.sulekha.com/nyc-bollywood-movie-night-ft-ddlj-at-230-fifth_event-in_new-york-ny_401545
     ok: true
     status_code: 200
-    checked_at: '2026-08-28T17:29:29.223199-04:00'
+    checked_at: '2026-08-29T12:56:01.981851-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-08-28T17:29:29.223174-04:00'
+  validated_at: '2026-08-29T12:56:01.981832-04:00'
 curated:
   forms: []
   traditions: []

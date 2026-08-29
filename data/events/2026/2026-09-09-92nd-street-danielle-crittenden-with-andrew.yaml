@@ -34,17 +34,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/danielle-crittenden-with-andrew-solomon
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-28T17:29:34.892934-04:00'
   - url: https://seats.92ny.org/single/210915
     ok: true
     status_code: 200
-    checked_at: '2026-08-28T17:29:36.931382-04:00'
+    checked_at: '2026-08-29T12:56:03.035046-04:00'
+  - url: https://www.92ny.org/event/danielle-crittenden-with-andrew-solomon
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-29T12:56:03.059557-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-08-28T17:29:34.892909-04:00'
+  validated_at: '2026-08-29T12:56:03.035028-04:00'
 curated:
   forms: []
   traditions: []

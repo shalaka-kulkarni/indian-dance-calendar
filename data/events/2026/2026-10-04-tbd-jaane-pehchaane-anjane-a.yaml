@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/jaane-pehchaane-anjane-a-musical-play-by-anupam-kher-swaroop-sampat_event-in_new-york-ny_400217
     ok: true
     status_code: 200
-    checked_at: '2026-08-28T17:31:21.957727-04:00'
+    checked_at: '2026-08-29T12:57:31.142351-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-28T17:31:21.957698-04:00'
+  validated_at: '2026-08-29T12:57:31.142332-04:00'
 curated:
   forms: []
   traditions: []

@@ -34,11 +34,11 @@ validation:
   - url: https://pioneerworks.org/programs/observe-the-moon-night-26
     ok: true
     status_code: 200
-    checked_at: '2026-08-28T17:30:19.442081-04:00'
+    checked_at: '2026-08-29T12:56:40.665887-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-28T17:30:19.442057-04:00'
+  validated_at: '2026-08-29T12:56:40.665867-04:00'
 curated:
   forms: []
   traditions: []

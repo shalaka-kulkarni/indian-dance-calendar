@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210757
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-28T17:29:30.004619-04:00'
   - url: https://www.92ny.org/event/dara-horn-with-coleman-hughes
     ok: true
     status_code: 200
-    checked_at: '2026-08-28T17:29:30.123138-04:00'
+    checked_at: '2026-08-29T12:56:02.285290-04:00'
+  - url: https://seats.92ny.org/single/210757
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-29T12:56:02.368238-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-28T17:29:30.004594-04:00'
+  validated_at: '2026-08-29T12:56:02.285271-04:00'
 curated:
   forms: []
   traditions: []

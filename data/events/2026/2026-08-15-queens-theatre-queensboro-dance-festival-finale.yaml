@@ -44,9 +44,9 @@ validation:
   - url: https://www.queenstheatre.org/events/2026-queensboro-dance-festival-tour-finale-1jdr
     ok: true
     status_code: 200
-    checked_at: '2026-08-28T17:29:07.755558-04:00'
+    checked_at: '2026-08-29T12:55:48.739613-04:00'
   problems: []
-  validated_at: '2026-08-28T17:29:07.755553-04:00'
+  validated_at: '2026-08-29T12:55:48.739611-04:00'
 curated:
   forms:
   - kathak

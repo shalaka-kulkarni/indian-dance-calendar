@@ -33,17 +33,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211217
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-28T17:30:14.812633-04:00'
   - url: https://www.92ny.org/event/shabbat-b-ivrit
     ok: true
     status_code: 200
-    checked_at: '2026-08-28T17:30:14.980325-04:00'
+    checked_at: '2026-08-29T12:56:36.682752-04:00'
+  - url: https://seats.92ny.org/single/211217
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-29T12:56:38.809763-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-08-28T17:30:14.812606-04:00'
+  validated_at: '2026-08-29T12:56:36.682733-04:00'
 curated:
   forms: []
   traditions: []

@@ -34,17 +34,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/are-teachers-unions-good-for-kids
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-28T17:30:31.530790-04:00'
   - url: https://seats.92ny.org/single/211162
     ok: true
     status_code: 200
-    checked_at: '2026-08-28T17:30:32.005267-04:00'
+    checked_at: '2026-08-29T12:56:48.771547-04:00'
+  - url: https://www.92ny.org/event/are-teachers-unions-good-for-kids
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-29T12:56:48.847297-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-08-28T17:30:31.530764-04:00'
+  validated_at: '2026-08-29T12:56:48.771528-04:00'
 curated:
   forms: []
   traditions: []

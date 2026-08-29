@@ -34,17 +34,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/marianne-williamson-with-david-ingber
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-28T17:31:05.889756-04:00'
   - url: https://seats.92ny.org/single/211202
     ok: true
     status_code: 200
-    checked_at: '2026-08-28T17:31:07.820198-04:00'
+    checked_at: '2026-08-29T12:57:18.231583-04:00'
+  - url: https://www.92ny.org/event/marianne-williamson-with-david-ingber
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-29T12:57:18.265947-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-08-28T17:31:05.889729-04:00'
+  validated_at: '2026-08-29T12:57:18.231546-04:00'
 curated:
   forms: []
   traditions: []

@@ -38,11 +38,11 @@ validation:
   - url: https://www.sopacnow.org/events/john-pizzarelli-26/
     ok: true
     status_code: 200
-    checked_at: '2026-08-28T17:33:19.343085-04:00'
+    checked_at: '2026-08-29T12:59:04.047340-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-28T17:33:19.343061-04:00'
+  validated_at: '2026-08-29T12:59:04.047322-04:00'
 curated:
   forms: []
   traditions: []

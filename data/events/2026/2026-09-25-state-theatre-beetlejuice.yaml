@@ -53,17 +53,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
+  - url: https://www.stnj.org/events/detail/beetlejuice-2026
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-29T12:57:03.353142-04:00'
   - url: https://my.stnj.org/overview/24975
     ok: true
     status_code: 200
-    checked_at: '2026-08-28T17:30:51.413862-04:00'
-  - url: https://www.stnj.org/events/detail/beetlejuice-2026
-    ok: true
-    status_code: 406
-    checked_at: '2026-08-28T17:30:51.948864-04:00'
+    checked_at: '2026-08-29T12:57:03.408597-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-28T17:30:51.413836-04:00'
+  validated_at: '2026-08-29T12:57:03.353123-04:00'
 curated:
   forms: []
   traditions: []

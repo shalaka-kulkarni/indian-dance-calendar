@@ -35,17 +35,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210980
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-28T17:29:41.604785-04:00'
   - url: https://www.92ny.org/event/netflix-s-the-gentlemen
     ok: true
     status_code: 200
-    checked_at: '2026-08-28T17:29:41.701159-04:00'
+    checked_at: '2026-08-29T12:56:09.053554-04:00'
+  - url: https://seats.92ny.org/single/210980
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-29T12:56:10.854256-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-08-28T17:29:41.604761-04:00'
+  validated_at: '2026-08-29T12:56:09.053534-04:00'
 curated:
   forms: []
   traditions: []

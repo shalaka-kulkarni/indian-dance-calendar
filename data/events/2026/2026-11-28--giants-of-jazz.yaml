@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/giants-of-jazz-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-28T17:33:14.886202-04:00'
+    checked_at: '2026-08-29T12:59:01.084301-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-28T17:33:14.886175-04:00'
+  validated_at: '2026-08-29T12:59:01.084283-04:00'
 curated:
   forms: []
   traditions: []

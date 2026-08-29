@@ -33,17 +33,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210926
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-28T17:31:50.827946-04:00'
   - url: https://www.92ny.org/event/nara-smith-in-conversation-homemade
     ok: true
     status_code: 200
-    checked_at: '2026-08-28T17:31:50.915544-04:00'
+    checked_at: '2026-08-29T12:57:56.189305-04:00'
+  - url: https://seats.92ny.org/single/210926
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-29T12:57:57.594639-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-08-28T17:31:50.827918-04:00'
+  validated_at: '2026-08-29T12:57:56.189286-04:00'
 curated:
   forms: []
   traditions: []

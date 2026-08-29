@@ -39,11 +39,11 @@ validation:
   - url: https://ajnadance.com/event/ajna-dance-company-at-downtown-brooklyns-fall-into-step-free-2/
     ok: true
     status_code: 200
-    checked_at: '2026-08-28T17:29:43.581053-04:00'
+    checked_at: '2026-08-29T12:56:10.885036-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-28T17:29:43.581028-04:00'
+  validated_at: '2026-08-29T12:56:10.885016-04:00'
 curated:
   forms: []
   traditions: []
