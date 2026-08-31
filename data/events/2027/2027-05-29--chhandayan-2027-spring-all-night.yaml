@@ -1,0 +1,53 @@
+id: 2027-05-29--chhandayan-2027-spring-all-night
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Chhandayan 2027 Spring All-Night Concert
+  start: '2027-05-29T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://chhandayan.org/calendar/2026/10/24/chhandayan-2026-all-night-concert-ph2d8-e6mdp
+  ticket_url: ''
+  description_snippet: May 29 to May 30 All-Night , Online Chhandayan 2027 Spring All-Night Concert Sat,
+    May 29, 2027 9:00 PM 21:00 Sun, May 30, 2027 6:00 AM 06:00 Chhandayan Center for Indian Music (map)
+    Google Calendar ICS Now that Chhandayan has its own concert venue, we will be presenting several All-night
+    Concerts each year at CCIM in New York. These give the opportunity to hear some unusual late night
+    and early morning ragas that are not often heard in the evening and afternoon time slots. The second
+    of these will be held May 29-30, 2027. As we get closer to the event, we will finalize the performances.
+    Check
+  content_hash: 45d5bd46d495c00b
+  sources:
+  - source_id: chhandayan
+    url: https://chhandayan.org/calendar/2026/10/24/chhandayan-2026-all-night-concert-ph2d8-e6mdp
+    first_seen: '2026-08-31'
+    last_seen: '2026-08-31'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://chhandayan.org/calendar/2026/10/24/chhandayan-2026-all-night-concert-ph2d8-e6mdp
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-31T14:08:30.837284-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-31T14:08:30.837265-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

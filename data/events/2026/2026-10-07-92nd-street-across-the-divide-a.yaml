@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/across-the-divide
     first_seen: '2026-08-16'
-    last_seen: '2026-08-28'
+    last_seen: '2026-08-31'
 ai:
   relevant: false
   kind: other
@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/211142
     ok: true
     status_code: 200
-    checked_at: '2026-08-29T12:57:42.236180-04:00'
+    checked_at: '2026-08-31T14:06:37.920166-04:00'
   - url: https://www.92ny.org/event/across-the-divide
     ok: true
     status_code: 200
-    checked_at: '2026-08-29T12:57:42.262218-04:00'
+    checked_at: '2026-08-31T14:06:37.934962-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-29T12:57:42.236160-04:00'
+  validated_at: '2026-08-31T14:06:37.920145-04:00'
 curated:
   forms: []
   traditions: []

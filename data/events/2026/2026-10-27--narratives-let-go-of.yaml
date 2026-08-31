@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/narratives-let-go-of-the-stories-that-keep-you-stuck
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-29T12:58:23.793117-04:00'
   - url: https://seats.92ny.org/single/211034
     ok: true
     status_code: 200
-    checked_at: '2026-08-29T12:58:25.429388-04:00'
+    checked_at: '2026-08-31T14:07:19.162930-04:00'
+  - url: https://www.92ny.org/event/narratives-let-go-of-the-stories-that-keep-you-stuck
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-31T14:07:19.188046-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-29T12:58:23.793096-04:00'
+  validated_at: '2026-08-31T14:07:19.162795-04:00'
 curated:
   forms: []
   traditions: []

@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/get-ready-with-meredith
     first_seen: '2026-08-26'
-    last_seen: '2026-08-28'
+    last_seen: '2026-08-31'
 validation:
   passed: false
   checks:
@@ -34,17 +34,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211198
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-29T12:56:02.448942-04:00'
   - url: https://www.92ny.org/event/get-ready-with-meredith
     ok: true
     status_code: 200
-    checked_at: '2026-08-29T12:56:02.474028-04:00'
+    checked_at: '2026-08-31T14:04:59.002395-04:00'
+  - url: https://seats.92ny.org/single/211198
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-31T14:05:01.483973-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-08-29T12:56:02.448923-04:00'
+  validated_at: '2026-08-31T14:04:59.002371-04:00'
 curated:
   forms: []
   traditions: []

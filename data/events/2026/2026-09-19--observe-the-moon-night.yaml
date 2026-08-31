@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/observe-the-moon-night-26
     first_seen: '2026-08-28'
-    last_seen: '2026-08-28'
+    last_seen: '2026-08-31'
 validation:
   passed: false
   checks:
@@ -34,11 +34,11 @@ validation:
   - url: https://pioneerworks.org/programs/observe-the-moon-night-26
     ok: true
     status_code: 200
-    checked_at: '2026-08-29T12:56:40.665887-04:00'
+    checked_at: '2026-08-31T14:05:39.132264-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-29T12:56:40.665867-04:00'
+  validated_at: '2026-08-31T14:05:39.132234-04:00'
 curated:
   forms: []
   traditions: []

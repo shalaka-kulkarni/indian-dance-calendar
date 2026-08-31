@@ -21,7 +21,7 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/instances/xcfxmznn/2026-10-16/2026-2027-alex-edelman
     first_seen: '2026-08-16'
-    last_seen: '2026-08-28'
+    last_seen: '2026-08-31'
 ai:
   relevant: false
   kind: other
@@ -48,11 +48,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/xcfxmznn/2026-10-16/2026-2027-alex-edelman
     ok: true
     status_code: 200
-    checked_at: '2026-08-29T12:58:01.936154-04:00'
+    checked_at: '2026-08-31T14:06:55.160009-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-29T12:58:01.936134-04:00'
+  validated_at: '2026-08-31T14:06:55.159985-04:00'
 curated:
   forms: []
   traditions: []

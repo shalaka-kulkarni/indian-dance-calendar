@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/wabc-s-bill-ritter-with-allison-gilbert
     first_seen: '2026-08-16'
-    last_seen: '2026-08-28'
+    last_seen: '2026-08-31'
 ai:
   relevant: false
   kind: other
@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211063
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-29T12:57:20.282355-04:00'
   - url: https://www.92ny.org/event/wabc-s-bill-ritter-with-allison-gilbert
     ok: true
     status_code: 200
-    checked_at: '2026-08-29T12:57:20.309967-04:00'
+    checked_at: '2026-08-31T14:06:23.283694-04:00'
+  - url: https://seats.92ny.org/single/211063
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-31T14:06:25.386518-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-29T12:57:20.282336-04:00'
+  validated_at: '2026-08-31T14:06:23.283665-04:00'
 curated:
   forms: []
   traditions: []

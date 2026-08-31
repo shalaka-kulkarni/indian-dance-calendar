@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/legacy-udit-narayan-aditya-narayan-live-in-new-york_event-in_greenvale-ny_401310
     first_seen: '2026-08-16'
-    last_seen: '2026-08-28'
+    last_seen: '2026-08-31'
 ai:
   relevant: true
   kind: performance
@@ -51,9 +51,9 @@ validation:
   - url: https://events.sulekha.com/legacy-udit-narayan-aditya-narayan-live-in-new-york_event-in_greenvale-ny_401310
     ok: true
     status_code: 200
-    checked_at: '2026-08-29T12:59:00.502173-04:00'
+    checked_at: '2026-08-31T14:08:05.361540-04:00'
   problems: []
-  validated_at: '2026-08-29T12:59:00.502154-04:00'
+  validated_at: '2026-08-31T14:08:05.361514-04:00'
 curated:
   forms: []
   traditions: []

@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/preserving-history-under-fire
     first_seen: '2026-08-21'
-    last_seen: '2026-08-28'
+    last_seen: '2026-08-31'
 validation:
   passed: false
   checks:
@@ -35,17 +35,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211174
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-29T12:59:12.164663-04:00'
   - url: https://www.92ny.org/event/preserving-history-under-fire
     ok: true
     status_code: 200
-    checked_at: '2026-08-29T12:59:12.264140-04:00'
+    checked_at: '2026-08-31T14:08:17.326428-04:00'
+  - url: https://seats.92ny.org/single/211174
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-31T14:08:19.121115-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-08-29T12:59:12.164644-04:00'
+  validated_at: '2026-08-31T14:08:17.326407-04:00'
 curated:
   forms: []
   traditions: []

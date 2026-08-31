@@ -23,7 +23,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/john-pizzarelli-26/
     first_seen: '2026-08-21'
-    last_seen: '2026-08-28'
+    last_seen: '2026-08-31'
 validation:
   passed: false
   checks:
@@ -38,11 +38,11 @@ validation:
   - url: https://www.sopacnow.org/events/john-pizzarelli-26/
     ok: true
     status_code: 200
-    checked_at: '2026-08-29T12:59:04.047340-04:00'
+    checked_at: '2026-08-31T14:08:09.384680-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-29T12:59:04.047322-04:00'
+  validated_at: '2026-08-31T14:08:09.384660-04:00'
 curated:
   forms: []
   traditions: []

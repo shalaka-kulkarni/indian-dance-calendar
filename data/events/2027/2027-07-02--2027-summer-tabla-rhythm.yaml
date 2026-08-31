@@ -1,0 +1,53 @@
+id: 2027-07-02--2027-summer-tabla-rhythm
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 2027 Summer Tabla & Rhythm Ashram
+  start: '2027-07-02T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://chhandayan.org/calendar/2023/7/1/2023-tabla-ashram-at-shanti-mandir-793t4-4t8hw-raz7z-dmjhj-6t623-fxywn-sy97a
+  ticket_url: ''
+  description_snippet: Jul 2 to Jul 4 Workshop , Ashram 2027 Summer Tabla & Rhythm Ashram Fri, Jul 2,
+    2027 9:00 AM 09:00 Sun, Jul 4, 2027 4:00 PM 16:00 Chhandayan (map) Google Calendar ICS Chhandayan
+    Tabla Ashram – An Invitation to Deepen Your Musical Journey Every year, Chhandayan offers a series
+    of immersive workshops designed to enhance the study and practice of Indian music. These workshops,
+    which we call Ashrams , are intensive in nature. They include supervised practice sessions and address
+    many aspects of music that cannot always be explored in regular classroom settings. Open to students
+    of all levels and ba
+  content_hash: 5ae04308ea817dca
+  sources:
+  - source_id: chhandayan
+    url: https://chhandayan.org/calendar/2023/7/1/2023-tabla-ashram-at-shanti-mandir-793t4-4t8hw-raz7z-dmjhj-6t623-fxywn-sy97a
+    first_seen: '2026-08-31'
+    last_seen: '2026-08-31'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://chhandayan.org/calendar/2023/7/1/2023-tabla-ashram-at-shanti-mandir-793t4-4t8hw-raz7z-dmjhj-6t623-fxywn-sy97a
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-31T14:08:31.200087-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-08-31T14:08:31.200064-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/memories-of-a-good-meal
     first_seen: '2026-08-19'
-    last_seen: '2026-08-28'
+    last_seen: '2026-08-31'
 ai:
   relevant: false
   kind: performance
@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/memories-of-a-good-meal
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-29T12:57:49.968776-04:00'
   - url: https://seats.92ny.org/single/211148
     ok: true
     status_code: 200
-    checked_at: '2026-08-29T12:57:52.851455-04:00'
+    checked_at: '2026-08-31T14:06:44.724214-04:00'
+  - url: https://www.92ny.org/event/memories-of-a-good-meal
+    ok: true
+    status_code: 200
+    checked_at: '2026-08-31T14:06:44.745943-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-29T12:57:49.968757-04:00'
+  validated_at: '2026-08-31T14:06:44.724193-04:00'
 curated:
   forms: []
   traditions: []

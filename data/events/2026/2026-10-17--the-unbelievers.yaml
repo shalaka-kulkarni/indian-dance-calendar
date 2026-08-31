@@ -20,7 +20,7 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/instances/ssvnqrqs/2026-10-17/2026-2027-the-unbelievers
     first_seen: '2026-08-28'
-    last_seen: '2026-08-28'
+    last_seen: '2026-08-31'
 validation:
   passed: false
   checks:
@@ -35,11 +35,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/ssvnqrqs/2026-10-17/2026-2027-the-unbelievers
     ok: true
     status_code: 200
-    checked_at: '2026-08-29T12:58:03.155794-04:00'
+    checked_at: '2026-08-31T14:06:56.248865-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-29T12:58:03.155774-04:00'
+  validated_at: '2026-08-31T14:06:56.248839-04:00'
 curated:
   forms: []
   traditions: []

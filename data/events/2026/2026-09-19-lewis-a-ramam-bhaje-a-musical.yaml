@@ -49,11 +49,11 @@ validation:
   - url: https://events.sulekha.com/ramam-bhaje-a-musical-celebration-of-lord-rama_event-in_albany-ny_401182
     ok: true
     status_code: 200
-    checked_at: '2026-08-29T12:56:42.408043-04:00'
+    checked_at: '2026-08-31T14:05:40.969441-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-08-29T12:56:42.408024-04:00'
+  validated_at: '2026-08-31T14:05:40.969413-04:00'
 curated:
   forms: []
   traditions: []

@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/joe-manganiello-with-josh-horowitz-bloodlines
     first_seen: '2026-08-22'
-    last_seen: '2026-08-28'
+    last_seen: '2026-08-31'
 validation:
   passed: false
   checks:
@@ -37,14 +37,14 @@ validation:
   - url: https://www.92ny.org/event/joe-manganiello-with-josh-horowitz-bloodlines
     ok: true
     status_code: 200
-    checked_at: '2026-08-29T12:57:58.372787-04:00'
+    checked_at: '2026-08-31T14:06:49.889934-04:00'
   - url: https://seats.92ny.org/single/211183
     ok: true
     status_code: 200
-    checked_at: '2026-08-29T12:58:00.293613-04:00'
+    checked_at: '2026-08-31T14:06:51.813346-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-08-29T12:57:58.372762-04:00'
+  validated_at: '2026-08-31T14:06:49.889908-04:00'
 curated:
   forms: []
   traditions: []

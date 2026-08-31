@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/supper-club-with-chama-mama
     first_seen: '2026-08-28'
-    last_seen: '2026-08-28'
+    last_seen: '2026-08-31'
 validation:
   passed: false
   checks:
@@ -34,11 +34,11 @@ validation:
   - url: https://pioneerworks.org/programs/supper-club-with-chama-mama
     ok: true
     status_code: 200
-    checked_at: '2026-08-29T12:59:14.269420-04:00'
+    checked_at: '2026-08-31T14:08:19.151465-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-08-29T12:59:14.269401-04:00'
+  validated_at: '2026-08-31T14:08:19.151441-04:00'
 curated:
   forms: []
   traditions: []
