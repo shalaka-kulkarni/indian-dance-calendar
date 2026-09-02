@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/bollywaves-the-end-of-summer-cruise-party_event-in_new-york-ny_401073
     first_seen: '2026-08-16'
-    last_seen: '2026-08-31'
+    last_seen: '2026-09-02'
 ai:
   relevant: false
   kind: other
@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/bollywaves-the-end-of-summer-cruise-party_event-in_new-york-ny_401073
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:05:43.239849-04:00'
+    checked_at: '2026-09-02T11:14:15.507137-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-31T14:05:43.239808-04:00'
+  validated_at: '2026-09-02T11:14:15.507110-04:00'
 curated:
   forms: []
   traditions: []

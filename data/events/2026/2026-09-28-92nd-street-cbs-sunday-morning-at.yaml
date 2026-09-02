@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211079
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-31T14:06:11.925185-04:00'
   - url: https://www.92ny.org/event/sylvester-stallone-with-tracy-smith
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:06:11.947589-04:00'
+    checked_at: '2026-09-02T11:15:00.910383-04:00'
+  - url: https://seats.92ny.org/single/211079
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-02T11:15:02.986818-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-31T14:06:11.925158-04:00'
+  validated_at: '2026-09-02T11:15:00.910357-04:00'
 curated:
   forms: []
   traditions: []

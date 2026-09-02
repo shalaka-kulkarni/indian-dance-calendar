@@ -34,17 +34,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/netflix-s-best-of-the-best
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-31T14:05:06.219517-04:00'
   - url: https://seats.92ny.org/single/211152
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:05:07.778695-04:00'
+    checked_at: '2026-09-02T11:13:15.385251-04:00'
+  - url: https://www.92ny.org/event/netflix-s-best-of-the-best
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-02T11:13:15.460780-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-08-31T14:05:06.219495-04:00'
+  validated_at: '2026-09-02T11:13:15.385225-04:00'
 curated:
   forms: []
   traditions: []

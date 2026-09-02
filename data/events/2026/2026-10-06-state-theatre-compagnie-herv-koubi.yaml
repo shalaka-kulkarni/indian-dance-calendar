@@ -28,7 +28,7 @@ scraped:
   - source_id: state_theatre_nj
     url: https://www.stnj.org/events/detail/compagnie-herve-koubi
     first_seen: '2026-08-16'
-    last_seen: '2026-08-31'
+    last_seen: '2026-09-02'
 ai:
   relevant: false
   kind: other
@@ -54,15 +54,15 @@ validation:
   link_checks:
   - url: https://www.stnj.org/events/detail/compagnie-herve-koubi
     ok: true
-    status_code: 406
-    checked_at: '2026-08-31T14:06:37.087154-04:00'
+    status_code: 200
+    checked_at: '2026-09-02T11:15:42.389806-04:00'
   - url: https://my.stnj.org/23395/23396
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:06:37.145241-04:00'
+    checked_at: '2026-09-02T11:15:42.540325-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-31T14:06:37.087129-04:00'
+  validated_at: '2026-09-02T11:15:42.389772-04:00'
 curated:
   forms: []
   traditions: []

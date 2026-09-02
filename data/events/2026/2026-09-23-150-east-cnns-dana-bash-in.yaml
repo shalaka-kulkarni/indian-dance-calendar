@@ -50,14 +50,14 @@ validation:
   - url: https://seats.92ny.org/single/210411
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:05:53.240555-04:00'
+    checked_at: '2026-09-02T11:14:31.710120-04:00'
   - url: https://www.92ny.org/event/cnn-s-dana-bash
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:05:53.258265-04:00'
+    checked_at: '2026-09-02T11:14:31.808660-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-31T14:05:53.240533-04:00'
+  validated_at: '2026-09-02T11:14:31.710083-04:00'
 curated:
   forms: []
   traditions: []

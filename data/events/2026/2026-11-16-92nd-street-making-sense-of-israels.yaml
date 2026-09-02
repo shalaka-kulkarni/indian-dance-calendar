@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/making-sense-of-israel-s-2026-election
     first_seen: '2026-08-28'
-    last_seen: '2026-08-31'
+    last_seen: '2026-09-02'
 validation:
   passed: false
   checks:
@@ -37,14 +37,14 @@ validation:
   - url: https://seats.92ny.org/single/211235
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:07:57.851117-04:00'
+    checked_at: '2026-09-02T11:17:34.753284-04:00'
   - url: https://www.92ny.org/event/making-sense-of-israel-s-2026-election
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:07:57.870467-04:00'
+    checked_at: '2026-09-02T11:17:34.878270-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-08-31T14:07:57.851092-04:00'
+  validated_at: '2026-09-02T11:17:34.753253-04:00'
 curated:
   forms: []
   traditions: []

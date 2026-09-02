@@ -21,7 +21,7 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/2026-2027-paris-opera-ballet
     first_seen: '2026-08-16'
-    last_seen: '2026-08-31'
+    last_seen: '2026-09-02'
 ai:
   relevant: false
   kind: other
@@ -47,12 +47,12 @@ validation:
   link_checks:
   - url: https://www.nycitycenter.org/events/2026-2027-paris-opera-ballet
     ok: true
-    status_code: 429
-    checked_at: '2026-08-31T14:08:29.937436-04:00'
+    status_code: 200
+    checked_at: '2026-09-02T11:18:19.016091-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-31T14:08:29.937413-04:00'
+  validated_at: '2026-09-02T11:18:19.016063-04:00'
 curated:
   forms: []
   traditions: []

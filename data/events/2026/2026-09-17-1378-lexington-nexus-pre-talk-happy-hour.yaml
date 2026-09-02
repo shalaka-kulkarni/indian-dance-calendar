@@ -45,17 +45,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211036
-    ok: true
-    status_code: 200
-    checked_at: '2026-08-31T14:05:21.573957-04:00'
   - url: https://www.92ny.org/event/nexus-happy-hour-at-la-bomboniera
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:05:21.619096-04:00'
+    checked_at: '2026-09-02T11:13:33.465347-04:00'
+  - url: https://seats.92ny.org/single/211036
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-02T11:13:36.067452-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-31T14:05:21.573935-04:00'
+  validated_at: '2026-09-02T11:13:33.465322-04:00'
 curated:
   forms: []
   traditions: []

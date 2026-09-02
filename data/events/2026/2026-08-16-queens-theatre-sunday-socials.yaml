@@ -49,12 +49,12 @@ validation:
   - url: https://queenstheatre.org/events/sunday-socials-nr6f
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:04:44.682603-04:00'
+    checked_at: '2026-09-02T11:12:41.279372-04:00'
   problems:
   - event date 2026-08-16 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-31T14:04:44.682569-04:00'
+  validated_at: '2026-09-02T11:12:41.279345-04:00'
 curated:
   forms: []
   traditions: []

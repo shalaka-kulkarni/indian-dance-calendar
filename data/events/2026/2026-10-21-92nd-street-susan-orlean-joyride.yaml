@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/susan-orlean-joyride
     first_seen: '2026-08-22'
-    last_seen: '2026-08-31'
+    last_seen: '2026-09-02'
 validation:
   passed: false
   checks:
@@ -37,14 +37,14 @@ validation:
   - url: https://seats.92ny.org/single/211187
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:07:13.124004-04:00'
+    checked_at: '2026-09-02T11:16:37.382092-04:00'
   - url: https://www.92ny.org/event/susan-orlean-joyride
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:07:13.133536-04:00'
+    checked_at: '2026-09-02T11:16:37.467425-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-08-31T14:07:13.123979-04:00'
+  validated_at: '2026-09-02T11:16:37.382066-04:00'
 curated:
   forms: []
   traditions: []

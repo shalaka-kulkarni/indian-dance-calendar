@@ -20,7 +20,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/disney-on-ice-presents-spotlight-magic
     first_seen: '2026-08-16'
-    last_seen: '2026-08-31'
+    last_seen: '2026-09-02'
 ai:
   relevant: false
   kind: other
@@ -48,11 +48,11 @@ validation:
   - url: https://www.prucenter.com/events/disney-on-ice-presents-spotlight-magic
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:07:24.075385-04:00'
+    checked_at: '2026-09-02T11:16:54.195639-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-31T14:07:24.075354-04:00'
+  validated_at: '2026-09-02T11:16:54.195609-04:00'
 curated:
   forms: []
   traditions: []

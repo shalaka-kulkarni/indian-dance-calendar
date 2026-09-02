@@ -28,7 +28,7 @@ scraped:
   - source_id: state_theatre_nj
     url: https://www.stnj.org/events/detail/beetlejuice-2026
     first_seen: '2026-08-16'
-    last_seen: '2026-08-31'
+    last_seen: '2026-09-02'
 ai:
   relevant: false
   kind: other
@@ -56,14 +56,14 @@ validation:
   - url: https://my.stnj.org/overview/24975
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:06:06.293660-04:00'
+    checked_at: '2026-09-02T11:14:49.948011-04:00'
   - url: https://www.stnj.org/events/detail/beetlejuice-2026
     ok: true
-    status_code: 406
-    checked_at: '2026-08-31T14:06:06.319676-04:00'
+    status_code: 200
+    checked_at: '2026-09-02T11:14:50.004742-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-31T14:06:06.293635-04:00'
+  validated_at: '2026-09-02T11:14:49.947985-04:00'
 curated:
   forms: []
   traditions: []

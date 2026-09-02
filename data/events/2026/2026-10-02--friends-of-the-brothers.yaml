@@ -23,7 +23,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/friends-of-the-brothers-26/
     first_seen: '2026-08-16'
-    last_seen: '2026-08-31'
+    last_seen: '2026-09-02'
 ai:
   relevant: false
   kind: other
@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/friends-of-the-brothers-26/
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:06:28.171788-04:00'
+    checked_at: '2026-09-02T11:15:25.748247-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-31T14:06:28.171761-04:00'
+  validated_at: '2026-09-02T11:15:25.748200-04:00'
 curated:
   forms: []
   traditions: []

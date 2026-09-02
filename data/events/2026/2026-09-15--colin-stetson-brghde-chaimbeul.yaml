@@ -20,7 +20,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/colin-stetson-and-brighde-chaimbeul-duo
     first_seen: '2026-08-18'
-    last_seen: '2026-08-31'
+    last_seen: '2026-09-02'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://pioneerworks.org/programs/colin-stetson-and-brighde-chaimbeul-duo
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:05:18.106777-04:00'
+    checked_at: '2026-09-02T11:13:29.109446-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-31T14:05:18.106744-04:00'
+  validated_at: '2026-09-02T11:13:29.109419-04:00'
 curated:
   forms: []
   traditions: []

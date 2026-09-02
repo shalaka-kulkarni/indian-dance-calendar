@@ -22,7 +22,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/somi-2026/
     first_seen: '2026-08-16'
-    last_seen: '2026-08-31'
+    last_seen: '2026-09-02'
 ai:
   relevant: false
   kind: other
@@ -50,11 +50,11 @@ validation:
   - url: https://www.sopacnow.org/events/somi-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:06:29.845599-04:00'
+    checked_at: '2026-09-02T11:15:30.058233-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-31T14:06:29.845574-04:00'
+  validated_at: '2026-09-02T11:15:30.058187-04:00'
 curated:
   forms: []
   traditions: []

@@ -49,10 +49,10 @@ validation:
   - url: https://www.premiertickets.co/event/sacha-navratri-2026-with-kinjal-dave-in-new-jersey/
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:05:41.596754-04:00'
+    checked_at: '2026-09-02T11:13:52.923597-04:00'
   problems:
   - no price information
-  validated_at: '2026-08-31T14:05:41.596728-04:00'
+  validated_at: '2026-09-02T11:13:52.923566-04:00'
 curated:
   forms:
   - folk

@@ -23,7 +23,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/willie-nile-2026/
     first_seen: '2026-08-16'
-    last_seen: '2026-08-31'
+    last_seen: '2026-09-02'
 ai:
   relevant: false
   kind: other
@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/willie-nile-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:06:07.247050-04:00'
+    checked_at: '2026-09-02T11:14:51.219835-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-08-31T14:06:07.247022-04:00'
+  validated_at: '2026-09-02T11:14:51.219807-04:00'
 curated:
   forms: []
   traditions: []

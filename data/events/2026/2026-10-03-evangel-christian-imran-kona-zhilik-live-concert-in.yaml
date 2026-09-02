@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/imran-kona-zhilik-live-concert-in-ny_event-in_long-island-city-ny_401609
     first_seen: '2026-08-31'
-    last_seen: '2026-08-31'
+    last_seen: '2026-09-02'
 validation:
   passed: false
   checks:
@@ -37,10 +37,10 @@ validation:
   - url: https://events.sulekha.com/imran-kona-zhilik-live-concert-in-ny_event-in_long-island-city-ny_401609
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:06:30.034206-04:00'
+    checked_at: '2026-09-02T11:15:30.281051-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-08-31T14:06:30.034179-04:00'
+  validated_at: '2026-09-02T11:15:30.281021-04:00'
 curated:
   forms: []
   traditions: []

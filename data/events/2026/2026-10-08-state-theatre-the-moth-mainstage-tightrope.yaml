@@ -28,7 +28,7 @@ scraped:
   - source_id: state_theatre_nj
     url: https://www.stnj.org/events/detail/the-moth-mainstage-2026
     first_seen: '2026-08-16'
-    last_seen: '2026-08-31'
+    last_seen: '2026-09-02'
 ai:
   relevant: false
   kind: other
@@ -56,14 +56,14 @@ validation:
   - url: https://my.stnj.org/25072/25073
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:06:41.151703-04:00'
+    checked_at: '2026-09-02T11:15:51.165521-04:00'
   - url: https://www.stnj.org/events/detail/the-moth-mainstage-2026
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:06:41.182779-04:00'
+    checked_at: '2026-09-02T11:15:51.215340-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-31T14:06:41.151677-04:00'
+  validated_at: '2026-09-02T11:15:51.165495-04:00'
 curated:
   forms: []
   traditions: []

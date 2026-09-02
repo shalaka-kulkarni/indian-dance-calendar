@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/starz-s-outlander-blood-of-my-blood
     first_seen: '2026-08-26'
-    last_seen: '2026-08-31'
+    last_seen: '2026-09-02'
 validation:
   passed: false
   checks:
@@ -37,14 +37,14 @@ validation:
   - url: https://www.92ny.org/event/starz-s-outlander-blood-of-my-blood
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:05:27.033906-04:00'
+    checked_at: '2026-09-02T11:13:38.747166-04:00'
   - url: https://seats.92ny.org/single/211178
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:05:29.106596-04:00'
+    checked_at: '2026-09-02T11:13:38.859564-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-08-31T14:05:27.033879-04:00'
+  validated_at: '2026-09-02T11:13:38.747140-04:00'
 curated:
   forms: []
   traditions: []

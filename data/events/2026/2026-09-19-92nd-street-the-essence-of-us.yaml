@@ -24,7 +24,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/the-essence-of-us-a-cuban-story
     first_seen: '2026-08-16'
-    last_seen: '2026-08-31'
+    last_seen: '2026-09-02'
 ai:
   relevant: false
   kind: other
@@ -51,14 +51,14 @@ validation:
   - url: https://seats.92ny.org/single/210360
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:05:39.792420-04:00'
+    checked_at: '2026-09-02T11:13:49.369964-04:00'
   - url: https://www.92ny.org/event/the-essence-of-us-a-cuban-story
     ok: true
     status_code: 200
-    checked_at: '2026-08-31T14:05:39.815135-04:00'
+    checked_at: '2026-09-02T11:13:49.455997-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-08-31T14:05:39.792395-04:00'
+  validated_at: '2026-09-02T11:13:49.369934-04:00'
 curated:
   forms: []
   traditions: []

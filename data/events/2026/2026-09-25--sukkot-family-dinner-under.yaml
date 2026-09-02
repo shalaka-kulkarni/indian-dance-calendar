@@ -1,0 +1,53 @@
+id: 2026-09-25--sukkot-family-dinner-under
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Sukkot Family Dinner Under the Stars
+  start: '2026-09-25T17:30:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  price_min: 36.0
+  price_max: 36.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/sukkot-family-dinner
+  ticket_url: https://seats.92ny.org/single/211154
+  description_snippet: Welcome the holiday of Sukkot in our beautiful rooftop sukkah with music, dancing,
+    food, wine and friends!
+  content_hash: 8ea9058d23db57f3
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/sukkot-family-dinner
+    first_seen: '2026-09-02'
+    last_seen: '2026-09-02'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/211154
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-02T11:14:44.547239-04:00'
+  - url: https://www.92ny.org/event/sukkot-family-dinner
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-02T11:14:44.744786-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-09-02T11:14:44.547194-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}
