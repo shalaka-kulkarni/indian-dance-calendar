@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/garba-season-for-beginners-series-in-newyork_event-in_new-york-ny_401595
     first_seen: '2026-08-28'
-    last_seen: '2026-09-02'
+    last_seen: '2026-09-04'
 validation:
   passed: false
   checks:
@@ -37,10 +37,10 @@ validation:
   - url: https://events.sulekha.com/garba-season-for-beginners-series-in-newyork_event-in_new-york-ny_401595
     ok: true
     status_code: 200
-    checked_at: '2026-09-02T11:13:17.248172-04:00'
+    checked_at: '2026-09-04T11:01:24.126596-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-02T11:13:17.248143-04:00'
+  validated_at: '2026-09-04T11:01:24.126569-04:00'
 curated:
   forms: []
   traditions: []

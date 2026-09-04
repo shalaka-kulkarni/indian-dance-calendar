@@ -20,7 +20,7 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/instances/cantnpqn/2027-01-14/2026-2027-gibney-dance
     first_seen: '2026-08-19'
-    last_seen: '2026-09-02'
+    last_seen: '2026-09-04'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/cantnpqn/2027-01-14/2026-2027-gibney-dance
     ok: true
     status_code: 200
-    checked_at: '2026-09-02T11:18:04.160347-04:00'
+    checked_at: '2026-09-04T11:04:59.900579-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-02T11:18:04.160320-04:00'
+  validated_at: '2026-09-04T11:04:59.900560-04:00'
 curated:
   forms: []
   traditions: []

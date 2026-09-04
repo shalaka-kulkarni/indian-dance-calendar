@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/danielle-crittenden-with-andrew-solomon
     first_seen: '2026-08-26'
-    last_seen: '2026-09-02'
+    last_seen: '2026-09-04'
 validation:
   passed: false
   checks:
@@ -34,17 +34,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/danielle-crittenden-with-andrew-solomon
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-02T11:13:14.141168-04:00'
   - url: https://seats.92ny.org/single/210915
     ok: true
     status_code: 200
-    checked_at: '2026-09-02T11:13:14.241297-04:00'
+    checked_at: '2026-09-04T11:01:16.948434-04:00'
+  - url: https://www.92ny.org/event/danielle-crittenden-with-andrew-solomon
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-04T11:01:16.987170-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-02T11:13:14.141144-04:00'
+  validated_at: '2026-09-04T11:01:16.948411-04:00'
 curated:
   forms: []
   traditions: []

@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/eiko-ishibashi
     first_seen: '2026-08-18'
-    last_seen: '2026-09-02'
+    last_seen: '2026-09-04'
 ai:
   relevant: false
   kind: performance
@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/eiko-ishibashi
     ok: true
     status_code: 200
-    checked_at: '2026-09-02T11:17:22.725977-04:00'
+    checked_at: '2026-09-04T11:04:31.942465-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-02T11:17:22.725946-04:00'
+  validated_at: '2026-09-04T11:04:31.942441-04:00'
 curated:
   forms: []
   traditions: []

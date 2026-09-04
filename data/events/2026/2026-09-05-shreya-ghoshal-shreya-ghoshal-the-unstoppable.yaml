@@ -21,7 +21,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/shreya-ghoshal
     first_seen: '2026-08-16'
-    last_seen: '2026-09-02'
+    last_seen: '2026-09-04'
 ai:
   relevant: true
   kind: performance
@@ -50,10 +50,10 @@ validation:
   - url: https://www.prucenter.com/events/shreya-ghoshal
     ok: true
     status_code: 200
-    checked_at: '2026-09-02T11:13:09.731034-04:00'
+    checked_at: '2026-09-04T11:01:07.426330-04:00'
   problems:
   - no price information
-  validated_at: '2026-09-02T11:13:09.731010-04:00'
+  validated_at: '2026-09-04T11:01:07.426305-04:00'
 curated:
   forms: []
   traditions: []

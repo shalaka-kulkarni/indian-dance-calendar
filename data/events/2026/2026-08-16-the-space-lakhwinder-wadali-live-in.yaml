@@ -49,11 +49,11 @@ validation:
   - url: https://events.sulekha.com/lakhwinder-wadali-live-in-concert-new-york_event-in_westbury-ny_400000
     ok: true
     status_code: 200
-    checked_at: '2026-09-02T11:12:42.271736-04:00'
+    checked_at: '2026-09-04T11:00:56.634549-04:00'
   problems:
   - event date 2026-08-16 is in the past
   - classified not-relevant
-  validated_at: '2026-09-02T11:12:42.271708-04:00'
+  validated_at: '2026-09-04T11:00:56.634521-04:00'
 curated:
   forms: []
   traditions: []

@@ -20,7 +20,7 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/instances/csebda86/2026-11-03/2026-2027-the-unbelievers
     first_seen: '2026-08-28'
-    last_seen: '2026-09-02'
+    last_seen: '2026-09-04'
 validation:
   passed: false
   checks:
@@ -35,11 +35,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/csebda86/2026-11-03/2026-2027-the-unbelievers
     ok: true
     status_code: 200
-    checked_at: '2026-09-02T11:17:07.800354-04:00'
+    checked_at: '2026-09-04T11:04:17.086825-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-02T11:17:07.800324-04:00'
+  validated_at: '2026-09-04T11:04:17.086800-04:00'
 curated:
   forms: []
   traditions: []

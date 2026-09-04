@@ -21,7 +21,7 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/instances/as2mjqcp/2026-10-08/2026-2027-the-australian-ballet
     first_seen: '2026-08-16'
-    last_seen: '2026-09-02'
+    last_seen: '2026-09-04'
 ai:
   relevant: false
   kind: other
@@ -48,11 +48,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/as2mjqcp/2026-10-08/2026-2027-the-australian-ballet
     ok: true
     status_code: 200
-    checked_at: '2026-09-02T11:15:49.551657-04:00'
+    checked_at: '2026-09-04T11:03:15.767247-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-02T11:15:49.551626-04:00'
+  validated_at: '2026-09-04T11:03:15.767222-04:00'
 curated:
   forms: []
   traditions: []

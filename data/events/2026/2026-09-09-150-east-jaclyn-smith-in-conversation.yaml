@@ -1,0 +1,53 @@
+id: 2026-09-09-150-east-jaclyn-smith-in-conversation
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Jaclyn Smith in Conversation with Ada Calhoun: Beyond Charlie’s Angels'
+  start: '2026-09-09T18:00:00-04:00'
+  additional_dates: []
+  venue: 150 East 91st Street
+  address: ''
+  region: manhattan
+  price_min: 40.0
+  price_max: 40.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/jaclyn-smith-beyond-charlie-s-angels
+  ticket_url: https://seats.92ny.org/single/210889
+  description_snippet: Jaclyn Smith stops by for an intimate conversation about her career-defining role
+    in Charlie’s Angels , and what came after — and her new memoir, I Once Knew a Guy Named Charlie .
+  content_hash: 89724359c2b24d3b
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/jaclyn-smith-beyond-charlie-s-angels
+    first_seen: '2026-09-04'
+    last_seen: '2026-09-04'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/jaclyn-smith-beyond-charlie-s-angels
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-04T11:01:13.495879-04:00'
+  - url: https://seats.92ny.org/single/210889
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-04T11:01:15.642241-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-09-04T11:01:13.495858-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

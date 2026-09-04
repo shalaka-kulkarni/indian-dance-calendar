@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/david-rubenstein-inside-the-owner-s-box
     first_seen: '2026-08-16'
-    last_seen: '2026-09-02'
+    last_seen: '2026-09-04'
 ai:
   relevant: false
   kind: other
@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/210697
     ok: true
     status_code: 200
-    checked_at: '2026-09-02T11:14:48.688713-04:00'
+    checked_at: '2026-09-04T11:02:32.786111-04:00'
   - url: https://www.92ny.org/event/david-rubenstein-inside-the-owner-s-box
     ok: true
     status_code: 200
-    checked_at: '2026-09-02T11:14:48.827777-04:00'
+    checked_at: '2026-09-04T11:02:32.832171-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-09-02T11:14:48.688682-04:00'
+  validated_at: '2026-09-04T11:02:32.786089-04:00'
 curated:
   forms: []
   traditions: []

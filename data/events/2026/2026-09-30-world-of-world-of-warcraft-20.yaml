@@ -21,7 +21,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/world-of-warcraft-20-years-of-music
     first_seen: '2026-08-16'
-    last_seen: '2026-09-02'
+    last_seen: '2026-09-04'
 ai:
   relevant: false
   kind: other
@@ -49,11 +49,11 @@ validation:
   - url: https://www.prucenter.com/events/world-of-warcraft-20-years-of-music
     ok: true
     status_code: 200
-    checked_at: '2026-09-02T11:15:13.834290-04:00'
+    checked_at: '2026-09-04T11:02:51.691584-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-02T11:15:13.834254-04:00'
+  validated_at: '2026-09-04T11:02:51.691558-04:00'
 curated:
   forms: []
   traditions: []

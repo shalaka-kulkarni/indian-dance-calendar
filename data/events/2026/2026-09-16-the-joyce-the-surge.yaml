@@ -21,7 +21,7 @@ scraped:
   - source_id: joyce
     url: https://www.joyce.org/performances/the-surge-b1jd
     first_seen: '2026-08-16'
-    last_seen: '2026-09-02'
+    last_seen: '2026-09-04'
 ai:
   relevant: false
   kind: other
@@ -48,11 +48,11 @@ validation:
   - url: https://www.joyce.org/performances/the-surge-b1jd
     ok: true
     status_code: 200
-    checked_at: '2026-09-02T11:13:32.596399-04:00'
+    checked_at: '2026-09-04T11:01:32.594803-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-02T11:13:32.596374-04:00'
+  validated_at: '2026-09-04T11:01:32.594772-04:00'
 curated:
   forms: []
   traditions: []

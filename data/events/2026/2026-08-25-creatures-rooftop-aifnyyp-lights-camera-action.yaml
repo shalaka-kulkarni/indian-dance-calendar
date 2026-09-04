@@ -49,11 +49,11 @@ validation:
   - url: https://allevents.in/new-york/aifnyyp-lights-camera-action-a-bollywood-trivia-night/100001997513613991
     ok: true
     status_code: 200
-    checked_at: '2026-09-02T11:13:04.966549-04:00'
+    checked_at: '2026-09-04T11:01:03.388629-04:00'
   problems:
   - event date 2026-08-25 is in the past
   - classified not-relevant
-  validated_at: '2026-09-02T11:13:04.966522-04:00'
+  validated_at: '2026-09-04T11:01:03.388604-04:00'
 curated:
   forms: []
   traditions: []

@@ -1,0 +1,47 @@
+id: 2026-11-08--second-sundays-november-2026
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Second Sundays: November 2026'
+  start: '2026-11-08T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: brooklyn
+  is_free: false
+  price_note: ''
+  info_url: https://pioneerworks.org/programs/second-sundays-november-2026
+  ticket_url: ''
+  description_snippet: 'program Sunday, Nov 8, 2026 Second Sundays: November 2026'
+  content_hash: 737c7661191086ab
+  sources:
+  - source_id: pioneer_works
+    url: https://pioneerworks.org/programs/second-sundays-november-2026
+    first_seen: '2026-09-04'
+    last_seen: '2026-09-04'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://pioneerworks.org/programs/second-sundays-november-2026
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-04T11:04:23.779264-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-04T11:04:23.779238-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

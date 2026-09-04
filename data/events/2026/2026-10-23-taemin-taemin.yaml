@@ -20,7 +20,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/taemin
     first_seen: '2026-08-26'
-    last_seen: '2026-09-02'
+    last_seen: '2026-09-04'
 validation:
   passed: false
   checks:
@@ -35,11 +35,11 @@ validation:
   - url: https://www.prucenter.com/events/taemin
     ok: true
     status_code: 200
-    checked_at: '2026-09-02T11:16:44.800784-04:00'
+    checked_at: '2026-09-04T11:03:57.448465-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-02T11:16:44.800758-04:00'
+  validated_at: '2026-09-04T11:03:57.448442-04:00'
 curated:
   forms: []
   traditions: []

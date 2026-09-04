@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/revolution-sonu-nigam-concert-in-new-york_event-in_uniondale-ny_400866
     first_seen: '2026-08-16'
-    last_seen: '2026-09-02'
+    last_seen: '2026-09-04'
 ai:
   relevant: true
   kind: performance
@@ -51,9 +51,9 @@ validation:
   - url: https://events.sulekha.com/revolution-sonu-nigam-concert-in-new-york_event-in_uniondale-ny_400866
     ok: true
     status_code: 200
-    checked_at: '2026-09-02T11:13:20.112275-04:00'
+    checked_at: '2026-09-04T11:01:26.575284-04:00'
   problems: []
-  validated_at: '2026-09-02T11:13:20.112247-04:00'
+  validated_at: '2026-09-04T11:01:26.575257-04:00'
 curated:
   forms: []
   traditions: []

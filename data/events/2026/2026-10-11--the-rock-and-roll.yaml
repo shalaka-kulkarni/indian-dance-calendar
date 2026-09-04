@@ -24,7 +24,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/rock-and-roll-playhouse-2026/
     first_seen: '2026-08-16'
-    last_seen: '2026-09-02'
+    last_seen: '2026-09-04'
 ai:
   relevant: false
   kind: other
@@ -52,11 +52,11 @@ validation:
   - url: https://www.sopacnow.org/events/rock-and-roll-playhouse-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-09-02T11:15:55.758365-04:00'
+    checked_at: '2026-09-04T11:03:21.409578-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-02T11:15:55.758337-04:00'
+  validated_at: '2026-09-04T11:03:21.409553-04:00'
 curated:
   forms: []
   traditions: []

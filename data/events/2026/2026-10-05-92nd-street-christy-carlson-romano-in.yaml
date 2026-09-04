@@ -21,7 +21,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/christy-carlson-romano
     first_seen: '2026-08-26'
-    last_seen: '2026-09-02'
+    last_seen: '2026-09-04'
 validation:
   passed: false
   checks:
@@ -36,14 +36,14 @@ validation:
   - url: https://www.92ny.org/event/christy-carlson-romano
     ok: true
     status_code: 200
-    checked_at: '2026-09-02T11:15:33.109357-04:00'
+    checked_at: '2026-09-04T11:03:04.679588-04:00'
   - url: https://seats.92ny.org/single/210580
     ok: true
     status_code: 200
-    checked_at: '2026-09-02T11:15:37.983894-04:00'
+    checked_at: '2026-09-04T11:03:06.456022-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-02T11:15:33.109327-04:00'
+  validated_at: '2026-09-04T11:03:04.679568-04:00'
 curated:
   forms: []
   traditions: []

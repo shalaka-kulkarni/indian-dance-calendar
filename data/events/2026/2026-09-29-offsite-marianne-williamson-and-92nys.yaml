@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/marianne-williamson-with-david-ingber
     first_seen: '2026-08-26'
-    last_seen: '2026-09-02'
+    last_seen: '2026-09-04'
 validation:
   passed: false
   checks:
@@ -34,17 +34,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/marianne-williamson-with-david-ingber
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-02T11:15:08.733541-04:00'
   - url: https://seats.92ny.org/single/211202
     ok: true
     status_code: 200
-    checked_at: '2026-09-02T11:15:08.839841-04:00'
+    checked_at: '2026-09-04T11:02:46.424935-04:00'
+  - url: https://www.92ny.org/event/marianne-williamson-with-david-ingber
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-04T11:02:46.459855-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-02T11:15:08.733514-04:00'
+  validated_at: '2026-09-04T11:02:46.424910-04:00'
 curated:
   forms: []
   traditions: []

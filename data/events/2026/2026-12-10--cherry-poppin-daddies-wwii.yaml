@@ -23,7 +23,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/cherry-poppin-daddies-2026/
     first_seen: '2026-08-16'
-    last_seen: '2026-09-02'
+    last_seen: '2026-09-04'
 ai:
   relevant: false
   kind: other
@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/cherry-poppin-daddies-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-09-02T11:17:56.534971-04:00'
+    checked_at: '2026-09-04T11:04:54.470933-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-02T11:17:56.534944-04:00'
+  validated_at: '2026-09-04T11:04:54.470906-04:00'
 curated:
   forms: []
   traditions: []

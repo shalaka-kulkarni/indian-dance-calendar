@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/are-teachers-unions-good-for-kids
     first_seen: '2026-08-21'
-    last_seen: '2026-09-02'
+    last_seen: '2026-09-04'
 validation:
   passed: false
   checks:
@@ -34,17 +34,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211162
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-02T11:14:24.583231-04:00'
   - url: https://www.92ny.org/event/are-teachers-unions-good-for-kids
     ok: true
     status_code: 200
-    checked_at: '2026-09-02T11:14:26.338360-04:00'
+    checked_at: '2026-09-04T11:02:16.284035-04:00'
+  - url: https://seats.92ny.org/single/211162
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-04T11:02:17.821570-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-02T11:14:24.583181-04:00'
+  validated_at: '2026-09-04T11:02:16.284009-04:00'
 curated:
   forms: []
   traditions: []

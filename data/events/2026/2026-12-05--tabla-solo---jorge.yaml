@@ -25,7 +25,7 @@ scraped:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2026/12/5/tabla-solo-jorge-ramiro
     first_seen: '2026-08-18'
-    last_seen: '2026-09-02'
+    last_seen: '2026-09-04'
 ai:
   relevant: true
   kind: performance
@@ -54,10 +54,10 @@ validation:
   - url: https://chhandayan.org/calendar/2026/12/5/tabla-solo-jorge-ramiro
     ok: true
     status_code: 200
-    checked_at: '2026-09-02T11:17:52.787094-04:00'
+    checked_at: '2026-09-04T11:04:51.010654-04:00'
   problems:
   - no price information
-  validated_at: '2026-09-02T11:17:52.787064-04:00'
+  validated_at: '2026-09-04T11:04:51.010632-04:00'
 curated:
   forms: []
   traditions: []
