@@ -53,11 +53,11 @@ validation:
   - url: https://www.sopacnow.org/events/darlingside-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-09-04T11:02:30.480134-04:00'
+    checked_at: '2026-09-05T11:44:54.484769-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-04T11:02:30.480107-04:00'
+  validated_at: '2026-09-05T11:44:54.484743-04:00'
 curated:
   forms: []
   traditions: []

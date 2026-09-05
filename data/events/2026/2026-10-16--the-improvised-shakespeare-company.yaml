@@ -52,11 +52,11 @@ validation:
   - url: https://www.sopacnow.org/events/the-improvised-shakespeare-company-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-09-04T11:03:34.364688-04:00'
+    checked_at: '2026-09-05T11:45:54.259987-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-04T11:03:34.364662-04:00'
+  validated_at: '2026-09-05T11:45:54.259954-04:00'
 curated:
   forms: []
   traditions: []

@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/new-york-couture-fashion-week-gala-with-designer-samina-mughal-sep-12-2026_event-in_new-york-ny_398230
     ok: true
     status_code: 200
-    checked_at: '2026-09-04T11:01:25.980448-04:00'
+    checked_at: '2026-09-05T11:43:56.173035-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-09-04T11:01:25.980422-04:00'
+  validated_at: '2026-09-05T11:43:56.173010-04:00'
 curated:
   forms: []
   traditions: []

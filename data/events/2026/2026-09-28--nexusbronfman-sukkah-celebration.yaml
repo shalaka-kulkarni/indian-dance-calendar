@@ -34,17 +34,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/nexus-bronfman-sukkah-celebration
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-04T11:02:38.153155-04:00'
   - url: https://seats.92ny.org/single/211233
     ok: true
     status_code: 200
-    checked_at: '2026-09-04T11:02:39.435618-04:00'
+    checked_at: '2026-09-05T11:45:00.858278-04:00'
+  - url: https://www.92ny.org/event/nexus-bronfman-sukkah-celebration
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-05T11:45:00.869330-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-04T11:02:38.153129-04:00'
+  validated_at: '2026-09-05T11:45:00.858242-04:00'
 curated:
   forms: []
   traditions: []

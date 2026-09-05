@@ -33,17 +33,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210567
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-04T11:01:17.546241-04:00'
   - url: https://www.92ny.org/event/francis-fukuyama-in-the-realm-of-the-last-man
     ok: true
     status_code: 200
-    checked_at: '2026-09-04T11:01:17.586274-04:00'
+    checked_at: '2026-09-05T11:43:46.835987-04:00'
+  - url: https://seats.92ny.org/single/210567
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-05T11:43:49.709803-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-04T11:01:17.546215-04:00'
+  validated_at: '2026-09-05T11:43:46.835959-04:00'
 curated:
   forms: []
   traditions: []

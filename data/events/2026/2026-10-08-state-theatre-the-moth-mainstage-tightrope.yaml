@@ -53,17 +53,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://my.stnj.org/25072/25073
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-04T11:03:16.952503-04:00'
   - url: https://www.stnj.org/events/detail/the-moth-mainstage-2026
     ok: true
     status_code: 200
-    checked_at: '2026-09-04T11:03:16.978002-04:00'
+    checked_at: '2026-09-05T11:45:36.238910-04:00'
+  - url: https://my.stnj.org/25072/25073
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-05T11:45:36.269390-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-09-04T11:03:16.952480-04:00'
+  validated_at: '2026-09-05T11:45:36.238883-04:00'
 curated:
   forms: []
   traditions: []

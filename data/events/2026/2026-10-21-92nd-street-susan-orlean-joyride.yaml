@@ -37,14 +37,14 @@ validation:
   - url: https://www.92ny.org/event/susan-orlean-joyride
     ok: true
     status_code: 200
-    checked_at: '2026-09-04T11:03:50.951763-04:00'
+    checked_at: '2026-09-05T11:46:07.408417-04:00'
   - url: https://seats.92ny.org/single/211187
     ok: true
     status_code: 200
-    checked_at: '2026-09-04T11:03:53.889095-04:00'
+    checked_at: '2026-09-05T11:46:10.549686-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-04T11:03:50.951739-04:00'
+  validated_at: '2026-09-05T11:46:07.408389-04:00'
 curated:
   forms: []
   traditions: []

@@ -47,11 +47,11 @@ validation:
   - url: https://www.nycitycenter.org/events/2026-2027-alvin-ailey-american-dance-theater
     ok: true
     status_code: 200
-    checked_at: '2026-09-04T11:04:50.421682-04:00'
+    checked_at: '2026-09-05T11:46:58.174920-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-04T11:04:50.421660-04:00'
+  validated_at: '2026-09-05T11:46:58.174898-04:00'
 curated:
   forms: []
   traditions: []

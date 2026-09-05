@@ -49,11 +49,11 @@ validation:
   - url: https://www.prucenter.com/events/journey
     ok: true
     status_code: 200
-    checked_at: '2026-09-04T11:03:58.566600-04:00'
+    checked_at: '2026-09-05T11:46:14.114188-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-04T11:03:58.566573-04:00'
+  validated_at: '2026-09-05T11:46:14.114160-04:00'
 curated:
   forms: []
   traditions: []

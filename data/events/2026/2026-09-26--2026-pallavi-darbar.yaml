@@ -34,11 +34,11 @@ validation:
   - url: https://www.cmana.org/etn/2026-pallavi-darbar/
     ok: true
     status_code: 200
-    checked_at: '2026-09-04T11:02:36.067806-04:00'
+    checked_at: '2026-09-05T11:44:59.158573-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-04T11:02:36.067780-04:00'
+  validated_at: '2026-09-05T11:44:59.158551-04:00'
 curated:
   forms: []
   traditions: []

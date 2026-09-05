@@ -37,10 +37,10 @@ validation:
   - url: https://events.sulekha.com/dj-nargis-fakhri-live-in-nyc-at-230-fifth_event-in_new-york-ny_401519
     ok: true
     status_code: 200
-    checked_at: '2026-09-04T11:01:25.470062-04:00'
+    checked_at: '2026-09-05T11:43:54.160342-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-04T11:01:25.470032-04:00'
+  validated_at: '2026-09-05T11:43:54.160319-04:00'
 curated:
   forms: []
   traditions: []

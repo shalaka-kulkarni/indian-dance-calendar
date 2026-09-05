@@ -49,11 +49,11 @@ validation:
   - url: https://queenstheatre.org/events/eva-ayllon-with-daniela-darcourt-shn2
     ok: true
     status_code: 200
-    checked_at: '2026-09-04T11:04:09.683183-04:00'
+    checked_at: '2026-09-05T11:46:25.618777-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-04T11:04:09.683158-04:00'
+  validated_at: '2026-09-05T11:46:25.618755-04:00'
 curated:
   forms: []
   traditions: []

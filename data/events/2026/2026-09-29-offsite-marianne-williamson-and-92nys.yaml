@@ -37,14 +37,14 @@ validation:
   - url: https://seats.92ny.org/single/211202
     ok: true
     status_code: 200
-    checked_at: '2026-09-04T11:02:46.424935-04:00'
+    checked_at: '2026-09-05T11:45:12.047099-04:00'
   - url: https://www.92ny.org/event/marianne-williamson-with-david-ingber
     ok: true
     status_code: 200
-    checked_at: '2026-09-04T11:02:46.459855-04:00'
+    checked_at: '2026-09-05T11:45:12.058002-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-04T11:02:46.424910-04:00'
+  validated_at: '2026-09-05T11:45:12.047059-04:00'
 curated:
   forms: []
   traditions: []

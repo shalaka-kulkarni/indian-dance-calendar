@@ -37,14 +37,14 @@ validation:
   - url: https://seats.92ny.org/single/210953
     ok: true
     status_code: 200
-    checked_at: '2026-09-04T11:01:43.683196-04:00'
+    checked_at: '2026-09-05T11:44:14.388335-04:00'
   - url: https://www.92ny.org/event/cabaret-conversations-lindsay-mendez
     ok: true
     status_code: 200
-    checked_at: '2026-09-04T11:01:43.801405-04:00'
+    checked_at: '2026-09-05T11:44:14.411494-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-04T11:01:43.683169-04:00'
+  validated_at: '2026-09-05T11:44:14.388310-04:00'
 curated:
   forms: []
   traditions: []

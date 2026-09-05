@@ -49,11 +49,11 @@ validation:
   - url: https://events.sulekha.com/nyc-bollywood-night-ft-dj-aj-at-eden_event-in_new-york-ny_400937
     ok: true
     status_code: 200
-    checked_at: '2026-09-04T11:01:01.682714-04:00'
+    checked_at: '2026-09-05T11:43:27.659417-04:00'
   problems:
   - event date 2026-08-23 is in the past
   - classified not-relevant
-  validated_at: '2026-09-04T11:01:01.682671-04:00'
+  validated_at: '2026-09-05T11:43:27.659390-04:00'
 curated:
   forms: []
   traditions: []

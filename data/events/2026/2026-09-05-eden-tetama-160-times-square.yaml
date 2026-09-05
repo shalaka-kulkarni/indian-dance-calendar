@@ -41,10 +41,10 @@ validation:
   - url: https://events.sulekha.com/te-ta-ma-16-0-times-square-nyc-a-new-era-of-south-indian-night-life_event-in_new-york-ny_401426
     ok: true
     status_code: 200
-    checked_at: '2026-09-04T11:01:07.231377-04:00'
+    checked_at: '2026-09-05T11:43:33.195956-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-04T11:01:07.231351-04:00'
+  validated_at: '2026-09-05T11:43:33.195928-04:00'
 curated:
   forms: []
   traditions: []

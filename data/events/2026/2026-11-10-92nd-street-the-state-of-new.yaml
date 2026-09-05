@@ -34,17 +34,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/keeping-new-york-city-safe
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-04T11:04:28.918769-04:00'
   - url: https://seats.92ny.org/single/211243
     ok: true
     status_code: 200
-    checked_at: '2026-09-04T11:04:30.533656-04:00'
+    checked_at: '2026-09-05T11:46:40.564755-04:00'
+  - url: https://www.92ny.org/event/keeping-new-york-city-safe
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-05T11:46:40.583344-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-04T11:04:28.918748-04:00'
+  validated_at: '2026-09-05T11:46:40.564729-04:00'
 curated:
   forms: []
   traditions: []
