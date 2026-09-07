@@ -1,0 +1,49 @@
+id: 2026-10-04-1045-beech-fall-fest-at-the
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Fall Fest at The Village Church Pottstown
+  start: '2026-10-04T00:00:00-04:00'
+  end: '2026-10-04T00:00:00-04:00'
+  additional_dates: []
+  venue: 1045 Beech Street, Pottstown, PA, United States, Pennsylvania 19464
+  address: 1045 Beech St, Pottstown, PA 19464-4965, United States, Pottstown, PA
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/pottstown/fall-fest-at-the-village-church-pottstown/200030588291910
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: f92b1881b825508c
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/pottstown/fall-fest-at-the-village-church-pottstown/200030588291910
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/pottstown/fall-fest-at-the-village-church-pottstown/200030588291910
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:31:52.214969-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:31:52.214943-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

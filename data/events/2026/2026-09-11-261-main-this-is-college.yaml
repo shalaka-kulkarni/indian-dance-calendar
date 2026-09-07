@@ -1,0 +1,48 @@
+id: 2026-09-11-261-main-this-is-college
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: This Is College
+  start: '2026-09-11T00:00:00-04:00'
+  additional_dates: []
+  venue: 261 Main St, Worcester, MA, United States, Massachusetts 01608
+  address: 261 Main St, Worcester, MA 01608-1201, United States, Worcester, MA
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/worcester/this-is-college/200030638903712
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 1375bcfa7c30eea5
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/worcester/this-is-college/200030638903712
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/worcester/this-is-college/200030638903712
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:01.540801-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:01.540773-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

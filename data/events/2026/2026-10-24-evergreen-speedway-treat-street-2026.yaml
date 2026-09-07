@@ -1,0 +1,49 @@
+id: 2026-10-24-evergreen-speedway-treat-street-2026
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Treat Street 2026
+  start: '2026-10-24T00:00:00-04:00'
+  end: '2026-10-24T00:00:00-04:00'
+  additional_dates: []
+  venue: Evergreen Speedway
+  address: 14405 179th Avenue Southeast, Monroe, WA
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/monroe/treat-street-2026/100001993709501789
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 32402072c0a67a3b
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/monroe/treat-street-2026/100001993709501789
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/monroe/treat-street-2026/100001993709501789
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:04.731623-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:04.731598-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

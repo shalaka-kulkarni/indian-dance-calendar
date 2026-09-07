@@ -1,0 +1,50 @@
+id: 2026-09-16-greenville-convention-upstate-kids-consignment-sale
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Upstate Kids Consignment Sale - Greenville
+  start: '2026-09-16T00:00:00-04:00'
+  end: '2026-09-19T00:00:00-04:00'
+  additional_dates: []
+  venue: Greenville Convention Center
+  address: Hampton Inn-Hampton Inn Greenville SW Greenville Blvd, 305 Greenville Blvd SW, Greenville,
+    NC 27834, United States, Greenville, NC
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/greenville/upstate-kids-consignment-sale-greenville/200030349022803
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 43094e01c460dfb1
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/greenville/upstate-kids-consignment-sale-greenville/200030349022803
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/greenville/upstate-kids-consignment-sale-greenville/200030349022803
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:22.212829-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:22.212804-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

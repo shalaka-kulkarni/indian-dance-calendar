@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/nyc-s-garba-x-bollywood-at-230-fifth-rooftop_event-in_new-york-ny_401176
     first_seen: '2026-08-16'
-    last_seen: '2026-09-04'
+    last_seen: '2026-09-07'
 ai:
   relevant: false
   kind: other
@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/nyc-s-garba-x-bollywood-at-230-fifth-rooftop_event-in_new-york-ny_401176
     ok: true
     status_code: 200
-    checked_at: '2026-09-05T11:45:37.646140-04:00'
+    checked_at: '2026-09-07T12:32:13.346467-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-09-05T11:45:37.646112-04:00'
+  validated_at: '2026-09-07T12:32:13.346440-04:00'
 curated:
   forms: []
   traditions: []

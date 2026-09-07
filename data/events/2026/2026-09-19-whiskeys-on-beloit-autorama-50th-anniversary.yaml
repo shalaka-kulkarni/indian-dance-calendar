@@ -1,0 +1,49 @@
+id: 2026-09-19-whiskeys-on-beloit-autorama-50th-anniversary
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Beloit AutoRama 50th Anniversary Event
+  start: '2026-09-19T00:00:00-04:00'
+  end: '2026-09-19T00:00:00-04:00'
+  additional_dates: []
+  venue: Whiskey’s on Riverside LLC
+  address: 3360 S. Riverside Dr.,Beloit, Wisconsin, Beloit, WI
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/beloit/beloit-autorama-50th-anniversary-event/200029769598551
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 25478a687af8b4e2
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/beloit/beloit-autorama-50th-anniversary-event/200029769598551
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/beloit/beloit-autorama-50th-anniversary-event/200029769598551
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:51.596081-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:51.596054-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

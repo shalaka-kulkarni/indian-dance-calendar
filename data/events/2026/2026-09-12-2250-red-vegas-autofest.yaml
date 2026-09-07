@@ -1,0 +1,48 @@
+id: 2026-09-12-2250-red-vegas-autofest
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Vegas AUTOFEST
+  start: '2026-09-12T00:00:00-04:00'
+  additional_dates: []
+  venue: 2250 Red Springs Drive, Las Vegas, NV, United States, Nevada 89135
+  address: 2250 Red Springs Dr, Las Vegas, NV 89135-1515, United States, Las Vegas, NV
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/las-vegas/vegas-autofest/200030665231254
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 7a3efafc3db0fd5c
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/las-vegas/vegas-autofest/200030665231254
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/las-vegas/vegas-autofest/200030665231254
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:04.715608-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:04.715580-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

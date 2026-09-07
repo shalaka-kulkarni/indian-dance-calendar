@@ -1,0 +1,49 @@
+id: 2026-09-12-e-63rd-open-air-markets-on-select
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Open-Air Markets on Select Summer Saturdays at Painted Prairie | Aurora, CO | Free &amp; Family-Friendly
+  start: '2026-09-12T00:00:00-04:00'
+  end: '2026-09-12T00:00:00-04:00'
+  additional_dates: []
+  venue: E 63rd Ave &amp;, N Jebel St, Aurora, CO 80019
+  address: Aurora, CO
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/aurora/open-air-markets-on-select-summer-saturdays-at-painted-prairie-aurora-co-free-and-family-friendly/200030525985838
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 8c09b23d3960717b
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/aurora/open-air-markets-on-select-summer-saturdays-at-painted-prairie-aurora-co-free-and-family-friendly/200030525985838
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/aurora/open-air-markets-on-select-summer-saturdays-at-painted-prairie-aurora-co-free-and-family-friendly/200030525985838
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:07.476274-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:07.476248-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,49 @@
+id: 2026-09-19-sinkland-farms-sinkland-farms-35th-annual
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Sinkland Farms 35th Annual Pumpkin Festival
+  start: '2026-09-19T00:00:00-04:00'
+  end: '2026-11-01T00:00:00-04:00'
+  additional_dates: []
+  venue: Sinkland Farms, Riner Road, Christiansburg, VA, USA
+  address: 3060 Riner Rd, Christiansburg, VA
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/christiansburg/sinkland-farms-35th-annual-pumpkin-festival/80001560550008
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 04a343875c368aec
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/christiansburg/sinkland-farms-35th-annual-pumpkin-festival/80001560550008
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/christiansburg/sinkland-farms-35th-annual-pumpkin-festival/80001560550008
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:47.489152-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:47.489110-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

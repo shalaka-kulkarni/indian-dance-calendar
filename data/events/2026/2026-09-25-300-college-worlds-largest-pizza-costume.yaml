@@ -1,0 +1,50 @@
+id: 2026-09-25-300-college-worlds-largest-pizza-costume
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: World's Largest Pizza Costume Party!
+  start: '2026-09-25T00:00:00-04:00'
+  end: '2026-09-25T00:00:00-04:00'
+  additional_dates: []
+  venue: 300 College St
+  address: 300 College Street, New Haven, CT
+  region: unknown
+  price_min: 22.74
+  price_max: 28.06
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/new-haven/worlds-largest-pizza-costume-party/100001982359152589
+  ticket_url: https://allevents.in/new-haven/worlds-largest-pizza-costume-party/100001982359152589
+  description_snippet: ''
+  content_hash: b43291a9f0d5c229
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/new-haven/worlds-largest-pizza-costume-party/100001982359152589
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/new-haven/worlds-largest-pizza-costume-party/100001982359152589
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:31:11.188744-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:31:11.188718-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

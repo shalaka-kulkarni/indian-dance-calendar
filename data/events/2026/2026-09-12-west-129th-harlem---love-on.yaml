@@ -1,0 +1,48 @@
+id: 2026-09-12-west-129th-harlem---love-on
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: HARLEM - LOVE ON THE BLOCK - SATURDAY, SEPTEMBER 12, 2026
+  start: '2026-09-12T00:00:00-04:00'
+  end: '2026-09-12T00:00:00-04:00'
+  additional_dates: []
+  venue: West 129th Street &amp; Adam Clayton Powell Junior Boulevard
+  address: West 129th Street &amp; Adam Clayton Powell Junior Boulevard, New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/new-york/harlem-love-on-the-block-saturday-september-12-2026/100001998667806211
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 5211bacb74f6eb5f
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/new-york/harlem-love-on-the-block-saturday-september-12-2026/100001998667806211
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://allevents.in/new-york/harlem-love-on-the-block-saturday-september-12-2026/100001998667806211
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:09.912403-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:09.912375-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

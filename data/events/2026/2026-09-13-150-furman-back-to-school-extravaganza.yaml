@@ -1,0 +1,48 @@
+id: 2026-09-13-150-furman-back-to-school-extravaganza
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 🎒🛼 BACK TO SCHOOL EXTRAVAGANZA! 🎉
+  start: '2026-09-13T00:00:00-04:00'
+  end: '2026-09-13T00:00:00-04:00'
+  additional_dates: []
+  venue: 150 Furman St- PIER 2, Brooklyn, NY, United States, New York 11201
+  address: 62 Furman St, Brooklyn, NY 11201, United States, Brooklyn, NY
+  region: brooklyn
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/brooklyn/back-to-school-extravaganza/200030501646241
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 370173ba1f2c9250
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/brooklyn/back-to-school-extravaganza/200030501646241
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://allevents.in/brooklyn/back-to-school-extravaganza/200030501646241
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:11.367143-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:11.367095-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

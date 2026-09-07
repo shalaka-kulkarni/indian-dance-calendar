@@ -1,0 +1,49 @@
+id: 2026-09-20-preservation-park-50th-annual-beloit-lions
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 50th Annual Beloit Lions Autorama
+  start: '2026-09-20T00:00:00-04:00'
+  end: '2026-09-20T00:00:00-04:00'
+  additional_dates: []
+  venue: Preservation Park, Beloit, WI, United States, Wisconsin 53511
+  address: 3444 S Riverside Dr, Beloit, WI 53511, United States, Beloit, WI
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/beloit/50th-annual-beloit-lions-autorama/200029628963318
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 5af3acf07d39a5f3
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/beloit/50th-annual-beloit-lions-autorama/200029628963318
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/beloit/50th-annual-beloit-lions-autorama/200029628963318
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:53.855977-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:53.855951-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

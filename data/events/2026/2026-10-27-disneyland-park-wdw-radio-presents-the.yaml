@@ -1,0 +1,50 @@
+id: 2026-10-27-disneyland-park-wdw-radio-presents-the
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'WDW Radio Presents: The Haunts and Heroes Disneyland Experience'
+  start: '2026-10-27T00:00:00-04:00'
+  end: '2026-10-27T00:00:00-04:00'
+  additional_dates: []
+  venue: Disneyland Park
+  address: 1313 Disneyland Dr, Anaheim, CA
+  region: unknown
+  price_min: 135.23
+  price_max: 241.94
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/anaheim/wdw-radio-presents-the-haunts-and-heroes-disneyland-experience/100001993757247598
+  ticket_url: https://allevents.in/anaheim/wdw-radio-presents-the-haunts-and-heroes-disneyland-experience/100001993757247598
+  description_snippet: ''
+  content_hash: a700a32609a2f664
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/anaheim/wdw-radio-presents-the-haunts-and-heroes-disneyland-experience/100001993757247598
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/anaheim/wdw-radio-presents-the-haunts-and-heroes-disneyland-experience/100001993757247598
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:14.317462-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:14.317435-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

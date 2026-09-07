@@ -21,7 +21,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/nexus-happy-hour-at-la-bomboniera
     first_seen: '2026-08-16'
-    last_seen: '2026-09-04'
+    last_seen: '2026-09-07'
 ai:
   relevant: false
   kind: other
@@ -45,17 +45,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211036
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-05T11:44:05.274768-04:00'
   - url: https://www.92ny.org/event/nexus-happy-hour-at-la-bomboniera
     ok: true
     status_code: 200
-    checked_at: '2026-09-05T11:44:05.307991-04:00'
+    checked_at: '2026-09-07T12:30:23.751680-04:00'
+  - url: https://seats.92ny.org/single/211036
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:23.840263-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-09-05T11:44:05.274745-04:00'
+  validated_at: '2026-09-07T12:30:23.751657-04:00'
 curated:
   forms: []
   traditions: []

@@ -1,0 +1,50 @@
+id: 2026-09-25-dorchester-brewing-dorchester-ma---golden
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Dorchester, MA - Golden Ghouls Drag Show - Dorchester Brewing Co
+  start: '2026-09-25T00:00:00-04:00'
+  end: '2026-09-25T00:00:00-04:00'
+  additional_dates: []
+  venue: Dorchester Brewing Company
+  address: 1250 Massachusetts Avenue, Boston, MA
+  region: unknown
+  price_min: 18.0
+  price_max: 30.0
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/boston/dorchester-ma-golden-ghouls-drag-show-dorchester-brewing-co/100001994474554081
+  ticket_url: https://allevents.in/boston/dorchester-ma-golden-ghouls-drag-show-dorchester-brewing-co/100001994474554081
+  description_snippet: ''
+  content_hash: c08ec023dddc481d
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/boston/dorchester-ma-golden-ghouls-drag-show-dorchester-brewing-co/100001994474554081
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/boston/dorchester-ma-golden-ghouls-drag-show-dorchester-brewing-co/100001994474554081
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:31:11.863802-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:31:11.863777-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

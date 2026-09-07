@@ -1,0 +1,49 @@
+id: 2026-09-27-venue-338-teacher-bae-incs-4th
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Teacher B.A.E, Inc's 4th Annual Back to School Self-Care Con
+  start: '2026-09-27T00:00:00-04:00'
+  end: '2026-09-27T00:00:00-04:00'
+  additional_dates: []
+  venue: Venue 338
+  address: 338, Atlanta, GA
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/atlanta/teacher-bae-incs-4th-annual-back-to-school-self-care-con/100001998281402467
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 6e351db029702233
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/atlanta/teacher-bae-incs-4th-annual-back-to-school-self-care-con/100001998281402467
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/atlanta/teacher-bae-incs-4th-annual-back-to-school-self-care-con/100001998281402467
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:31:21.851307-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:31:21.851282-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

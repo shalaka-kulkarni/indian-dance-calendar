@@ -1,0 +1,49 @@
+id: 2026-09-24-2901-rose-pups-at-the-patch
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Pups at the Patch 2026 at Tim’s Pumpkin Patch
+  start: '2026-09-24T00:00:00-04:00'
+  end: '2026-09-24T00:00:00-04:00'
+  additional_dates: []
+  venue: 2901 Rose Hill Rd., Marietta, NY
+  address: 2901 Rose Hill Rd, Marietta, NY 13110-3236, United States, Marietta, NY
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/marietta/pups-at-the-patch-2026-at-tims-pumpkin-patch/200030648033330
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: b0aa8022e6856c0d
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/marietta/pups-at-the-patch-2026-at-tims-pumpkin-patch/200030648033330
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/marietta/pups-at-the-patch-2026-at-tims-pumpkin-patch/200030648033330
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:31:07.265144-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:31:07.265101-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

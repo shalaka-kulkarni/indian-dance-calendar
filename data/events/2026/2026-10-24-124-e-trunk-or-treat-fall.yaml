@@ -1,0 +1,49 @@
+id: 2026-10-24-124-e-trunk-or-treat-fall
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Trunk or Treat Fall Festival
+  start: '2026-10-24T00:00:00-04:00'
+  end: '2026-10-24T00:00:00-04:00'
+  additional_dates: []
+  venue: 124 E. Tiverton Way, Lexington, KY, United States, Kentucky 40517
+  address: 124 E Tiverton Way, Lexington, KY 40517-1520, United States, Lexington, KY
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/lexington/trunk-or-treat-fall-festival-tickets/200030617375113
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 2fde498d4959be40
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/lexington/trunk-or-treat-fall-festival-tickets/200030617375113
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/lexington/trunk-or-treat-fall-festival-tickets/200030617375113
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:03.306497-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:03.306469-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

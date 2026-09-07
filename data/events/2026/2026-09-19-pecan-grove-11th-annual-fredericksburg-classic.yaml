@@ -1,0 +1,50 @@
+id: 2026-09-19-pecan-grove-11th-annual-fredericksburg-classic
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 11th Annual Fredericksburg Classic Car &amp; Truck Show
+  start: '2026-09-19T00:00:00-04:00'
+  end: '2026-09-19T00:00:00-04:00'
+  additional_dates: []
+  venue: Pecan Grove Store, North State Highway 16, Fredericksburg, TX, USA
+  address: 5244 North State Highway 16, Fredericksburg, TX
+  region: unknown
+  price_min: 36.64
+  price_max: 36.64
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/fredericksburg/11th-annual-fredericksburg-classic-car-and-truck-show/100001990520977828
+  ticket_url: https://allevents.in/fredericksburg/11th-annual-fredericksburg-classic-car-and-truck-show/100001990520977828
+  description_snippet: ''
+  content_hash: f3a1a92f3bb389c1
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/fredericksburg/11th-annual-fredericksburg-classic-car-and-truck-show/100001990520977828
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/fredericksburg/11th-annual-fredericksburg-classic-car-and-truck-show/100001990520977828
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:45.488586-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:45.488559-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

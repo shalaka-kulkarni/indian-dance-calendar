@@ -1,0 +1,49 @@
+id: 2026-10-03-las-vegas-parking-nascar-oreilly-auto
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Parking NASCAR O'Reilly Auto Parts Series at Las Vegas Motor Speedway Fall Race
+  start: '2026-10-03T00:00:00-04:00'
+  end: '2026-10-03T00:00:00-04:00'
+  additional_dates: []
+  venue: Las Vegas Motor Speedway
+  address: 7000 Las Vegas Boulevard North, Las Vegas, NV 89115, US, Las Vegas, NV
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/las-vegas/parking-nascar-oreilly-auto-parts-series-at-las-vegas-motor-speedway-fall-race/3200028712884656
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: ee19ccd349dc4f79
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/las-vegas/parking-nascar-oreilly-auto-parts-series-at-las-vegas-motor-speedway-fall-race/3200028712884656
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/las-vegas/parking-nascar-oreilly-auto-parts-series-at-las-vegas-motor-speedway-fall-race/3200028712884656
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:31:43.736665-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:31:43.736626-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

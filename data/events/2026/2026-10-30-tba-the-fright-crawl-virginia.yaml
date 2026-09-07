@@ -1,0 +1,50 @@
+id: 2026-10-30-tba-the-fright-crawl-virginia
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: The Fright Crawl | Virginia Beach Halloween Bar Crawl 2026 | Fri, Oct 30
+  start: '2026-10-30T00:00:00-04:00'
+  end: '2026-10-31T00:00:00-04:00'
+  additional_dates: []
+  venue: TBA
+  address: TBA, Virginia Beach, VA
+  region: unknown
+  price_min: 8.23
+  price_max: 71.21
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/virginia-beach/the-fright-crawl-virginia-beach-halloween-bar-crawl-2026-fri-oct-30/100001998623480632
+  ticket_url: https://allevents.in/virginia-beach/the-fright-crawl-virginia-beach-halloween-bar-crawl-2026-fri-oct-30/100001998623480632
+  description_snippet: ''
+  content_hash: b7bcfb0c87502898
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/virginia-beach/the-fright-crawl-virginia-beach-halloween-bar-crawl-2026-fri-oct-30/100001998623480632
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/virginia-beach/the-fright-crawl-virginia-beach-halloween-bar-crawl-2026-fri-oct-30/100001998623480632
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:23.582317-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:23.582289-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

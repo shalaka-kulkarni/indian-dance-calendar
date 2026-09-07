@@ -1,0 +1,48 @@
+id: 2026-10-31-411-s-system-override-louisvilles-biggest
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'System Override: Louisville’s Biggest Halloween Party'
+  start: '2026-10-31T00:00:00-04:00'
+  additional_dates: []
+  venue: 411 S 4th St, Louisville, KY, United States, Kentucky 40202
+  address: 411 S 4th St, Louisville, KY 40202-3460, United States, Louisville, KY
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/louisville/system-override-louisvilles-biggest-halloween-party/200030538835035
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 7e6f988875ed1140
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/louisville/system-override-louisvilles-biggest-halloween-party/200030538835035
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/louisville/system-override-louisvilles-biggest-halloween-party/200030538835035
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:24.452781-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:24.452756-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

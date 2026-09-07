@@ -1,0 +1,49 @@
+id: 2026-09-21-150-w-annual-car-show
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Annual Car Show
+  start: '2026-09-21T00:00:00-04:00'
+  end: '2026-09-21T00:00:00-04:00'
+  additional_dates: []
+  venue: 150 W Town Square Way, Oak Creek, WI 53154
+  address: 150 W Town Square Way, Oak Creek, WI 53154-6811, United States, Oak Creek, WI
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/oak-creek/annual-car-show/200030559623247
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 4021259be870fcf4
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/oak-creek/annual-car-show/200030559623247
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/oak-creek/annual-car-show/200030559623247
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:55.634158-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:55.634130-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

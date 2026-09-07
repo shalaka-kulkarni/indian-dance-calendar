@@ -1,0 +1,50 @@
+id: 2026-09-13-forty-deuce-the-morning-after-show
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'The Morning After Show Presents: Back to School!'
+  start: '2026-09-13T00:00:00-04:00'
+  end: '2026-09-13T00:00:00-04:00'
+  additional_dates: []
+  venue: Forty Deuce Burlesque &amp; Speakeasy
+  address: 3959 Brighton Rose Square, Columbus, OH
+  region: unknown
+  price_min: 25.85
+  price_max: 140.56
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/columbus/the-morning-after-show-presents-back-to-school/100001993572798907
+  ticket_url: https://allevents.in/columbus/the-morning-after-show-presents-back-to-school/100001993572798907
+  description_snippet: ''
+  content_hash: bf1da1ec8c59a66b
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/columbus/the-morning-after-show-presents-back-to-school/100001993572798907
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/columbus/the-morning-after-show-presents-back-to-school/100001993572798907
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:12.694081-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:12.694054-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

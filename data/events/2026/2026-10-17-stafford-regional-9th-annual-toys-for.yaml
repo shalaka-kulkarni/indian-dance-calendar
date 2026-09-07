@@ -1,0 +1,49 @@
+id: 2026-10-17-stafford-regional-9th-annual-toys-for
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 9TH ANNUAL TOYS FOR TOTS CAR SHOW
+  start: '2026-10-17T00:00:00-04:00'
+  end: '2026-10-17T00:00:00-04:00'
+  additional_dates: []
+  venue: Stafford Regional Airport
+  address: 95 Aviation Way, Fredericksburg, VA 22406-4505, United States, Fredericksburg, VA
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/fredericksburg/9th-annual-toys-for-tots-car-show/200030245636432
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: d9b4a73044baae02
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/fredericksburg/9th-annual-toys-for-tots-car-show/200030245636432
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/fredericksburg/9th-annual-toys-for-tots-car-show/200030245636432
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:32:45.255883-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:32:45.255857-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

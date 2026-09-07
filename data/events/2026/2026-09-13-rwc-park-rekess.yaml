@@ -1,0 +1,50 @@
+id: 2026-09-13-rwc-park-rekess
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: ReKess
+  start: '2026-09-13T00:00:00-04:00'
+  end: '2026-09-13T00:00:00-04:00'
+  additional_dates: []
+  venue: RWC Park
+  address: 12669 Scholarship Dr, Orlando, FL
+  region: unknown
+  price_min: 7.18
+  price_max: 17.85
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/orlando/rekess/100001998933676436
+  ticket_url: https://allevents.in/orlando/rekess/100001998933676436
+  description_snippet: ''
+  content_hash: f39b84488287a0f9
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/orlando/rekess/100001998933676436
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/orlando/rekess/100001998933676436
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:14.441404-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:14.441379-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

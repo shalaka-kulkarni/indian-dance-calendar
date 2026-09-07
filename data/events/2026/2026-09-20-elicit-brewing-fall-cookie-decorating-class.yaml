@@ -1,0 +1,50 @@
+id: 2026-09-20-elicit-brewing-fall-cookie-decorating-class
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Fall Cookie Decorating Class at Elicit Brewing (Fairfield, CT)
+  start: '2026-09-20T00:00:00-04:00'
+  end: '2026-09-20T00:00:00-04:00'
+  additional_dates: []
+  venue: Elicit Brewing Co - Fairfield
+  address: 111 Black Rock Turnpike, Fairfield, CT
+  region: unknown
+  price_min: 69.0
+  price_max: 69.0
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/fairfield/fall-cookie-decorating-class-at-elicit-brewing-fairfield-ct/100001992517598775
+  ticket_url: https://allevents.in/fairfield/fall-cookie-decorating-class-at-elicit-brewing-fairfield-ct/100001992517598775
+  description_snippet: ''
+  content_hash: 0222695ed46fcba6
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/fairfield/fall-cookie-decorating-class-at-elicit-brewing-fairfield-ct/100001992517598775
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/fairfield/fall-cookie-decorating-class-at-elicit-brewing-fairfield-ct/100001992517598775
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:53.371153-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:53.371100-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

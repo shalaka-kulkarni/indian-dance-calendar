@@ -1,0 +1,50 @@
+id: 2026-09-26-metro-belly-back-to-school-shimmy
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Back to School Shimmy: Belly Dance Technique Workshop'
+  start: '2026-09-26T00:00:00-04:00'
+  end: '2026-09-26T00:00:00-04:00'
+  additional_dates: []
+  venue: Metro Belly Dance-Kirkwood
+  address: 1963 Hosea L Williams Drive Northeast, Atlanta, GA
+  region: unknown
+  price_min: 48.08
+  price_max: 48.08
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/atlanta/back-to-school-shimmy-belly-dance-technique-workshop/100001998966753370
+  ticket_url: https://allevents.in/atlanta/back-to-school-shimmy-belly-dance-technique-workshop/100001998966753370
+  description_snippet: ''
+  content_hash: abd09818693378d2
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/atlanta/back-to-school-shimmy-belly-dance-technique-workshop/100001998966753370
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/atlanta/back-to-school-shimmy-belly-dance-technique-workshop/100001998966753370
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:31:19.038040-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:31:19.038015-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

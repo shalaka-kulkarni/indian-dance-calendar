@@ -1,0 +1,50 @@
+id: 2026-09-19-shelby-county-main-street-barbershop-car
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Main Street Barbershop Car Show
+  start: '2026-09-19T00:00:00-04:00'
+  end: '2026-09-19T00:00:00-04:00'
+  additional_dates: []
+  venue: Shelby County Fairgrounds
+  address: 1513 Midland Trail, Shelbyville, KY
+  region: unknown
+  price_min: 28.52
+  price_max: 28.52
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/shelbyville/main-street-barbershop-car-show/100001986948114297
+  ticket_url: https://allevents.in/shelbyville/main-street-barbershop-car-show/100001986948114297
+  description_snippet: ''
+  content_hash: 69cf83721e226333
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/shelbyville/main-street-barbershop-car-show/100001986948114297
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/shelbyville/main-street-barbershop-car-show/100001986948114297
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:47.347997-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:47.347970-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

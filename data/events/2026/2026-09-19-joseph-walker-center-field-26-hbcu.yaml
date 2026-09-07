@@ -1,0 +1,50 @@
+id: 2026-09-19-joseph-walker-center-field-26-hbcu
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Center Field 26: HBCU Dance Intensive (New Dates)'
+  start: '2026-09-19T00:00:00-04:00'
+  end: '2026-09-20T00:00:00-04:00'
+  additional_dates: []
+  venue: Joseph Walker Williams Recreation Center
+  address: 8431 Rosa Parks Boulevard, Detroit, MI
+  region: unknown
+  price_min: 35.98
+  price_max: 71.12
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/detroit/center-field-26-hbcu-dance-intensive-new-dates/100001977560574914
+  ticket_url: https://allevents.in/detroit/center-field-26-hbcu-dance-intensive-new-dates/100001977560574914
+  description_snippet: ''
+  content_hash: 283c77249831dc07
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/detroit/center-field-26-hbcu-dance-intensive-new-dates/100001977560574914
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/detroit/center-field-26-hbcu-dance-intensive-new-dates/100001977560574914
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:42.902712-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:42.902686-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

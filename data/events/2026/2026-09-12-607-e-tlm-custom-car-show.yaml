@@ -1,0 +1,50 @@
+id: 2026-09-12-607-e-tlm-custom-car-show
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: TLM CUSTOM CAR SHOW &amp; CONCERT
+  start: '2026-09-12T00:00:00-04:00'
+  end: '2026-09-12T00:00:00-04:00'
+  additional_dates: []
+  venue: 607 E Whitney St
+  address: 607 East Whitney Street, Houston, TX
+  region: unknown
+  price_min: 12.51
+  price_max: 12.51
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/houston/tlm-custom-car-show-and-concert/100001992903930303
+  ticket_url: https://allevents.in/houston/tlm-custom-car-show-and-concert/100001992903930303
+  description_snippet: ''
+  content_hash: f204aad57963f8ac
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/houston/tlm-custom-car-show-and-concert/100001992903930303
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/houston/tlm-custom-car-show-and-concert/100001992903930303
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:05.743692-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:05.743665-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

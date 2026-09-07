@@ -1,0 +1,48 @@
+id: 2026-09-29-disney-california-oogie-boogie-bash-a
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Oogie Boogie Bash: A Disney Halloween Party'
+  start: '2026-09-29T00:00:00-04:00'
+  additional_dates: []
+  venue: Disney California Adventure Park
+  address: 1900 S Harbor Blvd, Anaheim, CA 92802, United States, Anaheim, CA
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/anaheim/oogie-boogie-bash-a-disney-halloween-party/200030390112808
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 598234a3be9a9861
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/anaheim/oogie-boogie-bash-a-disney-halloween-party/200030390112808
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/anaheim/oogie-boogie-bash-a-disney-halloween-party/200030390112808
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:31:29.031060-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:31:29.031034-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

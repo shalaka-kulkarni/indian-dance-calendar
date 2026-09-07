@@ -1,0 +1,49 @@
+id: 2026-09-13-belmont-shore-belmont-shore-car-show
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Belmont Shore Car Show
+  start: '2026-09-13T00:00:00-04:00'
+  end: '2026-09-13T00:00:00-04:00'
+  additional_dates: []
+  venue: Belmont Shore
+  address: 5200 E. 2nd Street, Long Beach, CA
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/long-beach/belmont-shore-car-show/100001998997476263
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: e60b01ff7a17b54d
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/long-beach/belmont-shore-car-show/100001998997476263
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/long-beach/belmont-shore-car-show/100001998997476263
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:11.646593-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:11.646566-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

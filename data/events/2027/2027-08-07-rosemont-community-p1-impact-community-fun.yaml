@@ -1,0 +1,49 @@
+id: 2027-08-07-rosemont-community-p1-impact-community-fun
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: P1 Impact Community Fun Day – Back-to-School Giveaway 2027
+  start: '2027-08-07T00:00:00-04:00'
+  end: '2027-08-07T00:00:00-04:00'
+  additional_dates: []
+  venue: Rosemont Community Center
+  address: 4872 Rose Bay Drive, Orlando, FL
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/orlando/p1-impact-community-fun-day-back-to-school-giveaway-2027/100001997716628212
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: aa6641bfe624a419
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/orlando/p1-impact-community-fun-day-back-to-school-giveaway-2027/100001997716628212
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/orlando/p1-impact-community-fun-day-back-to-school-giveaway-2027/100001997716628212
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:34:21.252370-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:34:21.252344-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,49 @@
+id: 2026-09-12-208-blacks-20-years-of-service
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 20 Years of Service. Generations of Impact. Anniversary Celebration!
+  start: '2026-09-12T00:00:00-04:00'
+  end: '2026-09-12T00:00:00-04:00'
+  additional_dates: []
+  venue: 208 Blacks Dr, Greenville, SC 29615-4045, United States
+  address: 208 Blacks Dr, Greenville, SC 29615-4045, United States, Greenville, SC
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/greenville/20-years-of-service-generations-of-impact-anniversary-celebration/200030639544154
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 57ac543b964dc462
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/greenville/20-years-of-service-generations-of-impact-anniversary-celebration/200030639544154
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/greenville/20-years-of-service-generations-of-impact-anniversary-celebration/200030639544154
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:04.560106-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:04.560078-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

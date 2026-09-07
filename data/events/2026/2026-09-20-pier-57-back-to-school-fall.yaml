@@ -1,0 +1,48 @@
+id: 2026-09-20-pier-57-back-to-school-fall
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Back to School Fall Fest @ Pier 57
+  start: '2026-09-20T00:00:00-04:00'
+  end: '2026-09-20T00:00:00-04:00'
+  additional_dates: []
+  venue: Pier 57
+  address: 25 11th Avenue, New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/new-york/back-to-school-fall-fest-pier-57/100001998385724497
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: f471b1ff3e663113
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/new-york/back-to-school-fall-fest-pier-57/100001998385724497
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://allevents.in/new-york/back-to-school-fall-fest-pier-57/100001998385724497
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:53.686028-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:53.686001-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

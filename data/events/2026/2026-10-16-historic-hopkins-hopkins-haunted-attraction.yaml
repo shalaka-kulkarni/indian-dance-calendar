@@ -1,0 +1,50 @@
+id: 2026-10-16-historic-hopkins-hopkins-haunted-attraction
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Hopkins Haunted Attraction
+  start: '2026-10-16T00:00:00-04:00'
+  end: '2026-11-01T00:00:00-04:00'
+  additional_dates: []
+  venue: Historic Hopkins Farm
+  address: 3717 Fork Shoals Rd, Simpsonville, SC 29680, United States, Simpsonville, SC
+  region: unknown
+  price_min: 10.0
+  price_max: 30.0
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/simpsonville/hopkins-haunted-attraction-tickets/80008843955764
+  ticket_url: https://allevents.in/simpsonville/hopkins-haunted-attraction-tickets/80008843955764
+  description_snippet: ''
+  content_hash: 2acc962b35b9daf2
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/simpsonville/hopkins-haunted-attraction-tickets/80008843955764
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/simpsonville/hopkins-haunted-attraction-tickets/80008843955764
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:32:35.612377-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:32:35.612351-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

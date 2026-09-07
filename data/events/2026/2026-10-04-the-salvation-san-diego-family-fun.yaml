@@ -1,0 +1,49 @@
+id: 2026-10-04-the-salvation-san-diego-family-fun
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: San Diego Family Fun Fest Halloween
+  start: '2026-10-04T00:00:00-04:00'
+  end: '2026-10-04T00:00:00-04:00'
+  additional_dates: []
+  venue: The Salvation Army Kroc Center Corner Zone
+  address: 6845 University Avenue, San Diego, CA
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/san-diego/san-diego-family-fun-fest-halloween/100001997505713360
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: e113f5676c7a4de5
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/san-diego/san-diego-family-fun-fest-halloween/100001997505713360
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/san-diego/san-diego-family-fun-fest-halloween/100001997505713360
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:31:55.477564-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:31:55.477537-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

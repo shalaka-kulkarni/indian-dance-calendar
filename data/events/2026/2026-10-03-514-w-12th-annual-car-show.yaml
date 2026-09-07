@@ -1,0 +1,49 @@
+id: 2026-10-03-514-w-12th-annual-car-show
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 12th Annual Car Show
+  start: '2026-10-03T00:00:00-04:00'
+  end: '2026-10-03T00:00:00-04:00'
+  additional_dates: []
+  venue: 514 W Commerce St, San Antonio, TX, United States, Texas 78207
+  address: 514 W Commerce St, San Antonio, TX 78207-4405, United States, San Antonio, TX
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/san-antonio/12th-annual-car-show/200030596711700
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 9eb7aaeb15c60e75
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/san-antonio/12th-annual-car-show/200030596711700
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/san-antonio/12th-annual-car-show/200030596711700
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:31:40.949894-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:31:40.949869-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

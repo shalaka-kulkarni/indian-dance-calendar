@@ -1,0 +1,49 @@
+id: 2026-10-04-campus-martius-campus-kids-days-presented
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Campus Kids Days Presented By Corewell Health: Lil'' Boo Bash'
+  start: '2026-10-04T00:00:00-04:00'
+  end: '2026-10-04T00:00:00-04:00'
+  additional_dates: []
+  venue: Campus Martius Park
+  address: 800 Woodward Avenue, Detroit, MI
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/detroit/campus-kids-days-presented-by-corewell-health-lil-boo-bash/100001990030333297
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 976c1c5dd900c285
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/detroit/campus-kids-days-presented-by-corewell-health-lil-boo-bash/100001990030333297
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/detroit/campus-kids-days-presented-by-corewell-health-lil-boo-bash/100001990030333297
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:31:52.813826-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:31:52.813802-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

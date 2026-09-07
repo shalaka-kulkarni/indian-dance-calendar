@@ -1,0 +1,50 @@
+id: 2026-10-31-congress-plaza-haunted-hotel-halloween-ball
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Haunted Hotel Halloween Ball 2026 at Congress Plaza Hotel
+  start: '2026-10-31T00:00:00-04:00'
+  end: '2026-11-01T00:00:00-04:00'
+  additional_dates: []
+  venue: Congress Plaza Hotel Chicago
+  address: 520 S. Michigan Ave, Chicago, IL
+  region: unknown
+  price_min: 29.96
+  price_max: 1165.68
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/chicago/haunted-hotel-halloween-ball-2026-at-congress-plaza-hotel/100001970651005205
+  ticket_url: https://allevents.in/chicago/haunted-hotel-halloween-ball-2026-at-congress-plaza-hotel/100001970651005205
+  description_snippet: ''
+  content_hash: 18939ce1b7bb8340
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/chicago/haunted-hotel-halloween-ball-2026-at-congress-plaza-hotel/100001970651005205
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/chicago/haunted-hotel-halloween-ball-2026-at-congress-plaza-hotel/100001970651005205
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:25.406992-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:25.406843-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

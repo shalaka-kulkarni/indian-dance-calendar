@@ -1,0 +1,49 @@
+id: 2026-09-26-gypsy-camp-belly-dance-event-community
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Belly Dance Event— Community Showcase &amp; Back-to-School Supply Drive
+  start: '2026-09-26T00:00:00-04:00'
+  end: '2026-09-26T00:00:00-04:00'
+  additional_dates: []
+  venue: Gypsy Camp Ethnic Arts Center
+  address: 3265 Motor Avenue, Los Angeles, CA
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/los-angeles/belly-dance-event-community-showcase-and-back-to-school-supply-drive/100001998518034239
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 30be688cd5ffcffa
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/los-angeles/belly-dance-event-community-showcase-and-back-to-school-supply-drive/100001998518034239
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/los-angeles/belly-dance-event-community-showcase-and-back-to-school-supply-drive/100001998518034239
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:31:18.515598-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:31:18.515572-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

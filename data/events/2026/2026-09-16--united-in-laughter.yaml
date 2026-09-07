@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/united-in-laughter
     ok: true
     status_code: 200
-    checked_at: '2026-09-05T11:44:02.540491-04:00'
+    checked_at: '2026-09-07T12:30:20.593281-04:00'
   - url: https://seats.92ny.org/single/210971
     ok: true
     status_code: 200
-    checked_at: '2026-09-05T11:44:03.671547-04:00'
+    checked_at: '2026-09-07T12:30:21.820451-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-09-05T11:44:02.540469-04:00'
+  validated_at: '2026-09-07T12:30:20.593257-04:00'
 curated:
   forms: []
   traditions: []

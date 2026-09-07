@@ -1,0 +1,50 @@
+id: 2026-09-26-2672-simpson-just-a-girl-car
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Just A Girl Car Show - Ladies Only
+  start: '2026-09-26T00:00:00-04:00'
+  end: '2026-09-27T00:00:00-04:00'
+  additional_dates: []
+  venue: 2672 Simpson Rd
+  address: 2672 Simpson Rd, Kissimmee, FL 34744, United States, Kissimmee, FL
+  region: unknown
+  price_min: 15.0
+  price_max: 15.0
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/kissimmee/just-a-girl-car-show-ladies-only-tickets/80001857101036
+  ticket_url: https://allevents.in/kissimmee/just-a-girl-car-show-ladies-only-tickets/80001857101036
+  description_snippet: ''
+  content_hash: fb80000cc90f87df
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/kissimmee/just-a-girl-car-show-ladies-only-tickets/80001857101036
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/kissimmee/just-a-girl-car-show-ladies-only-tickets/80001857101036
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:31:15.859414-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:31:15.859389-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,50 @@
+id: 2026-09-10-city-market-back-to-school-meals
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Back to School Meals
+  start: '2026-09-10T00:00:00-04:00'
+  end: '2026-09-10T00:00:00-04:00'
+  additional_dates: []
+  venue: City Market South End Store
+  address: 207 Flynn Ave, Burlington, VT
+  region: unknown
+  price_min: 30.0
+  price_max: 44.52
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/burlington/back-to-school-meals/100001995716716422
+  ticket_url: https://allevents.in/burlington/back-to-school-meals/100001995716716422
+  description_snippet: ''
+  content_hash: e3524957c52f269d
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/burlington/back-to-school-meals/100001995716716422
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/burlington/back-to-school-meals/100001995716716422
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:29:59.990361-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:29:59.990333-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

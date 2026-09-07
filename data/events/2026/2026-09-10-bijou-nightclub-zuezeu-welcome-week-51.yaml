@@ -1,0 +1,50 @@
+id: 2026-09-10-bijou-nightclub-zuezeu-welcome-week-51
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Zuezeu Welcome Week @ 51
+  start: '2026-09-10T00:00:00-04:00'
+  end: '2026-09-11T00:00:00-04:00'
+  additional_dates: []
+  venue: Bijou Nightclub &amp; Lounge
+  address: 51 Stuart Street, Boston, MA
+  region: unknown
+  price_min: 23.61
+  price_max: 23.61
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/boston/zuezeu-welcome-week-51/100001998302259852
+  ticket_url: https://allevents.in/boston/zuezeu-welcome-week-51/100001998302259852
+  description_snippet: ''
+  content_hash: 2c2acf0a051b0061
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/boston/zuezeu-welcome-week-51/100001998302259852
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/boston/zuezeu-welcome-week-51/100001998302259852
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:29:58.904220-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:29:58.904193-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

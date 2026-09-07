@@ -1,0 +1,49 @@
+id: 2026-10-23-n-cannon-zoo-brews-howls-and
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Zoo Brews: Howls and Growls'
+  start: '2026-10-23T00:00:00-04:00'
+  end: '2026-10-23T00:00:00-04:00'
+  additional_dates: []
+  venue: N Cannon Dr at W Fullerton Pkwy, Chicago, IL, United States, Illinois 60614
+  address: 2401 N Clark St, Chicago, IL 60614-7777, United States, Chicago, IL
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/chicago/zoo-brews-howls-and-growls/200030571345022
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 3881d7e653ab9869
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/chicago/zoo-brews-howls-and-growls/200030571345022
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/chicago/zoo-brews-howls-and-growls/200030571345022
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:00.534323-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:00.534298-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

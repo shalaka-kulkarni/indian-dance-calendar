@@ -1,0 +1,49 @@
+id: 2026-09-20-2600-margaret-fall-festival-live-music
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Fall Festival Live Music with The Backyard Band
+  start: '2026-09-20T00:00:00-04:00'
+  end: '2026-09-20T00:00:00-04:00'
+  additional_dates: []
+  venue: 2600 Margaret Street N., North Saint Paul, MN, United States, Minnesota 55109
+  address: 2600 Margaret St N, St Paul, MN 55109-2361, United States, North St Paul, MN
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/north-st-paul/fall-festival-live-music-with-the-backyard-band/200030503969731
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: f0a5ff4423f57e3f
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/north-st-paul/fall-festival-live-music-with-the-backyard-band/200030503969731
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/north-st-paul/fall-festival-live-music-with-the-backyard-band/200030503969731
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:52.934889-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:52.934859-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

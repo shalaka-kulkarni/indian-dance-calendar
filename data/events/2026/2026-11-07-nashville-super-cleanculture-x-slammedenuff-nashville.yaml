@@ -1,0 +1,49 @@
+id: 2026-11-07-nashville-super-cleanculture-x-slammedenuff-nashville
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: CleanCulture x Slammedenuff Nashville Showdown Drift Event and Car Show
+  start: '2026-11-07T00:00:00-05:00'
+  end: '2026-11-07T00:00:00-05:00'
+  additional_dates: []
+  venue: Nashville Super Speedway
+  address: Gladeville, TN
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/gladeville/cleanculture-x-slammedenuff-nashville-showdown-drift-event-and-car-show/200030568836334
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 1f09370584a49865
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/gladeville/cleanculture-x-slammedenuff-nashville-showdown-drift-event-and-car-show/200030568836334
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/gladeville/cleanculture-x-slammedenuff-nashville-showdown-drift-event-and-car-show/200030568836334
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:35.656111-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:35.656083-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

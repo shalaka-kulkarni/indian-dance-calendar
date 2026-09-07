@@ -1,0 +1,50 @@
+id: 2026-10-31-american-junkie-2026-san-diego-zombie
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: '2026 San Diego Zombie Crawl | 2 Halloween Weekends: Oct 23, 24, 30 + 31!'
+  start: '2026-10-31T00:00:00-04:00'
+  end: '2026-10-31T00:00:00-04:00'
+  additional_dates: []
+  venue: American Junkie
+  address: 628 Fifth Ave, San Diego, CA 92101, United States, San Diego, CA
+  region: unknown
+  price_min: 30.0
+  price_max: 35.0
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/san-diego/2026-san-diego-zombie-crawl-2-halloween-weekends-oct-23-24-30-31-tickets/80002615116522
+  ticket_url: https://allevents.in/san-diego/2026-san-diego-zombie-crawl-2-halloween-weekends-oct-23-24-30-31-tickets/80002615116522
+  description_snippet: ''
+  content_hash: fa20befbd18df673
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/san-diego/2026-san-diego-zombie-crawl-2-halloween-weekends-oct-23-24-30-31-tickets/80002615116522
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/san-diego/2026-san-diego-zombie-crawl-2-halloween-weekends-oct-23-24-30-31-tickets/80002615116522
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:24.857615-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:24.857589-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

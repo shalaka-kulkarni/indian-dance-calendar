@@ -1,0 +1,48 @@
+id: 2026-09-08-liberty-street-our-city-our-fight
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Our City, Our Fight, Our Future: NYC Labor Day Rally &amp; March 2026'
+  start: '2026-09-08T00:00:00-04:00'
+  end: '2026-09-08T00:00:00-04:00'
+  additional_dates: []
+  venue: Liberty Street
+  address: Liberty Street between Church Street &amp; Broadway, New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/new-york/our-city-our-fight-our-future-nyc-labor-day-rally-and-march-2026/4300030593890054
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 2cbd9f9ace453cda
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/new-york/our-city-our-fight-our-future-nyc-labor-day-rally-and-march-2026/4300030593890054
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://allevents.in/new-york/our-city-our-fight-our-future-nyc-labor-day-rally-and-march-2026/4300030593890054
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:29:52.463092-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:29:52.463065-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

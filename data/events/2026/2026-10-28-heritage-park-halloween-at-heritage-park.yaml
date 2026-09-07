@@ -1,0 +1,49 @@
+id: 2026-10-28-heritage-park-halloween-at-heritage-park
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Halloween at Heritage Park Presented by Ray Thompson's Upstate Karate
+  start: '2026-10-28T00:00:00-04:00'
+  end: '2026-10-28T00:00:00-04:00'
+  additional_dates: []
+  venue: Heritage Park
+  address: 1168 Dennis Waldrop Way, Simpsonville, SC 29681-3244, United States, Simpsonville, SC
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/simpsonville/halloween-at-heritage-park-presented-by-ray-thompsons-upstate-karate/200030645340934
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: f7c1562bc5d7eaf5
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/simpsonville/halloween-at-heritage-park-presented-by-ray-thompsons-upstate-karate/200030645340934
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/simpsonville/halloween-at-heritage-park-presented-by-ray-thompsons-upstate-karate/200030645340934
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:16.098871-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:16.098841-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

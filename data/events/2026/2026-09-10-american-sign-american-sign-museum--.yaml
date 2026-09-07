@@ -1,0 +1,49 @@
+id: 2026-09-10-american-sign-american-sign-museum--
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'American Sign Museum - Glow in the Dark: Back-to-School Edition'
+  start: '2026-09-10T00:00:00-04:00'
+  end: '2026-09-10T00:00:00-04:00'
+  additional_dates: []
+  venue: American Sign Museum
+  address: 1328 Monmouth St, Cincinnati, OH 45225-1344, United States, Cincinnati, OH
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/cincinnati/american-sign-museum-glow-in-the-dark-back-to-school-edition/200030603249603
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 4766404d2da4a5c6
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/cincinnati/american-sign-museum-glow-in-the-dark-back-to-school-edition/200030603249603
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/cincinnati/american-sign-museum-glow-in-the-dark-back-to-school-edition/200030603249603
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:29:58.774604-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:29:58.774578-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

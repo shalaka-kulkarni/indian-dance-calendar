@@ -1,0 +1,48 @@
+id: 2026-09-19-catrina-cantina-ranflitas-cc-milwaukeros-el
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Ranflitas cc Milwaukeros El Grito car show fest#8
+  start: '2026-09-19T00:00:00-04:00'
+  additional_dates: []
+  venue: Catrina Cantina
+  address: 606 S. 5th Street,Milwaukee, Wisconsin, Milwaukee, WI
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/milwaukee/ranflitas-cc-milwaukeros-el-grito-car-show-fest8/200030513966932
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 8dc2c90b98877672
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/milwaukee/ranflitas-cc-milwaukeros-el-grito-car-show-fest8/200030513966932
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/milwaukee/ranflitas-cc-milwaukeros-el-grito-car-show-fest8/200030513966932
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:41.628412-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:41.628387-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

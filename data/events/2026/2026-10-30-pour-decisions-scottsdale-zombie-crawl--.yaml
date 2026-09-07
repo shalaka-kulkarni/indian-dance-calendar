@@ -1,0 +1,49 @@
+id: 2026-10-30-pour-decisions-scottsdale-zombie-crawl--
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: SCOTTSDALE ZOMBIE CRAWL - Halloween Bar Crawl - Party Pass to 10+ Bars
+  start: '2026-10-30T00:00:00-04:00'
+  end: '2026-11-01T00:00:00-04:00'
+  additional_dates: []
+  venue: Pour Decisions Patio and Kitchen
+  address: 4209 North Craftsman Court, Scottsdale, AZ
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/scottsdale/scottsdale-zombie-crawl-halloween-bar-crawl-party-pass-to-10-bars/100001995085520498
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: e6dd500a356dbcc0
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/scottsdale/scottsdale-zombie-crawl-halloween-bar-crawl-party-pass-to-10-bars/100001995085520498
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/scottsdale/scottsdale-zombie-crawl-halloween-bar-crawl-party-pass-to-10-bars/100001995085520498
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:22.252292-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:22.252263-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

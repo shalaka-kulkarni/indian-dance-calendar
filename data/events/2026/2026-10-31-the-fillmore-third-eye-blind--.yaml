@@ -1,0 +1,49 @@
+id: 2026-10-31-the-fillmore-third-eye-blind--
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Third Eye Blind - Halloween 2026
+  start: '2026-10-31T00:00:00-04:00'
+  end: '2026-10-31T00:00:00-04:00'
+  additional_dates: []
+  venue: The Fillmore Philadelphia
+  address: Philadelphia, PA
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/philadelphia/third-eye-blind-halloween-2026/210009206258175
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 871c21a33a44cf93
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/philadelphia/third-eye-blind-halloween-2026/210009206258175
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/philadelphia/third-eye-blind-halloween-2026/210009206258175
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:27.970726-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:27.970700-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

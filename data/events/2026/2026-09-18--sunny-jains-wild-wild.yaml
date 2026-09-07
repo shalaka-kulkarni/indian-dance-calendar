@@ -24,7 +24,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/sunny-jain-2026/
     first_seen: '2026-08-16'
-    last_seen: '2026-09-04'
+    last_seen: '2026-09-07'
 ai:
   relevant: false
   kind: other
@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/sunny-jain-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-09-05T11:44:13.440420-04:00'
+    checked_at: '2026-09-07T12:30:30.477065-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-05T11:44:13.440393-04:00'
+  validated_at: '2026-09-07T12:30:30.477039-04:00'
 curated:
   forms: []
   traditions: []

@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/dj-nargis-fakhri-live-in-nyc-at-230-fifth_event-in_new-york-ny_401519
     first_seen: '2026-08-24'
-    last_seen: '2026-09-04'
+    last_seen: '2026-09-07'
 validation:
   passed: false
   checks:
@@ -37,10 +37,10 @@ validation:
   - url: https://events.sulekha.com/dj-nargis-fakhri-live-in-nyc-at-230-fifth_event-in_new-york-ny_401519
     ok: true
     status_code: 200
-    checked_at: '2026-09-05T11:43:54.160342-04:00'
+    checked_at: '2026-09-07T12:30:04.927562-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-05T11:43:54.160319-04:00'
+  validated_at: '2026-09-07T12:30:04.927535-04:00'
 curated:
   forms: []
   traditions: []

@@ -1,0 +1,50 @@
+id: 2026-10-05-harper-mccaughan-long-beach-show-and
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Long Beach Show and Shine Car Show
+  start: '2026-10-05T00:00:00-04:00'
+  end: '2026-10-05T00:00:00-04:00'
+  additional_dates: []
+  venue: Harper McCaughan Town Green
+  address: Long Beach Town Green Splash Pad, E 3rd St, Long Beach, MS 39560, United States, Long Beach,
+    MS
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/long-beach/long-beach-show-and-shine-car-show/200030408095425
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 9b754d542aed114e
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/long-beach/long-beach-show-and-shine-car-show/200030408095425
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/long-beach/long-beach-show-and-shine-car-show/200030408095425
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:32:02.005335-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:32:02.005311-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,49 @@
+id: 2026-09-12-catholic-high-15th-annual-aoh-car
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 15th Annual AOH Car Show
+  start: '2026-09-12T00:00:00-04:00'
+  end: '2026-09-12T00:00:00-04:00'
+  additional_dates: []
+  venue: Catholic High School,
+  address: 4552 Princess Anne Road, Virginia Beach, VA
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/virginia-beach/15th-annual-aoh-car-show-tickets/80002543729734
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 9dadfdf497f2d114
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/virginia-beach/15th-annual-aoh-car-show-tickets/80002543729734
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/virginia-beach/15th-annual-aoh-car-show-tickets/80002543729734
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:07.015887-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:07.015861-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,5 +1,5 @@
 id: 2026-09-05-the-space-sufi-sham-with-hansraj
-status: published
+status: past
 was_published: true
 needs_recheck: false
 scraped:
@@ -41,19 +41,14 @@ validation:
   passed: true
   checks:
     has_info_url: true
-    specific_url: true
     links_live: true
-    date_valid: true
-    price_known: true
-    in_metro: true
-    classified: true
   link_checks:
   - url: https://events.sulekha.com/sufi-sham-with-hansraj-hans-usa-tour-2026_event-in_westbury-ny_401134
     ok: true
     status_code: 200
-    checked_at: '2026-09-05T11:43:33.947231-04:00'
+    checked_at: '2026-09-07T12:29:50.619362-04:00'
   problems: []
-  validated_at: '2026-09-05T11:43:33.947178-04:00'
+  validated_at: '2026-09-07T12:29:50.619358-04:00'
 curated:
   forms: []
   traditions: []

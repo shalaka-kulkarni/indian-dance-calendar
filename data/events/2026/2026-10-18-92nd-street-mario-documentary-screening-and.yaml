@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/mario-documentary-screening-and-conversation
     first_seen: '2026-08-28'
-    last_seen: '2026-09-04'
+    last_seen: '2026-09-07'
 validation:
   passed: false
   checks:
@@ -38,14 +38,14 @@ validation:
   - url: https://www.92ny.org/event/mario-documentary-screening-and-conversation
     ok: true
     status_code: 200
-    checked_at: '2026-09-05T11:46:01.620754-04:00'
+    checked_at: '2026-09-07T12:32:46.897282-04:00'
   - url: https://seats.92ny.org/single/210931
     ok: true
     status_code: 200
-    checked_at: '2026-09-05T11:46:01.700696-04:00'
+    checked_at: '2026-09-07T12:32:47.058335-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-05T11:46:01.620728-04:00'
+  validated_at: '2026-09-07T12:32:46.897256-04:00'
 curated:
   forms: []
   traditions: []

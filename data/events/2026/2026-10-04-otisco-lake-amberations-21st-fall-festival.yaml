@@ -1,0 +1,48 @@
+id: 2026-10-04-otisco-lake-amberations-21st-fall-festival
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Amberations 21st Fall Festival
+  start: '2026-10-04T00:00:00-04:00'
+  additional_dates: []
+  venue: Otisco Lake Community Association-Community Center
+  address: 2223 Amber Rd, Marietta, NY 13110-3103, United States, Marietta, NY
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/marietta/amberations-21st-fall-festival/200030596111421
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 985f3c66de4c1632
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/marietta/amberations-21st-fall-festival/200030596111421
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/marietta/amberations-21st-fall-festival/200030596111421
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:31:53.258780-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:31:53.258754-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

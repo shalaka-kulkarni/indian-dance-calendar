@@ -1,0 +1,49 @@
+id: 2026-10-30-uptown-lexington-2026-boo-bash
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 2026 Boo Bash!
+  start: '2026-10-30T00:00:00-04:00'
+  end: '2026-10-30T00:00:00-04:00'
+  additional_dates: []
+  venue: Uptown Lexington
+  address: 5 E 1st Ave, Lexington, NC 27292-3301, United States, Lexington, NC
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/lexington/2026-boo-bash/200030627994442
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 53dbb560c84b67c1
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/lexington/2026-boo-bash/200030627994442
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/lexington/2026-boo-bash/200030627994442
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:23.758908-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:23.758882-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

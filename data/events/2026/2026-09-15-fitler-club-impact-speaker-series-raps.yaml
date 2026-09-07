@@ -1,0 +1,50 @@
+id: 2026-09-15-fitler-club-impact-speaker-series-raps
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Impact Speaker Series | “Raps of Resistance”: Author Book Talk and Signing'
+  start: '2026-09-15T00:00:00-04:00'
+  end: '2026-09-15T00:00:00-04:00'
+  additional_dates: []
+  venue: Fitler Club
+  address: 24 South 24th Street, Philadelphia, PA
+  region: unknown
+  price_min: 23.18
+  price_max: 23.18
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/philadelphia/impact-speaker-series-raps-of-resistance-author-book-talk-and-signing/100001998279660256
+  ticket_url: https://allevents.in/philadelphia/impact-speaker-series-raps-of-resistance-author-book-talk-and-signing/100001998279660256
+  description_snippet: ''
+  content_hash: ed765de43b19e6aa
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/philadelphia/impact-speaker-series-raps-of-resistance-author-book-talk-and-signing/100001998279660256
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/philadelphia/impact-speaker-series-raps-of-resistance-author-book-talk-and-signing/100001998279660256
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:19.912367-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:19.912337-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

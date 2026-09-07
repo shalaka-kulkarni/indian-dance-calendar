@@ -1,0 +1,50 @@
+id: 2026-10-30-joy-district-chicagos-hottest-halloween-bar
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Chicago's Hottest Halloween Bar Crawl 2026 - River North - Fri, Oct 30
+  start: '2026-10-30T00:00:00-04:00'
+  end: '2026-10-30T00:00:00-04:00'
+  additional_dates: []
+  venue: Joy District
+  address: 112 West Hubbard Street, Chicago, IL
+  region: unknown
+  price_min: 15.08
+  price_max: 50.03
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/chicago/chicagos-hottest-halloween-bar-crawl-2026-river-north-fri-oct-30/100001999072672176
+  ticket_url: https://allevents.in/chicago/chicagos-hottest-halloween-bar-crawl-2026-river-north-fri-oct-30/100001999072672176
+  description_snippet: ''
+  content_hash: 0e954a7bc19c8211
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/chicago/chicagos-hottest-halloween-bar-crawl-2026-river-north-fri-oct-30/100001999072672176
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/chicago/chicagos-hottest-halloween-bar-crawl-2026-river-north-fri-oct-30/100001999072672176
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:21.773450-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:21.773422-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,49 @@
+id: 2026-10-31-village-at-spooky-village-at-village
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Spooky Village at Village at the Peaks 1-3 PM
+  start: '2026-10-31T00:00:00-04:00'
+  end: '2026-10-31T00:00:00-04:00'
+  additional_dates: []
+  venue: Village at the Peaks
+  address: ChargePoint, 1248 S Hover Rd, Longmont, CO 80501, United States, Longmont, CO
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/longmont/spooky-village-at-village-at-the-peaks-1-3-pm/200030645283723
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 6f1c911334a8d61c
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/longmont/spooky-village-at-village-at-the-peaks-1-3-pm/200030645283723
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/longmont/spooky-village-at-village-at-the-peaks-1-3-pm/200030645283723
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:28.292964-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:28.292937-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

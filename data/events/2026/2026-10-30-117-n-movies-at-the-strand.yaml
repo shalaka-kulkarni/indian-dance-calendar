@@ -1,0 +1,49 @@
+id: 2026-10-30-117-n-movies-at-the-strand
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Movies at The Strand: The Rocky Horror Picture Show (1975)'
+  start: '2026-10-30T00:00:00-04:00'
+  end: '2026-10-30T00:00:00-04:00'
+  additional_dates: []
+  venue: 117 N Park Sq NE, Marietta, GA, United States, Georgia 30060
+  address: 117 N Park Sq NE, Marietta, GA 30060-1971, United States, Marietta, GA
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/marietta/movies-at-the-strand-the-rocky-horror-picture-show-1975/200030549425136
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 3aef1058908c4c8a
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/marietta/movies-at-the-strand-the-rocky-horror-picture-show-1975/200030549425136
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/marietta/movies-at-the-strand-the-rocky-horror-picture-show-1975/200030549425136
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:21.232476-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:21.232449-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,49 @@
+id: 2026-09-25-141-w-sp-presents-artists-exchange
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'SP Presents: Artists Exchange! workshop, open mic &amp; back-to-school drive!'
+  start: '2026-09-25T00:00:00-04:00'
+  end: '2026-09-25T00:00:00-04:00'
+  additional_dates: []
+  venue: 141 W 28th St
+  address: 141 West 28th Street, Los Angeles, CA
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/los-angeles/sp-presents-artists-exchange-workshop-open-mic-and-back-to-school-drive/100001998970534680
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 15b18d27461cc761
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/los-angeles/sp-presents-artists-exchange-workshop-open-mic-and-back-to-school-drive/100001998970534680
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/los-angeles/sp-presents-artists-exchange-workshop-open-mic-and-back-to-school-drive/100001998970534680
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:31:11.051718-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:31:11.051691-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

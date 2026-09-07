@@ -1,0 +1,50 @@
+id: 2026-10-17-the-glass-tropic-invasion---5th
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: TROPIC INVASION - 5th Annual Music, Art &amp; Halloween Festival
+  start: '2026-10-17T00:00:00-04:00'
+  end: '2026-10-17T00:00:00-04:00'
+  additional_dates: []
+  venue: The Glass Factory &amp; Myrtle Ave Brewing
+  address: 601 Myrtle Ave N, Jacksonville, FL
+  region: unknown
+  price_min: 29.08
+  price_max: 102.21
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/jacksonville/tropic-invasion-5th-annual-music-art-and-halloween-festival/100001996800166049
+  ticket_url: https://allevents.in/jacksonville/tropic-invasion-5th-annual-music-art-and-halloween-festival/100001996800166049
+  description_snippet: ''
+  content_hash: 42b7857d87eed55e
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/jacksonville/tropic-invasion-5th-annual-music-art-and-halloween-festival/100001996800166049
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/jacksonville/tropic-invasion-5th-annual-music-art-and-halloween-festival/100001996800166049
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:32:45.489285-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:32:45.489259-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

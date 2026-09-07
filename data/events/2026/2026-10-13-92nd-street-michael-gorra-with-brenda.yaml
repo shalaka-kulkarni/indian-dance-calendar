@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/michael-gorra-the-storytellers
     first_seen: '2026-08-31'
-    last_seen: '2026-09-04'
+    last_seen: '2026-09-07'
 validation:
   passed: false
   checks:
@@ -34,17 +34,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/michael-gorra-the-storytellers
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-05T11:45:49.763771-04:00'
   - url: https://seats.92ny.org/single/210876
     ok: true
     status_code: 200
-    checked_at: '2026-09-05T11:45:52.802250-04:00'
+    checked_at: '2026-09-07T12:32:33.733231-04:00'
+  - url: https://www.92ny.org/event/michael-gorra-the-storytellers
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:32:33.863965-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-05T11:45:49.763745-04:00'
+  validated_at: '2026-09-07T12:32:33.733205-04:00'
 curated:
   forms: []
   traditions: []

@@ -1,0 +1,48 @@
+id: 2026-10-24-640-s-brew-city-street-drags
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Brew City Street Drags: INDEPENDENCE SPECIAL at the Milwaukee Mile WITH DRIFTING'
+  start: '2026-10-24T00:00:00-04:00'
+  additional_dates: []
+  venue: 640 s 84th st, West Allis, WI, United States, Wisconsin 53214
+  address: 640 S 84th St, Milwaukee, WI 53214-1438, United States, Milwaukee, WI
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/milwaukee/brew-city-street-drags-independence-special-at-the-milwaukee-mile-with-drifting/200030475206107
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: cb15b95ed1ce7436
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/milwaukee/brew-city-street-drags-independence-special-at-the-milwaukee-mile-with-drifting/200030475206107
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/milwaukee/brew-city-street-drags-independence-special-at-the-milwaukee-mile-with-drifting/200030475206107
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:03.935441-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:03.935413-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,49 @@
+id: 2026-10-31-axe-me-axe-after-darks-halloween
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Axe After Dark’s Halloween Party 🎃
+  start: '2026-10-31T00:00:00-04:00'
+  end: '2026-10-31T00:00:00-04:00'
+  additional_dates: []
+  venue: Axe Me Out
+  address: 2318 17th Ave f, Longmont, CO 80501, United States, Longmont, CO
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/longmont/axe-after-darks-halloween-party-tickets/80001333783023
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 62fc0abaf183c060
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/longmont/axe-after-darks-halloween-party-tickets/80001333783023
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/longmont/axe-after-darks-halloween-party-tickets/80001333783023
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:25.045411-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:25.045385-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

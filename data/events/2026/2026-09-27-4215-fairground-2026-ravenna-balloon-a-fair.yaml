@@ -1,0 +1,48 @@
+id: 2026-09-27-4215-fairground-2026-ravenna-balloon-a-fair
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 2026 Ravenna Balloon A-Fair Car Show
+  start: '2026-09-27T00:00:00-04:00'
+  additional_dates: []
+  venue: 4215 Fairground Rd, Atwater, OH 44201-9372, United States
+  address: 4215 Fairground Rd, Atwater, OH 44201-9372, United States, Atwater, OH
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/atwater/2026-ravenna-balloon-a-fair-car-show/200029567432042
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: bd2629a412ed0e00
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/atwater/2026-ravenna-balloon-a-fair-car-show/200029567432042
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/atwater/2026-ravenna-balloon-a-fair-car-show/200029567432042
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:31:21.502262-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:31:21.502236-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

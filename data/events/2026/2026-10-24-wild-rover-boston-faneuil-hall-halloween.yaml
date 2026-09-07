@@ -1,0 +1,50 @@
+id: 2026-10-24-wild-rover-boston-faneuil-hall-halloween
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Boston Faneuil Hall Halloween Bar Crawl
+  start: '2026-10-24T00:00:00-04:00'
+  end: '2026-10-24T00:00:00-04:00'
+  additional_dates: []
+  venue: Wild Rover
+  address: 61-63 Chatham Street, Boston, MA
+  region: unknown
+  price_min: 12.25
+  price_max: 18.89
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/boston/boston-faneuil-hall-halloween-bar-crawl/100001951144518779
+  ticket_url: https://allevents.in/boston/boston-faneuil-hall-halloween-bar-crawl/100001951144518779
+  description_snippet: ''
+  content_hash: cb6eb3e0bf69f517
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/boston/boston-faneuil-hall-halloween-bar-crawl/100001951144518779
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/boston/boston-faneuil-hall-halloween-bar-crawl/100001951144518779
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:06.337945-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:06.337917-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

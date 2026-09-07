@@ -1,0 +1,49 @@
+id: 2026-09-18-503-n-gemuetlichkeit-days-amp-big
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Gemuetlichkeit Days &amp; Big Hat Rodeo
+  start: '2026-09-18T00:00:00-04:00'
+  end: '2026-09-20T00:00:00-04:00'
+  additional_dates: []
+  venue: 503 N. Jackson Street, Jefferson, WI
+  address: 503 N Jackson Ave, Jefferson, WI 53549-1020, United States, Jefferson, WI
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/jefferson/gemuetlichkeit-days-and-big-hat-rodeo/200030660723851
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 4cced9eca51fbe35
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/jefferson/gemuetlichkeit-days-and-big-hat-rodeo/200030660723851
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/jefferson/gemuetlichkeit-days-and-big-hat-rodeo/200030660723851
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:31.488662-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:31.488635-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

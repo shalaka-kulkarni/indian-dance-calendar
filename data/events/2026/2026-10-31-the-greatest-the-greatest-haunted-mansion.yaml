@@ -1,0 +1,50 @@
+id: 2026-10-31-the-greatest-the-greatest-haunted-mansion
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: The Greatest Haunted Mansion at The Greatest Bar
+  start: '2026-10-31T00:00:00-04:00'
+  end: '2026-11-01T00:00:00-04:00'
+  additional_dates: []
+  venue: The Greatest Bar
+  address: 262 Friend Street, Boston, MA
+  region: unknown
+  price_min: 17.85
+  price_max: 23.18
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/boston/the-greatest-haunted-mansion-at-the-greatest-bar/100001995120595408
+  ticket_url: https://allevents.in/boston/the-greatest-haunted-mansion-at-the-greatest-bar/100001995120595408
+  description_snippet: ''
+  content_hash: 85b41bf22d644a0d
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/boston/the-greatest-haunted-mansion-at-the-greatest-bar/100001995120595408
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/boston/the-greatest-haunted-mansion-at-the-greatest-bar/100001995120595408
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:28.128586-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:28.128559-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,48 @@
+id: 2026-09-12-kidde-fenwal-kidde-fenwal-american-cancer
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Kidde Fenwal American Cancer Society 14th Annual Car show
+  start: '2026-09-12T00:00:00-04:00'
+  additional_dates: []
+  venue: Kidde Fenwal Inc
+  address: 400 Main St,Ashland, Massachusetts, Ashland, MA
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/ashland/kidde-fenwal-american-cancer-society-14th-annual-car-show/200030023624553
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 104a3a93eb150979
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/ashland/kidde-fenwal-american-cancer-society-14th-annual-car-show/200030023624553
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/ashland/kidde-fenwal-american-cancer-society-14th-annual-car-show/200030023624553
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:08.046091-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:08.046063-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,49 @@
+id: 2026-09-24-1502-fillmore-free-movie-spirited-away
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'FREE MOVIE: Spirited Away (2001) - On the BIG screen!'
+  start: '2026-09-24T00:00:00-04:00'
+  end: '2026-09-24T00:00:00-04:00'
+  additional_dates: []
+  venue: 1502 Fillmore St
+  address: 1502 Fillmore Street, San Francisco, CA
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/san-francisco/free-movie-spirited-away-2001-on-the-big-screen/100001999295664151
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: fff524d9a068f27d
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/san-francisco/free-movie-spirited-away-2001-on-the-big-screen/100001999295664151
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/san-francisco/free-movie-spirited-away-2001-on-the-big-screen/100001999295664151
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:31:07.129378-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:31:07.129352-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

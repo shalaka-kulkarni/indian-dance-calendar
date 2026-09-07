@@ -1,0 +1,50 @@
+id: 2026-10-31-pour-taproom-halloween-night-nightmare-on
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Halloween Night: Nightmare On Laura Street'
+  start: '2026-10-31T00:00:00-04:00'
+  end: '2026-11-01T00:00:00-04:00'
+  additional_dates: []
+  venue: Pour Taproom Jacksonville
+  address: 61 North Laura Street, Jacksonville, FL
+  region: unknown
+  price_min: 13.45
+  price_max: 690.25
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/jacksonville/halloween-night-nightmare-on-laura-street/100001999884825348
+  ticket_url: https://allevents.in/jacksonville/halloween-night-nightmare-on-laura-street/100001999884825348
+  description_snippet: ''
+  content_hash: 001dac1ea13cd88a
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/jacksonville/halloween-night-nightmare-on-laura-street/100001999884825348
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/jacksonville/halloween-night-nightmare-on-laura-street/100001999884825348
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:26.419975-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:26.419949-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,49 @@
+id: 2026-09-12-490-hill-baileys-classic-car-show
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Bailey's Classic Car Show
+  start: '2026-09-12T00:00:00-04:00'
+  end: '2026-09-12T00:00:00-04:00'
+  additional_dates: []
+  venue: 490 Hill N Dale Road, Shelbyville, KY, United States, Kentucky 40065
+  address: 490 Dale Dr, Shelbyville, KY 40065-9190, United States, Shelbyville, KY
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/shelbyville/baileys-classic-car-show/200030267095124
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: ab6efd03a52266db
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/shelbyville/baileys-classic-car-show/200030267095124
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/shelbyville/baileys-classic-car-show/200030267095124
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:05.572476-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:05.572447-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

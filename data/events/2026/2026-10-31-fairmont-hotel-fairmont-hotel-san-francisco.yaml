@@ -1,0 +1,50 @@
+id: 2026-10-31-fairmont-hotel-fairmont-hotel-san-francisco
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Fairmont Hotel San Francisco MEGA HALLOWEEN Party
+  start: '2026-10-31T00:00:00-04:00'
+  end: '2026-11-01T00:00:00-04:00'
+  additional_dates: []
+  venue: FAIRMONT HOTEL
+  address: 950 Mason Street, San Francisco, CA
+  region: unknown
+  price_min: 43.5
+  price_max: 174.35
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/san-francisco/fairmont-hotel-san-francisco-mega-halloween-party/100001998382597143
+  ticket_url: https://allevents.in/san-francisco/fairmont-hotel-san-francisco-mega-halloween-party/100001998382597143
+  description_snippet: ''
+  content_hash: 90ed364b502279e6
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/san-francisco/fairmont-hotel-san-francisco-mega-halloween-party/100001998382597143
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/san-francisco/fairmont-hotel-san-francisco-mega-halloween-party/100001998382597143
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:26.099648-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:26.099619-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

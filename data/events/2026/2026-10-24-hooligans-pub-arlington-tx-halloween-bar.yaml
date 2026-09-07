@@ -1,0 +1,50 @@
+id: 2026-10-24-hooligans-pub-arlington-tx-halloween-bar
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Arlington, TX Halloween Bar Crawl
+  start: '2026-10-24T00:00:00-04:00'
+  end: '2026-10-24T00:00:00-04:00'
+  additional_dates: []
+  venue: Hooligans Pub
+  address: 310 East Abram Street, Arlington, TX
+  region: unknown
+  price_min: 18.89
+  price_max: 30.65
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/arlington/arlington-tx-halloween-bar-crawl/100001951427344719
+  ticket_url: https://allevents.in/arlington/arlington-tx-halloween-bar-crawl/100001951427344719
+  description_snippet: ''
+  content_hash: 7cf4ab63e01c33b2
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/arlington/arlington-tx-halloween-bar-crawl/100001951427344719
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/arlington/arlington-tx-halloween-bar-crawl/100001951427344719
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:04.862955-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:04.862928-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,48 @@
+id: 2026-10-09-nashville-superspeedway-sct-nashville-presented-by
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: SCT Nashville Presented By Hoosier Tire
+  start: '2026-10-09T00:00:00-04:00'
+  additional_dates: []
+  venue: Nashville Superspeedway, Lebanon, TN 37090, United States
+  address: Gladeville, TN
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/gladeville/sct-nashville-presented-by-hoosier-tire/200030219099747
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 1effc080739fdbaf
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/gladeville/sct-nashville-presented-by-hoosier-tire/200030219099747
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/gladeville/sct-nashville-presented-by-hoosier-tire/200030219099747
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:32:11.349031-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:32:11.349006-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

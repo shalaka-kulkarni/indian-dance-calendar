@@ -1,0 +1,49 @@
+id: 2026-09-13-studiolife-craft-cocktail---back
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Craft Cocktail - Back to School Bubble Brunch Event
+  start: '2026-09-13T00:00:00-04:00'
+  end: '2026-09-13T00:00:00-04:00'
+  additional_dates: []
+  venue: StudioLife
+  address: 5236 University Way NE, Seattle, WA 98105-3519, United States, Seattle, WA
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/seattle/craft-cocktail-back-to-school-bubble-brunch-event/200030471289956
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 358951d484498ecb
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/seattle/craft-cocktail-back-to-school-bubble-brunch-event/200030471289956
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/seattle/craft-cocktail-back-to-school-bubble-brunch-event/200030471289956
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:14.594869-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:14.594842-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

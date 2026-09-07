@@ -1,0 +1,49 @@
+id: 2026-09-12-jd-core-generation-strong-presents-recess
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Generation Strong Presents: Recess - A Back to School Event for Parents'
+  start: '2026-09-12T00:00:00-04:00'
+  end: '2026-09-12T00:00:00-04:00'
+  additional_dates: []
+  venue: JD Core Training
+  address: 6 Kingsbridge Road, Fairfield, NJ
+  region: new_jersey
+  price_min: 13.34
+  price_max: 13.34
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/fairfield/generation-strong-presents-recess-a-back-to-school-event-for-parents/100001996533829429
+  ticket_url: https://allevents.in/fairfield/generation-strong-presents-recess-a-back-to-school-event-for-parents/100001996533829429
+  description_snippet: ''
+  content_hash: b0c35848ff28f886
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/fairfield/generation-strong-presents-recess-a-back-to-school-event-for-parents/100001996533829429
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://allevents.in/fairfield/generation-strong-presents-recess-a-back-to-school-event-for-parents/100001996533829429
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:07.914496-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:07.914470-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

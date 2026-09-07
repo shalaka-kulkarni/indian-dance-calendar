@@ -1,0 +1,49 @@
+id: 2026-10-04-dfw-car-kenney-beard-memorial-car
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Kenney Beard Memorial Car Show
+  start: '2026-10-04T00:00:00-04:00'
+  end: '2026-10-04T00:00:00-04:00'
+  additional_dates: []
+  venue: DFW Car And Toy Museum
+  address: 2550 McMillan Parkway,Fort Worth, Texas, Fort Worth, TX
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/fort-worth/kenney-beard-memorial-car-show/200030384189920
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 2b84a98420aba040
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/fort-worth/kenney-beard-memorial-car-show/200030384189920
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/fort-worth/kenney-beard-memorial-car-show/200030384189920
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:31:52.974062-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:31:52.974037-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

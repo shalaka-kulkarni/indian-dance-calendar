@@ -1,0 +1,49 @@
+id: 2026-10-17-arizona-boardwalk-halloween-event-presented-by
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Halloween Event Presented by Scottsdale Sparkle
+  start: '2026-10-17T00:00:00-04:00'
+  end: '2026-10-18T00:00:00-04:00'
+  additional_dates: []
+  venue: Arizona Boardwalk
+  address: 9500 East Vía de Ventura, Scottsdale, AZ 85256, United States, Scottsdale, AZ
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/scottsdale/halloween-event-presented-by-scottsdale-sparkle-tickets/80001073833927
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 36978940adadfbf6
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/scottsdale/halloween-event-presented-by-scottsdale-sparkle-tickets/80001073833927
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/scottsdale/halloween-event-presented-by-scottsdale-sparkle-tickets/80001073833927
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:32:41.365426-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:32:41.365396-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

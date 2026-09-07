@@ -1,5 +1,5 @@
 id: 2026-09-05-shreya-ghoshal-shreya-ghoshal-the-unstoppable
-status: published
+status: past
 was_published: true
 needs_recheck: false
 scraped:
@@ -40,20 +40,14 @@ validation:
   passed: true
   checks:
     has_info_url: true
-    specific_url: true
     links_live: true
-    date_valid: true
-    price_known: false
-    in_metro: true
-    classified: true
   link_checks:
   - url: https://www.prucenter.com/events/shreya-ghoshal
     ok: true
     status_code: 200
-    checked_at: '2026-09-05T11:43:33.317458-04:00'
-  problems:
-  - no price information
-  validated_at: '2026-09-05T11:43:33.317433-04:00'
+    checked_at: '2026-09-07T12:29:50.297167-04:00'
+  problems: []
+  validated_at: '2026-09-07T12:29:50.297161-04:00'
 curated:
   forms: []
   traditions: []

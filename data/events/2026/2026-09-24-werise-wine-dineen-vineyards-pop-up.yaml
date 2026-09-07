@@ -1,0 +1,50 @@
+id: 2026-09-24-werise-wine-dineen-vineyards-pop-up
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Dineen Vineyards Pop-Up
+  start: '2026-09-24T00:00:00-04:00'
+  end: '2026-09-24T00:00:00-04:00'
+  additional_dates: []
+  venue: WeRise Wine Bar
+  address: 1913 2nd AVE, Seattle, WA
+  region: unknown
+  price_min: 23.18
+  price_max: 23.18
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/seattle/dineen-vineyards-pop-up/100001999107934647
+  ticket_url: https://allevents.in/seattle/dineen-vineyards-pop-up/100001999107934647
+  description_snippet: ''
+  content_hash: 5450de223a854481
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/seattle/dineen-vineyards-pop-up/100001999107934647
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/seattle/dineen-vineyards-pop-up/100001999107934647
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:31:10.002211-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:31:10.002185-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

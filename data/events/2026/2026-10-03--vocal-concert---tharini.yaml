@@ -25,7 +25,7 @@ scraped:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2026/10/3/vocal-concert-tharini-nagarkar
     first_seen: '2026-08-28'
-    last_seen: '2026-09-04'
+    last_seen: '2026-09-07'
 validation:
   passed: false
   checks:
@@ -40,11 +40,11 @@ validation:
   - url: https://chhandayan.org/calendar/2026/10/3/vocal-concert-tharini-nagarkar
     ok: true
     status_code: 200
-    checked_at: '2026-09-05T11:45:21.650459-04:00'
+    checked_at: '2026-09-07T12:31:40.050685-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-05T11:45:21.650435-04:00'
+  validated_at: '2026-09-07T12:31:40.050660-04:00'
 curated:
   forms: []
   traditions: []

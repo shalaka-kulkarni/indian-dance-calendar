@@ -1,0 +1,49 @@
+id: 2026-10-03-bristol-motor-slammedenuff-bristol-car-show
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Slammedenuff Bristol Car Show 2026
+  start: '2026-10-03T00:00:00-04:00'
+  end: '2026-10-04T00:00:00-04:00'
+  additional_dates: []
+  venue: Bristol Motor Speedway
+  address: 2801 US-11E, Bristol, TN 37620-8411, United States, Bristol, TN
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/bristol/slammedenuff-bristol-car-show-2026/200030154927420
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: db1033d5fe23abf2
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/bristol/slammedenuff-bristol-car-show-2026/200030154927420
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/bristol/slammedenuff-bristol-car-show-2026/200030154927420
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:31:41.583947-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:31:41.583921-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

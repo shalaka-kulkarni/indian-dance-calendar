@@ -1,0 +1,50 @@
+id: 2026-09-19-old-stove-the-hot-for-teacher
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'The Hot for Teacher Comedy Show: Back-to-School Blowout'
+  start: '2026-09-19T00:00:00-04:00'
+  end: '2026-09-19T00:00:00-04:00'
+  additional_dates: []
+  venue: Old Stove Brewing Co - Gardens
+  address: 1550 Northwest 49th Street, Seattle, WA
+  region: unknown
+  price_min: 17.85
+  price_max: 17.85
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/seattle/the-hot-for-teacher-comedy-show-back-to-school-blowout/100001998119318670
+  ticket_url: https://allevents.in/seattle/the-hot-for-teacher-comedy-show-back-to-school-blowout/100001998119318670
+  description_snippet: ''
+  content_hash: 2259e04b0cd6041d
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/seattle/the-hot-for-teacher-comedy-show-back-to-school-blowout/100001998119318670
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/seattle/the-hot-for-teacher-comedy-show-back-to-school-blowout/100001998119318670
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:45.304542-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:45.304516-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

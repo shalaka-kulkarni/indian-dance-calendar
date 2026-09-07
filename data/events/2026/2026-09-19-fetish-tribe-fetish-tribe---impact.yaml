@@ -1,0 +1,47 @@
+id: 2026-09-19-fetish-tribe-fetish-tribe---impact
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Fetish Tribe - IMPACT &quot;Back To School&quot; Edition September 19th
+  start: '2026-09-19T00:00:00-04:00'
+  additional_dates: []
+  venue: Fetish Tribe @ The Diamond Club 30 Vandam St. New York, NY 10013
+  address: 30 Vandam St, New York, NY 10013-1252, United States, New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/new-york/fetish-tribe-impact-back-to-school-edition-september-19th/200030324667951
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: aed1f3c22b4d7ddf
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/new-york/fetish-tribe-impact-back-to-school-edition-september-19th/200030324667951
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://allevents.in/new-york/fetish-tribe-impact-back-to-school-edition-september-19th/200030324667951
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:42.597470-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:42.597444-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

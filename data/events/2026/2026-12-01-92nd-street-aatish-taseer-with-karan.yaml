@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/the-rootless-elysium
     first_seen: '2026-08-22'
-    last_seen: '2026-09-04'
+    last_seen: '2026-09-07'
 validation:
   passed: false
   checks:
@@ -37,14 +37,14 @@ validation:
   - url: https://www.92ny.org/event/the-rootless-elysium
     ok: true
     status_code: 200
-    checked_at: '2026-09-05T11:46:56.474858-04:00'
+    checked_at: '2026-09-07T12:34:01.344361-04:00'
   - url: https://seats.92ny.org/single/211193
     ok: true
     status_code: 200
-    checked_at: '2026-09-05T11:46:58.144511-04:00'
+    checked_at: '2026-09-07T12:34:03.160752-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-05T11:46:56.474834-04:00'
+  validated_at: '2026-09-07T12:34:01.344335-04:00'
 curated:
   forms: []
   traditions: []

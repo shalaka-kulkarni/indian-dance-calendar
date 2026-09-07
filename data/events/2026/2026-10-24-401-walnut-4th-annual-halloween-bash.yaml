@@ -1,0 +1,48 @@
+id: 2026-10-24-401-walnut-4th-annual-halloween-bash
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 4th Annual Halloween Bash featuring Parallel Fifth
+  start: '2026-10-24T00:00:00-04:00'
+  additional_dates: []
+  venue: 401 Walnut Blvd, Rochester, MI, United States, Michigan 48307
+  address: 401 Walnut Blvd, Rochester, MI 48307-1946, United States, Rochester, MI
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/rochester/4th-annual-halloween-bash-featuring-parallel-fifth/200030527581707
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 9a574cfbacbace80
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/rochester/4th-annual-halloween-bash-featuring-parallel-fifth/200030527581707
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/rochester/4th-annual-halloween-bash-featuring-parallel-fifth/200030527581707
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:33:03.632087-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:33:03.632060-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

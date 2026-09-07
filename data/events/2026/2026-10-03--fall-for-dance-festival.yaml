@@ -5,9 +5,10 @@ needs_recheck: false
 scraped:
   title: Fall for Dance Festival
   start: '2026-10-03T23:30:00Z'
+  end: '2026-10-03T00:00:00-04:00'
   additional_dates: []
   venue: ''
-  address: ''
+  address: 2241 Tacketts Mill Drive, Woodbridge, VA
   region: manhattan
   is_free: false
   price_note: ''
@@ -15,12 +16,16 @@ scraped:
   ticket_url: ''
   description_snippet: With 11 premieres and seven international companies, this year’s Festival celebrates
     the world’s best
-  content_hash: 2f3f7db1ad0b08c3
+  content_hash: 6aec69810cb3f79a
   sources:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/instances/7n1c4wwy/2026-10-03/2026-2027-fall-for-dance-festival
     first_seen: '2026-08-26'
-    last_seen: '2026-09-04'
+    last_seen: '2026-09-07'
+  - source_id: allevents
+    url: https://allevents.in/woodbridge/fall-festival/100001999285800649
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
 validation:
   passed: false
   checks:
@@ -35,11 +40,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/7n1c4wwy/2026-10-03/2026-2027-fall-for-dance-festival
     ok: true
     status_code: 200
-    checked_at: '2026-09-05T11:45:20.824346-04:00'
+    checked_at: '2026-09-07T12:31:39.568528-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-05T11:45:20.824315-04:00'
+  validated_at: '2026-09-07T12:31:39.568501-04:00'
 curated:
   forms: []
   traditions: []

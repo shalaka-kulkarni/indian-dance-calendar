@@ -1,0 +1,49 @@
+id: 2026-09-12-near-union-sapphic-amp-flinta-klnk
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Sapphic &amp; FLINTA Klnk Party - Sapphic Valley High!
+  start: '2026-09-12T00:00:00-04:00'
+  end: '2026-09-13T00:00:00-04:00'
+  additional_dates: []
+  venue: Near Union Square, Address in email confirmation additional info section
+  address: union square, New York, NY
+  region: manhattan
+  price_min: 41.86
+  price_max: 81.88
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/new-york/sapphic-and-flinta-klnk-party-sapphic-valley-high/100001996418207601
+  ticket_url: https://allevents.in/new-york/sapphic-and-flinta-klnk-party-sapphic-valley-high/100001996418207601
+  description_snippet: ''
+  content_hash: 88c70ac7eecb4023
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/new-york/sapphic-and-flinta-klnk-party-sapphic-valley-high/100001996418207601
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://allevents.in/new-york/sapphic-and-flinta-klnk-party-sapphic-valley-high/100001996418207601
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:08.501193-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:08.501165-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

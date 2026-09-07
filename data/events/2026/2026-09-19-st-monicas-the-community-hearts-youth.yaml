@@ -1,0 +1,49 @@
+id: 2026-09-19-st-monicas-the-community-hearts-youth
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: The Community Hearts Youth Game Day
+  start: '2026-09-19T00:00:00-04:00'
+  end: '2026-09-19T00:00:00-04:00'
+  additional_dates: []
+  venue: St Monica's Center
+  address: 10022 Chester Road, Cincinnati, OH
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/cincinnati/the-community-hearts-youth-game-day/100001992070217646
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 7fe682f63f7e4d1a
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/cincinnati/the-community-hearts-youth-game-day/100001992070217646
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/cincinnati/the-community-hearts-youth-game-day/100001992070217646
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:47.900743-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:47.900710-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

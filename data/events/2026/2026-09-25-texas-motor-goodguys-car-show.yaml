@@ -1,0 +1,50 @@
+id: 2026-09-25-texas-motor-goodguys-car-show
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Goodguys Car Show
+  start: '2026-09-25T00:00:00-04:00'
+  end: '2026-09-25T00:00:00-04:00'
+  additional_dates: []
+  venue: Texas Motor Speedway
+  address: 3545 Lone Star Circle, Fort Worth, TX
+  region: unknown
+  price_min: 47.0
+  price_max: 50.0
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/fort-worth/goodguys-car-show/2300026140368153
+  ticket_url: https://allevents.in/fort-worth/goodguys-car-show/2300026140368153
+  description_snippet: ''
+  content_hash: 2cce3c89e56aae76
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/fort-worth/goodguys-car-show/2300026140368153
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/fort-worth/goodguys-car-show/2300026140368153
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:31:13.536793-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:31:13.536768-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

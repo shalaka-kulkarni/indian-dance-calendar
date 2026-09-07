@@ -1,0 +1,48 @@
+id: 2026-09-20-sussex-county-sussex-county-day
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Sussex County Day
+  start: '2026-09-20T00:00:00-04:00'
+  end: '2026-09-20T00:00:00-04:00'
+  additional_dates: []
+  venue: Sussex County Fairgrounds
+  address: 37 Plains Rd, Augusta, NJ 07822, United States, Augusta, NJ
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/augusta/sussex-county-day/200030503019202
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 1e37167dfa7f7bac
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/augusta/sussex-county-day/200030503019202
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://allevents.in/augusta/sussex-county-day/200030503019202
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:55.356716-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:55.356688-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

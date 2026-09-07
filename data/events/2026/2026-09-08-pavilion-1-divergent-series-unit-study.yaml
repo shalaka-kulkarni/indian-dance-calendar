@@ -1,0 +1,49 @@
+id: 2026-09-08-pavilion-1-divergent-series-unit-study
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Divergent Series Unit Study @ the Park
+  start: '2026-09-08T00:00:00-04:00'
+  end: '2026-10-06T00:00:00-04:00'
+  additional_dates: []
+  venue: Pavilion 1 - Al Becken
+  address: 13102 Jones Maltsberger Rd, San Antonio, TX 78247, United States, San Antonio, TX
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/san-antonio/divergent-series-unit-study-the-park-tickets/80002731131400
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 8c75e9674040521c
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/san-antonio/divergent-series-unit-study-the-park-tickets/80002731131400
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/san-antonio/divergent-series-unit-study-the-park-tickets/80002731131400
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:29:52.586815-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:29:52.586787-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

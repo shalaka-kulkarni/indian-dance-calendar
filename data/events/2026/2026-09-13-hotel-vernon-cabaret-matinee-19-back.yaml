@@ -1,0 +1,49 @@
+id: 2026-09-13-hotel-vernon-cabaret-matinee-19-back
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Cabaret Matinee 19 (Back to School Edition) at Shiproom of the Hotel Vernon
+  start: '2026-09-13T00:00:00-04:00'
+  end: '2026-09-13T00:00:00-04:00'
+  additional_dates: []
+  venue: Hotel Vernon
+  address: 209 Harding St, Worcester, MA 01604, United States, Worcester, MA
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/worcester/cabaret-matinee-19-back-to-school-edition-at-shiproom-of-the-hotel-vernon/200030570615701
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 2fa73b4c57ea36a8
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/worcester/cabaret-matinee-19-back-to-school-edition-at-shiproom-of-the-hotel-vernon/200030570615701
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/worcester/cabaret-matinee-19-back-to-school-edition-at-shiproom-of-the-hotel-vernon/200030570615701
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:30:13.027594-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:30:13.027568-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

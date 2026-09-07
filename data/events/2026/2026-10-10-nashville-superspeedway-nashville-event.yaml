@@ -1,0 +1,48 @@
+id: 2026-10-10-nashville-superspeedway-nashville-event
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Nashville Event
+  start: '2026-10-10T00:00:00-04:00'
+  additional_dates: []
+  venue: Nashville Superspeedway
+  address: 400 Victory Lane Drive,Gladeville, Tennessee, Gladeville, TN
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/gladeville/nashville-event/200030399904934
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 80d44ddb2383d192
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/gladeville/nashville-event/200030399904934
+    first_seen: '2026-09-07'
+    last_seen: '2026-09-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://allevents.in/gladeville/nashville-event/200030399904934
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-07T12:32:15.745009-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-07T12:32:15.744985-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}
