@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/clarence/wnys-largest-fall-festival-weekend-2/200030602564529
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:31:14.705628-04:00'
+    checked_at: '2026-09-09T11:13:37.348818-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:31:14.705600-04:00'
+  validated_at: '2026-09-09T11:13:37.348791-04:00'
 curated:
   forms: []
   traditions: []

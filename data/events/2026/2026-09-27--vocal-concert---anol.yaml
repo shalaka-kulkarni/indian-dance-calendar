@@ -25,7 +25,7 @@ scraped:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2026/9/27/vocal-concert-anol-chatterjee
     first_seen: '2026-08-18'
-    last_seen: '2026-09-07'
+    last_seen: '2026-09-09'
 ai:
   relevant: true
   kind: performance
@@ -54,10 +54,10 @@ validation:
   - url: https://chhandayan.org/calendar/2026/9/27/vocal-concert-anol-chatterjee
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:31:21.205978-04:00'
+    checked_at: '2026-09-09T11:13:41.679535-04:00'
   problems:
   - no price information
-  validated_at: '2026-09-07T12:31:21.205951-04:00'
+  validated_at: '2026-09-09T11:13:41.679511-04:00'
 curated:
   forms: []
   traditions: []

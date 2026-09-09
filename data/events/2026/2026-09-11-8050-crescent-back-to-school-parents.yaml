@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/gainesville/back-to-school-parents-night-out-nerf-commandos-ages-4-12/100001997877291761
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:30:01.802951-04:00'
+    checked_at: '2026-09-09T11:12:11.599504-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:30:01.802923-04:00'
+  validated_at: '2026-09-09T11:12:11.599475-04:00'
 curated:
   forms: []
   traditions: []

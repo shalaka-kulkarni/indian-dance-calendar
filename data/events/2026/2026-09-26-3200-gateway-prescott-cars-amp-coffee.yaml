@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/prescott/prescott-cars-and-coffee-monthly-car-show-at-pine-ridge-marketplace/200030604871517
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:31:16.380655-04:00'
+    checked_at: '2026-09-09T11:13:38.390691-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:31:16.380630-04:00'
+  validated_at: '2026-09-09T11:13:38.390663-04:00'
 curated:
   forms: []
   traditions: []

@@ -37,10 +37,10 @@ validation:
   - url: https://allevents.in/new-york/breezy-and-freshs-fashion-show/100001994103150202
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:30:17.116935-04:00'
+    checked_at: '2026-09-09T11:12:23.361239-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:30:17.116906-04:00'
+  validated_at: '2026-09-09T11:12:23.361155-04:00'
 curated:
   forms: []
   traditions: []

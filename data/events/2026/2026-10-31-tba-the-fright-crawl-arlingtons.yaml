@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/arlington/the-fright-crawl-arlingtons-1-halloween-bar-crawl-2026-sat-oct-31/100001998589228182
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:33:27.665852-04:00'
+    checked_at: '2026-09-09T11:15:12.470777-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:33:27.665828-04:00'
+  validated_at: '2026-09-09T11:15:12.470738-04:00'
 curated:
   forms: []
   traditions: []

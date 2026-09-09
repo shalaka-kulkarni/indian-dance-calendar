@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/orlando/rekess/100001998933676436
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:30:14.441404-04:00'
+    checked_at: '2026-09-09T11:12:20.817140-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:30:14.441379-04:00'
+  validated_at: '2026-09-09T11:12:20.817111-04:00'
 curated:
   forms: []
   traditions: []

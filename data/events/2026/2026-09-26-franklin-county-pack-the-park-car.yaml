@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/winchester/pack-the-park-car-truck-and-motorcycle-show-vendors-and-food-trucks-tickets/80002192248881
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:31:17.877150-04:00'
+    checked_at: '2026-09-09T11:13:39.644193-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:31:17.877105-04:00'
+  validated_at: '2026-09-09T11:13:39.644164-04:00'
 curated:
   forms: []
   traditions: []

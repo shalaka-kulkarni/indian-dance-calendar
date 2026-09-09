@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/los-angeles/back-to-school-bash/100001998787320682
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:31:14.988701-04:00'
+    checked_at: '2026-09-09T11:13:37.497295-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:31:14.988675-04:00'
+  validated_at: '2026-09-09T11:13:37.497266-04:00'
 curated:
   forms: []
   traditions: []

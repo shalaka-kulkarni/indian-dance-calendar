@@ -37,10 +37,10 @@ validation:
   - url: https://allevents.in/fairfield/generation-strong-presents-recess-a-back-to-school-event-for-parents/100001996533829429
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:30:07.914496-04:00'
+    checked_at: '2026-09-09T11:12:15.195394-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:30:07.914470-04:00'
+  validated_at: '2026-09-09T11:12:15.195365-04:00'
 curated:
   forms: []
   traditions: []

@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/ashland/kidde-fenwal-american-cancer-society-14th-annual-car-show/200030023624553
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:30:08.046091-04:00'
+    checked_at: '2026-09-09T11:12:15.322165-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:30:08.046063-04:00'
+  validated_at: '2026-09-09T11:12:15.322135-04:00'
 curated:
   forms: []
   traditions: []

@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/gainesville/understanding-your-changing-mind-workshop/200030619952743
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:30:09.722137-04:00'
+    checked_at: '2026-09-09T11:12:16.785883-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:30:09.722094-04:00'
+  validated_at: '2026-09-09T11:12:16.785854-04:00'
 curated:
   forms: []
   traditions: []

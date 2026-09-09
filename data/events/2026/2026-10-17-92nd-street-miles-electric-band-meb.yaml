@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/miles-electric-band-electric-miles
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-07T12:32:38.367787-04:00'
   - url: https://seats.92ny.org/single/210428
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:32:39.927820-04:00'
+    checked_at: '2026-09-09T11:14:38.853841-04:00'
+  - url: https://www.92ny.org/event/miles-electric-band-electric-miles
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-09T11:14:38.905376-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-09-07T12:32:38.367756-04:00'
+  validated_at: '2026-09-09T11:14:38.853812-04:00'
 curated:
   forms: []
   traditions: []

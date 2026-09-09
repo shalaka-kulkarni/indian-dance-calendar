@@ -1,0 +1,47 @@
+id: 2026-12-20--alvin-ailey-american-dance
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Alvin Ailey American Dance Theater
+  start: '2026-12-20T00:30:00Z'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.nycitycenter.org/events/instances/gqfa1xzm/2026-12-19/2026-2027-alvin-ailey-american-dance-theater
+  ticket_url: ''
+  description_snippet: City Center's Principal Dance Company returns for another thrilling holiday season
+  content_hash: 426d9c3a5dd63696
+  sources:
+  - source_id: city_center
+    url: https://www.nycitycenter.org/events/instances/gqfa1xzm/2026-12-19/2026-2027-alvin-ailey-american-dance-theater
+    first_seen: '2026-09-09'
+    last_seen: '2026-09-09'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.nycitycenter.org/events/instances/gqfa1xzm/2026-12-19/2026-2027-alvin-ailey-american-dance-theater
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-09T11:15:50.756246-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-09T11:15:50.756223-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

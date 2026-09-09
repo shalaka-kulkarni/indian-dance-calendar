@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/marietta/fall-fest/100001999580094891
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:33:27.822519-04:00'
+    checked_at: '2026-09-09T11:15:12.624676-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:33:27.822494-04:00'
+  validated_at: '2026-09-09T11:15:12.624649-04:00'
 curated:
   forms: []
   traditions: []

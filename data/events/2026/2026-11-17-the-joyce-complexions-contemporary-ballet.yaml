@@ -21,7 +21,7 @@ scraped:
   - source_id: joyce
     url: https://www.joyce.org/performances/complexions-contemporary-ballet-zb34
     first_seen: '2026-08-16'
-    last_seen: '2026-09-07'
+    last_seen: '2026-09-09'
 ai:
   relevant: false
   kind: other
@@ -48,11 +48,11 @@ validation:
   - url: https://www.joyce.org/performances/complexions-contemporary-ballet-zb34
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:33:56.734799-04:00'
+    checked_at: '2026-09-09T11:15:36.784050-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-07T12:33:56.734774-04:00'
+  validated_at: '2026-09-09T11:15:36.784022-04:00'
 curated:
   forms: []
   traditions: []

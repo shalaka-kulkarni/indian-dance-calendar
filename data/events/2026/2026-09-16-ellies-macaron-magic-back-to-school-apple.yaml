@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/providence/macaron-magic-back-to-school-apple-of-my-eye-edition/100001988627512422
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:30:22.070071-04:00'
+    checked_at: '2026-09-09T11:12:32.531097-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:30:22.070044-04:00'
+  validated_at: '2026-09-09T11:12:32.531068-04:00'
 curated:
   forms: []
   traditions: []

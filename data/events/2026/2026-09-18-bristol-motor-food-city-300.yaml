@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/bristol/food-city-300/210003698622609
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:30:34.691360-04:00'
+    checked_at: '2026-09-09T11:12:53.413814-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:30:34.691331-04:00'
+  validated_at: '2026-09-09T11:12:53.413788-04:00'
 curated:
   forms: []
   traditions: []

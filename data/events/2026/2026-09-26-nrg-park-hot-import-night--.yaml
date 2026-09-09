@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/houston/hot-import-night-car-show/200030469909032
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:31:19.420707-04:00'
+    checked_at: '2026-09-09T11:13:40.349786-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:31:19.420680-04:00'
+  validated_at: '2026-09-09T11:13:40.349742-04:00'
 curated:
   forms: []
   traditions: []

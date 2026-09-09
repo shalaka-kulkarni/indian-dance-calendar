@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/stafford-springs/53rd-annual-napa-auto-parts-fall-final/200030331120509
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:31:17.022011-04:00'
+    checked_at: '2026-09-09T11:13:38.859437-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:31:17.021984-04:00'
+  validated_at: '2026-09-09T11:13:38.859411-04:00'
 curated:
   forms: []
   traditions: []

@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/burlington/back-to-school-meals/100001995716716422
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:29:59.990361-04:00'
+    checked_at: '2026-09-09T11:12:10.449205-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:29:59.990333-04:00'
+  validated_at: '2026-09-09T11:12:10.449173-04:00'
 curated:
   forms: []
   traditions: []

@@ -23,7 +23,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/bill-charlap-trio-26/
     first_seen: '2026-08-21'
-    last_seen: '2026-09-07'
+    last_seen: '2026-09-09'
 validation:
   passed: false
   checks:
@@ -38,11 +38,11 @@ validation:
   - url: https://www.sopacnow.org/events/bill-charlap-trio-26/
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:34:09.251891-04:00'
+    checked_at: '2026-09-09T11:15:50.531807-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:34:09.251867-04:00'
+  validated_at: '2026-09-09T11:15:50.531779-04:00'
 curated:
   forms: []
   traditions: []

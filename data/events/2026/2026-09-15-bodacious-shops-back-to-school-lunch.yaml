@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/pensacola/back-to-school-lunch-box-lab/100001997498188854
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:30:19.760836-04:00'
+    checked_at: '2026-09-09T11:12:25.684094-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:30:19.760807-04:00'
+  validated_at: '2026-09-09T11:12:25.684066-04:00'
 curated:
   forms: []
   traditions: []

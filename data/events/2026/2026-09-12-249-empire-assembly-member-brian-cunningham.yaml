@@ -35,11 +35,11 @@ validation:
   - url: https://allevents.in/brooklyn/assembly-member-brian-cunningham/100001994952327113
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:30:05.091489-04:00'
+    checked_at: '2026-09-09T11:12:13.106186-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:30:05.091462-04:00'
+  validated_at: '2026-09-09T11:12:13.106158-04:00'
 curated:
   forms: []
   traditions: []

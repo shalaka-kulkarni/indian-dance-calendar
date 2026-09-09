@@ -35,11 +35,11 @@ validation:
   - url: https://allevents.in/brooklyn/i-will-graduate-x-am-brian-cunningham-3rd-annual-spread-love-b2s-giveaway/100001995780695786
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:30:06.597156-04:00'
+    checked_at: '2026-09-09T11:12:14.266211-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:30:06.597111-04:00'
+  validated_at: '2026-09-09T11:12:14.266182-04:00'
 curated:
   forms: []
   traditions: []

@@ -37,14 +37,14 @@ validation:
   - url: https://www.92ny.org/event/netflix-s-best-of-the-best
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:29:57.075888-04:00'
+    checked_at: '2026-09-09T11:12:07.212287-04:00'
   - url: https://seats.92ny.org/single/211152
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:29:58.470426-04:00'
+    checked_at: '2026-09-09T11:12:07.240181-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:29:57.075861-04:00'
+  validated_at: '2026-09-09T11:12:07.212261-04:00'
 curated:
   forms: []
   traditions: []

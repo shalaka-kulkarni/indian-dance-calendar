@@ -35,11 +35,11 @@ validation:
   - url: https://allevents.in/augusta/sussex-county-day/200030503019202
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:30:55.356716-04:00'
+    checked_at: '2026-09-09T11:13:17.386802-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:30:55.356688-04:00'
+  validated_at: '2026-09-09T11:13:17.386772-04:00'
 curated:
   forms: []
   traditions: []

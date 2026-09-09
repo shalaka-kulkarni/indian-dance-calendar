@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/jen-percy-and-e-jean-carroll-with-jessica-bennett
     first_seen: '2026-08-16'
-    last_seen: '2026-09-07'
+    last_seen: '2026-09-09'
 ai:
   relevant: false
   kind: other
@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/jen-percy-and-e-jean-carroll-with-jessica-bennett
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:33:48.374767-04:00'
+    checked_at: '2026-09-09T11:15:30.332764-04:00'
   - url: https://seats.92ny.org/single/211055
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:33:50.379028-04:00'
+    checked_at: '2026-09-09T11:15:30.391800-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-09-07T12:33:48.374731-04:00'
+  validated_at: '2026-09-09T11:15:30.332727-04:00'
 curated:
   forms: []
   traditions: []

@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/marietta/trunk-or-treat-tickets/80002859171627
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:32:47.297445-04:00'
+    checked_at: '2026-09-09T11:14:46.363596-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:32:47.297418-04:00'
+  validated_at: '2026-09-09T11:14:46.363567-04:00'
 curated:
   forms: []
   traditions: []

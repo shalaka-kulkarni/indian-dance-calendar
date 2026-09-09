@@ -22,7 +22,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/happy-hour-in-the-loft-water-towers/
     first_seen: '2026-08-18'
-    last_seen: '2026-09-07'
+    last_seen: '2026-09-09'
 ai:
   relevant: false
   kind: performance
@@ -49,11 +49,11 @@ validation:
   - url: https://www.sopacnow.org/events/happy-hour-in-the-loft-water-towers/
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:30:01.069588-04:00'
+    checked_at: '2026-09-09T11:12:11.252366-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-07T12:30:01.069554-04:00'
+  validated_at: '2026-09-09T11:12:11.252336-04:00'
 curated:
   forms: []
   traditions: []

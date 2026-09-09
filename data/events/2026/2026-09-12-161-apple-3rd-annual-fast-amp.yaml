@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/winchester/3rd-annual-fast-and-furious-autos-ffa-car-show/200030289245339
     ok: true
     status_code: 200
-    checked_at: '2026-09-07T12:30:03.991727-04:00'
+    checked_at: '2026-09-09T11:12:12.492395-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-07T12:30:03.991701-04:00'
+  validated_at: '2026-09-09T11:12:12.492367-04:00'
 curated:
   forms: []
   traditions: []
