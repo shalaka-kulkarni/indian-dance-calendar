@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/williamsburg/4th-annual-limelight-car-show/200030637435918
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:12:18.012540-04:00'
+    checked_at: '2026-09-11T11:06:15.102467-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-09T11:12:18.012512-04:00'
+  validated_at: '2026-09-11T11:06:15.102435-04:00'
 curated:
   forms: []
   traditions: []

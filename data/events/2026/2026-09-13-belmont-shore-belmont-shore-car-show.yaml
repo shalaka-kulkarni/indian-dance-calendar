@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/long-beach/belmont-shore-car-show/100001998997476263
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:12:18.167780-04:00'
+    checked_at: '2026-09-11T11:06:15.400908-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-09T11:12:18.167739-04:00'
+  validated_at: '2026-09-11T11:06:15.400879-04:00'
 curated:
   forms: []
   traditions: []

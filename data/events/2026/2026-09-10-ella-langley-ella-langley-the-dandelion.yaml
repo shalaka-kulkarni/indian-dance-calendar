@@ -41,7 +41,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: false
     in_metro: true
     classified: false
@@ -49,11 +49,12 @@ validation:
   - url: https://www.prucenter.com/events/ella-langley
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:12:10.571590-04:00'
+    checked_at: '2026-09-11T11:05:59.747094-04:00'
   problems:
+  - event date 2026-09-10 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-09T11:12:10.571563-04:00'
+  validated_at: '2026-09-11T11:05:59.747065-04:00'
 curated:
   forms: []
   traditions: []

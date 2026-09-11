@@ -20,7 +20,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/son-lux
     first_seen: '2026-08-18'
-    last_seen: '2026-09-09'
+    last_seen: '2026-09-11'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://pioneerworks.org/programs/son-lux
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:15:49.704255-04:00'
+    checked_at: '2026-09-11T11:11:31.710191-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-09T11:15:49.704228-04:00'
+  validated_at: '2026-09-11T11:11:31.710163-04:00'
 curated:
   forms: []
   traditions: []

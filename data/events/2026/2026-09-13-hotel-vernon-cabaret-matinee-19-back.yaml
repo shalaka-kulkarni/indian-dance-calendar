@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/worcester/cabaret-matinee-19-back-to-school-edition-at-shiproom-of-the-hotel-vernon/200030570615701
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:12:19.593345-04:00'
+    checked_at: '2026-09-11T11:06:17.394363-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-09T11:12:19.593316-04:00'
+  validated_at: '2026-09-11T11:06:17.394333-04:00'
 curated:
   forms: []
   traditions: []

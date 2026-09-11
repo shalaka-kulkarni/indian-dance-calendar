@@ -20,7 +20,7 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/instances/h5cyzmpr/2026-10-15/2026-2027-the-unbelievers
     first_seen: '2026-08-28'
-    last_seen: '2026-09-09'
+    last_seen: '2026-09-11'
 validation:
   passed: false
   checks:
@@ -35,11 +35,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/h5cyzmpr/2026-10-15/2026-2027-the-unbelievers
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:14:37.306101-04:00'
+    checked_at: '2026-09-11T11:09:13.572292-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-09T11:14:37.306078-04:00'
+  validated_at: '2026-09-11T11:09:13.572258-04:00'
 curated:
   forms: []
   traditions: []

@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/san-antonio/south-texas-community-and-cars/200030460079610
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:12:18.934695-04:00'
+    checked_at: '2026-09-11T11:06:16.439737-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-09T11:12:18.934664-04:00'
+  validated_at: '2026-09-11T11:06:16.439709-04:00'
 curated:
   forms: []
   traditions: []

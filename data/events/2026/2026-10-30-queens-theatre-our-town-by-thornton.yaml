@@ -21,7 +21,7 @@ scraped:
   - source_id: queens_theatre
     url: https://queenstheatre.org/events/our-town-51mn
     first_seen: '2026-08-16'
-    last_seen: '2026-09-09'
+    last_seen: '2026-09-11'
 ai:
   relevant: false
   kind: other
@@ -49,11 +49,11 @@ validation:
   - url: https://queenstheatre.org/events/our-town-51mn
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:15:08.389610-04:00'
+    checked_at: '2026-09-11T11:10:21.415280-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-09T11:15:08.389581-04:00'
+  validated_at: '2026-09-11T11:10:21.415250-04:00'
 curated:
   forms: []
   traditions: []

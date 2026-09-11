@@ -1,0 +1,53 @@
+id: 2026-10-10--sitar-concert---kalyan
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Sitar Concert - Kalyan Majumdar
+  start: '2026-10-10T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://chhandayan.org/calendar/2026/10/10/sitar-concert-kalyan-majumdar
+  ticket_url: ''
+  description_snippet: Oct 10 7:30 PM 19:30 Baithak , New York , Online Sitar Concert - Kalyan Majumdar
+    Saturday, October 10, 2026 7:30 PM 9:00 PM 19:30 21:00 Chhandayan Center for Indian Music (map) Google
+    Calendar ICS Kalyan Majumdar - Sitar Ehren Hanson - Tabla Come join us at the Chhandayan Center for
+    an evening performance on the Sitar by Kalyan Majumdar accompanied by Ehren Hansen on tabla. The performance
+    will also be streamed live. Purchase Tickets/Streaming Access Kalyan Majumdar Kalyan Majumdar is a
+    leading upcoming Sitar player of the present time. He is a regular performer in the Professional Circuit
+    and
+  content_hash: f93349cf7f94e728
+  sources:
+  - source_id: chhandayan
+    url: https://chhandayan.org/calendar/2026/10/10/sitar-concert-kalyan-majumdar
+    first_seen: '2026-09-11'
+    last_seen: '2026-09-11'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://chhandayan.org/calendar/2026/10/10/sitar-concert-kalyan-majumdar
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-11T11:08:49.214077-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-11T11:08:49.214049-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

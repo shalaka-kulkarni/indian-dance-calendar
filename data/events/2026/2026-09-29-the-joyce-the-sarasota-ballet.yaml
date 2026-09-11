@@ -20,7 +20,7 @@ scraped:
   - source_id: joyce
     url: https://www.joyce.org/performances/the-sarasota-ballet-typc
     first_seen: '2026-08-16'
-    last_seen: '2026-09-09'
+    last_seen: '2026-09-11'
 ai:
   relevant: false
   kind: other
@@ -47,11 +47,11 @@ validation:
   - url: https://www.joyce.org/performances/the-sarasota-ballet-typc
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:13:57.731317-04:00'
+    checked_at: '2026-09-11T11:08:11.372500-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-09T11:13:57.731292-04:00'
+  validated_at: '2026-09-11T11:08:11.372463-04:00'
 curated:
   forms: []
   traditions: []

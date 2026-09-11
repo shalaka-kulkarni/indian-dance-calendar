@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/houston/tlm-custom-car-show-and-concert/100001992903930303
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:12:13.643854-04:00'
+    checked_at: '2026-09-11T11:06:06.135431-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-09T11:12:13.643824-04:00'
+  validated_at: '2026-09-11T11:06:06.135402-04:00'
 curated:
   forms: []
   traditions: []

@@ -1,0 +1,50 @@
+id: 2026-12-31-the-royal-nye-2027-new-year
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Nye 2027 – New Year & New Beginnings With Dj Amrit In Ny
+  start: '2026-12-31T19:00:00-04:00'
+  end: '2027-01-01T01:00:00-04:00'
+  additional_dates: []
+  venue: The Royal Palm
+  address: 2143 Boundary Ave, Farmingdale, NY
+  region: unknown
+  price_min: 150.0
+  price_max: 150.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/nye-2027-new-year-new-beginnings-with-dj-amrit-in-ny_event-in_farmingdale-ny_401737
+  ticket_url: https://events.sulekha.com/nye-2027-new-year-new-beginnings-with-dj-amrit-in-ny_event-in_farmingdale-ny_401737
+  description_snippet: Nye 2027 – New Year & New Beginnings With Dj Amrit In Ny
+  content_hash: 3b76cd75cebaf0bb
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/nye-2027-new-year-new-beginnings-with-dj-amrit-in-ny_event-in_farmingdale-ny_401737
+    first_seen: '2026-09-11'
+    last_seen: '2026-09-11'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/nye-2027-new-year-new-beginnings-with-dj-amrit-in-ny_event-in_farmingdale-ny_401737
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-11T11:11:35.135321-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-11T11:11:35.135292-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,52 @@
+id: 2026-11-18-92nd-street-hermione-lee-with-rumaan
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Hermione Lee with Rumaan Alam: Anita Brookner'
+  start: '2026-11-18T19:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 35.0
+  price_max: 35.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/hermione-lee-with-rumaan-alam-anita-brookner
+  ticket_url: https://seats.92ny.org/single/210880
+  description_snippet: Hermione Lee and Rumaan Alam discuss Lee’s new biography of Anita Brookner.
+  content_hash: 516cde4a63008cad
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/hermione-lee-with-rumaan-alam-anita-brookner
+    first_seen: '2026-09-11'
+    last_seen: '2026-09-11'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/210880
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-11T11:11:10.075466-04:00'
+  - url: https://www.92ny.org/event/hermione-lee-with-rumaan-alam-anita-brookner
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-11T11:11:10.164800-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-09-11T11:11:10.075439-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

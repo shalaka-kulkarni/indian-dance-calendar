@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/ashland/main-street-car-truck-and-bike-show-sponsored-by-big-3-racing/200030240191004
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:12:14.141867-04:00'
+    checked_at: '2026-09-11T11:06:09.093934-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-09T11:12:14.141837-04:00'
+  validated_at: '2026-09-11T11:06:09.093904-04:00'
 curated:
   forms: []
   traditions: []

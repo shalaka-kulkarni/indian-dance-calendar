@@ -37,10 +37,10 @@ validation:
   - url: https://allevents.in/new-york/sapphic-and-flinta-klnk-party-sapphic-valley-high/100001996418207601
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:12:15.720977-04:00'
+    checked_at: '2026-09-11T11:06:11.727355-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-09T11:12:15.720948-04:00'
+  validated_at: '2026-09-11T11:06:11.727324-04:00'
 curated:
   forms: []
   traditions: []

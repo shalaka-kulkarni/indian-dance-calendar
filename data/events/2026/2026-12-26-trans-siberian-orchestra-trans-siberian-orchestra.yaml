@@ -1,0 +1,48 @@
+id: 2026-12-26-trans-siberian-orchestra-trans-siberian-orchestra
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Trans-Siberian Orchestra
+  start: '2026-12-26T00:00:00-05:00'
+  end: '2026-12-26T23:59:59-05:00'
+  additional_dates: []
+  venue: Trans-Siberian Orchestra
+  address: Trans-Siberian Orchestra
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.prucenter.com/events/trans-siberian-orchestra
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: e614a49dae01c1c8
+  sources:
+  - source_id: prudential_center
+    url: https://www.prucenter.com/events/trans-siberian-orchestra
+    first_seen: '2026-09-11'
+    last_seen: '2026-09-11'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.prucenter.com/events/trans-siberian-orchestra
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-11T11:11:34.832956-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-11T11:11:34.832928-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/fort-worth/goodguys-car-show/2300026140368153
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:13:36.504555-04:00'
+    checked_at: '2026-09-11T11:07:40.577802-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-09T11:13:36.504527-04:00'
+  validated_at: '2026-09-11T11:07:40.577773-04:00'
 curated:
   forms: []
   traditions: []

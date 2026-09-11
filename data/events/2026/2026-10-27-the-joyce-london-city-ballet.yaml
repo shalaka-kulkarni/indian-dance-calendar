@@ -21,7 +21,7 @@ scraped:
   - source_id: joyce
     url: https://www.joyce.org/performances/london-city-ballet-tykc
     first_seen: '2026-08-16'
-    last_seen: '2026-09-09'
+    last_seen: '2026-09-11'
 ai:
   relevant: false
   kind: other
@@ -48,11 +48,11 @@ validation:
   - url: https://www.joyce.org/performances/london-city-ballet-tykc
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:15:00.280402-04:00'
+    checked_at: '2026-09-11T11:10:05.851739-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-09T11:15:00.280373-04:00'
+  validated_at: '2026-09-11T11:10:05.851710-04:00'
 curated:
   forms: []
   traditions: []

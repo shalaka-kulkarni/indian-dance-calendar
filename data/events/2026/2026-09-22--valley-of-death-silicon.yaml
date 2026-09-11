@@ -1,0 +1,49 @@
+id: 2026-09-22--valley-of-death-silicon
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Valley of Death: Silicon Valley, the Military-Industrial Complex, and the Future of American
+    Power'
+  start: '2026-09-22T19:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/valley-of-death
+  ticket_url: ''
+  description_snippet: Sharon Weinberger and Jonathan Guyer discuss Weinberger’s new book, Valley of Death
+    .
+  content_hash: d47b5718eec5e868
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/valley-of-death
+    first_seen: '2026-09-11'
+    last_seen: '2026-09-11'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/valley-of-death
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-11T11:07:13.779554-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-11T11:07:13.779526-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

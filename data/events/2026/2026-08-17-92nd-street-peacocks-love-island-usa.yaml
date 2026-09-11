@@ -46,19 +46,19 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/peacock-s-love-island-usa
-    ok: false
-    status_code: 404
-    checked_at: '2026-09-09T11:11:56.840607-04:00'
   - url: https://seats.92ny.org/single/211070
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:11:57.273656-04:00'
+    checked_at: '2026-09-11T11:05:40.762648-04:00'
+  - url: https://www.92ny.org/event/peacock-s-love-island-usa
+    ok: false
+    status_code: 404
+    checked_at: '2026-09-11T11:05:40.913274-04:00'
   problems:
   - 'dead links: https://www.92ny.org/event/peacock-s-love-island-usa'
   - event date 2026-08-17 is in the past
   - classified not-relevant
-  validated_at: '2026-09-09T11:11:56.840580-04:00'
+  validated_at: '2026-09-11T11:05:40.762618-04:00'
 curated:
   forms: []
   traditions: []

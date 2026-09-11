@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/clarence/wnys-largest-fall-festival-open-everyday-from-september-19th-through-october-31st/200030482262838
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:13:04.109651-04:00'
+    checked_at: '2026-09-11T11:06:51.250971-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-09T11:13:04.109622-04:00'
+  validated_at: '2026-09-11T11:06:51.250941-04:00'
 curated:
   forms: []
   traditions: []

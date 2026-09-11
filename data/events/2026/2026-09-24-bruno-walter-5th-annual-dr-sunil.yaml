@@ -5,6 +5,7 @@ needs_recheck: false
 scraped:
   title: '5th Annual Dr. Sunil Kothari Lecture: Rama Vaidyanathan'
   start: '2026-09-24T18:00:00-04:00'
+  end: '2026-09-24T00:00:00-04:00'
   additional_dates: []
   venue: Bruno Walter Auditorium, NYPL for the Performing Arts
   address: 111 Amsterdam Ave, New York, NY
@@ -16,12 +17,16 @@ scraped:
   description_snippet: Fifth annual lecture honouring dance scholar Dr Sunil Kothari, given by Bharatanatyam
     artist Rama Vaidyanathan on "The Balanced Dance as a Journey Towards Inner Stillness and Equanimity".
     Details reported in press; the library has not yet published its own listing.
-  content_hash: 11cc6d64ac0454e7
+  content_hash: 01d573368f597933
   sources:
   - source_id: manual
     url: https://www.amnewscurtainraiser.com/2026/08/erasing-borders-dance-festival-returns.html
     first_seen: '2026-08-16'
     last_seen: '2026-08-16'
+  - source_id: allevents
+    url: https://allevents.in/new-york/annual-dr-sunil-kothari-lecture-the-balanced-breath-by-rama-vaidyanathan/100001998913930375
+    first_seen: '2026-09-11'
+    last_seen: '2026-09-11'
 ai:
   relevant: true
   kind: talk
@@ -50,10 +55,10 @@ validation:
   - url: https://www.amnewscurtainraiser.com/2026/08/erasing-borders-dance-festival-returns.html
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:13:33.431945-04:00'
+    checked_at: '2026-09-11T11:07:32.160094-04:00'
   problems:
   - no price information
-  validated_at: '2026-09-09T11:13:33.431918-04:00'
+  validated_at: '2026-09-11T11:07:32.160064-04:00'
 curated:
   forms:
   - bharatanatyam

@@ -1,0 +1,47 @@
+id: 2026-10-11--marlon-james-the-disappearers
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Marlon James: The Disappearers'
+  start: '2026-10-11T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: brooklyn
+  is_free: false
+  price_note: ''
+  info_url: https://pioneerworks.org/programs/marlon-james-the-disappearers
+  ticket_url: ''
+  description_snippet: 'program Sunday, Oct 11, 2026 Marlon James: The Disappearers'
+  content_hash: a63b5ab92f0a4e42
+  sources:
+  - source_id: pioneer_works
+    url: https://pioneerworks.org/programs/marlon-james-the-disappearers
+    first_seen: '2026-09-11'
+    last_seen: '2026-09-11'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://pioneerworks.org/programs/marlon-james-the-disappearers
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-11T11:08:54.926435-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-11T11:08:54.926405-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

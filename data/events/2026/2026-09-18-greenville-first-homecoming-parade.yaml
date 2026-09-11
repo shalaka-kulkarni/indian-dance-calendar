@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/greenville/homecoming-parade/200030665733133
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:12:53.555585-04:00'
+    checked_at: '2026-09-11T11:06:48.524840-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-09T11:12:53.555556-04:00'
+  validated_at: '2026-09-11T11:06:48.524809-04:00'
 curated:
   forms: []
   traditions: []

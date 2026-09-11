@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/marietta/back-to-school-with-julia-burns-ticketed-clay-workshop/200030622820147
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:12:13.270797-04:00'
+    checked_at: '2026-09-11T11:06:05.268812-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-09T11:12:13.270768-04:00'
+  validated_at: '2026-09-11T11:06:05.268781-04:00'
 curated:
   forms: []
   traditions: []

@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/san-francisco/san-francisco-halloween-pub-crawl-crawloween/80002838369400
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:15:11.060649-04:00'
+    checked_at: '2026-09-11T11:10:27.396836-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-09T11:15:11.060618-04:00'
+  validated_at: '2026-09-11T11:10:27.396806-04:00'
 curated:
   forms: []
   traditions: []

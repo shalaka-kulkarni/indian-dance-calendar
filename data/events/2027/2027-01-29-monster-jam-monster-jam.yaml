@@ -1,0 +1,48 @@
+id: 2027-01-29-monster-jam-monster-jam
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Monster Jam
+  start: '2027-01-29T15:00:00-05:00'
+  end: '2027-01-31T16:00:00-05:00'
+  additional_dates: []
+  venue: Monster Jam
+  address: Monster Jam
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.prucenter.com/events/monster-jam
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 8bcd4fcb33d4834f
+  sources:
+  - source_id: prudential_center
+    url: https://www.prucenter.com/events/monster-jam
+    first_seen: '2026-09-11'
+    last_seen: '2026-09-11'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.prucenter.com/events/monster-jam
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-11T11:11:37.449672-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-11T11:11:37.449642-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

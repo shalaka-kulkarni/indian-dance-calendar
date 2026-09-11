@@ -1,0 +1,54 @@
+id: 2026-10-27-92nd-street-a-new-york-times
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: A New York Times Games Night to celebrate the release of Connections, the Book! with puzzle editors
+    Wyna Liu, Joel Fagliano, Sam Ezersky, and Tracy Bennett
+  start: '2026-10-27T20:00:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 55.0
+  price_max: 55.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/a-new-york-times-games-night
+  ticket_url: https://seats.92ny.org/single/211268
+  description_snippet: New York Times puzzle editors unravel the game play behind Connections, the Book!
+    .
+  content_hash: 1232c53c83fda2fc
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/a-new-york-times-games-night
+    first_seen: '2026-09-11'
+    last_seen: '2026-09-11'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/a-new-york-times-games-night
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-11T11:10:00.873044-04:00'
+  - url: https://seats.92ny.org/single/211268
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-11T11:10:02.929252-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-09-11T11:10:00.873015-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/saavyra-presents-garba-unlocked_event-in_new-york-ny_401475
     first_seen: '2026-08-28'
-    last_seen: '2026-09-09'
+    last_seen: '2026-09-11'
 validation:
   passed: false
   checks:
@@ -37,10 +37,10 @@ validation:
   - url: https://events.sulekha.com/saavyra-presents-garba-unlocked_event-in_new-york-ny_401475
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:14:02.135481-04:00'
+    checked_at: '2026-09-11T11:08:16.048511-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-09T11:14:02.135453-04:00'
+  validated_at: '2026-09-11T11:08:16.048481-04:00'
 curated:
   forms: []
   traditions: []

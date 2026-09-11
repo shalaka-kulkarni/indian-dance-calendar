@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/paf-new-york-2026-bestiary-of-darkness
     first_seen: '2026-09-02'
-    last_seen: '2026-09-09'
+    last_seen: '2026-09-11'
 validation:
   passed: false
   checks:
@@ -34,11 +34,11 @@ validation:
   - url: https://pioneerworks.org/programs/paf-new-york-2026-bestiary-of-darkness
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:15:13.372767-04:00'
+    checked_at: '2026-09-11T11:10:32.266778-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-09T11:15:13.372726-04:00'
+  validated_at: '2026-09-11T11:10:32.266747-04:00'
 curated:
   forms: []
   traditions: []

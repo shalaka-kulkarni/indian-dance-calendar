@@ -50,10 +50,10 @@ validation:
   - url: https://www.eventbrite.com/e/garba-around-the-globe-tickets-1992664047808
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:13:13.893519-04:00'
+    checked_at: '2026-09-11T11:07:04.101612-04:00'
   problems:
   - no price information
-  validated_at: '2026-09-09T11:13:13.893490-04:00'
+  validated_at: '2026-09-11T11:07:04.101583-04:00'
 curated:
   forms:
   - folk

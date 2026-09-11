@@ -35,11 +35,11 @@ validation:
   - url: https://www.92ny.org/event/castlemorris-woods-opening-reception
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:12:36.606965-04:00'
+    checked_at: '2026-09-11T11:06:31.672540-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-09T11:12:36.606936-04:00'
+  validated_at: '2026-09-11T11:06:31.672509-04:00'
 curated:
   forms: []
   traditions: []

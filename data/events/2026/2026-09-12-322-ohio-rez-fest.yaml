@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/racine/rez-fest/200030606446733
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:12:13.454182-04:00'
+    checked_at: '2026-09-11T11:06:05.517276-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-09T11:12:13.454149-04:00'
+  validated_at: '2026-09-11T11:06:05.517245-04:00'
 curated:
   forms: []
   traditions: []

@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/new-haven/macomb-st-clair-mega-cruise-2026-fka-north-gratiot-cruise/200030287423512
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:13:38.710304-04:00'
+    checked_at: '2026-09-11T11:07:45.550565-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-09T11:13:38.710277-04:00'
+  validated_at: '2026-09-11T11:07:45.550535-04:00'
 curated:
   forms: []
   traditions: []

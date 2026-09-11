@@ -35,11 +35,11 @@ validation:
   - url: https://allevents.in/brooklyn/brooklyn-heights-back-to-school-party-on-car-free-montague-street/100001991591021357
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:12:19.973851-04:00'
+    checked_at: '2026-09-11T11:06:18.079040-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-09T11:12:19.973822-04:00'
+  validated_at: '2026-09-11T11:06:18.079010-04:00'
 curated:
   forms: []
   traditions: []

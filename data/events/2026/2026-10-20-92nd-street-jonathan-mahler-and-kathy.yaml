@@ -1,0 +1,54 @@
+id: 2026-10-20-92nd-street-jonathan-mahler-and-kathy
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Jonathan Mahler and Kathy Wylde in Conversation with Thomas Dyja: The Gods of New York and a
+    City Transformed'
+  start: '2026-10-20T19:30:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Warburg Lounge
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 35.0
+  price_max: 35.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/jonathan-mahler-and-kathy-wylde-with-thomas-dyja
+  ticket_url: https://seats.92ny.org/single/211260
+  description_snippet: Jonathan Mahler, Kathy Wylde and Thomas Dyja explore how New York transformed,
+    the challenges facing the city today and what its past can teach us about its future.
+  content_hash: 6601b36e10ed6aaf
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/jonathan-mahler-and-kathy-wylde-with-thomas-dyja
+    first_seen: '2026-09-11'
+    last_seen: '2026-09-11'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/jonathan-mahler-and-kathy-wylde-with-thomas-dyja
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-11T11:09:34.079440-04:00'
+  - url: https://seats.92ny.org/single/211260
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-11T11:09:36.328651-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-09-11T11:09:34.079411-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

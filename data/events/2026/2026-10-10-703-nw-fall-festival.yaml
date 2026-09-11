@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/arlington/fall-festival/200029681252921
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:14:23.608729-04:00'
+    checked_at: '2026-09-11T11:08:50.565074-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-09T11:14:23.608702-04:00'
+  validated_at: '2026-09-11T11:08:50.565045-04:00'
 curated:
   forms: []
   traditions: []

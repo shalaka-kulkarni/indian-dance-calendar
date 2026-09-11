@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/bristol/bass-pro-shops-night-race/210001335221459
     ok: true
     status_code: 200
-    checked_at: '2026-09-09T11:13:07.331564-04:00'
+    checked_at: '2026-09-11T11:06:54.909102-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-09T11:13:07.331535-04:00'
+  validated_at: '2026-09-11T11:06:54.909072-04:00'
 curated:
   forms: []
   traditions: []

@@ -1,0 +1,52 @@
+id: 2026-10-03-92nd-street-carissa-schumacher-with-marie
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Carissa Schumacher with Marie Forleo: The Alchemy Transmissions'
+  start: '2026-10-03T18:00:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 50.0
+  price_max: 50.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/carissa-schumacher-the-alchemy-transmissions
+  ticket_url: https://seats.92ny.org/single/210647
+  description_snippet: Carissa Schumacher discusses her new book, The Alchemy Transmissions .
+  content_hash: 86d15f1cee40f0d3
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/carissa-schumacher-the-alchemy-transmissions
+    first_seen: '2026-09-11'
+    last_seen: '2026-09-11'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/210647
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-11T11:08:25.466146-04:00'
+  - url: https://www.92ny.org/event/carissa-schumacher-the-alchemy-transmissions
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-11T11:08:25.604234-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-09-11T11:08:25.466115-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}
