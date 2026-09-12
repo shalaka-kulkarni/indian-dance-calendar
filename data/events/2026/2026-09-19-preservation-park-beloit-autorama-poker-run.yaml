@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/beloit/beloit-autorama-poker-run-saturday-followed-by-audiodrive/200029893462557
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:06:59.662572-04:00'
+    checked_at: '2026-09-12T11:58:00.391887-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:06:59.662544-04:00'
+  validated_at: '2026-09-12T11:58:00.391859-04:00'
 curated:
   forms: []
   traditions: []

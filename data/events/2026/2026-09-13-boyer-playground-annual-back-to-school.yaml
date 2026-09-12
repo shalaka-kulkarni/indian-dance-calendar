@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/detroit/annual-back-to-school-celebration/200030597913857
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:06:15.553442-04:00'
+    checked_at: '2026-09-12T11:57:16.849709-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:06:15.553412-04:00'
+  validated_at: '2026-09-12T11:57:16.849681-04:00'
 curated:
   forms: []
   traditions: []

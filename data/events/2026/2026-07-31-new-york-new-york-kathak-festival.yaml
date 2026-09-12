@@ -45,9 +45,9 @@ validation:
   - url: https://newyorklivearts.org/event/new-york-kathak-festival-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:05:32.475122-04:00'
+    checked_at: '2026-09-12T11:56:33.175720-04:00'
   problems: []
-  validated_at: '2026-09-11T11:05:32.475116-04:00'
+  validated_at: '2026-09-12T11:56:33.175714-04:00'
 curated:
   forms:
   - kathak

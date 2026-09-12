@@ -47,18 +47,18 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211043
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-11T11:05:55.567706-04:00'
   - url: https://www.92ny.org/event/netflix-s-fauda
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:05:55.667590-04:00'
+    checked_at: '2026-09-12T11:56:55.736416-04:00'
+  - url: https://seats.92ny.org/single/211043
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-12T11:56:57.930006-04:00'
   problems:
   - event date 2026-09-09 is in the past
   - classified not-relevant
-  validated_at: '2026-09-11T11:05:55.567677-04:00'
+  validated_at: '2026-09-12T11:56:55.736391-04:00'
 curated:
   forms: []
   traditions: []

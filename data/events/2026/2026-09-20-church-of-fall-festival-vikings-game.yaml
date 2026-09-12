@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/north-st-paul/fall-festival-vikings-game-day-experience-tickets/80003762809422
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:07:06.966524-04:00'
+    checked_at: '2026-09-12T11:58:07.552814-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:07:06.966495-04:00'
+  validated_at: '2026-09-12T11:58:07.552787-04:00'
 curated:
   forms: []
   traditions: []

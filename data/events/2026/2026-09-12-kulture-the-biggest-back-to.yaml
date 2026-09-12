@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/providence/the-biggest-back-to-school-party/100001998106949674
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:06:11.264799-04:00'
+    checked_at: '2026-09-12T11:57:13.137892-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:06:11.264769-04:00'
+  validated_at: '2026-09-12T11:57:13.137865-04:00'
 curated:
   forms: []
   traditions: []

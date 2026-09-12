@@ -36,11 +36,11 @@ validation:
   - url: https://www.sopacnow.org/events/so-jewish-comedy-night-26/
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:11:26.554202-04:00'
+    checked_at: '2026-09-12T12:02:47.723352-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:11:26.554174-04:00'
+  validated_at: '2026-09-12T12:02:47.723321-04:00'
 curated:
   forms: []
   traditions: []

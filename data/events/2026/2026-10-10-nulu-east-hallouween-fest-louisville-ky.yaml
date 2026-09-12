@@ -36,12 +36,12 @@ validation:
   - url: https://allevents.in/louisville/hallouween-fest-louisville-ky-free-event/200030433892304
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:08:52.175734-04:00'
+    checked_at: '2026-09-12T12:00:07.963708-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:08:52.175705-04:00'
+  validated_at: '2026-09-12T12:00:07.963681-04:00'
 curated:
   forms: []
   traditions: []

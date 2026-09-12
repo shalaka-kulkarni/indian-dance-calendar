@@ -1,5 +1,5 @@
 id: 2026-09-10-bijou-nightclub-zuezeu-welcome-week-51
-status: needs_attention
+status: past
 was_published: false
 needs_recheck: false
 scraped:
@@ -37,12 +37,12 @@ validation:
   - url: https://allevents.in/boston/zuezeu-welcome-week-51/100001998302259852
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:05:59.413640-04:00'
+    checked_at: '2026-09-12T11:56:59.368741-04:00'
   problems:
   - event date 2026-09-11 is in the past
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:05:59.413611-04:00'
+  validated_at: '2026-09-12T11:56:59.368713-04:00'
 curated:
   forms: []
   traditions: []

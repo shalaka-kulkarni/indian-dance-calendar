@@ -1,5 +1,5 @@
 id: 2026-09-11-8050-crescent-back-to-school-parents
-status: needs_attention
+status: past
 was_published: false
 needs_recheck: false
 scraped:
@@ -37,12 +37,12 @@ validation:
   - url: https://allevents.in/gainesville/back-to-school-parents-night-out-nerf-commandos-ages-4-12/100001997877291761
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:06:01.503871-04:00'
+    checked_at: '2026-09-12T11:57:01.102376-04:00'
   problems:
   - event date 2026-09-11 is in the past
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:06:01.503843-04:00'
+  validated_at: '2026-09-12T11:57:01.102349-04:00'
 curated:
   forms: []
   traditions: []

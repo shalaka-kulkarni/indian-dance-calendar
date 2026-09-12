@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/milwaukee/brew-city-street-drags-independence-special-at-the-milwaukee-mile-with-drifting/200030475206107
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:09:50.460370-04:00'
+    checked_at: '2026-09-12T12:01:04.121413-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:09:50.460340-04:00'
+  validated_at: '2026-09-12T12:01:04.121389-04:00'
 curated:
   forms: []
   traditions: []

@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/kelsey-lu
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:08:18.085179-04:00'
+    checked_at: '2026-09-12T11:59:35.369924-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-11T11:08:18.085148-04:00'
+  validated_at: '2026-09-12T11:59:35.369897-04:00'
 curated:
   forms: []
   traditions: []

@@ -36,12 +36,12 @@ validation:
   - url: https://allevents.in/stafford-springs/tour-of-destruction-stafford-motor-speedway/200029566910140
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:07:02.331355-04:00'
+    checked_at: '2026-09-12T11:58:02.739289-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:07:02.331326-04:00'
+  validated_at: '2026-09-12T11:58:02.739262-04:00'
 curated:
   forms: []
   traditions: []

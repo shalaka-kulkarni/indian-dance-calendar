@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/detroit/campus-kids-days-presented-by-corewell-health-harvest-hangout/100001990030126679
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:06:15.778038-04:00'
+    checked_at: '2026-09-12T11:57:17.075981-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:06:15.778007-04:00'
+  validated_at: '2026-09-12T11:57:17.075952-04:00'
 curated:
   forms: []
   traditions: []

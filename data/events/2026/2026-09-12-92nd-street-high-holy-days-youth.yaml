@@ -29,7 +29,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: true
     in_metro: true
     classified: false
@@ -37,14 +37,15 @@ validation:
   - url: https://seats.92ny.org/single/210507
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:06:06.410956-04:00'
+    checked_at: '2026-09-12T11:57:08.684921-04:00'
   - url: https://www.92ny.org/event/high-holy-days-youth-experience
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:06:06.662418-04:00'
+    checked_at: '2026-09-12T11:57:08.881097-04:00'
   problems:
+  - event date 2026-09-12 is in the past
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:06:06.410926-04:00'
+  validated_at: '2026-09-12T11:57:08.684893-04:00'
 curated:
   forms: []
   traditions: []

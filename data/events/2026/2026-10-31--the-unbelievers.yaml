@@ -35,11 +35,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/kpf1h1e4/2026-10-31/2026-2027-the-unbelievers
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:10:24.339565-04:00'
+    checked_at: '2026-09-12T12:01:39.367715-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:10:24.339535-04:00'
+  validated_at: '2026-09-12T12:01:39.367689-04:00'
 curated:
   forms: []
   traditions: []

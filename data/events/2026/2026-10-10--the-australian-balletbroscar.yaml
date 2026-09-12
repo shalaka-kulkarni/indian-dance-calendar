@@ -47,11 +47,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/h1gaya4h/2026-10-10/2026-2027-the-australian-ballet
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:08:49.550853-04:00'
+    checked_at: '2026-09-12T12:00:05.168317-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-11T11:08:49.550819-04:00'
+  validated_at: '2026-09-12T12:00:05.168289-04:00'
 curated:
   forms: []
   traditions: []

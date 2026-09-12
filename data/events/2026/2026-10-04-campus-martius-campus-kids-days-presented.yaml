@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/detroit/campus-kids-days-presented-by-corewell-health-lil-boo-bash/100001990030333297
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:08:34.502731-04:00'
+    checked_at: '2026-09-12T11:59:46.089774-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:08:34.502701-04:00'
+  validated_at: '2026-09-12T11:59:46.089736-04:00'
 curated:
   forms: []
   traditions: []

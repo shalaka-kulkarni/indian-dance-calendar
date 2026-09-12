@@ -29,7 +29,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: true
     in_metro: false
     classified: false
@@ -37,11 +37,12 @@ validation:
   - url: https://allevents.in/darlington/freaknik-car-and-bike-show/100001997977934787
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:06:03.481405-04:00'
+    checked_at: '2026-09-12T11:57:06.402107-04:00'
   problems:
+  - event date 2026-09-12 is in the past
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:06:03.481374-04:00'
+  validated_at: '2026-09-12T11:57:06.402078-04:00'
 curated:
   forms: []
   traditions: []

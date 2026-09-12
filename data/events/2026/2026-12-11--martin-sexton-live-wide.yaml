@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/martin-sexton-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:11:25.131847-04:00'
+    checked_at: '2026-09-12T12:02:45.848608-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-11T11:11:25.131817-04:00'
+  validated_at: '2026-09-12T12:02:45.848582-04:00'
 curated:
   forms: []
   traditions: []

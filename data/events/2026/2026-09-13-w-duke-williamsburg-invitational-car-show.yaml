@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/williamsburg/williamsburg-invitational-car-show/200030654917821
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:06:19.180605-04:00'
+    checked_at: '2026-09-12T11:57:19.474207-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:06:19.180574-04:00'
+  validated_at: '2026-09-12T11:57:19.474179-04:00'
 curated:
   forms: []
   traditions: []

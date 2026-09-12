@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/pensacola/back-to-school-reset/100001997988211525
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:06:17.572950-04:00'
+    checked_at: '2026-09-12T11:57:18.345859-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:06:17.572922-04:00'
+  validated_at: '2026-09-12T11:57:18.345830-04:00'
 curated:
   forms: []
   traditions: []

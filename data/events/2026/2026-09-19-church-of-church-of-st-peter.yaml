@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/north-st-paul/church-of-st-peter-fall-festival-tickets/80009688805456
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:06:55.502682-04:00'
+    checked_at: '2026-09-12T11:57:55.579942-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:06:55.502654-04:00'
+  validated_at: '2026-09-12T11:57:55.579915-04:00'
 curated:
   forms: []
   traditions: []

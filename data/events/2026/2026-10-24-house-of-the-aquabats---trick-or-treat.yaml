@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/anaheim/the-aquabats-trick-or-treat-to-the-beat/200030580730416
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:09:51.974842-04:00'
+    checked_at: '2026-09-12T12:01:07.610862-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:09:51.974813-04:00'
+  validated_at: '2026-09-12T12:01:07.610835-04:00'
 curated:
   forms: []
   traditions: []

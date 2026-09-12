@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/philadelphia/uhuru-book-fair-and-marketplace/200030424336100
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:06:52.314357-04:00'
+    checked_at: '2026-09-12T11:57:53.256190-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:06:52.314327-04:00'
+  validated_at: '2026-09-12T11:57:53.256164-04:00'
 curated:
   forms: []
   traditions: []

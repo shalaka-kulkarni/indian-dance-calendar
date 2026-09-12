@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/san-francisco/fairmont-hotel-san-francisco-mega-halloween-party/100001998382597143
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:10:27.232684-04:00'
+    checked_at: '2026-09-12T12:01:42.120200-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:10:27.232655-04:00'
+  validated_at: '2026-09-12T12:01:42.120175-04:00'
 curated:
   forms: []
   traditions: []

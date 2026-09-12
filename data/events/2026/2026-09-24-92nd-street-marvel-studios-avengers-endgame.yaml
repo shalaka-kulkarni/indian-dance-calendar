@@ -35,17 +35,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211239
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-11T11:07:28.386401-04:00'
   - url: https://www.92ny.org/event/avengers-endgame-encore-screening-and-conversation
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:07:28.475662-04:00'
+    checked_at: '2026-09-12T11:58:25.074299-04:00'
+  - url: https://seats.92ny.org/single/211239
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-12T11:58:28.652021-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:07:28.386370-04:00'
+  validated_at: '2026-09-12T11:58:25.074272-04:00'
 curated:
   forms: []
   traditions: []

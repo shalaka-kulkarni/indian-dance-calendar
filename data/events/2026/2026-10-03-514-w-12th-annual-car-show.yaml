@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/san-antonio/12th-annual-car-show/200030596711700
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:08:24.039603-04:00'
+    checked_at: '2026-09-12T11:59:37.795646-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:08:24.039573-04:00'
+  validated_at: '2026-09-12T11:59:37.795619-04:00'
 curated:
   forms: []
   traditions: []

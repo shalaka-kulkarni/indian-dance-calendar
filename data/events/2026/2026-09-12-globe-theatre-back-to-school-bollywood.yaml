@@ -37,10 +37,10 @@ validation:
   - url: https://allevents.in/los-angeles/back-to-school-bollywood-blackout-september-12th-globe-theatre-la-18/100001999055431609
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:06:10.573242-04:00'
+    checked_at: '2026-09-12T11:57:12.604983-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:06:10.573212-04:00'
+  validated_at: '2026-09-12T11:57:12.604954-04:00'
 curated:
   forms: []
   traditions: []

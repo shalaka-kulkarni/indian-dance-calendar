@@ -50,11 +50,11 @@ validation:
   - url: https://www.sopacnow.org/events/somi-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:08:19.319998-04:00'
+    checked_at: '2026-09-12T11:59:36.156343-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-11T11:08:19.319969-04:00'
+  validated_at: '2026-09-12T11:59:36.156316-04:00'
 curated:
   forms: []
   traditions: []

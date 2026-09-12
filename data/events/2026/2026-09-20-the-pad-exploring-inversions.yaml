@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/san-francisco/exploring-inversions/100001996706065592
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:07:10.228524-04:00'
+    checked_at: '2026-09-12T11:58:10.054115-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:07:10.228497-04:00'
+  validated_at: '2026-09-12T11:58:10.054088-04:00'
 curated:
   forms: []
   traditions: []

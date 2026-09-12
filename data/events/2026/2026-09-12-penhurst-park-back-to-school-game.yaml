@@ -27,7 +27,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: false
     in_metro: false
     classified: false
@@ -35,12 +35,13 @@ validation:
   - url: https://allevents.in/baltimore/back-to-school-game-day-and-day-party-adults-only/100001998434287751
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:06:12.675031-04:00'
+    checked_at: '2026-09-12T11:57:14.398315-04:00'
   problems:
+  - event date 2026-09-12 is in the past
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:06:12.675001-04:00'
+  validated_at: '2026-09-12T11:57:14.398288-04:00'
 curated:
   forms: []
   traditions: []

@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/seattle/craft-cocktail-back-to-school-bubble-brunch-event/200030471289956
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:06:18.669566-04:00'
+    checked_at: '2026-09-12T11:57:19.109018-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:06:18.669534-04:00'
+  validated_at: '2026-09-12T11:57:19.108991-04:00'
 curated:
   forms: []
   traditions: []

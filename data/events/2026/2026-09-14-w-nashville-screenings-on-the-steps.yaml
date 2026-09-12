@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/nashville/screenings-on-the-steps-clueless/100001999056059487
     ok: true
     status_code: 200
-    checked_at: '2026-09-11T11:06:20.304996-04:00'
+    checked_at: '2026-09-12T11:57:20.147594-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-11T11:06:20.304967-04:00'
+  validated_at: '2026-09-12T11:57:20.147564-04:00'
 curated:
   forms: []
   traditions: []
