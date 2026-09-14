@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/new-haven/bbq-bourbon-and-boos-at-scarefest-scream-park/200030411720242
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:58:34.717794-04:00'
+    checked_at: '2026-09-14T13:01:49.632756-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T11:58:34.717766-04:00'
+  validated_at: '2026-09-14T13:01:49.632726-04:00'
 curated:
   forms: []
   traditions: []

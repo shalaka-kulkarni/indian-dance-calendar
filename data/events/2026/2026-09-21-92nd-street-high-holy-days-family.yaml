@@ -1,0 +1,53 @@
+id: 2026-09-21-92nd-street-high-holy-days-family
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: High Holy Days Family Services 5787/2026
+  start: '2026-09-21T09:30:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 50.0
+  price_max: 50.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/high-holy-days-family-services
+  ticket_url: https://seats.92ny.org/single/210511
+  description_snippet: Bring your whole family for a soulful and energetic High Holiday celebration, led
+    by Rebecca Schoffer, Director of Jewish Family Life, with a live band!
+  content_hash: c21513e44cf9a328
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/high-holy-days-family-services
+    first_seen: '2026-09-14'
+    last_seen: '2026-09-14'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/210511
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-14T13:01:28.718861-04:00'
+  - url: https://www.92ny.org/event/high-holy-days-family-services
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-14T13:01:29.053284-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-09-14T13:01:28.718835-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

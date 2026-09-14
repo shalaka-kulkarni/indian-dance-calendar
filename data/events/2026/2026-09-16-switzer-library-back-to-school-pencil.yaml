@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/marietta/back-to-school-pencil-pouch-craft/100001996710790725
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:57:27.239719-04:00'
+    checked_at: '2026-09-14T13:00:50.692436-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T11:57:27.239692-04:00'
+  validated_at: '2026-09-14T13:00:50.692390-04:00'
 curated:
   forms: []
   traditions: []

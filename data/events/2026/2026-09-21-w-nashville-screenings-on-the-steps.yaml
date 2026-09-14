@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/nashville/screenings-on-the-steps-ferris-buellers-day-off/100001999122679750
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:58:10.524102-04:00'
+    checked_at: '2026-09-14T13:01:29.311895-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T11:58:10.524075-04:00'
+  validated_at: '2026-09-14T13:01:29.311869-04:00'
 curated:
   forms: []
   traditions: []

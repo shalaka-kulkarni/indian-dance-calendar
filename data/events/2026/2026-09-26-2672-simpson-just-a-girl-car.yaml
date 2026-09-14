@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/kissimmee/just-a-girl-car-show-ladies-only-tickets/80001857101036
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:58:51.103050-04:00'
+    checked_at: '2026-09-14T13:01:59.478683-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T11:58:51.103022-04:00'
+  validated_at: '2026-09-14T13:01:59.478654-04:00'
 curated:
   forms: []
   traditions: []

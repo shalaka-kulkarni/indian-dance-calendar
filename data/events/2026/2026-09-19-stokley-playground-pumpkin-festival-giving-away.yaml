@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/philadelphia/pumpkin-festival-giving-away-over-1000-pumpkins/200030540869852
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:58:05.021518-04:00'
+    checked_at: '2026-09-14T13:01:21.556685-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T11:58:05.021493-04:00'
+  validated_at: '2026-09-14T13:01:21.556662-04:00'
 curated:
   forms: []
   traditions: []

@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/milwaukee/panorama-a-tribute-to-the-cars/200030541170954
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T12:00:09.675319-04:00'
+    checked_at: '2026-09-14T13:03:00.553111-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T12:00:09.675291-04:00'
+  validated_at: '2026-09-14T13:03:00.553084-04:00'
 curated:
   forms: []
   traditions: []

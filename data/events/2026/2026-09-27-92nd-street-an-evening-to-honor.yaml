@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/an-evening-to-honor-gloria-steinem
     first_seen: '2026-09-11'
-    last_seen: '2026-09-11'
+    last_seen: '2026-09-14'
 validation:
   passed: false
   checks:
@@ -34,17 +34,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210500
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-12T11:59:02.182848-04:00'
   - url: https://www.92ny.org/event/an-evening-to-honor-gloria-steinem
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:59:02.266818-04:00'
+    checked_at: '2026-09-14T13:02:08.133262-04:00'
+  - url: https://seats.92ny.org/single/210500
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-14T13:02:08.242134-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T11:59:02.182819-04:00'
+  validated_at: '2026-09-14T13:02:08.133234-04:00'
 curated:
   forms: []
   traditions: []

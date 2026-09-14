@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/jonathan-mahler-and-kathy-wylde-with-thomas-dyja
     first_seen: '2026-09-11'
-    last_seen: '2026-09-11'
+    last_seen: '2026-09-14'
 validation:
   passed: false
   checks:
@@ -35,17 +35,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/jonathan-mahler-and-kathy-wylde-with-thomas-dyja
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-12T12:00:48.676275-04:00'
   - url: https://seats.92ny.org/single/211260
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T12:00:51.085937-04:00'
+    checked_at: '2026-09-14T13:03:49.930030-04:00'
+  - url: https://www.92ny.org/event/jonathan-mahler-and-kathy-wylde-with-thomas-dyja
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-14T13:03:50.025250-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T12:00:48.676249-04:00'
+  validated_at: '2026-09-14T13:03:49.930001-04:00'
 curated:
   forms: []
   traditions: []

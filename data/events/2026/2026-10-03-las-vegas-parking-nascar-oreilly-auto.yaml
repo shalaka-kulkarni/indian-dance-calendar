@@ -35,13 +35,13 @@ validation:
   - url: https://allevents.in/las-vegas/parking-nascar-oreilly-auto-parts-series-at-las-vegas-motor-speedway-fall-race/3200028712884656
     ok: false
     status_code: 410
-    checked_at: '2026-09-12T11:59:41.310541-04:00'
+    checked_at: '2026-09-14T13:02:34.792653-04:00'
   problems:
   - 'dead links: https://allevents.in/las-vegas/parking-nascar-oreilly-auto-parts-series-at-las-vegas-motor-speedway-fall-race/3200028712884656'
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T11:59:41.310511-04:00'
+  validated_at: '2026-09-14T13:02:34.792626-04:00'
 curated:
   forms: []
   traditions: []

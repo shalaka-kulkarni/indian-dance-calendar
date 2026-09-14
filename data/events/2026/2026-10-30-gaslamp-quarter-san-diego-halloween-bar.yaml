@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/san-diego/san-diego-halloween-bar-crawl-party-pass-to-15-bars/100001996292106429
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T12:01:34.557880-04:00'
+    checked_at: '2026-09-14T13:04:25.448577-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T12:01:34.557854-04:00'
+  validated_at: '2026-09-14T13:04:25.448547-04:00'
 curated:
   forms: []
   traditions: []

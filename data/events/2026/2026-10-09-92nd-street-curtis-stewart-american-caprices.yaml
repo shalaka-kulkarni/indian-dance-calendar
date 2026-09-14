@@ -1,0 +1,53 @@
+id: 2026-10-09-92nd-street-curtis-stewart-american-caprices
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Curtis Stewart: American Caprices'
+  start: '2026-10-09T19:30:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 45.0
+  price_max: 45.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/curtis-stewart-american-caprices
+  ticket_url: https://seats.92ny.org/single/210661
+  description_snippet: Violinist Curtis Stewart performs his American Caprices – virtuosic takes on music
+    by Taylor Swift, Stevie Wonder & more.
+  content_hash: 81384a2c669b88af
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/curtis-stewart-american-caprices
+    first_seen: '2026-09-14'
+    last_seen: '2026-09-14'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/curtis-stewart-american-caprices
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-14T13:02:52.553365-04:00'
+  - url: https://seats.92ny.org/single/210661
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-14T13:02:52.659437-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-09-14T13:02:52.553335-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

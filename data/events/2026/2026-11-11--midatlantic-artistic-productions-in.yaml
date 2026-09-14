@@ -1,0 +1,51 @@
+id: 2026-11-11--midatlantic-artistic-productions-in
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: MidAtlantic Artistic Productions in Vincenzo Bellini’s Norma Presented by the Seton Hall University
+    Arts Council
+  start: '2026-11-11T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/shu-2026-nov-11-norma/
+  ticket_url: ''
+  description_snippet: MidAtlantic Artistic Productions in Vincenzo Bellini’s Norma Presented by the Seton
+    Hall University Arts Council WED, NOV 11, 2026 at 7:00 PM The Seton Hall Classical Concert Series
+    and Alberto Italian Studies Institute proudly present MidAtlantic Artistic Productions in Vincenzo
+    Bellini’s operatic masterpiece Norma. Learn More
+  content_hash: fa6dce349d5f2753
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/shu-2026-nov-11-norma/
+    first_seen: '2026-09-14'
+    last_seen: '2026-09-14'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/shu-2026-nov-11-norma/
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-14T13:04:49.646003-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-14T13:04:49.645974-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

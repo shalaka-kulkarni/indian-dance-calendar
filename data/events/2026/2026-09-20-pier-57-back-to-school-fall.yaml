@@ -35,11 +35,11 @@ validation:
   - url: https://allevents.in/new-york/back-to-school-fall-fest-pier-57/100001998385724497
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:58:08.175527-04:00'
+    checked_at: '2026-09-14T13:01:25.610947-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T11:58:08.175498-04:00'
+  validated_at: '2026-09-14T13:01:25.610920-04:00'
 curated:
   forms: []
   traditions: []

@@ -21,7 +21,7 @@ scraped:
   - source_id: queens_theatre
     url: https://queenstheatre.org/events/kingdom-choice-awards-2026-dqr9
     first_seen: '2026-08-16'
-    last_seen: '2026-09-11'
+    last_seen: '2026-09-14'
 ai:
   relevant: false
   kind: other
@@ -49,11 +49,11 @@ validation:
   - url: https://queenstheatre.org/events/kingdom-choice-awards-2026-dqr9
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:58:00.544403-04:00'
+    checked_at: '2026-09-14T13:01:18.138188-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-12T11:58:00.544375-04:00'
+  validated_at: '2026-09-14T13:01:18.138160-04:00'
 curated:
   forms: []
   traditions: []

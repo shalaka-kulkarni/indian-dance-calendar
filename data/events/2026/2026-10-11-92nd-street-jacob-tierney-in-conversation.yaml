@@ -49,15 +49,15 @@ validation:
   - url: https://www.92ny.org/event/jacob-tierney
     ok: false
     status_code: 404
-    checked_at: '2026-09-12T12:00:15.702406-04:00'
+    checked_at: '2026-09-14T13:03:09.221457-04:00'
   - url: https://seats.92ny.org/single/211100
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T12:00:16.427354-04:00'
+    checked_at: '2026-09-14T13:03:10.187883-04:00'
   problems:
   - 'dead links: https://www.92ny.org/event/jacob-tierney'
   - classified not-relevant
-  validated_at: '2026-09-12T12:00:15.702380-04:00'
+  validated_at: '2026-09-14T13:03:09.221432-04:00'
 curated:
   forms: []
   traditions: []

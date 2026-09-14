@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/horse-lords
     first_seen: '2026-08-18'
-    last_seen: '2026-09-11'
+    last_seen: '2026-09-14'
 ai:
   relevant: false
   kind: performance
@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/horse-lords
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:59:59.387290-04:00'
+    checked_at: '2026-09-14T13:02:49.671783-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-12T11:59:59.387265-04:00'
+  validated_at: '2026-09-14T13:02:49.671756-04:00'
 curated:
   forms: []
   traditions: []

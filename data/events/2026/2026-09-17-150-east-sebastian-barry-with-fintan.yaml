@@ -7,7 +7,7 @@ scraped:
   start: '2026-09-17T18:00:00-04:00'
   additional_dates: []
   venue: 150 East 91st Street
-  address: ''
+  address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 35.0
   price_max: 35.0
@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/sebastian-barry-the-newer-world
     first_seen: '2026-08-18'
-    last_seen: '2026-09-11'
+    last_seen: '2026-09-14'
 ai:
   relevant: false
   kind: performance
@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/sebastian-barry-the-newer-world
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-12T11:57:30.624719-04:00'
   - url: https://seats.92ny.org/single/210960
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:57:32.885249-04:00'
+    checked_at: '2026-09-14T13:00:53.894022-04:00'
+  - url: https://www.92ny.org/event/sebastian-barry-the-newer-world
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-14T13:00:53.983976-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-09-12T11:57:30.624694-04:00'
+  validated_at: '2026-09-14T13:00:53.893996-04:00'
 curated:
   forms: []
   traditions: []

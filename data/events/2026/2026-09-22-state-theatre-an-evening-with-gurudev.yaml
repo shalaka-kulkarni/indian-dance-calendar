@@ -1,0 +1,58 @@
+id: 2026-09-22-state-theatre-an-evening-with-gurudev
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'An Evening with Gurudev: On Power, Presence, and Peace'
+  start: '2026-09-22T19:00:00-04:00'
+  end: '2026-09-22T19:00:00-04:00'
+  additional_dates: []
+  venue: State Theatre New Jersey
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/art-of-living-2026
+  ticket_url: https://aolf.me/gurudevnj
+  description_snippet: 'A rare conversation on what matters most. We struggle to stay present. We wait
+    for the world to become peaceful. And too often, we feel powerless to change any of it. What if power,
+    presence, and peace are closer than we think? What could power, presence, and peace actually look
+    like in your life?Power: What would change if difficult people, unexpected events, and circumstances
+    beyond your control no longer had the power to shake you?Presence: Imagine giving the person, decision,
+    or moment in front of you your full attention, without your mind pulling you somewhere else.Peace:
+    What if you coul'
+  content_hash: f4a4e76fa52ab373
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/art-of-living-2026
+    first_seen: '2026-09-14'
+    last_seen: '2026-09-14'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://aolf.me/gurudevnj
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-14T13:01:34.772132-04:00'
+  - url: https://www.stnj.org/events/detail/art-of-living-2026
+    ok: true
+    status_code: 406
+    checked_at: '2026-09-14T13:01:35.086479-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-14T13:01:34.772105-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

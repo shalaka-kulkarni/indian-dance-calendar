@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/burlington/playing-fields-jj-flynn-elementary-school-free/200030630898959
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:57:23.288823-04:00'
+    checked_at: '2026-09-14T13:00:47.095674-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T11:57:23.288794-04:00'
+  validated_at: '2026-09-14T13:00:47.095643-04:00'
 curated:
   forms: []
   traditions: []

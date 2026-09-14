@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/new-haven/stahls-orphan-car-show/200030452672858
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:57:53.660824-04:00'
+    checked_at: '2026-09-14T13:01:11.182546-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T11:57:53.660798-04:00'
+  validated_at: '2026-09-14T13:01:11.182518-04:00'
 curated:
   forms: []
   traditions: []

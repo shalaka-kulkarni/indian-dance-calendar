@@ -36,12 +36,12 @@ validation:
   - url: https://allevents.in/fountain-inn/greenpond-volunteer-fire-department-4th-annual-fall-festival/200030353332759
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:58:52.279208-04:00'
+    checked_at: '2026-09-14T13:02:01.240712-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T11:58:52.279178-04:00'
+  validated_at: '2026-09-14T13:02:01.240682-04:00'
 curated:
   forms: []
   traditions: []

@@ -1,5 +1,5 @@
 id: 2026-09-13-nassau-veterans-revolution-sonu-nigam-concert
-status: published
+status: past
 was_published: true
 needs_recheck: false
 scraped:
@@ -41,19 +41,14 @@ validation:
   passed: true
   checks:
     has_info_url: true
-    specific_url: true
     links_live: true
-    date_valid: true
-    price_known: true
-    in_metro: true
-    classified: true
   link_checks:
   - url: https://events.sulekha.com/revolution-sonu-nigam-concert-in-new-york_event-in_uniondale-ny_400866
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:57:18.756328-04:00'
+    checked_at: '2026-09-14T13:00:45.093507-04:00'
   problems: []
-  validated_at: '2026-09-12T11:57:18.756300-04:00'
+  validated_at: '2026-09-14T13:00:45.093502-04:00'
 curated:
   forms: []
   traditions: []

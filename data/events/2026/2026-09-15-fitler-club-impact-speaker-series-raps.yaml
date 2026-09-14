@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/philadelphia/impact-speaker-series-raps-of-resistance-author-book-talk-and-signing/100001998279660256
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:57:23.637057-04:00'
+    checked_at: '2026-09-14T13:00:47.525577-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T11:57:23.637028-04:00'
+  validated_at: '2026-09-14T13:00:47.525546-04:00'
 curated:
   forms: []
   traditions: []

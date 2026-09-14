@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/virginia-beach/ccchr-presents-landstown-commons-creepy-car-show/200029598938902
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T12:01:03.411820-04:00'
+    checked_at: '2026-09-14T13:04:02.493870-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T12:01:03.411793-04:00'
+  validated_at: '2026-09-14T13:04:02.493841-04:00'
 curated:
   forms: []
   traditions: []

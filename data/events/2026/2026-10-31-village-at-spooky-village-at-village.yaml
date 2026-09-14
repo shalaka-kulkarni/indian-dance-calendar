@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/longmont/spooky-village-at-village-at-the-peaks-1-3-pm/200030645283723
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T12:01:47.540915-04:00'
+    checked_at: '2026-09-14T13:04:33.538603-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T12:01:47.540889-04:00'
+  validated_at: '2026-09-14T13:04:33.538571-04:00'
 curated:
   forms: []
   traditions: []

@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/anaheim/wdw-radio-presents-the-haunts-and-heroes-disneyland-experience/100001993757247598
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T12:01:21.920851-04:00'
+    checked_at: '2026-09-14T13:04:16.829824-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T12:01:21.920825-04:00'
+  validated_at: '2026-09-14T13:04:16.829795-04:00'
 curated:
   forms: []
   traditions: []

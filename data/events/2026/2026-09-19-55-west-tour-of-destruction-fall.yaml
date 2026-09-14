@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/stafford-springs/tour-of-destruction-fall-2026/200029358817722
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:57:53.479268-04:00'
+    checked_at: '2026-09-14T13:01:10.978647-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T11:57:53.479241-04:00'
+  validated_at: '2026-09-14T13:01:10.978618-04:00'
 curated:
   forms: []
   traditions: []

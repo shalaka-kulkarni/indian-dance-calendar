@@ -1,0 +1,54 @@
+id: 2026-10-14-92nd-street-matti-friedman-in-conversation
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Matti Friedman in Conversation with Stephanie Butnick: Rethinking Jewish Identity, Beyond the
+    West'
+  start: '2026-10-14T20:00:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Warburg Lounge
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 18.0
+  price_max: 18.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/matti-friedman-with-stephanie-butnick
+  ticket_url: https://seats.92ny.org/single/210993
+  description_snippet: Matti Friedman and Stephanie Butnick discuss what it means to be Jewish now and
+    how the worlds around us are reshaping the way we understand ourselves.
+  content_hash: 388498cb2c6fe07f
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/matti-friedman-with-stephanie-butnick
+    first_seen: '2026-09-14'
+    last_seen: '2026-09-14'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/210993
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-14T13:03:25.979859-04:00'
+  - url: https://www.92ny.org/event/matti-friedman-with-stephanie-butnick
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-14T13:03:26.058723-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-09-14T13:03:25.979829-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

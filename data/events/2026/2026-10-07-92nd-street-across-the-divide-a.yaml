@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/across-the-divide
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:59:56.551826-04:00'
+    checked_at: '2026-09-14T13:02:49.191420-04:00'
   - url: https://seats.92ny.org/single/211142
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:59:58.637738-04:00'
+    checked_at: '2026-09-14T13:02:49.320400-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-09-12T11:59:56.551800-04:00'
+  validated_at: '2026-09-14T13:02:49.191374-04:00'
 curated:
   forms: []
   traditions: []

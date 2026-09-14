@@ -21,7 +21,7 @@ scraped:
   - source_id: queens_theatre
     url: https://queenstheatre.org/events/clara-ulrich-yo-quiero-ser-mi-marido-zvg4
     first_seen: '2026-08-22'
-    last_seen: '2026-09-11'
+    last_seen: '2026-09-14'
 validation:
   passed: false
   checks:
@@ -36,11 +36,11 @@ validation:
   - url: https://queenstheatre.org/events/clara-ulrich-yo-quiero-ser-mi-marido-zvg4
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T12:01:54.829428-04:00'
+    checked_at: '2026-09-14T13:04:39.888596-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T12:01:54.829402-04:00'
+  validated_at: '2026-09-14T13:04:39.888563-04:00'
 curated:
   forms: []
   traditions: []

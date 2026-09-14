@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/seattle/dineen-vineyards-pop-up/100001999107934647
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:58:31.845729-04:00'
+    checked_at: '2026-09-14T13:01:45.675574-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T11:58:31.845702-04:00'
+  validated_at: '2026-09-14T13:01:45.675548-04:00'
 curated:
   forms: []
   traditions: []

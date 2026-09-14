@@ -34,17 +34,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210950
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-12T11:58:15.777114-04:00'
   - url: https://www.92ny.org/event/jim-shepard-the-queen-of-bad-influences
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:58:15.845683-04:00'
+    checked_at: '2026-09-14T13:01:32.265826-04:00'
+  - url: https://seats.92ny.org/single/210950
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-14T13:01:34.285550-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T11:58:15.777088-04:00'
+  validated_at: '2026-09-14T13:01:32.265795-04:00'
 curated:
   forms: []
   traditions: []

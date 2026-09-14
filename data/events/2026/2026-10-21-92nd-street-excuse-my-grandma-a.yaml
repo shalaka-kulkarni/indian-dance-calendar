@@ -1,0 +1,53 @@
+id: 2026-10-21-92nd-street-excuse-my-grandma-a
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Excuse My Grandma : A Live Podcast Recording with Kim Murstein and Gail Rudnick'
+  start: '2026-10-21T18:00:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 40.0
+  price_max: 40.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/excuse-my-grandma
+  ticket_url: https://seats.92ny.org/single/211264
+  description_snippet: Join Kim Murstein and Grandma Gail for a live recording of Excuse My Grandma ,
+    with special guest Gabby Bryan, for laughs, advice, and intergenerational wisdom.
+  content_hash: e801341ef36b643a
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/excuse-my-grandma
+    first_seen: '2026-09-14'
+    last_seen: '2026-09-14'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/211264
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-14T13:03:52.426461-04:00'
+  - url: https://www.92ny.org/event/excuse-my-grandma
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-14T13:03:52.576933-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-09-14T13:03:52.426433-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

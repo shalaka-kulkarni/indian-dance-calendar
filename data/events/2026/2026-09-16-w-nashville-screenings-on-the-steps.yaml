@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/nashville/screenings-on-the-steps-grease/100001999122513252
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:57:28.475118-04:00'
+    checked_at: '2026-09-14T13:00:51.803375-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T11:57:28.475091-04:00'
+  validated_at: '2026-09-14T13:00:51.803347-04:00'
 curated:
   forms: []
   traditions: []

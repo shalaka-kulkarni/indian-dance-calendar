@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/atwater/2026-ravenna-balloon-a-fair-car-show/200029567432042
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:59:01.920605-04:00'
+    checked_at: '2026-09-14T13:02:07.779946-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T11:59:01.920577-04:00'
+  validated_at: '2026-09-14T13:02:07.779920-04:00'
 curated:
   forms: []
   traditions: []

@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/augusta/polish-n-parts-car-show/200029789061915
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:57:53.972869-04:00'
+    checked_at: '2026-09-14T13:01:11.600925-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T11:57:53.972843-04:00'
+  validated_at: '2026-09-14T13:01:11.600895-04:00'
 curated:
   forms: []
   traditions: []

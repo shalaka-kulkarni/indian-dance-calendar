@@ -1,0 +1,53 @@
+id: 2026-10-04--sarode-concert---rajrupa
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Sarode Concert - Rajrupa Chowdhury
+  start: '2026-10-04T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://chhandayan.org/calendar/2026/10/4/sarode-concert-rajrupa-chowdhury
+  ticket_url: ''
+  description_snippet: Oct 4 11:00 AM 11:00 New York , Online Sarode Concert - Rajrupa Chowdhury Sunday,
+    October 4, 2026 11:00 AM 12:30 PM 11:00 12:30 Chhandayan Center for Indian Music (map) Google Calendar
+    ICS Rajrupa Chowdhury - Sarode Samir Chatterjee - Tabla Come Join us at the Chhandayan Center for
+    a mid-day performance on the Sarode by Rajrupa Chowdhury accompanied by Samir Chatterjee. The performance
+    will also be streamed live online Purchase Tickets/Streaming Access Rajrupa Chowdhury Ms. Rajrupa
+    Chowdhury was born at Kolkata, India. She took up Sarod at the tender age of five at the Ustad Ameer
+    Khan School
+  content_hash: 33ff3bb9045f3e1a
+  sources:
+  - source_id: chhandayan
+    url: https://chhandayan.org/calendar/2026/10/4/sarode-concert-rajrupa-chowdhury
+    first_seen: '2026-09-14'
+    last_seen: '2026-09-14'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://chhandayan.org/calendar/2026/10/4/sarode-concert-rajrupa-chowdhury
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-14T13:02:38.719070-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-14T13:02:38.719043-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

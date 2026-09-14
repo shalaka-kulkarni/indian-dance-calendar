@@ -49,9 +49,9 @@ validation:
   - url: https://chhandayan.org/calendar/2026/9/5/kathak-dance-workshop-sandeep-mahavir
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:56:50.718344-04:00'
+    checked_at: '2026-09-14T13:00:34.065570-04:00'
   problems: []
-  validated_at: '2026-09-12T11:56:50.718339-04:00'
+  validated_at: '2026-09-14T13:00:34.065563-04:00'
 curated:
   forms: []
   traditions: []

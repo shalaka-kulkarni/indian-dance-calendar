@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/jacksonville/5th-annual-jacksonville-spooktacular-tickets/100001990695837839
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T12:00:41.507132-04:00'
+    checked_at: '2026-09-14T13:03:40.933102-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T12:00:41.507108-04:00'
+  validated_at: '2026-09-14T13:03:40.933075-04:00'
 curated:
   forms: []
   traditions: []

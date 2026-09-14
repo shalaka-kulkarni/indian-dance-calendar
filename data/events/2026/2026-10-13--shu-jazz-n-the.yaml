@@ -1,0 +1,50 @@
+id: 2026-10-13--shu-jazz-n-the
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: SHU Jazz 'n the Hall Lionel Hampton Big Band Presented by the Seton Hall Arts Council
+  start: '2026-10-13T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/lionel-hampton-big-band-shu-2026/
+  ticket_url: ''
+  description_snippet: 'SHU Jazz ''n the Hall Lionel Hampton Big Band Presented by the Seton Hall Arts
+    Council TUE, OCT 13, 2026 at 7:30 PM The Seton Hall Arts Council presents the latest performance in
+    the Jazz ‘n the Hall concert series at SOPAC: the Grammy Award winning Lionel Hampton Big Band, featuring
+    Jason Marsalis. Learn More'
+  content_hash: 13240eedf518cdf6
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/lionel-hampton-big-band-shu-2026/
+    first_seen: '2026-09-14'
+    last_seen: '2026-09-14'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/lionel-hampton-big-band-shu-2026/
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-14T13:03:14.550491-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-14T13:03:14.550461-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/new-haven/worlds-largest-pizza-costume-party/100001982359152589
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:58:34.540525-04:00'
+    checked_at: '2026-09-14T13:01:49.426642-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T11:58:34.540496-04:00'
+  validated_at: '2026-09-14T13:01:49.426617-04:00'
 curated:
   forms: []
   traditions: []

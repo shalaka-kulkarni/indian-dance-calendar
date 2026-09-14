@@ -1,5 +1,5 @@
 id: 2026-09-12-92nd-street-high-holy-days-youth
-status: needs_attention
+status: past
 was_published: false
 needs_recheck: false
 scraped:
@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/high-holy-days-youth-experience
     first_seen: '2026-09-02'
-    last_seen: '2026-09-11'
+    last_seen: '2026-09-14'
 validation:
   passed: false
   checks:
@@ -37,15 +37,15 @@ validation:
   - url: https://seats.92ny.org/single/210507
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:57:08.684921-04:00'
+    checked_at: '2026-09-14T12:58:30.352659-04:00'
   - url: https://www.92ny.org/event/high-holy-days-youth-experience
     ok: true
     status_code: 200
-    checked_at: '2026-09-12T11:57:08.881097-04:00'
+    checked_at: '2026-09-14T12:58:30.431169-04:00'
   problems:
   - event date 2026-09-12 is in the past
   - not yet classified (no API key run)
-  validated_at: '2026-09-12T11:57:08.684893-04:00'
+  validated_at: '2026-09-14T12:58:30.352638-04:00'
 curated:
   forms: []
   traditions: []
