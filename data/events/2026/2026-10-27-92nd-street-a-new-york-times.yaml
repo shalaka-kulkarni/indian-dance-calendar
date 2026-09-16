@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/a-new-york-times-games-night
     first_seen: '2026-09-11'
-    last_seen: '2026-09-14'
+    last_seen: '2026-09-16'
 validation:
   passed: false
   checks:
@@ -38,14 +38,14 @@ validation:
   - url: https://www.92ny.org/event/a-new-york-times-games-night
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:04:14.308432-04:00'
+    checked_at: '2026-09-16T11:36:51.879721-04:00'
   - url: https://seats.92ny.org/single/211268
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:04:16.443536-04:00'
+    checked_at: '2026-09-16T11:36:54.881631-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:04:14.308385-04:00'
+  validated_at: '2026-09-16T11:36:51.879704-04:00'
 curated:
   forms: []
   traditions: []

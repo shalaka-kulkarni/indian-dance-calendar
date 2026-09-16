@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/kissimmee/promenade-sunset-walk-and-real-radio-best-of-challenge-signature-edition/100001994680855133
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:02:37.569764-04:00'
+    checked_at: '2026-09-16T11:34:47.192860-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:02:37.569738-04:00'
+  validated_at: '2026-09-16T11:34:47.192845-04:00'
 curated:
   forms: []
   traditions: []

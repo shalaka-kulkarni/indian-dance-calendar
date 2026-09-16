@@ -21,7 +21,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/valley-of-death
     first_seen: '2026-09-11'
-    last_seen: '2026-09-14'
+    last_seen: '2026-09-16'
 validation:
   passed: false
   checks:
@@ -36,11 +36,11 @@ validation:
   - url: https://www.92ny.org/event/valley-of-death
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:01:31.956675-04:00'
+    checked_at: '2026-09-16T11:33:11.991742-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:01:31.956647-04:00'
+  validated_at: '2026-09-16T11:33:11.991727-04:00'
 curated:
   forms: []
   traditions: []

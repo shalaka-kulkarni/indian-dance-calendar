@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/atlanta/back-to-school-shimmy-belly-dance-technique-workshop/100001998966753370
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:02:03.681874-04:00'
+    checked_at: '2026-09-16T11:33:57.507031-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:02:03.681849-04:00'
+  validated_at: '2026-09-16T11:33:57.507015-04:00'
 curated:
   forms: []
   traditions: []

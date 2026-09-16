@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/kevin-roose-in-conversation
     first_seen: '2026-08-28'
-    last_seen: '2026-09-14'
+    last_seen: '2026-09-16'
 validation:
   passed: false
   checks:
@@ -37,14 +37,14 @@ validation:
   - url: https://www.92ny.org/event/kevin-roose-in-conversation
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:02:48.783330-04:00'
+    checked_at: '2026-09-16T11:35:06.761003-04:00'
   - url: https://seats.92ny.org/single/211229
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:02:49.071150-04:00'
+    checked_at: '2026-09-16T11:35:10.997198-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:02:48.783305-04:00'
+  validated_at: '2026-09-16T11:35:06.760988-04:00'
 curated:
   forms: []
   traditions: []

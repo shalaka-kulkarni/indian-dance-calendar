@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/valley-center/2026-pumpkin-patch-at-bates-nut-farm-sept-17th-oct-31st/200030602477705
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:00:54.338008-04:00'
+    checked_at: '2026-09-16T11:32:25.004858-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:00:54.337979-04:00'
+  validated_at: '2026-09-16T11:32:25.004843-04:00'
 curated:
   forms: []
   traditions: []

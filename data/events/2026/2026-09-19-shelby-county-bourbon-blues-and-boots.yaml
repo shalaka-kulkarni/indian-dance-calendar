@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/shelbyville/bourbon-blues-and-boots-the-midsouthern-hoedown/100001984574735457
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:01:19.752658-04:00'
+    checked_at: '2026-09-16T11:33:00.009723-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:01:19.752631-04:00'
+  validated_at: '2026-09-16T11:33:00.009708-04:00'
 curated:
   forms: []
   traditions: []

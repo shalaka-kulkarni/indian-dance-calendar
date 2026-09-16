@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/shelbyville/main-street-barbershop-car-show/100001986948114297
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:01:20.117229-04:00'
+    checked_at: '2026-09-16T11:33:00.271830-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:01:20.117199-04:00'
+  validated_at: '2026-09-16T11:33:00.271815-04:00'
 curated:
   forms: []
   traditions: []

@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/atwater/the-michael-weber-show-the-ravenna-balloon-a-fair/200030543534132
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:02:00.523876-04:00'
+    checked_at: '2026-09-16T11:33:55.043162-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:02:00.523844-04:00'
+  validated_at: '2026-09-16T11:33:55.043146-04:00'
 curated:
   forms: []
   traditions: []

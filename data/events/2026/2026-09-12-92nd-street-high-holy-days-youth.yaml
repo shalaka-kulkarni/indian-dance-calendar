@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/high-holy-days-youth-experience
     first_seen: '2026-09-02'
-    last_seen: '2026-09-14'
+    last_seen: '2026-09-16'
 validation:
   passed: false
   checks:
@@ -37,15 +37,15 @@ validation:
   - url: https://seats.92ny.org/single/210507
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T12:58:30.352659-04:00'
+    checked_at: '2026-09-16T11:29:49.771339-04:00'
   - url: https://www.92ny.org/event/high-holy-days-youth-experience
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T12:58:30.431169-04:00'
+    checked_at: '2026-09-16T11:29:49.815782-04:00'
   problems:
   - event date 2026-09-12 is in the past
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T12:58:30.352638-04:00'
+  validated_at: '2026-09-16T11:29:49.771323-04:00'
 curated:
   forms: []
   traditions: []

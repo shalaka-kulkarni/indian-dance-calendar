@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/washington/dcps-back-to-school-block-party-fiesta-comunitaria-de-regreso-a-clases/100001995143723585
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:02:02.292228-04:00'
+    checked_at: '2026-09-16T11:33:56.535217-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:02:02.292201-04:00'
+  validated_at: '2026-09-16T11:33:56.535202-04:00'
 curated:
   forms: []
   traditions: []

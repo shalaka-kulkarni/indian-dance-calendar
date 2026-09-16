@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211087
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-14T13:02:45.570930-04:00'
   - url: https://www.92ny.org/event/michael-douglas-in-conversation-one-helluva-ride
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:02:45.678342-04:00'
+    checked_at: '2026-09-16T11:35:01.391673-04:00'
+  - url: https://seats.92ny.org/single/211087
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-16T11:35:05.109614-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-09-14T13:02:45.570899-04:00'
+  validated_at: '2026-09-16T11:35:01.391658-04:00'
 curated:
   forms: []
   traditions: []

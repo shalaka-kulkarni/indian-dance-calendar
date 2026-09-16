@@ -29,7 +29,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: true
     in_metro: false
     classified: false
@@ -37,11 +37,12 @@ validation:
   - url: https://allevents.in/nashville/back-to-school-journaling-and-planning-your-year/100001990957942802
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:00:49.805083-04:00'
+    checked_at: '2026-09-16T11:32:15.258575-04:00'
   problems:
+  - event date 2026-09-16 is in the past
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:00:49.805052-04:00'
+  validated_at: '2026-09-16T11:32:15.258555-04:00'
 curated:
   forms: []
   traditions: []

@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/lexington/lexington-halloween-bar-crawl/100001951739618739
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:04:06.923250-04:00'
+    checked_at: '2026-09-16T11:36:45.216069-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:04:06.923219-04:00'
+  validated_at: '2026-09-16T11:36:45.216054-04:00'
 curated:
   forms: []
   traditions: []

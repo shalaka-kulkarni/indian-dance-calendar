@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/longmont/farmfest-saturday-september-26-9-1pm/200030638945326
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:01:57.941745-04:00'
+    checked_at: '2026-09-16T11:33:52.740098-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:01:57.941716-04:00'
+  validated_at: '2026-09-16T11:33:52.740083-04:00'
 curated:
   forms: []
   traditions: []

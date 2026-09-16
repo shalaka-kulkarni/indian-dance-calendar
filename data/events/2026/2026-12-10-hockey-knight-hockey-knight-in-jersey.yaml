@@ -20,7 +20,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/hockey-knight-in-jersey
     first_seen: '2026-09-09'
-    last_seen: '2026-09-14'
+    last_seen: '2026-09-16'
 validation:
   passed: false
   checks:
@@ -35,11 +35,11 @@ validation:
   - url: https://www.prucenter.com/events/hockey-knight-in-jersey
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:05:19.713959-04:00'
+    checked_at: '2026-09-16T11:38:27.192200-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:05:19.713933-04:00'
+  validated_at: '2026-09-16T11:38:27.192185-04:00'
 curated:
   forms: []
   traditions: []

@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/orlando/american-made-vs-imports/100001994986093108
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:01:24.719054-04:00'
+    checked_at: '2026-09-16T11:33:04.562714-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:01:24.719026-04:00'
+  validated_at: '2026-09-16T11:33:04.562697-04:00'
 curated:
   forms: []
   traditions: []

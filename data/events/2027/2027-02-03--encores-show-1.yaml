@@ -20,7 +20,7 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/encores-show-1
     first_seen: '2026-08-18'
-    last_seen: '2026-09-09'
+    last_seen: '2026-09-16'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://www.nycitycenter.org/events/encores-show-1
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:05:27.989865-04:00'
+    checked_at: '2026-09-16T11:38:42.798940-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-14T13:05:27.989841-04:00'
+  validated_at: '2026-09-16T11:38:42.798926-04:00'
 curated:
   forms: []
   traditions: []

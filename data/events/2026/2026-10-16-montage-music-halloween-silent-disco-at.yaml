@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/rochester/halloween-silent-disco-at-montage-music-hall-rochester-10-16-26/100001992371113634
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:03:28.091569-04:00'
+    checked_at: '2026-09-16T11:35:57.608211-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:03:28.091542-04:00'
+  validated_at: '2026-09-16T11:35:57.608196-04:00'
 curated:
   forms: []
   traditions: []

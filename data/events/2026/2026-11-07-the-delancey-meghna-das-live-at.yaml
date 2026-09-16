@@ -22,7 +22,7 @@ scraped:
   - source_id: allevents
     url: https://allevents.in/new-york/meghna-das-live-at-the-delancey/100002000052190943
     first_seen: '2026-09-09'
-    last_seen: '2026-09-14'
+    last_seen: '2026-09-16'
 validation:
   passed: false
   checks:
@@ -37,10 +37,10 @@ validation:
   - url: https://allevents.in/new-york/meghna-das-live-at-the-delancey/100002000052190943
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:04:43.431383-04:00'
+    checked_at: '2026-09-16T11:37:30.437429-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:04:43.431355-04:00'
+  validated_at: '2026-09-16T11:37:30.437414-04:00'
 curated:
   forms: []
   traditions: []

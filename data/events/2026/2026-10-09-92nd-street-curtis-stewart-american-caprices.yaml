@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/curtis-stewart-american-caprices
     first_seen: '2026-09-14'
-    last_seen: '2026-09-14'
+    last_seen: '2026-09-16'
 validation:
   passed: false
   checks:
@@ -37,14 +37,14 @@ validation:
   - url: https://www.92ny.org/event/curtis-stewart-american-caprices
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:02:52.553365-04:00'
+    checked_at: '2026-09-16T11:35:20.853452-04:00'
   - url: https://seats.92ny.org/single/210661
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:02:52.659437-04:00'
+    checked_at: '2026-09-16T11:35:26.195142-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:02:52.553335-04:00'
+  validated_at: '2026-09-16T11:35:20.853437-04:00'
 curated:
   forms: []
   traditions: []

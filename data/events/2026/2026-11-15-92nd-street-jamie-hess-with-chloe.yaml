@@ -1,0 +1,53 @@
+id: 2026-11-15-92nd-street-jamie-hess-with-chloe
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Jamie Hess with Chloe Melas and Joan Lunden: The Gratitude Shift'
+  start: '2026-11-15T18:00:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Warburg Lounge
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 35.0
+  price_max: 35.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/jamie-hess-with-chloe-melas-and-joan-lunden
+  ticket_url: https://seats.92ny.org/single/211292
+  description_snippet: Jamie Hess joins Chloe Melas and Joan Lunden to discuss The Gratitude Shift , her
+    practical new guide to gratitude, resilience and meaningful change.
+  content_hash: b04b386a51dadd2f
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/jamie-hess-with-chloe-melas-and-joan-lunden
+    first_seen: '2026-09-16'
+    last_seen: '2026-09-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/211292
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-16T11:37:56.434563-04:00'
+  - url: https://www.92ny.org/event/jamie-hess-with-chloe-melas-and-joan-lunden
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-16T11:37:56.576109-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-09-16T11:37:56.434549-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

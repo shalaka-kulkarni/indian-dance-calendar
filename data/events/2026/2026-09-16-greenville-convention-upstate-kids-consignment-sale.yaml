@@ -36,12 +36,12 @@ validation:
   - url: https://allevents.in/greenville/upstate-kids-consignment-sale-greenville/200030349022803
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:00:50.379519-04:00'
+    checked_at: '2026-09-16T11:32:15.607064-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:00:50.379490-04:00'
+  validated_at: '2026-09-16T11:32:15.607049-04:00'
 curated:
   forms: []
   traditions: []

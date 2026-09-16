@@ -20,7 +20,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/yuri-lucero
     first_seen: '2026-08-18'
-    last_seen: '2026-09-14'
+    last_seen: '2026-09-16'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://www.prucenter.com/events/yuri-lucero
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:05:36.089539-04:00'
+    checked_at: '2026-09-16T11:38:51.214922-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-14T13:05:36.089512-04:00'
+  validated_at: '2026-09-16T11:38:51.214908-04:00'
 curated:
   forms: []
   traditions: []

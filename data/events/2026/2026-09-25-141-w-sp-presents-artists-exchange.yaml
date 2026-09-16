@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/los-angeles/sp-presents-artists-exchange-workshop-open-mic-and-back-to-school-drive/100001998970534680
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:01:49.220992-04:00'
+    checked_at: '2026-09-16T11:33:43.321570-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:01:49.220969-04:00'
+  validated_at: '2026-09-16T11:33:43.321555-04:00'
 curated:
   forms: []
   traditions: []

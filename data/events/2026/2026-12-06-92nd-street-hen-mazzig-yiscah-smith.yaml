@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/hen-mazzig-yiscah-smith-and-rabbi-david-ingber
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:05:16.996906-04:00'
+    checked_at: '2026-09-16T11:38:22.911755-04:00'
   - url: https://seats.92ny.org/single/211059
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:05:19.234928-04:00'
+    checked_at: '2026-09-16T11:38:25.706128-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-09-14T13:05:16.996880-04:00'
+  validated_at: '2026-09-16T11:38:22.911742-04:00'
 curated:
   forms: []
   traditions: []

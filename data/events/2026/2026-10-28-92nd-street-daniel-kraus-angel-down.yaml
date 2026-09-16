@@ -1,0 +1,52 @@
+id: 2026-10-28-92nd-street-daniel-kraus-angel-down
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Daniel Kraus: Angel Down and the Future of Sci-Fi'
+  start: '2026-10-28T19:30:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Warburg Lounge
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 30.0
+  price_max: 30.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/daniel-kraus
+  ticket_url: https://seats.92ny.org/single/210872
+  description_snippet: Pulitzer Prize winner Daniel Kraus discusses Angel Down and The Sixth Nik .
+  content_hash: 62f7eb71d8320f4e
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/daniel-kraus
+    first_seen: '2026-09-16'
+    last_seen: '2026-09-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/210872
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-16T11:36:59.960993-04:00'
+  - url: https://www.92ny.org/event/daniel-kraus
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-16T11:37:00.001677-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-09-16T11:36:59.960979-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

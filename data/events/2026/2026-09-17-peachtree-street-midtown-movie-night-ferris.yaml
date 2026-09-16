@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/atlanta/midtown-movie-night-ferris-buellers-day-off/200030667021422
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:01:00.556365-04:00'
+    checked_at: '2026-09-16T11:32:32.116134-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:01:00.556339-04:00'
+  validated_at: '2026-09-16T11:32:32.116118-04:00'
 curated:
   forms: []
   traditions: []

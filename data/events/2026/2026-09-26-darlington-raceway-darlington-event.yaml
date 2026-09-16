@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/darlington/darlington-event/200030560273036
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:02:01.950562-04:00'
+    checked_at: '2026-09-16T11:33:56.342392-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:02:01.950534-04:00'
+  validated_at: '2026-09-16T11:33:56.342377-04:00'
 curated:
   forms: []
   traditions: []

@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/marietta/pups-at-the-patch-2026-at-tims-pumpkin-patch/200030648033330
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:01:42.151345-04:00'
+    checked_at: '2026-09-16T11:33:31.562619-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:01:42.151316-04:00'
+  validated_at: '2026-09-16T11:33:31.562604-04:00'
 curated:
   forms: []
   traditions: []

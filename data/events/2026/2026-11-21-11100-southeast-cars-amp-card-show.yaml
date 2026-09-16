@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/ocala/cars-and-card-show-tickets/80003651118602
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:05:11.057294-04:00'
+    checked_at: '2026-09-16T11:38:13.852571-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:05:11.057266-04:00'
+  validated_at: '2026-09-16T11:38:13.852557-04:00'
 curated:
   forms: []
   traditions: []

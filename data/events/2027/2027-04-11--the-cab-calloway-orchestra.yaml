@@ -23,7 +23,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/the-cab-calloway-orchestra-2027/
     first_seen: '2026-08-18'
-    last_seen: '2026-09-14'
+    last_seen: '2026-09-16'
 ai:
   relevant: false
   kind: performance
@@ -50,11 +50,11 @@ validation:
   - url: https://www.sopacnow.org/events/the-cab-calloway-orchestra-2027/
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:05:34.869940-04:00'
+    checked_at: '2026-09-16T11:38:49.838744-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-14T13:05:34.869909-04:00'
+  validated_at: '2026-09-16T11:38:49.838730-04:00'
 curated:
   forms: []
   traditions: []

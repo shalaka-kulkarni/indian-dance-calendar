@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/atlanta/the-90s-day-party-part-2/100001997093036031
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:01:15.476956-04:00'
+    checked_at: '2026-09-16T11:32:56.606310-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:01:15.476927-04:00'
+  validated_at: '2026-09-16T11:32:56.606295-04:00'
 curated:
   forms: []
   traditions: []

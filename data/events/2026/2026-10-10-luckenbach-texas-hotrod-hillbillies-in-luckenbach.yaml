@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/fredericksburg/hotrod-hillbillies-in-luckenbach-texas-lucky-rod-2026/200030399794851
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:02:56.708886-04:00'
+    checked_at: '2026-09-16T11:35:31.682042-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:02:56.708858-04:00'
+  validated_at: '2026-09-16T11:35:31.682028-04:00'
 curated:
   forms: []
   traditions: []

@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/210697
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:01:50.029329-04:00'
+    checked_at: '2026-09-16T11:33:44.406986-04:00'
   - url: https://www.92ny.org/event/david-rubenstein-inside-the-owner-s-box
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:01:50.131138-04:00'
+    checked_at: '2026-09-16T11:33:44.445225-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-09-14T13:01:50.029300-04:00'
+  validated_at: '2026-09-16T11:33:44.406971-04:00'
 curated:
   forms: []
   traditions: []

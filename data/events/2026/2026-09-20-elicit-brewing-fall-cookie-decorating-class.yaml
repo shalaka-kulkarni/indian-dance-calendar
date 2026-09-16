@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/fairfield/fall-cookie-decorating-class-at-elicit-brewing-fairfield-ct/100001992517598775
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:01:25.006325-04:00'
+    checked_at: '2026-09-16T11:33:04.741851-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:01:25.006298-04:00'
+  validated_at: '2026-09-16T11:33:04.741836-04:00'
 curated:
   forms: []
   traditions: []

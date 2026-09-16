@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/bristol/food-city-500-nascar-cup-series/210002739164472
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:05:34.952202-04:00'
+    checked_at: '2026-09-16T11:38:49.882624-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:05:34.952173-04:00'
+  validated_at: '2026-09-16T11:38:49.882611-04:00'
 curated:
   forms: []
   traditions: []

@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/fort-worth/fall-benefit-show/200030318060517
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:01:11.377277-04:00'
+    checked_at: '2026-09-16T11:32:53.425422-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:01:11.377249-04:00'
+  validated_at: '2026-09-16T11:32:53.425407-04:00'
 curated:
   forms: []
   traditions: []

@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/las-vegas/las-vegas-super-show/200029919561428
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:01:15.683443-04:00'
+    checked_at: '2026-09-16T11:32:56.772790-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:01:15.683414-04:00'
+  validated_at: '2026-09-16T11:32:56.772775-04:00'
 curated:
   forms: []
   traditions: []

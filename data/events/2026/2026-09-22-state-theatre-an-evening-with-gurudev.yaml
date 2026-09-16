@@ -26,7 +26,7 @@ scraped:
   - source_id: state_theatre_nj
     url: https://www.stnj.org/events/detail/art-of-living-2026
     first_seen: '2026-09-14'
-    last_seen: '2026-09-14'
+    last_seen: '2026-09-16'
 validation:
   passed: false
   checks:
@@ -41,15 +41,15 @@ validation:
   - url: https://aolf.me/gurudevnj
     ok: true
     status_code: 200
-    checked_at: '2026-09-14T13:01:34.772132-04:00'
+    checked_at: '2026-09-16T11:33:21.840305-04:00'
   - url: https://www.stnj.org/events/detail/art-of-living-2026
     ok: true
     status_code: 406
-    checked_at: '2026-09-14T13:01:35.086479-04:00'
+    checked_at: '2026-09-16T11:33:22.183318-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-14T13:01:34.772105-04:00'
+  validated_at: '2026-09-16T11:33:21.840286-04:00'
 curated:
   forms: []
   traditions: []
