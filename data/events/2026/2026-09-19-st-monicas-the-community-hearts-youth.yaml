@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/cincinnati/the-community-hearts-youth-game-day/100001992070217646
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:33:00.656836-04:00'
+    checked_at: '2026-09-18T10:59:31.199869-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:33:00.656822-04:00'
+  validated_at: '2026-09-18T10:59:31.199848-04:00'
 curated:
   forms: []
   traditions: []

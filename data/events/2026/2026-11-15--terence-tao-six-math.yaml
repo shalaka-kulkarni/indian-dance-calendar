@@ -1,0 +1,47 @@
+id: 2026-11-15--terence-tao-six-math
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Terence Tao: Six Math Essentials'
+  start: '2026-11-15T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: brooklyn
+  is_free: false
+  price_note: ''
+  info_url: https://pioneerworks.org/programs/terence-tao-six-math-essentials
+  ticket_url: ''
+  description_snippet: 'program Sunday, Nov 15, 2026 Terence Tao: Six Math Essentials'
+  content_hash: f2cfd732870f10c8
+  sources:
+  - source_id: pioneer_works
+    url: https://pioneerworks.org/programs/terence-tao-six-math-essentials
+    first_seen: '2026-09-18'
+    last_seen: '2026-09-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://pioneerworks.org/programs/terence-tao-six-math-essentials
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-18T11:03:15.785914-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-18T11:03:15.785892-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

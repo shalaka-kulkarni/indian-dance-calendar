@@ -20,7 +20,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/trans-siberian-orchestra
     first_seen: '2026-09-11'
-    last_seen: '2026-09-16'
+    last_seen: '2026-09-18'
 validation:
   passed: false
   checks:
@@ -35,11 +35,11 @@ validation:
   - url: https://www.prucenter.com/events/trans-siberian-orchestra
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:38:37.146677-04:00'
+    checked_at: '2026-09-18T11:03:54.503536-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:38:37.146662-04:00'
+  validated_at: '2026-09-18T11:03:54.503513-04:00'
 curated:
   forms: []
   traditions: []

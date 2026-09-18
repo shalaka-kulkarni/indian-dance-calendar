@@ -1,0 +1,51 @@
+id: 2027-01-14--larry-campbell-teresa-williams
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Larry Campbell & Teresa Williams
+  start: '2027-01-14T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/larry-campbell-teresa-williams-27/
+  ticket_url: ''
+  description_snippet: Larry Campbell & Teresa Williams THU, JAN 14, 2027 at 7:30 PM On Sale Soon Larry
+    Campbell and Teresa Williams are a husband and wife duo who have been making music together since
+    1986, bringing a warmth, depth, and genuine chemistry to American roots music that can only come from
+    a lifetime spent together. It’s the kind of evening that reminds you what love songs are actually
+    for. On Sale Soon Learn More
+  content_hash: e09716e6553590a3
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/larry-campbell-teresa-williams-27/
+    first_seen: '2026-09-18'
+    last_seen: '2026-09-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/larry-campbell-teresa-williams-27/
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-18T11:03:56.089953-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-18T11:03:56.089934-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

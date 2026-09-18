@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/pottstown/fall-fest-at-the-village-church-pottstown/200030588291910
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:34:48.346358-04:00'
+    checked_at: '2026-09-18T11:00:49.388712-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:34:48.346334-04:00'
+  validated_at: '2026-09-18T11:00:49.388691-04:00'
 curated:
   forms: []
   traditions: []

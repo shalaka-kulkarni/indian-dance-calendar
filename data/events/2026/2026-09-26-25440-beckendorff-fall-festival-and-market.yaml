@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/katy/fall-festival-and-market/200030310276225
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:33:53.945794-04:00'
+    checked_at: '2026-09-18T11:00:00.648699-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:33:53.945779-04:00'
+  validated_at: '2026-09-18T11:00:00.648677-04:00'
 curated:
   forms: []
   traditions: []

@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/fredericksburg/9th-annual-toys-for-tots-car-show/200030245636432
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:36:10.141509-04:00'
+    checked_at: '2026-09-18T11:01:40.284009-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:36:10.141495-04:00'
+  validated_at: '2026-09-18T11:01:40.283987-04:00'
 curated:
   forms: []
   traditions: []

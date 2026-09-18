@@ -50,15 +50,15 @@ validation:
   - url: https://seats.92ny.org/single/210757
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:31:41.877998-04:00'
+    checked_at: '2026-09-18T10:58:56.295984-04:00'
   - url: https://www.92ny.org/event/dara-horn-with-coleman-hughes
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:31:42.007234-04:00'
+    checked_at: '2026-09-18T10:58:56.337948-04:00'
   problems:
   - event date 2026-09-08 is in the past
   - classified not-relevant
-  validated_at: '2026-09-16T11:31:41.877983-04:00'
+  validated_at: '2026-09-18T10:58:56.295962-04:00'
 curated:
   forms: []
   traditions: []

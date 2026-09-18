@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/scottsdale/halloween-event-presented-by-scottsdale-sparkle-tickets/80001073833927
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:36:06.152505-04:00'
+    checked_at: '2026-09-18T11:01:36.716877-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:36:06.152483-04:00'
+  validated_at: '2026-09-18T11:01:36.716856-04:00'
 curated:
   forms: []
   traditions: []

@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/winchester/4th-annual-veterans-festival-presented-by-capon-valley-bank-at-backseat-events/200030489668104
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:32:52.365035-04:00'
+    checked_at: '2026-09-18T10:59:24.157028-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:32:52.365020-04:00'
+  validated_at: '2026-09-18T10:59:24.157006-04:00'
 curated:
   forms: []
   traditions: []

@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/north-st-paul/festival-live-music-with-the-express-band-tickets/80002798306658
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:32:54.805704-04:00'
+    checked_at: '2026-09-18T10:59:26.275082-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:32:54.805688-04:00'
+  validated_at: '2026-09-18T10:59:26.275060-04:00'
 curated:
   forms: []
   traditions: []

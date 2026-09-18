@@ -1,0 +1,48 @@
+id: 2026-12-08-nick-cannon-nick-cannon-presents-wild
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Nick Cannon Presents: Wild ’N Out Live'
+  start: '2026-12-08T20:00:00-05:00'
+  end: '2026-12-08T21:00:00-05:00'
+  additional_dates: []
+  venue: 'Nick Cannon Presents: Wild ’N Out Live'
+  address: 'Nick Cannon Presents: Wild ’N Out Live'
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.prucenter.com/events/nick-cannon-wild-n-out
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: facbcb54b0ee69b7
+  sources:
+  - source_id: prudential_center
+    url: https://www.prucenter.com/events/nick-cannon-wild-n-out
+    first_seen: '2026-09-18'
+    last_seen: '2026-09-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.prucenter.com/events/nick-cannon-wild-n-out
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-18T11:03:40.331020-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-18T11:03:40.330998-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

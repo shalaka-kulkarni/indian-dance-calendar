@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/louisville/belknap-fall-festival-tickets/80001654246937
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:35:20.667588-04:00'
+    checked_at: '2026-09-18T11:01:10.892298-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:35:20.667573-04:00'
+  validated_at: '2026-09-18T11:01:10.892276-04:00'
 curated:
   forms: []
   traditions: []

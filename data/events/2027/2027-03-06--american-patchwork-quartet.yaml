@@ -1,0 +1,51 @@
+id: 2027-03-06--american-patchwork-quartet
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: American Patchwork Quartet
+  start: '2027-03-06T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/american-patchwork-quartet-27/
+  ticket_url: ''
+  description_snippet: American Patchwork Quartet SUN, MAR 6, 2027 at 7:30 PM On Sale Soon American Patchwork
+    Quartet , founded by multi-Grammy winning guitarist Clay Ross of Ranky Tanky, reimagines timeless
+    American folk songs through a stunning blend of jazz, Indian classical vocals, West African rhythm,
+    and country twang. Grammy nominated for Best Folk Album, APQ is a joyful, deeply rooted celebration
+    of the diversity that has always been at the heart of American music. On Sale Soon Learn More
+  content_hash: fd1771ad41959b0d
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/american-patchwork-quartet-27/
+    first_seen: '2026-09-18'
+    last_seen: '2026-09-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/american-patchwork-quartet-27/
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-18T11:04:13.753978-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-18T11:04:13.753961-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

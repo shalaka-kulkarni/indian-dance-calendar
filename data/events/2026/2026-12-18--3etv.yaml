@@ -1,0 +1,47 @@
+id: 2026-12-18--3etv
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 3ETV
+  start: '2026-12-18T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: brooklyn
+  is_free: false
+  price_note: ''
+  info_url: https://pioneerworks.org/programs/3etv
+  ticket_url: ''
+  description_snippet: program October 12 – December 18, 2026 3ETV
+  content_hash: 7d8f8393a8e06ebc
+  sources:
+  - source_id: pioneer_works
+    url: https://pioneerworks.org/programs/3etv
+    first_seen: '2026-09-18'
+    last_seen: '2026-09-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://pioneerworks.org/programs/3etv
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-18T11:03:51.539947-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-18T11:03:51.539926-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

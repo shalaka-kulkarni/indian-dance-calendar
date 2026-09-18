@@ -19,7 +19,7 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/instances/kgnhx9e6/2026-11-09/2026-2027-studio-5
     first_seen: '2026-08-21'
-    last_seen: '2026-09-16'
+    last_seen: '2026-09-18'
 validation:
   passed: false
   checks:
@@ -34,11 +34,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/kgnhx9e6/2026-11-09/2026-2027-studio-5
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:37:35.068131-04:00'
+    checked_at: '2026-09-18T11:03:01.707909-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:37:35.068117-04:00'
+  validated_at: '2026-09-18T11:03:01.707888-04:00'
 curated:
   forms: []
   traditions: []

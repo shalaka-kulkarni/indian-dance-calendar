@@ -48,12 +48,12 @@ validation:
   - url: https://pioneerworks.org/programs/opening-reception-for-tuomas-a-laitinen-lajune-mcmillian-and-finnegan-shannon-with-ariana
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:31:56.047459-04:00'
+    checked_at: '2026-09-18T10:59:02.742000-04:00'
   problems:
   - event date 2026-09-11 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-16T11:31:56.047444-04:00'
+  validated_at: '2026-09-18T10:59:02.741976-04:00'
 curated:
   forms: []
   traditions: []

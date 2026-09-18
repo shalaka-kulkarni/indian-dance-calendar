@@ -1,0 +1,53 @@
+id: 2026-10-16-92nd-street-kind-of-blue-band
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Kind of Blue Band: Miles Davis Centennial Celebration I'
+  start: '2026-10-16T19:30:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 45.0
+  price_max: 45.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/a-kind-of-blue-band-acoustic-miles
+  ticket_url: https://seats.92ny.org/single/210425
+  description_snippet: 'Exclusive NYC Miles Davis Estate centenary concert I: All-star celebration of
+    Miles’ jazz masterpiece Kind of Blue . Featuring Eddie Henderson & more.'
+  content_hash: efceea368a86db1d
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/a-kind-of-blue-band-acoustic-miles
+    first_seen: '2026-09-18'
+    last_seen: '2026-09-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/210425
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-18T11:01:32.794472-04:00'
+  - url: https://www.92ny.org/event/a-kind-of-blue-band-acoustic-miles
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-18T11:01:32.831736-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-09-18T11:01:32.794454-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

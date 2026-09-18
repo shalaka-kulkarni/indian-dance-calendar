@@ -37,14 +37,14 @@ validation:
   - url: https://www.92ny.org/event/anthony-scaramucci-with-nicolle-wallace
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:33:31.736698-04:00'
+    checked_at: '2026-09-18T10:59:50.734752-04:00'
   - url: https://seats.92ny.org/single/210657
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:33:31.840700-04:00'
+    checked_at: '2026-09-18T10:59:50.841771-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:33:31.736683-04:00'
+  validated_at: '2026-09-18T10:59:50.734730-04:00'
 curated:
   forms: []
   traditions: []

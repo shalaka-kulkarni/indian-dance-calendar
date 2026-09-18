@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/monroe/the-wild-west-fall-fest/200030327784020
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:33:58.150139-04:00'
+    checked_at: '2026-09-18T11:00:06.028954-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:33:58.150124-04:00'
+  validated_at: '2026-09-18T11:00:06.028933-04:00'
 curated:
   forms: []
   traditions: []

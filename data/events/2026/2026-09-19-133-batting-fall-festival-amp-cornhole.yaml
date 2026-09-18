@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/jacksonville/fall-festival-and-cornhole-tournament/200030264181342
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:32:52.516828-04:00'
+    checked_at: '2026-09-18T10:59:24.267380-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:32:52.516813-04:00'
+  validated_at: '2026-09-18T10:59:24.267358-04:00'
 curated:
   forms: []
   traditions: []

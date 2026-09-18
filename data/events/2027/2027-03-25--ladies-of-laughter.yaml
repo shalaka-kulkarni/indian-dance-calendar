@@ -1,0 +1,51 @@
+id: 2027-03-25--ladies-of-laughter
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Ladies of Laughter
+  start: '2027-03-25T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/ladies-of-laughter-march-27/
+  ticket_url: ''
+  description_snippet: Ladies of Laughter THU, MAR 25, 2027 at 7:30PM Buy Tickets The Ladies of Laughter
+    brings the best talent from their renowned national competition to SOPAC for an unforgettable evening
+    of comedy . The program has grown into a powerful platform known as “The Careerbuilder for Women in
+    Comedy.” With a star-studded alumni roster that includes Amy Schumer, Tammy Pescatelli, and Melissa
+    Rauch. Buy Tickets Learn More
+  content_hash: e93ce21ecb08c280
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/ladies-of-laughter-march-27/
+    first_seen: '2026-09-18'
+    last_seen: '2026-09-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/ladies-of-laughter-march-27/
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-18T11:04:15.322146-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-18T11:04:15.322127-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

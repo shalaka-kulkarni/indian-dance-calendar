@@ -15,19 +15,19 @@ scraped:
   is_free: false
   price_note: ''
   info_url: https://www.stnj.org/events/detail/mc-fiestawithflor-2026
-  ticket_url: ''
+  ticket_url: https://my.stnj.org/overview/25717
   description_snippet: Fiesta with Flor is a vibrant, high-energy celebration of global music, culture,
     and community! Grammy® and Latin Grammy® nominee Flor Bromley invites audiences of all ages to sing,
     dance, move, and celebrate together through irresistible rhythms, joyful songs, and interactive storytelling.
     Inspired by the rich musical traditions of Latin America, the show creates a welcoming, dynamic experience
     where everyone is part of the fiesta. Milk & Cookies is a lively, interactive storytelling and music
     series for families. This program, which takes place in our Studio, is the perfect way to introduce
-  content_hash: 27fd6c5bde08fbf4
+  content_hash: 2e02a27c0c0480d8
   sources:
   - source_id: state_theatre_nj
     url: https://www.stnj.org/events/detail/mc-fiestawithflor-2026
     first_seen: '2026-09-16'
-    last_seen: '2026-09-16'
+    last_seen: '2026-09-18'
 validation:
   passed: false
   checks:
@@ -39,13 +39,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
+  - url: https://my.stnj.org/overview/25717
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-18T11:00:48.634439-04:00'
   - url: https://www.stnj.org/events/detail/mc-fiestawithflor-2026
     ok: true
     status_code: 406
-    checked_at: '2026-09-16T11:34:47.671105-04:00'
+    checked_at: '2026-09-18T11:00:48.663242-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:34:47.671091-04:00'
+  validated_at: '2026-09-18T11:00:48.634418-04:00'
 curated:
   forms: []
   traditions: []

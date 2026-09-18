@@ -19,7 +19,7 @@ scraped:
   - source_id: cmana
     url: https://www.cmana.org/etn/2026-pallavi-darbar/
     first_seen: '2026-08-24'
-    last_seen: '2026-09-16'
+    last_seen: '2026-09-18'
 validation:
   passed: false
   checks:
@@ -34,11 +34,11 @@ validation:
   - url: https://www.cmana.org/etn/2026-pallavi-darbar/
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:33:51.056876-04:00'
+    checked_at: '2026-09-18T10:59:58.143680-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:33:51.056861-04:00'
+  validated_at: '2026-09-18T10:59:58.143658-04:00'
 curated:
   forms: []
   traditions: []

@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/boston/dorchester-ma-golden-ghouls-drag-show-dorchester-brewing-co/100001994474554081
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:33:49.580133-04:00'
+    checked_at: '2026-09-18T10:59:56.138248-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:33:49.580117-04:00'
+  validated_at: '2026-09-18T10:59:56.138227-04:00'
 curated:
   forms: []
   traditions: []

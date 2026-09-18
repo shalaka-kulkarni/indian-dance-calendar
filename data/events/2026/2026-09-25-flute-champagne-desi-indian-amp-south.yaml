@@ -1,0 +1,49 @@
+id: 2026-09-25-flute-champagne-desi-indian-amp-south
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Desi, Indian &amp; South Asian Singles - Speed Dating
+  start: '2026-09-25T00:00:00-04:00'
+  end: '2026-09-25T00:00:00-04:00'
+  additional_dates: []
+  venue: Flute Champagne Bar
+  address: 205 W 54th St, New York, NY
+  region: manhattan
+  price_min: 38.09
+  price_max: 38.09
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/new-york/desi-indian-and-south-asian-singles-speed-dating/100001999552274680
+  ticket_url: https://allevents.in/new-york/desi-indian-and-south-asian-singles-speed-dating/100001999552274680
+  description_snippet: ''
+  content_hash: a9603552ba496dd4
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/new-york/desi-indian-and-south-asian-singles-speed-dating/100001999552274680
+    first_seen: '2026-09-18'
+    last_seen: '2026-09-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://allevents.in/new-york/desi-indian-and-south-asian-singles-speed-dating/100001999552274680
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-18T10:59:56.323524-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-09-18T10:59:56.323502-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

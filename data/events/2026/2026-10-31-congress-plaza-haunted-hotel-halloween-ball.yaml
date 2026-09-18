@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/chicago/haunted-hotel-halloween-ball-2026-at-congress-plaza-hotel/100001970651005205
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:37:14.478000-04:00'
+    checked_at: '2026-09-18T11:02:40.306016-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:37:14.477985-04:00'
+  validated_at: '2026-09-18T11:02:40.305990-04:00'
 curated:
   forms: []
   traditions: []

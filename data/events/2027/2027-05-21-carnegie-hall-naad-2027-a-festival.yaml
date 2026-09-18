@@ -54,10 +54,10 @@ validation:
   - url: https://www.carnegiehall.org/Events/Highlights/Festivals-and-Artistic-Focuses/Naad-2027
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:38:51.898930-04:00'
+    checked_at: '2026-09-18T11:04:20.822008-04:00'
   problems:
   - no price information
-  validated_at: '2026-09-16T11:38:51.898916-04:00'
+  validated_at: '2026-09-18T11:04:20.821987-04:00'
 curated:
   forms: []
   art_form: music

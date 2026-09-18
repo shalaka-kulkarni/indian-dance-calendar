@@ -38,14 +38,14 @@ validation:
   - url: https://www.92ny.org/event/mario-documentary-screening-and-conversation
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:36:11.420663-04:00'
+    checked_at: '2026-09-18T11:01:41.538787-04:00'
   - url: https://seats.92ny.org/single/210931
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:36:15.777474-04:00'
+    checked_at: '2026-09-18T11:01:43.632772-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:36:11.420648-04:00'
+  validated_at: '2026-09-18T11:01:41.538767-04:00'
 curated:
   forms: []
   traditions: []

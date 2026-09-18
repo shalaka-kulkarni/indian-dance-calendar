@@ -21,7 +21,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/jo-koy
     first_seen: '2026-09-14'
-    last_seen: '2026-09-16'
+    last_seen: '2026-09-18'
 validation:
   passed: false
   checks:
@@ -36,11 +36,11 @@ validation:
   - url: https://www.prucenter.com/events/jo-koy
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:38:50.677458-04:00'
+    checked_at: '2026-09-18T11:04:18.960484-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:38:50.677442-04:00'
+  validated_at: '2026-09-18T11:04:18.960461-04:00'
 curated:
   forms: []
   traditions: []

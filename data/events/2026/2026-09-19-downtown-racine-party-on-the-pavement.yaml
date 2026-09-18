@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/racine/party-on-the-pavement/200029431241208
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:32:55.350872-04:00'
+    checked_at: '2026-09-18T10:59:26.538709-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:32:55.350858-04:00'
+  validated_at: '2026-09-18T10:59:26.538687-04:00'
 curated:
   forms: []
   traditions: []

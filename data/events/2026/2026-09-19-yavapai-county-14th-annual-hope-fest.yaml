@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/prescott/14th-annual-hope-fest-arizona/200030284729856
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:33:02.232064-04:00'
+    checked_at: '2026-09-18T10:59:32.162866-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:33:02.232016-04:00'
+  validated_at: '2026-09-18T10:59:32.162845-04:00'
 curated:
   forms: []
   traditions: []

@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/detroit/center-field-26-hbcu-dance-intensive-new-dates/100001977560574914
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:32:55.800918-04:00'
+    checked_at: '2026-09-18T10:59:27.011153-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:32:55.800903-04:00'
+  validated_at: '2026-09-18T10:59:27.011131-04:00'
 curated:
   forms: []
   traditions: []

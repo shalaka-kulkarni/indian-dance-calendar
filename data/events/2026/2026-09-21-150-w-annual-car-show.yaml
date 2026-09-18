@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/oak-creek/annual-car-show/200030559623247
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:33:06.981752-04:00'
+    checked_at: '2026-09-18T10:59:36.197538-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:33:06.981738-04:00'
+  validated_at: '2026-09-18T10:59:36.197515-04:00'
 curated:
   forms: []
   traditions: []

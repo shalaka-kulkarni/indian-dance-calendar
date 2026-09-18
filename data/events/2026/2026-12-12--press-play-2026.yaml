@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/press-play-2026
     first_seen: '2026-08-18'
-    last_seen: '2026-09-16'
+    last_seen: '2026-09-18'
 ai:
   relevant: false
   kind: performance
@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/press-play-2026
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:38:28.270909-04:00'
+    checked_at: '2026-09-18T11:03:42.341548-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-16T11:38:28.270895-04:00'
+  validated_at: '2026-09-18T11:03:42.341532-04:00'
 curated:
   forms: []
   traditions: []

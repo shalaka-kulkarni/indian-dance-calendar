@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/atlanta/teacher-bae-incs-4th-annual-back-to-school-self-care-con/100001998281402467
     ok: true
     status_code: 200
-    checked_at: '2026-09-16T11:34:05.549972-04:00'
+    checked_at: '2026-09-18T11:00:09.177231-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-16T11:34:05.549957-04:00'
+  validated_at: '2026-09-18T11:00:09.177200-04:00'
 curated:
   forms: []
   traditions: []
