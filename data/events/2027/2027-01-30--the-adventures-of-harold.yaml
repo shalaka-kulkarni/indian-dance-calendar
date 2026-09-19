@@ -53,11 +53,11 @@ validation:
   - url: https://www.sopacnow.org/events/harold-and-the-purple-crayon-2027/
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:04:02.100933-04:00'
+    checked_at: '2026-09-19T12:17:18.603935-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-18T11:04:02.100913-04:00'
+  validated_at: '2026-09-19T12:17:18.603908-04:00'
 curated:
   forms: []
   traditions: []

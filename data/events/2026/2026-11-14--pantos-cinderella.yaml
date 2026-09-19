@@ -53,11 +53,11 @@ validation:
   - url: https://www.sopacnow.org/events/panto-cinderella-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:03:14.702736-04:00'
+    checked_at: '2026-09-19T12:16:25.481046-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-18T11:03:14.702716-04:00'
+  validated_at: '2026-09-19T12:16:25.481019-04:00'
 curated:
   forms: []
   traditions: []

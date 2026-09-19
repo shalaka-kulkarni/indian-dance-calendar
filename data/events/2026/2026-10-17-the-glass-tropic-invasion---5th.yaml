@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/jacksonville/tropic-invasion-5th-annual-music-art-and-halloween-festival/100001996800166049
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:01:40.384936-04:00'
+    checked_at: '2026-09-19T12:14:32.311128-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T11:01:40.384914-04:00'
+  validated_at: '2026-09-19T12:14:32.311100-04:00'
 curated:
   forms: []
   traditions: []

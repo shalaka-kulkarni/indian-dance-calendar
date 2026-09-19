@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/pottstown/pottstown-fall-fest-2026/200030299295019
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:01:20.195984-04:00'
+    checked_at: '2026-09-19T12:13:51.766604-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T11:01:20.195958-04:00'
+  validated_at: '2026-09-19T12:13:51.766575-04:00'
 curated:
   forms: []
   traditions: []

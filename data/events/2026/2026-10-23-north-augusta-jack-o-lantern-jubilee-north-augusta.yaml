@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/augusta/jack-o-lantern-jubilee-north-augusta-sc-tauren-wells-chris-janson/200030466354945
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:02:06.095790-04:00'
+    checked_at: '2026-09-19T12:14:56.668296-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T11:02:06.095768-04:00'
+  validated_at: '2026-09-19T12:14:56.668269-04:00'
 curated:
   forms: []
   traditions: []

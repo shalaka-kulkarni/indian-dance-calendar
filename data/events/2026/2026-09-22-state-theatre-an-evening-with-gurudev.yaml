@@ -41,15 +41,15 @@ validation:
   - url: https://www.stnj.org/events/detail/art-of-living-2026
     ok: true
     status_code: 406
-    checked_at: '2026-09-18T10:59:45.793260-04:00'
+    checked_at: '2026-09-19T12:11:57.037153-04:00'
   - url: https://aolf.me/gurudevnj
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T10:59:45.848865-04:00'
+    checked_at: '2026-09-19T12:11:57.165649-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T10:59:45.793238-04:00'
+  validated_at: '2026-09-19T12:11:57.037125-04:00'
 curated:
   forms: []
   traditions: []

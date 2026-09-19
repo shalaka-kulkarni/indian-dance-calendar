@@ -48,11 +48,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/xcfxmznn/2026-10-16/2026-2027-alex-edelman
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:01:32.425016-04:00'
+    checked_at: '2026-09-19T12:14:19.207874-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-18T11:01:32.424998-04:00'
+  validated_at: '2026-09-19T12:14:19.207847-04:00'
 curated:
   forms: []
   traditions: []

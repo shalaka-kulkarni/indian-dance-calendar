@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/katy/opening-day-of-mama-ns-pumpkin-patch/200030515101137
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:00:01.506144-04:00'
+    checked_at: '2026-09-19T12:12:28.696186-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T11:00:01.506121-04:00'
+  validated_at: '2026-09-19T12:12:28.696159-04:00'
 curated:
   forms: []
   traditions: []

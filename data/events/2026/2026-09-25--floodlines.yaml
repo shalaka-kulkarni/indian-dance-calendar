@@ -34,11 +34,11 @@ validation:
   - url: https://pioneerworks.org/programs/flood-lines
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T10:59:52.338895-04:00'
+    checked_at: '2026-09-19T12:12:14.122115-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T10:59:52.338873-04:00'
+  validated_at: '2026-09-19T12:12:14.122086-04:00'
 curated:
   forms: []
   traditions: []

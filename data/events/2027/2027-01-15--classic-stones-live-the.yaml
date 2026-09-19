@@ -50,11 +50,11 @@ validation:
   - url: https://www.sopacnow.org/events/classic-stones-live-2027/
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:03:56.121403-04:00'
+    checked_at: '2026-09-19T12:17:13.824327-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-18T11:03:56.121386-04:00'
+  validated_at: '2026-09-19T12:17:13.824303-04:00'
 curated:
   forms: []
   traditions: []

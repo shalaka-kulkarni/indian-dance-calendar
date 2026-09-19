@@ -29,7 +29,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: true
     in_metro: false
     classified: false
@@ -37,11 +37,12 @@ validation:
   - url: https://allevents.in/fredericksburg/11th-annual-fredericksburg-classic-car-and-truck-show/100001990520977828
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T10:59:29.377831-04:00'
+    checked_at: '2026-09-19T12:11:38.169037-04:00'
   problems:
+  - event date 2026-09-19 is in the past
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T10:59:29.377808-04:00'
+  validated_at: '2026-09-19T12:11:38.169011-04:00'
 curated:
   forms: []
   traditions: []

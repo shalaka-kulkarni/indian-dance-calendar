@@ -40,11 +40,11 @@ validation:
   - url: https://chhandayan.org/calendar/2026/9/26/vocal-concert-supriyo-dutta
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T10:59:58.926101-04:00'
+    checked_at: '2026-09-19T12:12:26.135148-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T10:59:58.926082-04:00'
+  validated_at: '2026-09-19T12:12:26.135119-04:00'
 curated:
   forms: []
   traditions: []

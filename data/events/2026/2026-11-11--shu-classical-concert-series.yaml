@@ -37,11 +37,11 @@ validation:
   - url: https://www.sopacnow.org/events/norma-shu-nov-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:03:07.312373-04:00'
+    checked_at: '2026-09-19T12:16:17.037002-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T11:03:07.312363-04:00'
+  validated_at: '2026-09-19T12:16:17.036988-04:00'
 curated:
   forms: []
   traditions: []

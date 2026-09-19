@@ -35,11 +35,11 @@ validation:
   - url: https://www.prucenter.com/events/nick-cannon-wild-n-out
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:03:40.331020-04:00'
+    checked_at: '2026-09-19T12:16:57.492907-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T11:03:40.330998-04:00'
+  validated_at: '2026-09-19T12:16:57.492881-04:00'
 curated:
   forms: []
   traditions: []

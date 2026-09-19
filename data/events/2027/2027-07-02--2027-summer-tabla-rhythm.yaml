@@ -40,11 +40,11 @@ validation:
   - url: https://chhandayan.org/calendar/2023/7/1/2023-tabla-ashram-at-shanti-mandir-793t4-4t8hw-raz7z-dmjhj-6t623-fxywn-sy97a
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:04:22.614882-04:00'
+    checked_at: '2026-09-19T12:17:42.388236-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T11:04:22.614861-04:00'
+  validated_at: '2026-09-19T12:17:42.388209-04:00'
 curated:
   forms: []
   traditions: []

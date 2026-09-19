@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/katy/the-patch-fcckaty-2026/200030654723628
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:00:16.239089-04:00'
+    checked_at: '2026-09-19T12:12:48.321925-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T11:00:16.239068-04:00'
+  validated_at: '2026-09-19T12:12:48.321894-04:00'
 curated:
   forms: []
   traditions: []

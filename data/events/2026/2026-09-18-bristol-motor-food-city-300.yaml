@@ -1,5 +1,5 @@
 id: 2026-09-18-bristol-motor-food-city-300
-status: needs_attention
+status: past
 was_published: false
 needs_recheck: false
 scraped:
@@ -34,13 +34,13 @@ validation:
   - url: https://allevents.in/bristol/food-city-300/210003698622609
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T10:59:21.513389-04:00'
+    checked_at: '2026-09-19T12:11:25.737443-04:00'
   problems:
   - event date 2026-09-18 is in the past
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T10:59:21.513368-04:00'
+  validated_at: '2026-09-19T12:11:25.737417-04:00'
 curated:
   forms: []
   traditions: []

@@ -50,11 +50,11 @@ validation:
   - url: https://www.sopacnow.org/events/dizzy-gillespie-big-band-2027/
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:04:16.372309-04:00'
+    checked_at: '2026-09-19T12:17:33.510702-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-18T11:04:16.372286-04:00'
+  validated_at: '2026-09-19T12:17:33.510675-04:00'
 curated:
   forms: []
   traditions: []

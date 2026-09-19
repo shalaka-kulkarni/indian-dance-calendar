@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/houston/free-autism-carnival/100001981796900879
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:00:48.517926-04:00'
+    checked_at: '2026-09-19T12:13:22.407295-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T11:00:48.517902-04:00'
+  validated_at: '2026-09-19T12:13:22.407264-04:00'
 curated:
   forms: []
   traditions: []

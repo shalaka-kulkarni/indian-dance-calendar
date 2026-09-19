@@ -29,7 +29,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: true
     in_metro: false
     classified: false
@@ -37,11 +37,12 @@ validation:
   - url: https://allevents.in/seattle/the-hot-for-teacher-comedy-show-back-to-school-blowout/100001998119318670
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T10:59:29.265109-04:00'
+    checked_at: '2026-09-19T12:11:38.066896-04:00'
   problems:
+  - event date 2026-09-19 is in the past
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T10:59:29.265086-04:00'
+  validated_at: '2026-09-19T12:11:38.066868-04:00'
 curated:
   forms: []
   traditions: []

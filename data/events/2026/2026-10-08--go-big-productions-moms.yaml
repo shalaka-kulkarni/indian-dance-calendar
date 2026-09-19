@@ -38,11 +38,11 @@ validation:
   - url: https://www.sopacnow.org/events/moms-unhinged-standup-comedy-show/
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:01:07.855986-04:00'
+    checked_at: '2026-09-19T12:13:36.967232-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T11:01:07.855965-04:00'
+  validated_at: '2026-09-19T12:13:36.967204-04:00'
 curated:
   forms: []
   traditions: []

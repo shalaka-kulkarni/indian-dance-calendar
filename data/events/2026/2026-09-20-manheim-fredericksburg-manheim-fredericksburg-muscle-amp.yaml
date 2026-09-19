@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/fredericksburg/manheim-fredericksburg-muscle-and-mods-car-show/200030147427519
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T10:59:34.259327-04:00'
+    checked_at: '2026-09-19T12:11:48.472078-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T10:59:34.259299-04:00'
+  validated_at: '2026-09-19T12:11:48.472052-04:00'
 curated:
   forms: []
   traditions: []

@@ -38,14 +38,14 @@ validation:
   - url: https://seats.92ny.org/single/211268
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:02:20.156397-04:00'
+    checked_at: '2026-09-19T12:15:14.590643-04:00'
   - url: https://www.92ny.org/event/a-new-york-times-games-night
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:02:20.203560-04:00'
+    checked_at: '2026-09-19T12:15:14.628138-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T11:02:20.156375-04:00'
+  validated_at: '2026-09-19T12:15:14.590616-04:00'
 curated:
   forms: []
   traditions: []

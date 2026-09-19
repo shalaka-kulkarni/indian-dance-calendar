@@ -35,11 +35,11 @@ validation:
   - url: https://pioneerworks.org/programs/live-on-the-lot-radio-pioneer-works-invites-lia-kohl
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T10:59:52.967304-04:00'
+    checked_at: '2026-09-19T12:12:14.876658-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T10:59:52.967282-04:00'
+  validated_at: '2026-09-19T12:12:14.876624-04:00'
 curated:
   forms: []
   traditions: []

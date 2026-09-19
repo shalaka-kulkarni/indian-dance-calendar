@@ -50,17 +50,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://my.stnj.org/25133/25134
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-18T11:00:48.722113-04:00'
   - url: https://www.stnj.org/events/detail/rocky-horror-picture-show-2026
     ok: true
     status_code: 406
-    checked_at: '2026-09-18T11:00:48.792521-04:00'
+    checked_at: '2026-09-19T12:13:22.865029-04:00'
+  - url: https://my.stnj.org/25133/25134
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-19T12:13:22.999193-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-09-18T11:00:48.722092-04:00'
+  validated_at: '2026-09-19T12:13:22.865001-04:00'
 curated:
   forms: []
   traditions: []

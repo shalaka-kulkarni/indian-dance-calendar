@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/baltimore/crab-feast/100001981056483270
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:00:04.674420-04:00'
+    checked_at: '2026-09-19T12:12:32.547733-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T11:00:04.674395-04:00'
+  validated_at: '2026-09-19T12:12:32.547705-04:00'
 curated:
   forms: []
   traditions: []

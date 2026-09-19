@@ -37,10 +37,10 @@ validation:
   - url: https://events.sulekha.com/saavyra-presents-garba-unlocked_event-in_new-york-ny_401475
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:00:36.485295-04:00'
+    checked_at: '2026-09-19T12:13:09.967956-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T11:00:36.485272-04:00'
+  validated_at: '2026-09-19T12:13:09.967930-04:00'
 curated:
   forms: []
   traditions: []

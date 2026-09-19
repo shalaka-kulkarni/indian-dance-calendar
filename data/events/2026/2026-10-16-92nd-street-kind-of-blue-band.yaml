@@ -34,17 +34,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210425
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-18T11:01:32.794472-04:00'
   - url: https://www.92ny.org/event/a-kind-of-blue-band-acoustic-miles
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:01:32.831736-04:00'
+    checked_at: '2026-09-19T12:14:20.600077-04:00'
+  - url: https://seats.92ny.org/single/210425
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-19T12:14:22.409863-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T11:01:32.794454-04:00'
+  validated_at: '2026-09-19T12:14:20.600051-04:00'
 curated:
   forms: []
   traditions: []

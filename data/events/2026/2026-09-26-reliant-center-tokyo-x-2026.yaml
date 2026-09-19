@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/houston/tokyo-x-2026/100001978497737994
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:00:06.896012-04:00'
+    checked_at: '2026-09-19T12:12:34.559671-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T11:00:06.895990-04:00'
+  validated_at: '2026-09-19T12:12:34.559643-04:00'
 curated:
   forms: []
   traditions: []

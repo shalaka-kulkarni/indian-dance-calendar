@@ -53,11 +53,11 @@ validation:
   - url: https://www.sopacnow.org/events/the-blind-boys-of-alabama/
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:01:32.214474-04:00'
+    checked_at: '2026-09-19T12:14:18.670247-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-18T11:01:32.214454-04:00'
+  validated_at: '2026-09-19T12:14:18.670221-04:00'
 curated:
   forms: []
   traditions: []

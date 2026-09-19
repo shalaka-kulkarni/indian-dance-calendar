@@ -36,11 +36,11 @@ validation:
   - url: https://www.joyce.org/performances/choreographers-and-cocktails-1hjr
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:02:01.804905-04:00'
+    checked_at: '2026-09-19T12:14:50.876801-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T11:02:01.804884-04:00'
+  validated_at: '2026-09-19T12:14:50.876773-04:00'
 curated:
   forms: []
   traditions: []

@@ -28,7 +28,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: false
     in_metro: false
     classified: false
@@ -36,12 +36,13 @@ validation:
   - url: https://allevents.in/stafford-springs/tour-of-destruction-stafford-motor-speedway/200029566910140
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T10:59:31.341076-04:00'
+    checked_at: '2026-09-19T12:11:40.703842-04:00'
   problems:
+  - event date 2026-09-19 is in the past
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T10:59:31.341054-04:00'
+  validated_at: '2026-09-19T12:11:40.703802-04:00'
 curated:
   forms: []
   traditions: []

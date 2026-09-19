@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/san-diego/2026-san-diego-zombie-crawl-2-halloween-weekends-oct-23-24-30-31-tickets/80002615116522
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:02:39.754033-04:00'
+    checked_at: '2026-09-19T12:15:35.297139-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T11:02:39.754011-04:00'
+  validated_at: '2026-09-19T12:15:35.297112-04:00'
 curated:
   forms: []
   traditions: []

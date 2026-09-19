@@ -1,5 +1,5 @@
 id: 2026-09-18-adler-hall-l-shankar-masters-series
-status: published
+status: past
 was_published: true
 needs_recheck: false
 scraped:
@@ -38,12 +38,12 @@ ai:
   model: claude-fable-5
   classified_at: '2026-08-17'
 validation:
-  passed: true
+  passed: false
   checks:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: false
     in_metro: true
     classified: true
@@ -51,10 +51,11 @@ validation:
   - url: https://worldmusiccentral.org/l-shankar-to-present-decades-of-violin-innovation-in-manhattan/
     ok: true
     status_code: 403
-    checked_at: '2026-09-18T10:59:21.073603-04:00'
+    checked_at: '2026-09-19T12:11:25.371499-04:00'
   problems:
+  - event date 2026-09-18 is in the past
   - no price information
-  validated_at: '2026-09-18T10:59:21.073582-04:00'
+  validated_at: '2026-09-19T12:11:25.371473-04:00'
 curated:
   forms: []
   art_form: music

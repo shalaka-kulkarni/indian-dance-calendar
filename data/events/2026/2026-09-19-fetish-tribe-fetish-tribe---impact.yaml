@@ -26,7 +26,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: false
     in_metro: true
     classified: false
@@ -34,11 +34,12 @@ validation:
   - url: https://allevents.in/new-york/fetish-tribe-impact-back-to-school-edition-september-19th/200030324667951
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T10:59:26.636567-04:00'
+    checked_at: '2026-09-19T12:11:35.163456-04:00'
   problems:
+  - event date 2026-09-19 is in the past
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T10:59:26.636545-04:00'
+  validated_at: '2026-09-19T12:11:35.163430-04:00'
 curated:
   forms: []
   traditions: []

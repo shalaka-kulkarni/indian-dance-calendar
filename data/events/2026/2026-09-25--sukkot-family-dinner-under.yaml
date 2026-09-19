@@ -37,14 +37,14 @@ validation:
   - url: https://seats.92ny.org/single/211154
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T10:59:53.500743-04:00'
+    checked_at: '2026-09-19T12:12:15.342656-04:00'
   - url: https://www.92ny.org/event/sukkot-family-dinner
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T10:59:53.549224-04:00'
+    checked_at: '2026-09-19T12:12:15.446252-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T10:59:53.500721-04:00'
+  validated_at: '2026-09-19T12:12:15.342627-04:00'
 curated:
   forms: []
   traditions: []

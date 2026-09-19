@@ -1,5 +1,5 @@
 id: 2026-09-18-92nd-street-shabbat-bivrit-hebrew-speaking
-status: needs_attention
+status: past
 was_published: false
 needs_recheck: false
 scraped:
@@ -28,7 +28,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: true
     in_metro: true
     classified: false
@@ -36,14 +36,15 @@ validation:
   - url: https://seats.92ny.org/single/211217
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T10:59:18.264841-04:00'
+    checked_at: '2026-09-19T12:11:22.976379-04:00'
   - url: https://www.92ny.org/event/shabbat-b-ivrit
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T10:59:18.294462-04:00'
+    checked_at: '2026-09-19T12:11:23.013323-04:00'
   problems:
+  - event date 2026-09-18 is in the past
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T10:59:18.264822-04:00'
+  validated_at: '2026-09-19T12:11:22.976351-04:00'
 curated:
   forms: []
   traditions: []

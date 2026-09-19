@@ -40,20 +40,21 @@ validation:
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
   link_checks:
   - url: https://www.prucenter.com/events/world-of-warcraft-20-years-of-music
-    ok: true
-    status_code: 502
-    checked_at: '2026-09-18T11:00:32.657417-04:00'
+    ok: false
+    status_code: 404
+    checked_at: '2026-09-19T12:13:04.857018-04:00'
   problems:
+  - 'dead links: https://www.prucenter.com/events/world-of-warcraft-20-years-of-music'
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-18T11:00:32.657395-04:00'
+  validated_at: '2026-09-19T12:13:04.856993-04:00'
 curated:
   forms: []
   traditions: []

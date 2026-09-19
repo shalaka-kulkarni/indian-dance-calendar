@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/peoria/desert-west-october-nights-10-3/200030536793030
     ok: true
     status_code: 200
-    checked_at: '2026-09-18T11:00:47.504880-04:00'
+    checked_at: '2026-09-19T12:13:21.473700-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-18T11:00:47.504857-04:00'
+  validated_at: '2026-09-19T12:13:21.473671-04:00'
 curated:
   forms: []
   traditions: []
