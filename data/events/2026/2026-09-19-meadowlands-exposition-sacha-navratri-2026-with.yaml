@@ -1,5 +1,5 @@
 id: 2026-09-19-meadowlands-exposition-sacha-navratri-2026-with
-status: published
+status: past
 was_published: true
 needs_recheck: false
 scraped:
@@ -39,20 +39,14 @@ validation:
   passed: true
   checks:
     has_info_url: true
-    specific_url: true
     links_live: true
-    date_valid: true
-    price_known: false
-    in_metro: true
-    classified: true
   link_checks:
   - url: https://www.premiertickets.co/event/sacha-navratri-2026-with-kinjal-dave-in-new-jersey/
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:11:37.239532-04:00'
-  problems:
-  - no price information
-  validated_at: '2026-09-19T12:11:37.239503-04:00'
+    checked_at: '2026-09-21T13:00:39.513459-04:00'
+  problems: []
+  validated_at: '2026-09-21T13:00:39.513457-04:00'
 curated:
   forms:
   - folk

@@ -26,7 +26,7 @@ scraped:
   - source_id: allevents
     url: https://allevents.in/new-york/annual-dr-sunil-kothari-lecture-the-balanced-breath-by-rama-vaidyanathan/100001998913930375
     first_seen: '2026-09-11'
-    last_seen: '2026-09-18'
+    last_seen: '2026-09-21'
 ai:
   relevant: true
   kind: talk
@@ -55,10 +55,10 @@ validation:
   - url: https://www.amnewscurtainraiser.com/2026/08/erasing-borders-dance-festival-returns.html
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:12:12.099747-04:00'
+    checked_at: '2026-09-21T13:01:09.793563-04:00'
   problems:
   - no price information
-  validated_at: '2026-09-19T12:12:12.099719-04:00'
+  validated_at: '2026-09-21T13:01:09.793547-04:00'
 curated:
   forms:
   - bharatanatyam

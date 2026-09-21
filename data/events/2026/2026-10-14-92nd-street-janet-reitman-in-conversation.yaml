@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/janet-reitman-with-george-packer
     first_seen: '2026-09-18'
-    last_seen: '2026-09-18'
+    last_seen: '2026-09-21'
 validation:
   passed: false
   checks:
@@ -38,14 +38,14 @@ validation:
   - url: https://www.92ny.org/event/janet-reitman-with-george-packer
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:14:12.149989-04:00'
+    checked_at: '2026-09-21T13:02:54.264277-04:00'
   - url: https://seats.92ny.org/single/211343
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:14:16.074354-04:00'
+    checked_at: '2026-09-21T13:02:54.390371-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-19T12:14:12.149963-04:00'
+  validated_at: '2026-09-21T13:02:54.264248-04:00'
 curated:
   forms: []
   traditions: []

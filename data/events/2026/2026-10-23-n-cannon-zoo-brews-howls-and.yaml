@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/chicago/zoo-brews-howls-and-growls/200030571345022
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:14:56.457513-04:00'
+    checked_at: '2026-09-21T13:03:29.189934-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-19T12:14:56.457487-04:00'
+  validated_at: '2026-09-21T13:03:29.189913-04:00'
 curated:
   forms: []
   traditions: []

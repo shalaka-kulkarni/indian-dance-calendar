@@ -21,7 +21,7 @@ scraped:
   - source_id: queens_theatre
     url: https://queenstheatre.org/events/dia-de-muertos-q7ft
     first_seen: '2026-08-16'
-    last_seen: '2026-09-18'
+    last_seen: '2026-09-21'
 ai:
   relevant: false
   kind: other
@@ -49,11 +49,11 @@ validation:
   - url: https://queenstheatre.org/events/dia-de-muertos-q7ft
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:14:31.249727-04:00'
+    checked_at: '2026-09-21T13:03:05.871439-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-19T12:14:31.249702-04:00'
+  validated_at: '2026-09-21T13:03:05.871409-04:00'
 curated:
   forms: []
   traditions: []

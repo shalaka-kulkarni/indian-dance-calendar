@@ -46,24 +46,24 @@ validation:
   checks:
     has_info_url: true
     specific_url: true
-    links_live: false
-    date_valid: true
+    links_live: true
+    date_valid: false
     price_known: true
     in_metro: true
     classified: false
   link_checks:
   - url: https://www.stnj.org/events/detail/comedy-night-live-2027
     ok: true
-    status_code: 200
-    checked_at: '2026-09-19T12:11:40.854517-04:00'
+    status_code: 406
+    checked_at: '2026-09-21T13:00:42.433472-04:00'
   - url: https://my.stnj.org/25277/25278
-    ok: false
-    status_code: 404
-    checked_at: '2026-09-19T12:11:41.171529-04:00'
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-21T13:00:42.849531-04:00'
   problems:
-  - 'dead links: https://my.stnj.org/25277/25278'
+  - event date 2026-09-19 is in the past
   - classified not-relevant
-  validated_at: '2026-09-19T12:11:40.854491-04:00'
+  validated_at: '2026-09-21T13:00:42.433458-04:00'
 curated:
   forms: []
   traditions: []

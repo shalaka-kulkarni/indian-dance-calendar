@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/3etv
     first_seen: '2026-09-18'
-    last_seen: '2026-09-18'
+    last_seen: '2026-09-21'
 validation:
   passed: false
   checks:
@@ -34,11 +34,11 @@ validation:
   - url: https://pioneerworks.org/programs/3etv
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:17:06.089180-04:00'
+    checked_at: '2026-09-21T13:05:35.647608-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-19T12:17:06.089150-04:00'
+  validated_at: '2026-09-21T13:05:35.647593-04:00'
 curated:
   forms: []
   traditions: []

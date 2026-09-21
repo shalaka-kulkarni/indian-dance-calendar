@@ -38,24 +38,17 @@ ai:
   model: claude-fable-5
   classified_at: '2026-08-17'
 validation:
-  passed: false
+  passed: true
   checks:
     has_info_url: true
-    specific_url: true
     links_live: true
-    date_valid: false
-    price_known: false
-    in_metro: true
-    classified: true
   link_checks:
   - url: https://worldmusiccentral.org/l-shankar-to-present-decades-of-violin-innovation-in-manhattan/
     ok: true
     status_code: 403
-    checked_at: '2026-09-19T12:11:25.371499-04:00'
-  problems:
-  - event date 2026-09-18 is in the past
-  - no price information
-  validated_at: '2026-09-19T12:11:25.371473-04:00'
+    checked_at: '2026-09-21T13:00:35.344198-04:00'
+  problems: []
+  validated_at: '2026-09-21T13:00:35.344196-04:00'
 curated:
   forms: []
   art_form: music

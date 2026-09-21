@@ -36,11 +36,11 @@ validation:
   - url: https://www.92ny.org/event/valley-of-death
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:11:52.350652-04:00'
+    checked_at: '2026-09-21T13:00:50.323900-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-19T12:11:52.350623-04:00'
+  validated_at: '2026-09-21T13:00:50.323885-04:00'
 curated:
   forms: []
   traditions: []

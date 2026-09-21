@@ -1,5 +1,5 @@
 id: 2026-09-20--vignesh-ishwar
-status: published
+status: past
 was_published: true
 needs_recheck: false
 scraped:
@@ -38,20 +38,14 @@ validation:
   passed: true
   checks:
     has_info_url: true
-    specific_url: true
     links_live: true
-    date_valid: true
-    price_known: false
-    in_metro: true
-    classified: true
   link_checks:
   - url: https://www.cmana.org/etn/vignesh-ishwar/
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:11:47.576919-04:00'
-  problems:
-  - no price information
-  validated_at: '2026-09-19T12:11:47.576891-04:00'
+    checked_at: '2026-09-21T13:00:44.696234-04:00'
+  problems: []
+  validated_at: '2026-09-21T13:00:44.696230-04:00'
 curated:
   forms: []
   traditions: []

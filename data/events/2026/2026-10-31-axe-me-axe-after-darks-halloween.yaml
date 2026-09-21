@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/longmont/axe-after-darks-halloween-party-tickets/80001333783023
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:15:35.555741-04:00'
+    checked_at: '2026-09-21T13:04:00.547015-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-19T12:15:35.555716-04:00'
+  validated_at: '2026-09-21T13:04:00.546988-04:00'
 curated:
   forms: []
   traditions: []

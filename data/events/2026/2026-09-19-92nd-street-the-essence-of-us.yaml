@@ -43,22 +43,23 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: true
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/the-essence-of-us-a-cuban-story
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-19T12:11:31.699949-04:00'
   - url: https://seats.92ny.org/single/210360
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:11:33.546288-04:00'
+    checked_at: '2026-09-21T13:00:38.196176-04:00'
+  - url: https://www.92ny.org/event/the-essence-of-us-a-cuban-story
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-21T13:00:38.268853-04:00'
   problems:
+  - event date 2026-09-19 is in the past
   - classified not-relevant
-  validated_at: '2026-09-19T12:11:31.699921-04:00'
+  validated_at: '2026-09-21T13:00:38.196161-04:00'
 curated:
   forms: []
   traditions: []

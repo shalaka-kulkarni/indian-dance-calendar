@@ -22,7 +22,7 @@ scraped:
   - source_id: allevents
     url: https://allevents.in/new-york/desi-indian-and-south-asian-singles-speed-dating/100001999552274680
     first_seen: '2026-09-18'
-    last_seen: '2026-09-18'
+    last_seen: '2026-09-21'
 validation:
   passed: false
   checks:
@@ -37,10 +37,10 @@ validation:
   - url: https://allevents.in/new-york/desi-indian-and-south-asian-singles-speed-dating/100001999552274680
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:12:22.219176-04:00'
+    checked_at: '2026-09-21T13:01:16.812359-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-19T12:12:22.219149-04:00'
+  validated_at: '2026-09-21T13:01:16.812345-04:00'
 curated:
   forms: []
   traditions: []

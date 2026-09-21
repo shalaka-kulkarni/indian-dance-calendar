@@ -1,5 +1,5 @@
 id: 2026-09-19-unisphere-flushing-garba-around-the-globe
-status: needs_attention
+status: past
 was_published: true
 needs_recheck: false
 scraped:
@@ -40,21 +40,15 @@ validation:
   passed: false
   checks:
     has_info_url: true
-    specific_url: true
     links_live: false
-    date_valid: true
-    price_known: false
-    in_metro: true
-    classified: true
   link_checks:
   - url: https://www.eventbrite.com/e/garba-around-the-globe-tickets-1992664047808
     ok: false
     status_code: 404
-    checked_at: '2026-09-19T12:11:45.500389-04:00'
+    checked_at: '2026-09-21T13:00:42.900901-04:00'
   problems:
-  - 'dead links: https://www.eventbrite.com/e/garba-around-the-globe-tickets-1992664047808'
-  - no price information
-  validated_at: '2026-09-19T12:11:45.500362-04:00'
+  - 'archive info link dead: https://www.eventbrite.com/e/garba-around-the-globe-tickets-1992664047808'
+  validated_at: '2026-09-21T13:00:42.900899-04:00'
 curated:
   forms:
   - folk

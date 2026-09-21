@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/kim-ghattas-with-richard-engel
     first_seen: '2026-09-18'
-    last_seen: '2026-09-18'
+    last_seen: '2026-09-21'
 validation:
   passed: false
   checks:
@@ -37,14 +37,14 @@ validation:
   - url: https://seats.92ny.org/single/211337
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:14:06.774431-04:00'
+    checked_at: '2026-09-21T13:02:52.828536-04:00'
   - url: https://www.92ny.org/event/kim-ghattas-with-richard-engel
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:14:06.889657-04:00'
+    checked_at: '2026-09-21T13:02:52.943950-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-19T12:14:06.774404-04:00'
+  validated_at: '2026-09-21T13:02:52.828512-04:00'
 curated:
   forms: []
   traditions: []

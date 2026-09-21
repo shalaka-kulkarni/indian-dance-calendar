@@ -21,7 +21,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/shabbat-b-ivrit
     first_seen: '2026-08-28'
-    last_seen: '2026-09-16'
+    last_seen: '2026-09-21'
 validation:
   passed: false
   checks:
@@ -33,18 +33,18 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211217
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-19T12:11:22.976379-04:00'
   - url: https://www.92ny.org/event/shabbat-b-ivrit
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:11:23.013323-04:00'
+    checked_at: '2026-09-21T12:58:26.559877-04:00'
+  - url: https://seats.92ny.org/single/211217
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-21T12:58:26.648069-04:00'
   problems:
   - event date 2026-09-18 is in the past
   - not yet classified (no API key run)
-  validated_at: '2026-09-19T12:11:22.976351-04:00'
+  validated_at: '2026-09-21T12:58:26.559868-04:00'
 curated:
   forms: []
   traditions: []

@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/joyce-didonato-and-nicholas-phan
     first_seen: '2026-09-18'
-    last_seen: '2026-09-18'
+    last_seen: '2026-09-21'
 validation:
   passed: false
   checks:
@@ -37,14 +37,14 @@ validation:
   - url: https://www.92ny.org/event/joyce-didonato-and-nicholas-phan
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:17:21.994031-04:00'
+    checked_at: '2026-09-21T13:05:48.596791-04:00'
   - url: https://seats.92ny.org/single/210703
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:17:23.898493-04:00'
+    checked_at: '2026-09-21T13:05:50.340589-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-19T12:17:21.994007-04:00'
+  validated_at: '2026-09-21T13:05:48.596777-04:00'
 curated:
   forms: []
   traditions: []

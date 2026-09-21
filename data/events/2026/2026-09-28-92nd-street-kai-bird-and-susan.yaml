@@ -38,14 +38,14 @@ validation:
   - url: https://www.92ny.org/event/kai-bird-and-susan-goldmark-with-richard-salomon
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:12:44.119255-04:00'
+    checked_at: '2026-09-21T13:01:40.619750-04:00'
   - url: https://seats.92ny.org/single/210815
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:12:48.280055-04:00'
+    checked_at: '2026-09-21T13:01:42.801483-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-19T12:12:44.119232-04:00'
+  validated_at: '2026-09-21T13:01:40.619729-04:00'
 curated:
   forms: []
   traditions: []

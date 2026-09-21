@@ -1,0 +1,47 @@
+id: 2026-10-04--tactile-listening
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Tactile Listening
+  start: '2026-10-04T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: brooklyn
+  is_free: false
+  price_note: ''
+  info_url: https://pioneerworks.org/classes/tactile-listening
+  ticket_url: ''
+  description_snippet: class Sunday, Oct 4, 2026 Tactile Listening
+  content_hash: e4f8f3a047981347
+  sources:
+  - source_id: pioneer_works
+    url: https://pioneerworks.org/classes/tactile-listening
+    first_seen: '2026-09-21'
+    last_seen: '2026-09-21'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://pioneerworks.org/classes/tactile-listening
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-21T13:02:04.772192-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-21T13:02:04.772171-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/san-francisco/free-movie-spirited-away-2001-on-the-big-screen/100001999295664151
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:12:07.679837-04:00'
+    checked_at: '2026-09-21T13:01:04.129338-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-19T12:12:07.679798-04:00'
+  validated_at: '2026-09-21T13:01:04.129317-04:00'
 curated:
   forms: []
   traditions: []

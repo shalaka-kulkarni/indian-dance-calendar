@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/san-francisco/san-francisco-zombie-crawl-halloween-bar-crawl-party-pass-to-10-bars/100001996256054597
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:15:31.619078-04:00'
+    checked_at: '2026-09-21T13:03:56.047857-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-19T12:15:31.619047-04:00'
+  validated_at: '2026-09-21T13:03:56.047840-04:00'
 curated:
   forms: []
   traditions: []

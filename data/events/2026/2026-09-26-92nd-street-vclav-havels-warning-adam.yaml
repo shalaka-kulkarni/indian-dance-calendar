@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/vaclav-havel-s-warning
     first_seen: '2026-09-11'
-    last_seen: '2026-09-18'
+    last_seen: '2026-09-21'
 validation:
   passed: false
   checks:
@@ -34,17 +34,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/vaclav-havel-s-warning
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-19T12:12:29.577762-04:00'
   - url: https://seats.92ny.org/single/210939
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:12:31.632639-04:00'
+    checked_at: '2026-09-21T13:01:24.658520-04:00'
+  - url: https://www.92ny.org/event/vaclav-havel-s-warning
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-21T13:01:25.006796-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-19T12:12:29.577735-04:00'
+  validated_at: '2026-09-21T13:01:24.658506-04:00'
 curated:
   forms: []
   traditions: []

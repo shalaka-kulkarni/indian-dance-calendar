@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/anaheim/oogie-boogie-bash-a-disney-halloween-party/200030390112808
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:12:55.404323-04:00'
+    checked_at: '2026-09-21T13:01:47.370270-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-19T12:12:55.404293-04:00'
+  validated_at: '2026-09-21T13:01:47.370244-04:00'
 curated:
   forms: []
   traditions: []

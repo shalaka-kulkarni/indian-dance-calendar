@@ -28,7 +28,7 @@ scraped:
   - source_id: state_theatre_nj
     url: https://www.stnj.org/events/detail/kenny-wayne-shepherd-2026
     first_seen: '2026-08-16'
-    last_seen: '2026-09-18'
+    last_seen: '2026-09-21'
 ai:
   relevant: false
   kind: other
@@ -53,17 +53,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.stnj.org/events/detail/kenny-wayne-shepherd-2026
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-19T12:13:12.443854-04:00'
   - url: https://my.stnj.org/24906/24907
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:13:12.592628-04:00'
+    checked_at: '2026-09-21T13:01:55.531225-04:00'
+  - url: https://www.stnj.org/events/detail/kenny-wayne-shepherd-2026
+    ok: true
+    status_code: 406
+    checked_at: '2026-09-21T13:01:55.598450-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-09-19T12:13:12.443828-04:00'
+  validated_at: '2026-09-21T13:01:55.531205-04:00'
 curated:
   forms: []
   traditions: []

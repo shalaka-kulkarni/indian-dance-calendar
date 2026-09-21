@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/scottsdale/scottsdale-fall-festival-tickets/80007076521503
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:14:31.868286-04:00'
+    checked_at: '2026-09-21T13:03:06.468097-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-19T12:14:31.868259-04:00'
+  validated_at: '2026-09-21T13:03:06.468076-04:00'
 curated:
   forms: []
   traditions: []

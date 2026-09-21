@@ -40,7 +40,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: false
     in_metro: true
     classified: false
@@ -48,11 +48,12 @@ validation:
   - url: https://queenstheatre.org/events/the-great-tango-6ftb
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:11:48.885477-04:00'
+    checked_at: '2026-09-21T13:00:45.559460-04:00'
   problems:
+  - event date 2026-09-20 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-19T12:11:48.885451-04:00'
+  validated_at: '2026-09-21T13:00:45.559441-04:00'
 curated:
   forms: []
   traditions: []

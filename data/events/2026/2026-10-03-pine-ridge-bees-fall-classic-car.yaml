@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/prescott/bees-fall-classic-car-auction-prescott-az/200030363499527
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:13:21.844836-04:00'
+    checked_at: '2026-09-21T13:02:02.373172-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-19T12:13:21.844798-04:00'
+  validated_at: '2026-09-21T13:02:02.373158-04:00'
 curated:
   forms: []
   traditions: []

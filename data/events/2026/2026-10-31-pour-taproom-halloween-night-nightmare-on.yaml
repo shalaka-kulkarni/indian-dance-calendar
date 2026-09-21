@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/jacksonville/halloween-night-nightmare-on-laura-street/100001999884825348
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:15:36.889735-04:00'
+    checked_at: '2026-09-21T13:04:02.343091-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-19T12:15:36.889710-04:00'
+  validated_at: '2026-09-21T13:04:02.343069-04:00'
 curated:
   forms: []
   traditions: []

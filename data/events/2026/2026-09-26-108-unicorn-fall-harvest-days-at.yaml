@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/fountain-inn/fall-harvest-days-at-the-unicorn-farm/200030602786539
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:12:26.983001-04:00'
+    checked_at: '2026-09-21T13:01:21.452490-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-19T12:12:26.982973-04:00'
+  validated_at: '2026-09-21T13:01:21.452476-04:00'
 curated:
   forms: []
   traditions: []

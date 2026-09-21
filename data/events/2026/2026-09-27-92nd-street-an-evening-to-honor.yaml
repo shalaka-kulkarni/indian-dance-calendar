@@ -37,14 +37,14 @@ validation:
   - url: https://www.92ny.org/event/an-evening-to-honor-gloria-steinem
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:12:36.493478-04:00'
+    checked_at: '2026-09-21T13:01:31.201020-04:00'
   - url: https://seats.92ny.org/single/210500
     ok: true
     status_code: 200
-    checked_at: '2026-09-19T12:12:38.419024-04:00'
+    checked_at: '2026-09-21T13:01:31.336198-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-19T12:12:36.493451-04:00'
+  validated_at: '2026-09-21T13:01:31.201002-04:00'
 curated:
   forms: []
   traditions: []
