@@ -21,7 +21,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/kany-garcia
     first_seen: '2026-08-16'
-    last_seen: '2026-09-21'
+    last_seen: '2026-09-23'
 ai:
   relevant: false
   kind: other
@@ -49,11 +49,11 @@ validation:
   - url: https://www.prucenter.com/events/kany-garcia
     ok: true
     status_code: 200
-    checked_at: '2026-09-21T13:01:26.205460-04:00'
+    checked_at: '2026-09-23T11:34:20.323851-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-21T13:01:26.205446-04:00'
+  validated_at: '2026-09-23T11:34:20.323819-04:00'
 curated:
   forms: []
   traditions: []

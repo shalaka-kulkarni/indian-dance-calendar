@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/woodbridge/pwcfrs-3rd-annual-expo-and-fall-festival-tickets/80003459094149
     ok: true
     status_code: 200
-    checked_at: '2026-09-21T13:02:02.824634-04:00'
+    checked_at: '2026-09-23T11:34:59.801891-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-21T13:02:02.824617-04:00'
+  validated_at: '2026-09-23T11:34:59.801860-04:00'
 curated:
   forms: []
   traditions: []

@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210411
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-21T13:00:56.190206-04:00'
   - url: https://www.92ny.org/event/cnn-s-dana-bash
     ok: true
     status_code: 200
-    checked_at: '2026-09-21T13:00:56.266383-04:00'
+    checked_at: '2026-09-23T11:33:51.723638-04:00'
+  - url: https://seats.92ny.org/single/210411
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-23T11:33:53.826705-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-09-21T13:00:56.190192-04:00'
+  validated_at: '2026-09-23T11:33:51.723605-04:00'
 curated:
   forms: []
   traditions: []

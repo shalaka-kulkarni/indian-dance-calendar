@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/racine/9th-annual-elmwood-park-car-and-bike-show/200030305168400
     ok: true
     status_code: 200
-    checked_at: '2026-09-21T13:01:23.251241-04:00'
+    checked_at: '2026-09-23T11:34:18.002090-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-21T13:01:23.251226-04:00'
+  validated_at: '2026-09-23T11:34:18.002058-04:00'
 curated:
   forms: []
   traditions: []

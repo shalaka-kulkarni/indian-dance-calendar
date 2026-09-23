@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/new-haven/snake-mountain-cruisers-5th-annual-car-show/200029894008421
     ok: true
     status_code: 200
-    checked_at: '2026-09-21T13:01:31.570876-04:00'
+    checked_at: '2026-09-23T11:34:24.046061-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-21T13:01:31.570861-04:00'
+  validated_at: '2026-09-23T11:34:24.046031-04:00'
 curated:
   forms: []
   traditions: []

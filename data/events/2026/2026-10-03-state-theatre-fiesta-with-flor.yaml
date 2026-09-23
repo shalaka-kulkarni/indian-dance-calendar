@@ -27,7 +27,7 @@ scraped:
   - source_id: state_theatre_nj
     url: https://www.stnj.org/events/detail/mc-fiestawithflor-2026
     first_seen: '2026-09-16'
-    last_seen: '2026-09-21'
+    last_seen: '2026-09-23'
 validation:
   passed: false
   checks:
@@ -39,17 +39,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.stnj.org/events/detail/mc-fiestawithflor-2026
-    ok: true
-    status_code: 406
-    checked_at: '2026-09-21T13:02:03.524916-04:00'
   - url: https://my.stnj.org/overview/25717
     ok: true
     status_code: 200
-    checked_at: '2026-09-21T13:02:03.659384-04:00'
+    checked_at: '2026-09-23T11:35:00.328031-04:00'
+  - url: https://www.stnj.org/events/detail/mc-fiestawithflor-2026
+    ok: true
+    status_code: 406
+    checked_at: '2026-09-23T11:35:00.400359-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-21T13:02:03.524898-04:00'
+  validated_at: '2026-09-23T11:35:00.327998-04:00'
 curated:
   forms: []
   traditions: []

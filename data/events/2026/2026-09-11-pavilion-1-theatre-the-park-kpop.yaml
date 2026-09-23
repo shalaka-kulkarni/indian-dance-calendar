@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/san-antonio/theatre-the-park-kpop-tickets/80003079225637
     ok: true
     status_code: 200
-    checked_at: '2026-09-21T13:00:21.466002-04:00'
+    checked_at: '2026-09-23T11:33:07.594990-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-21T13:00:21.465988-04:00'
+  validated_at: '2026-09-23T11:33:07.594962-04:00'
 curated:
   forms: []
   traditions: []

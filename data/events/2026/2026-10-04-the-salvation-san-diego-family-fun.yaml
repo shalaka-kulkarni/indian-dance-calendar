@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/san-diego/san-diego-family-fun-fest-halloween/100001997505713360
     ok: true
     status_code: 200
-    checked_at: '2026-09-21T13:02:07.960012-04:00'
+    checked_at: '2026-09-23T11:35:03.775813-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-21T13:02:07.959996-04:00'
+  validated_at: '2026-09-23T11:35:03.775781-04:00'
 curated:
   forms: []
   traditions: []

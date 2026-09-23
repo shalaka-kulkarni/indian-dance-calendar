@@ -41,7 +41,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: true
     in_metro: true
     classified: false
@@ -49,14 +49,15 @@ validation:
   - url: https://seats.92ny.org/single/211145
     ok: true
     status_code: 200
-    checked_at: '2026-09-21T13:00:52.146137-04:00'
+    checked_at: '2026-09-23T11:33:48.508350-04:00'
   - url: https://www.92ny.org/event/ari-emanuel-with-rachel-maddow
     ok: true
     status_code: 200
-    checked_at: '2026-09-21T13:00:52.221947-04:00'
+    checked_at: '2026-09-23T11:33:48.846169-04:00'
   problems:
+  - event date 2026-09-22 is in the past
   - classified not-relevant
-  validated_at: '2026-09-21T13:00:52.146114-04:00'
+  validated_at: '2026-09-23T11:33:48.508316-04:00'
 curated:
   forms: []
   traditions: []

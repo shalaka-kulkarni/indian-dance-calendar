@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/joshua-jay-with-rabbi-david-ingber
     first_seen: '2026-09-16'
-    last_seen: '2026-09-21'
+    last_seen: '2026-09-23'
 validation:
   passed: false
   checks:
@@ -34,17 +34,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/joshua-jay-with-rabbi-david-ingber
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-21T13:05:43.311932-04:00'
   - url: https://seats.92ny.org/single/211308
     ok: true
     status_code: 200
-    checked_at: '2026-09-21T13:05:45.426716-04:00'
+    checked_at: '2026-09-23T11:38:27.342695-04:00'
+  - url: https://www.92ny.org/event/joshua-jay-with-rabbi-david-ingber
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-23T11:38:27.596616-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-21T13:05:43.311912-04:00'
+  validated_at: '2026-09-23T11:38:27.342667-04:00'
 curated:
   forms: []
   traditions: []

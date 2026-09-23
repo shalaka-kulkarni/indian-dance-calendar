@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/aurora/photo-book-fair-at-procam-chicago/100001996231175182
     ok: true
     status_code: 200
-    checked_at: '2026-09-21T13:01:27.679311-04:00'
+    checked_at: '2026-09-23T11:34:21.532230-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-21T13:01:27.679297-04:00'
+  validated_at: '2026-09-23T11:34:21.532195-04:00'
 curated:
   forms: []
   traditions: []

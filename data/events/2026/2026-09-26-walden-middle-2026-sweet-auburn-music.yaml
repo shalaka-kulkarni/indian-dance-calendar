@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/atlanta/2026-sweet-auburn-music-fest/100001987510811339
     ok: true
     status_code: 200
-    checked_at: '2026-09-21T13:01:28.533733-04:00'
+    checked_at: '2026-09-23T11:34:22.334196-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-21T13:01:28.533719-04:00'
+  validated_at: '2026-09-23T11:34:22.334166-04:00'
 curated:
   forms: []
   traditions: []

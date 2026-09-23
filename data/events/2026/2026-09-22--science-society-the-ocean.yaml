@@ -38,7 +38,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: false
     in_metro: true
     classified: false
@@ -46,11 +46,12 @@ validation:
   - url: https://pioneerworks.org/programs/science-and-society-the-oceans-frontier
     ok: true
     status_code: 200
-    checked_at: '2026-09-21T13:00:50.106929-04:00'
+    checked_at: '2026-09-23T11:33:48.025103-04:00'
   problems:
+  - event date 2026-09-22 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-21T13:00:50.106913-04:00'
+  validated_at: '2026-09-23T11:33:48.025072-04:00'
 curated:
   forms: []
   traditions: []

@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/annie-proulx-stories
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-21T13:04:25.565888-04:00'
   - url: https://seats.92ny.org/single/210919
     ok: true
     status_code: 200
-    checked_at: '2026-09-21T13:04:27.780605-04:00'
+    checked_at: '2026-09-23T11:37:31.146763-04:00'
+  - url: https://www.92ny.org/event/annie-proulx-stories
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-23T11:37:31.210779-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-09-21T13:04:25.565865-04:00'
+  validated_at: '2026-09-23T11:37:31.146734-04:00'
 curated:
   forms: []
   traditions: []

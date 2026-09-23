@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/211047
     ok: true
     status_code: 200
-    checked_at: '2026-09-21T13:01:38.105679-04:00'
+    checked_at: '2026-09-23T11:34:29.199487-04:00'
   - url: https://www.92ny.org/event/danny-meyer-with-john-grisham
     ok: true
     status_code: 200
-    checked_at: '2026-09-21T13:01:38.186814-04:00'
+    checked_at: '2026-09-23T11:34:29.370965-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-09-21T13:01:38.105662-04:00'
+  validated_at: '2026-09-23T11:34:29.199450-04:00'
 curated:
   forms: []
   traditions: []

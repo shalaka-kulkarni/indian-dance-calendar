@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/louisville/nicks-anual-halloween-party-and-fundraiser-tickets/80002618404281
     ok: true
     status_code: 200
-    checked_at: '2026-09-21T13:03:07.668523-04:00'
+    checked_at: '2026-09-23T11:36:08.568819-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-21T13:03:07.668501-04:00'
+  validated_at: '2026-09-23T11:36:08.568790-04:00'
 curated:
   forms: []
   traditions: []

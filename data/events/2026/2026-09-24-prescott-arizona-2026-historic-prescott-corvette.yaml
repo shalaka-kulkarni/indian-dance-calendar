@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/prescott/2026-historic-prescott-corvette-car-show/200030244888854
     ok: true
     status_code: 200
-    checked_at: '2026-09-21T13:01:10.071623-04:00'
+    checked_at: '2026-09-23T11:34:04.656101-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-21T13:01:10.071609-04:00'
+  validated_at: '2026-09-23T11:34:04.656067-04:00'
 curated:
   forms: []
   traditions: []

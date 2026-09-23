@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/jaane-pehchaane-anjane-a-musical-play-by-anupam-kher-swaroop-sampat_event-in_westbury-ny_400217
     first_seen: '2026-08-18'
-    last_seen: '2026-09-21'
+    last_seen: '2026-09-23'
 ai:
   relevant: false
   kind: performance
@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/jaane-pehchaane-anjane-a-musical-play-by-anupam-kher-swaroop-sampat_event-in_westbury-ny_400217
     ok: true
     status_code: 200
-    checked_at: '2026-09-21T13:02:08.127740-04:00'
+    checked_at: '2026-09-23T11:35:04.009449-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-09-21T13:02:08.127732-04:00'
+  validated_at: '2026-09-23T11:35:04.009432-04:00'
 curated:
   forms: []
   traditions: []

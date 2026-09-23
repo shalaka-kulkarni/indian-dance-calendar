@@ -49,15 +49,15 @@ validation:
   - url: https://www.92ny.org/event/richard-christiansen-with-martha-stewart
     ok: true
     status_code: 200
-    checked_at: '2026-09-21T13:00:35.134611-04:00'
+    checked_at: '2026-09-23T11:33:34.690543-04:00'
   - url: https://seats.92ny.org/single/211098
     ok: true
     status_code: 200
-    checked_at: '2026-09-21T13:00:35.265093-04:00'
+    checked_at: '2026-09-23T11:33:34.849404-04:00'
   problems:
   - event date 2026-09-18 is in the past
   - classified not-relevant
-  validated_at: '2026-09-21T13:00:35.134596-04:00'
+  validated_at: '2026-09-23T11:33:34.690512-04:00'
 curated:
   forms: []
   traditions: []

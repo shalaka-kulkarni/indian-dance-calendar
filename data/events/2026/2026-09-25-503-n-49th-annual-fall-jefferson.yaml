@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/jefferson/49th-annual-fall-jefferson-auto-swap-meet-and-car-show/200029796232645
     ok: true
     status_code: 200
-    checked_at: '2026-09-21T13:01:13.821253-04:00'
+    checked_at: '2026-09-23T11:34:09.369170-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-21T13:01:13.821239-04:00'
+  validated_at: '2026-09-23T11:34:09.369122-04:00'
 curated:
   forms: []
   traditions: []
