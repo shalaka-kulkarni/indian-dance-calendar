@@ -1,0 +1,49 @@
+id: 2026-10-18--new-york-city-ballet
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: New York City Ballet Fall 2026
+  start: '2026-10-18T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://www.timeout.com/newyork/dance/new-york-city-ballet-fall-2026
+  ticket_url: ''
+  description_snippet: Dance New York City Ballet Fall 2026 City Ballet is back with a Balanchine-heavy
+    season and a farewell to a favorite principal dancer Until Oct 18, 2026
+  content_hash: 84c49e64d8362019
+  sources:
+  - source_id: timeout_ny
+    url: https://www.timeout.com/newyork/dance/new-york-city-ballet-fall-2026
+    first_seen: '2026-09-25'
+    last_seen: '2026-09-25'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://www.timeout.com/newyork/dance/new-york-city-ballet-fall-2026
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-25T11:58:27.140784-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-09-25T11:58:27.140754-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

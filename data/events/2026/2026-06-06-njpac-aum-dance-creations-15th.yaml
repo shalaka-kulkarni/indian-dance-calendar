@@ -48,9 +48,9 @@ validation:
   - url: https://www.njpac.org/event/aum-dance-creations/
     ok: true
     status_code: 200
-    checked_at: '2026-09-23T11:32:37.784608-04:00'
+    checked_at: '2026-09-25T11:55:38.431275-04:00'
   problems: []
-  validated_at: '2026-09-23T11:32:37.784602-04:00'
+  validated_at: '2026-09-25T11:55:38.431270-04:00'
 curated:
   forms:
   - bollywood

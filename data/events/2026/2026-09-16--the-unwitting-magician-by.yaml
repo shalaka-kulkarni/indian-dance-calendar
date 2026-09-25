@@ -54,11 +54,11 @@ validation:
   - url: https://www.sopacnow.org/events/the-unwitting-magician-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-09-23T11:33:17.559817-04:00'
+    checked_at: '2026-09-25T11:56:08.935208-04:00'
   problems:
   - event date 2026-09-16 is in the past
   - classified not-relevant
-  validated_at: '2026-09-23T11:33:17.559784-04:00'
+  validated_at: '2026-09-25T11:56:08.935182-04:00'
 curated:
   forms: []
   traditions: []

@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/boston/2026-endless-night-boston-vampire-ball-le-cabaret-royale/100001375244947659
     ok: true
     status_code: 200
-    checked_at: '2026-09-23T11:34:21.826605-04:00'
+    checked_at: '2026-09-25T11:57:01.090418-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-23T11:34:21.826574-04:00'
+  validated_at: '2026-09-25T11:57:01.090390-04:00'
 curated:
   forms: []
   traditions: []

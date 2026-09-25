@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/mumbai-style-garba-ne-dandiya-night-in-newyork_event-in_hicksville-ny_401828
     first_seen: '2026-09-14'
-    last_seen: '2026-09-23'
+    last_seen: '2026-09-25'
 validation:
   passed: false
   checks:
@@ -37,10 +37,10 @@ validation:
   - url: https://events.sulekha.com/mumbai-style-garba-ne-dandiya-night-in-newyork_event-in_hicksville-ny_401828
     ok: true
     status_code: 200
-    checked_at: '2026-09-23T11:36:12.497472-04:00'
+    checked_at: '2026-09-25T11:58:31.122995-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-23T11:36:12.497440-04:00'
+  validated_at: '2026-09-25T11:58:31.122964-04:00'
 curated:
   forms: []
   traditions: []

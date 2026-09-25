@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/virginia-beach/town-and-treat/200030589714810
     ok: true
     status_code: 200
-    checked_at: '2026-09-23T11:36:38.486097-04:00'
+    checked_at: '2026-09-25T11:58:55.342351-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-23T11:36:38.486067-04:00'
+  validated_at: '2026-09-25T11:58:55.342320-04:00'
 curated:
   forms: []
   traditions: []

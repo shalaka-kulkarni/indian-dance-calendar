@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/dilpreet-dhillon-noor-zora-in-newyork_event-in_westbury-ny_401722
     first_seen: '2026-09-09'
-    last_seen: '2026-09-23'
+    last_seen: '2026-09-25'
 validation:
   passed: false
   checks:
@@ -37,10 +37,10 @@ validation:
   - url: https://events.sulekha.com/dilpreet-dhillon-noor-zora-in-newyork_event-in_westbury-ny_401722
     ok: true
     status_code: 200
-    checked_at: '2026-09-23T11:34:24.311923-04:00'
+    checked_at: '2026-09-25T11:57:03.370818-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-23T11:34:24.311892-04:00'
+  validated_at: '2026-09-25T11:57:03.370790-04:00'
 curated:
   forms: []
   traditions: []

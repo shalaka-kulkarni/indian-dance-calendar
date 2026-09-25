@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/atlanta/sweet-auburn-music-fest-car-show-tickets/100001994513641994
     ok: true
     status_code: 200
-    checked_at: '2026-09-23T11:34:17.491073-04:00'
+    checked_at: '2026-09-25T11:56:57.458610-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-23T11:34:17.491040-04:00'
+  validated_at: '2026-09-25T11:56:57.458578-04:00'
 curated:
   forms: []
   traditions: []

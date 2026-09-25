@@ -34,12 +34,12 @@ validation:
   - url: https://allevents.in/gladeville/nashville-event/200030399904934
     ok: true
     status_code: 200
-    checked_at: '2026-09-23T11:35:29.496400-04:00'
+    checked_at: '2026-09-25T11:57:50.466723-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-23T11:35:29.496372-04:00'
+  validated_at: '2026-09-25T11:57:50.466701-04:00'
 curated:
   forms: []
   traditions: []

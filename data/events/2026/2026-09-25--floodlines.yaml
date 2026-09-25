@@ -26,7 +26,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: false
     in_metro: true
     classified: false
@@ -34,11 +34,12 @@ validation:
   - url: https://pioneerworks.org/programs/flood-lines
     ok: true
     status_code: 200
-    checked_at: '2026-09-23T11:34:05.821104-04:00'
+    checked_at: '2026-09-25T11:56:44.515564-04:00'
   problems:
+  - event date 2026-09-25 is in the past
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-23T11:34:05.821069-04:00'
+  validated_at: '2026-09-25T11:56:44.515537-04:00'
 curated:
   forms: []
   traditions: []

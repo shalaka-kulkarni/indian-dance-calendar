@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211148
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-23T11:35:35.583854-04:00'
   - url: https://www.92ny.org/event/memories-of-a-good-meal
     ok: true
     status_code: 200
-    checked_at: '2026-09-23T11:35:35.770071-04:00'
+    checked_at: '2026-09-25T11:57:55.650618-04:00'
+  - url: https://seats.92ny.org/single/211148
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-25T11:57:57.707215-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-09-23T11:35:35.583808-04:00'
+  validated_at: '2026-09-25T11:57:55.650589-04:00'
 curated:
   forms: []
   traditions: []

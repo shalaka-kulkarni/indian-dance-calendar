@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/atwater/47th-annual-ravenna-balloon-a-fair/200029514897114
     ok: true
     status_code: 200
-    checked_at: '2026-09-23T11:34:04.484340-04:00'
+    checked_at: '2026-09-25T11:56:43.182590-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-23T11:34:04.484304-04:00'
+  validated_at: '2026-09-25T11:56:43.182558-04:00'
 curated:
   forms: []
   traditions: []

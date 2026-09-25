@@ -35,13 +35,13 @@ validation:
   - url: https://allevents.in/san-antonio/divergent-series-unit-study-the-park-tickets/80002731131400
     ok: false
     status_code: 410
-    checked_at: '2026-09-23T11:33:01.122508-04:00'
+    checked_at: '2026-09-25T11:55:56.615623-04:00'
   problems:
   - 'dead links: https://allevents.in/san-antonio/divergent-series-unit-study-the-park-tickets/80002731131400'
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-23T11:33:01.122477-04:00'
+  validated_at: '2026-09-25T11:55:56.615595-04:00'
 curated:
   forms: []
   traditions: []

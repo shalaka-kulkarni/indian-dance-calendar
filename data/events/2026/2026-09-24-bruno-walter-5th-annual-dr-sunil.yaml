@@ -1,5 +1,5 @@
 id: 2026-09-24-bruno-walter-5th-annual-dr-sunil
-status: published
+status: past
 was_published: true
 needs_recheck: false
 scraped:
@@ -45,20 +45,14 @@ validation:
   passed: true
   checks:
     has_info_url: true
-    specific_url: true
     links_live: true
-    date_valid: true
-    price_known: false
-    in_metro: true
-    classified: true
   link_checks:
   - url: https://www.amnewscurtainraiser.com/2026/08/erasing-borders-dance-festival-returns.html
     ok: true
-    status_code: 200
-    checked_at: '2026-09-23T11:34:04.371721-04:00'
-  problems:
-  - no price information
-  validated_at: '2026-09-23T11:34:04.371688-04:00'
+    status_code: 204
+    checked_at: '2026-09-25T11:56:42.820756-04:00'
+  problems: []
+  validated_at: '2026-09-25T11:56:42.820750-04:00'
 curated:
   forms:
   - bharatanatyam
