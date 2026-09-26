@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/a-winged-victory-for-the-sullen
     ok: true
     status_code: 200
-    checked_at: '2026-09-25T11:57:03.633858-04:00'
+    checked_at: '2026-09-26T12:51:38.578037-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-25T11:57:03.633829-04:00'
+  validated_at: '2026-09-26T12:51:38.578016-04:00'
 curated:
   forms: []
   traditions: []

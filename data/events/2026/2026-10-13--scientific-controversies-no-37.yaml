@@ -34,11 +34,11 @@ validation:
   - url: https://pioneerworks.org/programs/scientific-controversies-octopus-umwelt
     ok: true
     status_code: 200
-    checked_at: '2026-09-25T11:58:00.918253-04:00'
+    checked_at: '2026-09-26T12:52:47.853474-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-25T11:58:00.918230-04:00'
+  validated_at: '2026-09-26T12:52:47.853456-04:00'
 curated:
   forms: []
   traditions: []

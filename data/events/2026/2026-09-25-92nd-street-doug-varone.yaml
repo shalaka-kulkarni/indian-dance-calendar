@@ -1,5 +1,5 @@
 id: 2026-09-25-92nd-street-doug-varone
-status: needs_attention
+status: past
 was_published: false
 needs_recheck: false
 scraped:
@@ -27,7 +27,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: false
     in_metro: true
     classified: false
@@ -35,11 +35,12 @@ validation:
   - url: https://www.92ny.org/event/fridays-in-arnhold-doug-varone
     ok: true
     status_code: 200
-    checked_at: '2026-09-25T11:56:49.233620-04:00'
+    checked_at: '2026-09-26T12:51:23.592548-04:00'
   problems:
+  - event date 2026-09-25 is in the past
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-25T11:56:49.233598-04:00'
+  validated_at: '2026-09-26T12:51:23.592531-04:00'
 curated:
   forms: []
   traditions: []

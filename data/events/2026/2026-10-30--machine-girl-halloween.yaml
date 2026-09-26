@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/machine-girl
     ok: true
     status_code: 200
-    checked_at: '2026-09-25T11:59:16.476348-04:00'
+    checked_at: '2026-09-26T12:54:02.500436-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-25T11:59:16.476323-04:00'
+  validated_at: '2026-09-26T12:54:02.500414-04:00'
 curated:
   forms: []
   traditions: []

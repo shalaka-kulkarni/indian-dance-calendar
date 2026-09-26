@@ -34,11 +34,11 @@ validation:
   - url: https://pioneerworks.org/programs/terence-tao-six-math-essentials
     ok: true
     status_code: 200
-    checked_at: '2026-09-25T12:00:10.015867-04:00'
+    checked_at: '2026-09-26T12:54:42.655463-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-25T12:00:10.015842-04:00'
+  validated_at: '2026-09-26T12:54:42.655441-04:00'
 curated:
   forms: []
   traditions: []

@@ -1,5 +1,5 @@
 id: 2026-09-25-flute-champagne-desi-indian-amp-south
-status: needs_attention
+status: past
 was_published: false
 needs_recheck: false
 scraped:
@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/new-york/desi-indian-and-south-asian-singles-speed-dating/100001999552274680
     ok: true
     status_code: 200
-    checked_at: '2026-09-25T11:56:51.009253-04:00'
+    checked_at: '2026-09-26T12:51:25.521066-04:00'
   problems:
   - event date 2026-09-25 is in the past
   - not yet classified (no API key run)
-  validated_at: '2026-09-25T11:56:51.009226-04:00'
+  validated_at: '2026-09-26T12:51:25.521044-04:00'
 curated:
   forms: []
   traditions: []

@@ -1,5 +1,5 @@
 id: 2026-09-25-300-college-worlds-largest-pizza-costume
-status: needs_attention
+status: past
 was_published: false
 needs_recheck: false
 scraped:
@@ -37,12 +37,12 @@ validation:
   - url: https://allevents.in/new-haven/worlds-largest-pizza-costume-party/100001982359152589
     ok: true
     status_code: 200
-    checked_at: '2026-09-25T11:56:48.729711-04:00'
+    checked_at: '2026-09-26T12:51:21.212873-04:00'
   problems:
   - event date 2026-09-25 is in the past
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-25T11:56:48.729683-04:00'
+  validated_at: '2026-09-26T12:51:21.212838-04:00'
 curated:
   forms: []
   traditions: []

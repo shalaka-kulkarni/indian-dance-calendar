@@ -51,12 +51,12 @@ validation:
   - url: https://gibneydance.org/event/gibney-independent-training-showcase-aide-hernandez-gayosso/
     ok: false
     status_code: 404
-    checked_at: '2026-09-25T11:55:52.824379-04:00'
+    checked_at: '2026-09-26T12:50:22.050334-04:00'
   problems:
   - 'dead links: https://gibneydance.org/event/gibney-independent-training-showcase-aide-hernandez-gayosso/'
   - event date 2026-08-28 is in the past
   - classified not-relevant
-  validated_at: '2026-09-25T11:55:52.824352-04:00'
+  validated_at: '2026-09-26T12:50:22.050313-04:00'
 curated:
   forms: []
   traditions: []

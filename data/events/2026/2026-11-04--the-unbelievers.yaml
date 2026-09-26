@@ -35,11 +35,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/csebda86/2026-11-03/2026-2027-the-unbelievers
     ok: true
     status_code: 200
-    checked_at: '2026-09-25T11:59:30.734346-04:00'
+    checked_at: '2026-09-26T12:54:14.333334-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-25T11:59:30.734321-04:00'
+  validated_at: '2026-09-26T12:54:14.333312-04:00'
 curated:
   forms: []
   traditions: []

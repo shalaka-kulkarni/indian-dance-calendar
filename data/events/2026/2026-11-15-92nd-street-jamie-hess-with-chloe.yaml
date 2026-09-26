@@ -37,14 +37,14 @@ validation:
   - url: https://seats.92ny.org/single/211292
     ok: true
     status_code: 200
-    checked_at: '2026-09-25T12:00:10.551956-04:00'
+    checked_at: '2026-09-26T12:54:43.579882-04:00'
   - url: https://www.92ny.org/event/jamie-hess-with-chloe-melas-and-joan-lunden
     ok: true
     status_code: 200
-    checked_at: '2026-09-25T12:00:10.848008-04:00'
+    checked_at: '2026-09-26T12:54:43.609927-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-25T12:00:10.551934-04:00'
+  validated_at: '2026-09-26T12:54:43.579863-04:00'
 curated:
   forms: []
   traditions: []

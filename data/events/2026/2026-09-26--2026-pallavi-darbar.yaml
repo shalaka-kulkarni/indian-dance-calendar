@@ -26,7 +26,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: false
     in_metro: true
     classified: false
@@ -34,11 +34,12 @@ validation:
   - url: https://www.cmana.org/etn/2026-pallavi-darbar/
     ok: true
     status_code: 200
-    checked_at: '2026-09-25T11:56:53.440535-04:00'
+    checked_at: '2026-09-26T12:51:28.939139-04:00'
   problems:
+  - event date 2026-09-26 is in the past
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-25T11:56:53.440495-04:00'
+  validated_at: '2026-09-26T12:51:28.939116-04:00'
 curated:
   forms: []
   traditions: []

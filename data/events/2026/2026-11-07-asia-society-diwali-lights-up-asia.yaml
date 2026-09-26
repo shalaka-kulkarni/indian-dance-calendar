@@ -53,9 +53,9 @@ validation:
   - url: https://asiasociety.org/new-york/events/diwali-lights-asia-society-2026
     ok: true
     status_code: 403
-    checked_at: '2026-09-25T11:59:38.605868-04:00'
+    checked_at: '2026-09-26T12:54:22.409018-04:00'
   problems: []
-  validated_at: '2026-09-25T11:59:38.605841-04:00'
+  validated_at: '2026-09-26T12:54:22.408996-04:00'
 curated:
   forms:
   - folk

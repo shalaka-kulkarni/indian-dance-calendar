@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/marietta/movies-at-the-strand-the-rocky-horror-picture-show-1975/200030549425136
     ok: true
     status_code: 200
-    checked_at: '2026-09-25T11:59:17.167779-04:00'
+    checked_at: '2026-09-26T12:54:02.880400-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-25T11:59:17.167750-04:00'
+  validated_at: '2026-09-26T12:54:02.880381-04:00'
 curated:
   forms: []
   traditions: []

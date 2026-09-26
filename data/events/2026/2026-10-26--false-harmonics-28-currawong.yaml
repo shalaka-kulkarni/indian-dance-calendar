@@ -50,11 +50,11 @@ validation:
   - url: https://pioneerworks.org/programs/false-harmonics-28-currawong-project-by-matthias-kriesberg-and-kevin-larke-feat-han-chen-arseniy
     ok: true
     status_code: 200
-    checked_at: '2026-09-25T11:58:59.698006-04:00'
+    checked_at: '2026-09-26T12:53:46.116275-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-25T11:58:59.697978-04:00'
+  validated_at: '2026-09-26T12:53:46.116255-04:00'
 curated:
   forms: []
   traditions: []

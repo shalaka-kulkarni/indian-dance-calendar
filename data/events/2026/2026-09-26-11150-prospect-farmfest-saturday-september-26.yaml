@@ -27,7 +27,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: false
     in_metro: false
     classified: false
@@ -35,12 +35,13 @@ validation:
   - url: https://allevents.in/longmont/farmfest-saturday-september-26-9-1pm/200030638945326
     ok: true
     status_code: 200
-    checked_at: '2026-09-25T11:56:56.397802-04:00'
+    checked_at: '2026-09-26T12:51:30.831857-04:00'
   problems:
+  - event date 2026-09-26 is in the past
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-25T11:56:56.397776-04:00'
+  validated_at: '2026-09-26T12:51:30.831820-04:00'
 curated:
   forms: []
   traditions: []

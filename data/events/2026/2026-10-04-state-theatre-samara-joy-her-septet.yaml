@@ -56,14 +56,14 @@ validation:
   - url: https://www.stnj.org/events/detail/samara-joy-her-septet
     ok: true
     status_code: 200
-    checked_at: '2026-09-25T11:57:31.968595-04:00'
+    checked_at: '2026-09-26T12:52:09.817088-04:00'
   - url: https://my.stnj.org/24901/24902
     ok: true
     status_code: 200
-    checked_at: '2026-09-25T11:57:32.097932-04:00'
+    checked_at: '2026-09-26T12:52:09.850346-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-09-25T11:57:31.968566-04:00'
+  validated_at: '2026-09-26T12:52:09.817065-04:00'
 curated:
   forms: []
   traditions: []

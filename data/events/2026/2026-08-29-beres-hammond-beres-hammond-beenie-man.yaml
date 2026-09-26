@@ -49,12 +49,12 @@ validation:
   - url: https://www.prucenter.com/events/beres-hammond-beenie-man
     ok: true
     status_code: 200
-    checked_at: '2026-09-25T11:55:54.430732-04:00'
+    checked_at: '2026-09-26T12:50:23.644218-04:00'
   problems:
   - event date 2026-08-29 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-25T11:55:54.430702-04:00'
+  validated_at: '2026-09-26T12:50:23.644196-04:00'
 curated:
   forms: []
   traditions: []

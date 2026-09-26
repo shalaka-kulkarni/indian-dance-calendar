@@ -49,9 +49,9 @@ validation:
   - url: https://chhandayan.org/calendar/2026/9/20/santoor-concert-vinay-desai
     ok: true
     status_code: 200
-    checked_at: '2026-09-25T11:56:35.958803-04:00'
+    checked_at: '2026-09-26T12:51:05.367717-04:00'
   problems: []
-  validated_at: '2026-09-25T11:56:35.958796-04:00'
+  validated_at: '2026-09-26T12:51:05.367712-04:00'
 curated:
   forms: []
   traditions: []

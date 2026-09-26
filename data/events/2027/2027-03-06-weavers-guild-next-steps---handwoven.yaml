@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/cincinnati/next-steps-handwoven-laces-on-4s/100001996450602495
     ok: true
     status_code: 200
-    checked_at: '2026-09-25T12:01:22.375498-04:00'
+    checked_at: '2026-09-26T12:55:43.185750-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-25T12:01:22.375468-04:00'
+  validated_at: '2026-09-26T12:55:43.185722-04:00'
 curated:
   forms: []
   traditions: []

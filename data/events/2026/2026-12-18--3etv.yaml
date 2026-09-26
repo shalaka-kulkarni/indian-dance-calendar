@@ -34,11 +34,11 @@ validation:
   - url: https://pioneerworks.org/programs/3etv
     ok: true
     status_code: 200
-    checked_at: '2026-09-25T12:00:57.387012-04:00'
+    checked_at: '2026-09-26T12:55:21.312700-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-25T12:00:57.386984-04:00'
+  validated_at: '2026-09-26T12:55:21.312678-04:00'
 curated:
   forms: []
   traditions: []
