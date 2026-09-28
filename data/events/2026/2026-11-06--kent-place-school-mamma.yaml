@@ -1,0 +1,52 @@
+id: 2026-11-06--kent-place-school-mamma
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Kent Place School Mamma Mia!
+  start: '2026-11-06T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/kent-place-mamma-mia/
+  ticket_url: ''
+  description_snippet: Kent Place School Mamma Mia! FRI, NOV 6, 2026 at 7:30 PM SAT, NOV 7 2026 at 7:30
+    PM On Sale Soon The sunny, funny tale of a mother, a daughter and three possible dads unfolds on a
+    Greek island idyll to the magic of ABBA’s pop masterpieces. On the eve of her wedding, a daughter’s
+    quest to discover the identity of her father brings three men from her mother’s past back to the island
+    they last visited decades ago. Catherine Johnson’s original and irresistible tale of love, family
+    and friendship continues to captivate audiences around the world. On Sale Soon Learn More
+  content_hash: 282761e89e07a1fa
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/kent-place-mamma-mia/
+    first_seen: '2026-09-28'
+    last_seen: '2026-09-28'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/kent-place-mamma-mia/
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-28T14:48:11.636419-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-28T14:48:11.636383-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

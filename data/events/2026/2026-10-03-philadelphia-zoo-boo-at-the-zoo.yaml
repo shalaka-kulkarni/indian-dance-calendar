@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/philadelphia/boo-at-the-zoo/200030628045350
     ok: true
     status_code: 200
-    checked_at: '2026-09-26T12:52:07.213423-04:00'
+    checked_at: '2026-09-28T14:45:02.235806-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-26T12:52:07.213400-04:00'
+  validated_at: '2026-09-28T14:45:02.235778-04:00'
 curated:
   forms: []
   traditions: []

@@ -1,5 +1,5 @@
 id: 2026-09-26-pandit-jasraj-bhakti-utsav-live-with
-status: needs_attention
+status: past
 was_published: false
 needs_recheck: false
 scraped:
@@ -22,14 +22,14 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/bhakti-utsav-live-with-sandeep-sehgal-in-newyork_event-in_hempstead-ny_401799
     first_seen: '2026-09-11'
-    last_seen: '2026-09-25'
+    last_seen: '2026-09-28'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: true
     in_metro: true
     classified: false
@@ -37,10 +37,11 @@ validation:
   - url: https://events.sulekha.com/bhakti-utsav-live-with-sandeep-sehgal-in-newyork_event-in_hempstead-ny_401799
     ok: true
     status_code: 200
-    checked_at: '2026-09-26T12:51:34.114179-04:00'
+    checked_at: '2026-09-28T14:41:57.072141-04:00'
   problems:
+  - event date 2026-09-26 is in the past
   - not yet classified (no API key run)
-  validated_at: '2026-09-26T12:51:34.114157-04:00'
+  validated_at: '2026-09-28T14:41:57.072126-04:00'
 curated:
   forms: []
   traditions: []

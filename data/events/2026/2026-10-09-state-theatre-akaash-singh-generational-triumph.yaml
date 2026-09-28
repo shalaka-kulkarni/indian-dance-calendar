@@ -1,0 +1,59 @@
+id: 2026-10-09-state-theatre-akaash-singh-generational-triumph
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Akaash Singh: Generational Triumph Tour'
+  start: '2026-10-09T19:00:00-04:00'
+  end: '2026-10-09T19:00:00-04:00'
+  additional_dates: []
+  venue: State Theatre New Jersey
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  price_min: 34.0
+  price_max: 34.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/akaash-singh-generational-triumph-tour
+  ticket_url: https://my.stnj.org/25096/25097
+  description_snippet: See below for important information about ticket delivery.See comedian Akaash Singh
+    live at State Theatre New Jersey! Akaash Singh is a nationally touring stand-up comedian, podcaster,
+    and actor. His career took off with many television shows, including MTV’s Wild’n Out, Netflix’s Brown
+    Nation, and HBO’s The Leftovers. After finding success in TV, he shifted his focus to the now hugely
+    successful podcast Flagrant, co-created with fellow comedian and good friend Andrew Schulz. Then he
+    moved his attention to his stand-up comedy career. His comedy specials and clips have amassed almost
+    2 BILLION
+  content_hash: 4635e1fef01355cd
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/akaash-singh-generational-triumph-tour
+    first_seen: '2026-09-28'
+    last_seen: '2026-09-28'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.stnj.org/events/detail/akaash-singh-generational-triumph-tour
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-28T14:45:33.821428-04:00'
+  - url: https://my.stnj.org/25096/25097
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-28T14:45:33.957904-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-09-28T14:45:33.821400-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

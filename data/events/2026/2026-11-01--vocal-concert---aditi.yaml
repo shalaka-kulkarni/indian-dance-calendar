@@ -1,0 +1,52 @@
+id: 2026-11-01--vocal-concert---aditi
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Vocal Concert - Aditi Chakraborty
+  start: '2026-11-01T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://chhandayan.org/calendar/2026/11/1/vocal-concert-aditi-chakraborty
+  ticket_url: ''
+  description_snippet: Nov 1 4:30 PM 16:30 Baithak , New York , Online Vocal Concert - Aditi Chakraborty
+    Sunday, November 1, 2026 4:30 PM 6:00 PM 16:30 18:00 Chhandayan Center for Indian Music (map) Google
+    Calendar ICS Aditi Chakraborty - Vocal Vikram Mukherjee - Tabla TBD - Harmonium Come join us at the
+    Chhandayan Center for an afternoon Hindustani vocal concert performed by renowned artist Aditi Chakraborty
+    accompanied by Vikram Mukherjee on tabla. The performance will also be streamed live. Purchase Tickets/Streaming
+    Access Aditi Chakraborty Dr. Aditi Chakraborty was born into a musical family of Benaras dedicate
+  content_hash: d7bf49c516bba41f
+  sources:
+  - source_id: chhandayan
+    url: https://chhandayan.org/calendar/2026/11/1/vocal-concert-aditi-chakraborty
+    first_seen: '2026-09-28'
+    last_seen: '2026-09-28'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://chhandayan.org/calendar/2026/11/1/vocal-concert-aditi-chakraborty
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-28T14:47:57.541908-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-28T14:47:57.541881-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

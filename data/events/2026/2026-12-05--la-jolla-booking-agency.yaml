@@ -1,0 +1,53 @@
+id: 2026-12-05--la-jolla-booking-agency
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: La Jolla Booking Agency Christmas with the Beatles Featuring Abbey Road
+  start: '2026-12-05T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/christmas-with-the-beatles/
+  ticket_url: ''
+  description_snippet: La Jolla Booking Agency Christmas with the Beatles Featuring Abbey Road SAT, DEC
+    5, 2026 at 7:30 PM On Sale Soon Featuring all the top hits of the Beatles along with some great holiday
+    tunes, Abbey Road’s Christmas With The Beatles promises to be a night of fun. Abbey Road recreates
+    an authentic Beatles concert experience, with period-accurate costume changes, too. Don’t miss this
+    special night filled with Abbey Road’s mash-ups of Christmas classics and Beatles faves. The Abbey
+    Road band has played SOPAC several times as part of its Beatles vs Stones – A Musical Showdown production.
+    On Sale So
+  content_hash: 4450f47890441fb4
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/christmas-with-the-beatles/
+    first_seen: '2026-09-28'
+    last_seen: '2026-09-28'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/christmas-with-the-beatles/
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-28T14:49:05.892748-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-09-28T14:49:05.892717-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

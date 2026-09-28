@@ -1,0 +1,49 @@
+id: 2026-12-04-the-space-asim-azhar-tour-20
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Asim Azhar Tour 2.0 Live In Ny
+  start: '2026-12-04T20:30:00-04:00'
+  end: '2026-12-04T23:00:00-04:00'
+  additional_dates: []
+  venue: The Space at Westbury
+  address: 250 Post Ave, Westbury, NY
+  region: long_island
+  price_min: 75.0
+  price_max: 75.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/asim-azhar-tour-2-0-live-in-ny_event-in_westbury-ny_402050
+  ticket_url: https://events.sulekha.com/asim-azhar-tour-2-0-live-in-ny_event-in_westbury-ny_402050
+  description_snippet: Asim Azhar Tour 2.0 Live In Ny
+  content_hash: b843086f2dd05e9b
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/asim-azhar-tour-2-0-live-in-ny_event-in_westbury-ny_402050
+    first_seen: '2026-09-28'
+    last_seen: '2026-09-28'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/asim-azhar-tour-2-0-live-in-ny_event-in_westbury-ny_402050
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-28T14:49:04.391014-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-09-28T14:49:04.390991-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}
