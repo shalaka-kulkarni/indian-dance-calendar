@@ -47,11 +47,11 @@ validation:
   - url: https://tickets.nyu.edu/19155
     ok: true
     status_code: 200
-    checked_at: '2026-09-28T14:49:21.751388-04:00'
+    checked_at: '2026-09-30T12:55:31.731960-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-28T14:49:21.751358-04:00'
+  validated_at: '2026-09-30T12:55:31.731931-04:00'
 curated:
   forms: []
   traditions: []

@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/shelbyville/2026-shelbyville-scarecrow-daze-car-show/200030236358752
     ok: true
     status_code: 200
-    checked_at: '2026-09-28T14:45:39.088864-04:00'
+    checked_at: '2026-09-30T12:53:14.626893-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-28T14:45:39.088840-04:00'
+  validated_at: '2026-09-30T12:53:14.626869-04:00'
 curated:
   forms: []
   traditions: []

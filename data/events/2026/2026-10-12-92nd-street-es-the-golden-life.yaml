@@ -34,17 +34,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/the-golden-life
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-28T14:45:52.944693-04:00'
   - url: https://seats.92ny.org/single/211375
     ok: true
     status_code: 200
-    checked_at: '2026-09-28T14:45:53.045167-04:00'
+    checked_at: '2026-09-30T12:53:25.728304-04:00'
+  - url: https://www.92ny.org/event/the-golden-life
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-30T12:53:25.751009-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-28T14:45:52.944669-04:00'
+  validated_at: '2026-09-30T12:53:25.728281-04:00'
 curated:
   forms: []
   traditions: []

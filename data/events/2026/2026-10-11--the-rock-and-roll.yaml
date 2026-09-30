@@ -52,12 +52,12 @@ validation:
   - url: https://www.sopacnow.org/events/rock-and-roll-playhouse-2026/
     ok: false
     status_code: 404
-    checked_at: '2026-09-28T14:45:43.191294-04:00'
+    checked_at: '2026-09-30T12:53:16.388749-04:00'
   problems:
   - 'dead links: https://www.sopacnow.org/events/rock-and-roll-playhouse-2026/'
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-28T14:45:43.191268-04:00'
+  validated_at: '2026-09-30T12:53:16.388719-04:00'
 curated:
   forms: []
   traditions: []

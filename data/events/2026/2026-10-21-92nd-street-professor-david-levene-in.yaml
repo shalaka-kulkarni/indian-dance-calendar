@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/david-levene-reading-roman-elegy-through-taylor-swift
     first_seen: '2026-09-28'
-    last_seen: '2026-09-28'
+    last_seen: '2026-09-30'
 validation:
   passed: false
   checks:
@@ -38,14 +38,14 @@ validation:
   - url: https://www.92ny.org/event/david-levene-reading-roman-elegy-through-taylor-swift
     ok: true
     status_code: 200
-    checked_at: '2026-09-28T14:46:52.861750-04:00'
+    checked_at: '2026-09-30T12:53:52.098841-04:00'
   - url: https://seats.92ny.org/single/211401
     ok: true
     status_code: 200
-    checked_at: '2026-09-28T14:46:54.365811-04:00'
+    checked_at: '2026-09-30T12:53:52.150714-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-28T14:46:52.861718-04:00'
+  validated_at: '2026-09-30T12:53:52.098815-04:00'
 curated:
   forms: []
   traditions: []

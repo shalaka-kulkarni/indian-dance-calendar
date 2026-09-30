@@ -1,0 +1,54 @@
+id: 2027-01-28-92nd-street-an-evening-with-shaina
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: An Evening with Shaina Taub
+  start: '2027-01-28T19:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall</div><div class="pdp-hero__hall"><em>Enter
+    on 92nd St. b
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 50.0
+  price_max: 50.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/an-evening-with-shaina-taub
+  ticket_url: https://seats.92ny.org/single/210716
+  description_snippet: Broadway’s Shaina Taub is everything exciting in musical theater right now. Experience
+    her magic in a Lyrics & Lyricists one-night event of songs and stories.
+  content_hash: 96795a2ee1f8fc00
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/an-evening-with-shaina-taub
+    first_seen: '2026-09-30'
+    last_seen: '2026-09-30'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/an-evening-with-shaina-taub
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-30T12:55:34.124787-04:00'
+  - url: https://seats.92ny.org/single/210716
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-30T12:55:34.221338-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-09-30T12:55:34.124759-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -35,12 +35,12 @@ validation:
   - url: https://allevents.in/san-antonio/wizarding-world-unit-study-the-park-tickets/80003490981063
     ok: true
     status_code: 200
-    checked_at: '2026-09-28T14:43:06.725608-04:00'
+    checked_at: '2026-09-30T12:51:51.115694-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-28T14:43:06.725585-04:00'
+  validated_at: '2026-09-30T12:51:51.115665-04:00'
 curated:
   forms: []
   traditions: []

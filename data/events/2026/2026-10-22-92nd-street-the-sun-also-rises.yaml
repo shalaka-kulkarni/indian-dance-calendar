@@ -37,14 +37,14 @@ validation:
   - url: https://seats.92ny.org/single/211303
     ok: true
     status_code: 200
-    checked_at: '2026-09-28T14:46:58.261110-04:00'
+    checked_at: '2026-09-30T12:53:54.918125-04:00'
   - url: https://www.92ny.org/event/the-sun-also-rises-at-100
     ok: true
     status_code: 200
-    checked_at: '2026-09-28T14:46:58.348796-04:00'
+    checked_at: '2026-09-30T12:53:55.074299-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-28T14:46:58.261081-04:00'
+  validated_at: '2026-09-30T12:53:54.918101-04:00'
 curated:
   forms: []
   traditions: []

@@ -28,7 +28,7 @@ scraped:
   - source_id: state_theatre_nj
     url: https://www.stnj.org/events/detail/akaash-singh-generational-triumph-tour
     first_seen: '2026-09-28'
-    last_seen: '2026-09-28'
+    last_seen: '2026-09-30'
 validation:
   passed: false
   checks:
@@ -42,15 +42,15 @@ validation:
   link_checks:
   - url: https://www.stnj.org/events/detail/akaash-singh-generational-triumph-tour
     ok: true
-    status_code: 200
-    checked_at: '2026-09-28T14:45:33.821428-04:00'
+    status_code: 406
+    checked_at: '2026-09-30T12:53:11.145888-04:00'
   - url: https://my.stnj.org/25096/25097
     ok: true
     status_code: 200
-    checked_at: '2026-09-28T14:45:33.957904-04:00'
+    checked_at: '2026-09-30T12:53:11.216321-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-28T14:45:33.821400-04:00'
+  validated_at: '2026-09-30T12:53:11.145863-04:00'
 curated:
   forms: []
   traditions: []

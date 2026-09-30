@@ -27,7 +27,7 @@ scraped:
   - source_id: joyce
     url: https://www.joyce.org/performances/nrityagram-dance-ensemble-clk1
     first_seen: '2026-08-16'
-    last_seen: '2026-09-28'
+    last_seen: '2026-09-30'
 ai:
   relevant: true
   kind: performance
@@ -56,9 +56,9 @@ validation:
   - url: https://www.joyce.org/performances/nrityagram-dance-ensemble-clk1
     ok: true
     status_code: 200
-    checked_at: '2026-09-28T14:46:08.437280-04:00'
+    checked_at: '2026-09-30T12:53:31.658002-04:00'
   problems: []
-  validated_at: '2026-09-28T14:46:08.437250-04:00'
+  validated_at: '2026-09-30T12:53:31.657981-04:00'
 curated:
   forms:
   - odissi

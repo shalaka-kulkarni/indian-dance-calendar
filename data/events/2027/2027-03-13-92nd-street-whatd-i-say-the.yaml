@@ -1,0 +1,54 @@
+id: 2027-03-13-92nd-street-whatd-i-say-the
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'What’d I Say: The Genius of Ray Charles'
+  start: '2027-03-13T17:00:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall</div><div class="pdp-hero__hall"><em>Enter
+    on 92nd St. b
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 50.0
+  price_max: 50.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/celebrating-ray-charles
+  ticket_url: https://seats.92ny.org/single/210636
+  description_snippet: 'Lyrics & Lyricists celebrates music icon Ray Charles with Broadway’s Brandon Victor
+    Dixon ( Hamilton , Motown: The Musical , and more).'
+  content_hash: 12371ebe6d31f1d8
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/celebrating-ray-charles
+    first_seen: '2026-09-30'
+    last_seen: '2026-09-30'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/210636
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-30T12:55:43.281738-04:00'
+  - url: https://www.92ny.org/event/celebrating-ray-charles
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-30T12:55:43.294430-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-09-30T12:55:43.281712-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

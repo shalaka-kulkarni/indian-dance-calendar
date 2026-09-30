@@ -49,12 +49,12 @@ validation:
   - url: https://www.prucenter.com/events/bryson-tiller
     ok: true
     status_code: 200
-    checked_at: '2026-09-28T14:43:56.177086-04:00'
+    checked_at: '2026-09-30T12:52:18.683445-04:00'
   problems:
   - event date 2026-09-19 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-28T14:43:56.177063-04:00'
+  validated_at: '2026-09-30T12:52:18.683419-04:00'
 curated:
   forms: []
   traditions: []

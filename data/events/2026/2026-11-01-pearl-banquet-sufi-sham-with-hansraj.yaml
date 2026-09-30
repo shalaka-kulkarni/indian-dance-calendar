@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/sufi-sham-with-hansraj-hans-last-show-in-new-york_event-in_hicksville-ny_402038
     first_seen: '2026-09-25'
-    last_seen: '2026-09-28'
+    last_seen: '2026-09-30'
 validation:
   passed: false
   checks:
@@ -37,10 +37,10 @@ validation:
   - url: https://events.sulekha.com/sufi-sham-with-hansraj-hans-last-show-in-new-york_event-in_hicksville-ny_402038
     ok: true
     status_code: 200
-    checked_at: '2026-09-28T14:47:57.586944-04:00'
+    checked_at: '2026-09-30T12:54:28.111643-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-28T14:47:57.586917-04:00'
+  validated_at: '2026-09-30T12:54:28.111615-04:00'
 curated:
   forms: []
   traditions: []

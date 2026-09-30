@@ -21,7 +21,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/don-omar
     first_seen: '2026-08-16'
-    last_seen: '2026-09-28'
+    last_seen: '2026-09-30'
 ai:
   relevant: false
   kind: other
@@ -49,11 +49,11 @@ validation:
   - url: https://www.prucenter.com/events/don-omar
     ok: true
     status_code: 200
-    checked_at: '2026-09-28T14:45:51.039882-04:00'
+    checked_at: '2026-09-30T12:53:24.309190-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-28T14:45:51.039851-04:00'
+  validated_at: '2026-09-30T12:53:24.309166-04:00'
 curated:
   forms: []
   traditions: []

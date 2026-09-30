@@ -40,24 +40,25 @@ validation:
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: false
     price_known: true
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/muldoon-s-picnic-september
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-28T14:43:16.556205-04:00'
   - url: https://seats.92ny.org/single/210921
     ok: true
     status_code: 200
-    checked_at: '2026-09-28T14:43:19.408296-04:00'
+    checked_at: '2026-09-30T12:51:57.370112-04:00'
+  - url: https://www.92ny.org/event/muldoon-s-picnic-september
+    ok: false
+    status_code: 404
+    checked_at: '2026-09-30T12:51:57.391352-04:00'
   problems:
+  - 'dead links: https://www.92ny.org/event/muldoon-s-picnic-september'
   - event date 2026-09-14 is in the past
   - classified not-relevant
-  validated_at: '2026-09-28T14:43:16.556178-04:00'
+  validated_at: '2026-09-30T12:51:57.370088-04:00'
 curated:
   forms: []
   traditions: []

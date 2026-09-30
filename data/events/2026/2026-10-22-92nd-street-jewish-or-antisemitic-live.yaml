@@ -1,0 +1,54 @@
+id: 2026-10-22-92nd-street-jewish-or-antisemitic-live
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Jewish or Antisemitic LIVE: Hosted by Eitan Levine featuring Talia Lichtstein and Raanan Hershberg
+    with music by Max Ash'
+  start: '2026-10-22T20:00:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 40.0
+  price_max: 40.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/jewish-or-antisemitic-live
+  ticket_url: https://seats.92ny.org/single/210886
+  description_snippet: Eitan Levine, Max Ash, and special guests host a live taping of the hit TikTok
+    comedy gameshow Jewish or Antisemitic .
+  content_hash: 5f3ed32cc0a45fb5
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/jewish-or-antisemitic-live
+    first_seen: '2026-09-30'
+    last_seen: '2026-09-30'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/jewish-or-antisemitic-live
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-30T12:53:54.601555-04:00'
+  - url: https://seats.92ny.org/single/210886
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-30T12:53:54.662486-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-09-30T12:53:54.601535-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/monroe/pure-terror-scream-park-monroe-ny/2700030273917134
     ok: true
     status_code: 200
-    checked_at: '2026-09-28T14:43:49.541052-04:00'
+    checked_at: '2026-09-30T12:52:16.088415-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-28T14:43:49.541028-04:00'
+  validated_at: '2026-09-30T12:52:16.088384-04:00'
 curated:
   forms: []
   traditions: []

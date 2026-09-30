@@ -1,0 +1,54 @@
+id: 2026-12-18-92nd-street-an-evening-with-stephin
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: An Evening with Stephin Merritt
+  start: '2026-12-18T19:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall</div><div class="pdp-hero__hall"><em>Enter
+    on 92nd St. b
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 45.0
+  price_max: 45.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/an-evening-with-stephin-merritt
+  ticket_url: https://seats.92ny.org/single/210719
+  description_snippet: Singer-songwriter Stephin Merritt (The Magnetic Fields), one of The New York Times
+    ’ “30 Greatest Living American Songwriters,” performs a rare solo concert.
+  content_hash: d205a07f2aa6dece
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/an-evening-with-stephin-merritt
+    first_seen: '2026-09-30'
+    last_seen: '2026-09-30'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/an-evening-with-stephin-merritt
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-30T12:55:27.983313-04:00'
+  - url: https://seats.92ny.org/single/210719
+    ok: true
+    status_code: 200
+    checked_at: '2026-09-30T12:55:28.044214-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-09-30T12:55:27.983281-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

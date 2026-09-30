@@ -7,7 +7,7 @@ scraped:
   start: '2026-11-10T19:30:00-05:00'
   additional_dates: []
   venue: ''
-  address: ''
+  address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 25.0
   price_max: 25.0
@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/annie-proulx-stories
     first_seen: '2026-08-16'
-    last_seen: '2026-08-19'
+    last_seen: '2026-09-30'
 ai:
   relevant: false
   kind: other
@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/annie-proulx-stories
     ok: true
     status_code: 200
-    checked_at: '2026-09-28T14:48:20.341022-04:00'
+    checked_at: '2026-09-30T12:54:44.154042-04:00'
   - url: https://seats.92ny.org/single/210919
     ok: true
     status_code: 200
-    checked_at: '2026-09-28T14:48:22.313235-04:00'
+    checked_at: '2026-09-30T12:54:44.262848-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-09-28T14:48:20.340997-04:00'
+  validated_at: '2026-09-30T12:54:44.154016-04:00'
 curated:
   forms: []
   traditions: []

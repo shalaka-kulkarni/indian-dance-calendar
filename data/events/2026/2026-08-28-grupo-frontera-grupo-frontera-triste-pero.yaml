@@ -49,12 +49,12 @@ validation:
   - url: https://www.prucenter.com/events/grupo-frontera
     ok: true
     status_code: 200
-    checked_at: '2026-09-28T14:42:57.805936-04:00'
+    checked_at: '2026-09-30T12:51:46.520035-04:00'
   problems:
   - event date 2026-08-28 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-28T14:42:57.805916-04:00'
+  validated_at: '2026-09-30T12:51:46.520010-04:00'
 curated:
   forms: []
   traditions: []

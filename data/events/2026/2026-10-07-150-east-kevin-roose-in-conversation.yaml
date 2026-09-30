@@ -37,14 +37,14 @@ validation:
   - url: https://www.92ny.org/event/kevin-roose-in-conversation
     ok: true
     status_code: 200
-    checked_at: '2026-09-28T14:45:10.819372-04:00'
+    checked_at: '2026-09-30T12:53:03.809361-04:00'
   - url: https://seats.92ny.org/single/211229
     ok: true
     status_code: 200
-    checked_at: '2026-09-28T14:45:13.750312-04:00'
+    checked_at: '2026-09-30T12:53:05.441754-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-28T14:45:10.819347-04:00'
+  validated_at: '2026-09-30T12:53:03.809336-04:00'
 curated:
   forms: []
   traditions: []
