@@ -45,18 +45,18 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/ayad-akhtar-the-radiance
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-30T12:52:44.240936-04:00'
   - url: https://seats.92ny.org/single/210559
     ok: true
     status_code: 200
-    checked_at: '2026-09-30T12:52:44.274622-04:00'
+    checked_at: '2026-10-02T12:44:34.613758-04:00'
+  - url: https://www.92ny.org/event/ayad-akhtar-the-radiance
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-02T12:44:34.669062-04:00'
   problems:
   - event date 2026-09-29 is in the past
   - classified not-relevant
-  validated_at: '2026-09-30T12:52:44.240906-04:00'
+  validated_at: '2026-10-02T12:44:34.613732-04:00'
 curated:
   forms: []
   traditions: []

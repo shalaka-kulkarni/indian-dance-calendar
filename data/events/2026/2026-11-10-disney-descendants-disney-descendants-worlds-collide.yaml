@@ -21,7 +21,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/disney-worlds-collide-concert-tour
     first_seen: '2026-08-16'
-    last_seen: '2026-09-30'
+    last_seen: '2026-10-02'
 ai:
   relevant: false
   kind: other
@@ -49,11 +49,11 @@ validation:
   - url: https://www.prucenter.com/events/disney-worlds-collide-concert-tour
     ok: true
     status_code: 200
-    checked_at: '2026-09-30T12:54:46.759606-04:00'
+    checked_at: '2026-10-02T12:48:12.807465-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-30T12:54:46.759585-04:00'
+  validated_at: '2026-10-02T12:48:12.807435-04:00'
 curated:
   forms: []
   traditions: []

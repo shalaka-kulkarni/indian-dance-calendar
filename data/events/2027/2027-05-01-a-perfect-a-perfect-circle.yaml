@@ -20,7 +20,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/a-perfect-circle
     first_seen: '2026-09-30'
-    last_seen: '2026-09-30'
+    last_seen: '2026-10-02'
 validation:
   passed: false
   checks:
@@ -35,11 +35,11 @@ validation:
   - url: https://www.prucenter.com/events/a-perfect-circle
     ok: true
     status_code: 200
-    checked_at: '2026-09-30T12:55:47.584241-04:00'
+    checked_at: '2026-10-02T12:50:00.830927-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-30T12:55:47.584213-04:00'
+  validated_at: '2026-10-02T12:50:00.830895-04:00'
 curated:
   forms: []
   traditions: []

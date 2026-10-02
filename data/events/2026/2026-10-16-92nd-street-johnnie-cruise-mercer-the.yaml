@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/johnnie-cruise-mercer-the-good-news-suite
     first_seen: '2026-09-25'
-    last_seen: '2026-09-28'
+    last_seen: '2026-10-02'
 validation:
   passed: false
   checks:
@@ -37,14 +37,14 @@ validation:
   - url: https://www.92ny.org/event/johnnie-cruise-mercer-the-good-news-suite
     ok: true
     status_code: 200
-    checked_at: '2026-09-30T12:53:33.731896-04:00'
+    checked_at: '2026-10-02T12:45:59.777780-04:00'
   - url: https://seats.92ny.org/single/210349
     ok: true
     status_code: 200
-    checked_at: '2026-09-30T12:53:35.243869-04:00'
+    checked_at: '2026-10-02T12:46:01.549280-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-30T12:53:33.731877-04:00'
+  validated_at: '2026-10-02T12:45:59.777756-04:00'
 curated:
   forms: []
   traditions: []

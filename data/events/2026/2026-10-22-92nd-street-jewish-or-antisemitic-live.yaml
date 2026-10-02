@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/jewish-or-antisemitic-live
     first_seen: '2026-09-30'
-    last_seen: '2026-09-30'
+    last_seen: '2026-10-02'
 validation:
   passed: false
   checks:
@@ -35,17 +35,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/jewish-or-antisemitic-live
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-30T12:53:54.601555-04:00'
   - url: https://seats.92ny.org/single/210886
     ok: true
     status_code: 200
-    checked_at: '2026-09-30T12:53:54.662486-04:00'
+    checked_at: '2026-10-02T12:46:33.630678-04:00'
+  - url: https://www.92ny.org/event/jewish-or-antisemitic-live
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-02T12:46:33.685381-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-30T12:53:54.601535-04:00'
+  validated_at: '2026-10-02T12:46:33.630646-04:00'
 curated:
   forms: []
   traditions: []

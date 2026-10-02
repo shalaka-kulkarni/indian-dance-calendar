@@ -20,7 +20,7 @@ scraped:
   - source_id: timeout_ny
     url: https://www.timeout.com/newyork/dance/new-york-city-ballet-fall-2026
     first_seen: '2026-09-25'
-    last_seen: '2026-09-30'
+    last_seen: '2026-10-02'
 validation:
   passed: false
   checks:
@@ -35,12 +35,12 @@ validation:
   - url: https://www.timeout.com/newyork/dance/new-york-city-ballet-fall-2026
     ok: true
     status_code: 200
-    checked_at: '2026-09-30T12:53:42.385830-04:00'
+    checked_at: '2026-10-02T12:46:12.392821-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-30T12:53:42.385804-04:00'
+  validated_at: '2026-10-02T12:46:12.392792-04:00'
 curated:
   forms: []
   traditions: []

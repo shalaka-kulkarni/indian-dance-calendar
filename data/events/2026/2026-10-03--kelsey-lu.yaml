@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/kelsey-lu
     first_seen: '2026-08-18'
-    last_seen: '2026-09-30'
+    last_seen: '2026-10-02'
 ai:
   relevant: false
   kind: performance
@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/kelsey-lu
     ok: true
     status_code: 200
-    checked_at: '2026-09-30T12:52:50.629477-04:00'
+    checked_at: '2026-10-02T12:44:46.488600-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-30T12:52:50.629451-04:00'
+  validated_at: '2026-10-02T12:44:46.488570-04:00'
 curated:
   forms: []
   traditions: []

@@ -21,7 +21,7 @@ scraped:
   - source_id: queens_theatre
     url: https://queenstheatre.org/events/tammy-mccann-nrmf
     first_seen: '2026-08-16'
-    last_seen: '2026-09-30'
+    last_seen: '2026-10-02'
 ai:
   relevant: false
   kind: other
@@ -48,11 +48,11 @@ validation:
   - url: https://queenstheatre.org/events/tammy-mccann-nrmf
     ok: true
     status_code: 200
-    checked_at: '2026-09-30T12:54:40.200272-04:00'
+    checked_at: '2026-10-02T12:48:03.887448-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-09-30T12:54:40.200245-04:00'
+  validated_at: '2026-10-02T12:48:03.887418-04:00'
 curated:
   forms: []
   traditions: []

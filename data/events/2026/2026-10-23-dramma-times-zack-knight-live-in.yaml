@@ -1,0 +1,49 @@
+id: 2026-10-23-dramma-times-zack-knight-live-in
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Zack Knight Live In Manhattan At Dramma Times Square
+  start: '2026-10-23T22:00:00-04:00'
+  end: '2026-10-24T03:00:00-04:00'
+  additional_dates: []
+  venue: DRAMMA TIMES SQUARE
+  address: 1604 Broadway, New York, NY
+  region: manhattan
+  price_min: 35.0
+  price_max: 35.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/zack-knight-live-in-manhattan-at-dramma-times-square_event-in_new-york-ny_402131
+  ticket_url: https://events.sulekha.com/zack-knight-live-in-manhattan-at-dramma-times-square_event-in_new-york-ny_402131
+  description_snippet: Zack Knight Live In Manhattan At Dramma Times Square
+  content_hash: e181e054a3f8044e
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/zack-knight-live-in-manhattan-at-dramma-times-square_event-in_new-york-ny_402131
+    first_seen: '2026-10-02'
+    last_seen: '2026-10-02'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/zack-knight-live-in-manhattan-at-dramma-times-square_event-in_new-york-ny_402131
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-02T12:46:39.947522-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-02T12:46:39.947471-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

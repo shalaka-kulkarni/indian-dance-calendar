@@ -1,0 +1,49 @@
+id: 2026-12-11-amor-931-amor-931-la-musica
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Amor 93.1 & La Musica Presentan Amor En Vivo El Concierto Tickets
+  start: '2026-12-11T20:00:00-05:00'
+  end: '2026-12-11T21:00:00-05:00'
+  additional_dates: []
+  venue: Amor 93.1 & La Musica Presentan Amor En Vivo El Concierto Tickets
+  address: Amor 93.1 & La Musica Presentan Amor En Vivo El Concierto Tickets
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.prucenter.com/events/amor-en-vivo
+  ticket_url: ''
+  description_snippet: Amor En Vivo returns to Prudential Center on Friday, December 11 with performances
+    by Dalvin La Melodia, Luis Fonsi, Elvis Crespo, Natalia Jimenez, and Olga Tanon!
+  content_hash: b9b5636d13669139
+  sources:
+  - source_id: prudential_center
+    url: https://www.prucenter.com/events/amor-en-vivo
+    first_seen: '2026-10-02'
+    last_seen: '2026-10-02'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.prucenter.com/events/amor-en-vivo
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-02T12:49:03.729488-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-02T12:49:03.729463-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

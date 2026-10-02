@@ -1,0 +1,49 @@
+id: 2026-11-07-skyport-marina-diwali-cruise-party-desi
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Diwali Cruise Party Desi Dinner Buffet Saturday Night Nov 7
+  start: '2026-11-07T18:00:00-04:00'
+  end: '2026-11-07T22:00:00-04:00'
+  additional_dates: []
+  venue: Skyport Marina
+  address: Skyport Marina FDR Drive, New York, NY
+  region: manhattan
+  price_min: 39.0
+  price_max: 39.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/diwali-cruise-party-desi-dinner-buffet-saturday-night-nov-7_event-in_new-york-ny_402124
+  ticket_url: https://events.sulekha.com/diwali-cruise-party-desi-dinner-buffet-saturday-night-nov-7_event-in_new-york-ny_402124
+  description_snippet: Diwali Cruise Party Desi Dinner Buffet Saturday Night Nov 7
+  content_hash: 43491f17de431c43
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/diwali-cruise-party-desi-dinner-buffet-saturday-night-nov-7_event-in_new-york-ny_402124
+    first_seen: '2026-10-02'
+    last_seen: '2026-10-02'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/diwali-cruise-party-desi-dinner-buffet-saturday-night-nov-7_event-in_new-york-ny_402124
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-02T12:48:04.986368-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-02T12:48:04.986340-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

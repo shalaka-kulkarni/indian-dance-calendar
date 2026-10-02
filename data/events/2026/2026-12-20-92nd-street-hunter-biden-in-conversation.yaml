@@ -1,0 +1,54 @@
+id: 2026-12-20-92nd-street-hunter-biden-in-conversation
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Hunter Biden in Conversation with David Manheim: A Live Podcast Recording of Dopey'
+  start: '2026-12-20T19:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 50.0
+  price_max: 50.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/hunter-biden-with-david-manheim
+  ticket_url: https://seats.92ny.org/single/211424
+  description_snippet: Hunter Biden joins David Manheim for a live recording of Dopey , the hit podcast
+    about addiction and recovery, discussing Beautiful Things , grief, sobriety, family, and rebuilding
+    a life.
+  content_hash: 7386a9e9bac7e49c
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/hunter-biden-with-david-manheim
+    first_seen: '2026-10-02'
+    last_seen: '2026-10-02'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/hunter-biden-with-david-manheim
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-02T12:49:24.261323-04:00'
+  - url: https://seats.92ny.org/single/211424
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-02T12:49:26.671184-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-02T12:49:24.261294-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

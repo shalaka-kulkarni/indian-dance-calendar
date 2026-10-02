@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/celebrating-ray-charles
     first_seen: '2026-09-30'
-    last_seen: '2026-09-30'
+    last_seen: '2026-10-02'
 validation:
   passed: false
   checks:
@@ -38,14 +38,14 @@ validation:
   - url: https://seats.92ny.org/single/210636
     ok: true
     status_code: 200
-    checked_at: '2026-09-30T12:55:43.281738-04:00'
+    checked_at: '2026-10-02T12:49:54.499684-04:00'
   - url: https://www.92ny.org/event/celebrating-ray-charles
     ok: true
     status_code: 200
-    checked_at: '2026-09-30T12:55:43.294430-04:00'
+    checked_at: '2026-10-02T12:49:54.554927-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-30T12:55:43.281712-04:00'
+  validated_at: '2026-10-02T12:49:54.499657-04:00'
 curated:
   forms: []
   traditions: []

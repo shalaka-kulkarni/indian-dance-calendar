@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/scientific-controversies-octopus-umwelt
     first_seen: '2026-08-28'
-    last_seen: '2026-09-30'
+    last_seen: '2026-10-02'
 validation:
   passed: false
   checks:
@@ -34,11 +34,11 @@ validation:
   - url: https://pioneerworks.org/programs/scientific-controversies-octopus-umwelt
     ok: true
     status_code: 200
-    checked_at: '2026-09-30T12:53:27.176700-04:00'
+    checked_at: '2026-10-02T12:45:42.024618-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-09-30T12:53:27.176681-04:00'
+  validated_at: '2026-10-02T12:45:42.024587-04:00'
 curated:
   forms: []
   traditions: []

@@ -1,0 +1,51 @@
+id: 2027-04-16--sons-of-cream
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Sons of Cream
+  start: '2027-04-16T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/sonsofcream2027/
+  ticket_url: ''
+  description_snippet: Sons of Cream FRI, APR 16, 2027 at 7:30 PM On Sale Soon Sons of Cream features
+    Kofi Baker, son of Ginger Baker, and Malcolm Bruce, son of Jack Bruce, honoring the legendary catalog
+    of Cream with the kind of authenticity that only comes from growing up inside the music. Joined by
+    guitarist Rob Johnson, this is not a tribute act, but a living continuation of one of rock and roll's
+    most audacious and enduring legacies. On Sale Soon Learn More
+  content_hash: f5ffc88acf7e0a73
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/sonsofcream2027/
+    first_seen: '2026-10-02'
+    last_seen: '2026-10-02'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/sonsofcream2027/
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-02T12:50:00.093245-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-02T12:50:00.093219-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/celebrating-joan-baez
     first_seen: '2026-09-30'
-    last_seen: '2026-09-30'
+    last_seen: '2026-10-02'
 validation:
   passed: false
   checks:
@@ -38,14 +38,14 @@ validation:
   - url: https://seats.92ny.org/single/210631
     ok: true
     status_code: 200
-    checked_at: '2026-09-30T12:54:39.783403-04:00'
+    checked_at: '2026-10-02T12:48:01.119747-04:00'
   - url: https://www.92ny.org/event/celebrating-joan-baez
     ok: true
     status_code: 200
-    checked_at: '2026-09-30T12:54:39.800288-04:00'
+    checked_at: '2026-10-02T12:48:01.180672-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-30T12:54:39.783376-04:00'
+  validated_at: '2026-10-02T12:48:01.119717-04:00'
 curated:
   forms: []
   traditions: []

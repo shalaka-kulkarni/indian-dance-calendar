@@ -41,24 +41,25 @@ validation:
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: false
     price_known: true
     in_metro: true
     classified: false
   link_checks:
+  - url: https://www.92ny.org/event/annie-meyers-shyer-with-katie-lee-biegel
+    ok: false
+    status_code: 404
+    checked_at: '2026-10-02T12:43:41.793735-04:00'
   - url: https://seats.92ny.org/single/210936
     ok: true
     status_code: 200
-    checked_at: '2026-09-30T12:52:09.113001-04:00'
-  - url: https://www.92ny.org/event/annie-meyers-shyer-with-katie-lee-biegel
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-30T12:52:09.123344-04:00'
+    checked_at: '2026-10-02T12:43:42.363702-04:00'
   problems:
+  - 'dead links: https://www.92ny.org/event/annie-meyers-shyer-with-katie-lee-biegel'
   - event date 2026-09-17 is in the past
   - classified not-relevant
-  validated_at: '2026-09-30T12:52:09.112973-04:00'
+  validated_at: '2026-10-02T12:43:41.793701-04:00'
 curated:
   forms: []
   traditions: []

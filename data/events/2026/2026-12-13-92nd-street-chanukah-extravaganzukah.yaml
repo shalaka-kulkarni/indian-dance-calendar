@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/chanukah-extravaganzukah
     first_seen: '2026-09-30'
-    last_seen: '2026-09-30'
+    last_seen: '2026-10-02'
 validation:
   passed: false
   checks:
@@ -37,14 +37,14 @@ validation:
   - url: https://seats.92ny.org/single/211416
     ok: true
     status_code: 200
-    checked_at: '2026-09-30T12:55:25.126661-04:00'
+    checked_at: '2026-10-02T12:49:05.947268-04:00'
   - url: https://www.92ny.org/event/chanukah-extravaganzukah
     ok: true
     status_code: 200
-    checked_at: '2026-09-30T12:55:25.159736-04:00'
+    checked_at: '2026-10-02T12:49:06.022539-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-30T12:55:25.126641-04:00'
+  validated_at: '2026-10-02T12:49:05.947241-04:00'
 curated:
   forms: []
   traditions: []

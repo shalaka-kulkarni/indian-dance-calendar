@@ -36,14 +36,14 @@ validation:
   - url: https://www.92ny.org/event/carissa-schumacher-the-alchemy-transmissions
     ok: true
     status_code: 200
-    checked_at: '2026-09-30T12:52:51.911623-04:00'
+    checked_at: '2026-10-02T12:44:48.814468-04:00'
   - url: https://seats.92ny.org/single/210647
     ok: true
     status_code: 200
-    checked_at: '2026-09-30T12:52:53.300468-04:00'
+    checked_at: '2026-10-02T12:44:49.022127-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-30T12:52:51.911603-04:00'
+  validated_at: '2026-10-02T12:44:48.814438-04:00'
 curated:
   forms: []
   traditions: []

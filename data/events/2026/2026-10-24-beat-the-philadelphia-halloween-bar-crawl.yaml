@@ -37,11 +37,11 @@ validation:
   - url: https://allevents.in/philadelphia/philadelphia-halloween-bar-crawl/100001951336553159
     ok: true
     status_code: 200
-    checked_at: '2026-09-30T12:54:01.143458-04:00'
+    checked_at: '2026-10-02T12:46:44.130808-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-09-30T12:54:01.143432-04:00'
+  validated_at: '2026-10-02T12:46:44.130776-04:00'
 curated:
   forms: []
   traditions: []

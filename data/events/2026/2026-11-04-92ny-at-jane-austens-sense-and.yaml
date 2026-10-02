@@ -1,0 +1,54 @@
+id: 2026-11-04-92ny-at-jane-austens-sense-and
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Jane Austen’s Sense and Sensibility and the Art of Adaptation: Francine Prose, Sadie Stein and
+    others in Conversation with Alexandra Schwartz'
+  start: '2026-11-04T19:00:00-05:00'
+  additional_dates: []
+  venue: 92NY at Redeemer, 150 E 91st
+  address: ''
+  region: manhattan
+  price_min: 35.0
+  price_max: 35.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/jane-austen-s-sense-and-sensibility
+  ticket_url: https://seats.92ny.org/single/211421
+  description_snippet: Francine Prose, Sadie Stein and Alexandra Schwartz explore Sense and Sensibility
+    , Jane Austen’s enduring appeal, and what makes a great Austen adaptation.
+  content_hash: e1a0ac04a09769b1
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/jane-austen-s-sense-and-sensibility
+    first_seen: '2026-10-02'
+    last_seen: '2026-10-02'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/jane-austen-s-sense-and-sensibility
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-02T12:47:50.410534-04:00'
+  - url: https://seats.92ny.org/single/211421
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-02T12:47:52.534602-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-02T12:47:50.410492-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

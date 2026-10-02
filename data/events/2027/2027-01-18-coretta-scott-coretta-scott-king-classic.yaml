@@ -1,0 +1,48 @@
+id: 2027-01-18-coretta-scott-coretta-scott-king-classic
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Coretta Scott King Classic
+  start: '2027-01-18T12:00:00-05:00'
+  end: '2027-01-18T13:00:00-05:00'
+  additional_dates: []
+  venue: Coretta Scott King Classic
+  address: Coretta Scott King Classic
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.prucenter.com/events/coretta-scott-king-classic
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 4d552feddaa899bb
+  sources:
+  - source_id: prudential_center
+    url: https://www.prucenter.com/events/coretta-scott-king-classic
+    first_seen: '2026-10-02'
+    last_seen: '2026-10-02'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.prucenter.com/events/coretta-scott-king-classic
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-02T12:49:35.833629-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-02T12:49:35.833590-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

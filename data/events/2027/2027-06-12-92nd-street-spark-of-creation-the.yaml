@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/celebrating-stephen-schwartz
     first_seen: '2026-09-30'
-    last_seen: '2026-09-30'
+    last_seen: '2026-10-02'
 validation:
   passed: false
   checks:
@@ -35,17 +35,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/celebrating-stephen-schwartz
-    ok: true
-    status_code: 200
-    checked_at: '2026-09-30T12:55:50.767045-04:00'
   - url: https://seats.92ny.org/single/210640
     ok: true
     status_code: 200
-    checked_at: '2026-09-30T12:55:50.832858-04:00'
+    checked_at: '2026-10-02T12:50:07.464294-04:00'
+  - url: https://www.92ny.org/event/celebrating-stephen-schwartz
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-02T12:50:07.524081-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-09-30T12:55:50.767016-04:00'
+  validated_at: '2026-10-02T12:50:07.464260-04:00'
 curated:
   forms: []
   traditions: []
