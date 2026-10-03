@@ -108,8 +108,9 @@ def ingest(raw_events: list[RawEvent], sources_by_id: dict[str, Source], client:
         if scraped is None:
             stats["skipped"] += 1
             continue
-        # Skip events already in the past at ingest time.
-        if scraped.start < datetime.now(NY_TZ):
+        # Skip events already in the past at ingest time — by calendar day,
+        # so a date-only listing for today still gets in.
+        if scraped.start.date() < datetime.now(NY_TZ).date():
             stats["skipped"] += 1
             continue
         match = find_match(scraped, existing)

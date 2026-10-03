@@ -134,7 +134,11 @@ def validate_event(
         [scraped.start, *(scraped.additional_dates or [])]
         + ([scraped.end] if scraped.end else [])
     )
-    checks["date_valid"] = last_date >= now
+    # Compared by calendar day, not timestamp. A listing that gives only a
+    # date arrives as midnight, and a timestamp comparison would call it past
+    # one minute into the day it happens — three concerts were held that way
+    # on the morning of 3 Oct 2026. expire_past_events uses the same rule.
+    checks["date_valid"] = last_date.date() >= now.date()
     if not checks["date_valid"]:
         problems.append(f"event date {last_date.date()} is in the past")
 

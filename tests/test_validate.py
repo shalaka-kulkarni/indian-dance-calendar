@@ -57,6 +57,19 @@ def test_past_event_fails_date_check(sample_event):
     assert not validation.checks["date_valid"]
 
 
+def test_date_only_event_stays_valid_through_its_day(sample_event):
+    # Listings that give only a date arrive as midnight local time.
+    sample_event.scraped.start = datetime(2026, 10, 3, 0, 0, tzinfo=NY)
+    sample_event.scraped.end = None
+    sample_event.ai = relevant_ai()
+    that_morning = datetime(2026, 10, 3, 8, 30, tzinfo=NY)
+    validation = validate_event(sample_event, check_links=False, now=that_morning)
+    assert validation.checks["date_valid"]
+    next_day = datetime(2026, 10, 4, 0, 1, tzinfo=NY)
+    validation = validate_event(sample_event, check_links=False, now=next_day)
+    assert not validation.checks["date_valid"]
+
+
 def test_fully_valid_event_publishes(sample_event, monkeypatch):
     from pipeline import validate as validate_module
     from pipeline.models import LinkCheck
