@@ -1,5 +1,5 @@
 id: 2026-12-04-the-space-asim-azhar-tour-20
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -23,24 +23,33 @@ scraped:
     url: https://events.sulekha.com/asim-azhar-tour-2-0-live-in-ny_event-in_westbury-ny_402050
     first_seen: '2026-09-28'
     last_seen: '2026-10-02'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: Pakistani pop; not Indian music.
+  model: hand-classified (routine lacked push access)
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://events.sulekha.com/asim-azhar-tour-2-0-live-in-ny_event-in_westbury-ny_402050
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:03:36.480261-04:00'
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-10-03T08:03:36.480239-04:00'
+  - links not yet verified (offline run)
+  - classified not-relevant
+  validated_at: '2026-10-03T08:24:05.518996-04:00'
 curated:
   forms: []
   traditions: []

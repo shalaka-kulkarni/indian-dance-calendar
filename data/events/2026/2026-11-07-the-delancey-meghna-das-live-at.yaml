@@ -23,6 +23,18 @@ scraped:
     url: https://allevents.in/new-york/meghna-das-live-at-the-delancey/100002000052190943
     first_seen: '2026-09-09'
     last_seen: '2026-10-02'
+ai:
+  relevant: true
+  kind: performance
+  art_form: music
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: low
+  reasoning: Name-only listing; no genre or programme stated. Held for a human look.
+  model: hand-classified (routine lacked push access)
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:

@@ -1,5 +1,5 @@
 id: 2026-10-21-92nd-street-susan-orlean-joyride
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -23,28 +23,33 @@ scraped:
     url: https://www.92ny.org/event/susan-orlean-joyride
     first_seen: '2026-08-22'
     last_seen: '2026-09-02'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 92NY talks, readings, screenings and non-Indian concerts; nothing Indian in the text.
+  model: hand-classified (routine lacked push access)
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://www.92ny.org/event/susan-orlean-joyride
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:01:16.104483-04:00'
-  - url: https://seats.92ny.org/single/211187
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:01:16.222646-04:00'
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-10-03T08:01:16.104459-04:00'
+  - links not yet verified (offline run)
+  - classified not-relevant
+  validated_at: '2026-10-03T08:24:05.155154-04:00'
 curated:
   forms: []
   traditions: []

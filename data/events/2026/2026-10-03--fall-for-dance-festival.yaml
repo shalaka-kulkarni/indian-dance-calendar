@@ -1,5 +1,5 @@
 id: 2026-10-03--fall-for-dance-festival
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -26,25 +26,34 @@ scraped:
     url: https://allevents.in/woodbridge/fall-festival/100001999285800649
     first_seen: '2026-09-07'
     last_seen: '2026-09-07'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: Listing names no Indian company; nothing in the text is Indian dance.
+  model: hand-classified (routine lacked push access)
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://www.nycitycenter.org/events/instances/7n1c4wwy/2026-10-03/2026-2027-fall-for-dance-festival
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T07:59:15.973224-04:00'
+  link_checks: []
   problems:
+  - links not yet verified (offline run)
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-10-03T07:59:15.973201-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-03T08:24:04.822128-04:00'
 curated:
   forms: []
   traditions: []

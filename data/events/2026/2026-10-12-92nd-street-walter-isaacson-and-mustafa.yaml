@@ -1,5 +1,5 @@
 id: 2026-10-12-92nd-street-walter-isaacson-and-mustafa
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -24,28 +24,33 @@ scraped:
     url: https://www.92ny.org/event/walter-isaacson-and-mustafa-suleyman
     first_seen: '2026-09-25'
     last_seen: '2026-09-28'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 92NY talks, readings, screenings and non-Indian concerts; nothing Indian in the text.
+  model: hand-classified (routine lacked push access)
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://seats.92ny.org/single/211378
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:00:18.760621-04:00'
-  - url: https://www.92ny.org/event/walter-isaacson-and-mustafa-suleyman
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:00:18.850574-04:00'
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-10-03T08:00:18.760597-04:00'
+  - links not yet verified (offline run)
+  - classified not-relevant
+  validated_at: '2026-10-03T08:24:04.998346-04:00'
 curated:
   forms: []
   traditions: []

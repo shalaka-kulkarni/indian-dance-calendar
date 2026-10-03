@@ -23,6 +23,20 @@ scraped:
     url: https://events.sulekha.com/sufi-sham-with-hansraj-hans-last-show-in-new-york_event-in_hicksville-ny_402038
     first_seen: '2026-09-25'
     last_seen: '2026-10-02'
+ai:
+  relevant: true
+  kind: performance
+  art_form: music
+  traditions:
+  - semi_classical_fusion
+  forms: []
+  music_styles:
+  - qawwali
+  presenter_type: professional_company
+  confidence: high
+  reasoning: Sufi music evening with Hansraj Hans.
+  model: hand-classified (routine lacked push access)
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:

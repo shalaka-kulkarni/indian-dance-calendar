@@ -23,6 +23,20 @@ scraped:
     url: https://events.sulekha.com/once-upon-a-time-with-rahat-fateh-ali-khan-shahzaman-ali-khan-in-ny_event-in_uniondale-ny_400589
     first_seen: '2026-08-26'
     last_seen: '2026-10-02'
+ai:
+  relevant: true
+  kind: performance
+  art_form: music
+  traditions:
+  - semi_classical_fusion
+  forms: []
+  music_styles:
+  - qawwali
+  presenter_type: professional_company
+  confidence: high
+  reasoning: Qawwali concert by Rahat Fateh Ali Khan.
+  model: hand-classified (routine lacked push access)
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:

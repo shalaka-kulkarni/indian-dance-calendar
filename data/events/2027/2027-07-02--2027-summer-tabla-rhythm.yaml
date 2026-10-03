@@ -26,6 +26,20 @@ scraped:
     url: https://chhandayan.org/calendar/2023/7/1/2023-tabla-ashram-at-shanti-mandir-793t4-4t8hw-raz7z-dmjhj-6t623-fxywn-sy97a
     first_seen: '2026-08-31'
     last_seen: '2026-10-02'
+ai:
+  relevant: true
+  kind: workshop
+  art_form: music
+  traditions:
+  - classical
+  forms: []
+  music_styles:
+  - hindustani
+  presenter_type: professional_company
+  confidence: high
+  reasoning: Residential tabla workshop run by Chhandayan.
+  model: hand-classified (routine lacked push access)
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:

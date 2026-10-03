@@ -1,5 +1,5 @@
 id: 2026-11-06-queens-theatre-clara-ulrich-yo-quiero
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -22,25 +22,34 @@ scraped:
     url: https://queenstheatre.org/events/clara-ulrich-yo-quiero-ser-mi-marido-zvg4
     first_seen: '2026-08-22'
     last_seen: '2026-10-02'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: Spanish-language theatre.
+  model: hand-classified (routine lacked push access)
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://queenstheatre.org/events/clara-ulrich-yo-quiero-ser-mi-marido-zvg4
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:02:34.901954-04:00'
+  link_checks: []
   problems:
+  - links not yet verified (offline run)
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-10-03T08:02:34.901931-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-03T08:24:05.373244-04:00'
 curated:
   forms: []
   traditions: []

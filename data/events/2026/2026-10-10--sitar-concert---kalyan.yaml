@@ -26,6 +26,20 @@ scraped:
     url: https://chhandayan.org/calendar/2026/10/10/sitar-concert-kalyan-majumdar
     first_seen: '2026-09-11'
     last_seen: '2026-09-30'
+ai:
+  relevant: true
+  kind: performance
+  art_form: music
+  traditions:
+  - classical
+  forms: []
+  music_styles:
+  - hindustani
+  presenter_type: professional_company
+  confidence: high
+  reasoning: Sitar recital; Hindustani classical.
+  model: hand-classified (routine lacked push access)
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:

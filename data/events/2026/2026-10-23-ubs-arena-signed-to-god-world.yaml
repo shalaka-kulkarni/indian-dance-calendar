@@ -23,6 +23,20 @@ scraped:
     url: https://events.sulekha.com/signed-to-god-world-tour-2026-a-sidhu-moose-wala-hologram-experience_event-in_elmont-ny_401914
     first_seen: '2026-09-21'
     last_seen: '2026-10-02'
+ai:
+  relevant: true
+  kind: performance
+  art_form: music
+  traditions:
+  - popular_film
+  forms: []
+  music_styles:
+  - other_music
+  presenter_type: professional_company
+  confidence: high
+  reasoning: Punjabi popular music concert (hologram show).
+  model: hand-classified (routine lacked push access)
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:

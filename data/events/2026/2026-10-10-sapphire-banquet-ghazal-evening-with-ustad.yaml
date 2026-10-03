@@ -23,6 +23,20 @@ scraped:
     url: https://events.sulekha.com/ghazal-evening-with-ustad-hamid-ali-khan-living-legend-of-patiala-gharana_event-in_hicksville-ny_402118
     first_seen: '2026-10-02'
     last_seen: '2026-10-02'
+ai:
+  relevant: true
+  kind: performance
+  art_form: music
+  traditions:
+  - semi_classical_fusion
+  forms: []
+  music_styles:
+  - thumri_ghazal
+  presenter_type: professional_company
+  confidence: high
+  reasoning: Ghazal evening; Patiala gharana.
+  model: hand-classified (routine lacked push access)
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:

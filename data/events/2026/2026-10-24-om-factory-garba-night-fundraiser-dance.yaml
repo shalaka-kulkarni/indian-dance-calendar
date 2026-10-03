@@ -23,6 +23,21 @@ scraped:
     url: https://events.sulekha.com/garba-night-fundraiser-dance-for-a-cause-in-newyork_event-in_new-york-ny_401844
     first_seen: '2026-09-16'
     last_seen: '2026-10-02'
+ai:
+  relevant: true
+  kind: community
+  art_form: both
+  traditions:
+  - folk
+  forms:
+  - folk
+  music_styles:
+  - folk_music
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Garba night: community dancing to garba music.'
+  model: hand-classified (routine lacked push access)
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:

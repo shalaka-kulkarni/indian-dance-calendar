@@ -20,6 +20,21 @@ scraped:
     url: https://www.cmana.org/etn/2026-teachers-day/
     first_seen: '2026-09-18'
     last_seen: '2026-10-02'
+ai:
+  relevant: true
+  kind: community
+  art_form: music
+  traditions:
+  - classical
+  forms: []
+  music_styles:
+  - carnatic
+  presenter_type: unknown
+  confidence: low
+  reasoning: CMANA listing with no description; a Teachers' Day programme may or may not include a concert.
+    Held.
+  model: hand-classified (routine lacked push access)
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:

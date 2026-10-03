@@ -23,6 +23,21 @@ scraped:
     url: https://events.sulekha.com/mumbai-style-garba-ne-dandiya-night-in-newyork_event-in_hicksville-ny_401828
     first_seen: '2026-09-14'
     last_seen: '2026-10-02'
+ai:
+  relevant: true
+  kind: community
+  art_form: both
+  traditions:
+  - folk
+  forms:
+  - folk
+  music_styles:
+  - folk_music
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Garba/dandiya night: community dancing to garba music.'
+  model: hand-classified (routine lacked push access)
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:

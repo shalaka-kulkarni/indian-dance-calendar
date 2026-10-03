@@ -26,6 +26,20 @@ scraped:
     url: https://chhandayan.org/calendar/2026/10/24/chhandayan-2026-all-night-concert-ph2d8-e6mdp
     first_seen: '2026-08-31'
     last_seen: '2026-10-02'
+ai:
+  relevant: true
+  kind: festival
+  art_form: music
+  traditions:
+  - classical
+  forms: []
+  music_styles:
+  - hindustani
+  presenter_type: mixed
+  confidence: high
+  reasoning: Chhandayan's all-night Hindustani concert.
+  model: hand-classified (routine lacked push access)
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:

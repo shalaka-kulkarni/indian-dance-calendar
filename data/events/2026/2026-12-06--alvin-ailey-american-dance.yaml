@@ -1,5 +1,5 @@
 id: 2026-12-06--alvin-ailey-american-dance
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -20,25 +20,34 @@ scraped:
     url: https://www.nycitycenter.org/events/instances/qthjkmqx/2026-12-05/2026-2027-alvin-ailey-american-dance-theater
     first_seen: '2026-09-09'
     last_seen: '2026-10-02'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: Modern dance company.
+  model: hand-classified (routine lacked push access)
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://www.nycitycenter.org/events/instances/qthjkmqx/2026-12-05/2026-2027-alvin-ailey-american-dance-theater
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:03:38.468731-04:00'
+  link_checks: []
   problems:
+  - links not yet verified (offline run)
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-10-03T08:03:38.468708-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-03T08:24:05.532829-04:00'
 curated:
   forms: []
   traditions: []

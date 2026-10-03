@@ -1,5 +1,5 @@
 id: 2026-12-31-the-royal-nye-2027-new-year
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -23,25 +23,34 @@ scraped:
     url: https://events.sulekha.com/nye-2027-new-year-new-beginnings-with-dj-amrit-in-ny_event-in_farmingdale-ny_401737
     first_seen: '2026-09-11'
     last_seen: '2026-10-02'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: DJ club night.
+  model: hand-classified (routine lacked push access)
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: false
     classified: false
-  link_checks:
-  - url: https://events.sulekha.com/nye-2027-new-year-new-beginnings-with-dj-amrit-in-ny_event-in_farmingdale-ny_401737
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:04:10.234384-04:00'
+  link_checks: []
   problems:
+  - links not yet verified (offline run)
   - region unknown — can't confirm NYC metro
-  - not yet classified (no API key run)
-  validated_at: '2026-10-03T08:04:10.234355-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-03T08:24:05.671803-04:00'
 curated:
   forms: []
   traditions: []
