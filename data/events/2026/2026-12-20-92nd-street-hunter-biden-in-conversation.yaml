@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/hunter-biden-with-david-manheim
     first_seen: '2026-10-02'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: false
   kind: performance
@@ -50,14 +50,14 @@ validation:
   - url: https://www.92ny.org/event/hunter-biden-with-david-manheim
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:29:51.618546-04:00'
+    checked_at: '2026-10-03T08:42:55.235339-04:00'
   - url: https://seats.92ny.org/single/211424
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:29:53.373409-04:00'
+    checked_at: '2026-10-03T08:42:57.525804-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:29:51.618518-04:00'
+  validated_at: '2026-10-03T08:42:55.235313-04:00'
 curated:
   forms: []
   traditions: []

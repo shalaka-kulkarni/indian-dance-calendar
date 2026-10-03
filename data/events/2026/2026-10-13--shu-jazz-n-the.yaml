@@ -22,7 +22,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/lionel-hampton-big-band-shu-2026/
     first_seen: '2026-09-14'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: false
   kind: performance
@@ -49,11 +49,11 @@ validation:
   - url: https://www.sopacnow.org/events/lionel-hampton-big-band-shu-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:26:55.940533-04:00'
+    checked_at: '2026-10-03T08:39:30.712596-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:26:55.940502-04:00'
+  validated_at: '2026-10-03T08:39:30.712570-04:00'
 curated:
   forms: []
   traditions: []

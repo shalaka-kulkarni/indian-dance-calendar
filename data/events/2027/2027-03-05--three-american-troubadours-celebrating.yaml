@@ -22,7 +22,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/three-american-troubadours-27/
     first_seen: '2026-08-22'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: false
   kind: performance
@@ -49,11 +49,11 @@ validation:
   - url: https://www.sopacnow.org/events/three-american-troubadours-27/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:30:12.013214-04:00'
+    checked_at: '2026-10-03T08:43:16.919716-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:30:12.013184-04:00'
+  validated_at: '2026-10-03T08:43:16.919691-04:00'
 curated:
   forms: []
   traditions: []

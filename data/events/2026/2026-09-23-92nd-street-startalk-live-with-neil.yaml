@@ -21,7 +21,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/neil-degrasse-tyson
     first_seen: '2026-08-16'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: false
   kind: other
@@ -48,15 +48,15 @@ validation:
   - url: https://seats.92ny.org/single/210946
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:25:27.256819-04:00'
+    checked_at: '2026-10-03T08:38:11.935409-04:00'
   - url: https://www.92ny.org/event/neil-degrasse-tyson
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:25:27.303755-04:00'
+    checked_at: '2026-10-03T08:38:11.971934-04:00'
   problems:
   - event date 2026-09-23 is in the past
   - classified not-relevant
-  validated_at: '2026-10-03T08:25:27.256789-04:00'
+  validated_at: '2026-10-03T08:38:11.935383-04:00'
 curated:
   forms: []
   traditions: []

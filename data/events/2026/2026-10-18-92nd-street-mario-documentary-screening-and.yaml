@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/mario-documentary-screening-and-conversation
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:27:29.930487-04:00'
   - url: https://seats.92ny.org/single/210931
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:27:32.008114-04:00'
+    checked_at: '2026-10-03T08:40:05.959284-04:00'
+  - url: https://www.92ny.org/event/mario-documentary-screening-and-conversation
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:40:06.039799-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:27:29.930458-04:00'
+  validated_at: '2026-10-03T08:40:05.959257-04:00'
 curated:
   forms: []
   traditions: []

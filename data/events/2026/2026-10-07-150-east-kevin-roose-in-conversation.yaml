@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/kevin-roose-in-conversation
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:26:19.221645-04:00'
   - url: https://seats.92ny.org/single/211229
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:26:21.261991-04:00'
+    checked_at: '2026-10-03T08:38:56.520563-04:00'
+  - url: https://www.92ny.org/event/kevin-roose-in-conversation
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:38:56.559442-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:26:19.221616-04:00'
+  validated_at: '2026-10-03T08:38:56.520539-04:00'
 curated:
   forms: []
   traditions: []

@@ -1,0 +1,59 @@
+id: 2026-10-10-state-theatre-sesame-street-live-elmos
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Sesame Street Live! Elmo’s Got the Moves
+  start: '2026-10-10T14:00:00-04:00'
+  end: '2026-10-10T14:00:00-04:00'
+  additional_dates: []
+  venue: State Theatre New Jersey
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  price_min: 34.0
+  price_max: 34.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/sesame-street-live-elmos-got-moves-2026
+  ticket_url: https://my.stnj.org/25114/25115
+  description_snippet: Make unforgettable memories with your little ones at Elmo’s Got the Moves—the all-new
+    Sesame Street Live show coming to your neighborhood!This exciting show will have kids and parents
+    alike out of their seats and moving and dancing along with Elmo and his Sesame Street friends as they
+    dance, stretch, and play along to fan-favorite songs, including “Sunny Days,” “Elmo’s Got the Moves,”
+    and “Letter of the Day.”Families will discover fun and playful ways to move—from yoga and jumping
+    rope to cartwheeling and silly dance moves—all in a welcoming environment that brings the magic of
+    Sesame Street f
+  content_hash: 38d615f4a9df217b
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/sesame-street-live-elmos-got-moves-2026
+    first_seen: '2026-10-03'
+    last_seen: '2026-10-03'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.stnj.org/events/detail/sesame-street-live-elmos-got-moves-2026
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:39:14.186439-04:00'
+  - url: https://my.stnj.org/25114/25115
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:39:14.323205-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-03T08:39:14.186413-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

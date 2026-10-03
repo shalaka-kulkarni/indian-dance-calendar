@@ -21,7 +21,7 @@ scraped:
   - source_id: queens_theatre
     url: https://queenstheatre.org/events/xiomara-laugart-and-rumbanza-celebrate-celia-cruz-519n
     first_seen: '2026-08-26'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: false
   kind: performance
@@ -48,11 +48,11 @@ validation:
   - url: https://queenstheatre.org/events/xiomara-laugart-and-rumbanza-celebrate-celia-cruz-519n
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:27:53.892496-04:00'
+    checked_at: '2026-10-03T08:40:31.532101-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:27:53.892464-04:00'
+  validated_at: '2026-10-03T08:40:31.532074-04:00'
 curated:
   forms: []
   traditions: []

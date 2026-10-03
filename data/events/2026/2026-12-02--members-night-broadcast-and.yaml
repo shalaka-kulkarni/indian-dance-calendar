@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/members-night-broadcast-and-beers
     first_seen: '2026-09-30'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: false
   kind: performance
@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/members-night-broadcast-and-beers
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:29:32.162412-04:00'
+    checked_at: '2026-10-03T08:42:26.049486-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:29:32.162384-04:00'
+  validated_at: '2026-10-03T08:42:26.049460-04:00'
 curated:
   forms: []
   traditions: []

@@ -23,7 +23,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/the-string-queens-2027/
     first_seen: '2026-10-02'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: false
   kind: performance
@@ -50,11 +50,11 @@ validation:
   - url: https://www.sopacnow.org/events/the-string-queens-2027/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:30:17.465470-04:00'
+    checked_at: '2026-10-03T08:43:23.679208-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:30:17.465441-04:00'
+  validated_at: '2026-10-03T08:43:23.679180-04:00'
 curated:
   forms: []
   traditions: []

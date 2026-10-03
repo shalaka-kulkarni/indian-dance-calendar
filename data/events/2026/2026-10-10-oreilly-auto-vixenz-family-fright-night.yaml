@@ -50,10 +50,10 @@ validation:
   - url: https://allevents.in/orlando/vixenz-family-fright-night-halloween-car-show-tickets/80002616817866
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:26:37.803301-04:00'
+    checked_at: '2026-10-03T08:39:12.535638-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:26:37.803271-04:00'
+  validated_at: '2026-10-03T08:39:12.535610-04:00'
 curated:
   forms: []
   traditions: []

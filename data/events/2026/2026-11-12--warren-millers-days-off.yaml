@@ -24,7 +24,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/days-off-26/
     first_seen: '2026-08-28'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: false
   kind: performance
@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/days-off-26/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:29:03.807004-04:00'
+    checked_at: '2026-10-03T08:41:42.218660-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:29:03.806977-04:00'
+  validated_at: '2026-10-03T08:41:42.218636-04:00'
 curated:
   forms: []
   traditions: []

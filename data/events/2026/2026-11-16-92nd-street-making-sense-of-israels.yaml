@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/making-sense-of-israel-s-2026-election
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:29:13.534791-04:00'
+    checked_at: '2026-10-03T08:41:53.746801-04:00'
   - url: https://seats.92ny.org/single/211235
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:29:15.603537-04:00'
+    checked_at: '2026-10-03T08:41:55.670028-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:29:13.534763-04:00'
+  validated_at: '2026-10-03T08:41:53.746776-04:00'
 curated:
   forms: []
   traditions: []

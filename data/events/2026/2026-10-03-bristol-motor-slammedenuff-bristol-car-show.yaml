@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/bristol/slammedenuff-bristol-car-show-2026/200030154927420
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:26:06.009999-04:00'
+    checked_at: '2026-10-03T08:38:44.512713-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T08:26:06.009970-04:00'
+  validated_at: '2026-10-03T08:38:44.512689-04:00'
 curated:
   forms: []
   traditions: []

@@ -21,7 +21,7 @@ scraped:
   - source_id: joyce
     url: https://www.joyce.org/performances/choreographers-and-cocktails-1hjr
     first_seen: '2026-09-14'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: false
   kind: performance
@@ -48,11 +48,11 @@ validation:
   - url: https://www.joyce.org/performances/choreographers-and-cocktails-1hjr
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:27:45.306169-04:00'
+    checked_at: '2026-10-03T08:40:22.755098-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:27:45.306134-04:00'
+  validated_at: '2026-10-03T08:40:22.755072-04:00'
 curated:
   forms: []
   traditions: []

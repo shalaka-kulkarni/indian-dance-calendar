@@ -23,7 +23,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/so-percussion-27/
     first_seen: '2026-08-28'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: false
   kind: performance
@@ -50,11 +50,11 @@ validation:
   - url: https://www.sopacnow.org/events/so-percussion-27/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:30:02.833438-04:00'
+    checked_at: '2026-10-03T08:43:08.810511-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:30:02.833409-04:00'
+  validated_at: '2026-10-03T08:43:08.810487-04:00'
 curated:
   forms: []
   traditions: []

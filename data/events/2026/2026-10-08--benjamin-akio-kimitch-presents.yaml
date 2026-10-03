@@ -1,0 +1,49 @@
+id: 2026-10-08--benjamin-akio-kimitch-presents
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Benjamin Akio Kimitch Presents "Allegra" (World Premiere)
+  start: '2026-10-08T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://www.dance-enthusiast.com/dance-listings/events/view/Benjamin-Akio-Kimitch-Presents-Allegra-World-Premiere-2026-10-08_10
+  ticket_url: ''
+  description_snippet: Benjamin Akio Kimitch Presents "Allegra" (World Premiere) New York Live Arts Theater
+    Thu. October, 8 @ 7:30pm (+ 2 more)
+  content_hash: fb12b4cd1824995a
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/Benjamin-Akio-Kimitch-Presents-Allegra-World-Premiere-2026-10-08_10
+    first_seen: '2026-10-03'
+    last_seen: '2026-10-03'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://www.dance-enthusiast.com/dance-listings/events/view/Benjamin-Akio-Kimitch-Presents-Allegra-World-Premiere-2026-10-08_10
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:39:00.262866-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-10-03T08:39:00.262842-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

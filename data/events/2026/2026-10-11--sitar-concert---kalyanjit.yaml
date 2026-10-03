@@ -25,7 +25,7 @@ scraped:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2025/7/26/sitar-concert-kalyanjit-das-lgsd8
     first_seen: '2026-08-28'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: true
   kind: performance
@@ -54,10 +54,10 @@ validation:
   - url: https://chhandayan.org/calendar/2025/7/26/sitar-concert-kalyanjit-das-lgsd8
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:26:41.001615-04:00'
+    checked_at: '2026-10-03T08:39:15.773353-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-03T08:26:41.001585-04:00'
+  validated_at: '2026-10-03T08:39:15.773327-04:00'
 curated:
   forms: []
   traditions: []

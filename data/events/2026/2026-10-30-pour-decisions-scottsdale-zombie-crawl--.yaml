@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/scottsdale/scottsdale-zombie-crawl-halloween-bar-crawl-party-pass-to-10-bars/100001995085520498
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:28:28.201120-04:00'
+    checked_at: '2026-10-03T08:41:07.475886-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T08:28:28.201093-04:00'
+  validated_at: '2026-10-03T08:41:07.475858-04:00'
 curated:
   forms: []
   traditions: []

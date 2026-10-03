@@ -1,0 +1,50 @@
+id: 2026-10-04--free-sunday-performing-arts
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: FREE SUNDAY PERFORMING ARTS | Queens Outdoor Dance Festival | FALL 2026
+  start: '2026-10-04T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: unknown
+  price_min: 0.0
+  price_max: 0.0
+  is_free: true
+  price_note: ''
+  info_url: https://www.dance-enthusiast.com/dance-listings/events/view/FREE-SUNDAY-PERFORMING-ARTS-Queens-Outdoor-Dance-Festival-FALL-2026-2026-10-04
+  ticket_url: ''
+  description_snippet: FREE SUNDAY PERFORMING ARTS | Queens Outdoor Dance Festival | FALL 2026 LaRussa
+    Studio Outdoor Stage Sun. October, 4 @ 5:00pm
+  content_hash: 302259e220d538c1
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/FREE-SUNDAY-PERFORMING-ARTS-Queens-Outdoor-Dance-Festival-FALL-2026-2026-10-04
+    first_seen: '2026-10-03'
+    last_seen: '2026-10-03'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://www.dance-enthusiast.com/dance-listings/events/view/FREE-SUNDAY-PERFORMING-ARTS-Queens-Outdoor-Dance-Festival-FALL-2026-2026-10-04
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:38:48.129881-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-10-03T08:38:48.129856-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

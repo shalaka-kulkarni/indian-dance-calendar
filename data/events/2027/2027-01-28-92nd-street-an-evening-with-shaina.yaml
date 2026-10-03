@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/an-evening-with-shaina-taub
     first_seen: '2026-09-30'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: false
   kind: performance
@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210716
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:29:59.007603-04:00'
   - url: https://www.92ny.org/event/an-evening-with-shaina-taub
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:29:59.043078-04:00'
+    checked_at: '2026-10-03T08:43:04.833265-04:00'
+  - url: https://seats.92ny.org/single/210716
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:43:06.457061-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:29:59.007575-04:00'
+  validated_at: '2026-10-03T08:43:04.833240-04:00'
 curated:
   forms: []
   traditions: []

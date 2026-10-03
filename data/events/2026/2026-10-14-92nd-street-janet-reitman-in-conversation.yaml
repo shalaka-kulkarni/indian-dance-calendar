@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/janet-reitman-with-george-packer
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:27:08.561193-04:00'
   - url: https://seats.92ny.org/single/211343
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:27:08.644873-04:00'
+    checked_at: '2026-10-03T08:39:39.997127-04:00'
+  - url: https://www.92ny.org/event/janet-reitman-with-george-packer
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:39:40.052944-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:27:08.561164-04:00'
+  validated_at: '2026-10-03T08:39:39.997099-04:00'
 curated:
   forms: []
   traditions: []

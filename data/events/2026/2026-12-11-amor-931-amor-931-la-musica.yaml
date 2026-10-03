@@ -21,7 +21,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/amor-en-vivo
     first_seen: '2026-10-02'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: false
   kind: performance
@@ -48,11 +48,11 @@ validation:
   - url: https://www.prucenter.com/events/amor-en-vivo
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:29:40.122474-04:00'
+    checked_at: '2026-10-03T08:42:40.701155-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:29:40.122450-04:00'
+  validated_at: '2026-10-03T08:42:40.701133-04:00'
 curated:
   forms: []
   traditions: []

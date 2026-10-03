@@ -28,7 +28,7 @@ scraped:
   - source_id: state_theatre_nj
     url: https://www.stnj.org/events/detail/samara-joy-her-septet
     first_seen: '2026-08-16'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: false
   kind: other
@@ -53,17 +53,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://my.stnj.org/24901/24902
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:26:11.473675-04:00'
   - url: https://www.stnj.org/events/detail/samara-joy-her-septet
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:26:11.548171-04:00'
+    checked_at: '2026-10-03T08:38:50.169464-04:00'
+  - url: https://my.stnj.org/24901/24902
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:38:50.242904-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:26:11.473645-04:00'
+  validated_at: '2026-10-03T08:38:50.169443-04:00'
 curated:
   forms: []
   traditions: []

@@ -1,0 +1,53 @@
+id: 2026-10-03-dixon-place-cwp-evolution-festival-presents
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'CWP Evolution Festival Presents: Baggage From BaghDAD: Becoming My Father''s Daughter — The
+    Center at West Park'
+  start: '2026-10-03T20:30:00-04:00'
+  end: '2026-10-03T21:45:00-04:00'
+  additional_dates: []
+  venue: Dixon Place
+  address: '161A Chrystie Street
+
+    New York, NY, 10002
+
+    United States'
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.centeratwestpark.org/calendar/2026/10/3/cwp-evolution-festival-presents-baggage-from-baghdad-becoming-my-fathers-daughter
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: d360c2e66e514237
+  sources:
+  - source_id: center_at_west_park
+    url: https://www.centeratwestpark.org/calendar/2026/10/3/cwp-evolution-festival-presents-baggage-from-baghdad-becoming-my-fathers-daughter
+    first_seen: '2026-10-03'
+    last_seen: '2026-10-03'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.centeratwestpark.org/calendar/2026/10/3/cwp-evolution-festival-presents-baggage-from-baghdad-becoming-my-fathers-daughter
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:38:44.617927-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-03T08:38:44.617901-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

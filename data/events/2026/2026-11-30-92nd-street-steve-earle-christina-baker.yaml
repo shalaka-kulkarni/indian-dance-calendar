@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/muldoon-s-picnic-november
     first_seen: '2026-09-16'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: false
   kind: performance
@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211314
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:29:25.342703-04:00'
   - url: https://www.92ny.org/event/muldoon-s-picnic-november
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:29:25.394763-04:00'
+    checked_at: '2026-10-03T08:42:14.461879-04:00'
+  - url: https://seats.92ny.org/single/211314
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:42:17.721867-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:29:25.342674-04:00'
+  validated_at: '2026-10-03T08:42:14.461854-04:00'
 curated:
   forms: []
   traditions: []

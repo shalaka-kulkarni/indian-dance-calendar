@@ -1,0 +1,52 @@
+id: 2026-10-29-the-center-cwp-halloween-treat-the
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'CWP Halloween Treat: The Man Who Laughs — The Center at West Park'
+  start: '2026-10-29T19:00:00-04:00'
+  end: '2026-10-29T20:00:00-04:00'
+  additional_dates: []
+  venue: The Center at West Park
+  address: '263 West 86th Street
+
+    New York, NY, 10024
+
+    United States'
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.centeratwestpark.org/calendar/2026/10/29/cwp-halloween-treat-the-man-who-laughs-1
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 3ddbeb74d14afa61
+  sources:
+  - source_id: center_at_west_park
+    url: https://www.centeratwestpark.org/calendar/2026/10/29/cwp-halloween-treat-the-man-who-laughs-1
+    first_seen: '2026-10-03'
+    last_seen: '2026-10-03'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.centeratwestpark.org/calendar/2026/10/29/cwp-halloween-treat-the-man-who-laughs-1
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:41:04.719737-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-03T08:41:04.719710-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

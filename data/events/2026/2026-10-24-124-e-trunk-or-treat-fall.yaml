@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/lexington/trunk-or-treat-fall-festival-tickets/200030617375113
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:27:55.999756-04:00'
+    checked_at: '2026-10-03T08:40:34.124500-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T08:27:55.999723-04:00'
+  validated_at: '2026-10-03T08:40:34.124469-04:00'
 curated:
   forms: []
   traditions: []

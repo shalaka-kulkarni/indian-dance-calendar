@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/the-golden-life
     first_seen: '2026-09-25'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: false
   kind: performance
@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/the-golden-life
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:26:49.863292-04:00'
+    checked_at: '2026-10-03T08:39:26.502114-04:00'
   - url: https://seats.92ny.org/single/211375
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:26:51.875211-04:00'
+    checked_at: '2026-10-03T08:39:26.586046-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:26:49.863264-04:00'
+  validated_at: '2026-10-03T08:39:26.502086-04:00'
 curated:
   forms: []
   traditions: []

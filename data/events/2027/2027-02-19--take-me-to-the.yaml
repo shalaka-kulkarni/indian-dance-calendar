@@ -23,7 +23,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/take-me-to-the-river-26/
     first_seen: '2026-08-28'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: false
   kind: performance
@@ -50,11 +50,11 @@ validation:
   - url: https://www.sopacnow.org/events/take-me-to-the-river-26/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:30:05.253516-04:00'
+    checked_at: '2026-10-03T08:43:11.305697-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:30:05.253492-04:00'
+  validated_at: '2026-10-03T08:43:11.305677-04:00'
 curated:
   forms: []
   traditions: []

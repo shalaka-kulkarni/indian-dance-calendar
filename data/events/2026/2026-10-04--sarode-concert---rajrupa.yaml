@@ -25,7 +25,7 @@ scraped:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2026/10/4/sarode-concert-rajrupa-chowdhury
     first_seen: '2026-09-14'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: true
   kind: performance
@@ -54,10 +54,10 @@ validation:
   - url: https://chhandayan.org/calendar/2026/10/4/sarode-concert-rajrupa-chowdhury
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:26:09.923112-04:00'
+    checked_at: '2026-10-03T08:38:48.542041-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-03T08:26:09.923085-04:00'
+  validated_at: '2026-10-03T08:38:48.542012-04:00'
 curated:
   forms: []
   traditions: []

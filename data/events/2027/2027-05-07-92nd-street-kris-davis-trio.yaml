@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/kris-davis-trio
     first_seen: '2026-09-30'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: false
   kind: performance
@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210676
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:30:23.918985-04:00'
   - url: https://www.92ny.org/event/kris-davis-trio
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:30:23.962899-04:00'
+    checked_at: '2026-10-03T08:43:30.303244-04:00'
+  - url: https://seats.92ny.org/single/210676
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:43:31.650781-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:30:23.918958-04:00'
+  validated_at: '2026-10-03T08:43:30.303219-04:00'
 curated:
   forms: []
   traditions: []

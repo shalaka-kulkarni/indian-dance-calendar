@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/garba-night-fundraiser-dance-for-a-cause-in-newyork_event-in_new-york-ny_401844
     first_seen: '2026-09-16'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: true
   kind: community
@@ -52,9 +52,9 @@ validation:
   - url: https://events.sulekha.com/garba-night-fundraiser-dance-for-a-cause-in-newyork_event-in_new-york-ny_401844
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:27:57.602251-04:00'
+    checked_at: '2026-10-03T08:40:35.774495-04:00'
   problems: []
-  validated_at: '2026-10-03T08:27:57.602221-04:00'
+  validated_at: '2026-10-03T08:40:35.774468-04:00'
 curated:
   forms: []
   traditions: []

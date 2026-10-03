@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/210876
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:27:02.959704-04:00'
+    checked_at: '2026-10-03T08:39:36.354208-04:00'
   - url: https://www.92ny.org/event/michael-gorra-the-storytellers
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:27:02.993608-04:00'
+    checked_at: '2026-10-03T08:39:36.429245-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:27:02.959675-04:00'
+  validated_at: '2026-10-03T08:39:36.354180-04:00'
 curated:
   forms: []
   traditions: []

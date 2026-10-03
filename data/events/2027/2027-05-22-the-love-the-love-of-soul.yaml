@@ -20,7 +20,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/fantasia
     first_seen: '2026-09-28'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://www.prucenter.com/events/fantasia
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:30:28.603387-04:00'
+    checked_at: '2026-10-03T08:43:34.653754-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:30:28.603359-04:00'
+  validated_at: '2026-10-03T08:43:34.653729-04:00'
 curated:
   forms: []
   traditions: []

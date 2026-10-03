@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/jane-austen-s-sense-and-sensibility
     first_seen: '2026-10-02'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: false
   kind: performance
@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/jane-austen-s-sense-and-sensibility
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:28:39.425006-04:00'
   - url: https://seats.92ny.org/single/211421
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:28:41.401317-04:00'
+    checked_at: '2026-10-03T08:41:19.069431-04:00'
+  - url: https://www.92ny.org/event/jane-austen-s-sense-and-sensibility
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:41:19.119628-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:28:39.424978-04:00'
+  validated_at: '2026-10-03T08:41:19.069407-04:00'
 curated:
   forms: []
   traditions: []

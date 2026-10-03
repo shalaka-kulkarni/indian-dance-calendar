@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/nyc-south-asian-comedy-festival-best-of-nyc_event-in_new-york-ny_401409
     first_seen: '2026-08-19'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: false
   kind: performance
@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/nyc-south-asian-comedy-festival-best-of-nyc_event-in_new-york-ny_401409
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:27:18.588600-04:00'
+    checked_at: '2026-10-03T08:39:54.660575-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:27:18.588571-04:00'
+  validated_at: '2026-10-03T08:39:54.660547-04:00'
 curated:
   forms: []
   traditions: []
