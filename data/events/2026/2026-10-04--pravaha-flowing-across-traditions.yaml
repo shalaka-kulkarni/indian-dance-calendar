@@ -4,11 +4,11 @@ was_published: false
 needs_recheck: false
 scraped:
   title: 'Pravaha: Flowing Across Traditions'
-  start: '2026-10-04T00:00:00-04:00'
+  start: '2026-10-04T16:00:00-04:00'
   additional_dates: []
-  venue: ''
+  venue: Peridance Center
   address: ''
-  region: unknown
+  region: manhattan
   is_free: false
   price_note: ''
   info_url: https://www.dance-enthusiast.com/dance-listings/events/view/Pravaha-Flowing-Across-Traditions-2026-10-04
@@ -20,6 +20,20 @@ scraped:
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Pravaha-Flowing-Across-Traditions-2026-10-04
     first_seen: '2026-10-03'
     last_seen: '2026-10-03'
+ai:
+  relevant: true
+  kind: performance
+  art_form: dance
+  traditions:
+  - classical
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: low
+  reasoning: Title is Sanskrit for 'flow' and the subtitle suggests an Indian classical programme, but
+    the listing gives no detail to confirm it.
+  model: manual
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:

@@ -25,6 +25,18 @@ scraped:
     url: https://www.centeratwestpark.org/calendar/2026/10/29/cwp-halloween-treat-the-man-who-laughs-1
     first_seen: '2026-10-03'
     last_seen: '2026-10-03'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: film screening or theatre at Center at West Park'
+  model: manual
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:

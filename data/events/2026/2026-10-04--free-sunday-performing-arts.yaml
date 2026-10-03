@@ -4,11 +4,11 @@ was_published: false
 needs_recheck: false
 scraped:
   title: FREE SUNDAY PERFORMING ARTS | Queens Outdoor Dance Festival | FALL 2026
-  start: '2026-10-04T00:00:00-04:00'
+  start: '2026-10-04T17:00:00-04:00'
   additional_dates: []
-  venue: ''
+  venue: LaRussa Studio Outdoor Stage
   address: ''
-  region: unknown
+  region: queens
   price_min: 0.0
   price_max: 0.0
   is_free: true
@@ -23,6 +23,18 @@ scraped:
     url: https://www.dance-enthusiast.com/dance-listings/events/view/FREE-SUNDAY-PERFORMING-ARTS-Queens-Outdoor-Dance-Festival-FALL-2026-2026-10-04
     first_seen: '2026-10-03'
     last_seen: '2026-10-03'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: Mixed-bill community dance showcase with no Indian programme stated.
+  model: manual
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:

@@ -6,7 +6,7 @@ scraped:
   title: The 2026 Hudson Valley Dance Festival
   start: '2026-10-10T00:00:00-04:00'
   additional_dates: []
-  venue: ''
+  venue: Historic Catskill Point in Catskill, NY
   address: ''
   region: unknown
   is_free: false
@@ -21,6 +21,18 @@ scraped:
     url: https://www.dance-enthusiast.com/dance-listings/events/view/The-2026-Hudson-Valley-Dance-Festival-2026-10-10
     first_seen: '2026-10-03'
     last_seen: '2026-10-03'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: contemporary, ballet, tap, Korean or other non-Indian dance listing'
+  model: manual
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:

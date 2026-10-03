@@ -4,11 +4,11 @@ was_published: false
 needs_recheck: false
 scraped:
   title: 'Tap Dance Central: Faculty Choreography Spotlight'
-  start: '2026-10-11T00:00:00-04:00'
+  start: '2026-10-11T16:30:00-04:00'
   additional_dates: []
-  venue: ''
+  venue: Arts On Site
   address: ''
-  region: unknown
+  region: manhattan
   is_free: false
   price_note: ''
   info_url: https://www.dance-enthusiast.com/dance-listings/events/view/Tap-Dance-Central-Faculty-Choreography-Spotlight-2026-10-11
@@ -21,6 +21,18 @@ scraped:
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Tap-Dance-Central-Faculty-Choreography-Spotlight-2026-10-11
     first_seen: '2026-10-03'
     last_seen: '2026-10-03'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: contemporary, ballet, tap, Korean or other non-Indian dance listing'
+  model: manual
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:

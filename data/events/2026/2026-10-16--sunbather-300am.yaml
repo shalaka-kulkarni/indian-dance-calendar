@@ -4,9 +4,9 @@ was_published: false
 needs_recheck: false
 scraped:
   title: SUNBATHER 3:00AM
-  start: '2026-10-16T00:00:00-04:00'
+  start: '2026-10-16T19:30:00-04:00'
   additional_dates: []
-  venue: ''
+  venue: 3AM Theatre
   address: ''
   region: unknown
   is_free: false
@@ -20,6 +20,18 @@ scraped:
     url: https://www.dance-enthusiast.com/dance-listings/events/view/SUNBATHER-300AM-2026-10-16_17
     first_seen: '2026-10-03'
     last_seen: '2026-10-03'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: contemporary, ballet, tap, Korean or other non-Indian dance listing'
+  model: manual
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:
