@@ -137,18 +137,26 @@ sources:
     name: Manhattan Movement & Arts Center (MMAC)
     circuit: mainstream
     strategy: jsonld
-    url: https://www.manhattanmovement.com/events
+    url: https://www.manhattanmovement.com/
     region: manhattan
     scrape_all_listings: true
-    notes: "248 W 60th St. Hosts the NY International Dance Festival (June; world-dance bill with Bharatanatyam, Odissi and Bollywood segments) and many rentals. Surfaced as a miss in Oct 2026."
+    enabled: false
+    notes: >-
+      248 W 60th St. Hosted the NY International Dance Festival (June 2026;
+      Bharatanatyam, Odissi and Bollywood on a world-dance bill). Probed 3 Oct
+      2026: a rental house with no public calendar at all — Wix homepage with
+      LocalBusiness markup only, no crawlable event links, no sitemap event
+      pages. Its events surface through the renters (Center at West Park, The
+      Dance Enthusiast), both of which are registered. Disabled so the
+      healthcheck does not nag about a source that structurally cannot yield.
   - id: center_at_west_park
     name: The Center at West Park
     circuit: mainstream
     strategy: jsonld
-    url: https://www.centeratwestpark.org/events
+    url: https://www.centeratwestpark.org/calendar
     region: manhattan
     scrape_all_listings: true
-    notes: "Presents the NY International Dance Festival (its own page: /ny-international-dance). Upper West Side; mixed arts programme."
+    notes: "Presents the NY International Dance Festival (its own page: /ny-international-dance). Upper West Side; mixed arts programme. Squarespace calendar — detail pages live under /calendar/<date>/<slug>, which the deep crawl follows."
   - id: pac_nyc
     name: PAC NYC (Perelman Performing Arts Center, World Trade Center)
     circuit: mainstream
