@@ -1,5 +1,5 @@
 id: 2026-10-30-mayes-oyster-the-official-san-francisco
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -23,25 +23,35 @@ scraped:
     url: https://allevents.in/san-francisco/the-official-san-francisco-halloween-pub-crawl/100001983732312748
     first_seen: '2026-09-07'
     last_seen: '2026-09-07'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Outside the NYC metro: allevents.in city slug is ''san-francisco''. Arrived via the platform''s
+    nationwide sitemap, a fallback platforms no longer get.'
+  model: 'rule: allevents city slug'
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: false
     classified: false
-  link_checks:
-  - url: https://allevents.in/san-francisco/the-official-san-francisco-halloween-pub-crawl/100001983732312748
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-02T12:47:30.723886-04:00'
+  link_checks: []
   problems:
+  - links not yet verified (offline run)
   - region unknown — can't confirm NYC metro
-  - not yet classified (no API key run)
-  validated_at: '2026-10-02T12:47:30.723857-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-03T07:56:12.931943-04:00'
 curated:
   forms: []
   traditions: []

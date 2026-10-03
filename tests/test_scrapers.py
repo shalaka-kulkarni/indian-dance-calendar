@@ -124,3 +124,29 @@ def test_get_does_not_retry_a_normal_response():
 
     base.get(Client(), "https://venue.org/events")
     assert Client.calls == 1
+
+
+def test_platform_sources_never_fall_through_to_the_sitemap(monkeypatch):
+    """A venue's sitemap is its calendar; a platform's sitemap is the country."""
+    from pipeline import run as run_mod
+    from pipeline.models import Circuit, Source, Strategy
+
+    calls = {"sitemap": 0}
+    monkeypatch.setattr(run_mod, "fetch_text", lambda client, url: "<html></html>")
+    monkeypatch.setattr(run_mod, "extract_listing_blocks", lambda *a, **k: [])
+    monkeypatch.setattr(run_mod, "deep_extract", lambda *a, **k: [])
+    monkeypatch.setattr(run_mod, "tribe_events", lambda *a, **k: [])
+
+    def fake_sitemap(*a, **k):
+        calls["sitemap"] += 1
+        return []
+    monkeypatch.setattr(run_mod, "sitemap_extract", fake_sitemap)
+
+    platform = Source(id="allevents", name="AllEvents", circuit=Circuit.PLATFORM,
+                      strategy=Strategy.HTML, url="https://allevents.in/new-york/indian")
+    venue = Source(id="joyce", name="Joyce", circuit=Circuit.MAINSTREAM,
+                   strategy=Strategy.JSONLD, url="https://www.joyce.org/performances")
+    run_mod.scrape_source(client=None, source=platform)
+    assert calls["sitemap"] == 0
+    run_mod.scrape_source(client=None, source=venue)
+    assert calls["sitemap"] == 1

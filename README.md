@@ -1,6 +1,6 @@
-# Taalendar — Indian performing arts in New York
+# Rasa Calendar — Indian performing arts in New York
 
-### 🔗 **[taalendar → shalaka-kulkarni.github.io/indian-dance-calendar](https://shalaka-kulkarni.github.io/indian-dance-calendar/)**
+### 🔗 **[rasa calendar → shalaka-kulkarni.github.io/indian-dance-calendar](https://shalaka-kulkarni.github.io/indian-dance-calendar/)**
 
 | | |
 |---|---|

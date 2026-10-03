@@ -1,5 +1,5 @@
 id: 2026-10-10-oreilly-auto-vixenz-family-fright-night
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -23,24 +23,34 @@ scraped:
     url: https://allevents.in/orlando/vixenz-family-fright-night-halloween-car-show-tickets/80002616817866
     first_seen: '2026-09-07'
     last_seen: '2026-09-07'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Outside the NYC metro: allevents.in city slug is ''orlando''. Arrived via the platform''s
+    nationwide sitemap, a fallback platforms no longer get.'
+  model: 'rule: allevents city slug'
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://allevents.in/orlando/vixenz-family-fright-night-halloween-car-show-tickets/80002616817866
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-02T12:45:26.693830-04:00'
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-10-02T12:45:26.693803-04:00'
+  - links not yet verified (offline run)
+  - classified not-relevant
+  validated_at: '2026-10-03T07:56:12.660641-04:00'
 curated:
   forms: []
   traditions: []

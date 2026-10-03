@@ -24,7 +24,7 @@ from pipeline import build as site_build
 from pipeline.classify import classify_event
 from pipeline.dedup import find_match, merge_into
 from pipeline.discovery import run_discovery
-from pipeline.models import Event, Region, Source, Status, Strategy
+from pipeline.models import Circuit, Event, Region, Source, Status, Strategy
 from pipeline.normalize import normalize
 from pipeline.registry import load_sources
 from pipeline.scrapers.base import RawEvent, ScrapeResult, fetch_text, log, make_client
@@ -78,7 +78,11 @@ def scrape_source(client: httpx.Client, source: Source) -> ScrapeResult:
                 result.events = deep_extract(client, source.id, source.url, html)
             # Client-side calendars expose no links at all; the sitemap still
             # lists every event page for search engines.
-            if not result.events:
+            # A venue's sitemap lists that venue's events. A platform's sitemap
+            # (AllEvents, Eventbrite) lists the whole country — one fallthrough
+            # on 7 Sep 2026 pulled 128 car shows and pumpkin festivals from
+            # Texas to Arizona into the queue. Platforms never get this rung.
+            if not result.events and source.circuit is not Circuit.PLATFORM:
                 result.events = sitemap_extract(client, source.id, source.url)
             # WordPress venues whose detail pages carry no JSON-LD defeat all of
             # the above even though every page fetches fine. Their plugin's API

@@ -1,5 +1,5 @@
 id: 2026-09-08-pavilion-1-divergent-series-unit-study
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -21,6 +21,19 @@ scraped:
     url: https://allevents.in/san-antonio/divergent-series-unit-study-the-park-tickets/80002731131400
     first_seen: '2026-09-07'
     last_seen: '2026-09-07'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Outside the NYC metro: allevents.in city slug is ''san-antonio''. Arrived via the platform''s
+    nationwide sitemap, a fallback platforms no longer get.'
+  model: 'rule: allevents city slug'
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:
@@ -31,17 +44,13 @@ validation:
     price_known: false
     in_metro: false
     classified: false
-  link_checks:
-  - url: https://allevents.in/san-antonio/divergent-series-unit-study-the-park-tickets/80002731131400
-    ok: false
-    status_code: 410
-    checked_at: '2026-10-02T12:43:22.821613-04:00'
+  link_checks: []
   problems:
-  - 'dead links: https://allevents.in/san-antonio/divergent-series-unit-study-the-park-tickets/80002731131400'
+  - links not yet verified (offline run)
   - no price information
   - region unknown — can't confirm NYC metro
-  - not yet classified (no API key run)
-  validated_at: '2026-10-02T12:43:22.821583-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-03T07:56:12.433671-04:00'
 curated:
   forms: []
   traditions: []

@@ -133,6 +133,22 @@ sources:
     url: https://www.bam.org/programs
     region: brooklyn
     scrape_all_listings: true
+  - id: mmac
+    name: Manhattan Movement & Arts Center (MMAC)
+    circuit: mainstream
+    strategy: jsonld
+    url: https://www.manhattanmovement.com/events
+    region: manhattan
+    scrape_all_listings: true
+    notes: "248 W 60th St. Hosts the NY International Dance Festival (June; world-dance bill with Bharatanatyam, Odissi and Bollywood segments) and many rentals. Surfaced as a miss in Oct 2026."
+  - id: center_at_west_park
+    name: The Center at West Park
+    circuit: mainstream
+    strategy: jsonld
+    url: https://www.centeratwestpark.org/events
+    region: manhattan
+    scrape_all_listings: true
+    notes: "Presents the NY International Dance Festival (its own page: /ny-international-dance). Upper West Side; mixed arts programme."
   - id: pac_nyc
     name: PAC NYC (Perelman Performing Arts Center, World Trade Center)
     circuit: mainstream

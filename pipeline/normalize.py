@@ -87,6 +87,36 @@ PLACEHOLDER_TITLE = re.compile(
 )
 
 
+# allevents.in paths are /<city-slug>/<event-slug>/<id>. The slug is the only
+# place the listing says where it is, and it is also how a nationwide feed gets
+# recognised and dropped.
+ALLEVENTS_METRO_CITIES: dict[str, Region] = {
+    "new-york": Region.MANHATTAN, "new%20york": Region.MANHATTAN, "manhattan": Region.MANHATTAN,
+    "brooklyn": Region.BROOKLYN, "queens": Region.QUEENS, "bronx": Region.BRONX,
+    "staten-island": Region.STATEN_ISLAND, "long-island-city": Region.QUEENS,
+    "flushing": Region.QUEENS, "jamaica": Region.QUEENS, "astoria": Region.QUEENS,
+    "jersey-city": Region.NEW_JERSEY, "newark": Region.NEW_JERSEY, "hoboken": Region.NEW_JERSEY,
+    "edison": Region.NEW_JERSEY, "iselin": Region.NEW_JERSEY, "secaucus": Region.NEW_JERSEY,
+    "parsippany": Region.NEW_JERSEY, "princeton": Region.NEW_JERSEY, "new-brunswick": Region.NEW_JERSEY,
+    "piscataway": Region.NEW_JERSEY, "bridgewater": Region.NEW_JERSEY, "plainsboro": Region.NEW_JERSEY,
+    "east-brunswick": Region.NEW_JERSEY, "south-orange": Region.NEW_JERSEY, "montclair": Region.NEW_JERSEY,
+    "hicksville": Region.LONG_ISLAND, "westbury": Region.LONG_ISLAND, "uniondale": Region.LONG_ISLAND,
+    "hempstead": Region.LONG_ISLAND, "garden-city": Region.LONG_ISLAND, "brookville": Region.LONG_ISLAND,
+    "white-plains": Region.WESTCHESTER, "yonkers": Region.WESTCHESTER, "new-rochelle": Region.WESTCHESTER,
+    "valhalla": Region.WESTCHESTER, "tarrytown": Region.WESTCHESTER,
+}
+_ALLEVENTS_CITY = re.compile(r"^https?://(?:www\.)?allevents\.in/([^/?#]+)/", re.I)
+
+
+def allevents_region(url: str) -> Region | None:
+    """Region from an allevents.in URL's city slug; None if it is not a metro
+    city (or not an allevents URL at all)."""
+    m = _ALLEVENTS_CITY.match(url or "")
+    if not m:
+        return None
+    return ALLEVENTS_METRO_CITIES.get(m.group(1).lower())
+
+
 def normalize(raw: RawEvent, source_region: Region = Region.UNKNOWN, today: date | None = None) -> Scraped | None:
     """Returns None when the raw record can't meet the floor: a title, a
     parseable future-ish date, and some URL."""
@@ -97,6 +127,15 @@ def normalize(raw: RawEvent, source_region: Region = Region.UNKNOWN, today: date
         return None
     if PLACEHOLDER_TITLE.search(title):
         return None
+    # A platform listing outside the metro is not a thin listing — it is the
+    # wrong city. Drop it at the floor, and let the slug set the region when it
+    # is one of ours.
+    if _ALLEVENTS_CITY.match(info_url):
+        city_region = allevents_region(info_url)
+        if city_region is None:
+            return None
+        if source_region is Region.UNKNOWN:
+            source_region = city_region
     end = parse_when(raw.end_raw)
     if end is not None and end < start:
         end = None

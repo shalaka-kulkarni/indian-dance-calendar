@@ -75,3 +75,27 @@ def test_normalize_keeps_real_titles_containing_test_words():
         info_url="https://www.joyce.org/performances/contest-of-the-ragas",
     )
     assert normalize(raw) is not None
+
+
+def test_allevents_outside_metro_is_dropped_and_metro_slug_sets_region():
+    """On 7 Sep 2026 allevents' listing page went empty, the chain fell to its
+    sitemap, and 128 nationwide rows arrived. The city slug in the URL is the
+    one place the listing says where it is."""
+    from pipeline.models import Region
+    from pipeline.normalize import allevents_region
+    from pipeline.scrapers.base import RawEvent
+
+    def raw(url):
+        return RawEvent(source_id="allevents", source_url=url, title="Garba Night",
+                        start_raw="2026-11-02T19:00:00", info_url=url)
+
+    assert normalize(raw("https://allevents.in/san-antonio/garba-night/800027311314")) is None
+    assert normalize(raw("https://allevents.in/anaheim/garba-night/2300027011988252")) is None
+
+    kept = normalize(raw("https://allevents.in/jersey-city/garba-night/123"))
+    assert kept is not None and kept.region is Region.NEW_JERSEY
+    kept = normalize(raw("https://allevents.in/new-york/garba-night/456"))
+    assert kept is not None and kept.region is Region.MANHATTAN
+
+    # Not an allevents URL: untouched.
+    assert allevents_region("https://www.joyce.org/performances/x") is None
