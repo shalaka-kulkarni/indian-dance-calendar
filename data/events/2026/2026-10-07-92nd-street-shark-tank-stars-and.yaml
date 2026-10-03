@@ -37,14 +37,14 @@ validation:
   - url: https://www.92ny.org/event/shark-tank-stars-in-conversation
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:45:05.835449-04:00'
+    checked_at: '2026-10-03T07:59:38.200008-04:00'
   - url: https://seats.92ny.org/single/211280
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:45:05.926258-04:00'
+    checked_at: '2026-10-03T07:59:38.293312-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-10-02T12:45:05.835422-04:00'
+  validated_at: '2026-10-03T07:59:38.199984-04:00'
 curated:
   forms: []
   traditions: []

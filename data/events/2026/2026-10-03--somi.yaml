@@ -42,7 +42,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: false
     in_metro: true
     classified: false
@@ -50,11 +50,12 @@ validation:
   - url: https://www.sopacnow.org/events/somi-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:44:47.239118-04:00'
+    checked_at: '2026-10-03T07:59:16.628374-04:00'
   problems:
+  - event date 2026-10-03 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-02T12:44:47.239090-04:00'
+  validated_at: '2026-10-03T07:59:16.628352-04:00'
 curated:
   forms: []
   traditions: []

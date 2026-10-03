@@ -1,5 +1,5 @@
 id: 2026-10-03--2026-flute-j-a
-status: published
+status: needs_attention
 was_published: true
 needs_recheck: false
 scraped:
@@ -35,12 +35,12 @@ ai:
   model: hand-classified (scheduled routine was unavailable)
   classified_at: '2026-08-19'
 validation:
-  passed: true
+  passed: false
   checks:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: false
     in_metro: true
     classified: true
@@ -48,10 +48,11 @@ validation:
   - url: https://www.cmana.org/etn/2026-flute-j-a-jayant/
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:44:45.562210-04:00'
+    checked_at: '2026-10-03T07:59:15.527439-04:00'
   problems:
+  - event date 2026-10-03 is in the past
   - no price information
-  validated_at: '2026-10-02T12:44:45.562183-04:00'
+  validated_at: '2026-10-03T07:59:15.527416-04:00'
 curated:
   forms: []
   traditions: []

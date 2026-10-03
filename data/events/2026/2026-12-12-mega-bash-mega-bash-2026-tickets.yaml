@@ -36,11 +36,11 @@ validation:
   - url: https://www.prucenter.com/events/mega-bash
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:49:05.315221-04:00'
+    checked_at: '2026-10-03T08:03:47.065748-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-10-02T12:49:05.315191-04:00'
+  validated_at: '2026-10-03T08:03:47.065727-04:00'
 curated:
   forms: []
   traditions: []

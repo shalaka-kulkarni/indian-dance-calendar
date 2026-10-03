@@ -36,14 +36,14 @@ validation:
   - url: https://www.92ny.org/event/daniel-kraus
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:47:12.314049-04:00'
+    checked_at: '2026-10-03T08:01:51.724607-04:00'
   - url: https://seats.92ny.org/single/210872
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:47:15.577314-04:00'
+    checked_at: '2026-10-03T08:01:53.583189-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-10-02T12:47:12.314020-04:00'
+  validated_at: '2026-10-03T08:01:51.724584-04:00'
 curated:
   forms: []
   traditions: []

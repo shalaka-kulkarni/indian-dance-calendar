@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/leenalchi
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:47:18.517059-04:00'
+    checked_at: '2026-10-03T08:01:56.109313-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-02T12:47:18.517034-04:00'
+  validated_at: '2026-10-03T08:01:56.109286-04:00'
 curated:
   forms: []
   traditions: []

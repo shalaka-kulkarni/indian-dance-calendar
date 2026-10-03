@@ -34,17 +34,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/kris-davis-trio
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-02T12:50:02.761535-04:00'
   - url: https://seats.92ny.org/single/210676
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:50:04.474319-04:00'
+    checked_at: '2026-10-03T08:04:59.623365-04:00'
+  - url: https://www.92ny.org/event/kris-davis-trio
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:04:59.705524-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-10-02T12:50:02.761493-04:00'
+  validated_at: '2026-10-03T08:04:59.623332-04:00'
 curated:
   forms: []
   traditions: []

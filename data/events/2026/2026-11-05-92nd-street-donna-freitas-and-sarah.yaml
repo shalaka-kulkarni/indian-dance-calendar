@@ -38,14 +38,14 @@ validation:
   - url: https://www.92ny.org/event/donna-freitas-and-sarah-weinman
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:47:54.206241-04:00'
+    checked_at: '2026-10-03T08:02:27.816608-04:00'
   - url: https://seats.92ny.org/single/211408
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:47:57.166057-04:00'
+    checked_at: '2026-10-03T08:02:30.786925-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-10-02T12:47:54.206212-04:00'
+  validated_at: '2026-10-03T08:02:27.816584-04:00'
 curated:
   forms: []
   traditions: []

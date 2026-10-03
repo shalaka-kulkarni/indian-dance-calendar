@@ -46,12 +46,16 @@ validation:
     price_known: true
     in_metro: false
     classified: false
-  link_checks: []
+  link_checks:
+  - url: https://allevents.in/peoria/halloween-night-golf-bash-in-peoria-tickets/80001812294331
+    ok: false
+    status_code: 410
+    checked_at: '2026-10-03T08:02:10.865153-04:00'
   problems:
-  - links not yet verified (offline run)
+  - 'dead links: https://allevents.in/peoria/halloween-night-golf-bash-in-peoria-tickets/80001812294331'
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T07:56:12.972244-04:00'
+  validated_at: '2026-10-03T08:02:10.865129-04:00'
 curated:
   forms: []
   traditions: []

@@ -49,11 +49,11 @@ validation:
   - url: https://gibneydance.org/
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:48:24.699547-04:00'
+    checked_at: '2026-10-03T08:03:04.213663-04:00'
   problems:
   - 'info URL is a bare homepage, not an event page: https://gibneydance.org/'
   - no price information
-  validated_at: '2026-10-02T12:48:24.699498-04:00'
+  validated_at: '2026-10-03T08:03:04.213644-04:00'
 curated:
   forms:
   - bharatanatyam

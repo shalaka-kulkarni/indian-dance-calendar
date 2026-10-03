@@ -33,17 +33,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/christy-carlson-romano
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-02T12:44:58.170495-04:00'
   - url: https://seats.92ny.org/single/210580
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:44:58.264188-04:00'
+    checked_at: '2026-10-03T07:59:31.395880-04:00'
+  - url: https://www.92ny.org/event/christy-carlson-romano
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T07:59:31.531936-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-10-02T12:44:58.170465-04:00'
+  validated_at: '2026-10-03T07:59:31.395844-04:00'
 curated:
   forms: []
   traditions: []

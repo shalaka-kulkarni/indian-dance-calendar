@@ -1,5 +1,5 @@
 id: 2026-10-02-adler-hall-rakesh-chaurasia-salar-nader
-status: published
+status: past
 was_published: true
 needs_recheck: false
 scraped:
@@ -35,27 +35,28 @@ ai:
   model: claude-fable-5
   classified_at: '2026-08-17'
 validation:
-  passed: true
+  passed: false
   checks:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: false
     in_metro: true
     classified: true
   link_checks:
-  - url: https://tickets.worldclassmusic.live/events/wcml
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-02T12:44:43.803872-04:00'
   - url: https://ethical.nyc/events/worldclassmusic-live-presents-rakesh-chaurasia-salar-nader/
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:44:44.407819-04:00'
+    checked_at: '2026-10-03T07:59:13.158251-04:00'
+  - url: https://tickets.worldclassmusic.live/events/wcml
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T07:59:14.096795-04:00'
   problems:
+  - event date 2026-10-02 is in the past
   - no price information
-  validated_at: '2026-10-02T12:44:43.803841-04:00'
+  validated_at: '2026-10-03T07:59:13.158228-04:00'
 curated:
   forms: []
   art_form: music

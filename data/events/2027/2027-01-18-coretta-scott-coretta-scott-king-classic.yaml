@@ -35,11 +35,11 @@ validation:
   - url: https://www.prucenter.com/events/coretta-scott-king-classic
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:49:35.833629-04:00'
+    checked_at: '2026-10-03T08:04:17.626166-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-10-02T12:49:35.833590-04:00'
+  validated_at: '2026-10-03T08:04:17.626145-04:00'
 curated:
   forms: []
   traditions: []

@@ -51,12 +51,12 @@ validation:
   - url: https://www.sopacnow.org/events/liz-glazer-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:43:48.178210-04:00'
+    checked_at: '2026-10-03T07:57:54.611005-04:00'
   problems:
   - event date 2026-09-19 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-02T12:43:48.178175-04:00'
+  validated_at: '2026-10-03T07:57:54.610983-04:00'
 curated:
   forms: []
   traditions: []

@@ -46,18 +46,18 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/danny-meyer-with-john-grisham
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-02T12:44:34.415823-04:00'
   - url: https://seats.92ny.org/single/211047
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:44:34.546284-04:00'
+    checked_at: '2026-10-03T07:58:47.404208-04:00'
+  - url: https://www.92ny.org/event/danny-meyer-with-john-grisham
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T07:58:47.475778-04:00'
   problems:
   - event date 2026-09-28 is in the past
   - classified not-relevant
-  validated_at: '2026-10-02T12:44:34.415795-04:00'
+  validated_at: '2026-10-03T07:58:47.404186-04:00'
 curated:
   forms: []
   traditions: []

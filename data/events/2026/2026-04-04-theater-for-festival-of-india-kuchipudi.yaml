@@ -45,10 +45,10 @@ validation:
   - url: https://theaterforthenewcity.net/shows/festival-of-india-sitar-workshop/
     ok: false
     status_code: 404
-    checked_at: '2026-10-02T12:42:54.882776-04:00'
+    checked_at: '2026-10-03T07:57:03.192977-04:00'
   problems:
   - 'archive info link dead: https://theaterforthenewcity.net/shows/festival-of-india-sitar-workshop/'
-  validated_at: '2026-10-02T12:42:54.882763-04:00'
+  validated_at: '2026-10-03T07:57:03.192963-04:00'
 curated:
   forms:
   - kuchipudi

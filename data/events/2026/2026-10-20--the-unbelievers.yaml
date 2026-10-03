@@ -35,11 +35,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/t4kevx95/2026-10-20/2026-2027-the-unbelievers
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:46:20.560832-04:00'
+    checked_at: '2026-10-03T08:01:09.632295-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-10-02T12:46:20.560806-04:00'
+  validated_at: '2026-10-03T08:01:09.632271-04:00'
 curated:
   forms: []
   traditions: []

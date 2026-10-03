@@ -37,10 +37,10 @@ validation:
   - url: https://events.sulekha.com/diwali-cruise-party-desi-dinner-buffet-saturday-night-nov-7_event-in_new-york-ny_402124
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:48:04.986368-04:00'
+    checked_at: '2026-10-03T08:02:44.094638-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-10-02T12:48:04.986340-04:00'
+  validated_at: '2026-10-03T08:02:44.094614-04:00'
 curated:
   forms: []
   traditions: []

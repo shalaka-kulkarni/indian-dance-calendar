@@ -38,14 +38,14 @@ validation:
   - url: https://www.92ny.org/event/an-evening-with-jason-robert-brown
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:49:47.933498-04:00'
+    checked_at: '2026-10-03T08:04:32.294711-04:00'
   - url: https://seats.92ny.org/single/210713
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:49:49.357603-04:00'
+    checked_at: '2026-10-03T08:04:35.410572-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-10-02T12:49:47.933470-04:00'
+  validated_at: '2026-10-03T08:04:32.294689-04:00'
 curated:
   forms: []
   traditions: []

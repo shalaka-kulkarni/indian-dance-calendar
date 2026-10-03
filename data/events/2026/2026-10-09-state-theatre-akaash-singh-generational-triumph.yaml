@@ -40,17 +40,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.stnj.org/events/detail/akaash-singh-generational-triumph-tour
-    ok: true
-    status_code: 406
-    checked_at: '2026-10-02T12:45:22.516257-04:00'
   - url: https://my.stnj.org/25096/25097
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:45:22.694352-04:00'
+    checked_at: '2026-10-03T07:59:50.562798-04:00'
+  - url: https://www.stnj.org/events/detail/akaash-singh-generational-triumph-tour
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T07:59:50.630158-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-10-02T12:45:22.516231-04:00'
+  validated_at: '2026-10-03T07:59:50.562771-04:00'
 curated:
   forms: []
   traditions: []

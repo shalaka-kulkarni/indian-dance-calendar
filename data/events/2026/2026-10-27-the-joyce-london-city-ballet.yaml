@@ -48,11 +48,11 @@ validation:
   - url: https://www.joyce.org/performances/london-city-ballet-tykc
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:47:10.592718-04:00'
+    checked_at: '2026-10-03T08:01:49.905020-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-02T12:47:10.592689-04:00'
+  validated_at: '2026-10-03T08:01:49.904993-04:00'
 curated:
   forms: []
   traditions: []

@@ -35,11 +35,11 @@ validation:
   - url: https://pioneerworks.org/programs/live-on-the-lot-radio-pioneer-works-invites-hisham-akira-bharoocha
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:46:37.900393-04:00'
+    checked_at: '2026-10-03T08:01:21.214829-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-10-02T12:46:37.900365-04:00'
+  validated_at: '2026-10-03T08:01:21.214806-04:00'
 curated:
   forms: []
   traditions: []

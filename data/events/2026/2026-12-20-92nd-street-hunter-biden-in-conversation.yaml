@@ -38,14 +38,14 @@ validation:
   - url: https://www.92ny.org/event/hunter-biden-with-david-manheim
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:49:24.261323-04:00'
+    checked_at: '2026-10-03T08:04:00.784035-04:00'
   - url: https://seats.92ny.org/single/211424
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:49:26.671184-04:00'
+    checked_at: '2026-10-03T08:04:08.278428-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-10-02T12:49:24.261294-04:00'
+  validated_at: '2026-10-03T08:04:00.784014-04:00'
 curated:
   forms: []
   traditions: []

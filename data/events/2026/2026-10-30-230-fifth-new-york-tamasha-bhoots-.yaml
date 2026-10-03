@@ -37,10 +37,10 @@ validation:
   - url: https://events.sulekha.com/new-york-tamasha-bhoots-bollywood-halloween-party-at-230-fifth-rooftop_event-in_new-york-ny_402117
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:47:28.532631-04:00'
+    checked_at: '2026-10-03T08:02:05.162458-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-10-02T12:47:28.532602-04:00'
+  validated_at: '2026-10-03T08:02:05.162433-04:00'
 curated:
   forms: []
   traditions: []

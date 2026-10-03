@@ -1,5 +1,5 @@
 id: 2026-10-03-nassau-veterans-rahat-fateh-ali-khan
-status: published
+status: needs_attention
 was_published: true
 needs_recheck: false
 scraped:
@@ -35,12 +35,12 @@ ai:
   model: claude-fable-5
   classified_at: '2026-08-17'
 validation:
-  passed: true
+  passed: false
   checks:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: false
     in_metro: true
     classified: true
@@ -48,10 +48,11 @@ validation:
   - url: https://www.ticketmaster.com/rahat-fateh-ali-khan-uniondale-new-york-10-03-2026/event/00006486D4A6C91E
     ok: true
     status_code: 403
-    checked_at: '2026-10-02T12:44:53.450086-04:00'
+    checked_at: '2026-10-03T07:59:25.699918-04:00'
   problems:
+  - event date 2026-10-03 is in the past
   - no price information
-  validated_at: '2026-10-02T12:44:53.450059-04:00'
+  validated_at: '2026-10-03T07:59:25.699896-04:00'
 curated:
   forms: []
   art_form: music

@@ -48,11 +48,11 @@ validation:
   - url: https://tickets.nyu.edu/dennylove2026/18855
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:49:47.872034-04:00'
+    checked_at: '2026-10-03T08:04:32.184665-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-02T12:49:47.872004-04:00'
+  validated_at: '2026-10-03T08:04:32.184644-04:00'
 curated:
   forms: []
   traditions: []

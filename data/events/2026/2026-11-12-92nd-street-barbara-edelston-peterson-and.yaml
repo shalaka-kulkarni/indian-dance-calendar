@@ -35,17 +35,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/barbara-peterson-and-yael-buechler-in-conversation
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-02T12:48:17.030224-04:00'
   - url: https://seats.92ny.org/single/211091
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:48:19.871347-04:00'
+    checked_at: '2026-10-03T08:02:56.185102-04:00'
+  - url: https://www.92ny.org/event/barbara-peterson-and-yael-buechler-in-conversation
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:02:56.288187-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-10-02T12:48:17.030197-04:00'
+  validated_at: '2026-10-03T08:02:56.185081-04:00'
 curated:
   forms: []
   traditions: []

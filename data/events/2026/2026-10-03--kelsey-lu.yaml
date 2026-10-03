@@ -38,7 +38,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: false
     in_metro: true
     classified: false
@@ -46,11 +46,12 @@ validation:
   - url: https://pioneerworks.org/programs/kelsey-lu
     ok: true
     status_code: 200
-    checked_at: '2026-10-02T12:44:46.488600-04:00'
+    checked_at: '2026-10-03T07:59:16.446974-04:00'
   problems:
+  - event date 2026-10-03 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-02T12:44:46.488570-04:00'
+  validated_at: '2026-10-03T07:59:16.446953-04:00'
 curated:
   forms: []
   traditions: []
