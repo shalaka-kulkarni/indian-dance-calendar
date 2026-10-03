@@ -47,12 +47,12 @@ validation:
   - url: https://allevents.in/dade-city/spooktacular-2026/200030639029117
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:02:11.740603-04:00'
+    checked_at: '2026-10-03T08:28:31.099287-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T08:02:11.740579-04:00'
+  validated_at: '2026-10-03T08:28:31.099257-04:00'
 curated:
   forms: []
   traditions: []

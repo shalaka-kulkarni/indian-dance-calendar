@@ -37,17 +37,20 @@ validation:
   checks:
     has_info_url: true
     specific_url: true
-    links_live: false
+    links_live: true
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks: []
+  link_checks:
+  - url: https://pioneerworks.org/programs/scientific-controversies-octopus-umwelt
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:26:55.518459-04:00'
   problems:
-  - links not yet verified (offline run)
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:24:05.003816-04:00'
+  validated_at: '2026-10-03T08:26:55.518431-04:00'
 curated:
   forms: []
   traditions: []

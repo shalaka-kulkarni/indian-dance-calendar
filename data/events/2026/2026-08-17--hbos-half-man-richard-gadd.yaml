@@ -49,15 +49,15 @@ validation:
   - url: https://seats.92ny.org/single/211139
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T07:57:17.711459-04:00'
+    checked_at: '2026-10-03T08:24:39.741192-04:00'
   - url: https://www.92ny.org/event/hbo-s-half-man
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T07:57:19.544417-04:00'
+    checked_at: '2026-10-03T08:24:41.649492-04:00'
   problems:
   - event date 2026-08-17 is in the past
   - classified not-relevant
-  validated_at: '2026-10-03T07:57:17.711440-04:00'
+  validated_at: '2026-10-03T08:24:39.741165-04:00'
 curated:
   forms: []
   traditions: []

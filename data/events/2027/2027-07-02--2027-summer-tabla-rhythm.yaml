@@ -1,6 +1,6 @@
 id: 2027-07-02--2027-summer-tabla-rhythm
-status: needs_attention
-was_published: false
+status: published
+was_published: true
 needs_recheck: false
 scraped:
   title: 2027 Summer Tabla & Rhythm Ashram
@@ -41,7 +41,7 @@ ai:
   model: hand-classified (routine lacked push access)
   classified_at: '2026-10-03'
 validation:
-  passed: false
+  passed: true
   checks:
     has_info_url: true
     specific_url: true
@@ -49,16 +49,15 @@ validation:
     date_valid: true
     price_known: false
     in_metro: true
-    classified: false
+    classified: true
   link_checks:
   - url: https://chhandayan.org/calendar/2023/7/1/2023-tabla-ashram-at-shanti-mandir-793t4-4t8hw-raz7z-dmjhj-6t623-fxywn-sy97a
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:05:08.976658-04:00'
+    checked_at: '2026-10-03T08:30:31.221430-04:00'
   problems:
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-10-03T08:05:08.976637-04:00'
+  validated_at: '2026-10-03T08:30:31.221402-04:00'
 curated:
   forms: []
   traditions: []

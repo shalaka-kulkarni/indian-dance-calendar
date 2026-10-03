@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/fredericksburg/treats-on-the-streets/200030583742952
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:02:10.218810-04:00'
+    checked_at: '2026-10-03T08:28:30.282015-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T08:02:10.218787-04:00'
+  validated_at: '2026-10-03T08:28:30.281985-04:00'
 curated:
   forms: []
   traditions: []

@@ -41,16 +41,23 @@ validation:
   checks:
     has_info_url: true
     specific_url: true
-    links_live: false
+    links_live: true
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks: []
+  link_checks:
+  - url: https://www.92ny.org/event/mah-jongg-day-at-92ny
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:29:29.443941-04:00'
+  - url: https://seats.92ny.org/single/211346
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:29:31.996525-04:00'
   problems:
-  - links not yet verified (offline run)
   - classified not-relevant
-  validated_at: '2026-10-03T08:24:05.493404-04:00'
+  validated_at: '2026-10-03T08:29:29.443912-04:00'
 curated:
   forms: []
   traditions: []

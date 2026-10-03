@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/lexington/2026-boo-bash/200030627994442
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:02:08.126124-04:00'
+    checked_at: '2026-10-03T08:28:29.477346-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T08:02:08.126100-04:00'
+  validated_at: '2026-10-03T08:28:29.477318-04:00'
 curated:
   forms: []
   traditions: []

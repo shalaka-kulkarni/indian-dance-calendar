@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/kissimmee/promenade-and-orlando-health-breast-cancer-awareness-car-and-truck-show/100001988922485695
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T07:59:55.871874-04:00'
+    checked_at: '2026-10-03T08:26:38.022280-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T07:59:55.871850-04:00'
+  validated_at: '2026-10-03T08:26:38.022252-04:00'
 curated:
   forms: []
   traditions: []

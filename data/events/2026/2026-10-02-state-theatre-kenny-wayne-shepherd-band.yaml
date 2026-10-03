@@ -53,18 +53,18 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.stnj.org/events/detail/kenny-wayne-shepherd-2026
-    ok: true
-    status_code: 406
-    checked_at: '2026-10-03T07:59:15.101071-04:00'
   - url: https://my.stnj.org/24906/24907
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T07:59:15.461999-04:00'
+    checked_at: '2026-10-03T08:25:58.505642-04:00'
+  - url: https://www.stnj.org/events/detail/kenny-wayne-shepherd-2026
+    ok: true
+    status_code: 406
+    checked_at: '2026-10-03T08:25:58.780066-04:00'
   problems:
   - event date 2026-10-02 is in the past
   - classified not-relevant
-  validated_at: '2026-10-03T07:59:15.101047-04:00'
+  validated_at: '2026-10-03T08:25:58.505613-04:00'
 curated:
   forms: []
   traditions: []

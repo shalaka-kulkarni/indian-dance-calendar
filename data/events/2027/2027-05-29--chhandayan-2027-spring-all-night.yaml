@@ -1,6 +1,6 @@
 id: 2027-05-29--chhandayan-2027-spring-all-night
-status: needs_attention
-was_published: false
+status: published
+was_published: true
 needs_recheck: false
 scraped:
   title: Chhandayan 2027 Spring All-Night Concert
@@ -41,7 +41,7 @@ ai:
   model: hand-classified (routine lacked push access)
   classified_at: '2026-10-03'
 validation:
-  passed: false
+  passed: true
   checks:
     has_info_url: true
     specific_url: true
@@ -49,16 +49,15 @@ validation:
     date_valid: true
     price_known: false
     in_metro: true
-    classified: false
+    classified: true
   link_checks:
   - url: https://chhandayan.org/calendar/2026/10/24/chhandayan-2026-all-night-concert-ph2d8-e6mdp
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:05:06.603410-04:00'
+    checked_at: '2026-10-03T08:30:28.923854-04:00'
   problems:
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-10-03T08:05:06.603391-04:00'
+  validated_at: '2026-10-03T08:30:28.923826-04:00'
 curated:
   forms: []
   traditions: []

@@ -1,6 +1,6 @@
 id: 2026-10-10-sapphire-banquet-ghazal-evening-with-ustad
-status: needs_attention
-was_published: false
+status: published
+was_published: true
 needs_recheck: false
 scraped:
   title: Ghazal Evening With Ustad Hamid Ali Khan – Living Legend Of Patiala Gharana
@@ -38,7 +38,7 @@ ai:
   model: hand-classified (routine lacked push access)
   classified_at: '2026-10-03'
 validation:
-  passed: false
+  passed: true
   checks:
     has_info_url: true
     specific_url: true
@@ -46,15 +46,14 @@ validation:
     date_valid: true
     price_known: true
     in_metro: true
-    classified: false
+    classified: true
   link_checks:
   - url: https://events.sulekha.com/ghazal-evening-with-ustad-hamid-ali-khan-living-legend-of-patiala-gharana_event-in_hicksville-ny_402118
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T07:59:57.217438-04:00'
-  problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-10-03T07:59:57.217415-04:00'
+    checked_at: '2026-10-03T08:26:39.280694-04:00'
+  problems: []
+  validated_at: '2026-10-03T08:26:39.280665-04:00'
 curated:
   forms: []
   traditions: []

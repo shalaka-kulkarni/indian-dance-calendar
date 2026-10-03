@@ -37,17 +37,20 @@ validation:
   checks:
     has_info_url: true
     specific_url: true
-    links_live: false
+    links_live: true
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks: []
+  link_checks:
+  - url: https://www.nycitycenter.org/events/instances/dtm200jm/2026-12-13/2026-2027-alvin-ailey-american-dance-theater
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:29:47.799604-04:00'
   problems:
-  - links not yet verified (offline run)
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:24:05.610151-04:00'
+  validated_at: '2026-10-03T08:29:47.799575-04:00'
 curated:
   forms: []
   traditions: []
