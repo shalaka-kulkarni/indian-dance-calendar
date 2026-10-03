@@ -20,6 +20,18 @@ scraped:
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Le-Monocle-2026-10-03
     first_seen: '2026-10-03'
     last_seen: '2026-10-03'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: Contemporary, ballet, theatre or other non-Indian listing.'
+  model: manual
+  classified_at: '2026-10-03'
 validation:
   passed: false
   checks:
