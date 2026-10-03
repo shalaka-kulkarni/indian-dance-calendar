@@ -1,5 +1,5 @@
 id: 2026-11-14-gibney-agnes-carved-in-time-mesma
-status: needs_attention
+status: published
 was_published: true
 needs_recheck: false
 scraped:
@@ -37,24 +37,23 @@ ai:
   model: claude-fable-5
   classified_at: '2026-08-16'
 validation:
-  passed: false
+  passed: true
   checks:
     has_info_url: true
-    specific_url: false
+    specific_url: true
     links_live: true
     date_valid: true
     price_known: false
     in_metro: true
     classified: true
   link_checks:
-  - url: https://gibneydance.org/
+  - url: https://www.zeffy.com/en-US/ticketing/carved-in-time
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:41:47.186678-04:00'
+    checked_at: '2026-10-03T08:49:09.263814-04:00'
   problems:
-  - 'info URL is a bare homepage, not an event page: https://gibneydance.org/'
   - no price information
-  validated_at: '2026-10-03T08:41:47.186655-04:00'
+  validated_at: '2026-10-03T08:49:09.263793-04:00'
 curated:
   forms:
   - bharatanatyam

@@ -46,11 +46,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/g2ey4vny/2027-04-09/2026-2027-ballet-hispanico
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:43:26.017328-04:00'
+    checked_at: '2026-10-03T08:50:14.081010-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:43:26.017302-04:00'
+  validated_at: '2026-10-03T08:50:14.080990-04:00'
 curated:
   forms: []
   traditions: []

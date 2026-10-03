@@ -47,11 +47,11 @@ validation:
   - url: https://nyuskirball.org/performance/2026-national-book-awards/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:41:55.771861-04:00'
+    checked_at: '2026-10-03T08:49:16.211885-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:41:55.771837-04:00'
+  validated_at: '2026-10-03T08:49:16.211862-04:00'
 curated:
   forms: []
   traditions: []

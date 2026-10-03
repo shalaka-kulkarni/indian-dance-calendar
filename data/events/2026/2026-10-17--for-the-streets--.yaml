@@ -35,12 +35,12 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/For-the-Streets-a-Festival-of-Political-Performance-2026-10-17
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:39:55.352335-04:00'
+    checked_at: '2026-10-03T08:47:05.486071-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-10-03T08:39:55.352306-04:00'
+  validated_at: '2026-10-03T08:47:05.486045-04:00'
 curated:
   forms: []
   traditions: []

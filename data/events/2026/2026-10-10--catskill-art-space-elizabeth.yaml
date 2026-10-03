@@ -36,12 +36,12 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Catskill-Art-Space-Elizabeth-Murray-Estate-Trisha-Brown-Dance-Company-and-Works-Process-Present-PRESENT-TENSE-2003-2026-10-10
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:39:08.852144-04:00'
+    checked_at: '2026-10-03T08:46:23.562972-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-10-03T08:39:08.852116-04:00'
+  validated_at: '2026-10-03T08:46:23.562943-04:00'
 curated:
   forms: []
   traditions: []

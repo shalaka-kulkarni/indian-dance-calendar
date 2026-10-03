@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/210384
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:40:59.522118-04:00'
+    checked_at: '2026-10-03T08:48:10.279992-04:00'
   - url: https://www.92ny.org/event/christopher-williams
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:40:59.582851-04:00'
+    checked_at: '2026-10-03T08:48:10.316578-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:40:59.522093-04:00'
+  validated_at: '2026-10-03T08:48:10.279970-04:00'
 curated:
   forms: []
   traditions: []

@@ -38,11 +38,11 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Dances-for-a-Variable-Populations-REVIVAL-10-Retrospective-FREE-at-New-York-Botanical-Garden-2026-10-07
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:38:55.959715-04:00'
+    checked_at: '2026-10-03T08:46:06.858949-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-10-03T08:38:55.959688-04:00'
+  validated_at: '2026-10-03T08:46:06.858920-04:00'
 curated:
   forms: []
   traditions: []

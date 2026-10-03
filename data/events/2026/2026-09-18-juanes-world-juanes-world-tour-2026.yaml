@@ -49,12 +49,12 @@ validation:
   - url: https://www.prucenter.com/events/juanes
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:37:55.177630-04:00'
+    checked_at: '2026-10-03T08:44:34.513303-04:00'
   problems:
   - event date 2026-09-18 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:37:55.177603-04:00'
+  validated_at: '2026-10-03T08:44:34.513278-04:00'
 curated:
   forms: []
   traditions: []

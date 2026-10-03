@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211183
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:39:34.540018-04:00'
   - url: https://www.92ny.org/event/joe-manganiello-with-josh-horowitz-bloodlines
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:39:34.606434-04:00'
+    checked_at: '2026-10-03T08:46:45.220982-04:00'
+  - url: https://seats.92ny.org/single/211183
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:46:47.670255-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:39:34.539990-04:00'
+  validated_at: '2026-10-03T08:46:45.220959-04:00'
 curated:
   forms: []
   traditions: []

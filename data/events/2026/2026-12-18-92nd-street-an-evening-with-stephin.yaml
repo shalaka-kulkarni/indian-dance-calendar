@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210719
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:42:53.004046-04:00'
   - url: https://www.92ny.org/event/an-evening-with-stephin-merritt
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:42:53.058715-04:00'
+    checked_at: '2026-10-03T08:49:45.773361-04:00'
+  - url: https://seats.92ny.org/single/210719
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:49:47.199631-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:42:53.004022-04:00'
+  validated_at: '2026-10-03T08:49:45.773335-04:00'
 curated:
   forms: []
   traditions: []

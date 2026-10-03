@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/celebrating-ray-charles
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:43:20.698340-04:00'
   - url: https://seats.92ny.org/single/210636
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:43:22.116327-04:00'
+    checked_at: '2026-10-03T08:50:09.991897-04:00'
+  - url: https://www.92ny.org/event/celebrating-ray-charles
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:50:10.027034-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:43:20.698316-04:00'
+  validated_at: '2026-10-03T08:50:09.991874-04:00'
 curated:
   forms: []
   traditions: []

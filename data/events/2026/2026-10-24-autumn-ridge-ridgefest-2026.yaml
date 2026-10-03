@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/rochester/ridgefest-2026-tickets/80003003506189
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:40:34.686413-04:00'
+    checked_at: '2026-10-03T08:47:42.656208-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T08:40:34.686384-04:00'
+  validated_at: '2026-10-03T08:47:42.656186-04:00'
 curated:
   forms: []
   traditions: []

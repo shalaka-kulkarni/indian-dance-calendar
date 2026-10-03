@@ -50,11 +50,11 @@ validation:
   - url: https://www.sopacnow.org/events/sonsofcream2027/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:43:27.620838-04:00'
+    checked_at: '2026-10-03T08:50:15.119110-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:43:27.620810-04:00'
+  validated_at: '2026-10-03T08:50:15.119092-04:00'
 curated:
   forms: []
   traditions: []

@@ -39,11 +39,11 @@ validation:
   - url: https://www.centeratwestpark.org/calendar/2026/10/19/cwp-film-center-screening-of-no-accident
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:40:12.405641-04:00'
+    checked_at: '2026-10-03T08:47:22.739466-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-10-03T08:40:12.405613-04:00'
+  validated_at: '2026-10-03T08:47:22.739437-04:00'
 curated:
   forms: []
   traditions: []

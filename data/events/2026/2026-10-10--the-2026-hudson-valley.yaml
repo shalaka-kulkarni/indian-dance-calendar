@@ -35,12 +35,12 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/The-2026-Hudson-Valley-Dance-Festival-2026-10-10
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:39:09.766598-04:00'
+    checked_at: '2026-10-03T08:46:24.845785-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - not yet classified (no API key run)
-  validated_at: '2026-10-03T08:39:09.766572-04:00'
+  validated_at: '2026-10-03T08:46:24.845758-04:00'
 curated:
   forms: []
   traditions: []

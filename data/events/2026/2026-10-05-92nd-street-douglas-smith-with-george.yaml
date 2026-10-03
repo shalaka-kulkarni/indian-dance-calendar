@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211208
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:38:51.931834-04:00'
   - url: https://www.92ny.org/event/the-city-without-jews
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:38:52.018738-04:00'
+    checked_at: '2026-10-03T08:46:02.755243-04:00'
+  - url: https://seats.92ny.org/single/211208
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:46:02.853003-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:38:51.931807-04:00'
+  validated_at: '2026-10-03T08:46:02.755220-04:00'
 curated:
   forms: []
   traditions: []

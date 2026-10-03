@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/shu-analog-jazz-nov-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:41:59.786951-04:00'
+    checked_at: '2026-10-03T08:49:19.371231-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:41:59.786923-04:00'
+  validated_at: '2026-10-03T08:49:19.371204-04:00'
 curated:
   forms: []
   traditions: []

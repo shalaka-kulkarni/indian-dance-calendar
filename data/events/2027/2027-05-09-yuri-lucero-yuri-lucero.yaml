@@ -47,11 +47,11 @@ validation:
   - url: https://www.prucenter.com/events/yuri-lucero
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:43:31.835545-04:00'
+    checked_at: '2026-10-03T08:50:19.526826-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:43:31.835520-04:00'
+  validated_at: '2026-10-03T08:50:19.526802-04:00'
 curated:
   forms: []
   traditions: []

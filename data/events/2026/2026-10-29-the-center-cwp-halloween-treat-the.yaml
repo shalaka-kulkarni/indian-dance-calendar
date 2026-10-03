@@ -39,11 +39,11 @@ validation:
   - url: https://www.centeratwestpark.org/calendar/2026/10/29/cwp-halloween-treat-the-man-who-laughs-1
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:41:04.719737-04:00'
+    checked_at: '2026-10-03T08:48:20.343446-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-10-03T08:41:04.719710-04:00'
+  validated_at: '2026-10-03T08:48:20.343421-04:00'
 curated:
   forms: []
   traditions: []

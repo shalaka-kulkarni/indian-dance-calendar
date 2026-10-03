@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/anaheim/oogie-boogie-bash-october-6-2026/200030390108519
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:38:54.882395-04:00'
+    checked_at: '2026-10-03T08:46:05.698884-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T08:38:54.882370-04:00'
+  validated_at: '2026-10-03T08:46:05.698864-04:00'
 curated:
   forms: []
   traditions: []

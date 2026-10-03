@@ -47,12 +47,12 @@ validation:
   - url: https://allevents.in/louisville/system-override-louisvilles-biggest-halloween-party/200030538835035
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:41:09.893918-04:00'
+    checked_at: '2026-10-03T08:48:25.146958-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T08:41:09.893893-04:00'
+  validated_at: '2026-10-03T08:48:25.146935-04:00'
 curated:
   forms: []
   traditions: []

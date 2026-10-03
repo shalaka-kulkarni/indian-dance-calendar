@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/keeping-new-york-city-safe
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:41:36.627531-04:00'
+    checked_at: '2026-10-03T08:48:59.760339-04:00'
   - url: https://seats.92ny.org/single/211243
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:41:38.496535-04:00'
+    checked_at: '2026-10-03T08:49:01.528818-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:41:36.627505-04:00'
+  validated_at: '2026-10-03T08:48:59.760319-04:00'
 curated:
   forms: []
   traditions: []

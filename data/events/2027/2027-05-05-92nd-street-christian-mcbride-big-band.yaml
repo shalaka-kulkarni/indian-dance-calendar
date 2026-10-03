@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/210686
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:43:28.617230-04:00'
+    checked_at: '2026-10-03T08:50:16.271189-04:00'
   - url: https://www.92ny.org/event/christian-mcbride-big-band
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:43:28.726709-04:00'
+    checked_at: '2026-10-03T08:50:16.357632-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:43:28.617204-04:00'
+  validated_at: '2026-10-03T08:50:16.271164-04:00'
 curated:
   forms: []
   traditions: []
