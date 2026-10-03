@@ -1,5 +1,5 @@
 id: 2027-04-16-gibney-penn-live-arts-opening
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -51,11 +51,11 @@ validation:
   - url: https://gibneydance.org/event/penn-arts-live/penn-live-arts-opening-night/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:10:38.995299-04:00'
+    checked_at: '2026-10-03T09:18:56.582080-04:00'
   problems:
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-10-03T09:10:38.995279-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-03T09:18:56.582064-04:00'
 curated:
   forms: []
   traditions: []

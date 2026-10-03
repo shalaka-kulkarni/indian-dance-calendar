@@ -47,12 +47,12 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/3vjmtakc/2026-09-27/2026-2027-the-hope-theory
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:05:10.402326-04:00'
+    checked_at: '2026-10-03T09:13:16.736600-04:00'
   problems:
   - event date 2026-09-27 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T09:05:10.402297-04:00'
+  validated_at: '2026-10-03T09:13:16.736584-04:00'
 curated:
   forms: []
   traditions: []

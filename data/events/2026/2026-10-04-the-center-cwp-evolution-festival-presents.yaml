@@ -51,11 +51,11 @@ validation:
   - url: https://www.centeratwestpark.org/calendar/2026/10/4/cwp-evolution-festival-presents-el-pndulo
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:05:53.416441-04:00'
+    checked_at: '2026-10-03T09:13:58.580071-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T09:05:53.416415-04:00'
+  validated_at: '2026-10-03T09:13:58.580052-04:00'
 curated:
   forms: []
   traditions: []

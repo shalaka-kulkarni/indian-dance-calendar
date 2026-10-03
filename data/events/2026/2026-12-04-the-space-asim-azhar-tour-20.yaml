@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/asim-azhar-tour-2-0-live-in-ny_event-in_westbury-ny_402050
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:09:37.669517-04:00'
+    checked_at: '2026-10-03T09:17:46.416105-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T09:09:37.669495-04:00'
+  validated_at: '2026-10-03T09:17:46.416085-04:00'
 curated:
   forms: []
   traditions: []

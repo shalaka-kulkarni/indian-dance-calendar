@@ -1,5 +1,5 @@
 id: 2027-04-17-gibney-penn-live-arts-show
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -47,11 +47,11 @@ validation:
   - url: https://gibneydance.org/event/penn-arts-live/penn-live-arts-show-ii/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:10:39.371238-04:00'
+    checked_at: '2026-10-03T09:18:56.869396-04:00'
   problems:
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-10-03T09:10:39.371214-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-03T09:18:56.869381-04:00'
 curated:
   forms: []
   traditions: []

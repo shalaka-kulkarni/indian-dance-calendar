@@ -50,11 +50,11 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/WHITE-WAVE-Dance-and-Korean-Cultural-Center-New-York-present-Waves-of-Korean-Contemporary-Dance-FREE-2026-10-09_10
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:06:19.562967-04:00'
+    checked_at: '2026-10-03T09:14:10.520301-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T09:06:19.562943-04:00'
+  validated_at: '2026-10-03T09:14:10.520285-04:00'
 curated:
   forms: []
   traditions: []

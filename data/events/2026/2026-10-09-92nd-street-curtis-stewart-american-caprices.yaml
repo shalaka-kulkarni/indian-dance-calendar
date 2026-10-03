@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/curtis-stewart-american-caprices
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T09:06:19.824069-04:00'
   - url: https://seats.92ny.org/single/210661
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:06:25.661667-04:00'
+    checked_at: '2026-10-03T09:14:10.938096-04:00'
+  - url: https://www.92ny.org/event/curtis-stewart-american-caprices
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T09:14:11.011824-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T09:06:19.824043-04:00'
+  validated_at: '2026-10-03T09:14:10.938080-04:00'
 curated:
   forms: []
   traditions: []

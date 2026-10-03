@@ -50,11 +50,11 @@ validation:
   - url: https://allevents.in/simpsonville/hopkins-haunted-attraction-tickets/80008843955764
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:07:12.607145-04:00'
+    checked_at: '2026-10-03T09:14:55.779890-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T09:07:12.607116-04:00'
+  validated_at: '2026-10-03T09:14:55.779869-04:00'
 curated:
   forms: []
   traditions: []

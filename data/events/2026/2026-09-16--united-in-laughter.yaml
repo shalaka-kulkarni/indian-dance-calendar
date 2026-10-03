@@ -49,16 +49,16 @@ validation:
   - url: https://seats.92ny.org/single/210971
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:04:33.089460-04:00'
+    checked_at: '2026-10-03T09:12:38.956107-04:00'
   - url: https://www.92ny.org/event/united-in-laughter
     ok: false
     status_code: 404
-    checked_at: '2026-10-03T09:04:33.103334-04:00'
+    checked_at: '2026-10-03T09:12:39.050239-04:00'
   problems:
   - 'dead links: https://www.92ny.org/event/united-in-laughter'
   - event date 2026-09-16 is in the past
   - classified not-relevant
-  validated_at: '2026-10-03T09:04:33.089440-04:00'
+  validated_at: '2026-10-03T09:12:38.956093-04:00'
 curated:
   forms: []
   traditions: []

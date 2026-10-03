@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/tara-clerkin-trio
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:10:23.049778-04:00'
+    checked_at: '2026-10-03T09:18:39.029365-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T09:10:23.049755-04:00'
+  validated_at: '2026-10-03T09:18:39.029343-04:00'
 curated:
   forms: []
   traditions: []

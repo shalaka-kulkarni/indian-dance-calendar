@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/zack-knight-live-in-manhattan-at-dramma-times-square_event-in_new-york-ny_402131
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:07:48.476221-04:00'
+    checked_at: '2026-10-03T09:15:24.451873-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T09:07:48.476191-04:00'
+  validated_at: '2026-10-03T09:15:24.451856-04:00'
 curated:
   forms: []
   traditions: []

@@ -1,5 +1,5 @@
 id: 2027-04-03-gibney-university-music-society-night
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -47,11 +47,11 @@ validation:
   - url: https://gibneydance.org/event/university-music-society/university-music-society-night-ii/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:10:36.848747-04:00'
+    checked_at: '2026-10-03T09:18:54.477182-04:00'
   problems:
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-10-03T09:10:36.848723-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-03T09:18:54.477168-04:00'
 curated:
   forms: []
   traditions: []

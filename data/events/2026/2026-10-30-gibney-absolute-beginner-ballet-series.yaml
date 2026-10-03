@@ -1,5 +1,5 @@
 id: 2026-10-30-gibney-absolute-beginner-ballet-series
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -50,11 +50,11 @@ validation:
   - url: https://gibneydance.org/event/absolute-beginner-ballet-series-with-kat-wildish/absolute-beginner-ballet-series-with-kat-wildish-session-iii/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:08:26.507168-04:00'
+    checked_at: '2026-10-03T09:16:07.216178-04:00'
   problems:
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-10-03T09:08:26.507140-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-03T09:16:07.216163-04:00'
 curated:
   forms: []
   traditions: []

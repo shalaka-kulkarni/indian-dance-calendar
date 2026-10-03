@@ -1,5 +1,5 @@
 id: 2026-11-21-gibney-teamwork-with-ogemdi-ude
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -50,11 +50,11 @@ validation:
   - url: https://gibneydance.org/event/teamwork-with-ogemdi-ude/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:09:27.215915-04:00'
+    checked_at: '2026-10-03T09:17:21.804856-04:00'
   problems:
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-10-03T09:09:27.215894-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-03T09:17:21.804837-04:00'
 curated:
   forms: []
   traditions: []

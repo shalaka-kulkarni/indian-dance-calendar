@@ -49,11 +49,11 @@ validation:
   - url: https://www.sopacnow.org/events/lionel-hampton-big-band-shu-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:06:46.003632-04:00'
+    checked_at: '2026-10-03T09:14:36.907522-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T09:06:46.003606-04:00'
+  validated_at: '2026-10-03T09:14:36.907504-04:00'
 curated:
   forms: []
   traditions: []

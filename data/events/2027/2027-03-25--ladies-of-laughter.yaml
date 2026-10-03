@@ -50,11 +50,11 @@ validation:
   - url: https://www.sopacnow.org/events/ladies-of-laughter-march-27/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:10:34.558484-04:00'
+    checked_at: '2026-10-03T09:18:51.786047-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T09:10:34.558463-04:00'
+  validated_at: '2026-10-03T09:18:51.786030-04:00'
 curated:
   forms: []
   traditions: []

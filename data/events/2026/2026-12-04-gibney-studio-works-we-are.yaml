@@ -1,5 +1,5 @@
 id: 2026-12-04-gibney-studio-works-we-are
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -51,11 +51,11 @@ validation:
   - url: https://gibneydance.org/event/studio-works-we-are-doing-great/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:09:37.649087-04:00'
+    checked_at: '2026-10-03T09:17:45.824547-04:00'
   problems:
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-10-03T09:09:37.649064-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-03T09:17:45.824530-04:00'
 curated:
   forms: []
   traditions: []

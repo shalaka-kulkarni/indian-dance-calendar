@@ -50,14 +50,14 @@ validation:
   - url: https://www.92ny.org/event/mah-jongg-day-at-92ny
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:09:33.577541-04:00'
+    checked_at: '2026-10-03T09:17:34.156733-04:00'
   - url: https://seats.92ny.org/single/211346
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:09:33.605283-04:00'
+    checked_at: '2026-10-03T09:17:37.508822-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T09:09:33.577514-04:00'
+  validated_at: '2026-10-03T09:17:34.156714-04:00'
 curated:
   forms: []
   traditions: []

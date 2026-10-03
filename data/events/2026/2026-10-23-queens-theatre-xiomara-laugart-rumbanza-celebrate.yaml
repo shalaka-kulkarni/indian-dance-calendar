@@ -48,11 +48,11 @@ validation:
   - url: https://queenstheatre.org/events/xiomara-laugart-and-rumbanza-celebrate-celia-cruz-519n
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:07:49.000273-04:00'
+    checked_at: '2026-10-03T09:15:25.391560-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T09:07:49.000246-04:00'
+  validated_at: '2026-10-03T09:15:25.391545-04:00'
 curated:
   forms: []
   traditions: []

@@ -1,5 +1,5 @@
 id: 2026-10-03-irish-arts-specky-clark-by-oona
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -47,12 +47,12 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Specky-Clark-by-Oona-Doherty-Cast-at-Irish-Arts-Center-2026-10-03_11-01
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:05:49.015676-04:00'
+    checked_at: '2026-10-03T09:13:45.965248-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
-  - not yet classified (no API key run)
-  validated_at: '2026-10-03T09:05:49.015651-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-03T09:13:45.965226-04:00'
 curated:
   forms: []
   traditions: []

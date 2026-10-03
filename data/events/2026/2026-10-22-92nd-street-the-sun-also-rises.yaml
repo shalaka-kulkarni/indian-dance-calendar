@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211303
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T09:07:42.646399-04:00'
   - url: https://www.92ny.org/event/the-sun-also-rises-at-100
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:07:42.669917-04:00'
+    checked_at: '2026-10-03T09:15:20.755967-04:00'
+  - url: https://seats.92ny.org/single/211303
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T09:15:20.849330-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T09:07:42.646358-04:00'
+  validated_at: '2026-10-03T09:15:20.755951-04:00'
 curated:
   forms: []
   traditions: []

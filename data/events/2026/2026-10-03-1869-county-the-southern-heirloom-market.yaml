@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/jefferson/the-southern-heirloom-market-and-car-show/200030364880514
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:05:45.207908-04:00'
+    checked_at: '2026-10-03T09:13:38.038754-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T09:05:45.207883-04:00'
+  validated_at: '2026-10-03T09:13:38.038739-04:00'
 curated:
   forms: []
   traditions: []

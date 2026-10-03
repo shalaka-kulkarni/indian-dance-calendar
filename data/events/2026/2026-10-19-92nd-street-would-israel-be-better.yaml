@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211256
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T09:07:27.458032-04:00'
   - url: https://www.92ny.org/event/would-israel-be-better-off-without-american-aid
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:07:27.472032-04:00'
+    checked_at: '2026-10-03T09:15:12.942004-04:00'
+  - url: https://seats.92ny.org/single/211256
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T09:15:13.031774-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T09:07:27.458005-04:00'
+  validated_at: '2026-10-03T09:15:12.941990-04:00'
 curated:
   forms: []
   traditions: []

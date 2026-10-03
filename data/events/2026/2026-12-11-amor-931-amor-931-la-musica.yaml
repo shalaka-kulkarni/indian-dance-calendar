@@ -48,11 +48,11 @@ validation:
   - url: https://www.prucenter.com/events/amor-en-vivo
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:09:42.460824-04:00'
+    checked_at: '2026-10-03T09:17:53.236376-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T09:09:42.460796-04:00'
+  validated_at: '2026-10-03T09:17:53.236362-04:00'
 curated:
   forms: []
   traditions: []

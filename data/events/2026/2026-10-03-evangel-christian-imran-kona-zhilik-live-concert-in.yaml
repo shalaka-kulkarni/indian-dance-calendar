@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/imran-kona-zhilik-live-concert-in-ny_event-in_long-island-city-ny_401609
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:05:48.418892-04:00'
+    checked_at: '2026-10-03T09:13:44.818107-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T09:05:48.418870-04:00'
+  validated_at: '2026-10-03T09:13:44.818089-04:00'
 curated:
   forms: []
   traditions: []

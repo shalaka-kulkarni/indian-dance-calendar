@@ -43,9 +43,9 @@ validation:
   - url: https://www.cmana.org/etn/vignesh-ishwar/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:04:48.286737-04:00'
+    checked_at: '2026-10-03T09:12:58.334544-04:00'
   problems: []
-  validated_at: '2026-10-03T09:04:48.286732-04:00'
+  validated_at: '2026-10-03T09:12:58.334540-04:00'
 curated:
   forms: []
   traditions: []

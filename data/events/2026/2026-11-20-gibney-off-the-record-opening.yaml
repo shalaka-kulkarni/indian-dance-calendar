@@ -1,5 +1,5 @@
 id: 2026-11-20-gibney-off-the-record-opening
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -47,11 +47,11 @@ validation:
   - url: https://gibneydance.org/event/off-the-record/off-the-record-opening-night/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:09:26.404017-04:00'
+    checked_at: '2026-10-03T09:17:21.229610-04:00'
   problems:
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-10-03T09:09:26.403990-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-03T09:17:21.229590-04:00'
 curated:
   forms: []
   traditions: []
