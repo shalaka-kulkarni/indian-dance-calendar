@@ -181,3 +181,66 @@ def extract_eventin(html: str, source_id: str, page_url: str) -> list[RawEvent]:
             )
         )
     return found
+
+
+# ── The Dance Enthusiast ─────────────────────────────────────────────────────
+# dance-enthusiast.com/dance-listings/events is the one listing where both
+# circuits already appear. No structured data anywhere: each day is an
+# <h2 class="date_col_heading"> followed by <a class="listing_container"> cards
+# whose title sits in .imageTitleB h2 (or the thumbnail's alt). Out-of-town
+# listings carry a "CITY, ST:" prefix, which is how a nationwide page is kept
+# to the metro.
+TDE_CITY_PREFIX = re.compile(r"^\s*([A-Z][A-Z .'&-]+),\s*([A-Z]{2})\s*:", re.I)
+TDE_METRO_STATES = {"NY", "NJ"}
+TDE_FAR_NY = re.compile(r"\b(buffalo|rochester|syracuse|albany|ithaca|saratoga|binghamton)\b", re.I)
+
+
+def extract_dance_enthusiast(html: str, source_id: str, page_url: str) -> list[RawEvent]:
+    events = extract_jsonld_events(html, source_id, page_url)
+    if events:
+        return events
+    soup = BeautifulSoup(html, "html.parser")
+    col = soup.select_one(".col_1110") or soup
+    found: list[RawEvent] = []
+    seen: set[str] = set()
+    current_date = ""
+    for node in col.descendants:
+        if getattr(node, "name", None) == "h2" and "date_col_heading" in (node.get("class") or []):
+            m = DATE_PAT.search(node.get_text(" ", strip=True))
+            current_date = m.group(1) if m else ""
+            continue
+        if getattr(node, "name", None) != "a" or "listing_container" not in (node.get("class") or []):
+            continue
+        href = node.get("href") or ""
+        if not href or not current_date:
+            continue
+        url = urljoin(page_url, href)
+        if url in seen:
+            continue
+        heading = node.select_one(".imageTitleB h2")
+        img = node.find("img")
+        title = (heading.get_text(" ", strip=True) if heading else "") or (img.get("alt", "") if img else "")
+        title = title.strip()
+        if not title:
+            continue
+        prefix = TDE_CITY_PREFIX.match(title)
+        if prefix:
+            city, state = prefix.group(1), prefix.group(2).upper()
+            if state not in TDE_METRO_STATES or TDE_FAR_NY.search(city):
+                continue
+            title = title[prefix.end():].strip()
+        seen.add(url)
+        text = node.get_text(" ", strip=True)
+        price = PRICE_PAT.search(text)
+        found.append(
+            RawEvent(
+                source_id=source_id,
+                source_url=page_url,
+                title=title,
+                start_raw=current_date,
+                price_raw=price.group(1) if price else "",
+                info_url=url,
+                description=text[:600],
+            )
+        )
+    return found
