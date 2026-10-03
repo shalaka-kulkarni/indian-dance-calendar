@@ -9,6 +9,7 @@ rather than letting a source rot silently.
 
 from __future__ import annotations
 
+import json
 import re
 from urllib.parse import urljoin
 
@@ -193,6 +194,14 @@ def extract_eventin(html: str, source_id: str, page_url: str) -> list[RawEvent]:
 TDE_CITY_PREFIX = re.compile(r"^\s*([A-Z][A-Z .'&-]+),\s*([A-Z]{2})\s*:", re.I)
 TDE_METRO_STATES = {"NY", "NJ"}
 TDE_FAR_NY = re.compile(r"\b(buffalo|rochester|syracuse|albany|ithaca|saratoga|binghamton)\b", re.I)
+# The card text runs title, venue, then "Sun. October, 4 @ 4:00pm". Everything
+# between the title and the weekday is the venue.
+TDE_WHEN = re.compile(
+    r"\b(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*\.?\s+"
+    r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?,?\s+\d{1,2}"
+    r"(?:\s*@\s*(\d{1,2}(?::\d{2})?\s*(?:am|pm)))?",
+    re.I,
+)
 
 
 def extract_dance_enthusiast(html: str, source_id: str, page_url: str) -> list[RawEvent]:
@@ -223,24 +232,95 @@ def extract_dance_enthusiast(html: str, source_id: str, page_url: str) -> list[R
         title = title.strip()
         if not title:
             continue
+        address = ""
         prefix = TDE_CITY_PREFIX.match(title)
         if prefix:
             city, state = prefix.group(1), prefix.group(2).upper()
             if state not in TDE_METRO_STATES or TDE_FAR_NY.search(city):
                 continue
             title = title[prefix.end():].strip()
+            address = f"{city.strip().title()}, {state}"
         seen.add(url)
         text = node.get_text(" ", strip=True)
+        venue, when = tde_venue_and_time(text, title)
         price = PRICE_PAT.search(text)
         found.append(
             RawEvent(
                 source_id=source_id,
                 source_url=page_url,
                 title=title,
-                start_raw=current_date,
+                start_raw=f"{current_date} {when}".strip(),
+                venue=venue,
+                address=address,
                 price_raw=price.group(1) if price else "",
                 info_url=url,
                 description=text[:600],
+            )
+        )
+    return found
+
+
+def tde_venue_and_time(card_text: str, title: str) -> tuple[str, str]:
+    """Split a Dance Enthusiast card's text into venue and clock time.
+
+    The card reads "<title> <venue> Sun. October, 4 @ 4:00pm". The title is
+    known, the weekday marks where the venue ends, and the time follows the @.
+    Either part may be missing; what is not there comes back empty.
+    """
+    text = " ".join(card_text.split())
+    if title and text.lower().startswith(title.lower()):
+        text = text[len(title):].strip()
+    m = TDE_WHEN.search(text)
+    if not m:
+        return "", ""
+    venue = text[: m.start()].strip(" -–—|,")
+    return venue, (m.group(1) or "").replace(" ", "")
+
+
+# Gibney's calendar page is rendered client-side from an inline array:
+#   var eventDates = [{"start":"2026-12-02","title":...,"url":...,
+#                      "print_start_time":"10:00 am","end":"2026-12-02",...}]
+# Detail pages carry no Event markup and the Events Calendar API answers 404,
+# so this array is the only machine-readable listing the site has.
+GIBNEY_FEED = re.compile(r"var\s+eventDates\s*=\s*(\[.*?\])\s*;", re.S)
+
+
+def extract_gibney(html: str, source_id: str, page_url: str) -> list[RawEvent]:
+    events = extract_jsonld_events(html, source_id, page_url)
+    if events:
+        return events
+    m = GIBNEY_FEED.search(html)
+    if not m:
+        return []
+    try:
+        rows = json.loads(m.group(1))
+    except json.JSONDecodeError:
+        return []
+    found: list[RawEvent] = []
+    seen: set[str] = set()
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        title = " ".join(str(row.get("title") or "").split())
+        start = str(row.get("start") or "")
+        url = urljoin(page_url, str(row.get("url") or ""))
+        if not title or not start or url in seen:
+            continue
+        seen.add(url)
+        end = str(row.get("end") or "")
+        start_time = str(row.get("print_start_time") or "")
+        end_time = str(row.get("print_end_time") or "")
+        found.append(
+            RawEvent(
+                source_id=source_id,
+                source_url=page_url,
+                title=title,
+                start_raw=f"{start} {start_time}".strip(),
+                end_raw=f"{end} {end_time}".strip() if end and end != start else "",
+                venue="Gibney",
+                address="New York, NY",
+                info_url=url,
+                description=" ".join(str(row.get("excerpt") or "").split())[:600],
             )
         )
     return found

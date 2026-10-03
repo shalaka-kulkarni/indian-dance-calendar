@@ -15,6 +15,11 @@ PAGE = """
       <div class="imageTitleB"><h2>New York International Dance Festival</h2></div></div>
       <p>Bharatanatyam, Odissi, Flamenco and more at MMAC. Tickets $25</p>
     </a>
+    <a class="listing_container" href="/dance-listings/events/view/The-Journey-of-Kuchipudi-2026-10-18">
+      <div class="imageTitleB"><h2>The Journey of Kuchipudi: From Yakshaganam to the Solo</h2></div>
+      <div class="listing_venue">Danspace Project</div>
+      <div class="listing_when">Sun. October, 18 @ 7:30pm</div>
+    </a>
     <a class="listing_container" href="/dance-listings/events/view/BUFFALO-NY-Nutcracker-2026-10-18">
       <div class="imageTitleB"><h2>BUFFALO, NY: Nutcracker</h2></div>
     </a>
@@ -58,3 +63,23 @@ def test_dance_enthusiast_dates_parse():
 
 def test_dance_enthusiast_empty_page():
     assert extract_dance_enthusiast("<html><body></body></html>", "dance_enthusiast", "https://x/") == []
+
+
+def test_dance_enthusiast_reads_venue_and_clock_time_from_the_card():
+    from pipeline.models import Region
+    from pipeline.normalize import normalize
+    events = extract_dance_enthusiast(PAGE, "dance_enthusiast", "https://www.dance-enthusiast.com/dance-listings/events")
+    kuchipudi = next(e for e in events if e.title.startswith("The Journey of Kuchipudi"))
+    assert kuchipudi.venue == "Danspace Project"
+    assert kuchipudi.start_raw == "October 18, 2026 7:30pm"
+    scraped = normalize(kuchipudi)
+    assert (scraped.start.hour, scraped.start.minute) == (19, 30)
+    # The venue name alone places it.
+    assert scraped.region == Region.MANHATTAN
+    # A card with no venue or time line still yields the event, dated by the heading.
+    fest = next(e for e in events if e.title.startswith("New York International"))
+    assert fest.venue == "" and fest.start_raw == "October 18, 2026"
+    # Out-of-town prefixes that are kept become the address, so the region resolves.
+    garba = next(e for e in events if e.title == "Navratri Garba")
+    assert garba.address == "Jersey City, NJ"
+    assert normalize(garba).region == Region.NEW_JERSEY

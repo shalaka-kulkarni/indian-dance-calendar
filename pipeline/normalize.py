@@ -18,22 +18,44 @@ NY_TZ = ZoneInfo("America/New_York")
 
 PRICE_NUM = re.compile(r"\$?\s?(\d+(?:\.\d{2})?)")
 
+# Listings aggregators name the venue and nothing else — "Danspace Project
+# Thu. October, 15 @ 7:30pm" — so the venues that recur in this calendar's
+# circuits resolve by name. Boroughs come before Manhattan: a Brooklyn venue
+# with "New York" in its address must not land in Manhattan.
 REGION_HINTS: list[tuple[re.Pattern, Region]] = [
-    (re.compile(r"brooklyn|\bbam\b", re.I), Region.BROOKLYN),
-    (re.compile(r"queens|flushing|astoria|laguardia", re.I), Region.QUEENS),
-    (re.compile(r"bronx", re.I), Region.BRONX),
-    (re.compile(r"staten island", re.I), Region.STATEN_ISLAND),
+    (re.compile(
+        r"brooklyn|\bbam\b|mark morris|triskelion|kings theatre|roulette|pioneer works|"
+        r"jalopy|st\.? ann's warehouse|bric\b", re.I), Region.BROOKLYN),
+    (re.compile(
+        r"queens|flushing|astoria|laguardia|jamaica center|\bjcal\b|kupferberg|"
+        r"colden auditorium|museum of the moving image|larussa|long island city|"
+        r"\blic\b|ganesh temple|ganesha temple", re.I), Region.QUEENS),
+    (re.compile(r"bronx|lehman center|hostos|pregones", re.I), Region.BRONX),
+    (re.compile(r"staten island|snug harbor|st\.? george theatre", re.I), Region.STATEN_ISLAND),
     (re.compile(
         r"new jersey|\bnj\b|newark|jersey city|new brunswick|south orange|hoboken|"
         r"edison|iselin|secaucus|east brunswick|plainsboro|robbinsville|jackson township|"
-        r"bridgewater|piscataway|parsippany|montclair", re.I), Region.NEW_JERSEY),
+        r"bridgewater|piscataway|parsippany|montclair|njpac|prudential center|"
+        r"state theatre new jersey|count basie|bergen ?pac|mayo ?pac|kean stage|"
+        r"nicholas music center|crossroads theatre|loew's jersey", re.I), Region.NEW_JERSEY),
     (re.compile(
         r"long island|hempstead|brookville|westbury|uniondale|greenvale|garden city|"
-        r"hicksville|jericho|syosset|melville|huntington|stony brook|nassau|suffolk",
+        r"hicksville|jericho|syosset|melville|huntington|stony brook|nassau|suffolk|"
+        r"tilles center|ubs arena|patchogue|landmark on main|madison theatre",
         re.I), Region.LONG_ISLAND),
-    (re.compile(r"westchester|yonkers|white plains|tarrytown|valhalla|purchase|scarsdale", re.I),
+    (re.compile(
+        r"westchester|yonkers|white plains|tarrytown|valhalla|purchase|scarsdale|"
+        r"jacob burns|emelin|paramount hudson valley|capitol theatre", re.I),
      Region.WESTCHESTER),
-    (re.compile(r"manhattan|new york,?\s*ny|nyc|broadway|lincoln center|chelsea|harlem", re.I), Region.MANHATTAN),
+    (re.compile(
+        r"manhattan|new york,?\s*ny|nyc|broadway|lincoln center|chelsea|harlem|"
+        r"peridance|danspace|gibney|arts on site|joyce|new york live arts|92ny|92nd street y|"
+        r"baryshnikov|ailey|symphony space|chelsea factory|la mama|the kitchen|abrons|"
+        r"dixon place|judson|center at west park|theater for the new city|carnegie hall|"
+        r"town hall|merkin|kaufman music center|asia society|rubin museum|"
+        r"metropolitan museum|met museum|city center|skirball|perelman|pac nyc|\bdrom\b|"
+        r"apollo theater|beacon theatre|kaye playhouse|hunter college|public theater|"
+        r"guggenheim|india house|consulate general of india|bhavan", re.I), Region.MANHATTAN),
 ]
 
 

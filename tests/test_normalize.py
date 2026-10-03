@@ -32,6 +32,11 @@ def test_infer_region():
     assert infer_region("NJPAC", "1 Center St, Newark") == Region.NEW_JERSEY
     assert infer_region("Flushing Town Hall", "") == Region.QUEENS
     assert infer_region("Mystery Hall", "") == Region.UNKNOWN
+    # Venue names alone place the recurring houses; boroughs win over "New York".
+    assert infer_region("Peridance Center", "") == Region.MANHATTAN
+    assert infer_region("Mark Morris Dance Center", "3 Lafayette Ave, New York, NY") == Region.BROOKLYN
+    assert infer_region("Kupferberg Center for the Arts", "") == Region.QUEENS
+    assert infer_region("Tilles Center", "") == Region.LONG_ISLAND
 
 
 def test_normalize_floor_requirements():

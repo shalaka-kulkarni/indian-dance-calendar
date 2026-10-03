@@ -32,6 +32,7 @@ from pipeline.scrapers.crawl import deep_extract
 from pipeline.scrapers.html_sources import (
     extract_dance_enthusiast,
     extract_eventin,
+    extract_gibney,
     extract_listing_blocks,
     extract_narthaki,
 )
@@ -54,6 +55,7 @@ BESPOKE = {
     "narthaki": extract_narthaki,
     "cmana": extract_eventin,
     "dance_enthusiast": extract_dance_enthusiast,
+    "gibney": extract_gibney,
 }
 
 

@@ -12,11 +12,11 @@ match >= 85 (token_set_ratio, so "Nrityagram: KHANKHANA" matches
 from __future__ import annotations
 
 import re
-from datetime import date
+from datetime import date, time
 
 from rapidfuzz import fuzz
 
-from pipeline.models import Event, Scraped
+from pipeline.models import Event, Region, Scraped
 from pipeline.store import content_hash
 
 TITLE_THRESHOLD = 85
@@ -75,6 +75,22 @@ def merge_into(event: Event, candidate: Scraped, today: date) -> bool:
             changed = True
     if candidate.is_free and not event.scraped.is_free:
         event.scraped.is_free = True
+        changed = True
+    if not event.scraped.venue and candidate.venue:
+        event.scraped.venue = candidate.venue
+        changed = True
+    if event.scraped.region is Region.UNKNOWN and candidate.region is not Region.UNKNOWN:
+        event.scraped.region = candidate.region
+        changed = True
+    # A date-only listing arrives as midnight; a later sighting of the same day
+    # with a clock time is a sharper version of the same fact.
+    current, incoming = event.scraped.start, candidate.start
+    if (
+        current.time() == time(0, 0)
+        and incoming.date() == current.date()
+        and incoming.time() != time(0, 0)
+    ):
+        event.scraped.start = incoming
         changed = True
     new_hash = content_hash(event.scraped)
     if new_hash != event.scraped.content_hash:

@@ -59,3 +59,34 @@ def test_merge_keeps_both_sources_and_fills_gaps(sample_event):
 def test_find_match_by_source_url(sample_event):
     resight = scraped("Totally Renamed Listing", url="https://www.joyce.org/nrityagram")
     assert find_match(resight, [sample_event]) is sample_event
+
+
+def test_merge_sharpens_a_date_only_sighting(sample_event):
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+
+    from pipeline.models import Region
+
+    ny = ZoneInfo("America/New_York")
+    day = sample_event.scraped.start.date()
+    # First sighting: an aggregator card with only a date, no venue, no region.
+    sample_event.scraped.start = datetime(day.year, day.month, day.day, 0, 0, tzinfo=ny)
+    sample_event.scraped.venue = ""
+    sample_event.scraped.region = Region.UNKNOWN
+    sighting = scraped(
+        "Nrityagram Dance Ensemble KHANKHANA",
+        source_id="joyce_again",
+        url="https://www.joyce.org/khankhana",
+    )
+    sighting.start = datetime(day.year, day.month, day.day, 19, 30, tzinfo=ny)
+    sighting.venue = "The Joyce Theater"
+    sighting.region = Region.MANHATTAN
+    assert merge_into(sample_event, sighting, date(2026, 8, 10))
+    assert sample_event.scraped.start.hour == 19
+    assert sample_event.scraped.venue == "The Joyce Theater"
+    assert sample_event.scraped.region == Region.MANHATTAN
+    # A present clock time is never replaced by another sighting's.
+    later = scraped("Nrityagram Dance Ensemble KHANKHANA", source_id="x", url="https://x/1")
+    later.start = datetime(day.year, day.month, day.day, 20, 0, tzinfo=ny)
+    merge_into(sample_event, later, date(2026, 8, 10))
+    assert sample_event.scraped.start.hour == 19

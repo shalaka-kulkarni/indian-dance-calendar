@@ -55,10 +55,11 @@ sources:
   - id: gibney
     name: Gibney (Agnes Varis PAC)
     circuit: mainstream
-    strategy: jsonld
-    url: https://gibneydance.org/calendar/category/performances/list/?hide_subsequent_recurrences=1
+    strategy: html
+    url: https://gibneydance.org/calendar/
     region: manhattan
     scrape_all_listings: true
+    notes: "Calendar renders client-side from an inline eventDates array; the bespoke parser reads that. The old filtered list URL answers 404 since autumn 2026."
   - id: skirball
     name: NYU Skirball
     circuit: mainstream
@@ -401,10 +402,10 @@ sources:
     name: Sonali Skandan & Jiva Dance
     circuit: diaspora
     strategy: jsonld
-    url: https://jivadance.org/
-    region: manhattan
+    url: https://jivaperformingarts.org/
+    region: queens
     assume_relevant: true
-    notes: "Bharatanatyam company founded 2007."
+    notes: "Bharatanatyam company founded 2007, now Jiva Performing Arts (company, Akshara Music Ensemble, school) based in Long Island City. jivadance.org no longer resolves."
   - id: surati
     name: Surati for Performing Arts
     circuit: diaspora
