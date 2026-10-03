@@ -37,17 +37,18 @@ ai:
   model: claude-fable-5
   classified_at: '2026-08-16'
 validation:
-  passed: true
+  passed: false
   checks:
     has_info_url: true
-    links_live: true
+    links_live: false
   link_checks:
   - url: https://theaterforthenewcity.net/shows/festival-of-india-sitar-workshop/
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T09:12:04.340201-04:00'
-  problems: []
-  validated_at: '2026-10-03T09:12:04.340191-04:00'
+    ok: false
+    status_code: 404
+    checked_at: '2026-10-03T12:53:34.029282-04:00'
+  problems:
+  - 'archive info link dead: https://theaterforthenewcity.net/shows/festival-of-india-sitar-workshop/'
+  validated_at: '2026-10-03T12:53:34.029268-04:00'
 curated:
   forms:
   - kuchipudi

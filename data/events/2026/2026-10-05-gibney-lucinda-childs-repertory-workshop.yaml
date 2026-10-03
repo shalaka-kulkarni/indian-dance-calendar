@@ -48,11 +48,11 @@ validation:
   - url: https://gibneydance.org/event/lucinda-childs-repertory-workshop-concerto/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:14:00.391433-04:00'
+    checked_at: '2026-10-03T12:55:50.701416-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T09:14:00.391415-04:00'
+  validated_at: '2026-10-03T12:55:50.701401-04:00'
 curated:
   forms: []
   traditions: []

@@ -47,12 +47,12 @@ validation:
   - url: https://allevents.in/scottsdale/halloween-spooktacular-hot-air-balloon-festival/200030199463812
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:15:44.921388-04:00'
+    checked_at: '2026-10-03T12:58:31.755529-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T09:15:44.921371-04:00'
+  validated_at: '2026-10-03T12:58:31.755516-04:00'
 curated:
   forms: []
   traditions: []

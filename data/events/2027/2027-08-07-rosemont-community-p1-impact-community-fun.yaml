@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/orlando/p1-impact-community-fun-day-back-to-school-giveaway-2027/100001997716628212
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:19:06.958064-04:00'
+    checked_at: '2026-10-03T13:01:54.895952-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T09:19:06.958050-04:00'
+  validated_at: '2026-10-03T13:01:54.895927-04:00'
 curated:
   forms: []
   traditions: []

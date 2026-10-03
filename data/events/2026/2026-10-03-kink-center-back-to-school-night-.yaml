@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/seattle/back-to-school-night-kink-educator-social/100001998915821030
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:13:46.181627-04:00'
+    checked_at: '2026-10-03T12:55:42.304559-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T09:13:46.181610-04:00'
+  validated_at: '2026-10-03T12:55:42.304545-04:00'
 curated:
   forms: []
   traditions: []

@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/excuse-my-grandma
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:15:14.583929-04:00'
+    checked_at: '2026-10-03T12:58:09.203488-04:00'
   - url: https://seats.92ny.org/single/211264
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:15:14.707840-04:00'
+    checked_at: '2026-10-03T12:58:11.916239-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T09:15:14.583915-04:00'
+  validated_at: '2026-10-03T12:58:09.203469-04:00'
 curated:
   forms: []
   traditions: []

@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/210703
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:18:35.664680-04:00'
+    checked_at: '2026-10-03T13:01:23.127200-04:00'
   - url: https://www.92ny.org/event/joyce-didonato-and-nicholas-phan
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:18:35.737457-04:00'
+    checked_at: '2026-10-03T13:01:23.184664-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T09:18:35.664666-04:00'
+  validated_at: '2026-10-03T13:01:23.127179-04:00'
 curated:
   forms: []
   traditions: []

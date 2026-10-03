@@ -48,11 +48,11 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Pravaha-Flowing-Across-Traditions-2026-10-04
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:13:55.417875-04:00'
+    checked_at: '2026-10-03T12:55:46.309818-04:00'
   problems:
   - no price information
   - relevance confidence too low for auto-publish
-  validated_at: '2026-10-03T09:13:55.417860-04:00'
+  validated_at: '2026-10-03T12:55:46.309803-04:00'
 curated:
   forms: []
   traditions: []

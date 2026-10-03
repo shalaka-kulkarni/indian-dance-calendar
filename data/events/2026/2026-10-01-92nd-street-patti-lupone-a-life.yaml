@@ -45,18 +45,18 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/patti-lupone-a-life-in-notes
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T09:13:32.877756-04:00'
   - url: https://seats.92ny.org/single/210572
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:13:34.471481-04:00'
+    checked_at: '2026-10-03T12:55:18.249162-04:00'
+  - url: https://www.92ny.org/event/patti-lupone-a-life-in-notes
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T12:55:18.361552-04:00'
   problems:
   - event date 2026-10-01 is in the past
   - classified not-relevant
-  validated_at: '2026-10-03T09:13:32.877735-04:00'
+  validated_at: '2026-10-03T12:55:18.249148-04:00'
 curated:
   forms: []
   traditions: []

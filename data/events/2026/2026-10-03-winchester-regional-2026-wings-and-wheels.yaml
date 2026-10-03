@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/winchester/2026-wings-and-wheels-presented-by-united-bank-winchester-va/200030009157735
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:13:54.926146-04:00'
+    checked_at: '2026-10-03T12:55:45.974428-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T09:13:54.926127-04:00'
+  validated_at: '2026-10-03T12:55:45.974412-04:00'
 curated:
   forms: []
   traditions: []

@@ -46,11 +46,11 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/My-Name-is-Adam-at-Arts-on-Site-2026-10-17_18
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:14:57.259836-04:00'
+    checked_at: '2026-10-03T12:57:23.297165-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T09:14:57.259821-04:00'
+  validated_at: '2026-10-03T12:57:23.297145-04:00'
 curated:
   forms: []
   traditions: []

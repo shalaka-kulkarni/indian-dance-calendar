@@ -48,17 +48,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211405
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T09:18:00.774878-04:00'
   - url: https://www.92ny.org/event/the-sound-of-music-sing-a-long
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:18:00.847352-04:00'
+    checked_at: '2026-10-03T13:00:57.689623-04:00'
+  - url: https://seats.92ny.org/single/211405
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T13:00:57.741627-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T09:18:00.774856-04:00'
+  validated_at: '2026-10-03T13:00:57.689607-04:00'
 curated:
   forms: []
   traditions: []

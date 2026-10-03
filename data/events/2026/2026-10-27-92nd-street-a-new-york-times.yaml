@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211268
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T09:15:58.421534-04:00'
   - url: https://www.92ny.org/event/a-new-york-times-games-night
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:15:58.502380-04:00'
+    checked_at: '2026-10-03T12:58:45.642101-04:00'
+  - url: https://seats.92ny.org/single/211268
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T12:58:47.541730-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T09:15:58.421514-04:00'
+  validated_at: '2026-10-03T12:58:45.642081-04:00'
 curated:
   forms: []
   traditions: []

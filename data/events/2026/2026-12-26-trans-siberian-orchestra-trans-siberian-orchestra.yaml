@@ -47,11 +47,11 @@ validation:
   - url: https://www.prucenter.com/events/trans-siberian-orchestra
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:18:15.345153-04:00'
+    checked_at: '2026-10-03T13:01:09.108820-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T09:18:15.345135-04:00'
+  validated_at: '2026-10-03T13:01:09.108798-04:00'
 curated:
   forms: []
   traditions: []

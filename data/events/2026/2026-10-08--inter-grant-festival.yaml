@@ -47,11 +47,11 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Inter-grant-Festival-2026-10-08
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:14:08.059564-04:00'
+    checked_at: '2026-10-03T12:56:12.086378-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T09:14:08.059540-04:00'
+  validated_at: '2026-10-03T12:56:12.086363-04:00'
 curated:
   forms: []
   traditions: []

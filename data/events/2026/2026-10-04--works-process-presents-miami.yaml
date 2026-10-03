@@ -47,11 +47,11 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Works-Process-Presents-Miami-City-Ballet-Patricia-Delgado-2026-10-04
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:13:56.130450-04:00'
+    checked_at: '2026-10-03T12:55:47.359355-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T09:13:56.130425-04:00'
+  validated_at: '2026-10-03T12:55:47.359339-04:00'
 curated:
   forms: []
   traditions: []

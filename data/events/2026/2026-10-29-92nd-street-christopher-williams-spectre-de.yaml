@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/christopher-williams
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T09:16:02.948338-04:00'
   - url: https://seats.92ny.org/single/210384
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:16:03.050890-04:00'
+    checked_at: '2026-10-03T12:58:57.378231-04:00'
+  - url: https://www.92ny.org/event/christopher-williams
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T12:58:57.429433-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T09:16:02.948318-04:00'
+  validated_at: '2026-10-03T12:58:57.378218-04:00'
 curated:
   forms: []
   traditions: []

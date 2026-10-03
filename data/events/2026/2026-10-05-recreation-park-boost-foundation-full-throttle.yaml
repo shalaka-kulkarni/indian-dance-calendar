@@ -47,12 +47,12 @@ validation:
   - url: https://allevents.in/long-beach/boost-foundation-full-throttle-classic/200030381301346
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:14:01.160730-04:00'
+    checked_at: '2026-10-03T12:55:51.382164-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T09:14:01.160715-04:00'
+  validated_at: '2026-10-03T12:55:51.382149-04:00'
 curated:
   forms: []
   traditions: []

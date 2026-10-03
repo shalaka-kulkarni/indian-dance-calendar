@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/fredericksburg/quacktoberfest-downtown-fall-carnival/200030637387324
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:14:58.461636-04:00'
+    checked_at: '2026-10-03T12:57:24.268283-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T09:14:58.461620-04:00'
+  validated_at: '2026-10-03T12:57:24.268268-04:00'
 curated:
   forms: []
   traditions: []

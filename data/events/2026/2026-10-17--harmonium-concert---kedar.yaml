@@ -54,10 +54,10 @@ validation:
   - url: https://chhandayan.org/calendar/2026/8/27/harmonium-concert-kedar-naphade
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:14:57.074749-04:00'
+    checked_at: '2026-10-03T12:57:23.042720-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-03T09:14:57.074734-04:00'
+  validated_at: '2026-10-03T12:57:23.042700-04:00'
 curated:
   forms: []
   traditions: []

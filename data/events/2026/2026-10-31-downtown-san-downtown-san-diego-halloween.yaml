@@ -50,11 +50,11 @@ validation:
   - url: https://allevents.in/san-diego/downtown-san-diego-halloween-bar-fest/100001999733881872
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:16:14.394038-04:00'
+    checked_at: '2026-10-03T12:59:11.161852-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T09:16:14.394022-04:00'
+  validated_at: '2026-10-03T12:59:11.161838-04:00'
 curated:
   forms: []
   traditions: []

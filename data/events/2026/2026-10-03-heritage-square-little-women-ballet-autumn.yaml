@@ -47,12 +47,12 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Little-Women-Ballet-Autumn-Immersive-Experience-2026-10-02_04
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:13:45.503883-04:00'
+    checked_at: '2026-10-03T12:55:41.752414-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T09:13:45.503868-04:00'
+  validated_at: '2026-10-03T12:55:41.752400-04:00'
 curated:
   forms: []
   traditions: []

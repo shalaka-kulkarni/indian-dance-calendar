@@ -50,11 +50,11 @@ validation:
   - url: https://allevents.in/arlington/arlington-tx-halloween-bar-crawl/100001951427344719
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:15:43.343230-04:00'
+    checked_at: '2026-10-03T12:58:30.662319-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T09:15:43.343216-04:00'
+  validated_at: '2026-10-03T12:58:30.662296-04:00'
 curated:
   forms: []
   traditions: []

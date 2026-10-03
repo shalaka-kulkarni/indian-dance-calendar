@@ -49,15 +49,15 @@ validation:
   - url: https://seats.92ny.org/single/211079
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:13:19.823849-04:00'
+    checked_at: '2026-10-03T12:54:57.895178-04:00'
   - url: https://www.92ny.org/event/sylvester-stallone-with-tracy-smith
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:13:19.899444-04:00'
+    checked_at: '2026-10-03T12:54:57.945901-04:00'
   problems:
   - event date 2026-09-28 is in the past
   - classified not-relevant
-  validated_at: '2026-10-03T09:13:19.823831-04:00'
+  validated_at: '2026-10-03T12:54:57.895157-04:00'
 curated:
   forms: []
   traditions: []

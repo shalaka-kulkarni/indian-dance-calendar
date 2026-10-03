@@ -48,14 +48,14 @@ validation:
   - url: https://seats.92ny.org/single/210880
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:17:10.960517-04:00'
+    checked_at: '2026-10-03T13:00:18.644764-04:00'
   - url: https://www.92ny.org/event/hermione-lee-with-rumaan-alam-anita-brookner
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:17:11.132925-04:00'
+    checked_at: '2026-10-03T13:00:18.737597-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T09:17:10.960502-04:00'
+  validated_at: '2026-10-03T13:00:18.644744-04:00'
 curated:
   forms: []
   traditions: []

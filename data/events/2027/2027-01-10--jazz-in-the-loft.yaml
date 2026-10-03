@@ -50,11 +50,11 @@ validation:
   - url: https://www.sopacnow.org/events/jitl-jan-10-2027/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:18:16.291553-04:00'
+    checked_at: '2026-10-03T13:01:10.003326-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T09:18:16.291534-04:00'
+  validated_at: '2026-10-03T13:01:10.003303-04:00'
 curated:
   forms: []
   traditions: []

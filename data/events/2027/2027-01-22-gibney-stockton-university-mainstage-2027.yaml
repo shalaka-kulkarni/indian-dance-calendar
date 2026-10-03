@@ -51,11 +51,11 @@ validation:
   - url: https://gibneydance.org/event/stockton-university-mainstage/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T09:18:26.132972-04:00'
+    checked_at: '2026-10-03T13:01:17.789443-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T09:18:26.132956-04:00'
+  validated_at: '2026-10-03T13:01:17.789421-04:00'
 curated:
   forms: []
   traditions: []
