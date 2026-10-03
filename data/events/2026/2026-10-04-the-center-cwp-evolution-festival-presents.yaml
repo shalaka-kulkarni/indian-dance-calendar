@@ -1,5 +1,5 @@
 id: 2026-10-04-the-center-cwp-evolution-festival-presents
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -51,11 +51,11 @@ validation:
   - url: https://www.centeratwestpark.org/calendar/2026/10/4/cwp-evolution-festival-presents-el-pndulo
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:46:01.872446-04:00'
+    checked_at: '2026-10-03T08:53:59.819609-04:00'
   problems:
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-10-03T08:46:01.872422-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-03T08:53:59.819574-04:00'
 curated:
   forms: []
   traditions: []

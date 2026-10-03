@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/pensacola/aia-hair-is-care-expo-pensacola/100001993606435515
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:45:49.945331-04:00'
+    checked_at: '2026-10-03T08:53:51.985987-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T08:45:49.945305-04:00'
+  validated_at: '2026-10-03T08:53:51.985956-04:00'
 curated:
   forms: []
   traditions: []

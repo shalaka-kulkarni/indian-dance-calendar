@@ -46,12 +46,12 @@ validation:
   link_checks:
   - url: https://www.nycitycenter.org/events/instances/5gs7dd0c/2027-04-16/2026-2027-ndt2
     ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:50:15.017151-04:00'
+    status_code: 429
+    checked_at: '2026-10-03T08:56:18.026099-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:50:15.017134-04:00'
+  validated_at: '2026-10-03T08:56:18.026067-04:00'
 curated:
   forms: []
   traditions: []

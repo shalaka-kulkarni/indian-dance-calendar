@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/fort-worth/kenney-beard-memorial-car-show/200030384189920
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:46:00.790779-04:00'
+    checked_at: '2026-10-03T08:53:59.004671-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T08:46:00.790753-04:00'
+  validated_at: '2026-10-03T08:53:59.004636-04:00'
 curated:
   forms: []
   traditions: []

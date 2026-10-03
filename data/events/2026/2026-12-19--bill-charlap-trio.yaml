@@ -50,11 +50,11 @@ validation:
   - url: https://www.sopacnow.org/events/bill-charlap-trio-26/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:49:47.315497-04:00'
+    checked_at: '2026-10-03T08:56:04.856269-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:49:47.315475-04:00'
+  validated_at: '2026-10-03T08:56:04.856238-04:00'
 curated:
   forms: []
   traditions: []

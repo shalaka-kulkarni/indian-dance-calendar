@@ -1,5 +1,5 @@
 id: 2026-11-19-92nd-street-gilded-age-fashion-jewelry
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211442
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:49:21.612520-04:00'
   - url: https://www.92ny.org/event/gilded-age-fashion-and-jewelry
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:49:21.653998-04:00'
+    checked_at: '2026-10-03T08:55:45.892597-04:00'
+  - url: https://seats.92ny.org/single/211442
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:55:46.015955-04:00'
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-10-03T08:49:21.612497-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-03T08:55:45.892565-04:00'
 curated:
   forms: []
   traditions: []

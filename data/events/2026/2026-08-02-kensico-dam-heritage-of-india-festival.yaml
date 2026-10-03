@@ -46,9 +46,9 @@ validation:
   - url: https://parks.westchestercountyny.gov/press-releases/celebrate-culture-and-community-at-the-heritage-of-india-festival-at-kensico-dam-plaza-on-august-2
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:44:04.755213-04:00'
+    checked_at: '2026-10-03T08:52:51.044915-04:00'
   problems: []
-  validated_at: '2026-10-03T08:44:04.755206-04:00'
+  validated_at: '2026-10-03T08:52:51.044909-04:00'
 curated:
   forms:
   - folk

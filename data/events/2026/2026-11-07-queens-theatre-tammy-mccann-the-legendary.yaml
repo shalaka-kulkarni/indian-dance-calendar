@@ -48,11 +48,11 @@ validation:
   - url: https://queenstheatre.org/events/tammy-mccann-nrmf
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:48:53.373063-04:00'
+    checked_at: '2026-10-03T08:55:30.344957-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:48:53.373044-04:00'
+  validated_at: '2026-10-03T08:55:30.344922-04:00'
 curated:
   forms: []
   traditions: []

@@ -47,11 +47,11 @@ validation:
   - url: https://www.prucenter.com/events/a-perfect-circle
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:50:16.054515-04:00'
+    checked_at: '2026-10-03T08:56:18.425018-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:50:16.054495-04:00'
+  validated_at: '2026-10-03T08:56:18.424973-04:00'
 curated:
   forms: []
   traditions: []

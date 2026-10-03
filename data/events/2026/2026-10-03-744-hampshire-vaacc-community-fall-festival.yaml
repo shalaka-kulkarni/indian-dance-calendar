@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/virginia-beach/vaacc-community-fall-festival/200030588805812
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:45:50.152217-04:00'
+    checked_at: '2026-10-03T08:53:52.152305-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T08:45:50.152191-04:00'
+  validated_at: '2026-10-03T08:53:52.152275-04:00'
 curated:
   forms: []
   traditions: []

@@ -1,5 +1,5 @@
 id: 2026-10-07--the-247-diner-by
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -43,17 +43,16 @@ validation:
     links_live: true
     date_valid: true
     price_known: true
-    in_metro: false
+    in_metro: true
     classified: false
   link_checks:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/The-247-Diner-by-Courtney-Balenciaga-Washington-FREE-FOOD-2026-10-02_21
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:46:07.218709-04:00'
+    checked_at: '2026-10-03T08:54:06.156574-04:00'
   problems:
-  - region unknown — can't confirm NYC metro
-  - not yet classified (no API key run)
-  validated_at: '2026-10-03T08:46:07.218678-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-03T08:54:06.156540-04:00'
 curated:
   forms: []
   traditions: []

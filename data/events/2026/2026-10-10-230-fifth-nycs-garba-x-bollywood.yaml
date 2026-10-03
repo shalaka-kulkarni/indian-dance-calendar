@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/nyc-s-garba-x-bollywood-at-230-fifth-rooftop_event-in_new-york-ny_401176
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:46:25.570875-04:00'
+    checked_at: '2026-10-03T08:54:14.963661-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:46:25.570849-04:00'
+  validated_at: '2026-10-03T08:54:14.963631-04:00'
 curated:
   forms: []
   traditions: []

@@ -1,6 +1,6 @@
 id: 2026-10-15--the-journey-of-kuchipudi
-status: needs_attention
-was_published: false
+status: published
+was_published: true
 needs_recheck: false
 scraped:
   title: 'The Journey of Kuchipudi: From Yakshaganam to the Solo'
@@ -36,25 +36,23 @@ ai:
   model: manual
   classified_at: '2026-10-03'
 validation:
-  passed: false
+  passed: true
   checks:
     has_info_url: true
     specific_url: true
     links_live: true
     date_valid: true
     price_known: false
-    in_metro: false
-    classified: false
+    in_metro: true
+    classified: true
   link_checks:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/The-Journey-of-Kuchipudi-From-Yakshaganam-to-the-Solo-2026-10-15
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:46:58.348443-04:00'
+    checked_at: '2026-10-03T08:54:36.411882-04:00'
   problems:
   - no price information
-  - region unknown — can't confirm NYC metro
-  - not yet classified (no API key run)
-  validated_at: '2026-10-03T08:46:58.348416-04:00'
+  validated_at: '2026-10-03T08:54:36.411850-04:00'
 curated:
   forms: []
   traditions: []

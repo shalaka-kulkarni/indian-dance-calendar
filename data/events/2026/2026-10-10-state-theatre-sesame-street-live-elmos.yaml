@@ -1,5 +1,5 @@
 id: 2026-10-10-state-theatre-sesame-street-live-elmos
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -52,17 +52,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.stnj.org/events/detail/sesame-street-live-elmos-got-moves-2026
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:46:28.788879-04:00'
   - url: https://my.stnj.org/25114/25115
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:46:28.937515-04:00'
+    checked_at: '2026-10-03T08:54:19.148224-04:00'
+  - url: https://www.stnj.org/events/detail/sesame-street-live-elmos-got-moves-2026
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:54:19.216872-04:00'
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-10-03T08:46:28.788858-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-03T08:54:19.148186-04:00'
 curated:
   forms: []
   traditions: []

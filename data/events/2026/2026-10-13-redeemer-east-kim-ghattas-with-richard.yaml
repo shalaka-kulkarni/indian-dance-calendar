@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211337
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:46:50.352248-04:00'
   - url: https://www.92ny.org/event/kim-ghattas-with-richard-engel
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:46:50.435612-04:00'
+    checked_at: '2026-10-03T08:54:32.863546-04:00'
+  - url: https://seats.92ny.org/single/211337
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:54:32.985097-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:46:50.352221-04:00'
+  validated_at: '2026-10-03T08:54:32.863513-04:00'
 curated:
   forms: []
   traditions: []

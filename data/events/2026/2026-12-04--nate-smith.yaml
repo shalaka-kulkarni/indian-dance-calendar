@@ -49,11 +49,11 @@ validation:
   - url: https://www.sopacnow.org/events/nate-smith-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:49:33.513862-04:00'
+    checked_at: '2026-10-03T08:55:53.380899-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:49:33.513841-04:00'
+  validated_at: '2026-10-03T08:55:53.380867-04:00'
 curated:
   forms: []
   traditions: []

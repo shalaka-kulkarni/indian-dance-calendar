@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/211055
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:49:06.939726-04:00'
+    checked_at: '2026-10-03T08:55:38.262708-04:00'
   - url: https://www.92ny.org/event/jen-percy-and-e-jean-carroll-with-jessica-bennett
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:49:06.977681-04:00'
+    checked_at: '2026-10-03T08:55:38.357864-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:49:06.939702-04:00'
+  validated_at: '2026-10-03T08:55:38.262674-04:00'
 curated:
   forms: []
   traditions: []

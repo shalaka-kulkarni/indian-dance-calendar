@@ -50,14 +50,14 @@ validation:
   - url: https://seats.92ny.org/single/211421
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:48:39.206673-04:00'
+    checked_at: '2026-10-03T08:55:24.619111-04:00'
   - url: https://www.92ny.org/event/jane-austen-s-sense-and-sensibility
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:48:39.240314-04:00'
+    checked_at: '2026-10-03T08:55:24.695958-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:48:39.206644-04:00'
+  validated_at: '2026-10-03T08:55:24.619078-04:00'
 curated:
   forms: []
   traditions: []

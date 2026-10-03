@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/uptown-rhythm-dance-festival
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:50:06.106858-04:00'
   - url: https://seats.92ny.org/single/210452
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:50:08.233119-04:00'
+    checked_at: '2026-10-03T08:56:12.986631-04:00'
+  - url: https://www.92ny.org/event/uptown-rhythm-dance-festival
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T08:56:13.068981-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:50:06.106833-04:00'
+  validated_at: '2026-10-03T08:56:12.986602-04:00'
 curated:
   forms: []
   traditions: []

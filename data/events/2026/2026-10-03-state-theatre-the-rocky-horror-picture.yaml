@@ -53,14 +53,14 @@ validation:
   - url: https://my.stnj.org/25133/25134
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:45:58.092436-04:00'
+    checked_at: '2026-10-03T08:53:56.640680-04:00'
   - url: https://www.stnj.org/events/detail/rocky-horror-picture-show-2026
     ok: true
-    status_code: 406
-    checked_at: '2026-10-03T08:45:58.181837-04:00'
+    status_code: 200
+    checked_at: '2026-10-03T08:53:56.691377-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:45:58.092416-04:00'
+  validated_at: '2026-10-03T08:53:56.640647-04:00'
 curated:
   forms: []
   traditions: []
