@@ -1,0 +1,50 @@
+id: 2026-10-16-gibney-absolute-beginner-ballet-series
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Absolute Beginner Ballet Series with Kat Wildish – Session I
+  start: '2026-10-16T18:30:00-04:00'
+  additional_dates: []
+  venue: Gibney
+  address: New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://gibneydance.org/event/absolute-beginner-ballet-series-with-kat-wildish/absolute-beginner-ballet-series-with-kat-wildish-session-i/
+  ticket_url: ''
+  description_snippet: 'About the Series Dates: Fridays, October 16th- November 20th, 2026Time: 6:30-8:00
+    PM weeklyLocation: Gibney, 280 Broadway: Studio U (Studio C on 10/30 &amp; 11/6) Price (Full series):
+    $180Drop-in rate: $35 (for purchase on daily class schedule) Join Kat Wildish for a 6-week series
+    in Absolute Beginner Ballet at Gibney! Absolute Beginner Ballet is your safe [&hellip;]'
+  content_hash: a167a10b984a986a
+  sources:
+  - source_id: gibney
+    url: https://gibneydance.org/event/absolute-beginner-ballet-series-with-kat-wildish/absolute-beginner-ballet-series-with-kat-wildish-session-i/
+    first_seen: '2026-10-03'
+    last_seen: '2026-10-03'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://gibneydance.org/event/absolute-beginner-ballet-series-with-kat-wildish/absolute-beginner-ballet-series-with-kat-wildish-session-i/
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T09:07:12.437500-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-03T09:07:12.437474-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

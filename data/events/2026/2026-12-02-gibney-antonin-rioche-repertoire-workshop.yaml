@@ -1,0 +1,47 @@
+id: 2026-12-02-gibney-antonin-rioche-repertoire-workshop
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Antonin Rioche Repertoire Workshop with Ève-Marie Dalcourt
+  start: '2026-12-02T10:00:00-05:00'
+  additional_dates: []
+  venue: Gibney
+  address: New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://gibneydance.org/event/antonin-rioche-repertoire-workshop-with-eve-marie-dalcourt/
+  ticket_url: ''
+  description_snippet: About the Workshop
+  content_hash: 28b48e5f87368e70
+  sources:
+  - source_id: gibney
+    url: https://gibneydance.org/event/antonin-rioche-repertoire-workshop-with-eve-marie-dalcourt/
+    first_seen: '2026-10-03'
+    last_seen: '2026-10-03'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://gibneydance.org/event/antonin-rioche-repertoire-workshop-with-eve-marie-dalcourt/
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T09:09:34.143562-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-03T09:09:34.143536-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

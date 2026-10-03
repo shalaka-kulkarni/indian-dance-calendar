@@ -50,11 +50,11 @@ validation:
   - url: https://allevents.in/san-francisco/the-official-san-francisco-halloween-pub-crawl/100001983732312748
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:55:14.809349-04:00'
+    checked_at: '2026-10-03T09:08:26.811351-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T08:55:14.809307-04:00'
+  validated_at: '2026-10-03T09:08:26.811323-04:00'
 curated:
   forms: []
   traditions: []

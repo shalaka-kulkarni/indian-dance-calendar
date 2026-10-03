@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/supper-club-with-pierce-abernathy
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:54:03.637248-04:00'
+    checked_at: '2026-10-03T09:06:00.065002-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:54:03.637219-04:00'
+  validated_at: '2026-10-03T09:06:00.064975-04:00'
 curated:
   forms: []
   traditions: []

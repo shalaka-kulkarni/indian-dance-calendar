@@ -14,7 +14,7 @@ scraped:
   info_url: https://www.dance-enthusiast.com/dance-listings/events/view/Inter-grant-Festival-2026-10-08
   ticket_url: ''
   description_snippet: Inter-grant Festival Arts On Site Thu. October, 8 @ 7:00pm
-  content_hash: 5462cf03af684106
+  content_hash: 1915f2b5bd40bfe7
   sources:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Inter-grant-Festival-2026-10-08
@@ -47,11 +47,11 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Inter-grant-Festival-2026-10-08
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:54:07.600361-04:00'
+    checked_at: '2026-10-03T09:06:13.607977-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:54:07.600329-04:00'
+  validated_at: '2026-10-03T09:06:13.607951-04:00'
 curated:
   forms: []
   traditions: []

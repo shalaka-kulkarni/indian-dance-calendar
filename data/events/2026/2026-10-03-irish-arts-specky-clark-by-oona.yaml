@@ -1,0 +1,49 @@
+id: 2026-10-03-irish-arts-specky-clark-by-oona
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: '"Specky Clark" by Oona Doherty & Cast at Irish Arts Center'
+  start: '2026-10-03T19:30:00-04:00'
+  additional_dates: []
+  venue: Irish Arts Center (IAC)
+  address: ''
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://www.dance-enthusiast.com/dance-listings/events/view/Specky-Clark-by-Oona-Doherty-Cast-at-Irish-Arts-Center-2026-10-03_11-01
+  ticket_url: ''
+  description_snippet: '"Specky Clark" by Oona Doherty & Cast at Irish Arts Center Irish Arts Center (IAC)
+    Sat. October, 3 @ 7:30pm (+ 19 more)'
+  content_hash: 242b6596a3422bb4
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/Specky-Clark-by-Oona-Doherty-Cast-at-Irish-Arts-Center-2026-10-03_11-01
+    first_seen: '2026-10-03'
+    last_seen: '2026-10-03'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://www.dance-enthusiast.com/dance-listings/events/view/Specky-Clark-by-Oona-Doherty-Cast-at-Irish-Arts-Center-2026-10-03_11-01
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T09:05:49.015676-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-10-03T09:05:49.015651-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

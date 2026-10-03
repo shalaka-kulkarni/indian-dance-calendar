@@ -50,11 +50,11 @@ validation:
   - url: https://allevents.in/boston/boston-faneuil-hall-halloween-bar-crawl/100001951144518779
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:55:00.857293-04:00'
+    checked_at: '2026-10-03T09:07:52.343931-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T08:55:00.857260-04:00'
+  validated_at: '2026-10-03T09:07:52.343906-04:00'
 curated:
   forms: []
   traditions: []

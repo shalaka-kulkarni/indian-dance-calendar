@@ -6,7 +6,8 @@ scraped:
   title: 'Annie Proulx: Stories , in Conversation with Yiyun Li'
   start: '2026-11-10T19:30:00-05:00'
   additional_dates: []
-  venue: ''
+  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall</div><div class="pdp-hero__hall"><em>Enter
+    on 92nd St. b
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 25.0
@@ -17,7 +18,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210919
   description_snippet: Pulitzer Prize and National Book Award winner Annie Proulx launches her New and
     Collected Stories , in conversation with Yiyun Li.
-  content_hash: eefb3b7c80ef7260
+  content_hash: bc775ad5ba211589
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/annie-proulx-stories
@@ -49,14 +50,14 @@ validation:
   - url: https://seats.92ny.org/single/210919
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:55:33.459535-04:00'
+    checked_at: '2026-10-03T09:08:55.479955-04:00'
   - url: https://www.92ny.org/event/annie-proulx-stories
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:55:33.535202-04:00'
+    checked_at: '2026-10-03T09:08:55.491354-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:55:33.459499-04:00'
+  validated_at: '2026-10-03T09:08:55.479925-04:00'
 curated:
   forms: []
   traditions: []

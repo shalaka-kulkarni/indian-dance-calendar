@@ -47,11 +47,11 @@ validation:
   - url: https://www.prucenter.com/events/rock-the-bells
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:55:49.163386-04:00'
+    checked_at: '2026-10-03T09:09:28.317491-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:55:49.163350-04:00'
+  validated_at: '2026-10-03T09:09:28.317463-04:00'
 curated:
   forms: []
   traditions: []

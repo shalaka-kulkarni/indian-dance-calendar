@@ -59,16 +59,16 @@ validation:
     in_metro: true
     classified: true
   link_checks:
-  - url: https://pioneerworks.org/programs/ragas-live-festival-2026
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:54:43.042106-04:00'
   - url: https://www.eventbrite.com/e/ragas-live-festival-2026-tickets-1989613275867
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:54:43.248218-04:00'
+    checked_at: '2026-10-03T09:07:19.845831-04:00'
+  - url: https://pioneerworks.org/programs/ragas-live-festival-2026
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T09:07:19.925337-04:00'
   problems: []
-  validated_at: '2026-10-03T08:54:43.042075-04:00'
+  validated_at: '2026-10-03T09:07:19.845806-04:00'
 curated:
   forms: []
   art_form: music

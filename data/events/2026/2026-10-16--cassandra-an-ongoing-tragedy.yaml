@@ -15,7 +15,7 @@ scraped:
   ticket_url: ''
   description_snippet: 'Cassandra: An Ongoing Tragedy First Congregational Church of Montclair Fri. October,
     16 @ 7:00pm (+ 2 more)'
-  content_hash: 581959556ce7823d
+  content_hash: e1be763f921750d2
   sources:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Cassandra-An-Ongoing-Tragedy-2026-10-16_18
@@ -47,11 +47,11 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Cassandra-An-Ongoing-Tragedy-2026-10-16_18
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:54:37.534556-04:00'
+    checked_at: '2026-10-03T09:07:07.380358-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:54:37.534524-04:00'
+  validated_at: '2026-10-03T09:07:07.380333-04:00'
 curated:
   forms: []
   traditions: []

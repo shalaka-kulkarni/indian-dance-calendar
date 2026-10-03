@@ -1,0 +1,50 @@
+id: 2026-11-21-gibney-teamwork-with-ogemdi-ude
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Teamwork with Ogemdi Ude
+  start: '2026-11-21T11:00:00-05:00'
+  additional_dates: []
+  venue: Gibney
+  address: New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://gibneydance.org/event/teamwork-with-ogemdi-ude/
+  ticket_url: ''
+  description_snippet: Workshop Description Choreographer/director Ogemdi Ude will lead a one day workshop
+    inspired by her most recent project &#8211; MAJOR. In this workshop, participants will learn the foundations
+    of majorette dance technique, a form begun by Southern Black femmes at Historically Black Colleges
+    and Universities in the 1950s. Alongside majorette dance, participants will learn methods for [&hellip;]
+  content_hash: 874c1dc2947cd38d
+  sources:
+  - source_id: gibney
+    url: https://gibneydance.org/event/teamwork-with-ogemdi-ude/
+    first_seen: '2026-10-03'
+    last_seen: '2026-10-03'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://gibneydance.org/event/teamwork-with-ogemdi-ude/
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T09:09:27.215915-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-03T09:09:27.215894-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

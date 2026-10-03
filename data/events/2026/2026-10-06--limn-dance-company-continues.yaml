@@ -15,7 +15,7 @@ scraped:
   ticket_url: ''
   description_snippet: Limón Dance Company Continues 80th Anniversary Celebration at The Joyce Theater
     The Joyce Tue. October, 6 @ 7:30pm (+ 6 more)
-  content_hash: cdc1909cdbe519fd
+  content_hash: 399ecb1e9e664f8e
   sources:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Limn-Dance-Company-Continues-80th-Anniversary-Celebration-at-The-Joyce-Theater-2026-10-06_11
@@ -47,11 +47,11 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Limn-Dance-Company-Continues-80th-Anniversary-Celebration-at-The-Joyce-Theater-2026-10-06_11
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:54:03.228461-04:00'
+    checked_at: '2026-10-03T09:05:59.843716-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:54:03.228432-04:00'
+  validated_at: '2026-10-03T09:05:59.843696-04:00'
 curated:
   forms: []
   traditions: []

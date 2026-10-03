@@ -1,0 +1,51 @@
+id: 2027-04-16-gibney-penn-live-arts-opening
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Penn Live Arts: Opening Night'
+  start: '2027-04-16T19:30:00-04:00'
+  additional_dates: []
+  venue: Gibney
+  address: New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://gibneydance.org/event/penn-arts-live/penn-live-arts-opening-night/
+  ticket_url: ''
+  description_snippet: What You&#8217;ll See An acclaimed fixture of the New York dance world finally
+    comes to Philadelphia. The Gibney Company, known for bold commissions, rigorous physicality and expressive
+    storytelling, performs a program of works by resident choreographer Lucinda Childs. Exploring the
+    interplay between music and movement, Three Dances (for prepared piano) John Cage showcases Childs’
+    signature [&hellip;]
+  content_hash: 47554e4f22698147
+  sources:
+  - source_id: gibney
+    url: https://gibneydance.org/event/penn-arts-live/penn-live-arts-opening-night/
+    first_seen: '2026-10-03'
+    last_seen: '2026-10-03'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://gibneydance.org/event/penn-arts-live/penn-live-arts-opening-night/
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T09:10:38.995299-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-03T09:10:38.995279-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

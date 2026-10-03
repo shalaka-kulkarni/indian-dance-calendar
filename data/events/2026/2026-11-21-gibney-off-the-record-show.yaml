@@ -1,0 +1,47 @@
+id: 2026-11-21-gibney-off-the-record-show
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Off The Record: Show III'
+  start: '2026-11-21T19:30:00-05:00'
+  additional_dates: []
+  venue: Gibney
+  address: New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://gibneydance.org/event/off-the-record/off-the-record-show-iii/
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: c023457101bd76b3
+  sources:
+  - source_id: gibney
+    url: https://gibneydance.org/event/off-the-record/off-the-record-show-iii/
+    first_seen: '2026-10-03'
+    last_seen: '2026-10-03'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://gibneydance.org/event/off-the-record/off-the-record-show-iii/
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T09:09:27.196011-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-03T09:09:27.195983-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

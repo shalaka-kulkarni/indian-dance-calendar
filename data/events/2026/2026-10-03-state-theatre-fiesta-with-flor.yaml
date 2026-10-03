@@ -51,17 +51,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://my.stnj.org/overview/25717
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:53:56.389870-04:00'
   - url: https://www.stnj.org/events/detail/mc-fiestawithflor-2026
     ok: true
     status_code: 406
-    checked_at: '2026-10-03T08:53:56.488143-04:00'
+    checked_at: '2026-10-03T09:05:51.202468-04:00'
+  - url: https://my.stnj.org/overview/25717
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T09:05:51.240000-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:53:56.389837-04:00'
+  validated_at: '2026-10-03T09:05:51.202442-04:00'
 curated:
   forms: []
   traditions: []

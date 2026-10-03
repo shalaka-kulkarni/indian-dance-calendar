@@ -47,12 +47,12 @@ validation:
   - url: https://allevents.in/marietta/amberations-21st-fall-festival/200030596111421
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:53:59.148577-04:00'
+    checked_at: '2026-10-03T09:05:53.089997-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T08:53:59.148541-04:00'
+  validated_at: '2026-10-03T09:05:53.089972-04:00'
 curated:
   forms: []
   traditions: []

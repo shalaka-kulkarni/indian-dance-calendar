@@ -15,7 +15,7 @@ scraped:
   ticket_url: ''
   description_snippet: 'Works & Process Presents Miami City Ballet: Patricia Delgado The Solomon R. Guggenheim
     Museum Sun. October, 4 @ 7:00pm'
-  content_hash: f0cf1c9dd616a629
+  content_hash: 9166cb9213d87e4c
   sources:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Works-Process-Presents-Miami-City-Ballet-Patricia-Delgado-2026-10-04
@@ -47,11 +47,11 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Works-Process-Presents-Miami-City-Ballet-Patricia-Delgado-2026-10-04
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:53:58.048241-04:00'
+    checked_at: '2026-10-03T09:05:52.427567-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:53:58.048207-04:00'
+  validated_at: '2026-10-03T09:05:52.427535-04:00'
 curated:
   forms: []
   traditions: []

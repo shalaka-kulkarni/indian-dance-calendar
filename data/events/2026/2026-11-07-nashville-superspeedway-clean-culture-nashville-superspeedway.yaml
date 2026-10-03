@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/gladeville/clean-culture-nashville-superspeedway-car-show/200029442215623
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:55:30.181895-04:00'
+    checked_at: '2026-10-03T09:08:49.600585-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T08:55:30.181863-04:00'
+  validated_at: '2026-10-03T09:08:49.600556-04:00'
 curated:
   forms: []
   traditions: []

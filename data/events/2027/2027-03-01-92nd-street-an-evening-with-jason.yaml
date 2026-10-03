@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/an-evening-with-jason-robert-brown
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:56:12.772141-04:00'
   - url: https://seats.92ny.org/single/210713
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:56:12.896751-04:00'
+    checked_at: '2026-10-03T09:10:24.568159-04:00'
+  - url: https://www.92ny.org/event/an-evening-with-jason-robert-brown
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T09:10:24.579228-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:56:12.772112-04:00'
+  validated_at: '2026-10-03T09:10:24.568132-04:00'
 curated:
   forms: []
   traditions: []

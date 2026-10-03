@@ -1,0 +1,50 @@
+id: 2026-10-03-colonels-row-lalliance-new-york-announces
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: L’Alliance New York Announces "Traces of Gounouj" by Léo Lérus (FREE)
+  start: '2026-10-03T12:30:00-04:00'
+  additional_dates: []
+  venue: Colonels Row on Governors Island
+  address: ''
+  region: unknown
+  price_min: 0.0
+  price_max: 0.0
+  is_free: true
+  price_note: ''
+  info_url: https://www.dance-enthusiast.com/dance-listings/events/view/LAlliance-New-York-Announces-Traces-of-Gounouj-by-Lo-Lrus-FREE-2026-10-03
+  ticket_url: ''
+  description_snippet: L’Alliance New York Announces "Traces of Gounouj" by Léo Lérus (FREE) Colonels
+    Row on Governors Island Sat. October, 3 @ 12:30pm, 2:00pm, 3:30pm
+  content_hash: 5eda12b85ec29d11
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/LAlliance-New-York-Announces-Traces-of-Gounouj-by-Lo-Lrus-FREE-2026-10-03
+    first_seen: '2026-10-03'
+    last_seen: '2026-10-03'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://www.dance-enthusiast.com/dance-listings/events/view/LAlliance-New-York-Announces-Traces-of-Gounouj-by-Lo-Lrus-FREE-2026-10-03
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T09:05:48.221138-04:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-10-03T09:05:48.221115-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

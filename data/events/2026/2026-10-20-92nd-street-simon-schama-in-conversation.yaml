@@ -48,14 +48,14 @@ validation:
   - url: https://www.92ny.org/event/simon-schama-with-rabbi-david-ingber
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:54:50.615816-04:00'
+    checked_at: '2026-10-03T09:07:32.633872-04:00'
   - url: https://seats.92ny.org/single/210844
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:54:50.740088-04:00'
+    checked_at: '2026-10-03T09:07:34.584914-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:54:50.615776-04:00'
+  validated_at: '2026-10-03T09:07:32.633847-04:00'
 curated:
   forms: []
   traditions: []

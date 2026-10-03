@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/classes/tactile-listening
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:53:57.862421-04:00'
+    checked_at: '2026-10-03T09:05:52.053629-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:53:57.862388-04:00'
+  validated_at: '2026-10-03T09:05:52.053599-04:00'
 curated:
   forms: []
   traditions: []

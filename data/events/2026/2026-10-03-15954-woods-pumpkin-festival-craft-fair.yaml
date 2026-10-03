@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/valley-center/pumpkin-festival-craft-fair-at-bates-nut-farm-oct-3-4-2026/200030603569822
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:53:51.260960-04:00'
+    checked_at: '2026-10-03T09:05:45.088765-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T08:53:51.260924-04:00'
+  validated_at: '2026-10-03T09:05:45.088739-04:00'
 curated:
   forms: []
   traditions: []

@@ -15,7 +15,7 @@ scraped:
   ticket_url: ''
   description_snippet: 'Tap Dance Central: Faculty Choreography Spotlight Arts On Site Sun. October, 11
     @ 4:30pm, 6:30pm'
-  content_hash: c36bba7147253623
+  content_hash: 836dcb345a8a2f6c
   sources:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Tap-Dance-Central-Faculty-Choreography-Spotlight-2026-10-11
@@ -47,11 +47,11 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Tap-Dance-Central-Faculty-Choreography-Spotlight-2026-10-11
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:54:21.014048-04:00'
+    checked_at: '2026-10-03T09:06:33.117322-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:54:21.014015-04:00'
+  validated_at: '2026-10-03T09:06:33.117299-04:00'
 curated:
   forms: []
   traditions: []

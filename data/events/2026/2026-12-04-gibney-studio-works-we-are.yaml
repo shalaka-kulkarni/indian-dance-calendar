@@ -1,0 +1,51 @@
+id: 2026-12-04-gibney-studio-works-we-are
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Studio Works: WE ARE DOING GREAT'
+  start: '2026-12-04T19:00:00-05:00'
+  additional_dates: []
+  venue: Gibney
+  address: New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://gibneydance.org/event/studio-works-we-are-doing-great/
+  ticket_url: ''
+  description_snippet: 'What You&#8217;ll See WE ARE DOING GREAT is a poignant, cinematic duet by Antonin
+    Rioche about the final moment of a relationship, the instant before final goodbye. Combining dance
+    and theater, it invites audiences into a raw, intimate space of stillness, suffering, and love. Directed
+    by: Antonin RiocheChoreography and Text: Antonin Rioche and Emilie LerichePerformed by:&nbsp;Ève-Marie
+    [&hellip;]'
+  content_hash: 1ee0696ac31f71ca
+  sources:
+  - source_id: gibney
+    url: https://gibneydance.org/event/studio-works-we-are-doing-great/
+    first_seen: '2026-10-03'
+    last_seen: '2026-10-03'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://gibneydance.org/event/studio-works-we-are-doing-great/
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T09:09:37.649087-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-03T09:09:37.649064-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

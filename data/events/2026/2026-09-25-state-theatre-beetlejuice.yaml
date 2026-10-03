@@ -47,25 +47,24 @@ validation:
   checks:
     has_info_url: true
     specific_url: true
-    links_live: false
+    links_live: true
     date_valid: false
     price_known: true
     in_metro: true
     classified: false
   link_checks:
-  - url: https://my.stnj.org/overview/24975
-    ok: false
-    status_code: 404
-    checked_at: '2026-10-03T08:53:38.071517-04:00'
   - url: https://www.stnj.org/events/detail/beetlejuice-2026
     ok: true
     status_code: 406
-    checked_at: '2026-10-03T08:53:39.719616-04:00'
+    checked_at: '2026-10-03T09:05:09.486330-04:00'
+  - url: https://my.stnj.org/overview/24975
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T09:05:09.529419-04:00'
   problems:
-  - 'dead links: https://my.stnj.org/overview/24975'
   - event date 2026-09-27 is in the past
   - classified not-relevant
-  validated_at: '2026-10-03T08:53:38.071483-04:00'
+  validated_at: '2026-10-03T09:05:09.486305-04:00'
 curated:
   forms: []
   traditions: []

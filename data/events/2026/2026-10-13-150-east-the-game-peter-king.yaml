@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/211248
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:54:30.362928-04:00'
+    checked_at: '2026-10-03T09:06:46.130369-04:00'
   - url: https://www.92ny.org/event/the-game-peter-king-with-adam-schefter
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:54:30.435149-04:00'
+    checked_at: '2026-10-03T09:06:46.156952-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:54:30.362894-04:00'
+  validated_at: '2026-10-03T09:06:46.130344-04:00'
 curated:
   forms: []
   traditions: []

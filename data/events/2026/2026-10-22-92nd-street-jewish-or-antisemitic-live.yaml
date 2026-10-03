@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/jewish-or-antisemitic-live
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T08:54:53.094503-04:00'
   - url: https://seats.92ny.org/single/210886
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:54:53.215693-04:00'
+    checked_at: '2026-10-03T09:07:42.597113-04:00'
+  - url: https://www.92ny.org/event/jewish-or-antisemitic-live
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-03T09:07:42.607112-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:54:53.094472-04:00'
+  validated_at: '2026-10-03T09:07:42.597087-04:00'
 curated:
   forms: []
   traditions: []

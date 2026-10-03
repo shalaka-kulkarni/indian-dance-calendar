@@ -50,11 +50,11 @@ validation:
   - url: https://allevents.in/scottsdale/scottsdale-halloween-bar-crawl/100001952075543499
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:54:57.942041-04:00'
+    checked_at: '2026-10-03T09:07:50.788867-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T08:54:57.941988-04:00'
+  validated_at: '2026-10-03T09:07:50.788839-04:00'
 curated:
   forms: []
   traditions: []

@@ -48,14 +48,14 @@ validation:
   - url: https://www.92ny.org/event/christy-carlson-romano
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:54:00.470546-04:00'
+    checked_at: '2026-10-03T09:05:53.822248-04:00'
   - url: https://seats.92ny.org/single/210580
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:54:00.731274-04:00'
+    checked_at: '2026-10-03T09:05:53.864825-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T08:54:00.470515-04:00'
+  validated_at: '2026-10-03T09:05:53.822219-04:00'
 curated:
   forms: []
   traditions: []

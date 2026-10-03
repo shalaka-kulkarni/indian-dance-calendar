@@ -19,7 +19,7 @@ scraped:
   - source_id: cmana
     url: https://www.cmana.org/etn/2026-flute-j-a-jayant/
     first_seen: '2026-08-18'
-    last_seen: '2026-10-02'
+    last_seen: '2026-10-03'
 ai:
   relevant: true
   kind: performance
@@ -48,10 +48,10 @@ validation:
   - url: https://www.cmana.org/etn/2026-flute-j-a-jayant/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:53:49.666315-04:00'
+    checked_at: '2026-10-03T09:05:43.802706-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-03T08:53:49.666282-04:00'
+  validated_at: '2026-10-03T09:05:43.802681-04:00'
 curated:
   forms: []
   traditions: []

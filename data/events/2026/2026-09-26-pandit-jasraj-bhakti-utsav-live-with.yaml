@@ -37,11 +37,11 @@ validation:
   - url: https://events.sulekha.com/bhakti-utsav-live-with-sandeep-sehgal-in-newyork_event-in_hempstead-ny_401799
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:36:49.428808-04:00'
+    checked_at: '2026-10-03T09:03:32.914489-04:00'
   problems:
   - event date 2026-09-26 is in the past
   - not yet classified (no API key run)
-  validated_at: '2026-10-03T08:36:49.428786-04:00'
+  validated_at: '2026-10-03T09:03:32.914468-04:00'
 curated:
   forms: []
   traditions: []

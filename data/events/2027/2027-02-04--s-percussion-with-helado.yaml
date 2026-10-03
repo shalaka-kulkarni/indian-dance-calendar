@@ -50,11 +50,11 @@ validation:
   - url: https://www.sopacnow.org/events/so-percussion-27/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:56:11.088975-04:00'
+    checked_at: '2026-10-03T09:10:19.509055-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T08:56:11.088947-04:00'
+  validated_at: '2026-10-03T09:10:19.509029-04:00'
 curated:
   forms: []
   traditions: []

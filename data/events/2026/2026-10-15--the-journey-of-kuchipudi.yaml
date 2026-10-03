@@ -15,7 +15,7 @@ scraped:
   ticket_url: ''
   description_snippet: 'The Journey of Kuchipudi: From Yakshaganam to the Solo Danspace Project Thu. October,
     15 @ 7:30pm'
-  content_hash: 5feb4a9cc5e8978c
+  content_hash: 68881d00e1283ce0
   sources:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/The-Journey-of-Kuchipudi-From-Yakshaganam-to-the-Solo-2026-10-15
@@ -49,10 +49,10 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/The-Journey-of-Kuchipudi-From-Yakshaganam-to-the-Solo-2026-10-15
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T08:54:36.411882-04:00'
+    checked_at: '2026-10-03T09:07:05.904607-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-03T08:54:36.411850-04:00'
+  validated_at: '2026-10-03T09:07:05.904583-04:00'
 curated:
   forms: []
   traditions: []
