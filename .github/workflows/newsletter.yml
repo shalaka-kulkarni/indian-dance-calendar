@@ -6,7 +6,7 @@ name: newsletter
 
 on:
   schedule:
-    - cron: "0 13 1 * *" # 1st of the month, ~8-9am ET
+    - cron: "29 12 1 * *" # 1st of the month, ~8:30am ET (off the hour: :00 runs queue late)
   workflow_dispatch:
     inputs:
       send:
