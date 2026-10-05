@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/lawrence-wright
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-05T09:20:40.573358-04:00'
   - url: https://seats.92ny.org/single/210864
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:20:42.807492-04:00'
+    checked_at: '2026-10-05T09:29:04.030603-04:00'
+  - url: https://www.92ny.org/event/lawrence-wright
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-05T09:29:04.077204-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-05T09:20:40.573331-04:00'
+  validated_at: '2026-10-05T09:29:04.030584-04:00'
 curated:
   forms: []
   traditions: []

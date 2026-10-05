@@ -50,14 +50,14 @@ validation:
   - url: https://www.92ny.org/event/david-levene-reading-roman-elegy-through-taylor-swift
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:19:53.743340-04:00'
+    checked_at: '2026-10-05T09:28:26.335682-04:00'
   - url: https://seats.92ny.org/single/211401
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:19:53.853455-04:00'
+    checked_at: '2026-10-05T09:28:28.343640-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-05T09:19:53.743324-04:00'
+  validated_at: '2026-10-05T09:28:26.335656-04:00'
 curated:
   forms: []
   traditions: []

@@ -47,11 +47,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/evsbrg5b/2027-04-17/2026-2027-ndt2
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:24:02.243769-04:00'
+    checked_at: '2026-10-05T09:31:44.469508-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:24:02.243754-04:00'
+  validated_at: '2026-10-05T09:31:44.469486-04:00'
 curated:
   forms: []
   traditions: []

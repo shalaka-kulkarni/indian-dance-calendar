@@ -49,15 +49,15 @@ validation:
   - url: https://seats.92ny.org/single/210737
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:18:00.192646-04:00'
+    checked_at: '2026-10-05T09:26:51.584228-04:00'
   - url: https://www.92ny.org/event/red-riding-hood
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:18:00.289449-04:00'
+    checked_at: '2026-10-05T09:26:51.623432-04:00'
   problems:
   - event date 2026-10-03 is in the past
   - classified not-relevant
-  validated_at: '2026-10-05T09:18:00.192625-04:00'
+  validated_at: '2026-10-05T09:26:51.584206-04:00'
 curated:
   forms: []
   traditions: []

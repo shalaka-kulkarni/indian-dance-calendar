@@ -47,11 +47,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/n69w5gk0/2027-03-06/2026-2027-flamenco-festival
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:23:52.904505-04:00'
+    checked_at: '2026-10-05T09:31:38.066747-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:23:52.904481-04:00'
+  validated_at: '2026-10-05T09:31:38.066721-04:00'
 curated:
   forms: []
   traditions: []

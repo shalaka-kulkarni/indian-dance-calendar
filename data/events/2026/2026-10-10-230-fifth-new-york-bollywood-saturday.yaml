@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/new-york-bollywood-saturday-ft-dj-browny-at-230-fifth_event-in_new-york-ny_402130
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:18:52.487881-04:00'
+    checked_at: '2026-10-05T09:27:18.095773-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-05T09:18:52.487865-04:00'
+  validated_at: '2026-10-05T09:27:18.095751-04:00'
 curated:
   forms: []
   traditions: []

@@ -50,14 +50,14 @@ validation:
   - url: https://seats.92ny.org/single/210919
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:21:54.667038-04:00'
+    checked_at: '2026-10-05T09:29:58.790650-04:00'
   - url: https://www.92ny.org/event/annie-proulx-stories
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:21:54.756303-04:00'
+    checked_at: '2026-10-05T09:29:58.809864-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-05T09:21:54.667015-04:00'
+  validated_at: '2026-10-05T09:29:58.790626-04:00'
 curated:
   forms: []
   traditions: []

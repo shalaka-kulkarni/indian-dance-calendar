@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/monroe/treat-street-2026/100001993709501789
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:20:07.817522-04:00'
+    checked_at: '2026-10-05T09:28:41.456501-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-05T09:20:07.817500-04:00'
+  validated_at: '2026-10-05T09:28:41.456478-04:00'
 curated:
   forms: []
   traditions: []

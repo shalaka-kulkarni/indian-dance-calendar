@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/lox-club-live-at-92ny
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-05T09:20:28.012406-04:00'
   - url: https://seats.92ny.org/single/211412
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:20:28.199257-04:00'
+    checked_at: '2026-10-05T09:28:53.370182-04:00'
+  - url: https://www.92ny.org/event/lox-club-live-at-92ny
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-05T09:28:53.538127-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-05T09:20:28.012381-04:00'
+  validated_at: '2026-10-05T09:28:53.370158-04:00'
 curated:
   forms: []
   traditions: []

@@ -50,12 +50,12 @@ validation:
   - url: https://allevents.in/peoria/halloween-night-golf-bash-in-peoria-tickets/80001812294331
     ok: false
     status_code: 410
-    checked_at: '2026-10-05T09:21:08.747973-04:00'
+    checked_at: '2026-10-05T09:29:27.334181-04:00'
   problems:
   - 'dead links: https://allevents.in/peoria/halloween-night-golf-bash-in-peoria-tickets/80001812294331'
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-05T09:21:08.747947-04:00'
+  validated_at: '2026-10-05T09:29:27.334159-04:00'
 curated:
   forms: []
   traditions: []

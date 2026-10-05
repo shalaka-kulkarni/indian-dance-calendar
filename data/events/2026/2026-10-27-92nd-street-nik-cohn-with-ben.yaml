@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/nik-cohn-with-ben-ratliff-corner-boy
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:20:42.898414-04:00'
+    checked_at: '2026-10-05T09:29:07.261460-04:00'
   - url: https://seats.92ny.org/single/211252
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:20:44.972083-04:00'
+    checked_at: '2026-10-05T09:29:07.323027-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-05T09:20:42.898388-04:00'
+  validated_at: '2026-10-05T09:29:07.261436-04:00'
 curated:
   forms: []
   traditions: []

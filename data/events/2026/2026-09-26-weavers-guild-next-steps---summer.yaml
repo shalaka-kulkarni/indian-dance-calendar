@@ -50,11 +50,11 @@ validation:
   - url: https://allevents.in/cincinnati/next-steps-summer-and-winter-on-4s/100001996448123079
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:17:34.386730-04:00'
+    checked_at: '2026-10-05T09:26:29.019861-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-05T09:17:34.386715-04:00'
+  validated_at: '2026-10-05T09:26:29.019838-04:00'
 curated:
   forms: []
   traditions: []

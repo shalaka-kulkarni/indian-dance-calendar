@@ -50,11 +50,11 @@ validation:
   - url: https://gibneydance.org/event/teamwork-with-ogemdi-ude/
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:22:29.968329-04:00'
+    checked_at: '2026-10-05T09:30:38.935320-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:22:29.968304-04:00'
+  validated_at: '2026-10-05T09:30:38.935300-04:00'
 curated:
   forms: []
   traditions: []

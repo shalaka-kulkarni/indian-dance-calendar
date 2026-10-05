@@ -50,14 +50,14 @@ validation:
   - url: https://www.92ny.org/event/celebrating-stephen-schwartz
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:24:14.383121-04:00'
+    checked_at: '2026-10-05T09:31:52.282170-04:00'
   - url: https://seats.92ny.org/single/210640
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:24:16.633192-04:00'
+    checked_at: '2026-10-05T09:31:53.881624-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-05T09:24:14.383097-04:00'
+  validated_at: '2026-10-05T09:31:52.282146-04:00'
 curated:
   forms: []
   traditions: []

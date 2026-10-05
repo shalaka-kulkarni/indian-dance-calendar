@@ -47,11 +47,11 @@ validation:
   - url: https://gibneydance.org/event/antonin-rioche-repertoire-workshop-with-eve-marie-dalcourt/
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:22:42.484342-04:00'
+    checked_at: '2026-10-05T09:30:51.857022-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:22:42.484319-04:00'
+  validated_at: '2026-10-05T09:30:51.856998-04:00'
 curated:
   forms: []
   traditions: []

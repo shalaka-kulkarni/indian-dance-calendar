@@ -49,10 +49,10 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/The-247-Diner-by-Courtney-Balenciaga-Washington-FREE-FOOD-2026-10-02_21
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:18:33.983752-04:00'
+    checked_at: '2026-10-05T09:27:04.915697-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-05T09:18:33.983738-04:00'
+  validated_at: '2026-10-05T09:27:04.915667-04:00'
 curated:
   forms: []
   traditions: []

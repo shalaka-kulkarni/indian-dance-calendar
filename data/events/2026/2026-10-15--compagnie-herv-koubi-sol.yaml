@@ -47,12 +47,12 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Compagnie-Herv-KOUBI-Sol-Invictus-2026-10-15
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:19:24.211333-04:00'
+    checked_at: '2026-10-05T09:27:52.545920-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-05T09:19:24.211315-04:00'
+  validated_at: '2026-10-05T09:27:52.545882-04:00'
 curated:
   forms: []
   traditions: []

@@ -48,14 +48,14 @@ validation:
   - url: https://www.92ny.org/event/nara-smith-in-conversation-homemade
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:19:08.100065-04:00'
+    checked_at: '2026-10-05T09:27:31.652620-04:00'
   - url: https://seats.92ny.org/single/210926
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:19:09.674713-04:00'
+    checked_at: '2026-10-05T09:27:33.633818-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-05T09:19:08.100044-04:00'
+  validated_at: '2026-10-05T09:27:31.652594-04:00'
 curated:
   forms: []
   traditions: []

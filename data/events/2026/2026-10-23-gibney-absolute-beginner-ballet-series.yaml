@@ -50,11 +50,11 @@ validation:
   - url: https://gibneydance.org/event/absolute-beginner-ballet-series-with-kat-wildish/absolute-beginner-ballet-series-with-kat-wildish-session-ii/
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:20:01.847929-04:00'
+    checked_at: '2026-10-05T09:28:37.945528-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:20:01.847906-04:00'
+  validated_at: '2026-10-05T09:28:37.945504-04:00'
 curated:
   forms: []
   traditions: []

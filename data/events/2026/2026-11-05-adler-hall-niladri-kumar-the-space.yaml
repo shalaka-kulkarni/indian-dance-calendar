@@ -50,9 +50,10 @@ validation:
   link_checks:
   - url: https://www.worldmusicinstitute.org/niladri-kumar-at-adler-hall/
     ok: true
-    checked_at: '2026-10-05T09:21:41.746323-04:00'
+    status_code: 200
+    checked_at: '2026-10-05T09:29:45.422563-04:00'
   problems: []
-  validated_at: '2026-10-05T09:21:41.746294-04:00'
+  validated_at: '2026-10-05T09:29:45.422538-04:00'
 curated:
   forms: []
   art_form: music

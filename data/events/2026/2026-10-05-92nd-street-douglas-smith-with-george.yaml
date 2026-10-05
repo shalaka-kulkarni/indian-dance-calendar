@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/the-city-without-jews
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:18:26.793966-04:00'
+    checked_at: '2026-10-05T09:27:00.613547-04:00'
   - url: https://seats.92ny.org/single/211208
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:18:26.929767-04:00'
+    checked_at: '2026-10-05T09:27:02.628638-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-05T09:18:26.793950-04:00'
+  validated_at: '2026-10-05T09:27:00.613517-04:00'
 curated:
   forms: []
   traditions: []

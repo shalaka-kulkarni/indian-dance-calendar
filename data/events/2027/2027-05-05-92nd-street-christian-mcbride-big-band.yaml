@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/christian-mcbride-big-band
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-05T09:24:03.629011-04:00'
   - url: https://seats.92ny.org/single/210686
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:24:05.894891-04:00'
+    checked_at: '2026-10-05T09:31:45.031423-04:00'
+  - url: https://www.92ny.org/event/christian-mcbride-big-band
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-05T09:31:45.054511-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-05T09:24:03.628988-04:00'
+  validated_at: '2026-10-05T09:31:45.031386-04:00'
 curated:
   forms: []
   traditions: []

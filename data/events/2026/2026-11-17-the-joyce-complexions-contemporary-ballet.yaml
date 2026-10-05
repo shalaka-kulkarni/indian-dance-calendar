@@ -48,11 +48,11 @@ validation:
   - url: https://www.joyce.org/performances/complexions-contemporary-ballet-zb34
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:22:23.900390-04:00'
+    checked_at: '2026-10-05T09:30:30.375531-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:22:23.900360-04:00'
+  validated_at: '2026-10-05T09:30:30.375507-04:00'
 curated:
   forms: []
   traditions: []

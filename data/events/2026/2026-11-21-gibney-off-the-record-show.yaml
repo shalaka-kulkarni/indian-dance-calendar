@@ -47,11 +47,11 @@ validation:
   - url: https://gibneydance.org/event/off-the-record/off-the-record-show-iii/
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:22:29.875966-04:00'
+    checked_at: '2026-10-05T09:30:38.896994-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:22:29.875941-04:00'
+  validated_at: '2026-10-05T09:30:38.896972-04:00'
 curated:
   forms: []
   traditions: []

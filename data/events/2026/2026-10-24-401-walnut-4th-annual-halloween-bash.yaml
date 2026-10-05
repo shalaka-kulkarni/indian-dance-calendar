@@ -47,12 +47,12 @@ validation:
   - url: https://allevents.in/rochester/4th-annual-halloween-bash-featuring-parallel-fifth/200030527581707
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:20:06.415278-04:00'
+    checked_at: '2026-10-05T09:28:40.881821-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-05T09:20:06.415254-04:00'
+  validated_at: '2026-10-05T09:28:40.881798-04:00'
 curated:
   forms: []
   traditions: []

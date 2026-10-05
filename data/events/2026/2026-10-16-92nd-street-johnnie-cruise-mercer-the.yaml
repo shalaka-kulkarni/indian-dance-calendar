@@ -50,17 +50,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210349
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-05T09:19:27.098422-04:00'
   - url: https://www.92ny.org/event/johnnie-cruise-mercer-the-good-news-suite
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:19:27.339367-04:00'
+    checked_at: '2026-10-05T09:27:53.976250-04:00'
+  - url: https://seats.92ny.org/single/210349
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-05T09:27:59.291931-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-05T09:19:27.098400-04:00'
+  validated_at: '2026-10-05T09:27:53.976224-04:00'
 curated:
   forms: []
   traditions: []

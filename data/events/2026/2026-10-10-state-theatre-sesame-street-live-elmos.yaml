@@ -55,14 +55,14 @@ validation:
   - url: https://my.stnj.org/25114/25115
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:18:57.990934-04:00'
+    checked_at: '2026-10-05T09:27:21.765111-04:00'
   - url: https://www.stnj.org/events/detail/sesame-street-live-elmos-got-moves-2026
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:18:58.060062-04:00'
+    checked_at: '2026-10-05T09:27:21.852859-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-05T09:18:57.990912-04:00'
+  validated_at: '2026-10-05T09:27:21.765087-04:00'
 curated:
   forms: []
   traditions: []

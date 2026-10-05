@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/adam-green-autotopia
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:19:23.235697-04:00'
+    checked_at: '2026-10-05T09:27:51.847010-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:19:23.235675-04:00'
+  validated_at: '2026-10-05T09:27:51.846987-04:00'
 curated:
   forms: []
   traditions: []

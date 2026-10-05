@@ -47,11 +47,11 @@ validation:
   - url: https://www.prucenter.com/events/fantasia
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:24:13.253545-04:00'
+    checked_at: '2026-10-05T09:31:51.545261-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:24:13.253523-04:00'
+  validated_at: '2026-10-05T09:31:51.545233-04:00'
 curated:
   forms: []
   traditions: []

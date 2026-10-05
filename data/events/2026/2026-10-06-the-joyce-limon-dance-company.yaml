@@ -48,11 +48,11 @@ validation:
   - url: https://www.joyce.org/performances/limon-dance-company-ns9f
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:18:32.219905-04:00'
+    checked_at: '2026-10-05T09:27:03.940384-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:18:32.219891-04:00'
+  validated_at: '2026-10-05T09:27:03.940350-04:00'
 curated:
   forms: []
   traditions: []

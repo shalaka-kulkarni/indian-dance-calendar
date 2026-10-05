@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210431
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-05T09:20:49.195726-04:00'
   - url: https://www.92ny.org/event/so-percussion-steve-reich-s-drumming
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:20:49.281959-04:00'
+    checked_at: '2026-10-05T09:29:14.825439-04:00'
+  - url: https://seats.92ny.org/single/210431
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-05T09:29:14.901071-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-05T09:20:49.195700-04:00'
+  validated_at: '2026-10-05T09:29:14.825402-04:00'
 curated:
   forms: []
   traditions: []

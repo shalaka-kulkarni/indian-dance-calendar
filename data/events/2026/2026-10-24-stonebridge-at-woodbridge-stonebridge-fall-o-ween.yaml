@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/woodbridge/woodbridge-stonebridge-fall-o-ween/100001985344102655
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:20:26.731944-04:00'
+    checked_at: '2026-10-05T09:28:52.500368-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-05T09:20:26.731918-04:00'
+  validated_at: '2026-10-05T09:28:52.500344-04:00'
 curated:
   forms: []
   traditions: []
