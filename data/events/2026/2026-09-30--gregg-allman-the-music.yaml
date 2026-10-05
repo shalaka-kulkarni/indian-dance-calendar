@@ -53,12 +53,12 @@ validation:
   - url: https://www.sopacnow.org/events/gregg-allman-the-music-of-my-soul/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:55:12.180990-04:00'
+    checked_at: '2026-10-05T09:17:50.460043-04:00'
   problems:
   - event date 2026-09-30 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T12:55:12.180976-04:00'
+  validated_at: '2026-10-05T09:17:50.460028-04:00'
 curated:
   forms: []
   traditions: []

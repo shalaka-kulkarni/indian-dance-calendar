@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/second-sundays-october-2026
     first_seen: '2026-09-04'
-    last_seen: '2026-10-03'
+    last_seen: '2026-10-05'
 ai:
   relevant: false
   kind: performance
@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/second-sundays-october-2026
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:56:43.038123-04:00'
+    checked_at: '2026-10-05T09:18:59.373710-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T12:56:43.038109-04:00'
+  validated_at: '2026-10-05T09:18:59.373688-04:00'
 curated:
   forms: []
   traditions: []

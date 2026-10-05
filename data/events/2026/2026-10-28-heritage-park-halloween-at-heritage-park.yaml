@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/simpsonville/halloween-at-heritage-park-presented-by-ray-thompsons-upstate-karate/200030645340934
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:58:55.914259-04:00'
+    checked_at: '2026-10-05T09:20:51.710119-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T12:58:55.914245-04:00'
+  validated_at: '2026-10-05T09:20:51.710093-04:00'
 curated:
   forms: []
   traditions: []

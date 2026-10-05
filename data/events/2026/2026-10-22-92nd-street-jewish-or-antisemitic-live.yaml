@@ -50,14 +50,14 @@ validation:
   - url: https://seats.92ny.org/single/210886
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:58:15.985884-04:00'
+    checked_at: '2026-10-05T09:19:55.950632-04:00'
   - url: https://www.92ny.org/event/jewish-or-antisemitic-live
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:58:16.130502-04:00'
+    checked_at: '2026-10-05T09:19:56.286326-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T12:58:15.985864-04:00'
+  validated_at: '2026-10-05T09:19:55.950616-04:00'
 curated:
   forms: []
   traditions: []

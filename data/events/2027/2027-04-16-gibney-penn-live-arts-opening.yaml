@@ -23,7 +23,7 @@ scraped:
   - source_id: gibney
     url: https://gibneydance.org/event/penn-arts-live/penn-live-arts-opening-night/
     first_seen: '2026-10-03'
-    last_seen: '2026-10-03'
+    last_seen: '2026-10-05'
 ai:
   relevant: false
   kind: performance
@@ -51,11 +51,11 @@ validation:
   - url: https://gibneydance.org/event/penn-arts-live/penn-live-arts-opening-night/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T13:01:44.357661-04:00'
+    checked_at: '2026-10-05T09:24:02.153204-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T13:01:44.357642-04:00'
+  validated_at: '2026-10-05T09:24:02.153188-04:00'
 curated:
   forms: []
   traditions: []

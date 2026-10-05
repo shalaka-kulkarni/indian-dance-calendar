@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/lawrence-wright
     first_seen: '2026-10-02'
-    last_seen: '2026-10-03'
+    last_seen: '2026-10-05'
 ai:
   relevant: false
   kind: performance
@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210864
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T12:58:47.597162-04:00'
   - url: https://www.92ny.org/event/lawrence-wright
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:58:47.647585-04:00'
+    checked_at: '2026-10-05T09:20:40.573358-04:00'
+  - url: https://seats.92ny.org/single/210864
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-05T09:20:42.807492-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T12:58:47.597140-04:00'
+  validated_at: '2026-10-05T09:20:40.573331-04:00'
 curated:
   forms: []
   traditions: []

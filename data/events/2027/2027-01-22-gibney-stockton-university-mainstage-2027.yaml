@@ -23,7 +23,7 @@ scraped:
   - source_id: gibney
     url: https://gibneydance.org/event/stockton-university-mainstage/
     first_seen: '2026-10-03'
-    last_seen: '2026-10-03'
+    last_seen: '2026-10-05'
 ai:
   relevant: false
   kind: performance
@@ -51,11 +51,11 @@ validation:
   - url: https://gibneydance.org/event/stockton-university-mainstage/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T13:01:17.789443-04:00'
+    checked_at: '2026-10-05T09:23:32.356707-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T13:01:17.789421-04:00'
+  validated_at: '2026-10-05T09:23:32.356687-04:00'
 curated:
   forms: []
   traditions: []

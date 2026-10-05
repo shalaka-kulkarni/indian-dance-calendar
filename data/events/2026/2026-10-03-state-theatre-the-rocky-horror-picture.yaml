@@ -45,7 +45,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: true
     in_metro: true
     classified: false
@@ -53,14 +53,15 @@ validation:
   - url: https://www.stnj.org/events/detail/rocky-horror-picture-show-2026
     ok: true
     status_code: 406
-    checked_at: '2026-10-03T12:55:45.486623-04:00'
+    checked_at: '2026-10-05T09:18:20.187928-04:00'
   - url: https://my.stnj.org/25133/25134
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:55:45.642898-04:00'
+    checked_at: '2026-10-05T09:18:20.332567-04:00'
   problems:
+  - event date 2026-10-03 is in the past
   - classified not-relevant
-  validated_at: '2026-10-03T12:55:45.486607-04:00'
+  validated_at: '2026-10-05T09:18:20.187913-04:00'
 curated:
   forms: []
   traditions: []

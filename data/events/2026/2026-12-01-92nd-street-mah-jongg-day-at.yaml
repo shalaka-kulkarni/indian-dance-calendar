@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/mah-jongg-day-at-92ny
     first_seen: '2026-10-02'
-    last_seen: '2026-10-03'
+    last_seen: '2026-10-05'
 ai:
   relevant: false
   kind: performance
@@ -50,14 +50,14 @@ validation:
   - url: https://www.92ny.org/event/mah-jongg-day-at-92ny
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T13:00:33.939013-04:00'
+    checked_at: '2026-10-05T09:22:37.784403-04:00'
   - url: https://seats.92ny.org/single/211346
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T13:00:36.565887-04:00'
+    checked_at: '2026-10-05T09:22:40.735536-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T13:00:33.938992-04:00'
+  validated_at: '2026-10-05T09:22:37.784380-04:00'
 curated:
   forms: []
   traditions: []

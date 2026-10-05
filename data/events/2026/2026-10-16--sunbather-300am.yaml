@@ -19,7 +19,7 @@ scraped:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/SUNBATHER-300AM-2026-10-16_17
     first_seen: '2026-10-03'
-    last_seen: '2026-10-03'
+    last_seen: '2026-10-05'
 ai:
   relevant: false
   kind: performance
@@ -46,12 +46,12 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/SUNBATHER-300AM-2026-10-16_17
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:57:16.521142-04:00'
+    checked_at: '2026-10-05T09:19:26.601649-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T12:57:16.521127-04:00'
+  validated_at: '2026-10-05T09:19:26.601617-04:00'
 curated:
   forms: []
   traditions: []

@@ -20,7 +20,7 @@ scraped:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/LAlliance-New-York-Presents-Ad-Libitum-by-Simon-Le-Borgne-Ulysse-Zangs-2026-10-07_09
     first_seen: '2026-10-03'
-    last_seen: '2026-10-03'
+    last_seen: '2026-10-05'
 ai:
   relevant: false
   kind: performance
@@ -47,12 +47,12 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/LAlliance-New-York-Presents-Ad-Libitum-by-Simon-Le-Borgne-Ulysse-Zangs-2026-10-07_09
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:56:00.963950-04:00'
+    checked_at: '2026-10-05T09:18:33.772489-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T12:56:00.963849-04:00'
+  validated_at: '2026-10-05T09:18:33.772475-04:00'
 curated:
   forms: []
   traditions: []

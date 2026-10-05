@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/dallas/9th-annual-dallas-black-college-expo-free-presented-by-fifth-third-bank/100001993968361044
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:57:28.015221-04:00'
+    checked_at: '2026-10-05T09:19:35.473310-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T12:57:28.015200-04:00'
+  validated_at: '2026-10-05T09:19:35.473290-04:00'
 curated:
   forms: []
   traditions: []

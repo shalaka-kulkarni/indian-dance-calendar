@@ -44,9 +44,9 @@ validation:
   - url: https://www.premiertickets.co/event/sacha-garba-ramzat-2026-with-geeta-rabari-in-new-jersey/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:54:21.414993-04:00'
+    checked_at: '2026-10-05T09:16:49.978194-04:00'
   problems: []
-  validated_at: '2026-10-03T12:54:21.414987-04:00'
+  validated_at: '2026-10-05T09:16:49.978192-04:00'
 curated:
   forms:
   - folk

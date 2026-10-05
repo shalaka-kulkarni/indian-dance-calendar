@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/ghazal-evening-with-ustad-hamid-ali-khan-living-legend-of-patiala-gharana_event-in_hicksville-ny_402118
     first_seen: '2026-10-02'
-    last_seen: '2026-10-03'
+    last_seen: '2026-10-05'
 ai:
   relevant: true
   kind: performance
@@ -51,9 +51,9 @@ validation:
   - url: https://events.sulekha.com/ghazal-evening-with-ustad-hamid-ali-khan-living-legend-of-patiala-gharana_event-in_hicksville-ny_402118
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:56:40.740236-04:00'
+    checked_at: '2026-10-05T09:18:57.440670-04:00'
   problems: []
-  validated_at: '2026-10-03T12:56:40.740221-04:00'
+  validated_at: '2026-10-05T09:18:57.440648-04:00'
 curated:
   forms: []
   traditions: []

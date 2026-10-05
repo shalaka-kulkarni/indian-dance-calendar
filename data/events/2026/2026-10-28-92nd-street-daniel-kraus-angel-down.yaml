@@ -21,7 +21,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/daniel-kraus
     first_seen: '2026-09-16'
-    last_seen: '2026-10-03'
+    last_seen: '2026-10-05'
 ai:
   relevant: false
   kind: performance
@@ -48,14 +48,14 @@ validation:
   - url: https://seats.92ny.org/single/210872
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:58:53.655926-04:00'
+    checked_at: '2026-10-05T09:20:47.214336-04:00'
   - url: https://www.92ny.org/event/daniel-kraus
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:58:53.714355-04:00'
+    checked_at: '2026-10-05T09:20:47.314287-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T12:58:53.655912-04:00'
+  validated_at: '2026-10-05T09:20:47.214306-04:00'
 curated:
   forms: []
   traditions: []

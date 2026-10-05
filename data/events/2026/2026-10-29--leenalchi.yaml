@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/leenalchi
     first_seen: '2026-08-18'
-    last_seen: '2026-10-03'
+    last_seen: '2026-10-05'
 ai:
   relevant: false
   kind: performance
@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/leenalchi
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:58:56.614948-04:00'
+    checked_at: '2026-10-05T09:20:52.040399-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T12:58:56.614934-04:00'
+  validated_at: '2026-10-05T09:20:52.040373-04:00'
 curated:
   forms: []
   traditions: []

@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/second-sundays-november-2026
     first_seen: '2026-09-04'
-    last_seen: '2026-10-03'
+    last_seen: '2026-10-05'
 ai:
   relevant: false
   kind: performance
@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/second-sundays-november-2026
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:59:47.254798-04:00'
+    checked_at: '2026-10-05T09:21:51.565178-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T12:59:47.254777-04:00'
+  validated_at: '2026-10-05T09:21:51.565140-04:00'
 curated:
   forms: []
   traditions: []

@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/supper-club-with-pierce-abernathy
     first_seen: '2026-08-28'
-    last_seen: '2026-10-03'
+    last_seen: '2026-10-05'
 ai:
   relevant: false
   kind: performance
@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/supper-club-with-pierce-abernathy
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:55:51.799303-04:00'
+    checked_at: '2026-10-05T09:18:28.323423-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T12:55:51.799288-04:00'
+  validated_at: '2026-10-05T09:18:28.323408-04:00'
 curated:
   forms: []
   traditions: []

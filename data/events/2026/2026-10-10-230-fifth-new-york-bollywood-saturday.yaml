@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/new-york-bollywood-saturday-ft-dj-browny-at-230-fifth_event-in_new-york-ny_402130
     first_seen: '2026-10-02'
-    last_seen: '2026-10-03'
+    last_seen: '2026-10-05'
 ai:
   relevant: false
   kind: performance
@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/new-york-bollywood-saturday-ft-dj-browny-at-230-fifth_event-in_new-york-ny_402130
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:56:25.755665-04:00'
+    checked_at: '2026-10-05T09:18:52.487881-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T12:56:25.755489-04:00'
+  validated_at: '2026-10-05T09:18:52.487865-04:00'
 curated:
   forms: []
   traditions: []

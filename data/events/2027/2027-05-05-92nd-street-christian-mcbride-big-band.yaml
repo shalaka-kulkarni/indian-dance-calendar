@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/christian-mcbride-big-band
     first_seen: '2026-09-25'
-    last_seen: '2026-10-03'
+    last_seen: '2026-10-05'
 ai:
   relevant: false
   kind: performance
@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210686
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T13:01:45.610288-04:00'
   - url: https://www.92ny.org/event/christian-mcbride-big-band
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T13:01:45.708150-04:00'
+    checked_at: '2026-10-05T09:24:03.629011-04:00'
+  - url: https://seats.92ny.org/single/210686
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-05T09:24:05.894891-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T13:01:45.610266-04:00'
+  validated_at: '2026-10-05T09:24:03.628988-04:00'
 curated:
   forms: []
   traditions: []

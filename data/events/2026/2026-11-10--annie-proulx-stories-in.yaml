@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/annie-proulx-stories
     first_seen: '2026-08-16'
-    last_seen: '2026-10-03'
+    last_seen: '2026-10-05'
 ai:
   relevant: false
   kind: other
@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/annie-proulx-stories
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T12:59:49.950470-04:00'
   - url: https://seats.92ny.org/single/210919
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:59:51.712963-04:00'
+    checked_at: '2026-10-05T09:21:54.667038-04:00'
+  - url: https://www.92ny.org/event/annie-proulx-stories
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-05T09:21:54.756303-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T12:59:49.950447-04:00'
+  validated_at: '2026-10-05T09:21:54.667015-04:00'
 curated:
   forms: []
   traditions: []

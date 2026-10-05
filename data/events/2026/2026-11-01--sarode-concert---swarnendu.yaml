@@ -24,7 +24,7 @@ scraped:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2026/11/1/sarode-concert-swarnendu
     first_seen: '2026-08-28'
-    last_seen: '2026-10-03'
+    last_seen: '2026-10-05'
 ai:
   relevant: true
   kind: performance
@@ -53,10 +53,10 @@ validation:
   - url: https://chhandayan.org/calendar/2026/11/1/sarode-concert-swarnendu
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:59:24.371265-04:00'
+    checked_at: '2026-10-05T09:21:23.066397-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-03T12:59:24.371250-04:00'
+  validated_at: '2026-10-05T09:21:23.066372-04:00'
 curated:
   forms: []
   traditions: []

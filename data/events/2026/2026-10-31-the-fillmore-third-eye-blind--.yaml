@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/philadelphia/third-eye-blind-halloween-2026/210009206258175
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:59:23.158288-04:00'
+    checked_at: '2026-10-05T09:21:22.117497-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T12:59:23.158274-04:00'
+  validated_at: '2026-10-05T09:21:22.117471-04:00'
 curated:
   forms: []
   traditions: []

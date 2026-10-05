@@ -22,7 +22,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/jitl-mar-2027/
     first_seen: '2026-08-16'
-    last_seen: '2026-10-03'
+    last_seen: '2026-10-05'
 ai:
   relevant: false
   kind: other
@@ -50,11 +50,11 @@ validation:
   - url: https://www.sopacnow.org/events/jitl-mar-2027/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T13:01:34.551784-04:00'
+    checked_at: '2026-10-05T09:23:54.581997-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T13:01:34.551760-04:00'
+  validated_at: '2026-10-05T09:23:54.581977-04:00'
 curated:
   forms: []
   traditions: []

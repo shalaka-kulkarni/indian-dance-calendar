@@ -46,19 +46,19 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/sebastian-barry-the-newer-world
-    ok: false
-    status_code: 404
-    checked_at: '2026-10-03T12:54:16.704161-04:00'
   - url: https://seats.92ny.org/single/210960
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:54:17.404969-04:00'
+    checked_at: '2026-10-05T09:16:44.364028-04:00'
+  - url: https://www.92ny.org/event/sebastian-barry-the-newer-world
+    ok: false
+    status_code: 404
+    checked_at: '2026-10-05T09:16:44.448941-04:00'
   problems:
   - 'dead links: https://www.92ny.org/event/sebastian-barry-the-newer-world'
   - event date 2026-09-17 is in the past
   - classified not-relevant
-  validated_at: '2026-10-03T12:54:16.704136-04:00'
+  validated_at: '2026-10-05T09:16:44.364013-04:00'
 curated:
   forms: []
   traditions: []

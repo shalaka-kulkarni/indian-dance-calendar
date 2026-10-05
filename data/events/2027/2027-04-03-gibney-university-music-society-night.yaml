@@ -19,7 +19,7 @@ scraped:
   - source_id: gibney
     url: https://gibneydance.org/event/university-music-society/university-music-society-night-ii/
     first_seen: '2026-10-03'
-    last_seen: '2026-10-03'
+    last_seen: '2026-10-05'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://gibneydance.org/event/university-music-society/university-music-society-night-ii/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T13:01:40.041538-04:00'
+    checked_at: '2026-10-05T09:23:59.044628-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T13:01:40.041511-04:00'
+  validated_at: '2026-10-05T09:23:59.044613-04:00'
 curated:
   forms: []
   traditions: []

@@ -40,7 +40,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: false
     in_metro: true
     classified: false
@@ -48,11 +48,12 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/1d2baffv/2026-09-22/2026-2027-fall-for-dance-festival
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:54:36.638046-04:00'
+    checked_at: '2026-10-05T09:17:15.044314-04:00'
   problems:
+  - event date 2026-10-04 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T12:54:36.638021-04:00'
+  validated_at: '2026-10-05T09:17:15.044297-04:00'
 curated:
   forms: []
   traditions: []

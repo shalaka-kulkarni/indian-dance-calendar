@@ -19,7 +19,7 @@ scraped:
   - source_id: gibney
     url: https://gibneydance.org/event/gibney-company-at-new-york-city-center/gibney-company-at-new-york-city-center-night-iii/
     first_seen: '2026-10-03'
-    last_seen: '2026-10-03'
+    last_seen: '2026-10-05'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://gibneydance.org/event/gibney-company-at-new-york-city-center/gibney-company-at-new-york-city-center-night-iii/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T13:01:14.392438-04:00'
+    checked_at: '2026-10-05T09:23:25.346846-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T13:01:14.392417-04:00'
+  validated_at: '2026-10-05T09:23:25.346831-04:00'
 curated:
   forms: []
   traditions: []

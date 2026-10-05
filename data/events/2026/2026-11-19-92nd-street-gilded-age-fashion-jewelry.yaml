@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/gilded-age-fashion-and-jewelry
     first_seen: '2026-10-03'
-    last_seen: '2026-10-03'
+    last_seen: '2026-10-05'
 ai:
   relevant: false
   kind: performance
@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/211442
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T13:00:21.858998-04:00'
+    checked_at: '2026-10-05T09:22:28.432761-04:00'
   - url: https://www.92ny.org/event/gilded-age-fashion-and-jewelry
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T13:00:21.909706-04:00'
+    checked_at: '2026-10-05T09:22:28.520026-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T13:00:21.858979-04:00'
+  validated_at: '2026-10-05T09:22:28.432740-04:00'
 curated:
   forms: []
   traditions: []

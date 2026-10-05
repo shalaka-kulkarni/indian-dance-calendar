@@ -5,22 +5,29 @@ needs_recheck: false
 scraped:
   title: Carved in Time — Mesma Belsare & Sonali Skandan
   start: '2026-11-14T19:00:00-05:00'
+  end: '2026-11-14T21:00:00Z'
   additional_dates: []
   venue: Gibney Agnes Varis Performing Arts Center
   address: 53A Chambers St, New York, NY
   region: manhattan
+  price_min: 40.0
+  price_max: 40.0
   is_free: false
   price_note: ''
   info_url: https://www.zeffy.com/en-US/ticketing/carved-in-time
   ticket_url: https://www.zeffy.com/en-US/ticketing/carved-in-time
   description_snippet: An evening of Bharatanatyam by Sonali Skandan and Mesma Belsare with live Carnatic
     accompaniment, presented by Jiva Performing Arts.
-  content_hash: 87e5c578d7618712
+  content_hash: 4570023a233240dd
   sources:
   - source_id: manual
     url: https://www.zeffy.com/en-US/ticketing/carved-in-time
     first_seen: '2026-08-16'
     last_seen: '2026-08-16'
+  - source_id: jiva_dance
+    url: https://jivaperformingarts.org/event/carved-in-time/
+    first_seen: '2026-10-05'
+    last_seen: '2026-10-05'
 ai:
   relevant: true
   kind: performance
@@ -43,17 +50,16 @@ validation:
     specific_url: true
     links_live: true
     date_valid: true
-    price_known: false
+    price_known: true
     in_metro: true
     classified: true
   link_checks:
   - url: https://www.zeffy.com/en-US/ticketing/carved-in-time
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T13:00:05.696495-04:00'
-  problems:
-  - no price information
-  validated_at: '2026-10-03T13:00:05.696474-04:00'
+    checked_at: '2026-10-05T09:22:11.149060-04:00'
+  problems: []
+  validated_at: '2026-10-05T09:22:11.149036-04:00'
 curated:
   forms:
   - bharatanatyam

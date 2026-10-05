@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/an-evening-with-jason-robert-brown
     first_seen: '2026-09-30'
-    last_seen: '2026-10-03'
+    last_seen: '2026-10-05'
 ai:
   relevant: false
   kind: performance
@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210713
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-03T13:01:27.716180-04:00'
   - url: https://www.92ny.org/event/an-evening-with-jason-robert-brown
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T13:01:27.970182-04:00'
+    checked_at: '2026-10-05T09:23:45.618676-04:00'
+  - url: https://seats.92ny.org/single/210713
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-05T09:23:47.364394-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T13:01:27.716155-04:00'
+  validated_at: '2026-10-05T09:23:45.618654-04:00'
 curated:
   forms: []
   traditions: []

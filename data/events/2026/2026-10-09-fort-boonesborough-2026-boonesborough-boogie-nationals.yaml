@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/winchester/2026-boonesborough-boogie-nationals/200030380912854
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:56:20.769425-04:00'
+    checked_at: '2026-10-05T09:18:47.217481-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T12:56:20.769409-04:00'
+  validated_at: '2026-10-05T09:18:47.217465-04:00'
 curated:
   forms: []
   traditions: []

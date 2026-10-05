@@ -1,5 +1,5 @@
 id: 2026-10-03--vocal-concert---tharini
-status: published
+status: past
 was_published: true
 needs_recheck: false
 scraped:
@@ -44,20 +44,14 @@ validation:
   passed: true
   checks:
     has_info_url: true
-    specific_url: true
     links_live: true
-    date_valid: true
-    price_known: false
-    in_metro: true
-    classified: true
   link_checks:
   - url: https://chhandayan.org/calendar/2026/10/3/vocal-concert-tharini-nagarkar
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:55:25.818257-04:00'
-  problems:
-  - no price information
-  validated_at: '2026-10-03T12:55:25.818243-04:00'
+    checked_at: '2026-10-05T09:17:57.621850-04:00'
+  problems: []
+  validated_at: '2026-10-05T09:17:57.621848-04:00'
 curated:
   forms: []
   traditions: []

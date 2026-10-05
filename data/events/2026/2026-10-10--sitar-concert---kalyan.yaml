@@ -54,10 +54,10 @@ validation:
   - url: https://chhandayan.org/calendar/2026/10/10/sitar-concert-kalyan-majumdar
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:56:23.541297-04:00'
+    checked_at: '2026-10-05T09:18:50.417891-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-03T12:56:23.541282-04:00'
+  validated_at: '2026-10-05T09:18:50.417871-04:00'
 curated:
   forms: []
   traditions: []

@@ -20,7 +20,7 @@ scraped:
   - source_id: gibney
     url: https://gibneydance.org/event/lucinda-childs-repertory-workshop-concerto/
     first_seen: '2026-10-03'
-    last_seen: '2026-10-03'
+    last_seen: '2026-10-05'
 ai:
   relevant: false
   kind: performance
@@ -48,11 +48,11 @@ validation:
   - url: https://gibneydance.org/event/lucinda-childs-repertory-workshop-concerto/
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:55:50.701416-04:00'
+    checked_at: '2026-10-05T09:18:27.014424-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T12:55:50.701401-04:00'
+  validated_at: '2026-10-05T09:18:27.014411-04:00'
 curated:
   forms: []
   traditions: []

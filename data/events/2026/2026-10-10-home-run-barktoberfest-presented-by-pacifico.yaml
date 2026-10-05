@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/katy/barktoberfest-presented-by-pacifico/200030507943724
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:56:37.530057-04:00'
+    checked_at: '2026-10-05T09:18:54.789282-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T12:56:37.530034-04:00'
+  validated_at: '2026-10-05T09:18:54.789264-04:00'
 curated:
   forms: []
   traditions: []

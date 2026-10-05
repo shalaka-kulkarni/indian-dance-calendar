@@ -49,12 +49,12 @@ validation:
   - url: https://www.prucenter.com/events/kany-garcia
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:54:53.130140-04:00'
+    checked_at: '2026-10-05T09:17:34.109894-04:00'
   problems:
   - event date 2026-09-26 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-03T12:54:53.130114-04:00'
+  validated_at: '2026-10-05T09:17:34.109879-04:00'
 curated:
   forms: []
   traditions: []

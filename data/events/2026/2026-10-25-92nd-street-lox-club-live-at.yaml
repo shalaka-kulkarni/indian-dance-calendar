@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/lox-club-live-at-92ny
     first_seen: '2026-09-30'
-    last_seen: '2026-10-03'
+    last_seen: '2026-10-05'
 ai:
   relevant: false
   kind: performance
@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/lox-club-live-at-92ny
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:58:32.932128-04:00'
+    checked_at: '2026-10-05T09:20:28.012406-04:00'
   - url: https://seats.92ny.org/single/211412
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:58:35.559500-04:00'
+    checked_at: '2026-10-05T09:20:28.199257-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-03T12:58:32.932113-04:00'
+  validated_at: '2026-10-05T09:20:28.012381-04:00'
 curated:
   forms: []
   traditions: []

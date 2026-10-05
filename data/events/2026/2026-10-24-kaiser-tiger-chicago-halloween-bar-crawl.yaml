@@ -50,11 +50,11 @@ validation:
   - url: https://allevents.in/chicago/chicago-halloween-bar-crawl/100001951144538839
     ok: true
     status_code: 200
-    checked_at: '2026-10-03T12:58:31.049219-04:00'
+    checked_at: '2026-10-05T09:20:08.413113-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-03T12:58:31.049202-04:00'
+  validated_at: '2026-10-05T09:20:08.413085-04:00'
 curated:
   forms: []
   traditions: []
