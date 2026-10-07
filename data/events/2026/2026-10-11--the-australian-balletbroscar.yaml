@@ -20,7 +20,11 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/instances/7vqwme95/2026-10-11/2026-2027-the-australian-ballet
     first_seen: '2026-08-16'
-    last_seen: '2026-10-05'
+    last_seen: '2026-10-07'
+  - source_id: timeout_ny
+    url: https://www.timeout.com/newyork/dance/the-australian-ballet-oscar
+    first_seen: '2026-10-07'
+    last_seen: '2026-10-07'
 ai:
   relevant: false
   kind: other
@@ -47,11 +51,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/7vqwme95/2026-10-11/2026-2027-the-australian-ballet
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:27:24.405142-04:00'
+    checked_at: '2026-10-07T13:41:53.644187-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:27:24.405117-04:00'
+  validated_at: '2026-10-07T13:41:53.644158-04:00'
 curated:
   forms: []
   traditions: []

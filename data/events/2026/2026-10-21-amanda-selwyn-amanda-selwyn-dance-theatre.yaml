@@ -1,0 +1,49 @@
+id: 2026-10-21-amanda-selwyn-amanda-selwyn-dance-theatre
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Amanda Selwyn Dance Theatre Announces Fall 2026 Open Rehearsal
+  start: '2026-10-21T18:00:00-04:00'
+  additional_dates: []
+  venue: Amanda Selwyn Dance Studio
+  address: ''
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://www.dance-enthusiast.com/dance-listings/events/view/Amanda-Selwyn-Dance-Theatre-Announces-Fall-2026-Open-Rehearsal-2026-10-21
+  ticket_url: ''
+  description_snippet: Amanda Selwyn Dance Theatre Announces Fall 2026 Open Rehearsal Amanda Selwyn Dance
+    Studio Wed. October, 21 @ 6:00pm
+  content_hash: 0f77915ee0fee010
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/Amanda-Selwyn-Dance-Theatre-Announces-Fall-2026-Open-Rehearsal-2026-10-21
+    first_seen: '2026-10-07'
+    last_seen: '2026-10-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://www.dance-enthusiast.com/dance-listings/events/view/Amanda-Selwyn-Dance-Theatre-Announces-Fall-2026-Open-Rehearsal-2026-10-21
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-07T13:43:14.231982-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-10-07T13:43:14.231952-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211264
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-05T09:28:26.276678-04:00'
   - url: https://www.92ny.org/event/excuse-my-grandma
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:28:26.299388-04:00'
+    checked_at: '2026-10-07T13:43:09.101905-04:00'
+  - url: https://seats.92ny.org/single/211264
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-07T13:43:09.193226-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-05T09:28:26.276648-04:00'
+  validated_at: '2026-10-07T13:43:09.101874-04:00'
 curated:
   forms: []
   traditions: []

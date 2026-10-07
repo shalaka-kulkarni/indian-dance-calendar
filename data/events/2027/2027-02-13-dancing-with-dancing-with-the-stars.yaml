@@ -1,0 +1,48 @@
+id: 2027-02-13-dancing-with-dancing-with-the-stars
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Dancing with the Stars: Live!'
+  start: '2027-02-13T19:30:00-05:00'
+  end: '2027-02-13T23:30:00-05:00'
+  additional_dates: []
+  venue: 'Dancing with the Stars: Live!'
+  address: 'Dancing with the Stars: Live!'
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.prucenter.com/events/dancing-with-the-stars-live
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: c02516a1c78cf89d
+  sources:
+  - source_id: prudential_center
+    url: https://www.prucenter.com/events/dancing-with-the-stars-live
+    first_seen: '2026-10-07'
+    last_seen: '2026-10-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.prucenter.com/events/dancing-with-the-stars-live
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-07T13:48:13.851975-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-07T13:48:13.851954-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

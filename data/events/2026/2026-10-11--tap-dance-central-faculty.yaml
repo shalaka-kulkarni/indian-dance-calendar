@@ -20,7 +20,7 @@ scraped:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Tap-Dance-Central-Faculty-Choreography-Spotlight-2026-10-11
     first_seen: '2026-10-03'
-    last_seen: '2026-10-05'
+    last_seen: '2026-10-07'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Tap-Dance-Central-Faculty-Choreography-Spotlight-2026-10-11
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:27:24.245821-04:00'
+    checked_at: '2026-10-07T13:41:53.481745-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:27:24.245796-04:00'
+  validated_at: '2026-10-07T13:41:53.481698-04:00'
 curated:
   forms: []
   traditions: []

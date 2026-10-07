@@ -49,11 +49,11 @@ validation:
   - url: https://events.sulekha.com/bollywaves-the-end-of-summer-cruise-party_event-in_new-york-ny_401073
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:26:08.166938-04:00'
+    checked_at: '2026-10-07T13:40:01.524107-04:00'
   problems:
   - event date 2026-09-19 is in the past
   - classified not-relevant
-  validated_at: '2026-10-05T09:26:08.166913-04:00'
+  validated_at: '2026-10-07T13:40:01.524077-04:00'
 curated:
   forms: []
   traditions: []

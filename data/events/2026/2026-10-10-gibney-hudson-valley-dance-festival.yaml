@@ -1,0 +1,50 @@
+id: 2026-10-10-gibney-hudson-valley-dance-festival
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Hudson Valley Dance Festival: Show II'
+  start: '2026-10-10T17:00:00-04:00'
+  additional_dates: []
+  venue: Gibney
+  address: New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://gibneydance.org/event/hudson-valley-dance-festival-2026/hudson-valley-dance-festival-show-ii/
+  ticket_url: ''
+  description_snippet: What You&#8217;ll See Gibney Company performs an excerpt of Johan Inger’s Rain
+    Dogs, a kinetic contemporary work inspired by the image of a dog that ventures beyond its territory,
+    only to lose the scent of home when its trail is washed away by rain. Set to the gravelly soundscape
+    of Tom Waits, the work explores [&hellip;]
+  content_hash: 163eb0e981c0e45e
+  sources:
+  - source_id: gibney
+    url: https://gibneydance.org/event/hudson-valley-dance-festival-2026/hudson-valley-dance-festival-show-ii/
+    first_seen: '2026-10-07'
+    last_seen: '2026-10-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://gibneydance.org/event/hudson-valley-dance-festival-2026/hudson-valley-dance-festival-show-ii/
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-07T13:41:48.671259-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-07T13:41:48.671226-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

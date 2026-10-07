@@ -20,7 +20,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/nick-cannon-wild-n-out
     first_seen: '2026-09-18'
-    last_seen: '2026-10-05'
+    last_seen: '2026-10-07'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://www.prucenter.com/events/nick-cannon-wild-n-out
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:30:58.303153-04:00'
+    checked_at: '2026-10-07T13:47:19.958800-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:30:58.303131-04:00'
+  validated_at: '2026-10-07T13:47:19.958774-04:00'
 curated:
   forms: []
   traditions: []

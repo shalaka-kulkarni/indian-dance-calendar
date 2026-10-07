@@ -20,7 +20,7 @@ scraped:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Benjamin-Akio-Kimitch-Presents-Allegra-World-Premiere-2026-10-08_10
     first_seen: '2026-10-03'
-    last_seen: '2026-10-05'
+    last_seen: '2026-10-07'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Benjamin-Akio-Kimitch-Presents-Allegra-World-Premiere-2026-10-08_10
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:27:10.771200-04:00'
+    checked_at: '2026-10-07T13:41:36.227097-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:27:10.771174-04:00'
+  validated_at: '2026-10-07T13:41:36.227073-04:00'
 curated:
   forms: []
   traditions: []

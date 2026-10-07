@@ -21,7 +21,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/so-jewish-comedy-night-26/
     first_seen: '2026-08-21'
-    last_seen: '2026-10-05'
+    last_seen: '2026-10-07'
 ai:
   relevant: false
   kind: performance
@@ -48,11 +48,11 @@ validation:
   - url: https://www.sopacnow.org/events/so-jewish-comedy-night-26/
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:31:00.282268-04:00'
+    checked_at: '2026-10-07T13:47:28.787237-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:31:00.282247-04:00'
+  validated_at: '2026-10-07T13:47:28.787214-04:00'
 curated:
   forms: []
   traditions: []

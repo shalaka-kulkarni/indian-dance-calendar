@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/walter-isaacson-and-mustafa-suleyman
     first_seen: '2026-09-25'
-    last_seen: '2026-09-28'
+    last_seen: '2026-10-07'
 ai:
   relevant: false
   kind: performance
@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211378
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-05T09:27:33.679128-04:00'
   - url: https://www.92ny.org/event/walter-isaacson-and-mustafa-suleyman
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:27:33.688258-04:00'
+    checked_at: '2026-10-07T13:42:07.771875-04:00'
+  - url: https://seats.92ny.org/single/211378
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-07T13:42:10.099899-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-05T09:27:33.679101-04:00'
+  validated_at: '2026-10-07T13:42:07.771843-04:00'
 curated:
   forms: []
   traditions: []

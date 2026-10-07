@@ -21,7 +21,7 @@ scraped:
   - source_id: queens_theatre
     url: https://queenstheatre.org/events/the-beatles-f78q
     first_seen: '2026-09-21'
-    last_seen: '2026-10-05'
+    last_seen: '2026-10-07'
 ai:
   relevant: false
   kind: performance
@@ -48,11 +48,11 @@ validation:
   - url: https://queenstheatre.org/events/the-beatles-f78q
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:30:17.216855-04:00'
+    checked_at: '2026-10-07T13:46:32.402381-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:30:17.216834-04:00'
+  validated_at: '2026-10-07T13:46:32.402358-04:00'
 curated:
   forms: []
   traditions: []

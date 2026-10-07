@@ -19,7 +19,7 @@ scraped:
   - source_id: gibney
     url: https://gibneydance.org/event/penn-arts-live/penn-live-arts-show-ii/
     first_seen: '2026-10-03'
-    last_seen: '2026-10-05'
+    last_seen: '2026-10-07'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://gibneydance.org/event/penn-arts-live/penn-live-arts-show-ii/
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:31:44.618677-04:00'
+    checked_at: '2026-10-07T13:48:33.226850-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:31:44.618653-04:00'
+  validated_at: '2026-10-07T13:48:33.226824-04:00'
 curated:
   forms: []
   traditions: []

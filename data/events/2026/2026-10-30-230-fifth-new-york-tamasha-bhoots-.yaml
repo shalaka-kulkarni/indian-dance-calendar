@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/new-york-tamasha-bhoots-bollywood-halloween-party-at-230-fifth-rooftop_event-in_new-york-ny_402117
     first_seen: '2026-09-30'
-    last_seen: '2026-10-05'
+    last_seen: '2026-10-07'
 ai:
   relevant: false
   kind: performance
@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/new-york-tamasha-bhoots-bollywood-halloween-party-at-230-fifth-rooftop_event-in_new-york-ny_402117
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:29:23.326914-04:00'
+    checked_at: '2026-10-07T13:44:49.424749-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-05T09:29:23.326890-04:00'
+  validated_at: '2026-10-07T13:44:49.424706-04:00'
 curated:
   forms: []
   traditions: []

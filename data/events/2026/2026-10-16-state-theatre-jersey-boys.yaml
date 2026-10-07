@@ -1,0 +1,59 @@
+id: 2026-10-16-state-theatre-jersey-boys
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Jersey Boys
+  start: '2026-10-16T19:30:00-04:00'
+  end: '2026-10-17T19:30:00-04:00'
+  additional_dates: []
+  venue: State Theatre New Jersey
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  price_min: 52.0
+  price_max: 52.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/jersey-boys-2026
+  ticket_url: https://my.stnj.org/overview/25048
+  description_snippet: The original Broadway sensation returns to STNJ! Celebrating 20 years—Jersey style!They
+    were just four guys from Jersey, until they sang their very first note. They had a sound nobody had
+    ever heard… and the radio just couldn’t get enough of. But while their harmonies were perfect on stage,
+    off stage it was a very different story—a story that has made them an international sensation all
+    over again. The show features all their hits including “Sherry,” “Big Girls Don’t Cry,” “Oh What a
+    Night,” “Walk Like a Man,” “Can’t Take My Eyes Off You,” “Beggin&#39;,” and “Working My Way Back to
+    You.”Go beh
+  content_hash: 09a203a8cae260f6
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/jersey-boys-2026
+    first_seen: '2026-10-07'
+    last_seen: '2026-10-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.stnj.org/events/detail/jersey-boys-2026
+    ok: true
+    status_code: 406
+    checked_at: '2026-10-07T13:42:40.046897-04:00'
+  - url: https://my.stnj.org/overview/25048
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-07T13:42:40.092142-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-07T13:42:40.046868-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

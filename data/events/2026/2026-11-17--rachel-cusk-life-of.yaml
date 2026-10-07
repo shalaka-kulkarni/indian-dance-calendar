@@ -1,0 +1,47 @@
+id: 2026-11-17--rachel-cusk-life-of
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Rachel Cusk: Life of M'
+  start: '2026-11-17T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: brooklyn
+  is_free: false
+  price_note: ''
+  info_url: https://pioneerworks.org/programs/rachel-cusk-life-of-m
+  ticket_url: ''
+  description_snippet: 'program Tuesday, Nov 17, 2026 Rachel Cusk: Life of M'
+  content_hash: 501475e32e837caa
+  sources:
+  - source_id: pioneer_works
+    url: https://pioneerworks.org/programs/rachel-cusk-life-of-m
+    first_seen: '2026-10-07'
+    last_seen: '2026-10-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://pioneerworks.org/programs/rachel-cusk-life-of-m
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-07T13:46:43.607135-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-07T13:46:43.607113-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

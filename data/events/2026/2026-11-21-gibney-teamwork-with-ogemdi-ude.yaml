@@ -22,7 +22,7 @@ scraped:
   - source_id: gibney
     url: https://gibneydance.org/event/teamwork-with-ogemdi-ude/
     first_seen: '2026-10-03'
-    last_seen: '2026-10-05'
+    last_seen: '2026-10-07'
 ai:
   relevant: false
   kind: performance
@@ -50,11 +50,11 @@ validation:
   - url: https://gibneydance.org/event/teamwork-with-ogemdi-ude/
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:30:38.935320-04:00'
+    checked_at: '2026-10-07T13:46:56.509447-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:30:38.935300-04:00'
+  validated_at: '2026-10-07T13:46:56.509423-04:00'
 curated:
   forms: []
   traditions: []

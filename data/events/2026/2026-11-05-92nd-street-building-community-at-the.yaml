@@ -1,0 +1,54 @@
+id: 2026-11-05-92nd-street-building-community-at-the
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Building Community at the 21st-Century University: Vanderbilt University Chancellor Daniel Diermeier
+    and Columbia University President Jennifer Mnookin'
+  start: '2026-11-05T19:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 25.0
+  price_max: 25.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/building-community-at-the-21st-century-university
+  ticket_url: https://seats.92ny.org/single/211468
+  description_snippet: Daniel Diermeier and Jennifer Mnookin discuss how universities can build community,
+    embrace disagreement, and navigate polarization, AI, and rapid change.
+  content_hash: 45e0855329895427
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/building-community-at-the-21st-century-university
+    first_seen: '2026-10-07'
+    last_seen: '2026-10-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/building-community-at-the-21st-century-university
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-07T13:45:46.204187-04:00'
+  - url: https://seats.92ny.org/single/211468
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-07T13:45:50.459665-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-07T13:45:46.204160-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

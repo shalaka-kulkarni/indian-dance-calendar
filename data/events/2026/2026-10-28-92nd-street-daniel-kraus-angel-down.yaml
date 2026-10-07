@@ -45,17 +45,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/daniel-kraus
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-05T09:29:09.129517-04:00'
   - url: https://seats.92ny.org/single/210872
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:29:13.306218-04:00'
+    checked_at: '2026-10-07T13:44:31.883200-04:00'
+  - url: https://www.92ny.org/event/daniel-kraus
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-07T13:44:31.914281-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-05T09:29:09.129495-04:00'
+  validated_at: '2026-10-07T13:44:31.883174-04:00'
 curated:
   forms: []
   traditions: []

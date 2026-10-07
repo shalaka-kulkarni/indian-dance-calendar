@@ -24,7 +24,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/kent-place-mamma-mia/
     first_seen: '2026-09-28'
-    last_seen: '2026-10-05'
+    last_seen: '2026-10-07'
 ai:
   relevant: false
   kind: performance
@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/kent-place-mamma-mia/
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:29:48.011911-04:00'
+    checked_at: '2026-10-07T13:45:59.121958-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:29:48.011890-04:00'
+  validated_at: '2026-10-07T13:45:59.121931-04:00'
 curated:
   forms: []
   traditions: []

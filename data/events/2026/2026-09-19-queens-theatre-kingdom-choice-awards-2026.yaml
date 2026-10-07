@@ -49,12 +49,12 @@ validation:
   - url: https://queenstheatre.org/events/kingdom-choice-awards-2026-dqr9
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:26:07.063640-04:00'
+    checked_at: '2026-10-07T13:40:00.187277-04:00'
   problems:
   - event date 2026-09-19 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:26:07.063617-04:00'
+  validated_at: '2026-10-07T13:40:00.187250-04:00'
 curated:
   forms: []
   traditions: []

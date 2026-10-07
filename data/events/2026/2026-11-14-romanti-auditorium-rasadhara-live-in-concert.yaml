@@ -1,0 +1,49 @@
+id: 2026-11-14-romanti-auditorium-rasadhara-live-in-concert
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Rasadhara – Live In Concert
+  start: '2026-11-14T18:30:00-04:00'
+  end: '2026-11-14T21:00:00-04:00'
+  additional_dates: []
+  venue: Romanti Auditorium, Bharatiya Vidya Bhavan USA
+  address: 305 7th Ave C, New York, NY
+  region: manhattan
+  price_min: 45.0
+  price_max: 45.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/rasadhara-live-in-concert_event-in_new-york-ny_402196
+  ticket_url: https://events.sulekha.com/rasadhara-live-in-concert_event-in_new-york-ny_402196
+  description_snippet: Rasadhara – Live In Concert
+  content_hash: e5b9bf2636a080de
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/rasadhara-live-in-concert_event-in_new-york-ny_402196
+    first_seen: '2026-10-07'
+    last_seen: '2026-10-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/rasadhara-live-in-concert_event-in_new-york-ny_402196
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-07T13:46:33.558185-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-07T13:46:33.558160-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

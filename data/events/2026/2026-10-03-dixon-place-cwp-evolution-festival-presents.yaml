@@ -52,12 +52,12 @@ validation:
   - url: https://www.centeratwestpark.org/calendar/2026/10/3/cwp-evolution-festival-presents-baggage-from-baghdad-becoming-my-fathers-daughter
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:26:53.912711-04:00'
+    checked_at: '2026-10-07T13:41:12.264282-04:00'
   problems:
   - event date 2026-10-03 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:26:53.912679-04:00'
+  validated_at: '2026-10-07T13:41:12.264252-04:00'
 curated:
   forms: []
   traditions: []

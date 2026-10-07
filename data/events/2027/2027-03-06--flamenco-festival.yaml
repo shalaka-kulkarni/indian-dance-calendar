@@ -20,7 +20,7 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/instances/9wxdck96/2027-03-05/2026-2027-flamenco-festival
     first_seen: '2026-08-21'
-    last_seen: '2026-10-05'
+    last_seen: '2026-10-07'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/9wxdck96/2027-03-05/2026-2027-flamenco-festival
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:31:37.790612-04:00'
+    checked_at: '2026-10-07T13:48:19.286251-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:31:37.790591-04:00'
+  validated_at: '2026-10-07T13:48:19.286229-04:00'
 curated:
   forms: []
   traditions: []

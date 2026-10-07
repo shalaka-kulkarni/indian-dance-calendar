@@ -19,7 +19,7 @@ scraped:
   - source_id: gibney
     url: https://gibneydance.org/event/vim-vigor-contemporary-floorwork-practice-with-shannon-gillen/
     first_seen: '2026-10-03'
-    last_seen: '2026-10-05'
+    last_seen: '2026-10-07'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://gibneydance.org/event/vim-vigor-contemporary-floorwork-practice-with-shannon-gillen/
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:29:53.193778-04:00'
+    checked_at: '2026-10-07T13:46:03.596602-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:29:53.193757-04:00'
+  validated_at: '2026-10-07T13:46:03.596578-04:00'
 curated:
   forms: []
   traditions: []

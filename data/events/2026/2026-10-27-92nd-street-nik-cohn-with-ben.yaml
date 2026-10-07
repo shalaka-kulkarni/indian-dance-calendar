@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/nik-cohn-with-ben-ratliff-corner-boy
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-05T09:29:07.261460-04:00'
   - url: https://seats.92ny.org/single/211252
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:29:07.323027-04:00'
+    checked_at: '2026-10-07T13:44:26.767171-04:00'
+  - url: https://www.92ny.org/event/nik-cohn-with-ben-ratliff-corner-boy
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-07T13:44:26.790952-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-05T09:29:07.261436-04:00'
+  validated_at: '2026-10-07T13:44:26.767140-04:00'
 curated:
   forms: []
   traditions: []

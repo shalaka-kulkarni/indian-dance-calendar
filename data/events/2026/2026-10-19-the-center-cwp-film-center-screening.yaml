@@ -24,7 +24,7 @@ scraped:
   - source_id: center_at_west_park
     url: https://www.centeratwestpark.org/calendar/2026/10/19/cwp-film-center-screening-of-no-accident
     first_seen: '2026-10-03'
-    last_seen: '2026-10-05'
+    last_seen: '2026-10-07'
 ai:
   relevant: false
   kind: performance
@@ -51,11 +51,11 @@ validation:
   - url: https://www.centeratwestpark.org/calendar/2026/10/19/cwp-film-center-screening-of-no-accident
     ok: true
     status_code: 200
-    checked_at: '2026-10-05T09:28:19.221426-04:00'
+    checked_at: '2026-10-07T13:43:00.558519-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-05T09:28:19.221391-04:00'
+  validated_at: '2026-10-07T13:43:00.558492-04:00'
 curated:
   forms: []
   traditions: []

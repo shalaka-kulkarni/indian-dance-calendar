@@ -1,0 +1,54 @@
+id: 2026-11-11-92nd-street-apple-tvs-12-12
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Apple TV’s 12 12 12 : Advance Screening with Anthony Mackie and Jamie Dornan in Conversation
+    with Josh Horowitz'
+  start: '2026-11-11T20:00:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 40.0
+  price_max: 40.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/apple-tv-s-12-12-12
+  ticket_url: https://seats.92ny.org/single/211450
+  description_snippet: Anthony Mackie and Jamie Dornan join Josh Horowitz for a special screening and
+    conversation about 12 12 12 , Apple TV’s new heist thriller.
+  content_hash: 568670c5bfa22d55
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/apple-tv-s-12-12-12
+    first_seen: '2026-10-07'
+    last_seen: '2026-10-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/apple-tv-s-12-12-12
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-07T13:46:18.004501-04:00'
+  - url: https://seats.92ny.org/single/211450
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-07T13:46:20.557819-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-07T13:46:18.004475-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

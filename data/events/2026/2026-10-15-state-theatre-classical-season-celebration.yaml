@@ -1,0 +1,48 @@
+id: 2026-10-15-state-theatre-classical-season-celebration
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Classical Season Celebration
+  start: '2026-10-15T18:00:00-04:00'
+  end: '2026-10-15T21:00:00-04:00'
+  additional_dates: []
+  venue: State Theatre New Jersey
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/csc2025-1
+  ticket_url: ''
+  description_snippet: Learn more here.
+  content_hash: 01ca719a302a0f27
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/csc2025-1
+    first_seen: '2026-10-07'
+    last_seen: '2026-10-07'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.stnj.org/events/detail/csc2025-1
+    ok: true
+    status_code: 406
+    checked_at: '2026-10-07T13:42:38.058824-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-07T13:42:38.058792-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}
