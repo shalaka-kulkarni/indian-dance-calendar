@@ -1,5 +1,5 @@
 id: 2026-11-17--rachel-cusk-life-of
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -20,25 +20,34 @@ scraped:
     url: https://pioneerworks.org/programs/rachel-cusk-life-of-m
     first_seen: '2026-10-07'
     last_seen: '2026-10-07'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: author reading.'
+  model: claude-fable-5-1
+  classified_at: '2026-10-07'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://pioneerworks.org/programs/rachel-cusk-life-of-m
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-07T13:46:43.607135-04:00'
+  link_checks: []
   problems:
+  - links not yet verified (offline run)
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-10-07T13:46:43.607113-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-07T16:53:10.016733-04:00'
 curated:
   forms: []
   traditions: []

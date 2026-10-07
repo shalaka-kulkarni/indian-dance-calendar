@@ -21,6 +21,19 @@ scraped:
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Dasamahavidya-The-Search-for-Wisdom-2026-10-15
     first_seen: '2026-10-07'
     last_seen: '2026-10-07'
+ai:
+  relevant: true
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: medium
+  reasoning: Dance work on the Dasamahavidya, the ten Hindu goddesses, in a Gibney studio; the listing
+    names the piece and nothing of the form or artists.
+  model: claude-fable-5-1
+  classified_at: '2026-10-07'
 validation:
   passed: false
   checks:

@@ -23,6 +23,19 @@ scraped:
     url: https://events.sulekha.com/rasadhara-live-in-concert_event-in_new-york-ny_402196
     first_seen: '2026-10-07'
     last_seen: '2026-10-07'
+ai:
+  relevant: true
+  kind: performance
+  art_form: music
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: medium
+  reasoning: Concert at Bharatiya Vidya Bhavan USA listed on an Indian community platform; the listing
+    gives the name and nothing of the programme.
+  model: claude-fable-5-1
+  classified_at: '2026-10-07'
 validation:
   passed: false
   checks:
