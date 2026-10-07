@@ -49,10 +49,10 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/The-Journey-of-Kuchipudi-From-Yakshaganam-to-the-Solo-2026-10-15
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T13:42:37.233291-04:00'
+    checked_at: '2026-10-07T17:06:34.658070-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-07T13:42:37.233256-04:00'
+  validated_at: '2026-10-07T17:06:34.658044-04:00'
 curated:
   forms: []
   traditions: []

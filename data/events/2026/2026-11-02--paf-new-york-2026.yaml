@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/paf-new-york-2026-bestiary-of-darkness
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T13:44:57.140038-04:00'
+    checked_at: '2026-10-07T17:07:34.015297-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-07T13:44:57.140014-04:00'
+  validated_at: '2026-10-07T17:07:34.015275-04:00'
 curated:
   forms: []
   traditions: []

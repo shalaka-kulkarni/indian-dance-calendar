@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/shemekia-copeland-jontavious-willis/
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T13:46:55.762098-04:00'
+    checked_at: '2026-10-07T17:08:02.213317-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-07T13:46:55.762073-04:00'
+  validated_at: '2026-10-07T17:08:02.213292-04:00'
 curated:
   forms: []
   traditions: []

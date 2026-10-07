@@ -48,13 +48,13 @@ validation:
   - url: https://allevents.in/gainesville/mba-fall-open-house/100001997843898882
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T13:41:13.373490-04:00'
+    checked_at: '2026-10-07T17:05:21.692156-04:00'
   problems:
   - event date 2026-10-03 is in the past
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-07T13:41:13.373458-04:00'
+  validated_at: '2026-10-07T17:05:21.692128-04:00'
 curated:
   forms: []
   traditions: []

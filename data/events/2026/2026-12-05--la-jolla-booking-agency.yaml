@@ -52,11 +52,11 @@ validation:
   - url: https://www.sopacnow.org/events/christmas-with-the-beatles/
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T13:47:15.475890-04:00'
+    checked_at: '2026-10-07T17:08:07.585190-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-07T13:47:15.475864-04:00'
+  validated_at: '2026-10-07T17:08:07.585165-04:00'
 curated:
   forms: []
   traditions: []

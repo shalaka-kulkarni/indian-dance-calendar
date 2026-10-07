@@ -48,11 +48,11 @@ validation:
   - url: https://www.prucenter.com/events/jo-koy
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T13:48:39.421865-04:00'
+    checked_at: '2026-10-07T17:08:26.101058-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-07T13:48:39.421835-04:00'
+  validated_at: '2026-10-07T17:08:26.101034-04:00'
 curated:
   forms: []
   traditions: []

@@ -40,16 +40,19 @@ validation:
   checks:
     has_info_url: true
     specific_url: true
-    links_live: false
+    links_live: true
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks: []
+  link_checks:
+  - url: https://events.sulekha.com/bbb-big-b-s-birthday-brunch_event-in_commack-ny_402190
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-07T17:07:31.451779-04:00'
   problems:
-  - links not yet verified (offline run)
   - classified not-relevant
-  validated_at: '2026-10-07T16:53:28.736985-04:00'
+  validated_at: '2026-10-07T17:07:31.451753-04:00'
 curated:
   forms: []
   traditions: []

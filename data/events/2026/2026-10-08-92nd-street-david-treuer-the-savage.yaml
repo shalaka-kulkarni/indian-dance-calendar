@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210957
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-07T13:41:37.584501-04:00'
   - url: https://www.92ny.org/event/david-treuer-the-savage-mind
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T13:41:38.294350-04:00'
+    checked_at: '2026-10-07T17:05:47.697073-04:00'
+  - url: https://seats.92ny.org/single/210957
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-07T17:05:52.177596-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-07T13:41:37.584469-04:00'
+  validated_at: '2026-10-07T17:05:47.697048-04:00'
 curated:
   forms: []
   traditions: []

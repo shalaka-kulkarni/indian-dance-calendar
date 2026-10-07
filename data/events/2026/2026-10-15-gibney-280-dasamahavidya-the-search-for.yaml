@@ -1,6 +1,6 @@
 id: 2026-10-15-gibney-280-dasamahavidya-the-search-for
-status: needs_attention
-was_published: false
+status: published
+was_published: true
 needs_recheck: false
 scraped:
   title: 'Dasamahavidya: The Search for Wisdom'
@@ -35,7 +35,7 @@ ai:
   model: claude-fable-5-1
   classified_at: '2026-10-07'
 validation:
-  passed: false
+  passed: true
   checks:
     has_info_url: true
     specific_url: true
@@ -43,16 +43,15 @@ validation:
     date_valid: true
     price_known: false
     in_metro: true
-    classified: false
+    classified: true
   link_checks:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Dasamahavidya-The-Search-for-Wisdom-2026-10-15
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T13:42:37.908820-04:00'
+    checked_at: '2026-10-07T17:06:35.337054-04:00'
   problems:
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-10-07T13:42:37.908793-04:00'
+  validated_at: '2026-10-07T17:06:35.337029-04:00'
 curated:
   forms: []
   traditions: []

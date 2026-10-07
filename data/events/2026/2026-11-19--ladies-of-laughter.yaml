@@ -52,11 +52,11 @@ validation:
   - url: https://www.sopacnow.org/events/ladies-of-laughter-nov-26/
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T13:46:53.517156-04:00'
+    checked_at: '2026-10-07T17:08:00.885540-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-07T13:46:53.517131-04:00'
+  validated_at: '2026-10-07T17:08:00.885515-04:00'
 curated:
   forms: []
   traditions: []

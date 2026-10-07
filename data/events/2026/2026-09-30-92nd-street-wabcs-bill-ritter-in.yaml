@@ -47,18 +47,18 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211063
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-07T13:40:53.335883-04:00'
   - url: https://www.92ny.org/event/wabc-s-bill-ritter-with-allison-gilbert
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T13:40:53.364038-04:00'
+    checked_at: '2026-10-07T17:05:08.277596-04:00'
+  - url: https://seats.92ny.org/single/211063
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-07T17:05:08.490319-04:00'
   problems:
   - event date 2026-09-30 is in the past
   - classified not-relevant
-  validated_at: '2026-10-07T13:40:53.335850-04:00'
+  validated_at: '2026-10-07T17:05:08.277572-04:00'
 curated:
   forms: []
   traditions: []

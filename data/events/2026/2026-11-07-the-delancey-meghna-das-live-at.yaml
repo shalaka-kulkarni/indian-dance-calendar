@@ -49,10 +49,10 @@ validation:
   - url: https://allevents.in/new-york/meghna-das-live-at-the-delancey/100002000052190943
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T13:46:04.800016-04:00'
+    checked_at: '2026-10-07T17:07:42.766428-04:00'
   problems:
   - relevance confidence too low for auto-publish
-  validated_at: '2026-10-07T13:46:04.799992-04:00'
+  validated_at: '2026-10-07T17:07:42.766402-04:00'
 curated:
   forms: []
   traditions: []

@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/virginia-beach/4th-annual-trunk-or-treat-at-doubletree-virginia-beach-tickets/100001997975006027
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T13:43:58.195449-04:00'
+    checked_at: '2026-10-07T17:07:03.097979-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-07T13:43:58.195421-04:00'
+  validated_at: '2026-10-07T17:07:03.097952-04:00'
 curated:
   forms: []
   traditions: []

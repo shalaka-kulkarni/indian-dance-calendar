@@ -46,12 +46,12 @@ validation:
   link_checks:
   - url: https://www.nycitycenter.org/events/instances/4d4eqbxb/2027-05-13/2026-2027-paris-opera-ballet
     ok: true
-    status_code: 200
-    checked_at: '2026-10-07T13:48:39.782576-04:00'
+    status_code: 429
+    checked_at: '2026-10-07T17:08:26.522888-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-07T13:48:39.782549-04:00'
+  validated_at: '2026-10-07T17:08:26.522864-04:00'
 curated:
   forms: []
   traditions: []

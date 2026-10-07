@@ -47,11 +47,11 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Tap-Dance-Central-Faculty-Choreography-Spotlight-2026-10-11
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T13:41:53.481745-04:00'
+    checked_at: '2026-10-07T17:06:05.533423-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-07T13:41:53.481698-04:00'
+  validated_at: '2026-10-07T17:06:05.533398-04:00'
 curated:
   forms: []
   traditions: []

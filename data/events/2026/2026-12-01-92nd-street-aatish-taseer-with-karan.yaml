@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/the-rootless-elysium
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-07T13:47:01.298404-04:00'
   - url: https://seats.92ny.org/single/211193
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T13:47:03.192094-04:00'
+    checked_at: '2026-10-07T17:08:04.259504-04:00'
+  - url: https://www.92ny.org/event/the-rootless-elysium
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-07T17:08:04.349818-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-07T13:47:01.298380-04:00'
+  validated_at: '2026-10-07T17:08:04.259479-04:00'
 curated:
   forms: []
   traditions: []

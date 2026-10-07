@@ -47,12 +47,12 @@ validation:
   - url: https://pioneerworks.org/programs/colin-stetson-and-brighde-chaimbeul-duo
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T13:39:33.745822-04:00'
+    checked_at: '2026-10-07T17:04:29.059148-04:00'
   problems:
   - event date 2026-09-15 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-07T13:39:33.745791-04:00'
+  validated_at: '2026-10-07T17:04:29.059121-04:00'
 curated:
   forms: []
   traditions: []

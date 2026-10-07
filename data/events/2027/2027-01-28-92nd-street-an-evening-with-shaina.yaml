@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210716
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-07T13:48:03.849348-04:00'
   - url: https://www.92ny.org/event/an-evening-with-shaina-taub
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T13:48:03.859323-04:00'
+    checked_at: '2026-10-07T17:08:18.100596-04:00'
+  - url: https://seats.92ny.org/single/210716
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-07T17:08:18.227087-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-07T13:48:03.849323-04:00'
+  validated_at: '2026-10-07T17:08:18.100570-04:00'
 curated:
   forms: []
   traditions: []

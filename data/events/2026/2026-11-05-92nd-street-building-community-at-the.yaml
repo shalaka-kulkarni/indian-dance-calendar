@@ -41,16 +41,23 @@ validation:
   checks:
     has_info_url: true
     specific_url: true
-    links_live: false
+    links_live: true
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks: []
+  link_checks:
+  - url: https://www.92ny.org/event/building-community-at-the-21st-century-university
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-07T17:07:37.180631-04:00'
+  - url: https://seats.92ny.org/single/211468
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-07T17:07:37.345313-04:00'
   problems:
-  - links not yet verified (offline run)
   - classified not-relevant
-  validated_at: '2026-10-07T16:53:09.991142-04:00'
+  validated_at: '2026-10-07T17:07:37.180590-04:00'
 curated:
   forms: []
   traditions: []
