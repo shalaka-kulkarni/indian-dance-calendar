@@ -1,5 +1,5 @@
 id: 2026-10-31-saffire-modern-bbb-big-bs-birthday
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -23,24 +23,33 @@ scraped:
     url: https://events.sulekha.com/bbb-big-b-s-birthday-brunch_event-in_commack-ny_402190
     first_seen: '2026-10-07'
     last_seen: '2026-10-07'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: restaurant brunch party, a social event rather than a performance.'
+  model: claude-fable-5-1
+  classified_at: '2026-10-07'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://events.sulekha.com/bbb-big-b-s-birthday-brunch_event-in_commack-ny_402190
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-07T13:44:55.527955-04:00'
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-10-07T13:44:55.527930-04:00'
+  - links not yet verified (offline run)
+  - classified not-relevant
+  validated_at: '2026-10-07T16:53:28.736985-04:00'
 curated:
   forms: []
   traditions: []
