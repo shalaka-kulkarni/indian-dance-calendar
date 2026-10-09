@@ -19,7 +19,7 @@ scraped:
   - source_id: cmana
     url: https://www.cmana.org/etn/2026-teachers-day/
     first_seen: '2026-09-18'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: true
   kind: community
@@ -49,11 +49,11 @@ validation:
   - url: https://www.cmana.org/etn/2026-teachers-day/
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:07:26.861610-04:00'
+    checked_at: '2026-10-09T13:19:02.632576-04:00'
   problems:
   - no price information
   - relevance confidence too low for auto-publish
-  validated_at: '2026-10-07T17:07:26.861580-04:00'
+  validated_at: '2026-10-09T13:19:02.632552-04:00'
 curated:
   forms: []
   traditions: []

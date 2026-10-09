@@ -20,7 +20,7 @@ scraped:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Compagnie-Herv-KOUBI-Sol-Invictus-2026-10-15
     first_seen: '2026-10-03'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -47,12 +47,12 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Compagnie-Herv-KOUBI-Sol-Invictus-2026-10-15
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:06:34.018691-04:00'
+    checked_at: '2026-10-09T13:17:14.083416-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-07T17:06:34.018665-04:00'
+  validated_at: '2026-10-09T13:17:14.083395-04:00'
 curated:
   forms: []
   traditions: []

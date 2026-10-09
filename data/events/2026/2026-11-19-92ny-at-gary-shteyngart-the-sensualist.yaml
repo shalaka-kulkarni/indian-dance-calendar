@@ -1,0 +1,53 @@
+id: 2026-11-19-92ny-at-gary-shteyngart-the-sensualist
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Gary Shteyngart: The Sensualist'
+  start: '2026-11-19T19:30:00-05:00'
+  additional_dates: []
+  venue: 92NY at Redeemer, 150 E 91st
+  address: ''
+  region: manhattan
+  price_min: 35.0
+  price_max: 35.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/gary-shteyngart
+  ticket_url: https://seats.92ny.org/single/211418
+  description_snippet: Gary Shteyngart discusses The Sensualist , his hilarious new essay collection about
+    pleasure, travel, attention, and the art of savoring life.
+  content_hash: 8ccfdad1c376b4f4
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/gary-shteyngart
+    first_seen: '2026-10-09'
+    last_seen: '2026-10-09'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/gary-shteyngart
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-09T13:20:12.809731-04:00'
+  - url: https://seats.92ny.org/single/211418
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-09T13:20:14.566006-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-09T13:20:12.809710-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

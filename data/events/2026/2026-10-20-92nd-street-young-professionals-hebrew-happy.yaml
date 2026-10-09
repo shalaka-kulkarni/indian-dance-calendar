@@ -1,0 +1,53 @@
+id: 2026-10-20-92nd-street-young-professionals-hebrew-happy
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Young Professionals Hebrew Happy Hour with IAC
+  start: '2026-10-20T18:00:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Weill Art Gallery
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 18.0
+  price_max: 18.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/young-professionals-hebrew-happy-hour
+  ticket_url: https://seats.92ny.org/single/211479
+  description_snippet: Raise a glass and say L’Chaim! Join Israelis and young Jewish professionals for
+    a night of simcha, connection, and community.
+  content_hash: 041d916d76707c5c
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/young-professionals-hebrew-happy-hour
+    first_seen: '2026-10-09'
+    last_seen: '2026-10-09'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/211479
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-09T13:17:45.671456-04:00'
+  - url: https://www.92ny.org/event/young-professionals-hebrew-happy-hour
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-09T13:17:45.785911-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-09T13:17:45.671432-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

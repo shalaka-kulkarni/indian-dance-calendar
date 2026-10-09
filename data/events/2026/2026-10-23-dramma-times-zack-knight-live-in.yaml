@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/zack-knight-live-in-manhattan-at-dramma-times-square_event-in_new-york-ny_402131
     first_seen: '2026-10-02'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/zack-knight-live-in-manhattan-at-dramma-times-square_event-in_new-york-ny_402131
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:06:58.223714-04:00'
+    checked_at: '2026-10-09T13:18:01.107885-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-07T17:06:58.223688-04:00'
+  validated_at: '2026-10-09T13:18:01.107862-04:00'
 curated:
   forms: []
   traditions: []

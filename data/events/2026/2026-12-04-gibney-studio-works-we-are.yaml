@@ -23,7 +23,7 @@ scraped:
   - source_id: gibney
     url: https://gibneydance.org/event/studio-works-we-are-doing-great/
     first_seen: '2026-10-03'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -51,11 +51,11 @@ validation:
   - url: https://gibneydance.org/event/studio-works-we-are-doing-great/
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:08:07.226757-04:00'
+    checked_at: '2026-10-09T13:20:29.438002-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-07T17:08:07.226735-04:00'
+  validated_at: '2026-10-09T13:20:29.437982-04:00'
 curated:
   forms: []
   traditions: []

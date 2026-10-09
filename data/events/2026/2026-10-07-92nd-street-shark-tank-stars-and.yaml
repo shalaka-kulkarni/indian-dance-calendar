@@ -41,22 +41,23 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: true
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211280
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-07T17:05:41.405577-04:00'
   - url: https://www.92ny.org/event/shark-tank-stars-in-conversation
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:05:41.516100-04:00'
+    checked_at: '2026-10-09T13:16:27.669888-04:00'
+  - url: https://seats.92ny.org/single/211280
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-09T13:16:29.599389-04:00'
   problems:
+  - event date 2026-10-07 is in the past
   - classified not-relevant
-  validated_at: '2026-10-07T17:05:41.405553-04:00'
+  validated_at: '2026-10-09T13:16:27.669867-04:00'
 curated:
   forms: []
   traditions: []

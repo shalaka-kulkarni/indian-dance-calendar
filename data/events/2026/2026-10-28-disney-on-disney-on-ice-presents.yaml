@@ -48,11 +48,11 @@ validation:
   - url: https://www.prucenter.com/events/disney-on-ice-presents-spotlight-magic
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:07:19.400955-04:00'
+    checked_at: '2026-10-09T13:18:50.061106-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-07T17:07:19.400924-04:00'
+  validated_at: '2026-10-09T13:18:50.061081-04:00'
 curated:
   forms: []
   traditions: []

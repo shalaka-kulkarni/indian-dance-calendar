@@ -1,0 +1,48 @@
+id: 2026-10-23-sky-rink-ice-theatre-of-new
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Ice Theatre of New York's Fall Frolic performance
+  start: '2026-10-23T18:30:00-04:00'
+  additional_dates: []
+  venue: Sky Rink, Chelsea Piers, Pier 61
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.dance-enthusiast.com/dance-listings/events/view/Ice-Theatre-of-New-Yorks-Fall-Frolic-performance-2026-10-23
+  ticket_url: ''
+  description_snippet: Ice Theatre of New York's Fall Frolic performance Sky Rink, Chelsea Piers, Pier
+    61 Fri. October, 23 @ 6:30pm
+  content_hash: 39c2106ca38342e0
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/Ice-Theatre-of-New-Yorks-Fall-Frolic-performance-2026-10-23
+    first_seen: '2026-10-09'
+    last_seen: '2026-10-09'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.dance-enthusiast.com/dance-listings/events/view/Ice-Theatre-of-New-Yorks-Fall-Frolic-performance-2026-10-23
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-09T13:18:04.200920-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-09T13:18:04.200894-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

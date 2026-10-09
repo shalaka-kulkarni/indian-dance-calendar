@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/211329
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:08:18.622561-04:00'
+    checked_at: '2026-10-09T13:21:03.902411-04:00'
   - url: https://www.92ny.org/event/judge-roy-altman-israel-on-trial
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:08:18.709968-04:00'
+    checked_at: '2026-10-09T13:21:03.978890-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-07T17:08:18.622540-04:00'
+  validated_at: '2026-10-09T13:21:03.902387-04:00'
 curated:
   forms: []
   traditions: []

@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/preserving-history-under-fire
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-07T17:08:11.189455-04:00'
   - url: https://seats.92ny.org/single/211174
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:08:11.336784-04:00'
+    checked_at: '2026-10-09T13:20:42.278091-04:00'
+  - url: https://www.92ny.org/event/preserving-history-under-fire
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-09T13:20:42.358953-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-07T17:08:11.189430-04:00'
+  validated_at: '2026-10-09T13:20:42.278067-04:00'
 curated:
   forms: []
   traditions: []

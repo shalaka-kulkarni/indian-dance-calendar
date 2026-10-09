@@ -46,12 +46,12 @@ validation:
   link_checks:
   - url: https://www.nycitycenter.org/events/instances/jy31ndpa/2027-01-16/2026-2027-gibney-dance
     ok: true
-    status_code: 429
-    checked_at: '2026-10-07T17:08:17.215021-04:00'
+    status_code: 200
+    checked_at: '2026-10-09T13:20:56.224860-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-07T17:08:17.214997-04:00'
+  validated_at: '2026-10-09T13:20:56.224839-04:00'
 curated:
   forms: []
   traditions: []

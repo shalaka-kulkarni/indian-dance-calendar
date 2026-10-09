@@ -1,0 +1,48 @@
+id: 2027-03-13-def-leppard-def-leppard-and-goo
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Def Leppard and Goo Goo Dolls
+  start: '2027-03-13T19:00:00-05:00'
+  end: '2027-03-13T20:00:00-05:00'
+  additional_dates: []
+  venue: Def Leppard and Goo Goo Dolls
+  address: Def Leppard and Goo Goo Dolls
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.prucenter.com/events/def-leppard-goo-goo-dolls
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: e01c3be0e1fc8092
+  sources:
+  - source_id: prudential_center
+    url: https://www.prucenter.com/events/def-leppard-goo-goo-dolls
+    first_seen: '2026-10-09'
+    last_seen: '2026-10-09'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.prucenter.com/events/def-leppard-goo-goo-dolls
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-09T13:21:20.781869-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-09T13:21:20.781845-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

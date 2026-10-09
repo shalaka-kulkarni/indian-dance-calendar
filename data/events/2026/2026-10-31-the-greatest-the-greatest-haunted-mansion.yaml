@@ -50,11 +50,11 @@ validation:
   - url: https://allevents.in/boston/the-greatest-haunted-mansion-at-the-greatest-bar/100001995120595408
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:07:32.442398-04:00'
+    checked_at: '2026-10-09T13:19:10.784263-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-07T17:07:32.442372-04:00'
+  validated_at: '2026-10-09T13:19:10.784243-04:00'
 curated:
   forms: []
   traditions: []

@@ -25,7 +25,7 @@ scraped:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2026/8/27/harmonium-concert-kedar-naphade
     first_seen: '2026-08-28'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: true
   kind: performance
@@ -54,10 +54,10 @@ validation:
   - url: https://chhandayan.org/calendar/2026/8/27/harmonium-concert-kedar-naphade
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:06:40.019172-04:00'
+    checked_at: '2026-10-09T13:17:23.057157-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-07T17:06:40.019147-04:00'
+  validated_at: '2026-10-09T13:17:23.057134-04:00'
 curated:
   forms: []
   traditions: []

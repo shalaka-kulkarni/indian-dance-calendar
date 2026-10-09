@@ -22,7 +22,7 @@ scraped:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/IN-THE-STUDIO-With-Daniel-Gwirtzman-Dance-Company-at-New-York-City-Center-FREE-2026-09-12_10-11
     first_seen: '2026-10-03'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -49,10 +49,10 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/IN-THE-STUDIO-With-Daniel-Gwirtzman-Dance-Company-at-New-York-City-Center-FREE-2026-09-12_10-11
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:06:03.529542-04:00'
+    checked_at: '2026-10-09T13:16:51.670014-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-07T17:06:03.529516-04:00'
+  validated_at: '2026-10-09T13:16:51.669990-04:00'
 curated:
   forms: []
   traditions: []

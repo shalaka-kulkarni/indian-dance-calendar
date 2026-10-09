@@ -41,7 +41,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: true
     in_metro: true
     classified: false
@@ -49,14 +49,15 @@ validation:
   - url: https://www.92ny.org/event/across-the-divide
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:05:41.183464-04:00'
+    checked_at: '2026-10-09T13:16:25.427949-04:00'
   - url: https://seats.92ny.org/single/211142
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:05:41.289466-04:00'
+    checked_at: '2026-10-09T13:16:27.591102-04:00'
   problems:
+  - event date 2026-10-07 is in the past
   - classified not-relevant
-  validated_at: '2026-10-07T17:05:41.183440-04:00'
+  validated_at: '2026-10-09T13:16:25.427925-04:00'
 curated:
   forms: []
   traditions: []

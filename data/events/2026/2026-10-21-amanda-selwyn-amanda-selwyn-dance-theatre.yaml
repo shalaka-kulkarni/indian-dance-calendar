@@ -20,7 +20,7 @@ scraped:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Amanda-Selwyn-Dance-Theatre-Announces-Fall-2026-Open-Rehearsal-2026-10-21
     first_seen: '2026-10-07'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -47,12 +47,12 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Amanda-Selwyn-Dance-Theatre-Announces-Fall-2026-Open-Rehearsal-2026-10-21
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:06:52.683451-04:00'
+    checked_at: '2026-10-09T13:17:50.292026-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-07T17:06:52.683425-04:00'
+  validated_at: '2026-10-09T13:17:50.292006-04:00'
 curated:
   forms: []
   traditions: []

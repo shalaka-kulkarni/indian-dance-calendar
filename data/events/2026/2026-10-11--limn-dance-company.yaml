@@ -20,7 +20,7 @@ scraped:
   - source_id: timeout_ny
     url: https://www.timeout.com/newyork/dance/limon-dance-company-13
     first_seen: '2026-10-07'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -47,12 +47,12 @@ validation:
   - url: https://www.timeout.com/newyork/dance/limon-dance-company-13
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:06:03.863697-04:00'
+    checked_at: '2026-10-09T13:16:51.906434-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-07T17:06:03.863664-04:00'
+  validated_at: '2026-10-09T13:16:51.906410-04:00'
 curated:
   forms: []
   traditions: []

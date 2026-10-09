@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/rasadhara-live-in-concert_event-in_new-york-ny_402196
     first_seen: '2026-10-07'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: true
   kind: performance
@@ -50,9 +50,9 @@ validation:
   - url: https://events.sulekha.com/rasadhara-live-in-concert_event-in_new-york-ny_402196
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:07:55.992113-04:00'
+    checked_at: '2026-10-09T13:19:54.279665-04:00'
   problems: []
-  validated_at: '2026-10-07T17:07:55.992088-04:00'
+  validated_at: '2026-10-09T13:19:54.279641-04:00'
 curated:
   forms: []
   traditions: []

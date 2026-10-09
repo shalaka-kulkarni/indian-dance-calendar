@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/celebrating-stephen-schwartz
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-07T17:08:27.850690-04:00'
   - url: https://seats.92ny.org/single/210640
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:08:27.972642-04:00'
+    checked_at: '2026-10-09T13:21:39.612467-04:00'
+  - url: https://www.92ny.org/event/celebrating-stephen-schwartz
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-09T13:21:39.714020-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-07T17:08:27.850665-04:00'
+  validated_at: '2026-10-09T13:21:39.612443-04:00'
 curated:
   forms: []
   traditions: []

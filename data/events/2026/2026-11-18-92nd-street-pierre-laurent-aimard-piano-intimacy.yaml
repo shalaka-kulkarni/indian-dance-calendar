@@ -1,0 +1,54 @@
+id: 2026-11-18-92nd-street-pierre-laurent-aimard-piano-intimacy
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Pierre-Laurent Aimard, piano: Intimacy'
+  start: '2026-11-18T19:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall</div><div class="pdp-hero__hall"><em>Enter
+    on 92nd St. b
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 45.0
+  price_max: 45.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/pierre-laurent-aimard
+  ticket_url: https://seats.92ny.org/single/210442
+  description_snippet: Eminent pianist Pierre-Laurent Aimard, renowned for his performances of music from
+    Bach to Boulez, performs a new program to be announced.
+  content_hash: 74b83e3d62e2335c
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/pierre-laurent-aimard
+    first_seen: '2026-10-09'
+    last_seen: '2026-10-09'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/210442
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-09T13:20:09.458378-04:00'
+  - url: https://www.92ny.org/event/pierre-laurent-aimard
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-09T13:20:09.539770-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-09T13:20:09.458357-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

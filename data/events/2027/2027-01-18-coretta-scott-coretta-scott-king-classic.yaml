@@ -20,7 +20,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/coretta-scott-king-classic
     first_seen: '2026-10-02'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://www.prucenter.com/events/coretta-scott-king-classic
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:08:17.542578-04:00'
+    checked_at: '2026-10-09T13:20:58.798009-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-07T17:08:17.542555-04:00'
+  validated_at: '2026-10-09T13:20:58.797986-04:00'
 curated:
   forms: []
   traditions: []

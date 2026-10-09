@@ -20,7 +20,7 @@ scraped:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Manhattan-Theatre-Source-presents-CollectiveGenius-Festival-2026CANDID-2026-09-25_10-11
     first_seen: '2026-10-03'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -47,13 +47,13 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Manhattan-Theatre-Source-presents-CollectiveGenius-Festival-2026CANDID-2026-09-25_10-11
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:05:26.198492-04:00'
+    checked_at: '2026-10-09T13:16:02.095217-04:00'
   problems:
   - event date 2026-10-03 is in the past
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-07T17:05:26.198470-04:00'
+  validated_at: '2026-10-09T13:16:02.095179-04:00'
 curated:
   forms: []
   traditions: []

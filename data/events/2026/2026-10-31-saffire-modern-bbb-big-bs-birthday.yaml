@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/bbb-big-b-s-birthday-brunch_event-in_commack-ny_402190
     first_seen: '2026-10-07'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/bbb-big-b-s-birthday-brunch_event-in_commack-ny_402190
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:07:31.451779-04:00'
+    checked_at: '2026-10-09T13:19:09.788985-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-07T17:07:31.451753-04:00'
+  validated_at: '2026-10-09T13:19:09.788961-04:00'
 curated:
   forms: []
   traditions: []

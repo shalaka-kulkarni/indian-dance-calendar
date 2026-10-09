@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/diwali-cruise-party-desi-dinner-buffet-saturday-night-nov-7_event-in_new-york-ny_402124
     first_seen: '2026-10-02'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/diwali-cruise-party-desi-dinner-buffet-saturday-night-nov-7_event-in_new-york-ny_402124
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:07:42.332875-04:00'
+    checked_at: '2026-10-09T13:19:30.224083-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-07T17:07:42.332843-04:00'
+  validated_at: '2026-10-09T13:19:30.224059-04:00'
 curated:
   forms: []
   traditions: []

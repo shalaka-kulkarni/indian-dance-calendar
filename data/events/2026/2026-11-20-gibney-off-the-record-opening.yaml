@@ -19,7 +19,7 @@ scraped:
   - source_id: gibney
     url: https://gibneydance.org/event/off-the-record/off-the-record-opening-night/
     first_seen: '2026-10-03'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://gibneydance.org/event/off-the-record/off-the-record-opening-night/
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:08:02.119271-04:00'
+    checked_at: '2026-10-09T13:20:17.420434-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-07T17:08:02.119245-04:00'
+  validated_at: '2026-10-09T13:20:17.420410-04:00'
 curated:
   forms: []
   traditions: []

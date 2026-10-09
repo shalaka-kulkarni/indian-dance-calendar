@@ -23,7 +23,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/ladies-of-laughter-march-27/
     first_seen: '2026-09-18'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -50,11 +50,11 @@ validation:
   - url: https://www.sopacnow.org/events/ladies-of-laughter-march-27/
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:08:22.333779-04:00'
+    checked_at: '2026-10-09T13:21:21.045528-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-07T17:08:22.333757-04:00'
+  validated_at: '2026-10-09T13:21:21.045506-04:00'
 curated:
   forms: []
   traditions: []

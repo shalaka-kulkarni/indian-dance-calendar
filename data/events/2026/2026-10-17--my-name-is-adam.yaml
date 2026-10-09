@@ -19,7 +19,7 @@ scraped:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/My-Name-is-Adam-at-Arts-on-Site-2026-10-17_18
     first_seen: '2026-10-03'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -46,11 +46,11 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/My-Name-is-Adam-at-Arts-on-Site-2026-10-17_18
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:06:40.348333-04:00'
+    checked_at: '2026-10-09T13:17:23.317943-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-07T17:06:40.348309-04:00'
+  validated_at: '2026-10-09T13:17:23.317920-04:00'
 curated:
   forms: []
   traditions: []

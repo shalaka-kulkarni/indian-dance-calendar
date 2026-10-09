@@ -22,7 +22,7 @@ scraped:
   - source_id: gibney
     url: https://gibneydance.org/event/absolute-beginner-ballet-series-with-kat-wildish/absolute-beginner-ballet-series-with-kat-wildish-session-iv/
     first_seen: '2026-10-03'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -50,11 +50,11 @@ validation:
   - url: https://gibneydance.org/event/absolute-beginner-ballet-series-with-kat-wildish/absolute-beginner-ballet-series-with-kat-wildish-session-iv/
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:07:38.638793-04:00'
+    checked_at: '2026-10-09T13:19:24.356896-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-07T17:07:38.638768-04:00'
+  validated_at: '2026-10-09T13:19:24.356874-04:00'
 curated:
   forms: []
   traditions: []

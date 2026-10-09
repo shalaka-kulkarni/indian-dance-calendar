@@ -1,0 +1,49 @@
+id: 2026-10-28--israels-election-who-won
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Israel’s Election: Who Won, What Changed, What Comes Next — Yohanan Plesner and Tamar Hermann
+    in Conversation'
+  start: '2026-10-28T12:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/israel-s-election
+  ticket_url: ''
+  description_snippet: Yohanan Plesner and Tamar Hermann analyze Israel’s election results, the shifting
+    political landscape, possible coalitions, and what comes next.
+  content_hash: 0317ed86ce85b0ca
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/israel-s-election
+    first_seen: '2026-10-09'
+    last_seen: '2026-10-09'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/israel-s-election
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-09T13:18:42.627027-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-09T13:18:42.627007-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

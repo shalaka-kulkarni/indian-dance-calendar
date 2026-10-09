@@ -1,0 +1,49 @@
+id: 2026-10-31--petite-rouge
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Petite Rouge
+  start: '2026-10-31T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://www.timeout.com/newyork/dance/company-xiv-petite-rouge-review-little-red-riding-hood
+  ticket_url: ''
+  description_snippet: Dance Petite Rouge 4 out of 5 stars Company XIV’s neoburlesque spectacle gives
+    Little Red Riding Hood a sexy revamp Until Oct 31, 2026 Buy ticket
+  content_hash: b2aaf59b10db56bc
+  sources:
+  - source_id: timeout_ny
+    url: https://www.timeout.com/newyork/dance/company-xiv-petite-rouge-review-little-red-riding-hood
+    first_seen: '2026-10-09'
+    last_seen: '2026-10-09'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://www.timeout.com/newyork/dance/company-xiv-petite-rouge-review-little-red-riding-hood
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-09T13:19:04.599484-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-10-09T13:19:04.599462-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

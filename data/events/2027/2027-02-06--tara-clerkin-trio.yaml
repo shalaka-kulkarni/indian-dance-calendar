@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/tara-clerkin-trio
     first_seen: '2026-09-30'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/tara-clerkin-trio
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:08:19.216145-04:00'
+    checked_at: '2026-10-09T13:21:08.168832-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-07T17:08:19.216120-04:00'
+  validated_at: '2026-10-09T13:21:08.168811-04:00'
 curated:
   forms: []
   traditions: []

@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/america-s-liberal-reckoning
     first_seen: '2026-10-07'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -50,14 +50,14 @@ validation:
   - url: https://seats.92ny.org/single/211299
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:07:50.352337-04:00'
+    checked_at: '2026-10-09T13:19:44.945417-04:00'
   - url: https://www.92ny.org/event/america-s-liberal-reckoning
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:07:50.446415-04:00'
+    checked_at: '2026-10-09T13:19:45.018748-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-07T17:07:50.352317-04:00'
+  validated_at: '2026-10-09T13:19:44.945397-04:00'
 curated:
   forms: []
   traditions: []

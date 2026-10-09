@@ -55,14 +55,14 @@ validation:
   - url: https://my.stnj.org/overview/25048
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:06:38.798300-04:00'
+    checked_at: '2026-10-09T13:17:22.023381-04:00'
   - url: https://www.stnj.org/events/detail/jersey-boys-2026
     ok: true
-    status_code: 200
-    checked_at: '2026-10-07T17:06:38.825013-04:00'
+    status_code: 406
+    checked_at: '2026-10-09T13:17:22.063429-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-07T17:06:38.798275-04:00'
+  validated_at: '2026-10-09T13:17:22.023359-04:00'
 curated:
   forms: []
   traditions: []

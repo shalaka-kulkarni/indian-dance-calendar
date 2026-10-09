@@ -19,7 +19,7 @@ scraped:
   - source_id: gibney
     url: https://gibneydance.org/event/off-the-record/off-the-record-show-iii/
     first_seen: '2026-10-03'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://gibneydance.org/event/off-the-record/off-the-record-show-iii/
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:08:02.576145-04:00'
+    checked_at: '2026-10-09T13:20:18.459637-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-07T17:08:02.576119-04:00'
+  validated_at: '2026-10-09T13:20:18.459616-04:00'
 curated:
   forms: []
   traditions: []

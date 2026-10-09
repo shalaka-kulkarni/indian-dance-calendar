@@ -20,7 +20,7 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/instances/evsbrg5b/2027-04-17/2026-2027-ndt2
     first_seen: '2026-08-21'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -46,12 +46,12 @@ validation:
   link_checks:
   - url: https://www.nycitycenter.org/events/instances/evsbrg5b/2027-04-17/2026-2027-ndt2
     ok: true
-    status_code: 429
-    checked_at: '2026-10-07T17:08:25.285570-04:00'
+    status_code: 200
+    checked_at: '2026-10-09T13:21:28.103954-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-07T17:08:25.285547-04:00'
+  validated_at: '2026-10-09T13:21:28.103929-04:00'
 curated:
   forms: []
   traditions: []

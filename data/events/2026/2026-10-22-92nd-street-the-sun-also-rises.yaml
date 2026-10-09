@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/the-sun-also-rises-at-100
     first_seen: '2026-09-18'
-    last_seen: '2026-09-28'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211303
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-07T17:06:54.937752-04:00'
   - url: https://www.92ny.org/event/the-sun-also-rises-at-100
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:06:55.020490-04:00'
+    checked_at: '2026-10-09T13:17:54.724974-04:00'
+  - url: https://seats.92ny.org/single/211303
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-09T13:17:54.851429-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-07T17:06:54.937727-04:00'
+  validated_at: '2026-10-09T13:17:54.724952-04:00'
 curated:
   forms: []
   traditions: []

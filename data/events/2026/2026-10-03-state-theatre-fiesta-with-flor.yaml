@@ -54,15 +54,15 @@ validation:
   - url: https://www.stnj.org/events/detail/mc-fiestawithflor-2026
     ok: true
     status_code: 406
-    checked_at: '2026-10-07T17:05:25.683859-04:00'
+    checked_at: '2026-10-09T13:16:01.536144-04:00'
   - url: https://my.stnj.org/overview/25717
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:05:25.816837-04:00'
+    checked_at: '2026-10-09T13:16:01.740809-04:00'
   problems:
   - event date 2026-10-03 is in the past
   - classified not-relevant
-  validated_at: '2026-10-07T17:05:25.683833-04:00'
+  validated_at: '2026-10-09T13:16:01.536120-04:00'
 curated:
   forms: []
   traditions: []

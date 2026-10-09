@@ -20,7 +20,7 @@ scraped:
   - source_id: joyce
     url: https://www.joyce.org/performances/a-very-sw-ng-out-holiday-mqyx
     first_seen: '2026-10-05'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://www.joyce.org/performances/a-very-sw-ng-out-holiday-mqyx
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:08:04.951646-04:00'
+    checked_at: '2026-10-09T13:20:23.461412-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-07T17:08:04.951605-04:00'
+  validated_at: '2026-10-09T13:20:23.461393-04:00'
 curated:
   forms: []
   traditions: []

@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/annie-lowrey-and-pj-vogt-the-time-tax
     first_seen: '2026-10-07'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/annie-lowrey-and-pj-vogt-the-time-tax
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-07T17:07:19.182530-04:00'
   - url: https://seats.92ny.org/single/211458
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:07:19.313273-04:00'
+    checked_at: '2026-10-09T13:18:48.241604-04:00'
+  - url: https://www.92ny.org/event/annie-lowrey-and-pj-vogt-the-time-tax
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-09T13:18:48.324260-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-07T17:07:19.182507-04:00'
+  validated_at: '2026-10-09T13:18:48.241583-04:00'
 curated:
   forms: []
   traditions: []

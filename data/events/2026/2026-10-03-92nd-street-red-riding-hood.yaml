@@ -46,18 +46,18 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/red-riding-hood
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-07T17:05:14.299774-04:00'
   - url: https://seats.92ny.org/single/210737
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:05:19.154804-04:00'
+    checked_at: '2026-10-09T13:15:51.764421-04:00'
+  - url: https://www.92ny.org/event/red-riding-hood
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-09T13:15:51.836940-04:00'
   problems:
   - event date 2026-10-03 is in the past
   - classified not-relevant
-  validated_at: '2026-10-07T17:05:14.299748-04:00'
+  validated_at: '2026-10-09T13:15:51.764394-04:00'
 curated:
   forms: []
   traditions: []

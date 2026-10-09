@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/muldoon-s-picnic-november
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-07T17:08:04.014408-04:00'
   - url: https://seats.92ny.org/single/211314
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:08:04.153501-04:00'
+    checked_at: '2026-10-09T13:20:21.053308-04:00'
+  - url: https://www.92ny.org/event/muldoon-s-picnic-november
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-09T13:20:21.130731-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-07T17:08:04.014385-04:00'
+  validated_at: '2026-10-09T13:20:21.053286-04:00'
 curated:
   forms: []
   traditions: []

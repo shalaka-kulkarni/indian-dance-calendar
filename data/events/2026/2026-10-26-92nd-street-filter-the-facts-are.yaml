@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/211285
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:07:11.544295-04:00'
+    checked_at: '2026-10-09T13:18:21.093161-04:00'
   - url: https://www.92ny.org/event/filter-the-facts
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:07:11.629601-04:00'
+    checked_at: '2026-10-09T13:18:21.172776-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-07T17:07:11.544271-04:00'
+  validated_at: '2026-10-09T13:18:21.093137-04:00'
 curated:
   forms: []
   traditions: []

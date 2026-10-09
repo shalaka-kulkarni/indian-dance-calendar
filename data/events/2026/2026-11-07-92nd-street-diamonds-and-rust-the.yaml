@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/celebrating-joan-baez
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-07T17:07:40.438856-04:00'
   - url: https://seats.92ny.org/single/210631
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:07:40.580040-04:00'
+    checked_at: '2026-10-09T13:19:26.687486-04:00'
+  - url: https://www.92ny.org/event/celebrating-joan-baez
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-09T13:19:26.921123-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-07T17:07:40.438832-04:00'
+  validated_at: '2026-10-09T13:19:26.687466-04:00'
 curated:
   forms: []
   traditions: []

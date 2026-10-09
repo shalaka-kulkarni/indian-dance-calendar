@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/211156
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:07:09.503975-04:00'
+    checked_at: '2026-10-09T13:18:15.703408-04:00'
   - url: https://www.92ny.org/event/nexus-hudson-valley-apple-picking-and-fall-foliage
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:07:09.604447-04:00'
+    checked_at: '2026-10-09T13:18:15.791620-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-07T17:07:09.503950-04:00'
+  validated_at: '2026-10-09T13:18:15.703385-04:00'
 curated:
   forms: []
   traditions: []

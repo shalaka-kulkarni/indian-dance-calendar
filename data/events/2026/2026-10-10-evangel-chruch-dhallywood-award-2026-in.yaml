@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/dhallywood-award-2026-in-ny_event-in_long-island-city-ny_402215
     first_seen: '2026-10-07'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -50,10 +50,10 @@ validation:
   - url: https://events.sulekha.com/dhallywood-award-2026-in-ny_event-in_long-island-city-ny_402215
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:05:59.013390-04:00'
+    checked_at: '2026-10-09T13:16:46.394331-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-07T17:05:59.013365-04:00'
+  validated_at: '2026-10-09T13:16:46.394307-04:00'
 curated:
   forms: []
   traditions: []

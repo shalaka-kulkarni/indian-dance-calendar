@@ -20,7 +20,7 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/instances/wpbvtsqb/2026-11-14/2026-2027-in-the-heights
     first_seen: '2026-08-16'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: other
@@ -47,11 +47,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/wpbvtsqb/2026-11-14/2026-2027-in-the-heights
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:07:56.716227-04:00'
+    checked_at: '2026-10-09T13:19:55.078815-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-07T17:07:56.716201-04:00'
+  validated_at: '2026-10-09T13:19:55.078792-04:00'
 curated:
   forms: []
   traditions: []

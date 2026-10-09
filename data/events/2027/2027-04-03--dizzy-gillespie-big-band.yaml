@@ -23,7 +23,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/dizzy-gillespie-big-band-2027/
     first_seen: '2026-08-18'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -50,11 +50,11 @@ validation:
   - url: https://www.sopacnow.org/events/dizzy-gillespie-big-band-2027/
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:08:23.323080-04:00'
+    checked_at: '2026-10-09T13:21:23.379375-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-07T17:08:23.323061-04:00'
+  validated_at: '2026-10-09T13:21:23.379350-04:00'
 curated:
   forms: []
   traditions: []

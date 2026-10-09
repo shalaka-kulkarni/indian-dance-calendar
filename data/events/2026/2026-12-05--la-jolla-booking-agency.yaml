@@ -25,7 +25,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/christmas-with-the-beatles/
     first_seen: '2026-09-28'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-09'
 ai:
   relevant: false
   kind: performance
@@ -52,11 +52,11 @@ validation:
   - url: https://www.sopacnow.org/events/christmas-with-the-beatles/
     ok: true
     status_code: 200
-    checked_at: '2026-10-07T17:08:07.585190-04:00'
+    checked_at: '2026-10-09T13:20:30.814843-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-07T17:08:07.585165-04:00'
+  validated_at: '2026-10-09T13:20:30.814819-04:00'
 curated:
   forms: []
   traditions: []
