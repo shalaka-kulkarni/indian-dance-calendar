@@ -47,11 +47,11 @@ validation:
   - url: https://gibneydance.org/event/off-the-record/off-the-record-opening-night/
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:20:17.420434-04:00'
+    checked_at: '2026-10-09T16:59:03.792773-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T13:20:17.420410-04:00'
+  validated_at: '2026-10-09T16:59:03.792741-04:00'
 curated:
   forms: []
   traditions: []

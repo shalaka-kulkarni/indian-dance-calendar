@@ -51,11 +51,11 @@ validation:
   - url: https://gibneydance.org/event/studio-works-we-are-doing-great/
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:20:29.438002-04:00'
+    checked_at: '2026-10-09T16:59:22.323009-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T13:20:29.437982-04:00'
+  validated_at: '2026-10-09T16:59:22.322977-04:00'
 curated:
   forms: []
   traditions: []

@@ -50,11 +50,11 @@ validation:
   - url: https://www.sopacnow.org/events/american-patchwork-quartet-27/
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:21:16.366298-04:00'
+    checked_at: '2026-10-09T17:00:36.277008-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T13:21:16.366275-04:00'
+  validated_at: '2026-10-09T17:00:36.276980-04:00'
 curated:
   forms: []
   traditions: []

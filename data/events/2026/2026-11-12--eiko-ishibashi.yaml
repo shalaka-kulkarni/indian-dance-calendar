@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/eiko-ishibashi
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:19:43.578688-04:00'
+    checked_at: '2026-10-09T16:58:28.442351-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T13:19:43.578665-04:00'
+  validated_at: '2026-10-09T16:58:28.442323-04:00'
 curated:
   forms: []
   traditions: []

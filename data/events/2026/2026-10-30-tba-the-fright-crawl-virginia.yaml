@@ -50,11 +50,11 @@ validation:
   - url: https://allevents.in/virginia-beach/the-fright-crawl-virginia-beach-halloween-bar-crawl-2026-fri-oct-30/100001998623480632
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:19:02.229431-04:00'
+    checked_at: '2026-10-09T16:57:38.865677-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-09T13:19:02.229407-04:00'
+  validated_at: '2026-10-09T16:57:38.865649-04:00'
 curated:
   forms: []
   traditions: []

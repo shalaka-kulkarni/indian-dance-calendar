@@ -53,10 +53,10 @@ validation:
   - url: https://trinayaninj.org/durgapuja2026/
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:17:32.451729-04:00'
+    checked_at: '2026-10-09T16:56:16.744467-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-09T13:17:32.451707-04:00'
+  validated_at: '2026-10-09T16:56:16.744439-04:00'
 curated:
   forms:
   - folk

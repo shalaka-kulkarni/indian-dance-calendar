@@ -47,11 +47,11 @@ validation:
   - url: https://www.prucenter.com/events/monster-jam
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:21:02.985092-04:00'
+    checked_at: '2026-10-09T17:00:19.689635-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T13:21:02.985070-04:00'
+  validated_at: '2026-10-09T17:00:19.689608-04:00'
 curated:
   forms: []
   traditions: []

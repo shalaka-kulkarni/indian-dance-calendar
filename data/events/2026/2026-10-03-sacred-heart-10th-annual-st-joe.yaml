@@ -48,13 +48,13 @@ validation:
   - url: https://allevents.in/dade-city/10th-annual-st-joe-fall-festival-tickets/80002999788482
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:16:00.692913-04:00'
+    checked_at: '2026-10-09T16:54:42.841340-04:00'
   problems:
   - event date 2026-10-03 is in the past
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-09T13:16:00.692889-04:00'
+  validated_at: '2026-10-09T16:54:42.841303-04:00'
 curated:
   forms: []
   traditions: []

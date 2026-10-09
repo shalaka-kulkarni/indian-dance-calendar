@@ -42,17 +42,20 @@ validation:
   checks:
     has_info_url: true
     specific_url: true
-    links_live: false
+    links_live: true
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks: []
+  link_checks:
+  - url: https://www.sopacnow.org/events/goldings-bernstein-stewart-organ-trio-2027/
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-09T17:00:29.992331-04:00'
   problems:
-  - links not yet verified (offline run)
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T16:52:23.737263-04:00'
+  validated_at: '2026-10-09T17:00:29.992297-04:00'
 curated:
   forms: []
   traditions: []

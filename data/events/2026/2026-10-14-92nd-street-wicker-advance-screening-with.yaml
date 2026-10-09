@@ -48,17 +48,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211369
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-09T13:17:11.620235-04:00'
   - url: https://www.92ny.org/event/wicker
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:17:11.698965-04:00'
+    checked_at: '2026-10-09T16:55:54.820992-04:00'
+  - url: https://seats.92ny.org/single/211369
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-09T16:55:56.491546-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-09T13:17:11.620213-04:00'
+  validated_at: '2026-10-09T16:55:54.820967-04:00'
 curated:
   forms: []
   traditions: []

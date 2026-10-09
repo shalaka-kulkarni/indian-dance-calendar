@@ -47,12 +47,12 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/16th-Annual-Clive-Barnes-Awards-2026-10-19
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:17:41.053706-04:00'
+    checked_at: '2026-10-09T16:56:25.894707-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-09T13:17:41.053684-04:00'
+  validated_at: '2026-10-09T16:56:25.894676-04:00'
 curated:
   forms: []
   traditions: []

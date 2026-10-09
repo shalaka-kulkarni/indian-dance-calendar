@@ -50,14 +50,14 @@ validation:
   - url: https://www.92ny.org/event/matti-friedman-with-stephanie-butnick
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:17:09.882708-04:00'
+    checked_at: '2026-10-09T16:55:53.255114-04:00'
   - url: https://seats.92ny.org/single/210993
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:17:11.539575-04:00'
+    checked_at: '2026-10-09T16:55:54.780615-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-09T13:17:09.882689-04:00'
+  validated_at: '2026-10-09T16:55:53.255084-04:00'
 curated:
   forms: []
   traditions: []

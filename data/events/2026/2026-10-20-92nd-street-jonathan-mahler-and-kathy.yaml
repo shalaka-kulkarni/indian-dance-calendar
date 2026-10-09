@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211260
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-09T13:17:41.959945-04:00'
   - url: https://www.92ny.org/event/jonathan-mahler-and-kathy-wylde-with-thomas-dyja
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:17:42.160421-04:00'
+    checked_at: '2026-10-09T16:56:27.588460-04:00'
+  - url: https://seats.92ny.org/single/211260
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-09T16:56:27.683889-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-09T13:17:41.959920-04:00'
+  validated_at: '2026-10-09T16:56:27.588430-04:00'
 curated:
   forms: []
   traditions: []

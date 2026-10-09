@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/the-rootless-elysium
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:20:21.242488-04:00'
+    checked_at: '2026-10-09T16:59:11.129391-04:00'
   - url: https://seats.92ny.org/single/211193
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:20:23.193445-04:00'
+    checked_at: '2026-10-09T16:59:12.988389-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-09T13:20:21.242468-04:00'
+  validated_at: '2026-10-09T16:59:11.129359-04:00'
 curated:
   forms: []
   traditions: []

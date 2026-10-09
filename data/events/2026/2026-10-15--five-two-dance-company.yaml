@@ -47,11 +47,11 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/five-two-dance-company-at-Gibney-2026-10-15_16
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:17:14.462836-04:00'
+    checked_at: '2026-10-09T16:55:58.263411-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T13:17:14.462811-04:00'
+  validated_at: '2026-10-09T16:55:58.263382-04:00'
 curated:
   forms: []
   traditions: []

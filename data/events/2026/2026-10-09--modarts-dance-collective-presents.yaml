@@ -47,12 +47,12 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/MODArts-Dance-Collective-presents-Move-to-Change-2026-10-09_10
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:16:36.284779-04:00'
+    checked_at: '2026-10-09T16:55:10.692006-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-09T13:16:36.284755-04:00'
+  validated_at: '2026-10-09T16:55:10.691973-04:00'
 curated:
   forms: []
   traditions: []

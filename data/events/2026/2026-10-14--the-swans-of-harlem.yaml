@@ -47,12 +47,12 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/THE-SWANS-OF-HARLEM-and-Those-Who-Paved-the-Way-2026-10-14_18
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:17:08.721689-04:00'
+    checked_at: '2026-10-09T16:55:49.630206-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-09T13:17:08.721664-04:00'
+  validated_at: '2026-10-09T16:55:49.630176-04:00'
 curated:
   forms: []
   traditions: []

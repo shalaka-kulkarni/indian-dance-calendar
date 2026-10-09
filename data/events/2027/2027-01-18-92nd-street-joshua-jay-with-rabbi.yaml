@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211308
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-09T13:20:56.637977-04:00'
   - url: https://www.92ny.org/event/joshua-jay-with-rabbi-david-ingber
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:20:56.732494-04:00'
+    checked_at: '2026-10-09T17:00:06.605031-04:00'
+  - url: https://seats.92ny.org/single/211308
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-09T17:00:08.320728-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-09T13:20:56.637954-04:00'
+  validated_at: '2026-10-09T17:00:06.605003-04:00'
 curated:
   forms: []
   traditions: []

@@ -48,11 +48,11 @@ validation:
   - url: https://www.prucenter.com/events/jonas-brothers
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:20:51.501323-04:00'
+    checked_at: '2026-10-09T16:59:58.597657-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T13:20:51.501303-04:00'
+  validated_at: '2026-10-09T16:59:58.597628-04:00'
 curated:
   forms: []
   traditions: []

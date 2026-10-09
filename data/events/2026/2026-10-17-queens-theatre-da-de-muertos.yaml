@@ -49,11 +49,11 @@ validation:
   - url: https://queenstheatre.org/events/dia-de-muertos-q7ft
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:17:30.917173-04:00'
+    checked_at: '2026-10-09T16:56:15.264566-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T13:17:30.917149-04:00'
+  validated_at: '2026-10-09T16:56:15.264540-04:00'
 curated:
   forms: []
   traditions: []

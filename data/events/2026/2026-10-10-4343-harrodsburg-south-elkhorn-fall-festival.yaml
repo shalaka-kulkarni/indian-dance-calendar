@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/lexington/south-elkhorn-fall-festival/200030613218822
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:16:45.763124-04:00'
+    checked_at: '2026-10-09T16:55:21.017222-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-09T13:16:45.763101-04:00'
+  validated_at: '2026-10-09T16:55:21.017197-04:00'
 curated:
   forms: []
   traditions: []

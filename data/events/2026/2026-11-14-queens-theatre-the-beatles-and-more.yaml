@@ -48,11 +48,11 @@ validation:
   - url: https://queenstheatre.org/events/the-beatles-f78q
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:19:53.207661-04:00'
+    checked_at: '2026-10-09T16:58:40.009320-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T13:19:53.207640-04:00'
+  validated_at: '2026-10-09T16:58:40.009295-04:00'
 curated:
   forms: []
   traditions: []

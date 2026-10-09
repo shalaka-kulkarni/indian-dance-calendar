@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/marlon-james-the-disappearers
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:16:52.443004-04:00'
+    checked_at: '2026-10-09T16:55:26.823514-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T13:16:52.442981-04:00'
+  validated_at: '2026-10-09T16:55:26.823486-04:00'
 curated:
   forms: []
   traditions: []

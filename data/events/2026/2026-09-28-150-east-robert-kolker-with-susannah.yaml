@@ -50,15 +50,15 @@ validation:
   - url: https://seats.92ny.org/single/210964
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:15:21.728218-04:00'
+    checked_at: '2026-10-09T16:54:01.178066-04:00'
   - url: https://www.92ny.org/event/robert-kolker-the-vanishing-family
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:15:21.853042-04:00'
+    checked_at: '2026-10-09T16:54:01.278829-04:00'
   problems:
   - event date 2026-09-28 is in the past
   - classified not-relevant
-  validated_at: '2026-10-09T13:15:21.728179-04:00'
+  validated_at: '2026-10-09T16:54:01.178037-04:00'
 curated:
   forms: []
   traditions: []

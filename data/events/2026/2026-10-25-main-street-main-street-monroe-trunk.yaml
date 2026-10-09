@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/monroe/main-street-monroe-trunk-or-treat-2026/200030666453719
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:18:15.405573-04:00'
+    checked_at: '2026-10-09T16:57:03.584351-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-09T13:18:15.405551-04:00'
+  validated_at: '2026-10-09T16:57:03.584321-04:00'
 curated:
   forms: []
   traditions: []

@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/kent-place-mamma-mia/
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:19:24.076236-04:00'
+    checked_at: '2026-10-09T16:58:06.888821-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T13:19:24.076216-04:00'
+  validated_at: '2026-10-09T16:58:06.888794-04:00'
 curated:
   forms: []
   traditions: []

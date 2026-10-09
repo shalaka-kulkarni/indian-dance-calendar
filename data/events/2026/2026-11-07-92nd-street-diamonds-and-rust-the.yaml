@@ -50,14 +50,14 @@ validation:
   - url: https://seats.92ny.org/single/210631
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:19:26.687486-04:00'
+    checked_at: '2026-10-09T16:58:10.500528-04:00'
   - url: https://www.92ny.org/event/celebrating-joan-baez
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:19:26.921123-04:00'
+    checked_at: '2026-10-09T16:58:10.589291-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-09T13:19:26.687466-04:00'
+  validated_at: '2026-10-09T16:58:10.500501-04:00'
 curated:
   forms: []
   traditions: []

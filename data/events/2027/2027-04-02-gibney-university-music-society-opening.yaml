@@ -47,11 +47,11 @@ validation:
   - url: https://gibneydance.org/event/university-music-society/university-music-society-opening-night/
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:21:22.411417-04:00'
+    checked_at: '2026-10-09T17:00:40.900332-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T13:21:22.411398-04:00'
+  validated_at: '2026-10-09T17:00:40.900304-04:00'
 curated:
   forms: []
   traditions: []

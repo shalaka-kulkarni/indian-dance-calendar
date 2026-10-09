@@ -49,12 +49,12 @@ validation:
   - url: https://www.prucenter.com/events/le-sserafim
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:16:34.965606-04:00'
+    checked_at: '2026-10-09T16:55:09.706842-04:00'
   problems:
   - event date 2026-10-08 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T13:16:34.965583-04:00'
+  validated_at: '2026-10-09T16:55:09.706814-04:00'
 curated:
   forms: []
   traditions: []

@@ -47,11 +47,11 @@ validation:
   - url: https://www.prucenter.com/events/hockey-knight-in-jersey
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:20:37.732636-04:00'
+    checked_at: '2026-10-09T16:59:35.820145-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T13:20:37.732615-04:00'
+  validated_at: '2026-10-09T16:59:35.820121-04:00'
 curated:
   forms: []
   traditions: []

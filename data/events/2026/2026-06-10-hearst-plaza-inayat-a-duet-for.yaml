@@ -47,9 +47,9 @@ validation:
   - url: https://www.lincolncenter.org/series/summer-for-the-city/inayat-a-duet-for-four-267
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:14:00.563080-04:00'
+    checked_at: '2026-10-09T16:52:47.504651-04:00'
   problems: []
-  validated_at: '2026-10-09T13:14:00.563076-04:00'
+  validated_at: '2026-10-09T16:52:47.504645-04:00'
 curated:
   forms:
   - kathak

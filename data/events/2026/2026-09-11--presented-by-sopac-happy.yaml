@@ -49,12 +49,12 @@ validation:
   - url: https://www.sopacnow.org/events/happy-hour-in-the-loft-water-towers/
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:14:30.433885-04:00'
+    checked_at: '2026-10-09T16:53:12.317549-04:00'
   problems:
   - event date 2026-09-11 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T13:14:30.433860-04:00'
+  validated_at: '2026-10-09T16:53:12.317497-04:00'
 curated:
   forms: []
   traditions: []

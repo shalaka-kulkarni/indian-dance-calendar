@@ -50,14 +50,14 @@ validation:
   - url: https://www.92ny.org/event/janet-reitman-with-george-packer
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:17:09.667813-04:00'
+    checked_at: '2026-10-09T16:55:50.577793-04:00'
   - url: https://seats.92ny.org/single/211343
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:17:09.801414-04:00'
+    checked_at: '2026-10-09T16:55:53.123910-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-09T13:17:09.667791-04:00'
+  validated_at: '2026-10-09T16:55:50.577765-04:00'
 curated:
   forms: []
   traditions: []

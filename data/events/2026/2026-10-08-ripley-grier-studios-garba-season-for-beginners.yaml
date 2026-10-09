@@ -49,11 +49,11 @@ validation:
   - url: https://events.sulekha.com/garba-season-for-beginners-series-in-newyork_event-in_new-york-ny_401599
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:16:35.305764-04:00'
+    checked_at: '2026-10-09T16:55:09.921203-04:00'
   problems:
   - event date 2026-10-08 is in the past
   - classified not-relevant
-  validated_at: '2026-10-09T13:16:35.305739-04:00'
+  validated_at: '2026-10-09T16:55:09.921172-04:00'
 curated:
   forms: []
   traditions: []

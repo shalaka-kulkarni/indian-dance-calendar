@@ -49,11 +49,11 @@ validation:
   - url: https://queenstheatre.org/events/our-town-51mn
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:19:00.979835-04:00'
+    checked_at: '2026-10-09T16:57:37.784630-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T13:19:00.979813-04:00'
+  validated_at: '2026-10-09T16:57:37.784605-04:00'
 curated:
   forms: []
   traditions: []

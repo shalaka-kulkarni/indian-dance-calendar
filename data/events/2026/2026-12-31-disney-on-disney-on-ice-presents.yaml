@@ -48,11 +48,11 @@ validation:
   - url: https://www.prucenter.com/events/disney-on-ice-presents-magic-in-the-stars
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:20:52.583133-04:00'
+    checked_at: '2026-10-09T16:59:59.400601-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T13:20:52.583113-04:00'
+  validated_at: '2026-10-09T16:59:59.400575-04:00'
 curated:
   forms: []
   traditions: []

@@ -50,11 +50,11 @@ validation:
   - url: https://www.sopacnow.org/events/take-me-to-the-river-26/
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T13:21:08.972645-04:00'
+    checked_at: '2026-10-09T17:00:31.807312-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T13:21:08.972622-04:00'
+  validated_at: '2026-10-09T17:00:31.807282-04:00'
 curated:
   forms: []
   traditions: []
