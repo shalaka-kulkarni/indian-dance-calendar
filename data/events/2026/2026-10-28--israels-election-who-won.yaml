@@ -1,5 +1,5 @@
 id: 2026-10-28--israels-election-who-won
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -22,25 +22,34 @@ scraped:
     url: https://www.92ny.org/event/israel-s-election
     first_seen: '2026-10-09'
     last_seen: '2026-10-09'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: political talk.'
+  model: claude-fable-5-1
+  classified_at: '2026-10-09'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://www.92ny.org/event/israel-s-election
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-09T13:18:42.627027-04:00'
+  link_checks: []
   problems:
+  - links not yet verified (offline run)
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-10-09T13:18:42.627007-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-09T16:52:23.701034-04:00'
 curated:
   forms: []
   traditions: []

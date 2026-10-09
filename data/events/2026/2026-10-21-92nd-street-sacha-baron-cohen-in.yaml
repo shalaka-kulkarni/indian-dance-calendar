@@ -1,5 +1,5 @@
 id: 2026-10-21-92nd-street-sacha-baron-cohen-in
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -24,28 +24,33 @@ scraped:
     url: https://www.92ny.org/event/sacha-baron-cohen
     first_seen: '2026-10-09'
     last_seen: '2026-10-09'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: comedy talk.'
+  model: claude-fable-5-1
+  classified_at: '2026-10-09'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://seats.92ny.org/single/211475
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-09T13:17:49.825639-04:00'
-  - url: https://www.92ny.org/event/sacha-baron-cohen
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-09T13:17:49.917466-04:00'
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-10-09T13:17:49.825618-04:00'
+  - links not yet verified (offline run)
+  - classified not-relevant
+  validated_at: '2026-10-09T16:52:23.664722-04:00'
 curated:
   forms: []
   traditions: []
