@@ -47,11 +47,11 @@ validation:
   - url: https://www.prucenter.com/events/hans-zimmer
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T17:00:32.257128-04:00'
+    checked_at: '2026-10-10T13:28:47.105087-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T17:00:32.257102-04:00'
+  validated_at: '2026-10-10T13:28:47.105064-04:00'
 curated:
   forms: []
   traditions: []

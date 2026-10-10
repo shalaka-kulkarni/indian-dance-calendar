@@ -50,11 +50,11 @@ validation:
   - url: https://allevents.in/chicago/chicagos-hottest-halloween-bar-crawl-2026-river-north-fri-oct-30/100001999072672176
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:57:37.203124-04:00'
+    checked_at: '2026-10-10T13:26:07.784725-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-09T16:57:37.203097-04:00'
+  validated_at: '2026-10-10T13:26:07.784693-04:00'
 curated:
   forms: []
   traditions: []

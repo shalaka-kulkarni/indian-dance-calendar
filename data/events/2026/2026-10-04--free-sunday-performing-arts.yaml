@@ -49,11 +49,11 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/FREE-SUNDAY-PERFORMING-ARTS-Queens-Outdoor-Dance-Festival-FALL-2026-2026-10-04
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:54:44.172485-04:00'
+    checked_at: '2026-10-10T13:23:19.077616-04:00'
   problems:
   - event date 2026-10-04 is in the past
   - classified not-relevant
-  validated_at: '2026-10-09T16:54:44.172444-04:00'
+  validated_at: '2026-10-10T13:23:19.077593-04:00'
 curated:
   forms: []
   traditions: []

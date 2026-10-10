@@ -47,11 +47,11 @@ validation:
   - url: https://gibneydance.org/event/vim-vigor-contemporary-floorwork-practice-with-shannon-gillen/
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:58:12.312055-04:00'
+    checked_at: '2026-10-10T13:26:44.294806-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T16:58:12.312025-04:00'
+  validated_at: '2026-10-10T13:26:44.294774-04:00'
 curated:
   forms: []
   traditions: []

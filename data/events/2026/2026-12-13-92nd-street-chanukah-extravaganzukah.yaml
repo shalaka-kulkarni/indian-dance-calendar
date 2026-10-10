@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/211416
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:59:39.180998-04:00'
+    checked_at: '2026-10-10T13:28:03.599489-04:00'
   - url: https://www.92ny.org/event/chanukah-extravaganzukah
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:59:39.261812-04:00'
+    checked_at: '2026-10-10T13:28:03.688779-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-09T16:59:39.180976-04:00'
+  validated_at: '2026-10-10T13:28:03.599468-04:00'
 curated:
   forms: []
   traditions: []

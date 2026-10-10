@@ -48,10 +48,10 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Dasamahavidya-The-Search-for-Wisdom-2026-10-15
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:55:59.838914-04:00'
+    checked_at: '2026-10-10T13:24:31.932818-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-09T16:55:59.838886-04:00'
+  validated_at: '2026-10-10T13:24:31.932794-04:00'
 curated:
   forms: []
   traditions: []

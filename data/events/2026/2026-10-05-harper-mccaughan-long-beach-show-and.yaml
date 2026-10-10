@@ -49,13 +49,13 @@ validation:
   - url: https://allevents.in/long-beach/long-beach-show-and-shine-car-show/200030408095425
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:54:53.410796-04:00'
+    checked_at: '2026-10-10T13:23:26.868327-04:00'
   problems:
   - event date 2026-10-05 is in the past
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-09T16:54:53.410768-04:00'
+  validated_at: '2026-10-10T13:23:26.868299-04:00'
 curated:
   forms: []
   traditions: []

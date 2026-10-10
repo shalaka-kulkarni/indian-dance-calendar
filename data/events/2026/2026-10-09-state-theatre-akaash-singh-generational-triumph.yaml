@@ -47,22 +47,23 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: true
     in_metro: true
     classified: false
   link_checks:
+  - url: https://www.stnj.org/events/detail/akaash-singh-generational-triumph-tour
+    ok: true
+    status_code: 406
+    checked_at: '2026-10-10T13:23:50.815177-04:00'
   - url: https://my.stnj.org/25096/25097
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:55:17.153680-04:00'
-  - url: https://www.stnj.org/events/detail/akaash-singh-generational-triumph-tour
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-09T16:55:17.228001-04:00'
+    checked_at: '2026-10-10T13:23:50.964494-04:00'
   problems:
+  - event date 2026-10-09 is in the past
   - classified not-relevant
-  validated_at: '2026-10-09T16:55:17.153651-04:00'
+  validated_at: '2026-10-10T13:23:50.815150-04:00'
 curated:
   forms: []
   traditions: []

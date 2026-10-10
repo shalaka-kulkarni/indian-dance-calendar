@@ -50,14 +50,14 @@ validation:
   - url: https://www.92ny.org/event/sacha-baron-cohen
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:56:38.823454-04:00'
+    checked_at: '2026-10-10T13:25:11.361431-04:00'
   - url: https://seats.92ny.org/single/211475
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:56:40.125032-04:00'
+    checked_at: '2026-10-10T13:25:11.471924-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-09T16:56:38.823426-04:00'
+  validated_at: '2026-10-10T13:25:11.361406-04:00'
 curated:
   forms: []
   traditions: []

@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/bbb-big-b-s-birthday-brunch_event-in_commack-ny_402190
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:57:45.445109-04:00'
+    checked_at: '2026-10-10T13:26:16.890855-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-09T16:57:45.445080-04:00'
+  validated_at: '2026-10-10T13:26:16.890831-04:00'
 curated:
   forms: []
   traditions: []

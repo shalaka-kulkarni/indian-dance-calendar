@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/supper-club-with-chama-mama
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:59:50.086043-04:00'
+    checked_at: '2026-10-10T13:28:10.360524-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T16:59:50.086016-04:00'
+  validated_at: '2026-10-10T13:28:10.360498-04:00'
 curated:
   forms: []
   traditions: []

@@ -49,16 +49,16 @@ validation:
   - url: https://www.92ny.org/event/carlo-rovelli-on-the-equality-of-all-things
     ok: false
     status_code: 404
-    checked_at: '2026-10-09T16:53:17.978970-04:00'
+    checked_at: '2026-10-10T13:22:00.542810-04:00'
   - url: https://seats.92ny.org/single/211052
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:53:18.658986-04:00'
+    checked_at: '2026-10-10T13:22:01.057517-04:00'
   problems:
   - 'dead links: https://www.92ny.org/event/carlo-rovelli-on-the-equality-of-all-things'
   - event date 2026-09-15 is in the past
   - classified not-relevant
-  validated_at: '2026-10-09T16:53:17.978941-04:00'
+  validated_at: '2026-10-10T13:22:00.542779-04:00'
 curated:
   forms: []
   traditions: []

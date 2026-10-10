@@ -47,11 +47,11 @@ validation:
   - url: https://gibneydance.org/event/penn-arts-live/penn-live-arts-show-ii/
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T17:00:48.650655-04:00'
+    checked_at: '2026-10-10T13:29:06.968200-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T17:00:48.650628-04:00'
+  validated_at: '2026-10-10T13:29:06.968174-04:00'
 curated:
   forms: []
   traditions: []

@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/hunter-biden-with-david-manheim
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-09T16:59:56.506672-04:00'
   - url: https://seats.92ny.org/single/211424
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:59:58.110078-04:00'
+    checked_at: '2026-10-10T13:28:21.624311-04:00'
+  - url: https://www.92ny.org/event/hunter-biden-with-david-manheim
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-10T13:28:21.708900-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-09T16:59:56.506645-04:00'
+  validated_at: '2026-10-10T13:28:21.624267-04:00'
 curated:
   forms: []
   traditions: []

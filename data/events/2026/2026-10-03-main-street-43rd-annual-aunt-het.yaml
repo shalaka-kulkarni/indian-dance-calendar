@@ -48,13 +48,13 @@ validation:
   - url: https://allevents.in/fountain-inn/43rd-annual-aunt-het-fall-festival-tickets/200030305589709
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:54:40.558700-04:00'
+    checked_at: '2026-10-10T13:23:15.053767-04:00'
   problems:
   - event date 2026-10-03 is in the past
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-09T16:54:40.558668-04:00'
+  validated_at: '2026-10-10T13:23:15.053739-04:00'
 curated:
   forms: []
   traditions: []

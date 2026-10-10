@@ -47,11 +47,11 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Dance-Visions-NY-Sculpture-and-Movement-an-Interactive-Experience-2026-10-10
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:55:22.616398-04:00'
+    checked_at: '2026-10-10T13:23:57.944111-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T16:55:22.616370-04:00'
+  validated_at: '2026-10-10T13:23:57.944090-04:00'
 curated:
   forms: []
   traditions: []

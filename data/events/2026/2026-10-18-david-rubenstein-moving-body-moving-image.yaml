@@ -47,12 +47,12 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Moving-Body-Moving-Image-2026-10-18
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:56:21.803402-04:00'
+    checked_at: '2026-10-10T13:24:54.512790-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-09T16:56:21.803370-04:00'
+  validated_at: '2026-10-10T13:24:54.512752-04:00'
 curated:
   forms: []
   traditions: []

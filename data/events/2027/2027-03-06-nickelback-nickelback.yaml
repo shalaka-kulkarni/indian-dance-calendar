@@ -47,11 +47,11 @@ validation:
   - url: https://www.prucenter.com/events/nickelback
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T17:00:37.562006-04:00'
+    checked_at: '2026-10-10T13:28:54.440254-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T17:00:37.561980-04:00'
+  validated_at: '2026-10-10T13:28:54.440228-04:00'
 curated:
   forms: []
   traditions: []

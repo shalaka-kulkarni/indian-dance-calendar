@@ -47,12 +47,12 @@ validation:
   link_checks:
   - url: https://www.stnj.org/events/detail/csc2025-1
     ok: true
-    status_code: 200
-    checked_at: '2026-10-09T16:56:00.060561-04:00'
+    status_code: 406
+    checked_at: '2026-10-10T13:24:32.159400-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T16:56:00.060533-04:00'
+  validated_at: '2026-10-10T13:24:32.159374-04:00'
 curated:
   forms: []
   traditions: []

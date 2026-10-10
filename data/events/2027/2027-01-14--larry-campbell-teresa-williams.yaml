@@ -50,11 +50,11 @@ validation:
   - url: https://www.sopacnow.org/events/larry-campbell-teresa-williams-27/
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T17:00:02.683947-04:00'
+    checked_at: '2026-10-10T13:28:29.807112-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T17:00:02.683922-04:00'
+  validated_at: '2026-10-10T13:28:29.807087-04:00'
 curated:
   forms: []
   traditions: []

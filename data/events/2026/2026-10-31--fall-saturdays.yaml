@@ -47,11 +47,11 @@ validation:
   - url: https://pioneerworks.org/programs/fall-saturdays2
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:57:39.748621-04:00'
+    checked_at: '2026-10-10T13:26:10.819858-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T16:57:39.748591-04:00'
+  validated_at: '2026-10-10T13:26:10.819833-04:00'
 curated:
   forms: []
   traditions: []

@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211378
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-09T16:55:38.846059-04:00'
   - url: https://www.92ny.org/event/walter-isaacson-and-mustafa-suleyman
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:55:38.896841-04:00'
+    checked_at: '2026-10-10T13:24:14.864303-04:00'
+  - url: https://seats.92ny.org/single/211378
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-10T13:24:16.448725-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-09T16:55:38.846030-04:00'
+  validated_at: '2026-10-10T13:24:14.864253-04:00'
 curated:
   forms: []
   traditions: []

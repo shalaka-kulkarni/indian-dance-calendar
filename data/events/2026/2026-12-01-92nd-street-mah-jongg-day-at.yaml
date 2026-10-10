@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211346
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-09T16:59:13.044315-04:00'
   - url: https://www.92ny.org/event/mah-jongg-day-at-92ny
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:59:13.097164-04:00'
+    checked_at: '2026-10-10T13:27:40.896913-04:00'
+  - url: https://seats.92ny.org/single/211346
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-10T13:27:42.634798-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-09T16:59:13.044287-04:00'
+  validated_at: '2026-10-10T13:27:40.896891-04:00'
 curated:
   forms: []
   traditions: []

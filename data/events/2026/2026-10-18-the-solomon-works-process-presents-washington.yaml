@@ -49,11 +49,11 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Works-Process-Presents-Washington-National-Opera-OKeeffe-Kiss-the-Sky-Choreography-by-Jessica-Lang-2026-10-18
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:56:22.689315-04:00'
+    checked_at: '2026-10-10T13:24:55.721837-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T16:56:22.689282-04:00'
+  validated_at: '2026-10-10T13:24:55.721812-04:00'
 curated:
   forms: []
   traditions: []

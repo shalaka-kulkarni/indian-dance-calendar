@@ -47,11 +47,11 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Nai-Ni-Chen-Dance-Company-at-American-Dance-Guild-70th-Anniversary-Festival-2026-10-22
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:56:47.174931-04:00'
+    checked_at: '2026-10-10T13:25:18.850493-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T16:56:47.174905-04:00'
+  validated_at: '2026-10-10T13:25:18.850469-04:00'
 curated:
   forms: []
   traditions: []

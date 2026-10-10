@@ -1,5 +1,5 @@
 id: 2026-10-09--carnatic-vocal-concert--
-status: published
+status: past
 was_published: true
 needs_recheck: false
 scraped:
@@ -41,12 +41,12 @@ ai:
   model: hand-classified (routine lacked push access)
   classified_at: '2026-10-03'
 validation:
-  passed: true
+  passed: false
   checks:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: false
     in_metro: true
     classified: true
@@ -54,10 +54,11 @@ validation:
   - url: https://chhandayan.org/calendar/2026/10/9/carnatic-vocal-concert-chandralekha-gangavarpu
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:55:10.510822-04:00'
+    checked_at: '2026-10-10T13:23:45.140358-04:00'
   problems:
+  - event date 2026-10-09 is in the past
   - no price information
-  validated_at: '2026-10-09T16:55:10.510794-04:00'
+  validated_at: '2026-10-10T13:23:45.140337-04:00'
 curated:
   forms: []
   traditions: []

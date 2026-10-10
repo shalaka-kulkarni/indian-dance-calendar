@@ -47,11 +47,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/ssvnqrqs/2026-10-17/2026-2027-the-unbelievers
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:56:09.837044-04:00'
+    checked_at: '2026-10-10T13:24:41.351237-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T16:56:09.837017-04:00'
+  validated_at: '2026-10-10T13:24:41.351210-04:00'
 curated:
   forms: []
   traditions: []

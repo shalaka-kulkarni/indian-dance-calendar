@@ -47,12 +47,12 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Works-in-Progress-Conversations-with-the-Artists-2026-10-17
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:56:10.229671-04:00'
+    checked_at: '2026-10-10T13:24:41.772314-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-09T16:56:10.229640-04:00'
+  validated_at: '2026-10-10T13:24:41.772263-04:00'
 curated:
   forms: []
   traditions: []

@@ -47,12 +47,12 @@ validation:
   - url: https://allevents.in/williamsburg/the-wraplab-showcase/200030663532053
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:57:43.381310-04:00'
+    checked_at: '2026-10-10T13:26:14.323204-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-09T16:57:43.381278-04:00'
+  validated_at: '2026-10-10T13:26:14.323179-04:00'
 curated:
   forms: []
   traditions: []

@@ -47,12 +47,12 @@ validation:
   - url: https://www.timeout.com/newyork/dance/new-york-city-ballet-fall-2026
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:56:17.956610-04:00'
+    checked_at: '2026-10-10T13:24:51.249057-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-09T16:56:17.956581-04:00'
+  validated_at: '2026-10-10T13:24:51.249030-04:00'
 curated:
   forms: []
   traditions: []

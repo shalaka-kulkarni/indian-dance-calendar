@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/ai-and-the-future-of-community
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-09T16:57:54.613144-04:00'
   - url: https://seats.92ny.org/single/211276
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:57:56.597393-04:00'
+    checked_at: '2026-10-10T13:26:25.074996-04:00'
+  - url: https://www.92ny.org/event/ai-and-the-future-of-community
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-10T13:26:25.174378-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-09T16:57:54.613118-04:00'
+  validated_at: '2026-10-10T13:26:25.074969-04:00'
 curated:
   forms: []
   traditions: []

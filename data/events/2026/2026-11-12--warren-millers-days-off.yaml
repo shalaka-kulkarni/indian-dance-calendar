@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/days-off-26/
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:58:29.540758-04:00'
+    checked_at: '2026-10-10T13:27:00.195788-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T16:58:29.540727-04:00'
+  validated_at: '2026-10-10T13:27:00.195763-04:00'
 curated:
   forms: []
   traditions: []

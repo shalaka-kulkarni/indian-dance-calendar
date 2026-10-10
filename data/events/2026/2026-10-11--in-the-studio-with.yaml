@@ -49,10 +49,10 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/IN-THE-STUDIO-With-Daniel-Gwirtzman-Dance-Company-at-New-York-City-Center-FREE-2026-09-12_10-11
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:55:25.847353-04:00'
+    checked_at: '2026-10-10T13:24:01.230038-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-09T16:55:25.847323-04:00'
+  validated_at: '2026-10-10T13:24:01.230013-04:00'
 curated:
   forms: []
   traditions: []

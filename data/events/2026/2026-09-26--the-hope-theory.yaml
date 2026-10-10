@@ -47,12 +47,12 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/89mnpneq/2026-09-26/2026-2027-the-hope-theory
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:53:58.519277-04:00'
+    checked_at: '2026-10-10T13:22:39.337086-04:00'
   problems:
   - event date 2026-09-26 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T16:53:58.519248-04:00'
+  validated_at: '2026-10-10T13:22:39.337058-04:00'
 curated:
   forms: []
   traditions: []

@@ -47,11 +47,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/ab2s119e/2027-04-02/2026-2027-dance-theatre-of-harlem
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T17:00:39.965021-04:00'
+    checked_at: '2026-10-10T13:28:58.286932-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T17:00:39.964996-04:00'
+  validated_at: '2026-10-10T13:28:58.286911-04:00'
 curated:
   forms: []
   traditions: []

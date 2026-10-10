@@ -46,19 +46,19 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/your-glp-1-game-plan-how-to-eat-move-and-thrive-on-weight-loss-medications
-    ok: false
-    status_code: 404
-    checked_at: '2026-10-09T16:53:52.703514-04:00'
   - url: https://seats.92ny.org/single/211095
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:53:53.179618-04:00'
+    checked_at: '2026-10-10T13:22:34.084674-04:00'
+  - url: https://www.92ny.org/event/your-glp-1-game-plan-how-to-eat-move-and-thrive-on-weight-loss-medications
+    ok: false
+    status_code: 404
+    checked_at: '2026-10-10T13:22:34.196673-04:00'
   problems:
   - 'dead links: https://www.92ny.org/event/your-glp-1-game-plan-how-to-eat-move-and-thrive-on-weight-loss-medications'
   - event date 2026-09-24 is in the past
   - classified not-relevant
-  validated_at: '2026-10-09T16:53:52.703484-04:00'
+  validated_at: '2026-10-10T13:22:34.084650-04:00'
 curated:
   forms: []
   traditions: []

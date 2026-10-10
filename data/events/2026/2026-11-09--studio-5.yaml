@@ -46,11 +46,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/kgnhx9e6/2026-11-09/2026-2027-studio-5
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:58:18.189734-04:00'
+    checked_at: '2026-10-10T13:26:50.153325-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T16:58:18.189705-04:00'
+  validated_at: '2026-10-10T13:26:50.153302-04:00'
 curated:
   forms: []
   traditions: []

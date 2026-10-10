@@ -46,13 +46,13 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Le-Monocle-2026-10-03
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:54:43.215115-04:00'
+    checked_at: '2026-10-10T13:23:17.963777-04:00'
   problems:
   - event date 2026-10-03 is in the past
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-09T16:54:43.215084-04:00'
+  validated_at: '2026-10-10T13:23:17.963754-04:00'
 curated:
   forms: []
   traditions: []

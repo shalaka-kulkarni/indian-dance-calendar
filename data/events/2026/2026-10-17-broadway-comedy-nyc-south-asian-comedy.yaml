@@ -50,10 +50,10 @@ validation:
   - url: https://events.sulekha.com/nyc-south-asian-comedy-festival-roast-battle-india-vs-pakistan-vs-bangladesh-vs-sri-lanka_event-in_new-york-ny_401411
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:56:12.278014-04:00'
+    checked_at: '2026-10-10T13:24:46.263873-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-09T16:56:12.277984-04:00'
+  validated_at: '2026-10-10T13:24:46.263845-04:00'
 curated:
   forms: []
   traditions: []

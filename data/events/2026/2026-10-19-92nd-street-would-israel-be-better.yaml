@@ -50,14 +50,14 @@ validation:
   - url: https://www.92ny.org/event/would-israel-be-better-off-without-american-aid
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:56:25.789090-04:00'
+    checked_at: '2026-10-10T13:24:58.570990-04:00'
   - url: https://seats.92ny.org/single/211256
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:56:25.848983-04:00'
+    checked_at: '2026-10-10T13:25:00.347915-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-09T16:56:25.789060-04:00'
+  validated_at: '2026-10-10T13:24:58.570966-04:00'
 curated:
   forms: []
   traditions: []

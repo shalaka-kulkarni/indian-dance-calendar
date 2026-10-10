@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211468
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-09T16:58:01.728429-04:00'
   - url: https://www.92ny.org/event/building-community-at-the-21st-century-university
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:58:01.802667-04:00'
+    checked_at: '2026-10-10T13:26:31.845555-04:00'
+  - url: https://seats.92ny.org/single/211468
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-10T13:26:33.451075-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-09T16:58:01.728403-04:00'
+  validated_at: '2026-10-10T13:26:31.845531-04:00'
 curated:
   forms: []
   traditions: []

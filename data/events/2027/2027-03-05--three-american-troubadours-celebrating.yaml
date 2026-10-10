@@ -49,11 +49,11 @@ validation:
   - url: https://www.sopacnow.org/events/three-american-troubadours-27/
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T17:00:35.414253-04:00'
+    checked_at: '2026-10-10T13:28:52.673479-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T17:00:35.414229-04:00'
+  validated_at: '2026-10-10T13:28:52.673449-04:00'
 curated:
   forms: []
   traditions: []

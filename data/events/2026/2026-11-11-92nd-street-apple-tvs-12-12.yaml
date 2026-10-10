@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/apple-tv-s-12-12-12
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-09T16:58:25.571736-04:00'
   - url: https://seats.92ny.org/single/211450
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:58:26.839326-04:00'
+    checked_at: '2026-10-10T13:26:56.360829-04:00'
+  - url: https://www.92ny.org/event/apple-tv-s-12-12-12
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-10T13:26:56.442451-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-09T16:58:25.571708-04:00'
+  validated_at: '2026-10-10T13:26:56.360805-04:00'
 curated:
   forms: []
   traditions: []

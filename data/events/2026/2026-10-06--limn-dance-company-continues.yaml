@@ -47,12 +47,12 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/Limn-Dance-Company-Continues-80th-Anniversary-Celebration-at-The-Joyce-Theater-2026-10-06_11
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:54:54.468520-04:00'
+    checked_at: '2026-10-10T13:23:27.479627-04:00'
   problems:
   - event date 2026-10-06 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T16:54:54.468487-04:00'
+  validated_at: '2026-10-10T13:23:27.479603-04:00'
 curated:
   forms: []
   traditions: []

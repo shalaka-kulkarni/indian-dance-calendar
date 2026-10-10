@@ -51,11 +51,11 @@ validation:
   - url: https://gibneydance.org/event/penn-arts-live/penn-live-arts-opening-night/
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T17:00:47.795176-04:00'
+    checked_at: '2026-10-10T13:29:06.226107-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T17:00:47.795150-04:00'
+  validated_at: '2026-10-10T13:29:06.226083-04:00'
 curated:
   forms: []
   traditions: []

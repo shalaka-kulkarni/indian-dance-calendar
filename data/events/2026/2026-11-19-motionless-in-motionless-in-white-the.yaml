@@ -49,11 +49,11 @@ validation:
   - url: https://www.prucenter.com/events/motionless-in-white
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:59:00.970927-04:00'
+    checked_at: '2026-10-10T13:27:27.712261-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T16:59:00.970898-04:00'
+  validated_at: '2026-10-10T13:27:27.712236-04:00'
 curated:
   forms: []
   traditions: []

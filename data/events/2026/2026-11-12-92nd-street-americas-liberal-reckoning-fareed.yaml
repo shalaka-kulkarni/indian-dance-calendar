@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/america-s-liberal-reckoning
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-09T16:58:29.921757-04:00'
   - url: https://seats.92ny.org/single/211299
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:58:31.417785-04:00'
+    checked_at: '2026-10-10T13:27:00.627072-04:00'
+  - url: https://www.92ny.org/event/america-s-liberal-reckoning
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-10T13:27:00.718267-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-09T16:58:29.921729-04:00'
+  validated_at: '2026-10-10T13:27:00.627051-04:00'
 curated:
   forms: []
   traditions: []

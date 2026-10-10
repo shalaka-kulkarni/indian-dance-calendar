@@ -47,11 +47,11 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/US-Premiere-of-Toi-moi-Tituba-By-Dorothe-Munyaneza-Kadidi-Company-2026-10-23_24
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:56:51.336126-04:00'
+    checked_at: '2026-10-10T13:25:23.565736-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-09T16:56:51.336098-04:00'
+  validated_at: '2026-10-10T13:25:23.565715-04:00'
 curated:
   forms: []
   traditions: []

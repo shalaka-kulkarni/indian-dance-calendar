@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/annie-lowrey-and-pj-vogt-the-time-tax
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:57:23.198510-04:00'
+    checked_at: '2026-10-10T13:25:53.834970-04:00'
   - url: https://seats.92ny.org/single/211458
     ok: true
     status_code: 200
-    checked_at: '2026-10-09T16:57:24.932502-04:00'
+    checked_at: '2026-10-10T13:25:55.470744-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-09T16:57:23.198482-04:00'
+  validated_at: '2026-10-10T13:25:53.834948-04:00'
 curated:
   forms: []
   traditions: []
