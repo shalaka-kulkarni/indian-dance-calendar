@@ -11,11 +11,11 @@ scraped:
   region: unknown
   is_free: false
   price_note: ''
-  info_url: https://www.dance.nyc/NYFD?utm_source=press+release&utm_medium=email&utm_campaign=NYFD26
+  info_url: https://www.dance.nyc/NYFD
   ticket_url: ''
   description_snippet: 'NEW YORKERS FOR DANCE: Dance/NYC’s Annual Celebration Returns 26 Bridge Wed. October,
     21 @ 6:00pm'
-  content_hash: 056f17558fd9294d
+  content_hash: c1a0bf8456c3dfaa
   sources:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/NEW-YORKERS-FOR-DANCE-DanceNYCs-Annual-Celebration-Returns-2026-10-21

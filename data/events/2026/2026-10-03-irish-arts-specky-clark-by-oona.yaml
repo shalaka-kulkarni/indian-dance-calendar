@@ -11,11 +11,11 @@ scraped:
   region: unknown
   is_free: false
   price_note: ''
-  info_url: https://tickets.irishartscenter.org/overview/3245?_ga=2.106563333.700974511.1784838562-260825102.1784838562&_gl=1*12edaco*_gcl_au*MTE0NjQ0ODgyLjE3ODQ4Mzg1NjI.*_ga*MjYwODI1MTAyLjE3ODQ4Mzg1NjI.*_ga_6T2ZG8MDSN*czE3ODQ4Mzg1NjEkbzEkZzEkdDE3ODQ4Mzg2MTckajQkbDAk
+  info_url: https://tickets.irishartscenter.org/overview/3245
   ticket_url: ''
   description_snippet: '"Specky Clark" by Oona Doherty & Cast at Irish Arts Center Irish Arts Center (IAC)
     Sat. October, 3 @ 7:30pm (+ 19 more)'
-  content_hash: 8251523b94eddab3
+  content_hash: c0fbe15d41ee210b
   sources:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Specky-Clark-by-Oona-Doherty-Cast-at-Irish-Arts-Center-2026-10-03_11-01

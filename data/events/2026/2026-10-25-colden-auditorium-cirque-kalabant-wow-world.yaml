@@ -11,11 +11,11 @@ scraped:
   region: queens
   is_free: false
   price_note: ''
-  info_url: https://kupferbergcenter.org/event/wow/?gad_source=1&gad_campaignid=24258760736&gbraid=0AAAAADc50AjmmgJCyvaDuvWuJ0Q4CI5WR&gclid=Cj0KCQjw8c3VBhCsARIsAA_xJ92YZCyLtaJ7U7CCiDBKhuZIDlcdXAQeU4P_EUXf41t9Wp2X6nJNTTwaAj8kEALw_wcB
+  info_url: https://kupferbergcenter.org/event/wow/
   ticket_url: ''
   description_snippet: 'Cirque Kalabanté: WOW (World of Words) Colden Auditorium, Kupferberg Center for
     the Arts Sun. October, 25 @ 3:00pm'
-  content_hash: cc020c50e112b64a
+  content_hash: 2437fa10806b185a
   sources:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Cirque-Kalabant-WOW-World-of-Words-2026-10-25
