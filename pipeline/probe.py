@@ -99,6 +99,33 @@ def _date_shaped_blocks(html: str) -> None:
             print(f"        markup: {' '.join(str(card).split())[:CARD_DUMP]}")
 
 
+def _outbound_links(html: str, page_url: str) -> None:
+    """Links that leave the site, with their text and the markup around them.
+    An aggregator's listing usually points onward to the venue's own ticket
+    page; this is where a resolver has to look for it."""
+    from urllib.parse import urlparse
+
+    host = urlparse(page_url).netloc.removeprefix("www.")
+    soup = BeautifulSoup(html, "html.parser")
+    seen: set[str] = set()
+    rows = []
+    for a in soup.find_all("a", href=True):
+        href = urljoin(page_url, a["href"])
+        target = urlparse(href)
+        if target.scheme not in ("http", "https"):
+            continue
+        if target.netloc.removeprefix("www.") == host or href in seen:
+            continue
+        seen.add(href)
+        rows.append((a, href))
+    print(f"  outbound links: {len(rows)}")
+    for a, href in rows[:25]:
+        text = " ".join(a.get_text(" ", strip=True).split())[:60]
+        parent = a.parent
+        print(f"      {text!r} -> {href[:120]}")
+        print(f"         class={a.get('class')} parent=<{parent.name} class={parent.get('class')}>")
+
+
 def probe(url: str) -> None:
     print(f"\n=== probing {url} ===")
     client = make_client()
@@ -128,6 +155,8 @@ def probe(url: str) -> None:
     # blocks.
     if not listing_events:
         _date_shaped_blocks(html)
+
+    _outbound_links(html, url)
 
     # Rung 2: the generic HTML block reader.
     _show("html blocks", extract_listing_blocks(html, "probe", url))
