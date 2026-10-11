@@ -17,6 +17,7 @@ from bs4 import BeautifulSoup
 
 from pipeline.scrapers.base import RawEvent
 from pipeline.scrapers.jsonld import extract_jsonld_events
+from pipeline.textclean import clean_url
 
 # Matches "Sep 19, 2026", "September 19-20, 2026", "19 September 2026", "9/19/2026"
 DATE_PAT = re.compile(
@@ -355,7 +356,7 @@ def tde_outbound_link(html: str, page_url: str) -> str:
     own_host = urlparse(page_url).netloc.removeprefix("www.")
     candidates: list[str] = []
     for a in scope.find_all("a", href=True):
-        href = urljoin(page_url, a["href"].strip())
+        href = clean_url(urljoin(page_url, a["href"].strip()))
         target = urlparse(href)
         host = target.netloc.lower().removeprefix("www.")
         if target.scheme not in ("http", "https") or not host or host == own_host:

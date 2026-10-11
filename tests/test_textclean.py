@@ -1,6 +1,6 @@
 import pytest
 
-from pipeline.textclean import clean_description, clean_title, clean_venue
+from pipeline.textclean import clean_description, clean_title, clean_url, clean_venue
 
 # Every case below is a title as a source actually published it.
 FIXED = [
@@ -73,3 +73,14 @@ def test_clean_venue():
 def test_clean_description_decodes_double_escaped_markup():
     raw = "&lt;p&gt;Join Ajna Dance Company for a fun &amp;amp; energetic evening&lt;/p&gt;"
     assert clean_description(raw) == "Join Ajna Dance Company for a fun & energetic evening"
+
+
+def test_clean_url_repairs_doubled_scheme_and_drops_tracking():
+    assert clean_url("http://https://swans.eventbrite.com/e/1") == "https://swans.eventbrite.com/e/1"
+    assert (clean_url("https://tickets.irishartscenter.org/overview/3245?_ga=2.1065.17")
+            == "https://tickets.irishartscenter.org/overview/3245")
+    assert (clean_url("https://kupferbergcenter.org/event/wow/?gad_source=1&gad_campaignid=24258760736&gclid=x")
+            == "https://kupferbergcenter.org/event/wow/")
+    # Parameters that identify the event stay, untouched.
+    assert clean_url("https://venue.org/show?id=42&utm_source=fb") == "https://venue.org/show?id=42"
+    assert clean_url("https://venue.org/show?id=42&date=2026-10-15") == "https://venue.org/show?id=42&date=2026-10-15"

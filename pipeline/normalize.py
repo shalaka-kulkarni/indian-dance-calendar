@@ -13,7 +13,7 @@ from dateutil import parser as dateparser
 from pipeline.models import Region, Scraped, SourceRecord
 from pipeline.scrapers.base import RawEvent
 from pipeline.store import content_hash
-from pipeline.textclean import clean_description, clean_title, clean_venue
+from pipeline.textclean import clean_description, clean_title, clean_url, clean_venue
 
 NY_TZ = ZoneInfo("America/New_York")
 
@@ -153,7 +153,7 @@ def normalize(
     when the listing names no venue of its own."""
     title = clean_title(raw.title)
     start = parse_when(raw.start_raw)
-    info_url = raw.info_url or raw.source_url
+    info_url = clean_url(raw.info_url or raw.source_url)
     if not title or start is None or not info_url:
         return None
     if PLACEHOLDER_TITLE.search(title):
@@ -190,7 +190,7 @@ def normalize(
         is_free=is_free,
         price_note=price_note[:120],
         info_url=info_url,
-        ticket_url=raw.ticket_url if raw.ticket_url != info_url else raw.ticket_url,
+        ticket_url=clean_url(raw.ticket_url),
         description_snippet=clean_description(raw.description)[:600],
         sources=[
             SourceRecord(

@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import html
 import re
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 _TAG = re.compile(r"<[^>]+>")
 # Pictographs and their joiners. Listing sites decorate titles with them
@@ -137,3 +138,27 @@ def clean_venue(text: str) -> str:
 
 def clean_description(text: str) -> str:
     return plain(text)
+
+
+# Ad and analytics parameters that ride along on links copied from a browser.
+# They identify the copier's session, not the event.
+_TRACKING_PARAM = re.compile(
+    r"^(?:utm_\w+|_ga|_gl|gclid|gad_source|gad_campaignid|gbraid|wbraid|fbclid|"
+    r"mc_cid|mc_eid|msclkid|igshid|_hsenc|_hsmi|mkt_tok)$",
+    re.I,
+)
+_DOUBLE_SCHEME = re.compile(r"^(?:https?://)+(https?://)", re.I)
+
+
+def clean_url(url: str) -> str:
+    """Repair a doubled scheme ("http://https://...") and drop tracking
+    parameters. Every other part of the link is left exactly as given."""
+    url = _DOUBLE_SCHEME.sub(r"\1", (url or "").strip())
+    parts = urlsplit(url)
+    if not parts.query:
+        return url
+    pairs = parse_qsl(parts.query, keep_blank_values=True)
+    kept = [(k, v) for k, v in pairs if not _TRACKING_PARAM.match(k)]
+    if len(kept) == len(pairs):
+        return url
+    return urlunsplit(parts._replace(query=urlencode(kept, doseq=True)))
