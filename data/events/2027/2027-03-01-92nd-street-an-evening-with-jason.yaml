@@ -6,8 +6,7 @@ scraped:
   title: An Evening with Jason Robert Brown
   start: '2027-03-01T19:30:00-05:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall</div><div class="pdp-hero__hall"><em>Enter
-    on 92nd St. b
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall Enter on 92nd St. b
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 50.0
@@ -18,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210713
   description_snippet: Triple Tony Award winner Jason Robert Brown returns following his 2024 sold-out
     show, sharing songs and stories from his Broadway hits and previewing new music.
-  content_hash: a40b873478a5bd3c
+  content_hash: 2e1d3559881ad61e
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/an-evening-with-jason-robert-brown

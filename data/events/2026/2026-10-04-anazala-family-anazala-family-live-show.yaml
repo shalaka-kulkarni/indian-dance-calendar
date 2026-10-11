@@ -7,7 +7,7 @@ scraped:
   start: '2026-10-04T16:00:00-04:00'
   end: '2026-10-04T19:00:00-04:00'
   additional_dates: []
-  venue: Anazala Family Live Show & Concert Tickets
+  venue: Prudential Center
   address: Anazala Family Live Show & Concert Tickets
   region: new_jersey
   is_free: false
@@ -16,7 +16,7 @@ scraped:
   ticket_url: ''
   description_snippet: The Anazala Family Live Show & Concert takes over Prudential Center on Sunday,
     October 4 with live performances, immersive experiences and more, get tickets!
-  content_hash: f522cac09abecf8d
+  content_hash: 03892427f9ea5adc
   sources:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/anazala-family-live-show-concert

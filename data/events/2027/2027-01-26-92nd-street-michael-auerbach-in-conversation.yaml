@@ -6,7 +6,7 @@ scraped:
   title: 'Michael Auerbach in Conversation with Patrick Radden Keefe: The Big Bet'
   start: '2027-01-26T19:30:00-05:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 40.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211463
   description_snippet: Michael Auerbach joins Patrick Radden Keefe to explore the rise of prediction markets,
     their political influence, and what it means to put a price on the future.
-  content_hash: be718618b38cb4e7
+  content_hash: 560f667039dba8cf
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/michael-auerbach-with-patrick-radden-keefe

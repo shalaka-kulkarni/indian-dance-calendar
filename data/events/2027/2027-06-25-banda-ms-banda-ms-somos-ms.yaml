@@ -7,7 +7,7 @@ scraped:
   start: '2027-06-25T20:00:00-04:00'
   end: '2027-06-25T21:00:00-04:00'
   additional_dates: []
-  venue: 'Banda MS: Somos MS Tour 2026 Tickets'
+  venue: Prudential Center
   address: 'Banda MS: Somos MS Tour 2026 Tickets'
   region: new_jersey
   is_free: false
@@ -16,7 +16,7 @@ scraped:
   ticket_url: ''
   description_snippet: Banda MS brings their Somos MS Tour 2026 to Prudential Center on Saturday, August
     22. Get tickets to this unforgettable show!
-  content_hash: 86148f343bca0644
+  content_hash: 03a3ae091dbf2e44
   sources:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/banda-ms

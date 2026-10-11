@@ -6,7 +6,7 @@ scraped:
   title: 'Jim Shepard with Alex Edelman: The Queen of Bad Influences'
   start: '2026-09-22T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Warburg Lounge
+  venue: 92nd Street Y, New York – Warburg Lounge
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 30.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210950
   description_snippet: Jim Shepard and Alex Edelman join us for the launch of Shepard’s new collection,
     The Queen of Bad Influences .
-  content_hash: 48d00b177d06cbf2
+  content_hash: c2198471da2eec3c
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/jim-shepard-the-queen-of-bad-influences

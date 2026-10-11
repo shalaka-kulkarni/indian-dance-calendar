@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: 'FREE MOVIE: Coming to America (1988) - On the BIG screen!'
+  title: 'FREE MOVIE: Coming to America (1988) – On the BIG screen!'
   start: '2026-09-17T00:00:00-04:00'
   end: '2026-09-17T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/san-francisco/free-movie-coming-to-america-1988-on-the-big-screen/100001999295123534
   ticket_url: ''
   description_snippet: ''
-  content_hash: 7d391df5c6a646ce
+  content_hash: 3c83e78e9c1245a2
   sources:
   - source_id: allevents
     url: https://allevents.in/san-francisco/free-movie-coming-to-america-1988-on-the-big-screen/100001999295123534

@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: Sapphic &amp; FLINTA Klnk Party - Sapphic Valley High!
+  title: Sapphic & FLINTA Klnk Party – Sapphic Valley High!
   start: '2026-09-12T00:00:00-04:00'
   end: '2026-09-13T00:00:00-04:00'
   additional_dates: []
@@ -17,7 +17,7 @@ scraped:
   info_url: https://allevents.in/new-york/sapphic-and-flinta-klnk-party-sapphic-valley-high/100001996418207601
   ticket_url: https://allevents.in/new-york/sapphic-and-flinta-klnk-party-sapphic-valley-high/100001996418207601
   description_snippet: ''
-  content_hash: 88c70ac7eecb4023
+  content_hash: 119cd3eb60f0c579
   sources:
   - source_id: allevents
     url: https://allevents.in/new-york/sapphic-and-flinta-klnk-party-sapphic-valley-high/100001996418207601

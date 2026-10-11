@@ -3,11 +3,11 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: 2026 Wings and Wheels presented by United Bank - Winchester, VA
+  title: 2026 Wings and Wheels presented by United Bank – Winchester, VA
   start: '2026-10-03T00:00:00-04:00'
   end: '2026-10-03T00:00:00-04:00'
   additional_dates: []
-  venue: Winchester Regional Airport - OKV
+  venue: Winchester Regional Airport – OKV
   address: 491 Airport Rd, Winchester, VA 22602-4517, United States, Winchester, VA
   region: unknown
   is_free: false
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/winchester/2026-wings-and-wheels-presented-by-united-bank-winchester-va/200030009157735
   ticket_url: ''
   description_snippet: ''
-  content_hash: b483c9614afe79db
+  content_hash: 26e7c6ac327c37fa
   sources:
   - source_id: allevents
     url: https://allevents.in/winchester/2026-wings-and-wheels-presented-by-united-bank-winchester-va/200030009157735

@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: Desert West October Nights 10/3 ✨
+  title: Desert West October Nights 10/3
   start: '2026-10-03T00:00:00-04:00'
   end: '2026-10-03T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/peoria/desert-west-october-nights-10-3/200030536793030
   ticket_url: ''
   description_snippet: ''
-  content_hash: d65d4759c2f79a5f
+  content_hash: d682c4f5fc8721fe
   sources:
   - source_id: allevents
     url: https://allevents.in/peoria/desert-west-october-nights-10-3/200030536793030

@@ -1,9 +1,9 @@
 id: 2026-10-10--sitar-concert---kalyan
 status: published
 was_published: true
-needs_recheck: false
+needs_recheck: true
 scraped:
-  title: Sitar Concert - Kalyan Majumdar
+  title: Sitar Concert – Kalyan Majumdar
   start: '2026-10-10T00:00:00-04:00'
   additional_dates: []
   venue: ''
@@ -20,7 +20,7 @@ scraped:
     will also be streamed live. Purchase Tickets/Streaming Access Kalyan Majumdar Kalyan Majumdar is a
     leading upcoming Sitar player of the present time. He is a regular performer in the Professional Circuit
     and
-  content_hash: f93349cf7f94e728
+  content_hash: d45a3c74e6b69b05
   sources:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2026/10/10/sitar-concert-kalyan-majumdar

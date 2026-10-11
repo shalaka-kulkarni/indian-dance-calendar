@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: SAN FRANCISCO ZOMBIE CRAWL - Halloween Bar Crawl - Party Pass to 10+ Bars
+  title: SAN FRANCISCO ZOMBIE CRAWL – Halloween Bar Crawl – Party Pass to 10+ Bars
   start: '2026-10-30T00:00:00-04:00'
   end: '2026-11-01T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/san-francisco/san-francisco-zombie-crawl-halloween-bar-crawl-party-pass-to-10-bars/100001996256054597
   ticket_url: ''
   description_snippet: ''
-  content_hash: 3aad0f725078a471
+  content_hash: f96c26b3aa58dae5
   sources:
   - source_id: allevents
     url: https://allevents.in/san-francisco/san-francisco-zombie-crawl-halloween-bar-crawl-party-pass-to-10-bars/100001996256054597

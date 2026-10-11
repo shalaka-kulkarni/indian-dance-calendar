@@ -3,7 +3,7 @@ status: past
 was_published: true
 needs_recheck: false
 scraped:
-  title: Kathak Dance Workshop - Sandeep Mahavir
+  title: Kathak Dance Workshop – Sandeep Mahavir
   start: '2026-09-05T00:00:00-04:00'
   additional_dates: []
   venue: ''
@@ -20,7 +20,7 @@ scraped:
     Sandeep Mahavir. Students of Kathak may join. Students of all teachers and institutions are welcome.
     A minimum level of learning experience is required. Students should bring their ankle bells, notebooks,
     a non-intr
-  content_hash: 83577de5f6bc6573
+  content_hash: e1e246a2eb650a89
   sources:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2026/9/5/kathak-dance-workshop-sandeep-mahavir

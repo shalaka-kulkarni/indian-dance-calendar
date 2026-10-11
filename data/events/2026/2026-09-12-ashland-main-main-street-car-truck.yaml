@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: ☀️🍁 Main Street Car, Truck &amp; Bike Show - Sponsored by Big 3 Racing 🍁 ☀️
+  title: Main Street Car, Truck & Bike Show – Sponsored by Big 3 Racing
   start: '2026-09-12T00:00:00-04:00'
   end: '2026-09-12T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/ashland/main-street-car-truck-and-bike-show-sponsored-by-big-3-racing/200030240191004
   ticket_url: ''
   description_snippet: ''
-  content_hash: 7456d2c0c2b63837
+  content_hash: 4b798305126d0cbb
   sources:
   - source_id: allevents
     url: https://allevents.in/ashland/main-street-car-truck-and-bike-show-sponsored-by-big-3-racing/200030240191004

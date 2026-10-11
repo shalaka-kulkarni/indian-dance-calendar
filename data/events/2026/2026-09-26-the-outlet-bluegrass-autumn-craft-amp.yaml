@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: Bluegrass Autumn Craft &amp; Vendor Market
+  title: Bluegrass Autumn Craft & Vendor Market
   start: '2026-09-26T00:00:00-04:00'
   end: '2026-09-27T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/simpsonville/bluegrass-autumn-craft-and-vendor-market/100001989972335825
   ticket_url: ''
   description_snippet: ''
-  content_hash: 71b3ba673dbec638
+  content_hash: 28a908796586aafd
   sources:
   - source_id: allevents
     url: https://allevents.in/simpsonville/bluegrass-autumn-craft-and-vendor-market/100001989972335825

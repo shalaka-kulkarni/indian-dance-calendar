@@ -6,7 +6,7 @@ scraped:
   title: 'Johnnie Cruise Mercer: The Good News Suite'
   start: '2026-10-16T19:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 45.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210349
   description_snippet: Johnnie Cruise Mercer draws on his upbringing in the Black Baptist church to create
     a work rooted in memory, ritual, and shared experience.
-  content_hash: d8a05c49c0a7c962
+  content_hash: ba223d43ea46c53a
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/johnnie-cruise-mercer-the-good-news-suite

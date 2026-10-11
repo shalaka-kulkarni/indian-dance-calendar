@@ -6,7 +6,7 @@ scraped:
   title: 'STARZ’s Outlander: Blood of my Blood'
   start: '2026-09-17T20:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 80.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211178
   description_snippet: 'See an advance screening of Outlander: Blood of My Blood , followed by a conversation
     with Jeremy Irvine, Jamie Roy, Harriet Slater, and Maril Davis.'
-  content_hash: 33b4a9bc5175370a
+  content_hash: 4c95801bdfd84d95
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/starz-s-outlander-blood-of-my-blood

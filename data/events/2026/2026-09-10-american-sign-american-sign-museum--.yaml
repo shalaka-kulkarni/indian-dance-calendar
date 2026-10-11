@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: 'American Sign Museum - Glow in the Dark: Back-to-School Edition'
+  title: 'American Sign Museum – Glow in the Dark: Back-to-School Edition'
   start: '2026-09-10T00:00:00-04:00'
   end: '2026-09-10T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/cincinnati/american-sign-museum-glow-in-the-dark-back-to-school-edition/200030603249603
   ticket_url: ''
   description_snippet: ''
-  content_hash: 4766404d2da4a5c6
+  content_hash: 65cf70d2a0abef30
   sources:
   - source_id: allevents
     url: https://allevents.in/cincinnati/american-sign-museum-glow-in-the-dark-back-to-school-edition/200030603249603

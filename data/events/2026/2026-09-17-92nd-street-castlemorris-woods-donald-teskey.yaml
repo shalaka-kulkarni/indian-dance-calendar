@@ -6,7 +6,7 @@ scraped:
   title: 'Castlemorris Woods : Donald Teskey Exhibition Opening Reception'
   start: '2026-09-17T17:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Weill Art Gallery
+  venue: 92nd Street Y, New York – Weill Art Gallery
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   is_free: false
@@ -15,7 +15,7 @@ scraped:
   ticket_url: ''
   description_snippet: Join us for a special opening reception celebrating Castlemorris Woods, a new exhibition
     by acclaimed Irish painter Donald Teskey.
-  content_hash: f3937031a7a1ed4d
+  content_hash: 1be322b03f29fd08
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/castlemorris-woods-opening-reception

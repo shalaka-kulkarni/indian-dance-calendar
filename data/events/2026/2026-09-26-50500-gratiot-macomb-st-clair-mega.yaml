@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: Macomb St. Clair Mega Cruise 2026 - FKA North Gratiot Cruise
+  title: Macomb St. Clair Mega Cruise 2026 – FKA North Gratiot Cruise
   start: '2026-09-26T00:00:00-04:00'
   additional_dates: []
   venue: 50500 Gratiot Ave, Chesterfield Twp, MI 48051-4400, United States
@@ -14,7 +14,7 @@ scraped:
   info_url: https://allevents.in/new-haven/macomb-st-clair-mega-cruise-2026-fka-north-gratiot-cruise/200030287423512
   ticket_url: ''
   description_snippet: ''
-  content_hash: 62e1d13bf0257efe
+  content_hash: 8b473643dbaea9af
   sources:
   - source_id: allevents
     url: https://allevents.in/new-haven/macomb-st-clair-mega-cruise-2026-fka-north-gratiot-cruise/200030287423512

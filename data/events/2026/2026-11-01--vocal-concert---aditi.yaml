@@ -1,9 +1,9 @@
 id: 2026-11-01--vocal-concert---aditi
 status: published
 was_published: true
-needs_recheck: false
+needs_recheck: true
 scraped:
-  title: Vocal Concert - Aditi Chakraborty
+  title: Vocal Concert – Aditi Chakraborty
   start: '2026-11-01T00:00:00-04:00'
   additional_dates: []
   venue: ''
@@ -19,7 +19,7 @@ scraped:
     Chhandayan Center for an afternoon Hindustani vocal concert performed by renowned artist Aditi Chakraborty
     accompanied by Vikram Mukherjee on tabla. The performance will also be streamed live. Purchase Tickets/Streaming
     Access Aditi Chakraborty Dr. Aditi Chakraborty was born into a musical family of Benaras dedicate
-  content_hash: d7bf49c516bba41f
+  content_hash: cb98908b49543caf
   sources:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2026/11/1/vocal-concert-aditi-chakraborty

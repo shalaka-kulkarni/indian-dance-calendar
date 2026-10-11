@@ -6,7 +6,7 @@ scraped:
   title: 'Midtown Movie Night: Ferris Bueller''s Day Off'
   start: '2026-09-17T00:00:00-04:00'
   additional_dates: []
-  venue: Peachtree Street &amp; 10th Street
+  venue: Peachtree Street & 10th Street
   address: Peachtree St NE,Atlanta, Georgia, Atlanta, GA
   region: unknown
   is_free: false
@@ -14,7 +14,7 @@ scraped:
   info_url: https://allevents.in/atlanta/midtown-movie-night-ferris-buellers-day-off/200030667021422
   ticket_url: ''
   description_snippet: ''
-  content_hash: 302d4ca535adf273
+  content_hash: e431e30164a91221
   sources:
   - source_id: allevents
     url: https://allevents.in/atlanta/midtown-movie-night-ferris-buellers-day-off/200030667021422

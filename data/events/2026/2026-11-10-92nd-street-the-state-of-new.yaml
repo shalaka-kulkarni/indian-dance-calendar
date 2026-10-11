@@ -6,7 +6,7 @@ scraped:
   title: 'The State of New York — Keeping New York City Safe: Alvin Bragg in Conversation with Seth Pinsky'
   start: '2026-11-10T18:00:00-05:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Warburg Lounge
+  venue: 92nd Street Y, New York – Warburg Lounge
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 25.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211243
   description_snippet: Manhattan DA Alvin Bragg and Seth Pinsky discuss the fight against crime, antisemitism,
     and keeping NYC safe.
-  content_hash: 2f71c016006c1bdf
+  content_hash: 8b3f5347ba058aa5
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/keeping-new-york-city-safe

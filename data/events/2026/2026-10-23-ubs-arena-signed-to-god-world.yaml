@@ -1,13 +1,13 @@
 id: 2026-10-23-ubs-arena-signed-to-god-world
 status: published
 was_published: true
-needs_recheck: false
+needs_recheck: true
 scraped:
-  title: Signed To God World Tour 2026 - A Sidhu Moose Wala Hologram Experience
+  title: Signed to God World Tour 2026 – A Sidhu Moose Wala Hologram Experience
   start: '2026-10-23T20:00:00-04:00'
   end: '2026-10-23T23:00:00-04:00'
   additional_dates: []
-  venue: UBS Arena,
+  venue: UBS Arena
   address: UBS Arena 2400 Hempstead Turnpike, Elmont, NY
   region: long_island
   price_min: 99.0
@@ -17,7 +17,7 @@ scraped:
   info_url: https://events.sulekha.com/signed-to-god-world-tour-2026-a-sidhu-moose-wala-hologram-experience_event-in_elmont-ny_401914
   ticket_url: https://events.sulekha.com/signed-to-god-world-tour-2026-a-sidhu-moose-wala-hologram-experience_event-in_elmont-ny_401914
   description_snippet: Signed To God World Tour 2026 - A Sidhu Moose Wala Hologram Experience
-  content_hash: a7f62eced19cecda
+  content_hash: b81a274074c3ef7f
   sources:
   - source_id: sulekha
     url: https://events.sulekha.com/signed-to-god-world-tour-2026-a-sidhu-moose-wala-hologram-experience_event-in_elmont-ny_401914

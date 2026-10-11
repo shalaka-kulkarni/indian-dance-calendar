@@ -3,8 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: <span style="text-decoration:underline;text-transform:lowercase;">vildwerk.</span> <span style="font-weight:normal;">Dancing
-    for the Wild</span>
+  title: vildwerk. Dancing for the Wild
   start: '2027-01-21T05:00:00Z'
   end: '2027-01-22T04:50:00Z'
   additional_dates: []
@@ -16,8 +15,8 @@ scraped:
   info_url: https://www.nycitycenter.org/events/2026-2027-vildwerk
   ticket_url: ''
   description_snippet: “The world's first non-profit organization solely dedicated to raising global environmental
-    conservation awareness through dance.” – <em>Broadway World</em>
-  content_hash: a98e0fc52427cbc5
+    conservation awareness through dance.” – Broadway World
+  content_hash: 3a2156a1de3b6995
   sources:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/2026-2027-vildwerk

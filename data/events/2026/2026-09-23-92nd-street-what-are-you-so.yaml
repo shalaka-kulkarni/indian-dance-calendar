@@ -6,7 +6,7 @@ scraped:
   title: What Are You So Afraid Of? Rethinking your Relationship with Fear
   start: '2026-09-23T19:00:00-04:00'
   additional_dates: []
-  venue: '92nd Street Y, New York - Location: Classroom'
+  venue: '92nd Street Y, New York – Location: Classroom'
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 35.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210970
   description_snippet: 'In this provocative and interactive workshop, Ruth Olson invites you to rethink
     one of the most misunderstood relationships in your life: your relationship with fear.'
-  content_hash: 528ca6f442c7cc37
+  content_hash: 93fc909049c8eaa7
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/what-are-you-so-afraid-of

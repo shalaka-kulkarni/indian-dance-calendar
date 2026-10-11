@@ -3,7 +3,7 @@ status: past
 was_published: true
 needs_recheck: false
 scraped:
-  title: Vocal Concert - Anol Chatterjee
+  title: Vocal Concert – Anol Chatterjee
   start: '2026-09-27T00:00:00-04:00'
   additional_dates: []
   venue: ''
@@ -20,7 +20,7 @@ scraped:
     by Sandip Ghosh on tabla. The concert will also be streamed live. Purchase Tickets/Streaming Access
     Anol Chatterjee Anol Chatterjee is a rising name in the field of Indian Classical Vocal Music. The
     flavour of An
-  content_hash: 7ee408408fe9b991
+  content_hash: e4e94bf1f38a4575
   sources:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2026/9/27/vocal-concert-anol-chatterjee

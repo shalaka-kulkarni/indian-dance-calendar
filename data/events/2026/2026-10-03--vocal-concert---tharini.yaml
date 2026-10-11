@@ -3,7 +3,7 @@ status: past
 was_published: true
 needs_recheck: false
 scraped:
-  title: Vocal Concert - Tharini Nagarkar
+  title: Vocal Concert – Tharini Nagarkar
   start: '2026-10-03T00:00:00-04:00'
   additional_dates: []
   venue: ''
@@ -20,7 +20,7 @@ scraped:
     artiste Tharini Nagarkar, accompanied by Abhay Kulkarni on tabla and Srikar Ayyalasomayajula on harmonium.
     The performance will also be streamed live. Purchase Tickets/Streaming Access Tharini Nagarkar Tharini
     Naga
-  content_hash: a113477579d80c5a
+  content_hash: 33e6764196f0186d
   sources:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2026/10/3/vocal-concert-tharini-nagarkar

@@ -3,7 +3,7 @@ status: past
 was_published: true
 needs_recheck: false
 scraped:
-  title: 2026 K S Vishnudev Fall Tour
+  title: 2026 K.S. Vishnudev Fall Tour
   start: '2026-09-06T00:00:00-04:00'
   additional_dates: []
   venue: ''
@@ -14,7 +14,7 @@ scraped:
   info_url: https://www.cmana.org/etn/2026-k-s-vishnudev-fall-tour/
   ticket_url: ''
   description_snippet: ''
-  content_hash: a07ae64ceca6f1a2
+  content_hash: ee8985cb0e12e6d0
   sources:
   - source_id: cmana
     url: https://www.cmana.org/etn/2026-k-s-vishnudev-fall-tour/

@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: Back-to-School Picnic &amp; School Fair (LA/Pasadena)
+  title: Back-to-School Picnic & School Fair (LA/Pasadena)
   start: '2026-09-20T00:00:00-04:00'
   end: '2026-09-20T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/pasadena/back-to-school-picnic-and-school-fair-la-pasadena/200030668517737
   ticket_url: ''
   description_snippet: ''
-  content_hash: a8f3f54a657a8e57
+  content_hash: ac06b4c5842cecaa
   sources:
   - source_id: allevents
     url: https://allevents.in/pasadena/back-to-school-picnic-and-school-fair-la-pasadena/200030668517737

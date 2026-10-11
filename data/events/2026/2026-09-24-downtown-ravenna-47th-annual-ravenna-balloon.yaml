@@ -7,7 +7,7 @@ scraped:
   start: '2026-09-24T00:00:00-04:00'
   end: '2026-09-27T00:00:00-04:00'
   additional_dates: []
-  venue: Downtown Ravenna, OH &amp; the Portage County Fairgrounds (4215 Fairground Rd. Atwater, OH 44201)
+  venue: Downtown Ravenna, OH & the Portage County Fairgrounds (4215 Fairground Rd. Atwater, OH 44201)
   address: 4215 Fairground Rd, Atwater, OH 44201-9372, United States, Atwater, OH
   region: unknown
   is_free: false
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/atwater/47th-annual-ravenna-balloon-a-fair/200029514897114
   ticket_url: ''
   description_snippet: ''
-  content_hash: 1d161b725962a682
+  content_hash: 2fd30ae2cc5a52df
   sources:
   - source_id: allevents
     url: https://allevents.in/atwater/47th-annual-ravenna-balloon-a-fair/200029514897114

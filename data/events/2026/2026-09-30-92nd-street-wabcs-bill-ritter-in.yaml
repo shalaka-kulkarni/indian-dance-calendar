@@ -7,7 +7,7 @@ scraped:
     and the Importance of Community'
   start: '2026-09-30T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Warburg Lounge
+  venue: 92nd Street Y, New York – Warburg Lounge
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 28.0
@@ -18,7 +18,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211063
   description_snippet: Bill Ritter joins Allison Gilbert to lead a deeply personal conversation about
     facing the diagnosis and the role connection and support can play during a serious health challenge.
-  content_hash: 790ca6bb229f7587
+  content_hash: 5e9c528f649b450c
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/wabc-s-bill-ritter-with-allison-gilbert

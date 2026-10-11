@@ -7,7 +7,7 @@ scraped:
   start: '2026-12-12T20:00:00-05:00'
   end: '2026-12-12T21:00:00-05:00'
   additional_dates: []
-  venue: Mega Bash 2026 Tickets
+  venue: Prudential Center
   address: Mega Bash 2026 Tickets
   region: new_jersey
   is_free: false
@@ -16,7 +16,7 @@ scraped:
   ticket_url: ''
   description_snippet: Mega Bash returns to Prudential Center on Saturday, December 12 with performances
     by Kapo, Jowell & Randy, De La Ghetto, Sech, Clarent, Ken-Y, Darell, Jey One, Secreto and MORE!
-  content_hash: 0722697e002f819c
+  content_hash: 260255d87a473f6a
   sources:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/mega-bash

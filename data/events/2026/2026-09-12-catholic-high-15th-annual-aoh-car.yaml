@@ -7,7 +7,7 @@ scraped:
   start: '2026-09-12T00:00:00-04:00'
   end: '2026-09-12T00:00:00-04:00'
   additional_dates: []
-  venue: Catholic High School,
+  venue: Catholic High School
   address: 4552 Princess Anne Road, Virginia Beach, VA
   region: unknown
   is_free: false
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/virginia-beach/15th-annual-aoh-car-show-tickets/80002543729734
   ticket_url: ''
   description_snippet: ''
-  content_hash: 9dadfdf497f2d114
+  content_hash: c6463c030ade3795
   sources:
   - source_id: allevents
     url: https://allevents.in/virginia-beach/15th-annual-aoh-car-show-tickets/80002543729734

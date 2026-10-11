@@ -7,7 +7,7 @@ scraped:
     with Noah Feldman'
   start: '2026-11-04T19:00:00-05:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Warburg Lounge
+  venue: 92nd Street Y, New York – Warburg Lounge
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 30.0
@@ -18,7 +18,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211276
   description_snippet: Noah Feldman, Rabbi Angela Buchdahl, Jamie Metzl, and David Blei explore whether
     AI can strengthen human connection, community, and our shared future.
-  content_hash: 19ceb73bb757a88a
+  content_hash: e133716f69b665f8
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/ai-and-the-future-of-community

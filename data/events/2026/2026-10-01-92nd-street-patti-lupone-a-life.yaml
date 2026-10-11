@@ -6,7 +6,7 @@ scraped:
   title: 'Patti LuPone: A Life in Notes'
   start: '2026-10-01T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 90.0
@@ -16,7 +16,7 @@ scraped:
   info_url: https://www.92ny.org/event/patti-lupone-a-life-in-notes
   ticket_url: https://seats.92ny.org/single/210572
   description_snippet: Triple Tony-winner Patti LuPone ( Company , Evita , Gypsy ) opens our concert season!
-  content_hash: 7623f9f135d1a63b
+  content_hash: f8fb614bc5f6b84b
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/patti-lupone-a-life-in-notes

@@ -6,8 +6,7 @@ scraped:
   title: 'America’s Liberal Reckoning — Fareed Zakaria and Patrick Deneen: A Munk Debate at 92NY'
   start: '2026-11-12T19:00:00-05:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall</div><div class="pdp-hero__hall"><em>Enter
-    on 92nd St. b
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall Enter on 92nd St. b
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 40.0
@@ -18,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211299
   description_snippet: Fareed Zakaria and Patrick Deneen face off as the Munk Debates make their New York
     City debut at 92NY, debating liberalism, the New Right and America’s future.
-  content_hash: d1769553282cda80
+  content_hash: 223e53fd56e16325
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/america-s-liberal-reckoning

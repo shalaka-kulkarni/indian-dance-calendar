@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: 'Our City, Our Fight, Our Future: NYC Labor Day Rally &amp; March 2026'
+  title: 'Our City, Our Fight, Our Future: NYC Labor Day Rally & March 2026'
   start: '2026-09-08T00:00:00-04:00'
   end: '2026-09-08T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/new-york/our-city-our-fight-our-future-nyc-labor-day-rally-and-march-2026/4300030593890054
   ticket_url: ''
   description_snippet: ''
-  content_hash: 2cbd9f9ace453cda
+  content_hash: 5e13b1aeecb88dd0
   sources:
   - source_id: allevents
     url: https://allevents.in/new-york/our-city-our-fight-our-future-nyc-labor-day-rally-and-march-2026/4300030593890054

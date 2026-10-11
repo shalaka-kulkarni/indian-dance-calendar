@@ -3,11 +3,11 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: Back to School Bash at The Learning Experience - Gainesville!
+  title: Back to School Bash at The Learning Experience – Gainesville!
   start: '2026-09-19T00:00:00-04:00'
   end: '2026-09-19T00:00:00-04:00'
   additional_dates: []
-  venue: The Learning Experience - Gainesville
+  venue: The Learning Experience – Gainesville
   address: 7541 Virginia Oaks Drive, Gainesville, VA
   region: unknown
   is_free: false
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/gainesville/back-to-school-bash-at-the-learning-experience-gainesville/100001998305339062
   ticket_url: ''
   description_snippet: ''
-  content_hash: 6d73f1ca9a8df9c7
+  content_hash: 77881336f0f3a003
   sources:
   - source_id: allevents
     url: https://allevents.in/gainesville/back-to-school-bash-at-the-learning-experience-gainesville/100001998305339062

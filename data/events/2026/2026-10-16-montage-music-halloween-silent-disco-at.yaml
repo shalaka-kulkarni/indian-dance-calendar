@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: Halloween Silent Disco at Montage Music Hall (Rochester) - 10/16/26
+  title: Halloween Silent Disco at Montage Music Hall (Rochester) – 10/16/26
   start: '2026-10-16T00:00:00-04:00'
   end: '2026-10-17T00:00:00-04:00'
   additional_dates: []
@@ -17,7 +17,7 @@ scraped:
   info_url: https://allevents.in/rochester/halloween-silent-disco-at-montage-music-hall-rochester-10-16-26/100001992371113634
   ticket_url: https://allevents.in/rochester/halloween-silent-disco-at-montage-music-hall-rochester-10-16-26/100001992371113634
   description_snippet: ''
-  content_hash: 3fd18683c13dc04f
+  content_hash: 3e32bc6e9364715b
   sources:
   - source_id: allevents
     url: https://allevents.in/rochester/halloween-silent-disco-at-montage-music-hall-rochester-10-16-26/100001992371113634

@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: Vixenz Family Fright Night - Halloween Car Show
+  title: Vixenz Family Fright Night – Halloween Car Show
   start: '2026-10-10T00:00:00-04:00'
   end: '2026-10-10T00:00:00-04:00'
   additional_dates: []
@@ -17,7 +17,7 @@ scraped:
   info_url: https://allevents.in/orlando/vixenz-family-fright-night-halloween-car-show-tickets/80002616817866
   ticket_url: https://allevents.in/orlando/vixenz-family-fright-night-halloween-car-show-tickets/80002616817866
   description_snippet: ''
-  content_hash: fb128e249919d9e6
+  content_hash: a1b24d2fe27f54ad
   sources:
   - source_id: allevents
     url: https://allevents.in/orlando/vixenz-family-fright-night-halloween-car-show-tickets/80002616817866

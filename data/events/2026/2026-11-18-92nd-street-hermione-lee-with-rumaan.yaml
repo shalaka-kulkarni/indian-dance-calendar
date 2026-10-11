@@ -6,7 +6,7 @@ scraped:
   title: 'Hermione Lee with Rumaan Alam: Anita Brookner'
   start: '2026-11-18T19:30:00-05:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 35.0
@@ -16,7 +16,7 @@ scraped:
   info_url: https://www.92ny.org/event/hermione-lee-with-rumaan-alam-anita-brookner
   ticket_url: https://seats.92ny.org/single/210880
   description_snippet: Hermione Lee and Rumaan Alam discuss Lee’s new biography of Anita Brookner.
-  content_hash: 516cde4a63008cad
+  content_hash: b5d5678d58e22371
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/hermione-lee-with-rumaan-alam-anita-brookner

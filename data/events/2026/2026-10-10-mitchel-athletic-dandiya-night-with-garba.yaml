@@ -1,9 +1,9 @@
 id: 2026-10-10-mitchel-athletic-dandiya-night-with-garba
 status: published
 was_published: true
-needs_recheck: false
+needs_recheck: true
 scraped:
-  title: Dandiya Night With Garba Queen Foram Shah & Group In Niew York
+  title: Dandiya Night with Garba Queen Foram Shah & Group in New York
   start: '2026-10-10T19:00:00-04:00'
   end: '2026-10-10T23:00:00-04:00'
   additional_dates: []
@@ -17,7 +17,7 @@ scraped:
   info_url: https://events.sulekha.com/dandiya-night-with-garba-queen-foram-shah-group-in-niew-york_event-in_uniondale-ny_401416
   ticket_url: https://events.sulekha.com/dandiya-night-with-garba-queen-foram-shah-group-in-niew-york_event-in_uniondale-ny_401416
   description_snippet: Dandiya Night With Garba Queen Foram Shah & Group In Niew York
-  content_hash: 341f36af1e2dd9d6
+  content_hash: 978b7a9f6e5664b3
   sources:
   - source_id: sulekha
     url: https://events.sulekha.com/dandiya-night-with-garba-queen-foram-shah-group-in-niew-york_event-in_uniondale-ny_401416

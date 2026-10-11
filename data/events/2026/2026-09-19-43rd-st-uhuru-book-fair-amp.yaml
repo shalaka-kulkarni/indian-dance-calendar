@@ -3,10 +3,10 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: Uhuru Book Fair &amp; Marketplace
+  title: Uhuru Book Fair & Marketplace
   start: '2026-09-19T00:00:00-04:00'
   additional_dates: []
-  venue: 43rd St &amp; Chester Ave (Clark Park), Philadelphia, PA, United States, Pennsylvania 19104
+  venue: 43rd St & Chester Ave (Clark Park), Philadelphia, PA, United States, Pennsylvania 19104
   address: 598 S 43rd St, Philadelphia, PA 19104, United States, Philadelphia, PA
   region: unknown
   is_free: false
@@ -14,7 +14,7 @@ scraped:
   info_url: https://allevents.in/philadelphia/uhuru-book-fair-and-marketplace/200030424336100
   ticket_url: ''
   description_snippet: ''
-  content_hash: 2fed40808969f523
+  content_hash: c3c23be0026a9a04
   sources:
   - source_id: allevents
     url: https://allevents.in/philadelphia/uhuru-book-fair-and-marketplace/200030424336100

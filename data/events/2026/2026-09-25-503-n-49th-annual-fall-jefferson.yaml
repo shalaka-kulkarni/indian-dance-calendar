@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: 49th Annual Fall Jefferson Auto Swap Meet &amp; Car Show
+  title: 49th Annual Fall Jefferson Auto Swap Meet & Car Show
   start: '2026-09-25T00:00:00-04:00'
   end: '2026-09-26T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/jefferson/49th-annual-fall-jefferson-auto-swap-meet-and-car-show/200029796232645
   ticket_url: ''
   description_snippet: ''
-  content_hash: 968d74eae83294ce
+  content_hash: c843043990493bd5
   sources:
   - source_id: allevents
     url: https://allevents.in/jefferson/49th-annual-fall-jefferson-auto-swap-meet-and-car-show/200029796232645

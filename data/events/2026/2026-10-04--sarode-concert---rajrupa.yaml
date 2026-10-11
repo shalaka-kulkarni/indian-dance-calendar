@@ -3,7 +3,7 @@ status: past
 was_published: true
 needs_recheck: false
 scraped:
-  title: Sarode Concert - Rajrupa Chowdhury
+  title: Sarode Concert – Rajrupa Chowdhury
   start: '2026-10-04T00:00:00-04:00'
   additional_dates: []
   venue: ''
@@ -20,7 +20,7 @@ scraped:
     will also be streamed live online Purchase Tickets/Streaming Access Rajrupa Chowdhury Ms. Rajrupa
     Chowdhury was born at Kolkata, India. She took up Sarod at the tender age of five at the Ustad Ameer
     Khan School
-  content_hash: 33ff3bb9045f3e1a
+  content_hash: 536e0ee17d631127
   sources:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2026/10/4/sarode-concert-rajrupa-chowdhury

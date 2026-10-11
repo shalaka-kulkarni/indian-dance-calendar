@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: Promenade Sunset Walk &amp; Real Radio &quot;Best of Challenge - Signature Edition&quot;
+  title: Promenade Sunset Walk & Real Radio "Best of Challenge – Signature Edition"
   start: '2026-10-03T00:00:00-04:00'
   end: '2026-10-03T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/kissimmee/promenade-sunset-walk-and-real-radio-best-of-challenge-signature-edition/100001994680855133
   ticket_url: ''
   description_snippet: ''
-  content_hash: fead77a00da987de
+  content_hash: 44dfc7ea5bdf89ba
   sources:
   - source_id: allevents
     url: https://allevents.in/kissimmee/promenade-sunset-walk-and-real-radio-best-of-challenge-signature-edition/100001994680855133

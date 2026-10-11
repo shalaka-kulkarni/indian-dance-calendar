@@ -6,7 +6,7 @@ scraped:
   title: 'Joshua Jay with Rabbi David Ingber: Magic as I See It'
   start: '2027-01-18T20:00:00-05:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 30.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211308
   description_snippet: Join magician Joshua Jay and Rabbi David Ingber for an evening of live magic, photography,
     and conversation.
-  content_hash: e89e3ff77e640436
+  content_hash: ca1d2a27744e2741
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/joshua-jay-with-rabbi-david-ingber

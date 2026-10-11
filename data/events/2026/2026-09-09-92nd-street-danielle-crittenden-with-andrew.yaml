@@ -6,7 +6,7 @@ scraped:
   title: 'Danielle Crittenden with Andrew Solomon: Dispatches from Grief'
   start: '2026-09-09T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Warburg Lounge
+  venue: 92nd Street Y, New York – Warburg Lounge
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 30.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210915
   description_snippet: 'Journalist Danielle Crittendon discusses her new memoir, Dispatches from Grief:
     A Mother’s Journey Through the Unthinkable .'
-  content_hash: 55a99e3b5621e949
+  content_hash: 551378b5c1788275
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/danielle-crittenden-with-andrew-solomon

@@ -14,11 +14,11 @@ scraped:
   price_note: ''
   info_url: https://ajnadance.com/event/ajna-dance-company-at-downtown-brooklyns-fall-into-step-free-2/
   ticket_url: ''
-  description_snippet: '&lt;p&gt;Enjoy a FREE performance by Ajna Dance Company during your lunch break
-    at Brooklyn Commons on Thursday, September 10th from 12:00pm – 2:00pm! This two-hour session features
-    special dance and dholi performances. From ballet to contemporary styles, Downtown Brooklyn’s Fall
-    Into Step series showcases a diverse range of performances from talented dancers and choreographers.
-    Each show will take [&hellip;]&lt;/p&gt;\n'
+  description_snippet: Enjoy a FREE performance by Ajna Dance Company during your lunch break at Brooklyn
+    Commons on Thursday, September 10th from 12:00pm – 2:00pm! This two-hour session features special
+    dance and dholi performances. From ballet to contemporary styles, Downtown Brooklyn’s Fall Into Step
+    series showcases a diverse range of performances from talented dancers and choreographers. Each show
+    will take […] \n
   content_hash: 0c6493d8deb9d22f
   sources:
   - source_id: ajna_dance

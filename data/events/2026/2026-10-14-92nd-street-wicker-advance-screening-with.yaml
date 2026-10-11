@@ -7,7 +7,7 @@ scraped:
     Fischer in Conversation with Happy Sad Confused ’s Josh Horowitz
   start: '2026-10-14T18:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 40.0
@@ -19,7 +19,7 @@ scraped:
   description_snippet: See the Sundance sensation Wicker before its nationwide release, followed by a
     conversation with Olivia Colman, Alexander Skarsgård, Eleanor Wilson, Alex Huston Fischer and Josh
     Horowitz.
-  content_hash: 875b8efe326eea3c
+  content_hash: 06027c91f8638b47
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/wicker

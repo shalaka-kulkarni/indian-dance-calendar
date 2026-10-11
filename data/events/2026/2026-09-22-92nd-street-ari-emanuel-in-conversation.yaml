@@ -6,7 +6,7 @@ scraped:
   title: 'Ari Emanuel in Conversation with Rachel Maddow: Roll the Calls'
   start: '2026-09-22T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 60.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211145
   description_snippet: Ari Emanuel discusses his new memoir, Roll the Calls , with Rachel Maddow sharing
     stories of Hollywood, leadership, and ambition.
-  content_hash: f32f3e4e91a43267
+  content_hash: 4f4c05b02e2c8270
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/ari-emanuel-with-rachel-maddow

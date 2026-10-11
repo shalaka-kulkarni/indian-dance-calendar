@@ -6,7 +6,7 @@ scraped:
   title: NEXUS Dinner Before the Jazz
   start: '2026-10-17T17:45:00-04:00'
   additional_dates: []
-  venue: '92nd Street Y, New York - Location: Classroom'
+  venue: '92nd Street Y, New York – Location: Classroom'
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 65.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211107
   description_snippet: Come connect with your NEXUS community over dinner at 92NY and then head to our
     mainstage to hear the Miles Electric Band (M.E.B.)!
-  content_hash: a673b4220905ab02
+  content_hash: 3e1e15f2ed957935
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/nexus-dinner-before-the-jazz

@@ -7,7 +7,7 @@ scraped:
     Swift'
   start: '2026-10-21T19:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Warburg Lounge
+  venue: 92nd Street Y, New York – Warburg Lounge
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 35.0
@@ -18,7 +18,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211401
   description_snippet: What do Taylor Swift and the poets of ancient Rome have in common? NYU’s David
     Levene explores love, heartbreak, obsession and betrayal across 2,000 years.
-  content_hash: dd9bf66ff199fb5a
+  content_hash: f4e0df5820e2f8bb
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/david-levene-reading-roman-elegy-through-taylor-swift

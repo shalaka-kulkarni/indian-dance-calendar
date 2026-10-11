@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: Upstate Kids Consignment Sale - Greenville
+  title: Upstate Kids Consignment Sale – Greenville
   start: '2026-09-16T00:00:00-04:00'
   end: '2026-09-19T00:00:00-04:00'
   additional_dates: []
@@ -16,7 +16,7 @@ scraped:
   info_url: https://allevents.in/greenville/upstate-kids-consignment-sale-greenville/200030349022803
   ticket_url: ''
   description_snippet: ''
-  content_hash: 43094e01c460dfb1
+  content_hash: 0b190436abfeeff8
   sources:
   - source_id: allevents
     url: https://allevents.in/greenville/upstate-kids-consignment-sale-greenville/200030349022803

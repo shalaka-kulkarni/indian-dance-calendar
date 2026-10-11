@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: PWCFRS 3rd Annual Expo &amp; Fall Festival
+  title: PWCFRS 3rd Annual Expo & Fall Festival
   start: '2026-10-03T00:00:00-04:00'
   end: '2026-10-03T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/woodbridge/pwcfrs-3rd-annual-expo-and-fall-festival-tickets/80003459094149
   ticket_url: ''
   description_snippet: ''
-  content_hash: bdb9c6270035a5b4
+  content_hash: 733d791d846edfc3
   sources:
   - source_id: allevents
     url: https://allevents.in/woodbridge/pwcfrs-3rd-annual-expo-and-fall-festival-tickets/80003459094149

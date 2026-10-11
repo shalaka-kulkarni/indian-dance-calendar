@@ -7,7 +7,7 @@ scraped:
   start: '2026-12-26T00:00:00-05:00'
   end: '2026-12-26T23:59:59-05:00'
   additional_dates: []
-  venue: Trans-Siberian Orchestra
+  venue: Prudential Center
   address: Trans-Siberian Orchestra
   region: new_jersey
   is_free: false
@@ -15,7 +15,7 @@ scraped:
   info_url: https://www.prucenter.com/events/trans-siberian-orchestra
   ticket_url: ''
   description_snippet: ''
-  content_hash: e614a49dae01c1c8
+  content_hash: 6c05b3f69001d56a
   sources:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/trans-siberian-orchestra

@@ -6,7 +6,7 @@ scraped:
   title: 'Susan Orlean: Joyride'
   start: '2026-10-21T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 30.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211187
   description_snippet: Susan Orlean celebrates the paperback launch of Joyride , her witty, exuberant
     memoir about writing, curiosity, creativity, and a life spent chasing stories.
-  content_hash: 64a2412302bc8b9e
+  content_hash: 701e4b9e4b68998d
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/susan-orlean-joyride

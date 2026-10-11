@@ -6,7 +6,7 @@ scraped:
   title: 'James Geary: The World in a Phrase — A Night of Aphorisms'
   start: '2026-12-03T19:30:00-05:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Warburg Lounge
+  venue: 92nd Street Y, New York – Warburg Lounge
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 30.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211325
   description_snippet: James Geary offers a night of aphorisms in celebration of his book, The World in
     a Phrase .
-  content_hash: 7feb7a0c75a6f800
+  content_hash: f25432a813900160
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/james-geary-the-world-in-a-phrase

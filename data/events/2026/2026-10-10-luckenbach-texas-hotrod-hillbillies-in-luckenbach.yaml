@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: Hotrod Hillbillies in Luckenbach Texas - Lucky Rod 2026
+  title: Hotrod Hillbillies in Luckenbach Texas – Lucky Rod 2026
   start: '2026-10-10T00:00:00-04:00'
   additional_dates: []
   venue: Luckenbach, Texas
@@ -14,7 +14,7 @@ scraped:
   info_url: https://allevents.in/fredericksburg/hotrod-hillbillies-in-luckenbach-texas-lucky-rod-2026/200030399794851
   ticket_url: ''
   description_snippet: ''
-  content_hash: eb8706a37972d77b
+  content_hash: ca0cde969898c7b5
   sources:
   - source_id: allevents
     url: https://allevents.in/fredericksburg/hotrod-hillbillies-in-luckenbach-texas-lucky-rod-2026/200030399794851

@@ -6,8 +6,7 @@ scraped:
   title: 'SPARK OF CREATION: The Music and Lyrics of Stephen Schwartz'
   start: '2027-06-12T17:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall</div><div class="pdp-hero__hall"><em>Enter
-    on 92nd St. b
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall Enter on 92nd St. b
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 50.0
@@ -18,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210640
   description_snippet: Wicked . Pippin . Godspell , and more. Lyrics & Lyricists celebrates Broadway’s
     legendary Stephen Schwartz with the multi-Oscar- and Grammy-winning creator himself!
-  content_hash: f7b2535217b8ab4f
+  content_hash: 153a8dc632d93dca
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/celebrating-stephen-schwartz

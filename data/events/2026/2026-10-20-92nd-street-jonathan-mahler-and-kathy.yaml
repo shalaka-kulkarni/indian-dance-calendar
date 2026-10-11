@@ -7,7 +7,7 @@ scraped:
     City Transformed'
   start: '2026-10-20T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Warburg Lounge
+  venue: 92nd Street Y, New York – Warburg Lounge
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 35.0
@@ -18,7 +18,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211260
   description_snippet: Jonathan Mahler, Kathy Wylde and Thomas Dyja explore how New York transformed,
     the challenges facing the city today and what its past can teach us about its future.
-  content_hash: 6601b36e10ed6aaf
+  content_hash: 4d6f8202555fb87a
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/jonathan-mahler-and-kathy-wylde-with-thomas-dyja

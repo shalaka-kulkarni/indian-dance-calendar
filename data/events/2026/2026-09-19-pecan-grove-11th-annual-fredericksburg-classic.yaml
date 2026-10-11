@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: 11th Annual Fredericksburg Classic Car &amp; Truck Show
+  title: 11th Annual Fredericksburg Classic Car & Truck Show
   start: '2026-09-19T00:00:00-04:00'
   end: '2026-09-19T00:00:00-04:00'
   additional_dates: []
@@ -17,7 +17,7 @@ scraped:
   info_url: https://allevents.in/fredericksburg/11th-annual-fredericksburg-classic-car-and-truck-show/100001990520977828
   ticket_url: https://allevents.in/fredericksburg/11th-annual-fredericksburg-classic-car-and-truck-show/100001990520977828
   description_snippet: ''
-  content_hash: f3a1a92f3bb389c1
+  content_hash: 3be62834be71204b
   sources:
   - source_id: allevents
     url: https://allevents.in/fredericksburg/11th-annual-fredericksburg-classic-car-and-truck-show/100001990520977828

@@ -6,7 +6,7 @@ scraped:
   title: 'Virginia Feito and Zachary Wigon with Lauren Puckett-Pope: Victorian Psycho'
   start: '2026-11-02T19:30:00-05:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 35.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211333
   description_snippet: Virginia Feito and director Zachary Wigon join Lauren Puckett-Pope to discuss Victorian
     Psycho and its journey from acclaimed novel to feature film.
-  content_hash: 575621f0440c869c
+  content_hash: 043b323bab2f9533
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/virginia-feito-victorian-psycho

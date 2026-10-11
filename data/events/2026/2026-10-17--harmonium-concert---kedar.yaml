@@ -1,9 +1,9 @@
 id: 2026-10-17--harmonium-concert---kedar
 status: published
 was_published: true
-needs_recheck: false
+needs_recheck: true
 scraped:
-  title: Harmonium Concert - Kedar Naphade
+  title: Harmonium Concert – Kedar Naphade
   start: '2026-10-17T00:00:00-04:00'
   additional_dates: []
   venue: ''
@@ -20,7 +20,7 @@ scraped:
     members of the Chhandayan faculty. The concert will also be streamed live. Purchase Tickets/Streaming
     Access Kedar Naphade Kedar Naphade (born Jan 10, 1972) received preliminary training in Hindustani
     Classical M
-  content_hash: f774394cadf2a2b7
+  content_hash: 497dccefc77c68f6
   sources:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2026/8/27/harmonium-concert-kedar-naphade

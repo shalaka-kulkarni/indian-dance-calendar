@@ -6,7 +6,7 @@ scraped:
   title: 'Joe Manganiello in Conversation with Happy Sad Confused ’s Josh Horowitz: Bloodlines'
   start: '2026-10-13T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 64.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211183
   description_snippet: Joe Manganiello joins Josh Horowitz to discuss his new memoir, Bloodlines , his
     extraordinary health journey, ancestry, identity, and his career in film.
-  content_hash: acce80bd4a864b52
+  content_hash: 91833c5d4cc7ddce
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/joe-manganiello-with-josh-horowitz-bloodlines

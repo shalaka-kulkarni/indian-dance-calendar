@@ -6,7 +6,7 @@ scraped:
   title: 'Harry Connick, Jr. in Conversation — Babe: Elaboratio'
   start: '2026-09-29T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 50.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211068
   description_snippet: 'Multi-platinum artist Harry Connick, Jr. talks about his new book and music project
     Babe: Elaboratio , a tribute to his mother.'
-  content_hash: 653ff21f33d2cc39
+  content_hash: 4f8318abeb315b56
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/harry-connick-jr-babe-elaboratio

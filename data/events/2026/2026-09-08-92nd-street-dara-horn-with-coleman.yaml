@@ -7,7 +7,7 @@ scraped:
     Living'
   start: '2026-09-08T18:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 36.0
@@ -18,7 +18,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210757
   description_snippet: Dara Horn talks to The Free Press’ Coleman Hughes about her new book, The Final
     Solution to the Jewish Question .
-  content_hash: 1421a15d518b02a9
+  content_hash: 779823a0b0238652
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/dara-horn-with-coleman-hughes

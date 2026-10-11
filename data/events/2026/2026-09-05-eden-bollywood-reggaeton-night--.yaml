@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: Bollywood Reggaeton Night - 3.0
+  title: Bollywood Reggaeton Night – 3.0
   start: '2026-09-05T23:00:00-04:00'
   end: '2026-09-06T02:00:00-04:00'
   additional_dates: []
@@ -17,7 +17,7 @@ scraped:
   info_url: https://events.sulekha.com/bollywood-reggaeton-night-3-0_event-in_new-york-ny_401504
   ticket_url: https://events.sulekha.com/bollywood-reggaeton-night-3-0_event-in_new-york-ny_401504
   description_snippet: Bollywood Reggaeton Night - 3.0
-  content_hash: a2dac8b540bf96c4
+  content_hash: 63e26fe03e923538
   sources:
   - source_id: sulekha
     url: https://events.sulekha.com/bollywood-reggaeton-night-3-0_event-in_new-york-ny_401504

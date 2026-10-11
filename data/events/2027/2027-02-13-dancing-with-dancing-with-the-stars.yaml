@@ -7,7 +7,7 @@ scraped:
   start: '2027-02-13T19:30:00-05:00'
   end: '2027-02-13T23:30:00-05:00'
   additional_dates: []
-  venue: 'Dancing with the Stars: Live!'
+  venue: Prudential Center
   address: 'Dancing with the Stars: Live!'
   region: new_jersey
   is_free: false
@@ -15,7 +15,7 @@ scraped:
   info_url: https://www.prucenter.com/events/dancing-with-the-stars-live
   ticket_url: ''
   description_snippet: ''
-  content_hash: c02516a1c78cf89d
+  content_hash: 95f63c717222716a
   sources:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/dancing-with-the-stars-live

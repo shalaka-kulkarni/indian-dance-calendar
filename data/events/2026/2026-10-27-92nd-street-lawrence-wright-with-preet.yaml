@@ -6,7 +6,7 @@ scraped:
   title: 'Lawrence Wright with Preet Bharara: Redemption'
   start: '2026-10-27T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 35.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210864
   description_snippet: The New Yorker ’s Lawrence Wright and with Preet Bharara discuss Wright’s new book,
     Redemption .
-  content_hash: 181cf4d58b767c44
+  content_hash: 60f5061c46e75cb2
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/lawrence-wright

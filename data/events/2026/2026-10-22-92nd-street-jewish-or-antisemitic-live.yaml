@@ -7,7 +7,7 @@ scraped:
     with music by Max Ash'
   start: '2026-10-22T20:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 40.0
@@ -18,7 +18,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210886
   description_snippet: Eitan Levine, Max Ash, and special guests host a live taping of the hit TikTok
     comedy gameshow Jewish or Antisemitic .
-  content_hash: 5f3ed32cc0a45fb5
+  content_hash: f6e9fa2eb994f56e
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/jewish-or-antisemitic-live

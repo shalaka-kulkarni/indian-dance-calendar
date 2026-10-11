@@ -7,7 +7,7 @@ scraped:
   start: '2026-11-14T20:00:00-05:00'
   end: '2026-11-14T21:00:00-05:00'
   additional_dates: []
-  venue: 'XG World Tour: The Core in Newark Tickets 2026'
+  venue: Prudential Center
   address: 'XG World Tour: The Core in Newark Tickets 2026'
   region: new_jersey
   is_free: false
@@ -16,7 +16,7 @@ scraped:
   ticket_url: ''
   description_snippet: XG brings The Core World Tour to Prudential Center on Saturday, November 14! Get
     tickets today to see these global superstars perform live!
-  content_hash: 4be1c9035397b6f2
+  content_hash: 996f166a9c5d2be2
   sources:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/xg

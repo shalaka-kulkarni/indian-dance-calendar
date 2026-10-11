@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: Nyc South Asian Comedy Festival - Best Of Nyc
+  title: NYC South Asian Comedy Festival – Best of NYC
   start: '2026-10-16T19:00:00-04:00'
   end: '2026-10-17T01:00:00-04:00'
   additional_dates: []
@@ -17,7 +17,7 @@ scraped:
   info_url: https://events.sulekha.com/nyc-south-asian-comedy-festival-best-of-nyc_event-in_new-york-ny_401409
   ticket_url: https://events.sulekha.com/nyc-south-asian-comedy-festival-best-of-nyc_event-in_new-york-ny_401409
   description_snippet: Nyc South Asian Comedy Festival - Best Of Nyc
-  content_hash: 99d99537f5ec0820
+  content_hash: 3e8d2e23dff93f2d
   sources:
   - source_id: sulekha
     url: https://events.sulekha.com/nyc-south-asian-comedy-festival-best-of-nyc_event-in_new-york-ny_401409

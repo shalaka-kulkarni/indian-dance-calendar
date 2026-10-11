@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: Dilpreet Dhillon & Noor Zora In Newyork
+  title: Dilpreet Dhillon & Noor Zora in New York
   start: '2026-09-27T18:30:00-04:00'
   end: '2026-09-27T21:30:00-04:00'
   additional_dates: []
@@ -17,7 +17,7 @@ scraped:
   info_url: https://events.sulekha.com/dilpreet-dhillon-noor-zora-in-newyork_event-in_westbury-ny_401722
   ticket_url: https://events.sulekha.com/dilpreet-dhillon-noor-zora-in-newyork_event-in_westbury-ny_401722
   description_snippet: Dilpreet Dhillon & Noor Zora In Newyork
-  content_hash: f41dfb81e7c5333a
+  content_hash: b025d78bf3a26b43
   sources:
   - source_id: sulekha
     url: https://events.sulekha.com/dilpreet-dhillon-noor-zora-in-newyork_event-in_westbury-ny_401722

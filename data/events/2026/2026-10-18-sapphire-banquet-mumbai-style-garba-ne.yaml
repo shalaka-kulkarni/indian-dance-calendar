@@ -1,13 +1,13 @@
 id: 2026-10-18-sapphire-banquet-mumbai-style-garba-ne
 status: published
 was_published: true
-needs_recheck: false
+needs_recheck: true
 scraped:
-  title: Mumbai Style Garba Ne Dandiya Night In Newyork
+  title: Mumbai Style Garba Ne Dandiya Night in New York
   start: '2026-10-18T18:30:00-04:00'
   end: '2026-10-18T23:30:00-04:00'
   additional_dates: []
-  venue: Sapphire Banquet Ny
+  venue: Sapphire Banquet NY
   address: 244 W Old Country Rd, Hicksville, NY
   region: long_island
   price_min: 10.0
@@ -17,7 +17,7 @@ scraped:
   info_url: https://events.sulekha.com/mumbai-style-garba-ne-dandiya-night-in-newyork_event-in_hicksville-ny_401828
   ticket_url: https://events.sulekha.com/mumbai-style-garba-ne-dandiya-night-in-newyork_event-in_hicksville-ny_401828
   description_snippet: Mumbai Style Garba Ne Dandiya Night In Newyork
-  content_hash: 099413c7c387b0ae
+  content_hash: 2c90f8a6d90693f0
   sources:
   - source_id: sulekha
     url: https://events.sulekha.com/mumbai-style-garba-ne-dandiya-night-in-newyork_event-in_hicksville-ny_401828

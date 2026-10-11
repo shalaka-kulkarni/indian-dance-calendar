@@ -6,7 +6,7 @@ scraped:
   title: 'Laurie Anderson, A.M. Homes, and Sophie Cabot Black: Muldoon’s Picnic'
   start: '2026-09-14T19:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 30.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210921
   description_snippet: Laurie Anderson, A.M. Homes, and Sophie Cabot Black at Muldoon’s Picnic with Paul
     Muldoon.
-  content_hash: d408c6c9632e9194
+  content_hash: ed3eccde87f4eed4
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/muldoon-s-picnic-september

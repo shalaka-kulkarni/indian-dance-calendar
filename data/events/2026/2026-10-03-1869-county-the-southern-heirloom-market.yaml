@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: The Southern Heirloom Market &amp; Car Show
+  title: The Southern Heirloom Market & Car Show
   start: '2026-10-03T00:00:00-04:00'
   end: '2026-10-04T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/jefferson/the-southern-heirloom-market-and-car-show/200030364880514
   ticket_url: ''
   description_snippet: ''
-  content_hash: 6bcb3459566a0d2b
+  content_hash: f0f6764111508cd0
   sources:
   - source_id: allevents
     url: https://allevents.in/jefferson/the-southern-heirloom-market-and-car-show/200030364880514

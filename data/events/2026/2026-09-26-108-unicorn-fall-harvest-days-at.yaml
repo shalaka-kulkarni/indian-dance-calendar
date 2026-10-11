@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: 🍂🎃 FALL HARVEST DAYS AT THE UNICORN FARM®! 🦄🍁
+  title: FALL HARVEST DAYS AT THE UNICORN FARM®!
   start: '2026-09-26T00:00:00-04:00'
   end: '2026-09-26T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/fountain-inn/fall-harvest-days-at-the-unicorn-farm/200030602786539
   ticket_url: ''
   description_snippet: ''
-  content_hash: 746536bc2fc209c5
+  content_hash: e0b6abe33fcb9718
   sources:
   - source_id: allevents
     url: https://allevents.in/fountain-inn/fall-harvest-days-at-the-unicorn-farm/200030602786539

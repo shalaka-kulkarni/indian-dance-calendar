@@ -7,7 +7,7 @@ scraped:
   start: '2027-03-13T19:00:00-05:00'
   end: '2027-03-13T20:00:00-05:00'
   additional_dates: []
-  venue: Def Leppard and Goo Goo Dolls
+  venue: Prudential Center
   address: Def Leppard and Goo Goo Dolls
   region: new_jersey
   is_free: false
@@ -15,7 +15,7 @@ scraped:
   info_url: https://www.prucenter.com/events/def-leppard-goo-goo-dolls
   ticket_url: ''
   description_snippet: ''
-  content_hash: e01c3be0e1fc8092
+  content_hash: 93f2d59e06e1c893
   sources:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/def-leppard-goo-goo-dolls

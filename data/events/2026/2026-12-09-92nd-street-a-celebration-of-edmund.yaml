@@ -7,7 +7,7 @@ scraped:
     Michael Carroll and David McConnell'
   start: '2026-12-09T19:30:00-05:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 35.0
@@ -18,7 +18,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211455
   description_snippet: Michael Cunningham, Yiyun Li, Tracey K. Smith, Thomas Beller, and more celebrate
     Edmund White, the groundbreaking chronicler of queer life, with readings and recollections.
-  content_hash: f2f3622d60007ca2
+  content_hash: d34d44c57266b4d4
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/a-celebration-of-edmund-white

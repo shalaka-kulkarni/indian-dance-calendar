@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: Vocal Concert - Supriyo Dutta, Reflections of the Indore Gharana
+  title: Vocal Concert – Supriyo Dutta, Reflections of the Indore Gharana
   start: '2026-09-26T00:00:00-04:00'
   additional_dates: []
   venue: ''
@@ -20,7 +20,7 @@ scraped:
     accompanied on tabla by Samir Chatterjee. The performance will also be streamed live on-line. Purchase
     Tickets/Streaming Access Supriyo Dutta Supriyo Dutta is regarded as one of the finest vocalists of
     his generation
-  content_hash: b97f09460dad9842
+  content_hash: 7c7f796c7ffc41c2
   sources:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2026/9/26/vocal-concert-supriyo-dutta

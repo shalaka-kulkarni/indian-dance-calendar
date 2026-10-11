@@ -6,7 +6,7 @@ scraped:
   title: 'Anthony Scaramucci with Nicolle Wallace: All the Wrong Moves'
   start: '2026-09-24T19:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 50.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210657
   description_snippet: Anthony Scaramucci talks to Nicolle Wallace about his new book, All the Wrong Moves
     .
-  content_hash: afd99b18395768dd
+  content_hash: bc0ec0e6de7747c3
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/anthony-scaramucci-with-nicolle-wallace

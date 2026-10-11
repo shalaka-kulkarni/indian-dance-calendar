@@ -6,7 +6,7 @@ scraped:
   title: 'Hunter Biden in Conversation with David Manheim: A Live Podcast Recording of Dopey'
   start: '2026-12-20T19:30:00-05:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 50.0
@@ -18,7 +18,7 @@ scraped:
   description_snippet: Hunter Biden joins David Manheim for a live recording of Dopey , the hit podcast
     about addiction and recovery, discussing Beautiful Things , grief, sobriety, family, and rebuilding
     a life.
-  content_hash: 7386a9e9bac7e49c
+  content_hash: 784edcbba2abf66e
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/hunter-biden-with-david-manheim

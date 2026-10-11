@@ -6,7 +6,7 @@ scraped:
   title: Making Sense of Israel’s 2026 Election
   start: '2026-11-16T19:30:00-05:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 36.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211235
   description_snippet: 'This discussion will look beyond the immediate headlines and political maneuvering
     to ask the larger questions: What direction have Israeli voters chosen?'
-  content_hash: 009bd7fe0c7e2beb
+  content_hash: f0e5d6d05b470591
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/making-sense-of-israel-s-2026-election

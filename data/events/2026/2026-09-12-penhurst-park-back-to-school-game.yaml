@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: Back to School Game Day &amp; Day Party — ADULTS ONLY!
+  title: Back to School Game Day & Day Party — ADULTS ONLY!
   start: '2026-09-12T00:00:00-04:00'
   end: '2026-09-12T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/baltimore/back-to-school-game-day-and-day-party-adults-only/100001998434287751
   ticket_url: ''
   description_snippet: ''
-  content_hash: 4c065a17fbbe1697
+  content_hash: ac7951c4d1022f7b
   sources:
   - source_id: allevents
     url: https://allevents.in/baltimore/back-to-school-game-day-and-day-party-adults-only/100001998434287751

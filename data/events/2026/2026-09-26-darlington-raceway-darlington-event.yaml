@@ -6,7 +6,7 @@ scraped:
   title: Darlington Event
   start: '2026-09-26T00:00:00-04:00'
   additional_dates: []
-  venue: Darlington Raceway - The Lady in Black
+  venue: Darlington Raceway – The Lady in Black
   address: Darlington,SC,United States, Darlington, SC
   region: unknown
   is_free: false
@@ -14,7 +14,7 @@ scraped:
   info_url: https://allevents.in/darlington/darlington-event/200030560273036
   ticket_url: ''
   description_snippet: ''
-  content_hash: 78bf8264cd507db5
+  content_hash: 282993d9c9e9ed3d
   sources:
   - source_id: allevents
     url: https://allevents.in/darlington/darlington-event/200030560273036

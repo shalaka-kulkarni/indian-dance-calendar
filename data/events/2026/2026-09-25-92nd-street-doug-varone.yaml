@@ -6,7 +6,7 @@ scraped:
   title: Doug Varone
   start: '2026-09-25T18:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Arnhold Studio
+  venue: 92nd Street Y, New York – Arnhold Studio
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   is_free: false
@@ -15,7 +15,7 @@ scraped:
   ticket_url: ''
   description_snippet: Join acclaimed choreographer and performer Doug Varone for an intimate evening
     inside his creative process.
-  content_hash: 992e6fb338134270
+  content_hash: e3f3b2f791689033
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/fridays-in-arnhold-doug-varone

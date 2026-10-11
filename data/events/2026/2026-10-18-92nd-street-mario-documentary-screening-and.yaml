@@ -7,7 +7,7 @@ scraped:
     and Teddy Kunhardt'
   start: '2026-10-18T19:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 40.0
@@ -18,7 +18,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210931
   description_snippet: Join us for a screening of Mario , a moving new documentary that explores the life
     and legacy of former New York Governor Mario Cuomo, followed by a conversation.
-  content_hash: b07f9054c5829446
+  content_hash: 460b397b7593ccc6
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/mario-documentary-screening-and-conversation

@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: 'FREE MOVIE: What About Bob? (1991) - On the BIG screen!'
+  title: 'FREE MOVIE: What About Bob? (1991) – On the BIG screen!'
   start: '2026-09-10T00:00:00-04:00'
   end: '2026-09-10T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/san-francisco/free-movie-what-about-bob-1991-on-the-big-screen/100001999294691241
   ticket_url: ''
   description_snippet: ''
-  content_hash: e8c60807fed6dd76
+  content_hash: b9f10ede92cc7a0b
   sources:
   - source_id: allevents
     url: https://allevents.in/san-francisco/free-movie-what-about-bob-1991-on-the-big-screen/100001999294691241

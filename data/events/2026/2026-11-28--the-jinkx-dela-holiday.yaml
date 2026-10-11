@@ -13,9 +13,8 @@ scraped:
   price_note: ''
   info_url: https://www.nycitycenter.org/events/instances/krrn68vd/2026-11-27/2026-2027-the-jinkx-and-dela-holiday-show
   ticket_url: ''
-  description_snippet: '&ldquo;The Jinkx & DeLa Holiday Show promises to combat the world’s devastation
-    with campy magic and mirth that only a queer interpretation of Christmas can provide.&rdquo; &ndash;
-    <em>Los Angeles Times</em>'
+  description_snippet: “The Jinkx & DeLa Holiday Show promises to combat the world’s devastation with
+    campy magic and mirth that only a queer interpretation of Christmas can provide.” – Los Angeles Times
   content_hash: 8c1925c3d8353d65
   sources:
   - source_id: city_center

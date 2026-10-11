@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: Gemuetlichkeit Days &amp; Big Hat Rodeo
+  title: Gemuetlichkeit Days & Big Hat Rodeo
   start: '2026-09-18T00:00:00-04:00'
   end: '2026-09-20T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/jefferson/gemuetlichkeit-days-and-big-hat-rodeo/200030660723851
   ticket_url: ''
   description_snippet: ''
-  content_hash: 4cced9eca51fbe35
+  content_hash: d2598a224117ade8
   sources:
   - source_id: allevents
     url: https://allevents.in/jefferson/gemuetlichkeit-days-and-big-hat-rodeo/200030660723851

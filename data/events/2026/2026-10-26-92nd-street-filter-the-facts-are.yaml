@@ -6,7 +6,7 @@ scraped:
   title: 'Filter the Facts: Are Your Diet and Drinking Habits Scarring Your Liver?'
   start: '2026-10-26T18:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Warburg Lounge
+  venue: 92nd Street Y, New York – Warburg Lounge
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 10.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211285
   description_snippet: Join Spark Your Health and Mount Sinai Health System Gastroenterologist, Dr. Meena
     Bansal, as she discusses risk factors, diagnosis and treatment of liver disease.
-  content_hash: ccfe54b2fa5cbf42
+  content_hash: a29c0659d0d96a90
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/filter-the-facts

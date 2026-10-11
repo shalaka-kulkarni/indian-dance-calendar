@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: Playing Fields - J.J. Flynn Elementary School (FREE!)
+  title: Playing Fields – J.J. Flynn Elementary School (FREE!)
   start: '2026-09-15T00:00:00-04:00'
   additional_dates: []
   venue: 1645 North Avenue Burlington, VT 05408
@@ -14,7 +14,7 @@ scraped:
   info_url: https://allevents.in/burlington/playing-fields-jj-flynn-elementary-school-free/200030630898959
   ticket_url: ''
   description_snippet: ''
-  content_hash: 73a529d7f53214ee
+  content_hash: 960681eeff850218
   sources:
   - source_id: allevents
     url: https://allevents.in/burlington/playing-fields-jj-flynn-elementary-school-free/200030630898959

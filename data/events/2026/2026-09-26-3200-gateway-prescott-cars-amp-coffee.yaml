@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: Prescott Cars &amp; Coffee | Monthly Car Show at Pine Ridge Marketplace
+  title: Prescott Cars & Coffee | Monthly Car Show at Pine Ridge Marketplace
   start: '2026-09-26T00:00:00-04:00'
   end: '2026-09-26T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/prescott/prescott-cars-and-coffee-monthly-car-show-at-pine-ridge-marketplace/200030604871517
   ticket_url: ''
   description_snippet: ''
-  content_hash: 21a220053df7c936
+  content_hash: fd6261042b3a2b1c
   sources:
   - source_id: allevents
     url: https://allevents.in/prescott/prescott-cars-and-coffee-monthly-car-show-at-pine-ridge-marketplace/200030604871517

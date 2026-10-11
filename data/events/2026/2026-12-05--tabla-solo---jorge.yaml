@@ -1,9 +1,9 @@
 id: 2026-12-05--tabla-solo---jorge
 status: published
 was_published: true
-needs_recheck: false
+needs_recheck: true
 scraped:
-  title: Tabla Solo - Jorge Ramiro
+  title: Tabla Solo – Jorge Ramiro
   start: '2026-12-05T00:00:00-05:00'
   additional_dates: []
   venue: ''
@@ -20,7 +20,7 @@ scraped:
     Ramiro Jorge Ramiro grew up in Mexico and moved to the U.S. at the age of 18. Ramiro holds a Bachelor
     of Arts in Music from the State University of New York. He has been studying tabla, pakhawaj and classical
     Indian m
-  content_hash: d5fa619a7f5cb327
+  content_hash: 5a6e2c131550000e
   sources:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2026/12/5/tabla-solo-jorge-ramiro

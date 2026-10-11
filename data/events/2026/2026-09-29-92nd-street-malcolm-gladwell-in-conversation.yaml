@@ -6,7 +6,7 @@ scraped:
   title: 'Malcolm Gladwell in Conversation: The American Way of Killing'
   start: '2026-09-29T18:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 50.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210650
   description_snippet: Malcolm Gladwell discusses the gun violence epidemic and his new book, The American
     Way of Killing .
-  content_hash: 5926443d80ae9999
+  content_hash: ff75d832463be8b6
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/malcolm-gladwell-in-conversation-the-american-way-of-killing

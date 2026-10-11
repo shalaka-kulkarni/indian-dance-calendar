@@ -6,7 +6,7 @@ scraped:
   title: 'Richard Christiansen in Conversation with Martha Stewart: Flamingo Estate Pleasure Principles'
   start: '2026-09-18T19:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 50.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211098
   description_snippet: 'Lifestyle icon Martha Stewart joins Richard Christansen to talk about his new
     book, Flamingo Estate Pleasure Principles: An Almanac from the Garden.'
-  content_hash: c9f1567c0158547a
+  content_hash: 17fe354aa346d8e3
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/richard-christiansen-with-martha-stewart

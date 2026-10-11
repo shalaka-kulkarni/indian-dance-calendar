@@ -7,7 +7,7 @@ scraped:
   start: '2026-10-17T20:00:00-04:00'
   end: '2026-10-17T21:00:00-04:00'
   additional_dates: []
-  venue: Bare Knuckle Fighting Championship
+  venue: Prudential Center
   address: Bare Knuckle Fighting Championship
   region: new_jersey
   is_free: false
@@ -15,7 +15,7 @@ scraped:
   info_url: https://www.prucenter.com/events/bare-knuckle-fighting-championship
   ticket_url: ''
   description_snippet: ''
-  content_hash: 31130f9940177748
+  content_hash: 67d84a6e2d376531
   sources:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/bare-knuckle-fighting-championship

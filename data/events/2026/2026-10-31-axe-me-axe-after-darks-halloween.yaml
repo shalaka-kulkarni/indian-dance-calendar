@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: Axe After Dark’s Halloween Party 🎃
+  title: Axe After Dark’s Halloween Party
   start: '2026-10-31T00:00:00-04:00'
   end: '2026-10-31T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/longmont/axe-after-darks-halloween-party-tickets/80001333783023
   ticket_url: ''
   description_snippet: ''
-  content_hash: 62fc0abaf183c060
+  content_hash: 1dc119a2fd5a9b8a
   sources:
   - source_id: allevents
     url: https://allevents.in/longmont/axe-after-darks-halloween-party-tickets/80001333783023

@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: Beres Hammond & Beenie Man Tickets NJ
+  title: Beres Hammond & Beenie Man
   start: '2026-08-29T20:00:00-04:00'
   end: '2026-08-29T23:00:00-04:00'
   additional_dates: []
@@ -16,7 +16,7 @@ scraped:
   ticket_url: ''
   description_snippet: Beres Hammond & Beenie Man bring Reggae in Action to Prudential Center on August
     29! Celebrate reggae music and see these legends perform live!
-  content_hash: 196c5724b47c6af1
+  content_hash: 5eafc8d4a758b310
   sources:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/beres-hammond-beenie-man

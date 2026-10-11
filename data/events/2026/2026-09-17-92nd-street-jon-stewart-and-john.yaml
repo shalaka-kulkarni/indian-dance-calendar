@@ -6,7 +6,7 @@ scraped:
   title: 'Jon Stewart and John Feal: I Will Follow You Anywhere'
   start: '2026-09-17T19:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 50.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210811
   description_snippet: Jon Stewart and John Feal discuss Feal’s new memoir, I Will Follow You Anywhere
     .
-  content_hash: 274c725b44800fd1
+  content_hash: 17e52b3043f4953a
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/an-evening-with-jon-stewart-and-john-feal

@@ -7,7 +7,7 @@ scraped:
   start: '2026-09-19T19:30:00-04:00'
   end: '2026-09-19T20:30:00-04:00'
   additional_dates: []
-  venue: 'Bryson Tiller Tickets: The Neo Trapsoul Tour'
+  venue: Prudential Center
   address: 'Bryson Tiller Tickets: The Neo Trapsoul Tour'
   region: new_jersey
   is_free: false
@@ -16,7 +16,7 @@ scraped:
   ticket_url: ''
   description_snippet: Bryson Tiller brings The Neo Trapsoul Tour to Prudential Center on September 19!
     Get tickets to see this Grammy-nominated artist perform live!
-  content_hash: 640cda98eb1b8626
+  content_hash: 15b62a984f0b9b2c
   sources:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/bryson-tiller

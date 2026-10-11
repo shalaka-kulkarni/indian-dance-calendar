@@ -6,7 +6,7 @@ scraped:
   title: 'Michael Douglas in Conversation: One Helluva Ride'
   start: '2026-10-06T18:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 60.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211087
   description_snippet: Two-time Academy Award winner Michael Douglas joins us for the launch of his new
     memoir, One Helluva Ride , and to reflect on his remarkable life on and offscreen.
-  content_hash: 2a8a1027602a201a
+  content_hash: 24b78fb4ffd89a11
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/michael-douglas-in-conversation-one-helluva-ride

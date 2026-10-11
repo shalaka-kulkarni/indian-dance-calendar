@@ -1,9 +1,9 @@
 id: 2026-11-01--sarode-concert---swarnendu
 status: published
 was_published: true
-needs_recheck: false
+needs_recheck: true
 scraped:
-  title: Sarode Concert - Swarnendu
+  title: Sarode Concert – Swarnendu
   start: '2026-11-01T00:00:00-04:00'
   additional_dates: []
   venue: ''
@@ -19,7 +19,7 @@ scraped:
     the Sarode performed by Swarnendu accompanied by Samir Chatterjee. The performance will also be streamed
     live. Purchase Tickets/Streaming Access Swarnendu Hailing from Kolkata, India, Swarnendu is a 23-year-old
     prodigy, a Sarod virtuoso, and a master of Geology. Under the esteemed guidance of Pt. Buddhadev Das
-  content_hash: 37c6fc3690d6bf80
+  content_hash: ecbb268e4765d09c
   sources:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2026/11/1/sarode-concert-swarnendu

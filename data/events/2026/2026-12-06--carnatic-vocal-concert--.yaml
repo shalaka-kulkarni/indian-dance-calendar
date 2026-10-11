@@ -1,9 +1,9 @@
 id: 2026-12-06--carnatic-vocal-concert--
 status: published
 was_published: true
-needs_recheck: false
+needs_recheck: true
 scraped:
-  title: Carnatic Vocal Concert - Samanvi Velagapudi
+  title: Carnatic Vocal Concert – Samanvi Velagapudi
   start: '2026-12-06T00:00:00-05:00'
   additional_dates: []
   venue: ''
@@ -19,7 +19,7 @@ scraped:
     Come join us for an afternoon performance of Carnatic Vocal music performed by Samnvi Velagapudi accompanied
     by Tanisha Srivatsa on violin and Siddarth Ragavan on mrdangam. The performance will also be streamed
     live. Purchase Tickets/Streaming Access Samanvi Velagapudi Samanvi Velagapudi began her Carnatic musi
-  content_hash: 4101a710db4e45eb
+  content_hash: a5e33f3b037634ff
   sources:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2026/12/6/carnatic-vocal-concert-samanvi-velagapudi

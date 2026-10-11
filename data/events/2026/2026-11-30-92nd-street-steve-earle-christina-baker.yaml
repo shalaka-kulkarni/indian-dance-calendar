@@ -6,7 +6,7 @@ scraped:
   title: 'Steve Earle, Christina Baker Kline, and Jana Prikryl: Muldoon’s Picnic'
   start: '2026-11-30T19:00:00-05:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 30.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211314
   description_snippet: Steve Earle heads up Muldoon’s Picnic with Christina Baker Kline, Jana Prikryl,
     and Paul Muldoon for an unforgettable night of music, poetry, stories, and surprise.
-  content_hash: 3eb9458eb71f0ca5
+  content_hash: 7251cc8dd04806a1
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/muldoon-s-picnic-november

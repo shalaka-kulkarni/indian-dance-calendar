@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: Dorchester, MA - Golden Ghouls Drag Show - Dorchester Brewing Co
+  title: Dorchester, MA – Golden Ghouls Drag Show – Dorchester Brewing Co
   start: '2026-09-25T00:00:00-04:00'
   end: '2026-09-25T00:00:00-04:00'
   additional_dates: []
@@ -17,7 +17,7 @@ scraped:
   info_url: https://allevents.in/boston/dorchester-ma-golden-ghouls-drag-show-dorchester-brewing-co/100001994474554081
   ticket_url: https://allevents.in/boston/dorchester-ma-golden-ghouls-drag-show-dorchester-brewing-co/100001994474554081
   description_snippet: ''
-  content_hash: c08ec023dddc481d
+  content_hash: 81a7f4cff0e0d8e6
   sources:
   - source_id: allevents
     url: https://allevents.in/boston/dorchester-ma-golden-ghouls-drag-show-dorchester-brewing-co/100001994474554081

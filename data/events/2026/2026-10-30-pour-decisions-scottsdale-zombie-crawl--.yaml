@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: SCOTTSDALE ZOMBIE CRAWL - Halloween Bar Crawl - Party Pass to 10+ Bars
+  title: SCOTTSDALE ZOMBIE CRAWL – Halloween Bar Crawl – Party Pass to 10+ Bars
   start: '2026-10-30T00:00:00-04:00'
   end: '2026-11-01T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/scottsdale/scottsdale-zombie-crawl-halloween-bar-crawl-party-pass-to-10-bars/100001995085520498
   ticket_url: ''
   description_snippet: ''
-  content_hash: e6dd500a356dbcc0
+  content_hash: 05704fdaaa6a2dd3
   sources:
   - source_id: allevents
     url: https://allevents.in/scottsdale/scottsdale-zombie-crawl-halloween-bar-crawl-party-pass-to-10-bars/100001995085520498

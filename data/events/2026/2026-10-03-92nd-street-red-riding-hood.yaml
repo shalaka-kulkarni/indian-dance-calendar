@@ -6,7 +6,7 @@ scraped:
   title: Red Riding Hood
   start: '2026-10-03T10:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 25.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210737
   description_snippet: A new version of the beloved classic Little Red Riding Hood comes to life in dance
     and song!
-  content_hash: c8372b1b21f6b0e4
+  content_hash: 302e28dd12941a6f
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/red-riding-hood

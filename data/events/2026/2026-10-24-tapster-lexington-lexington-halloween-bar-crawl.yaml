@@ -7,7 +7,7 @@ scraped:
   start: '2026-10-24T00:00:00-04:00'
   end: '2026-10-24T00:00:00-04:00'
   additional_dates: []
-  venue: Tapster Lexington, KY – Self Pour Bar &amp; Tasting Room
+  venue: Tapster Lexington, KY – Self Pour Bar & Tasting Room
   address: 401 West Main Street, Lexington, KY
   region: unknown
   price_min: 11.23
@@ -17,7 +17,7 @@ scraped:
   info_url: https://allevents.in/lexington/lexington-halloween-bar-crawl/100001951739618739
   ticket_url: https://allevents.in/lexington/lexington-halloween-bar-crawl/100001951739618739
   description_snippet: ''
-  content_hash: df5946d0414a5422
+  content_hash: ee59a3b6524e1ef6
   sources:
   - source_id: allevents
     url: https://allevents.in/lexington/lexington-halloween-bar-crawl/100001951739618739

@@ -6,7 +6,7 @@ scraped:
   title: 'Aatish Taseer with Karan Mahajan: The Rootless Elysium'
   start: '2026-12-01T19:30:00-05:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 30.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211193
   description_snippet: Aatish Taseer joins Karan Mahajan to discuss The Rootless Elysium , a journey across
     America exploring identity, migration, citizenship, and belonging.
-  content_hash: e1013e0a34ffc84b
+  content_hash: 44d3c4c8504351ea
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/the-rootless-elysium

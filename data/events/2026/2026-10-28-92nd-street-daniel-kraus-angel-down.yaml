@@ -6,7 +6,7 @@ scraped:
   title: 'Daniel Kraus: Angel Down and the Future of Sci-Fi'
   start: '2026-10-28T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Warburg Lounge
+  venue: 92nd Street Y, New York – Warburg Lounge
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 30.0
@@ -16,7 +16,7 @@ scraped:
   info_url: https://www.92ny.org/event/daniel-kraus
   ticket_url: https://seats.92ny.org/single/210872
   description_snippet: Pulitzer Prize winner Daniel Kraus discusses Angel Down and The Sixth Nik .
-  content_hash: 62f7eb71d8320f4e
+  content_hash: 73e4a918e3f2c801
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/daniel-kraus

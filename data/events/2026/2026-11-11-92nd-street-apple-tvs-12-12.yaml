@@ -7,7 +7,7 @@ scraped:
     with Josh Horowitz'
   start: '2026-11-11T20:00:00-05:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 40.0
@@ -18,7 +18,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211450
   description_snippet: Anthony Mackie and Jamie Dornan join Josh Horowitz for a special screening and
     conversation about 12 12 12 , Apple TV’s new heist thriller.
-  content_hash: 568670c5bfa22d55
+  content_hash: 3631cc5a2ff6b9ff
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/apple-tv-s-12-12-12

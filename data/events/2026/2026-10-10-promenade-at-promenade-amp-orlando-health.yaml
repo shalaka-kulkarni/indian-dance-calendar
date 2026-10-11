@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: Promenade &amp; Orlando Health Breast Cancer Awareness Car &amp; Truck Show
+  title: Promenade & Orlando Health Breast Cancer Awareness Car & Truck Show
   start: '2026-10-10T00:00:00-04:00'
   end: '2026-10-10T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/kissimmee/promenade-and-orlando-health-breast-cancer-awareness-car-and-truck-show/100001988922485695
   ticket_url: ''
   description_snippet: ''
-  content_hash: aa24063c1d42ec56
+  content_hash: c24140f5fc3b054f
   sources:
   - source_id: allevents
     url: https://allevents.in/kissimmee/promenade-and-orlando-health-breast-cancer-awareness-car-and-truck-show/100001988922485695

@@ -6,7 +6,7 @@ scraped:
   title: 'Jamie Hess with Chloe Melas and Joan Lunden: The Gratitude Shift'
   start: '2026-11-15T18:00:00-05:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Warburg Lounge
+  venue: 92nd Street Y, New York – Warburg Lounge
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 35.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211292
   description_snippet: Jamie Hess joins Chloe Melas and Joan Lunden to discuss The Gratitude Shift , her
     practical new guide to gratitude, resilience and meaningful change.
-  content_hash: b04b386a51dadd2f
+  content_hash: 892bfa02d701f1e4
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/jamie-hess-with-chloe-melas-and-joan-lunden

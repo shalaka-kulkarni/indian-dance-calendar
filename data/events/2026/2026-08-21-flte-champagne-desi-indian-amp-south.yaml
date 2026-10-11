@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: Desi, Indian &amp; South Asian Singles - Speed Dating
+  title: Desi, Indian & South Asian Singles – Speed Dating
   start: '2026-08-21T00:00:00-04:00'
   end: '2026-08-21T00:00:00-04:00'
   additional_dates: []
@@ -17,7 +17,7 @@ scraped:
   info_url: https://allevents.in/new-york/desi-indian-and-south-asian-singles-speed-dating/100001995609973150
   ticket_url: https://allevents.in/new-york/desi-indian-and-south-asian-singles-speed-dating/100001995609973150
   description_snippet: ''
-  content_hash: a48e8e5f1bf9f456
+  content_hash: 974560b7ebdbfd67
   sources:
   - source_id: allevents
     url: https://allevents.in/new-york/desi-indian-and-south-asian-singles-speed-dating/100001995609973150

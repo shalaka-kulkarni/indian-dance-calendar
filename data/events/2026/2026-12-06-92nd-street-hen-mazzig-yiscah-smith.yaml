@@ -6,7 +6,7 @@ scraped:
   title: 'Hen Mazzig, Yiscah Smith and 92NY’s Rabbi David Ingber in Conversation: Dare to Be Jewish'
   start: '2026-12-06T19:30:00-05:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 25.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211059
   description_snippet: Hen Mazzig, Yiscah Smith and Rabbi David Ingber in conversation around Jewish Identity
     Redefined, highlighting the importance of “Dare to be Jewish.”
-  content_hash: 9c5a4b00882921ad
+  content_hash: bd4c3ff499d138f0
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/hen-mazzig-yiscah-smith-and-rabbi-david-ingber

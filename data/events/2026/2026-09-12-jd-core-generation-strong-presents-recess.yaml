@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: 'Generation Strong Presents: Recess - A Back to School Event for Parents'
+  title: 'Generation Strong Presents: Recess – A Back to School Event for Parents'
   start: '2026-09-12T00:00:00-04:00'
   end: '2026-09-12T00:00:00-04:00'
   additional_dates: []
@@ -17,7 +17,7 @@ scraped:
   info_url: https://allevents.in/fairfield/generation-strong-presents-recess-a-back-to-school-event-for-parents/100001996533829429
   ticket_url: https://allevents.in/fairfield/generation-strong-presents-recess-a-back-to-school-event-for-parents/100001996533829429
   description_snippet: ''
-  content_hash: b0c35848ff28f886
+  content_hash: c5cf466f3fd35806
   sources:
   - source_id: allevents
     url: https://allevents.in/fairfield/generation-strong-presents-recess-a-back-to-school-event-for-parents/100001996533829429

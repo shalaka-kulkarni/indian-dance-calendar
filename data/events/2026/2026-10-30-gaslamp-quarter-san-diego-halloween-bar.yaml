@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: SAN DIEGO HALLOWEEN BAR CRAWL - Party Pass to 15+ Bars
+  title: SAN DIEGO HALLOWEEN BAR CRAWL – Party Pass to 15+ Bars
   start: '2026-10-30T00:00:00-04:00'
   end: '2026-11-01T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/san-diego/san-diego-halloween-bar-crawl-party-pass-to-15-bars/100001996292106429
   ticket_url: ''
   description_snippet: ''
-  content_hash: 67e229f22dc9b7cf
+  content_hash: a155ce66106f9479
   sources:
   - source_id: allevents
     url: https://allevents.in/san-diego/san-diego-halloween-bar-crawl-party-pass-to-15-bars/100001996292106429

@@ -6,7 +6,7 @@ scraped:
   title: Wadada Leo Smith, Qasim Naqvi, Andrew Cyrille
   start: '2027-04-16T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 45.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210689
   description_snippet: Contemporary jazz legend Wadada Leo Smith, rising star electronic artist Qasim
     Naqvi & avant-garde master Andrew Cyrille play music from their album Two Centuries .
-  content_hash: a926f8be0ee4ed3b
+  content_hash: f3091f52ade7f90f
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/wadada-leo-smith-qasim-naqvi-andrew-cyrille

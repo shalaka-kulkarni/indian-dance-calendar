@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: THE PRESCOTT VETTE SET CRUISE AND CAR SHOW &amp; SHINE
+  title: THE PRESCOTT VETTE SET CRUISE AND CAR SHOW & SHINE
   start: '2026-09-25T00:00:00-04:00'
   additional_dates: []
   venue: Hampton Inn Prescott, AZ
@@ -14,7 +14,7 @@ scraped:
   info_url: https://allevents.in/prescott/the-prescott-vette-set-cruise-and-car-show-and-shine/200030454816350
   ticket_url: ''
   description_snippet: ''
-  content_hash: cf71a71d6578119f
+  content_hash: 92a5bfea7ded4d30
   sources:
   - source_id: allevents
     url: https://allevents.in/prescott/the-prescott-vette-set-cruise-and-car-show-and-shine/200030454816350

@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: Fall Festival &amp; Cornhole Tournament
+  title: Fall Festival & Cornhole Tournament
   start: '2026-09-19T00:00:00-04:00'
   additional_dates: []
   venue: 133 Batting Cage Trl, Jacksonville, NC 28540-8946, United States
@@ -14,7 +14,7 @@ scraped:
   info_url: https://allevents.in/jacksonville/fall-festival-and-cornhole-tournament/200030264181342
   ticket_url: ''
   description_snippet: ''
-  content_hash: e22c6c367e498ee3
+  content_hash: 157f1f71bebbaf58
   sources:
   - source_id: allevents
     url: https://allevents.in/jacksonville/fall-festival-and-cornhole-tournament/200030264181342

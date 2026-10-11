@@ -6,8 +6,7 @@ scraped:
   title: 'Sacha Baron Cohen in Conversation: The Power of Satire'
   start: '2026-10-21T20:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall</div><div class="pdp-hero__hall"><em>Enter
-    on 92nd St. b
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall Enter on 92nd St. b
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 40.0
@@ -18,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211475
   description_snippet: 'Sacha Baron Cohen discusses Ali G: Who Iz I? , his directorial debut, and the
     return of his iconic comic creation after 20 years.'
-  content_hash: 8ecaca03933da7d4
+  content_hash: 3b94c7b96550e17e
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/sacha-baron-cohen

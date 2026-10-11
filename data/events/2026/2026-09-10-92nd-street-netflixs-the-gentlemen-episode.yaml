@@ -7,7 +7,7 @@ scraped:
     with Jessica Shaw'
   start: '2026-09-10T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 50.0
@@ -18,7 +18,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210980
   description_snippet: Enjoy a screening of an episode from the new season of Netflix’s hit action-comedy
     series The Gentlemen , followed by a conversation with stars Theo James and Kaya Scodelario.
-  content_hash: fdc5159844e0d93e
+  content_hash: 9659ffb7a6aa12ca
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/netflix-s-the-gentlemen

@@ -6,7 +6,7 @@ scraped:
   title: 'StarTalk Live! with Neil deGrasse Tyson: Lost in Space'
   start: '2026-09-23T18:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 65.0
@@ -16,7 +16,7 @@ scraped:
   info_url: https://www.92ny.org/event/neil-degrasse-tyson
   ticket_url: https://seats.92ny.org/single/210946
   description_snippet: Neil deGrasse Tyson presents a special live recording of StarTalk .
-  content_hash: 627fe03a2c7f9a40
+  content_hash: f401285afb237607
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/neil-degrasse-tyson

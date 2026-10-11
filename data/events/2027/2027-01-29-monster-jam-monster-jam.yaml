@@ -7,7 +7,7 @@ scraped:
   start: '2027-01-29T15:00:00-05:00'
   end: '2027-01-31T16:00:00-05:00'
   additional_dates: []
-  venue: Monster Jam
+  venue: Prudential Center
   address: Monster Jam
   region: new_jersey
   is_free: false
@@ -15,7 +15,7 @@ scraped:
   info_url: https://www.prucenter.com/events/monster-jam
   ticket_url: ''
   description_snippet: ''
-  content_hash: 8bcd4fcb33d4834f
+  content_hash: 29d14be9576eaae2
   sources:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/monster-jam

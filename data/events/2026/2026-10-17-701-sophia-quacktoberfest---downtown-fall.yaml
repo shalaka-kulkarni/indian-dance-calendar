@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: Quacktoberfest - Downtown Fall Carnival
+  title: Quacktoberfest – Downtown Fall Carnival
   start: '2026-10-17T00:00:00-04:00'
   end: '2026-10-17T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/fredericksburg/quacktoberfest-downtown-fall-carnival/200030637387324
   ticket_url: ''
   description_snippet: ''
-  content_hash: 1953d38c8ca2cfc8
+  content_hash: fec9590bfee72097
   sources:
   - source_id: allevents
     url: https://allevents.in/fredericksburg/quacktoberfest-downtown-fall-carnival/200030637387324

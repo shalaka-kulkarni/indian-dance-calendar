@@ -3,10 +3,10 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: Burnout Houston Classic Car Show - October 3rd
+  title: Burnout Houston Classic Car Show – October 3rd
   start: '2026-10-03T00:00:00-04:00'
   additional_dates: []
-  venue: Orange Show - 2334 Gulf Terminal Drive , Houston, TX, United States, Texas 77023
+  venue: Orange Show – 2334 Gulf Terminal Drive , Houston, TX, United States, Texas 77023
   address: 2334 Gulf Terminal Dr, Houston, TX 77023-5156, United States, Houston, TX
   region: unknown
   is_free: false
@@ -14,7 +14,7 @@ scraped:
   info_url: https://allevents.in/houston/burnout-houston-classic-car-show-october-3rd/200030220053557
   ticket_url: ''
   description_snippet: ''
-  content_hash: cf12c4e055d78c7d
+  content_hash: bd9700fb0b445d9b
   sources:
   - source_id: allevents
     url: https://allevents.in/houston/burnout-houston-classic-car-show-october-3rd/200030220053557

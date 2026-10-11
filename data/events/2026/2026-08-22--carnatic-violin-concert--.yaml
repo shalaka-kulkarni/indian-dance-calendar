@@ -3,7 +3,7 @@ status: past
 was_published: true
 needs_recheck: false
 scraped:
-  title: Carnatic Violin Concert - Siddarth Ashokkumar
+  title: Carnatic Violin Concert – Siddarth Ashokkumar
   start: '2026-08-22T00:00:00-04:00'
   additional_dates: []
   venue: ''
@@ -20,7 +20,7 @@ scraped:
     Ashokkumar accompanied by Sriram Raman on Mridangam. The concert will also be streamed live. Purchase
     Tickets/Streaming Access Siddarth Ashokkumar Siddharth Ashokkumar is a violinist and music educator
     based in Brookly
-  content_hash: a6a64dc6af994b30
+  content_hash: bcb2715222c34eca
   sources:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2026/8/22/carnatic-violin-concert-siddarth-ashokkumar

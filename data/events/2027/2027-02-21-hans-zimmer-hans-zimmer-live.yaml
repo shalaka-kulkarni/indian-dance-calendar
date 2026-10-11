@@ -7,7 +7,7 @@ scraped:
   start: '2027-02-21T19:30:00-05:00'
   end: '2027-02-21T20:30:00-05:00'
   additional_dates: []
-  venue: Hans Zimmer Live
+  venue: Prudential Center
   address: Hans Zimmer Live
   region: new_jersey
   is_free: false
@@ -15,7 +15,7 @@ scraped:
   info_url: https://www.prucenter.com/events/hans-zimmer
   ticket_url: ''
   description_snippet: ''
-  content_hash: b1dfda8d117a848f
+  content_hash: 6d86ea3c31941dc1
   sources:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/hans-zimmer

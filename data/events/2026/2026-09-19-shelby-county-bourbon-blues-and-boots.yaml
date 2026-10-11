@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: Bourbon, Blues and Boots - The MidSouthern Hoedown
+  title: Bourbon, Blues and Boots – The MidSouthern Hoedown
   start: '2026-09-19T00:00:00-04:00'
   end: '2026-09-19T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/shelbyville/bourbon-blues-and-boots-the-midsouthern-hoedown/100001984574735457
   ticket_url: ''
   description_snippet: ''
-  content_hash: 23e3b970f6d1773b
+  content_hash: f97221879f7ac348
   sources:
   - source_id: allevents
     url: https://allevents.in/shelbyville/bourbon-blues-and-boots-the-midsouthern-hoedown/100001984574735457

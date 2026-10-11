@@ -6,7 +6,7 @@ scraped:
   title: Uptown Rhythm Dance Festival
   start: '2027-03-02T19:00:00-05:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 45.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210452
   description_snippet: Uptown Rhythm returns with an expanded festival of tap, music, poetry, and visual
     art — seven immersive days of bold new collaborations and genre-crossing performance.
-  content_hash: d9d41b5afa848377
+  content_hash: a594b9a77a2a33ab
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/uptown-rhythm-dance-festival

@@ -6,7 +6,7 @@ scraped:
   title: 'Meredith Duxbury in Conversation: Get Ready with Meredith'
   start: '2026-09-08T19:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 30.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211198
   description_snippet: Model, entrepreneur, and beauty creator Meredith Duxbury shares the stories, rituals,
     and inspiration behind Get Ready with Meredith .
-  content_hash: 681bcc5fa0e9beee
+  content_hash: 16729a07b957bbc0
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/get-ready-with-meredith

@@ -6,7 +6,7 @@ scraped:
   title: Danny Meyer in Conversation with John Grisham
   start: '2026-09-28T20:15:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 60.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211047
   description_snippet: Join Danny Meyer in conversation with John Grisham as they discuss Meyer’s new
     book, What Could Possibly Go Right? The Essential Journey to Scale an Enduring Culture .
-  content_hash: 822a61bf29537af6
+  content_hash: 966afbca51c8a221
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/danny-meyer-with-john-grisham

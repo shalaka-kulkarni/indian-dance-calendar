@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: The Aquabats! - Trick-or-Treat To The Beat!
+  title: The Aquabats! – Trick-or-Treat To The Beat!
   start: '2026-10-24T00:00:00-04:00'
   additional_dates: []
   venue: House of Blues Anaheim
@@ -14,7 +14,7 @@ scraped:
   info_url: https://allevents.in/anaheim/the-aquabats-trick-or-treat-to-the-beat/200030580730416
   ticket_url: ''
   description_snippet: ''
-  content_hash: 9c6afec506c8e5c8
+  content_hash: af534ca479825758
   sources:
   - source_id: allevents
     url: https://allevents.in/anaheim/the-aquabats-trick-or-treat-to-the-beat/200030580730416

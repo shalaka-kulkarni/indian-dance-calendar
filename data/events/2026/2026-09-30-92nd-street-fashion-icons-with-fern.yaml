@@ -6,7 +6,7 @@ scraped:
   title: 'Fashion Icons with Fern Mallis: Ian Schrager'
   start: '2026-09-30T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 40.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210852
   description_snippet: Ian Schrager joins Fern Mallis for a Fashion Icons conversation about how his impeccable
     sense of style, design, and atmosphere has transformed the hospitality industry.
-  content_hash: a5ff45e17aaa1093
+  content_hash: 8df25986e9c5416e
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/fashion-icons-ian-schrager

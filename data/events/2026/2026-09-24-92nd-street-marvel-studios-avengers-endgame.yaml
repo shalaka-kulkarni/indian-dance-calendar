@@ -7,7 +7,7 @@ scraped:
     with Deadline''s Mike Fleming'
   start: '2026-09-24T18:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 30.0
@@ -18,7 +18,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211239
   description_snippet: 'An advance screening of Avengers: Endgame Encore with Doomsday sneak peek, followed
     by a talk with the Russo Brothers and Deadline’s Editor-At-Large Mike Fleming.'
-  content_hash: ef63fa844916524c
+  content_hash: 62323132ba4009f6
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/avengers-endgame-encore-screening-and-conversation

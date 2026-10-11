@@ -7,7 +7,7 @@ scraped:
     Wyna Liu, Joel Fagliano, Sam Ezersky, and Tracy Bennett
   start: '2026-10-27T20:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 55.0
@@ -18,7 +18,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211268
   description_snippet: New York Times puzzle editors unravel the game play behind Connections, the Book!
     .
-  content_hash: 1232c53c83fda2fc
+  content_hash: 3d887926c6ba9b1c
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/a-new-york-times-games-night

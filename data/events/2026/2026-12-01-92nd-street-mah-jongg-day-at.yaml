@@ -6,8 +6,7 @@ scraped:
   title: Mah Jongg Day at 92NY
   start: '2026-12-01T14:00:00-05:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall</div><div class="pdp-hero__hall"><em>Enter
-    on 92nd St. b
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall Enter on 92nd St. b
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 50.0
@@ -18,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211346
   description_snippet: Celebrate Mah Jongg at 92NY with expert tips, a rare 100-year display of tiles
     and sets, shopping, community and gameplay.
-  content_hash: c072b718fbfeeba3
+  content_hash: 8f3540c85438edf1
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/mah-jongg-day-at-92ny

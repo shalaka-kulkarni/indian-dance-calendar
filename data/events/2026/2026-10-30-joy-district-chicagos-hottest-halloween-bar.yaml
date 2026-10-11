@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: Chicago's Hottest Halloween Bar Crawl 2026 - River North - Fri, Oct 30
+  title: Chicago's Hottest Halloween Bar Crawl 2026 – River North – Fri, Oct 30
   start: '2026-10-30T00:00:00-04:00'
   end: '2026-10-30T00:00:00-04:00'
   additional_dates: []
@@ -17,7 +17,7 @@ scraped:
   info_url: https://allevents.in/chicago/chicagos-hottest-halloween-bar-crawl-2026-river-north-fri-oct-30/100001999072672176
   ticket_url: https://allevents.in/chicago/chicagos-hottest-halloween-bar-crawl-2026-river-north-fri-oct-30/100001999072672176
   description_snippet: ''
-  content_hash: 0e954a7bc19c8211
+  content_hash: c2789965d32e2b88
   sources:
   - source_id: allevents
     url: https://allevents.in/chicago/chicagos-hottest-halloween-bar-crawl-2026-river-north-fri-oct-30/100001999072672176

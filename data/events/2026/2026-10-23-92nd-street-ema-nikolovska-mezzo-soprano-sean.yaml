@@ -6,7 +6,7 @@ scraped:
   title: 'Ema Nikolovska, mezzo-soprano & Sean Shibe, guitar: Orlando'
   start: '2026-10-23T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 45.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210477
   description_snippet: Mezzo-soprano Ema Nikolovska and guitarist Sean Shibe perform their program Orlando,
     blending passages by Virginia Woolf with music by Schubert, Bob Dylan & more.
-  content_hash: ff09cdc3d34340db
+  content_hash: a6abbad94eb24feb
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/ema-nikolovska-and-sean-shibe

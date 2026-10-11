@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: Lakhwinder Wadali Live In Concert - New York
+  title: Lakhwinder Wadali Live in Concert – New York
   start: '2026-08-16T19:00:00-05:00'
   end: '2026-08-16T22:00:00-05:00'
   additional_dates: []
@@ -17,7 +17,7 @@ scraped:
   info_url: https://events.sulekha.com/lakhwinder-wadali-live-in-concert-new-york_event-in_westbury-ny_400000
   ticket_url: https://events.sulekha.com/lakhwinder-wadali-live-in-concert-new-york_event-in_westbury-ny_400000
   description_snippet: Lakhwinder Wadali Live In Concert - New York
-  content_hash: c0255df839d8a1a2
+  content_hash: 3e866364e953e347
   sources:
   - source_id: sulekha
     url: https://events.sulekha.com/lakhwinder-wadali-live-in-concert-new-york_event-in_westbury-ny_400000

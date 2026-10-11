@@ -6,7 +6,7 @@ scraped:
   title: 'Janet Reitman in Conversation with George Packer: The Inheritance'
   start: '2026-10-14T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 35.0
@@ -18,7 +18,7 @@ scraped:
   description_snippet: Join Janet Reitman and George Packer for a conversation about The Inheritance ,
     the legacy of 9/11, and the power of narrative journalism to illuminate the forces that have shaped
     American life over the past 25 years.
-  content_hash: 4773c3a3db954e81
+  content_hash: b6073de899c3aa7a
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/janet-reitman-with-george-packer

@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: Third Eye Blind - Halloween 2026
+  title: Third Eye Blind – Halloween 2026
   start: '2026-10-31T00:00:00-04:00'
   end: '2026-10-31T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/philadelphia/third-eye-blind-halloween-2026/210009206258175
   ticket_url: ''
   description_snippet: ''
-  content_hash: 871c21a33a44cf93
+  content_hash: f8772d61ca546364
   sources:
   - source_id: allevents
     url: https://allevents.in/philadelphia/third-eye-blind-halloween-2026/210009206258175

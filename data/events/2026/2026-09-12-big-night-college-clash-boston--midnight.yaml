@@ -7,7 +7,7 @@ scraped:
   start: '2026-09-12T00:00:00-04:00'
   end: '2026-09-13T00:00:00-04:00'
   additional_dates: []
-  venue: Big Night Live - Studio B
+  venue: Big Night Live – Studio B
   address: 110 Causeway Street, Boston, MA
   region: unknown
   is_free: false
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/boston/college-clash-boston-midnight-sun/100001997156610183
   ticket_url: ''
   description_snippet: ''
-  content_hash: abe613d252d57216
+  content_hash: 424612097cfa1a1d
   sources:
   - source_id: allevents
     url: https://allevents.in/boston/college-clash-boston-midnight-sun/100001997156610183

@@ -6,7 +6,7 @@ scraped:
   title: 'Nik Cohn with Ben Ratliff: Corner Boy'
   start: '2026-10-27T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Warburg Lounge
+  venue: 92nd Street Y, New York – Warburg Lounge
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 30.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211252
   description_snippet: Rock journalism legend Nik Cohn talks to Ben Ratliff about his new career-spanning
     book.
-  content_hash: d112cdf13e97c825
+  content_hash: 6dbcc6bf954e0d8c
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/nik-cohn-with-ben-ratliff-corner-boy

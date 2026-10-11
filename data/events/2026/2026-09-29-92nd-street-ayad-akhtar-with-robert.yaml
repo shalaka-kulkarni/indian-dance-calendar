@@ -6,7 +6,7 @@ scraped:
   title: 'Ayad Akhtar with Robert Downey Jr.: The Radiance'
   start: '2026-09-29T20:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 45.0
@@ -16,7 +16,7 @@ scraped:
   info_url: https://www.92ny.org/event/ayad-akhtar-the-radiance
   ticket_url: https://seats.92ny.org/single/210559
   description_snippet: Ayad Akhtar and Robert Downey Jr. discuss Akhtar’s novel, The Radiance .
-  content_hash: e63e7d3cdf64d5e0
+  content_hash: 79c04bf3466e74ec
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/ayad-akhtar-the-radiance

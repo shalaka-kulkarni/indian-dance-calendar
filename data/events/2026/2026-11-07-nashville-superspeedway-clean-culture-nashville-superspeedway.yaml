@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: Clean Culture Nashville Superspeedway - Car Show
+  title: Clean Culture Nashville Superspeedway – Car Show
   start: '2026-11-07T00:00:00-05:00'
   end: '2026-11-07T00:00:00-05:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/gladeville/clean-culture-nashville-superspeedway-car-show/200029442215623
   ticket_url: ''
   description_snippet: ''
-  content_hash: 26bda418dd12f309
+  content_hash: 36a6ebe184482d97
   sources:
   - source_id: allevents
     url: https://allevents.in/gladeville/clean-culture-nashville-superspeedway-car-show/200029442215623

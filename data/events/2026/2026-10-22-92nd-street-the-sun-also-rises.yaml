@@ -6,7 +6,7 @@ scraped:
   title: 'The Sun Also Rises at 100: Michael Shannon, Richard Schiff, Jay McInerney, and others'
   start: '2026-10-22T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 30.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211303
   description_snippet: Celebrate 100 years of Ernest Hemingway’s The Sun Also Rises with Jay McInerney,
     Richard Shiff, and Michael Shannon exploring its enduring legacy.
-  content_hash: ccb852f7c8b741d0
+  content_hash: c9df47627dc7ef9b
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/the-sun-also-rises-at-100

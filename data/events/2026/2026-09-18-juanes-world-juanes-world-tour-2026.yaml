@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: Juanes World Tour 2026 Tickets New Jersey
+  title: Juanes World Tour 2026
   start: '2026-09-18T20:00:00-04:00'
   end: '2026-09-18T21:00:00-04:00'
   additional_dates: []
@@ -16,7 +16,7 @@ scraped:
   ticket_url: ''
   description_snippet: Juanes brings his Juanes World Tour 2026 to Prudential Center on Friday, September
     18. See the Grammy award winning icon perform live, get tickets now!
-  content_hash: 7aa1ce52e1237033
+  content_hash: cdfe8afe7ad271da
   sources:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/juanes

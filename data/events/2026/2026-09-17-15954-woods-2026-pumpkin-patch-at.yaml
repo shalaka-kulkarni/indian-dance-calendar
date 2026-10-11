@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: 2026 Pumpkin Patch at Bates Nut Farm | Sept. 17th - Oct 31st
+  title: 2026 Pumpkin Patch at Bates Nut Farm | Sept. 17th – Oct 31st
   start: '2026-09-17T00:00:00-04:00'
   additional_dates: []
   venue: 15954 Woods Valley Rd, Valley Center, CA 92082-7318, United States
@@ -14,7 +14,7 @@ scraped:
   info_url: https://allevents.in/valley-center/2026-pumpkin-patch-at-bates-nut-farm-sept-17th-oct-31st/200030602477705
   ticket_url: ''
   description_snippet: ''
-  content_hash: 53c258a17fa6dd3a
+  content_hash: f1a885decb6543f0
   sources:
   - source_id: allevents
     url: https://allevents.in/valley-center/2026-pumpkin-patch-at-bates-nut-farm-sept-17th-oct-31st/200030602477705

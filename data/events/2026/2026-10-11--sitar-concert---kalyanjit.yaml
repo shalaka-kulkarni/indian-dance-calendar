@@ -1,9 +1,9 @@
 id: 2026-10-11--sitar-concert---kalyanjit
 status: published
 was_published: true
-needs_recheck: false
+needs_recheck: true
 scraped:
-  title: Sitar Concert - Kalyanjit Das
+  title: Sitar Concert – Kalyanjit Das
   start: '2026-10-11T00:00:00-04:00'
   additional_dates: []
   venue: ''
@@ -20,7 +20,7 @@ scraped:
     also be streamed live. Tickets/Streaming Access Kalyanjit Das Born in a highly enriched musical family
     of Kolkata, Kalyanjit is one of the brightest young sitarists in the field of Indian Classical Music.
     His musi
-  content_hash: 75d6d7ff27c29096
+  content_hash: 4a228f92d7073fe2
   sources:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2025/7/26/sitar-concert-kalyanjit-das-lgsd8

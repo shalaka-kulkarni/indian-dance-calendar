@@ -6,7 +6,7 @@ scraped:
   title: 'Astrologer Clarisse Monahan in Conversation with Carole Radziwiłł: Rise & Align'
   start: '2026-11-17T19:30:00-05:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 40.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211431
   description_snippet: Astrologer Clarisse Monahan joins Carole Radziwiłł to discuss Rise & Align and
     how to harness the planets for a more intentional, cosmically aligned week.
-  content_hash: ff3dde55560e7940
+  content_hash: 625d445c5eefe151
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/clarisse-monahan-with-carole-radziwill

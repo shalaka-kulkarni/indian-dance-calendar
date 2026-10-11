@@ -6,7 +6,7 @@ scraped:
   title: 'Shark Tank Stars and Showrunner in Conversation: Season 18 Highlights Screening and Talkback'
   start: '2026-10-07T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 45.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211280
   description_snippet: Join Shark Tank stars to welcome Season 18 and preview highlights from an upcoming
     episode.
-  content_hash: 89f274727992664a
+  content_hash: 525a7ad6c826cb08
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/shark-tank-stars-in-conversation

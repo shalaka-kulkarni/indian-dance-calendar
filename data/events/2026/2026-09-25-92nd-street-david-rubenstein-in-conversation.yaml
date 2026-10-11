@@ -6,7 +6,7 @@ scraped:
   title: 'David Rubenstein in Conversation with Cal Ripken, Jr.: Inside the Owner’s Box'
   start: '2026-09-25T19:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 40.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210697
   description_snippet: David Rubenstein offers a rare look inside the highest levels of professional sports
     in a conversation about his new book, Inside the Owner’s Box.
-  content_hash: 6606b0e408909f0a
+  content_hash: a016834de19c949e
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/david-rubenstein-inside-the-owner-s-box

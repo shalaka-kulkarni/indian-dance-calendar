@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: Garba Season For Beginners Series In Newyork
+  title: Garba Season for Beginners Series in New York
   start: '2026-10-08T19:30:00-04:00'
   end: '2026-10-08T21:30:00-04:00'
   additional_dates: []
@@ -17,7 +17,7 @@ scraped:
   info_url: https://events.sulekha.com/garba-season-for-beginners-series-in-newyork_event-in_new-york-ny_401599
   ticket_url: https://events.sulekha.com/garba-season-for-beginners-series-in-newyork_event-in_new-york-ny_401599
   description_snippet: Garba Season For Beginners Series In Newyork
-  content_hash: 80d419fb2fd23cb3
+  content_hash: 3ab412e63aa6b218
   sources:
   - source_id: sulekha
     url: https://events.sulekha.com/garba-season-for-beginners-series-in-newyork_event-in_new-york-ny_401599

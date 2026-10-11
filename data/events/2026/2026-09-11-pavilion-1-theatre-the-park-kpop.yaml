@@ -3,11 +3,11 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: Theatre @ The Park KPop
+  title: Theatre @ the Park KPop
   start: '2026-09-11T00:00:00-04:00'
   end: '2026-10-09T00:00:00-04:00'
   additional_dates: []
-  venue: Pavilion 1 - Al Becken
+  venue: Pavilion 1 – Al Becken
   address: 13102 Jones Maltsberger Rd, San Antonio, TX 78247, United States, San Antonio, TX
   region: unknown
   is_free: false
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/san-antonio/theatre-the-park-kpop-tickets/80003079225637
   ticket_url: ''
   description_snippet: ''
-  content_hash: ebae5caf85df064f
+  content_hash: f2b5aad93f317ce1
   sources:
   - source_id: allevents
     url: https://allevents.in/san-antonio/theatre-the-park-kpop-tickets/80003079225637

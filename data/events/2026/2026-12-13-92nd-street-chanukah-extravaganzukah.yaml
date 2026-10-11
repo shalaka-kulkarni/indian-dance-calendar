@@ -6,8 +6,7 @@ scraped:
   title: Chanukah Extravaganzukah
   start: '2026-12-13T10:30:00-05:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall</div><div class="pdp-hero__hall"><em>Enter
-    on 92nd St. b
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall Enter on 92nd St. b
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 25.0
@@ -17,7 +16,7 @@ scraped:
   info_url: https://www.92ny.org/event/chanukah-extravaganzukah
   ticket_url: https://seats.92ny.org/single/211416
   description_snippet: The most fabulous Chanukah event in town!
-  content_hash: 1648f89e4cf0d121
+  content_hash: 69fa8510f0c257d0
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/chanukah-extravaganzukah

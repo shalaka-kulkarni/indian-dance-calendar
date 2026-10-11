@@ -7,7 +7,7 @@ scraped:
   start: '2027-05-09T20:00:00-04:00'
   end: '2027-05-09T22:00:00-04:00'
   additional_dates: []
-  venue: Yuri & Lucero
+  venue: Prudential Center
   address: Yuri & Lucero
   region: new_jersey
   is_free: false
@@ -15,7 +15,7 @@ scraped:
   info_url: https://www.prucenter.com/events/yuri-lucero
   ticket_url: ''
   description_snippet: ''
-  content_hash: c3c8c71e95d5acb2
+  content_hash: 500a0f48bce9d861
   sources:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/yuri-lucero

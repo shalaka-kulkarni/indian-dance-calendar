@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: Cars &amp; Card Show
+  title: Cars & Card Show
   start: '2026-11-21T00:00:00-05:00'
   end: '2026-11-21T00:00:00-05:00'
   additional_dates: []
@@ -17,7 +17,7 @@ scraped:
   info_url: https://allevents.in/ocala/cars-and-card-show-tickets/80003651118602
   ticket_url: https://allevents.in/ocala/cars-and-card-show-tickets/80003651118602
   description_snippet: ''
-  content_hash: 585d36f915b9a958
+  content_hash: 0b84b3a1d6ec6c26
   sources:
   - source_id: allevents
     url: https://allevents.in/ocala/cars-and-card-show-tickets/80003651118602

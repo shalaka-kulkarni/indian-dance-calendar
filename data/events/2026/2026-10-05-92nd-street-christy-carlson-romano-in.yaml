@@ -6,7 +6,7 @@ scraped:
   title: 'Christy Carlson Romano in Conversation: Once Upon a Trainwreck'
   start: '2026-10-05T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 60.0
@@ -16,7 +16,7 @@ scraped:
   info_url: https://www.92ny.org/event/christy-carlson-romano
   ticket_url: https://seats.92ny.org/single/210580
   description_snippet: Christy Carlson Romano discusses her new memoir, Once Upon a Trainwreck .
-  content_hash: c5c331b18b5a352c
+  content_hash: f43229f54d176f92
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/christy-carlson-romano

@@ -7,7 +7,7 @@ scraped:
   start: '2026-09-04T18:15:00-04:00'
   end: '2026-09-04T19:00:00-04:00'
   additional_dates: []
-  venue: Matchroom Boxing
+  venue: Prudential Center
   address: Matchroom Boxing
   region: new_jersey
   is_free: false
@@ -15,7 +15,7 @@ scraped:
   info_url: https://www.prucenter.com/events/matchroom-boxing
   ticket_url: ''
   description_snippet: ''
-  content_hash: d9ae7b0d92d4b361
+  content_hash: 0e1258af15b84ed7
   sources:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/matchroom-boxing

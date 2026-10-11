@@ -7,7 +7,7 @@ scraped:
     Golodryga'
   start: '2026-09-09T19:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 35.0
@@ -18,7 +18,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211043
   description_snippet: Fauda , the acclaimed Israeli action-drama, returns for a fifth season with a screening
     of the first two episodes, followed by a conversation.
-  content_hash: bbcd458092eacdc2
+  content_hash: bde4fb40eccd50a4
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/netflix-s-fauda

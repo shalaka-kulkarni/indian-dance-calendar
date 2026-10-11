@@ -6,7 +6,7 @@ scraped:
   title: Christopher Williams Spectre de la Rose (World Premiere) La Rhétorique des Dieux (New York Premiere)
   start: '2026-10-29T19:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 45.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210384
   description_snippet: The Bessie Award winner brings two thrilling works that reshape inherited traditions
     with rigor, wit, and astonishing originality.
-  content_hash: 7e2ed64cf957068b
+  content_hash: 4828309d3e4b57c8
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/christopher-williams

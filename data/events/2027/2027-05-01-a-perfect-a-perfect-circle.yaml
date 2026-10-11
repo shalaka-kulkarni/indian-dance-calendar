@@ -7,7 +7,7 @@ scraped:
   start: '2027-05-01T20:00:00-04:00'
   end: '2027-05-01T21:00:00-04:00'
   additional_dates: []
-  venue: A Perfect Circle
+  venue: Prudential Center
   address: A Perfect Circle
   region: new_jersey
   is_free: false
@@ -15,7 +15,7 @@ scraped:
   info_url: https://www.prucenter.com/events/a-perfect-circle
   ticket_url: ''
   description_snippet: ''
-  content_hash: 5fdbe20323130ac7
+  content_hash: 8ab0fab83b23f23b
   sources:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/a-perfect-circle

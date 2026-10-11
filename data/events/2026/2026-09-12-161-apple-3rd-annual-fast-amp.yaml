@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: 3rd Annual Fast &amp; Furious Autos (FFA) Car Show
+  title: 3rd Annual Fast & Furious Autos (FFA) Car Show
   start: '2026-09-12T00:00:00-04:00'
   end: '2026-09-12T00:00:00-04:00'
   additional_dates: []
@@ -15,7 +15,7 @@ scraped:
   info_url: https://allevents.in/winchester/3rd-annual-fast-and-furious-autos-ffa-car-show/200030289245339
   ticket_url: ''
   description_snippet: ''
-  content_hash: 253941d969a82615
+  content_hash: a94bfd939cde16e1
   sources:
   - source_id: allevents
     url: https://allevents.in/winchester/3rd-annual-fast-and-furious-autos-ffa-car-show/200030289245339

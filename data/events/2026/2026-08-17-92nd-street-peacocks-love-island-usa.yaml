@@ -6,7 +6,7 @@ scraped:
   title: 'Peacock’s Love Island USA : Emmy Nominee Ariana Madix in Conversation'
   start: '2026-08-17T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Buttenwieser Hall at The Arnhold Center
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 50.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211070
   description_snippet: Ariana Madix gives an inside look at Love Island USA , featuring exclusive clips
     and behind-the-scenes stories.
-  content_hash: 54a8e241403b7ad5
+  content_hash: f2ded6fb7ccef649
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/peacock-s-love-island-usa

@@ -3,7 +3,7 @@ status: past
 was_published: true
 needs_recheck: false
 scraped:
-  title: Santoor Concert - Vinay Desai
+  title: Santoor Concert – Vinay Desai
   start: '2026-09-20T00:00:00-04:00'
   additional_dates: []
   venue: ''
@@ -20,7 +20,7 @@ scraped:
     on tabla by Vivek Pandya. The performance will also be streamed live. Purchase Tickets/Streaming Access
     Vinay Desai It is believed that the Santoor came to India from Persia. And there is also a parallel
     belief t
-  content_hash: d927e13563f8a6a1
+  content_hash: 2338f0076f818f33
   sources:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2026/9/20/santoor-concert-vinay-desai

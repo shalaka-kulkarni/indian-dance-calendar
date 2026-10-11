@@ -6,7 +6,7 @@ scraped:
   title: An Evening with Tituss Burgess
   start: '2026-10-26T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 55.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210575
   description_snippet: Powerhouse talent Tituss Burgess ( Unbreakable Kimmy Schmidt ; Broadway’s Guys
     & Dolls ; Oh, Mary! ) brings songs and stories in a one-night-only concert!
-  content_hash: e4e17f31fc34a8a9
+  content_hash: abf191e2a5a8184b
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/an-evening-with-tituss-burgess

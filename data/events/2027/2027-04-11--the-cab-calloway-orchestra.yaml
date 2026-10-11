@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: The Cab Calloway Orchestra Directed by Cab's Grandson - C. Calloway Brooks
+  title: The Cab Calloway Orchestra Directed by Cab's Grandson – C. Calloway Brooks
   start: '2027-04-11T00:00:00-04:00'
   additional_dates: []
   venue: ''
@@ -18,7 +18,7 @@ scraped:
     Orchestra brings the legendary Cotton Club sound back to life with vintage orchestrations, authentic
     big band swing, and the irresistible showmanship that made Cab Calloway one of the great icons of
     American music. Come ready to jump, jive, and holler Hi-De-Ho. On Sale Soon Learn More
-  content_hash: a3b066a947ee0a57
+  content_hash: 154bbcbd49d2e1a9
   sources:
   - source_id: sopac
     url: https://www.sopacnow.org/events/the-cab-calloway-orchestra-2027/

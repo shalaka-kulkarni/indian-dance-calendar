@@ -6,7 +6,7 @@ scraped:
   title: 92NY NEXUS Petals & Pour!
   start: '2026-09-09T18:30:00-04:00'
   additional_dates: []
-  venue: '92nd Street Y, New York - Location: Classroom'
+  venue: '92nd Street Y, New York – Location: Classroom'
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 55.0
@@ -18,7 +18,7 @@ scraped:
   description_snippet: Gather with your 92NY NEXUS crew for wine, light bites, and a hands-on floral arranging
     workshop where you’ll create a beautiful centerpiece to take home for your Rosh Hashanah table — or
     any table you wish!
-  content_hash: 8daed2af42704d31
+  content_hash: 549e12fa86adf9a5
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/nexus-petals-and-pour

@@ -3,7 +3,7 @@ status: past
 was_published: false
 needs_recheck: false
 scraped:
-  title: Playing Fields - Burlington Pride Parade (FREE!)
+  title: Playing Fields – Burlington Pride Parade (FREE!)
   start: '2026-09-13T00:00:00-04:00'
   additional_dates: []
   venue: Church St, Burlington, VT 05401, United States
@@ -14,7 +14,7 @@ scraped:
   info_url: https://allevents.in/burlington/playing-fields-burlington-pride-parade-free/200030630899203
   ticket_url: ''
   description_snippet: ''
-  content_hash: 3bdbb17e0fd7a047
+  content_hash: 231703851e2f6a4e
   sources:
   - source_id: allevents
     url: https://allevents.in/burlington/playing-fields-burlington-pride-parade-free/200030630899203

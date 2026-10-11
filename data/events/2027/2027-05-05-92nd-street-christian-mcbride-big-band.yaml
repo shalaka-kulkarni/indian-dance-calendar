@@ -6,7 +6,7 @@ scraped:
   title: Christian McBride Big Band
   start: '2027-05-05T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 45.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/210686
   description_snippet: Jazz superstar and 11-time Grammy-winning bassist Christian McBride performs with
     his 17-piece big band – one of the most thrilling large ensembles in music.
-  content_hash: 333e5c4595c28ccb
+  content_hash: e2551fcaba875aee
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/christian-mcbride-big-band

@@ -6,7 +6,7 @@ scraped:
   title: 'E!’s The Golden Life : Exclusive Clips & Conversation'
   start: '2026-10-12T18:00:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Geffen Stage at Kaufmann Concert Hall
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 40.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211375
   description_snippet: The Golden Life stars Luann de Lesseps, Dorinda Medley, Ramona Singer, Kelly Bensimon
     and Sonja Morgan reunite to talk friendship, reinvention and their return to reality TV.
-  content_hash: 52a871a0b6e183af
+  content_hash: 66e2fdeab7544d6a
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/the-golden-life

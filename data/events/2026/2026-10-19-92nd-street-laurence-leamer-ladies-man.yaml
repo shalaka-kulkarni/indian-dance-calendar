@@ -6,7 +6,7 @@ scraped:
   title: 'Laurence Leamer: Ladies’ Man — The Careless Heart of John F. Kennedy'
   start: '2026-10-19T19:30:00-04:00'
   additional_dates: []
-  venue: 92nd Street Y, New York - Warburg Lounge
+  venue: 92nd Street Y, New York – Warburg Lounge
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 30.0
@@ -17,7 +17,7 @@ scraped:
   ticket_url: https://seats.92ny.org/single/211083
   description_snippet: Bestselling biographer Laurence Leamer discusses Ladies’ Man , his revealing new
     portrait of JFK.
-  content_hash: b2944b657187cc38
+  content_hash: 4624aa3224400e48
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/laurence-leamer-ladies-man

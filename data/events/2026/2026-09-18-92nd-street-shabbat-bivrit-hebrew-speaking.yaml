@@ -6,7 +6,7 @@ scraped:
   title: Shabbat B’ivrit (Hebrew Speaking Shabbat Dinner) & Shabbat B’Ivrit After Dark
   start: '2026-09-18T17:30:00-04:00'
   additional_dates: []
-  venue: '92nd Street Y, New York - Location: Classroom'
+  venue: '92nd Street Y, New York – Location: Classroom'
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
   price_min: 36.0
@@ -16,7 +16,7 @@ scraped:
   info_url: https://www.92ny.org/event/shabbat-b-ivrit
   ticket_url: https://seats.92ny.org/single/211217
   description_snippet: Shabbat dinner for Hebrew Speaking Families.
-  content_hash: cb42619307485622
+  content_hash: 2035acdba8eca9a0
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/shabbat-b-ivrit

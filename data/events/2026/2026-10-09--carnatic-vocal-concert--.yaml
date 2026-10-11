@@ -3,7 +3,7 @@ status: past
 was_published: true
 needs_recheck: false
 scraped:
-  title: Carnatic Vocal Concert - Chandralekha Gangavarpu
+  title: Carnatic Vocal Concert – Chandralekha Gangavarpu
   start: '2026-10-09T00:00:00-04:00'
   additional_dates: []
   venue: ''
@@ -20,7 +20,7 @@ scraped:
     by Chandralekha Gangavarpu accompanied by Siddarth Raghavan and Tanish Srivasta. The performance will
     also be streamed live.. Purchase Tickets/Streaming Access Chandralekha Gangavarpu Chandralekha Gangavarapu
     beg
-  content_hash: 97d6c483a27f978e
+  content_hash: 35bea94154706182
   sources:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2026/10/9/carnatic-vocal-concert-chandralekha-gangavarpu

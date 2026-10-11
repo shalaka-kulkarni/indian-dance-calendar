@@ -3,7 +3,7 @@ status: rejected
 was_published: false
 needs_recheck: false
 scraped:
-  title: 'SOMBR: You Are the Reason Tour Tickets NJ'
+  title: 'SOMBR: You Are the Reason Tour'
   start: '2026-11-21T20:00:00-05:00'
   end: '2026-11-21T21:00:00-05:00'
   additional_dates: []
@@ -16,7 +16,7 @@ scraped:
   ticket_url: ''
   description_snippet: Grammy®-Nominated superstar SOMBR brings his You Are the Reason tour to Prudential
     Center on Saturday, November 21. Get tickets today!
-  content_hash: 344acbe92b1d4589
+  content_hash: 428bbed012e0787f
   sources:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/sombr
