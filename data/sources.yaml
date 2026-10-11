@@ -224,6 +224,7 @@ sources:
     strategy: jsonld
     url: https://www.prucenter.com/events
     region: new_jersey
+    venue: Prudential Center
     scrape_all_listings: true
     notes: "Arena — big touring Bollywood/dance spectaculars."
   - id: state_theatre_nj

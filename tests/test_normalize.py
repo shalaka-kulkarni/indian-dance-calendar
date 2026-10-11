@@ -104,3 +104,20 @@ def test_allevents_outside_metro_is_dropped_and_metro_slug_sets_region():
 
     # Not an allevents URL: untouched.
     assert allevents_region("https://www.joyce.org/performances/x") is None
+
+
+def test_normalize_cleans_title_and_drops_a_venue_that_repeats_it():
+    from pipeline.scrapers.base import RawEvent as R
+    raw = R(
+        source_id="prudential_center",
+        source_url="https://www.prucenter.com/events",
+        title="Shreya Ghoshal: The Unstoppable Tour Tickets NJ",
+        start_raw="2026-11-05T19:30:00-05:00",
+        venue="Shreya Ghoshal: The Unstoppable Tour",
+        info_url="https://www.prucenter.com/events/shreya",
+    )
+    scraped = normalize(raw, Region.NEW_JERSEY, default_venue="Prudential Center")
+    assert scraped.title == "Shreya Ghoshal: The Unstoppable Tour"
+    assert scraped.venue == "Prudential Center"
+    # Without a house to fall back on, a venue that only repeats the title is dropped.
+    assert normalize(raw, Region.NEW_JERSEY).venue == ""

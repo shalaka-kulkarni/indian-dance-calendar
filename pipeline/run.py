@@ -106,7 +106,12 @@ def ingest(raw_events: list[RawEvent], sources_by_id: dict[str, Source], client:
     stats = {"new": 0, "updated": 0, "published": 0, "needs_attention": 0, "rejected": 0, "skipped": 0}
     for raw in raw_events:
         source = sources_by_id.get(raw.source_id)
-        scraped = normalize(raw, source.region if source else Region.UNKNOWN, today)
+        scraped = normalize(
+            raw,
+            source.region if source else Region.UNKNOWN,
+            today,
+            default_venue=source.venue if source else "",
+        )
         if scraped is None:
             stats["skipped"] += 1
             continue

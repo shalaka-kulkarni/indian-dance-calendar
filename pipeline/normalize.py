@@ -13,6 +13,7 @@ from dateutil import parser as dateparser
 from pipeline.models import Region, Scraped, SourceRecord
 from pipeline.scrapers.base import RawEvent
 from pipeline.store import content_hash
+from pipeline.textclean import clean_description, clean_title, clean_venue
 
 NY_TZ = ZoneInfo("America/New_York")
 
@@ -139,10 +140,18 @@ def allevents_region(url: str) -> Region | None:
     return ALLEVENTS_METRO_CITIES.get(m.group(1).lower())
 
 
-def normalize(raw: RawEvent, source_region: Region = Region.UNKNOWN, today: date | None = None) -> Scraped | None:
+def normalize(
+    raw: RawEvent,
+    source_region: Region = Region.UNKNOWN,
+    today: date | None = None,
+    default_venue: str = "",
+) -> Scraped | None:
     """Returns None when the raw record can't meet the floor: a title, a
-    parseable future-ish date, and some URL."""
-    title = re.sub(r"\s+", " ", raw.title).strip()
+    parseable future-ish date, and some URL.
+
+    default_venue is the house a single-venue calendar belongs to; it fills in
+    when the listing names no venue of its own."""
+    title = clean_title(raw.title)
     start = parse_when(raw.start_raw)
     info_url = raw.info_url or raw.source_url
     if not title or start is None or not info_url:
@@ -162,20 +171,27 @@ def normalize(raw: RawEvent, source_region: Region = Region.UNKNOWN, today: date
     if end is not None and end < start:
         end = None
     price_min, price_max, is_free, price_note = parse_price(raw.price_raw)
+    venue = clean_venue(raw.venue)
+    # Some feeds put the show's name where the venue belongs (Prudential
+    # Center's does on every event). A venue that only repeats the title is
+    # not a venue.
+    if venue.casefold() == title.casefold():
+        venue = ""
+    venue = venue or default_venue
     scraped = Scraped(
         title=title[:200],
         start=start,
         end=end,
-        venue=re.sub(r"\s+", " ", raw.venue).strip()[:120],
+        venue=venue[:120],
         address=raw.address.strip()[:200],
-        region=infer_region(raw.venue, raw.address, source_region),
+        region=infer_region(venue, raw.address, source_region),
         price_min=price_min,
         price_max=price_max,
         is_free=is_free,
         price_note=price_note[:120],
         info_url=info_url,
         ticket_url=raw.ticket_url if raw.ticket_url != info_url else raw.ticket_url,
-        description_snippet=re.sub(r"\s+", " ", raw.description).strip()[:600],
+        description_snippet=clean_description(raw.description)[:600],
         sources=[
             SourceRecord(
                 source_id=raw.source_id,

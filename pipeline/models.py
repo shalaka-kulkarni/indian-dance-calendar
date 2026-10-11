@@ -144,6 +144,8 @@ class Source(BaseModel):
     assume_relevant: bool = False
     # Mainstream venues: classify every listing — no keyword pre-filter.
     scrape_all_listings: bool = False
+    # Single-house calendars: the venue to show when a listing names none.
+    venue: str = ""
     enabled: bool = True
     notes: str = ""
 
