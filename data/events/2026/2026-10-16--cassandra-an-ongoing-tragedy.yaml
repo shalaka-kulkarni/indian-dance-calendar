@@ -11,16 +11,16 @@ scraped:
   region: new_jersey
   is_free: false
   price_note: ''
-  info_url: https://www.dance-enthusiast.com/dance-listings/events/view/Cassandra-An-Ongoing-Tragedy-2026-10-16_18
+  info_url: https://www.eventbrite.com/e/cassandra-an-ongoing-tragedy-tickets-1988294567575?aff=oddtdtcreator
   ticket_url: ''
   description_snippet: 'Cassandra: An Ongoing Tragedy First Congregational Church of Montclair Fri. October,
     16 @ 7:00pm (+ 2 more)'
-  content_hash: e1be763f921750d2
+  content_hash: 282d58584c64fd34
   sources:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Cassandra-An-Ongoing-Tragedy-2026-10-16_18
     first_seen: '2026-10-03'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -44,14 +44,14 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.dance-enthusiast.com/dance-listings/events/view/Cassandra-An-Ongoing-Tragedy-2026-10-16_18
+  - url: https://www.eventbrite.com/e/cassandra-an-ongoing-tragedy-tickets-1988294567575?aff=oddtdtcreator
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:45:22.926045-04:00'
+    checked_at: '2026-10-11T10:03:01.693317-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T09:45:22.926022-04:00'
+  validated_at: '2026-10-11T10:03:01.693291-04:00'
 curated:
   forms: []
   traditions: []

@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/building-community-at-the-21st-century-university
     first_seen: '2026-10-07'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -50,14 +50,14 @@ validation:
   - url: https://www.92ny.org/event/building-community-at-the-21st-century-university
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:46:51.994496-04:00'
+    checked_at: '2026-10-11T10:04:54.693328-04:00'
   - url: https://seats.92ny.org/single/211468
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:46:53.678863-04:00'
+    checked_at: '2026-10-11T10:04:56.255937-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T09:46:51.994472-04:00'
+  validated_at: '2026-10-11T10:04:54.693304-04:00'
 curated:
   forms: []
   traditions: []

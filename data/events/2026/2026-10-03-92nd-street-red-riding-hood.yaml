@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/red-riding-hood
     first_seen: '2026-09-28'
-    last_seen: '2026-10-07'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -49,15 +49,15 @@ validation:
   - url: https://seats.92ny.org/single/210737
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:44:15.781918-04:00'
+    checked_at: '2026-10-11T10:01:39.196327-04:00'
   - url: https://www.92ny.org/event/red-riding-hood
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:44:15.792670-04:00'
+    checked_at: '2026-10-11T10:01:39.270042-04:00'
   problems:
   - event date 2026-10-03 is in the past
   - classified not-relevant
-  validated_at: '2026-10-11T09:44:15.781890-04:00'
+  validated_at: '2026-10-11T10:01:39.196299-04:00'
 curated:
   forms: []
   traditions: []

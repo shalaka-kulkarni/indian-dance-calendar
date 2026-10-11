@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/asim-azhar-tour-2-0-live-in-ny_event-in_westbury-ny_402050
     first_seen: '2026-09-28'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/asim-azhar-tour-2-0-live-in-ny_event-in_westbury-ny_402050
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:48:00.934526-04:00'
+    checked_at: '2026-10-11T10:06:12.658020-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T09:48:00.934500-04:00'
+  validated_at: '2026-10-11T10:06:12.657994-04:00'
 curated:
   forms: []
   traditions: []

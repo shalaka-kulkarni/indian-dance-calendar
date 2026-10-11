@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/marlon-james-the-disappearers
     first_seen: '2026-09-11'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/marlon-james-the-disappearers
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:44:56.924211-04:00'
+    checked_at: '2026-10-11T10:02:31.136937-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T09:44:56.924188-04:00'
+  validated_at: '2026-10-11T10:02:31.136915-04:00'
 curated:
   forms: []
   traditions: []

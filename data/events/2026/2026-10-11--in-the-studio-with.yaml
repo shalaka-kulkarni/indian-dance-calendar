@@ -13,16 +13,16 @@ scraped:
   price_max: 0.0
   is_free: true
   price_note: ''
-  info_url: https://www.dance-enthusiast.com/dance-listings/events/view/IN-THE-STUDIO-With-Daniel-Gwirtzman-Dance-Company-at-New-York-City-Center-FREE-2026-09-12_10-11
+  info_url: https://www.eventbrite.com/e/in-the-studio-daniel-gwirtzman-dance-company-at-new-york-city-center-tickets-1997468564246
   ticket_url: ''
   description_snippet: IN THE STUDIO With Daniel Gwirtzman Dance Company at New York City Center (FREE)
     New York City Center Sun. October, 11 @ 2:00pm
-  content_hash: 7776ee81c69ccbf3
+  content_hash: e3e8383e818ffd0a
   sources:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/IN-THE-STUDIO-With-Daniel-Gwirtzman-Dance-Company-at-New-York-City-Center-FREE-2026-09-12_10-11
     first_seen: '2026-10-03'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -46,13 +46,13 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.dance-enthusiast.com/dance-listings/events/view/IN-THE-STUDIO-With-Daniel-Gwirtzman-Dance-Company-at-New-York-City-Center-FREE-2026-09-12_10-11
+  - url: https://www.eventbrite.com/e/in-the-studio-daniel-gwirtzman-dance-company-at-new-york-city-center-tickets-1997468564246
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:44:56.324275-04:00'
+    checked_at: '2026-10-11T10:02:30.442329-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T09:44:56.324250-04:00'
+  validated_at: '2026-10-11T10:02:30.442304-04:00'
 curated:
   forms: []
   traditions: []

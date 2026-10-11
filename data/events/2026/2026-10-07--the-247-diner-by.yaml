@@ -13,16 +13,16 @@ scraped:
   price_max: 0.0
   is_free: true
   price_note: ''
-  info_url: https://www.dance-enthusiast.com/dance-listings/events/view/The-247-Diner-by-Courtney-Balenciaga-Washington-FREE-FOOD-2026-10-02_21
+  info_url: https://www.worksandprocess.org/calendar/works-and-process-at-free-food-refettorio-harlem-masterz-at-work-dance-family
   ticket_url: ''
   description_snippet: '"The 24/7 Diner" by Courtney “Balenciaga” Washington (FREE FOOD) Free Food Refettorio
     Harlem Wed. October, 7 @ 5:15pm (+ 3 more)'
-  content_hash: 265729789f34c4d7
+  content_hash: c73ff996c34f0b0d
   sources:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/The-247-Diner-by-Courtney-Balenciaga-Washington-FREE-FOOD-2026-10-02_21
     first_seen: '2026-10-03'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -46,14 +46,14 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.dance-enthusiast.com/dance-listings/events/view/The-247-Diner-by-Courtney-Balenciaga-Washington-FREE-FOOD-2026-10-02_21
+  - url: https://www.worksandprocess.org/calendar/works-and-process-at-free-food-refettorio-harlem-masterz-at-work-dance-family
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:44:32.583205-04:00'
+    checked_at: '2026-10-11T10:02:03.031658-04:00'
   problems:
   - event date 2026-10-07 is in the past
   - classified not-relevant
-  validated_at: '2026-10-11T09:44:32.583179-04:00'
+  validated_at: '2026-10-11T10:02:03.031631-04:00'
 curated:
   forms: []
   traditions: []

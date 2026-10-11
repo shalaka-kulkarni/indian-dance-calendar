@@ -55,14 +55,14 @@ validation:
   - url: https://www.stnj.org/events/detail/temptations-four-tops-2026
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:45:37.282572-04:00'
+    checked_at: '2026-10-11T10:03:23.051018-04:00'
   - url: https://my.stnj.org/25082/25085
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:45:37.313464-04:00'
+    checked_at: '2026-10-11T10:03:23.223467-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T09:45:37.282547-04:00'
+  validated_at: '2026-10-11T10:03:23.050991-04:00'
 curated:
   forms: []
   traditions: []

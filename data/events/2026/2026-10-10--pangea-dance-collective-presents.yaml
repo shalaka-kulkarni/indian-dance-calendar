@@ -11,16 +11,16 @@ scraped:
   region: unknown
   is_free: false
   price_note: ''
-  info_url: https://www.dance-enthusiast.com/dance-listings/events/view/Pangea-Dance-Collective-Presents-PANGEA-UNLEASHED-2026-10-10_11
+  info_url: https://www.zeffy.com/en-US/ticketing/pangea-unleashed
   ticket_url: ''
   description_snippet: 'Pangea Dance Collective Presents PANGEA: UNLEASHED KnJ Theater Sat. October, 10
     @ 7:30pm'
-  content_hash: 558fa5d043f0ccbc
+  content_hash: 7b74e68a313298ec
   sources:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Pangea-Dance-Collective-Presents-PANGEA-UNLEASHED-2026-10-10_11
     first_seen: '2026-10-03'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -44,16 +44,16 @@ validation:
     in_metro: false
     classified: false
   link_checks:
-  - url: https://www.dance-enthusiast.com/dance-listings/events/view/Pangea-Dance-Collective-Presents-PANGEA-UNLEASHED-2026-10-10_11
+  - url: https://www.zeffy.com/en-US/ticketing/pangea-unleashed
     ok: true
-    status_code: 200
-    checked_at: '2026-10-11T09:44:50.835157-04:00'
+    status_code: 403
+    checked_at: '2026-10-11T10:02:22.029782-04:00'
   problems:
   - event date 2026-10-10 is in the past
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T09:44:50.835131-04:00'
+  validated_at: '2026-10-11T10:02:22.029756-04:00'
 curated:
   forms: []
   traditions: []

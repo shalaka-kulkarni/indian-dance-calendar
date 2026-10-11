@@ -11,16 +11,16 @@ scraped:
   region: unknown
   is_free: false
   price_note: ''
-  info_url: https://www.dance-enthusiast.com/dance-listings/events/view/NEW-YORKERS-FOR-DANCE-DanceNYCs-Annual-Celebration-Returns-2026-10-21
+  info_url: https://www.dance.nyc/NYFD?utm_source=press+release&utm_medium=email&utm_campaign=NYFD26
   ticket_url: ''
   description_snippet: 'NEW YORKERS FOR DANCE: Dance/NYC’s Annual Celebration Returns 26 Bridge Wed. October,
     21 @ 6:00pm'
-  content_hash: 3646de71fcfff3ab
+  content_hash: 056f17558fd9294d
   sources:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/NEW-YORKERS-FOR-DANCE-DanceNYCs-Annual-Celebration-Returns-2026-10-21
     first_seen: '2026-10-07'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -45,15 +45,15 @@ validation:
     in_metro: false
     classified: false
   link_checks:
-  - url: https://www.dance-enthusiast.com/dance-listings/events/view/NEW-YORKERS-FOR-DANCE-DanceNYCs-Annual-Celebration-Returns-2026-10-21
+  - url: https://www.dance.nyc/NYFD?utm_source=press+release&utm_medium=email&utm_campaign=NYFD26
     ok: true
-    status_code: 200
-    checked_at: '2026-10-11T09:45:46.905874-04:00'
+    status_code: 403
+    checked_at: '2026-10-11T10:03:35.301740-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T09:45:46.905843-04:00'
+  validated_at: '2026-10-11T10:03:35.301715-04:00'
 curated:
   forms: []
   traditions: []

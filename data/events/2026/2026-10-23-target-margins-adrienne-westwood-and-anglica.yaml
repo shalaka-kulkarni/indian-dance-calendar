@@ -11,16 +11,16 @@ scraped:
   region: unknown
   is_free: false
   price_note: ''
-  info_url: https://www.dance-enthusiast.com/dance-listings/events/view/Adrienne-Westwood-and-Anglica-Negrn-present-the-premiere-of-2026-10-23_25
+  info_url: https://ci.ovationtix.com/282/production/1288645?performanceId=11860077
   ticket_url: ''
   description_snippet: Adrienne Westwood and Angélica Negrón present the premiere of [ ] Target Margin's
     Doxsee Theater Fri. October, 23 @ 7:30pm (+ 4 more)
-  content_hash: e3bcee58073462ee
+  content_hash: 7c1cb86e920349c2
   sources:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Adrienne-Westwood-and-Anglica-Negrn-present-the-premiere-of-2026-10-23_25
     first_seen: '2026-10-09'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -44,15 +44,15 @@ validation:
     in_metro: false
     classified: false
   link_checks:
-  - url: https://www.dance-enthusiast.com/dance-listings/events/view/Adrienne-Westwood-and-Anglica-Negrn-present-the-premiere-of-2026-10-23_25
+  - url: https://ci.ovationtix.com/282/production/1288645?performanceId=11860077
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:45:59.811976-04:00'
+    checked_at: '2026-10-11T10:03:52.051459-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T09:45:59.811948-04:00'
+  validated_at: '2026-10-11T10:03:52.051432-04:00'
 curated:
   forms: []
   traditions: []

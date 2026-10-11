@@ -23,7 +23,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/larry-campbell-teresa-williams-27/
     first_seen: '2026-09-18'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -50,11 +50,11 @@ validation:
   - url: https://www.sopacnow.org/events/larry-campbell-teresa-williams-27/
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:48:30.080421-04:00'
+    checked_at: '2026-10-11T10:06:38.311181-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T09:48:30.080396-04:00'
+  validated_at: '2026-10-11T10:06:38.311158-04:00'
 curated:
   forms: []
   traditions: []

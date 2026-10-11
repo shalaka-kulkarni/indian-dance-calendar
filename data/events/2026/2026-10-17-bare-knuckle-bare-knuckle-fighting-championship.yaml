@@ -20,7 +20,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/bare-knuckle-fighting-championship
     first_seen: '2026-08-16'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: other
@@ -48,11 +48,11 @@ validation:
   - url: https://www.prucenter.com/events/bare-knuckle-fighting-championship
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:45:30.209767-04:00'
+    checked_at: '2026-10-11T10:03:10.719735-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T09:45:30.209741-04:00'
+  validated_at: '2026-10-11T10:03:10.719709-04:00'
 curated:
   forms: []
   traditions: []

@@ -22,7 +22,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/norma-shu-nov-2026/
     first_seen: '2026-09-16'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -49,11 +49,11 @@ validation:
   - url: https://www.sopacnow.org/events/norma-shu-nov-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:47:13.488089-04:00'
+    checked_at: '2026-10-11T10:05:16.700856-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T09:47:13.488076-04:00'
+  validated_at: '2026-10-11T10:05:16.700843-04:00'
 curated:
   forms: []
   traditions: []

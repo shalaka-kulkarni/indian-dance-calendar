@@ -21,7 +21,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/israel-s-election
     first_seen: '2026-10-09'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -48,11 +48,11 @@ validation:
   - url: https://www.92ny.org/event/israel-s-election
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:46:19.594709-04:00'
+    checked_at: '2026-10-11T10:04:17.305198-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T09:46:19.594686-04:00'
+  validated_at: '2026-10-11T10:04:17.305177-04:00'
 curated:
   forms: []
   traditions: []

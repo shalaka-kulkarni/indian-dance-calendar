@@ -24,7 +24,7 @@ scraped:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2026/11/1/vocal-concert-aditi-chakraborty
     first_seen: '2026-09-28'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: true
   kind: performance
@@ -53,10 +53,10 @@ validation:
   - url: https://chhandayan.org/calendar/2026/11/1/vocal-concert-aditi-chakraborty
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:46:42.006772-04:00'
+    checked_at: '2026-10-11T10:04:44.882658-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-11T09:46:42.006748-04:00'
+  validated_at: '2026-10-11T10:04:44.882633-04:00'
 curated:
   forms: []
   traditions: []

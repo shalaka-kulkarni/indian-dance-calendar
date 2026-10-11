@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/fazil-say
     first_seen: '2026-10-09'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/fazil-say
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:49:04.707003-04:00'
+    checked_at: '2026-10-11T10:07:07.043023-04:00'
   - url: https://seats.92ny.org/single/210619
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:49:05.971067-04:00'
+    checked_at: '2026-10-11T10:07:08.269013-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T09:49:04.706979-04:00'
+  validated_at: '2026-10-11T10:07:07.042994-04:00'
 curated:
   forms: []
   traditions: []

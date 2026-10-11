@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/james-geary-the-world-in-a-phrase
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:47:57.405238-04:00'
+    checked_at: '2026-10-11T10:06:10.019499-04:00'
   - url: https://seats.92ny.org/single/211325
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:47:59.862265-04:00'
+    checked_at: '2026-10-11T10:06:11.560583-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T09:47:57.405216-04:00'
+  validated_at: '2026-10-11T10:06:10.019476-04:00'
 curated:
   forms: []
   traditions: []

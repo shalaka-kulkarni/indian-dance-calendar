@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/aziz-abu-sarah-and-maoz-inon
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:47:06.429919-04:00'
+    checked_at: '2026-10-11T10:05:06.434874-04:00'
   - url: https://seats.92ny.org/single/211011
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:47:08.195559-04:00'
+    checked_at: '2026-10-11T10:05:08.360724-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T09:47:06.429892-04:00'
+  validated_at: '2026-10-11T10:05:06.434847-04:00'
 curated:
   forms: []
   traditions: []

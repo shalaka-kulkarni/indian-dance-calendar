@@ -20,7 +20,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/monster-jam
     first_seen: '2026-09-11'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://www.prucenter.com/events/monster-jam
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:48:36.526052-04:00'
+    checked_at: '2026-10-11T10:06:43.702472-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T09:48:36.526032-04:00'
+  validated_at: '2026-10-11T10:06:43.702447-04:00'
 curated:
   forms: []
   traditions: []

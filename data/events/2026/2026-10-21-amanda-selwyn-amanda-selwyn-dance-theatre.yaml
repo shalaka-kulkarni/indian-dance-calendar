@@ -11,16 +11,16 @@ scraped:
   region: unknown
   is_free: false
   price_note: ''
-  info_url: https://www.dance-enthusiast.com/dance-listings/events/view/Amanda-Selwyn-Dance-Theatre-Announces-Fall-2026-Open-Rehearsal-2026-10-21
+  info_url: https://amandaselwyndance.org/current-season/fall-2026-open-rehearsal/
   ticket_url: ''
   description_snippet: Amanda Selwyn Dance Theatre Announces Fall 2026 Open Rehearsal Amanda Selwyn Dance
     Studio Wed. October, 21 @ 6:00pm
-  content_hash: 0f77915ee0fee010
+  content_hash: 8926fe65398c7ec3
   sources:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Amanda-Selwyn-Dance-Theatre-Announces-Fall-2026-Open-Rehearsal-2026-10-21
     first_seen: '2026-10-07'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -44,15 +44,15 @@ validation:
     in_metro: false
     classified: false
   link_checks:
-  - url: https://www.dance-enthusiast.com/dance-listings/events/view/Amanda-Selwyn-Dance-Theatre-Announces-Fall-2026-Open-Rehearsal-2026-10-21
+  - url: https://amandaselwyndance.org/current-season/fall-2026-open-rehearsal/
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:45:50.618859-04:00'
+    checked_at: '2026-10-11T10:03:37.873977-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T09:45:50.618830-04:00'
+  validated_at: '2026-10-11T10:03:37.873954-04:00'
 curated:
   forms: []
   traditions: []

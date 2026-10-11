@@ -52,17 +52,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://my.stnj.org/overview/25048
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-11T09:45:25.836012-04:00'
   - url: https://www.stnj.org/events/detail/jersey-boys-2026
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:45:25.876910-04:00'
+    checked_at: '2026-10-11T10:03:06.018665-04:00'
+  - url: https://my.stnj.org/overview/25048
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-11T10:03:06.113264-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T09:45:25.835986-04:00'
+  validated_at: '2026-10-11T10:03:06.018640-04:00'
 curated:
   forms: []
   traditions: []

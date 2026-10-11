@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/ai-and-the-future-of-community
     first_seen: '2026-09-14'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -50,14 +50,14 @@ validation:
   - url: https://www.92ny.org/event/ai-and-the-future-of-community
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:46:46.547361-04:00'
+    checked_at: '2026-10-11T10:04:48.675142-04:00'
   - url: https://seats.92ny.org/single/211276
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:46:48.491409-04:00'
+    checked_at: '2026-10-11T10:04:50.661084-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T09:46:46.547337-04:00'
+  validated_at: '2026-10-11T10:04:48.675117-04:00'
 curated:
   forms: []
   traditions: []

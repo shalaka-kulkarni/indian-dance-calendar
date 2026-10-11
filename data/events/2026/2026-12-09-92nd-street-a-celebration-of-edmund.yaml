@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/a-celebration-of-edmund-white
     first_seen: '2026-10-07'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -50,14 +50,14 @@ validation:
   - url: https://www.92ny.org/event/a-celebration-of-edmund-white
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:48:06.363600-04:00'
+    checked_at: '2026-10-11T10:06:17.488237-04:00'
   - url: https://seats.92ny.org/single/211455
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:48:06.398324-04:00'
+    checked_at: '2026-10-11T10:06:17.586752-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T09:48:06.363576-04:00'
+  validated_at: '2026-10-11T10:06:17.488214-04:00'
 curated:
   forms: []
   traditions: []

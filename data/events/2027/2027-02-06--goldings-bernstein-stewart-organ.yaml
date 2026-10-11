@@ -24,7 +24,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/goldings-bernstein-stewart-organ-trio-2027/
     first_seen: '2026-10-09'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/goldings-bernstein-stewart-organ-trio-2027/
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:48:41.784695-04:00'
+    checked_at: '2026-10-11T10:06:47.146373-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T09:48:41.784670-04:00'
+  validated_at: '2026-10-11T10:06:47.146348-04:00'
 curated:
   forms: []
   traditions: []

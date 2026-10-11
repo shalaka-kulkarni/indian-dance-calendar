@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/fredericksburg/patawomeck-halloween-festival-tickets/80001819714197
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:46:03.721568-04:00'
+    checked_at: '2026-10-11T10:03:58.454385-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T09:46:03.721543-04:00'
+  validated_at: '2026-10-11T10:03:58.454361-04:00'
 curated:
   forms: []
   traditions: []

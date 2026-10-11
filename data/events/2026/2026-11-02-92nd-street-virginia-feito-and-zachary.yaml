@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/virginia-feito-victorian-psycho
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:46:43.124635-04:00'
+    checked_at: '2026-10-11T10:04:45.908438-04:00'
   - url: https://seats.92ny.org/single/211333
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:46:45.574619-04:00'
+    checked_at: '2026-10-11T10:04:47.823409-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T09:46:43.124609-04:00'
+  validated_at: '2026-10-11T10:04:45.908410-04:00'
 curated:
   forms: []
   traditions: []

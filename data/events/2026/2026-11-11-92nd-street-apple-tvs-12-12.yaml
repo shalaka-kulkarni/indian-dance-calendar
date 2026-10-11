@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/apple-tv-s-12-12-12
     first_seen: '2026-10-07'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -50,14 +50,14 @@ validation:
   - url: https://www.92ny.org/event/apple-tv-s-12-12-12
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:47:13.503907-04:00'
+    checked_at: '2026-10-11T10:05:17.093698-04:00'
   - url: https://seats.92ny.org/single/211450
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:47:13.580621-04:00'
+    checked_at: '2026-10-11T10:05:18.471973-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T09:47:13.503887-04:00'
+  validated_at: '2026-10-11T10:05:17.093675-04:00'
 curated:
   forms: []
   traditions: []

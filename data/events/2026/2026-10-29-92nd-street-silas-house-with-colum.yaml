@@ -48,14 +48,14 @@ validation:
   - url: https://www.92ny.org/event/silas-house-the-tulip-poplars
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:46:29.048999-04:00'
+    checked_at: '2026-10-11T10:04:27.586645-04:00'
   - url: https://seats.92ny.org/single/210868
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:46:30.556580-04:00'
+    checked_at: '2026-10-11T10:04:29.276551-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T09:46:29.048974-04:00'
+  validated_at: '2026-10-11T10:04:27.586620-04:00'
 curated:
   forms: []
   traditions: []

@@ -11,16 +11,16 @@ scraped:
   region: manhattan
   is_free: false
   price_note: ''
-  info_url: https://www.dance-enthusiast.com/dance-listings/events/view/Limn-Dance-Company-Continues-80th-Anniversary-Celebration-at-The-Joyce-Theater-2026-10-06_11
+  info_url: https://www.joyce.org/performances/limon-dance-company-ns9f
   ticket_url: ''
   description_snippet: Limón Dance Company Continues 80th Anniversary Celebration at The Joyce Theater
     The Joyce Tue. October, 6 @ 7:30pm (+ 6 more)
-  content_hash: 399ecb1e9e664f8e
+  content_hash: a10ddd42d00c7c02
   sources:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Limn-Dance-Company-Continues-80th-Anniversary-Celebration-at-The-Joyce-Theater-2026-10-06_11
     first_seen: '2026-10-03'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -44,15 +44,15 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.dance-enthusiast.com/dance-listings/events/view/Limn-Dance-Company-Continues-80th-Anniversary-Celebration-at-The-Joyce-Theater-2026-10-06_11
+  - url: https://www.joyce.org/performances/limon-dance-company-ns9f
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:44:28.185246-04:00'
+    checked_at: '2026-10-11T10:01:59.053136-04:00'
   problems:
   - event date 2026-10-06 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T09:44:28.185220-04:00'
+  validated_at: '2026-10-11T10:01:59.053110-04:00'
 curated:
   forms: []
   traditions: []

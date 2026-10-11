@@ -19,7 +19,7 @@ scraped:
   - source_id: gibney
     url: https://gibneydance.org/event/university-music-society/university-music-society-opening-night/
     first_seen: '2026-10-03'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -47,11 +47,11 @@ validation:
   - url: https://gibneydance.org/event/university-music-society/university-music-society-opening-night/
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:48:53.743768-04:00'
+    checked_at: '2026-10-11T10:06:56.765777-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T09:48:53.743745-04:00'
+  validated_at: '2026-10-11T10:06:56.765754-04:00'
 curated:
   forms: []
   traditions: []

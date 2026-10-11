@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/210636
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:48:50.518208-04:00'
+    checked_at: '2026-10-11T10:06:54.012556-04:00'
   - url: https://www.92ny.org/event/celebrating-ray-charles
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:48:50.592440-04:00'
+    checked_at: '2026-10-11T10:06:54.082521-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T09:48:50.518184-04:00'
+  validated_at: '2026-10-11T10:06:54.012531-04:00'
 curated:
   forms: []
   traditions: []

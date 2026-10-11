@@ -11,15 +11,15 @@ scraped:
   region: unknown
   is_free: false
   price_note: ''
-  info_url: https://www.dance-enthusiast.com/dance-listings/events/view/Moving-Body-Moving-Image-2026-10-18
+  info_url: https://lincolncenter.org/series/lincoln-center-presents/moving-body-andndash-moving-image-185
   ticket_url: ''
   description_snippet: Moving Body – Moving Image David Rubenstein Atrium Sun. October, 18 @ 7:30pm
-  content_hash: 8d9af639661293e9
+  content_hash: 601a67276063d7f3
   sources:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Moving-Body-Moving-Image-2026-10-18
     first_seen: '2026-10-05'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -44,15 +44,15 @@ validation:
     in_metro: false
     classified: false
   link_checks:
-  - url: https://www.dance-enthusiast.com/dance-listings/events/view/Moving-Body-Moving-Image-2026-10-18
+  - url: https://lincolncenter.org/series/lincoln-center-presents/moving-body-andndash-moving-image-185
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:45:36.860502-04:00'
+    checked_at: '2026-10-11T10:03:22.602142-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T09:45:36.860477-04:00'
+  validated_at: '2026-10-11T10:03:22.602115-04:00'
 curated:
   forms: []
   traditions: []

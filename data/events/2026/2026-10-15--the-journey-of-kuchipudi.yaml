@@ -1,7 +1,7 @@
 id: 2026-10-15--the-journey-of-kuchipudi
 status: published
 was_published: true
-needs_recheck: true
+needs_recheck: false
 scraped:
   title: 'The Journey of Kuchipudi: From Yakshaganam to the Solo'
   start: '2026-10-15T19:30:00-04:00'
@@ -20,7 +20,7 @@ scraped:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/The-Journey-of-Kuchipudi-From-Yakshaganam-to-the-Solo-2026-10-15
     first_seen: '2026-10-03'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: true
   kind: performance
@@ -46,13 +46,13 @@ validation:
     in_metro: true
     classified: true
   link_checks:
-  - url: https://www.dance-enthusiast.com/dance-listings/events/view/The-Journey-of-Kuchipudi-From-Yakshaganam-to-the-Solo-2026-10-15
+  - url: https://ci.ovationtix.com/2742/production/1290496
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:45:21.606367-04:00'
+    checked_at: '2026-10-11T10:02:59.242138-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-11T09:45:21.606343-04:00'
+  validated_at: '2026-10-11T10:02:59.242113-04:00'
 curated:
   forms: []
   traditions: []

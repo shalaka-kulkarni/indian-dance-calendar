@@ -1,0 +1,48 @@
+id: 2026-11-14-queens-theatre-vitaly-an-evening-of
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: VITALY — An Evening of Wonders
+  start: '2026-11-14T20:00:00-05:00'
+  additional_dates: []
+  venue: Queens Theatre
+  address: 14 United Nations Avenue South, Corona
+  region: queens
+  is_free: false
+  price_note: ''
+  info_url: https://queenstheatre.org/events/vitaly-1j7r
+  ticket_url: ''
+  description_snippet: “Amazing magic full of charming surprises. He’s an Ingenious Inventor!” – Penn
+    & Teller
+  content_hash: ff062b8cce22ca54
+  sources:
+  - source_id: queens_theatre
+    url: https://queenstheatre.org/events/vitaly-1j7r
+    first_seen: '2026-10-11'
+    last_seen: '2026-10-11'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://queenstheatre.org/events/vitaly-1j7r
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-11T10:05:30.119292-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-11T10:05:30.119268-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

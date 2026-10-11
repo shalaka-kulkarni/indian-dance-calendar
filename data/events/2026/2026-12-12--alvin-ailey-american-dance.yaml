@@ -19,7 +19,7 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/instances/5nvjk6kf/2026-12-11/2026-2027-alvin-ailey-american-dance-theater
     first_seen: '2026-09-09'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -46,11 +46,11 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/5nvjk6kf/2026-12-11/2026-2027-alvin-ailey-american-dance-theater
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T09:48:08.900388-04:00'
+    checked_at: '2026-10-11T10:06:20.179868-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T09:48:08.900365-04:00'
+  validated_at: '2026-10-11T10:06:20.179843-04:00'
 curated:
   forms: []
   traditions: []

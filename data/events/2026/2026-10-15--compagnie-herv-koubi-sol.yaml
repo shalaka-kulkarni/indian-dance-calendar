@@ -11,16 +11,16 @@ scraped:
   region: unknown
   is_free: false
   price_note: ''
-  info_url: https://www.dance-enthusiast.com/dance-listings/events/view/Compagnie-Herv-KOUBI-Sol-Invictus-2026-10-15
+  info_url: http://peakperfs.org/events
   ticket_url: ''
   description_snippet: 'Compagnie Hervé KOUBI: Sol Invictus Alexander Kasser Theater Thu. October, 15
     @ 7:30pm'
-  content_hash: bc9555d179c3cc6c
+  content_hash: 85737fa3498499aa
   sources:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Compagnie-Herv-KOUBI-Sol-Invictus-2026-10-15
     first_seen: '2026-10-03'
-    last_seen: '2026-10-09'
+    last_seen: '2026-10-11'
 ai:
   relevant: false
   kind: performance
@@ -44,15 +44,15 @@ validation:
     in_metro: false
     classified: false
   link_checks:
-  - url: https://www.dance-enthusiast.com/dance-listings/events/view/Compagnie-Herv-KOUBI-Sol-Invictus-2026-10-15
+  - url: http://peakperfs.org/events
     ok: true
-    status_code: 200
-    checked_at: '2026-10-11T09:45:21.332833-04:00'
+    status_code: 403
+    checked_at: '2026-10-11T10:02:58.207865-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T09:45:21.332809-04:00'
+  validated_at: '2026-10-11T10:02:58.207843-04:00'
 curated:
   forms: []
   traditions: []
