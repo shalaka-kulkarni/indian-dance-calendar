@@ -47,22 +47,23 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: true
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.stnj.org/events/detail/sesame-street-live-elmos-got-moves-2026
-    ok: true
-    status_code: 406
-    checked_at: '2026-10-10T13:24:00.851799-04:00'
   - url: https://my.stnj.org/25114/25115
     ok: true
     status_code: 200
-    checked_at: '2026-10-10T13:24:01.001855-04:00'
+    checked_at: '2026-10-11T09:44:56.084921-04:00'
+  - url: https://www.stnj.org/events/detail/sesame-street-live-elmos-got-moves-2026
+    ok: true
+    status_code: 406
+    checked_at: '2026-10-11T09:44:56.103496-04:00'
   problems:
+  - event date 2026-10-10 is in the past
   - classified not-relevant
-  validated_at: '2026-10-10T13:24:00.851774-04:00'
+  validated_at: '2026-10-11T09:44:56.084893-04:00'
 curated:
   forms: []
   traditions: []

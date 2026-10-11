@@ -1,7 +1,7 @@
 id: 2026-11-01-pearl-banquet-sufi-sham-with-hansraj
 status: published
 was_published: true
-needs_recheck: true
+needs_recheck: false
 scraped:
   title: Sufi Sham with Hansraj Hans – Last Show in New York
   start: '2026-11-01T19:00:00-04:00'
@@ -51,9 +51,9 @@ validation:
   - url: https://events.sulekha.com/sufi-sham-with-hansraj-hans-last-show-in-new-york_event-in_hicksville-ny_402038
     ok: true
     status_code: 200
-    checked_at: '2026-10-10T13:26:20.021500-04:00'
+    checked_at: '2026-10-11T09:46:42.123619-04:00'
   problems: []
-  validated_at: '2026-10-10T13:26:20.021474-04:00'
+  validated_at: '2026-10-11T09:46:42.123594-04:00'
 curated:
   forms: []
   traditions: []

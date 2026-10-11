@@ -1,7 +1,7 @@
 id: 2026-10-18-sapphire-banquet-mumbai-style-garba-ne
 status: published
 was_published: true
-needs_recheck: true
+needs_recheck: false
 scraped:
   title: Mumbai Style Garba Ne Dandiya Night in New York
   start: '2026-10-18T18:30:00-04:00'
@@ -52,9 +52,9 @@ validation:
   - url: https://events.sulekha.com/mumbai-style-garba-ne-dandiya-night-in-newyork_event-in_hicksville-ny_401828
     ok: true
     status_code: 200
-    checked_at: '2026-10-10T13:24:55.151012-04:00'
+    checked_at: '2026-10-11T09:45:37.046908-04:00'
   problems: []
-  validated_at: '2026-10-10T13:24:55.150986-04:00'
+  validated_at: '2026-10-11T09:45:37.046881-04:00'
 curated:
   forms: []
   traditions: []

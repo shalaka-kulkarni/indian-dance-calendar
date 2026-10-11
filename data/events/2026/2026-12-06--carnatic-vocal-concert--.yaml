@@ -1,7 +1,7 @@
 id: 2026-12-06--carnatic-vocal-concert--
 status: published
 was_published: true
-needs_recheck: true
+needs_recheck: false
 scraped:
   title: Carnatic Vocal Concert – Samanvi Velagapudi
   start: '2026-12-06T00:00:00-05:00'
@@ -53,10 +53,10 @@ validation:
   - url: https://chhandayan.org/calendar/2026/12/6/carnatic-vocal-concert-samanvi-velagapudi
     ok: true
     status_code: 200
-    checked_at: '2026-10-10T13:27:52.094774-04:00'
+    checked_at: '2026-10-11T09:48:03.108962-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-10T13:27:52.094746-04:00'
+  validated_at: '2026-10-11T09:48:03.108939-04:00'
 curated:
   forms: []
   traditions: []

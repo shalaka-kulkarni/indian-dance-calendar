@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/sacha-baron-cohen
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-10T13:25:11.361431-04:00'
   - url: https://seats.92ny.org/single/211475
     ok: true
     status_code: 200
-    checked_at: '2026-10-10T13:25:11.471924-04:00'
+    checked_at: '2026-10-11T09:45:48.647550-04:00'
+  - url: https://www.92ny.org/event/sacha-baron-cohen
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-11T09:45:48.662329-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-10T13:25:11.361406-04:00'
+  validated_at: '2026-10-11T09:45:48.647524-04:00'
 curated:
   forms: []
   traditions: []

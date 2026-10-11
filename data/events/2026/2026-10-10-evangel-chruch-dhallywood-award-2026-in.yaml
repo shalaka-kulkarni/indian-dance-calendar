@@ -42,7 +42,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: true
     in_metro: true
     classified: false
@@ -50,10 +50,11 @@ validation:
   - url: https://events.sulekha.com/dhallywood-award-2026-in-ny_event-in_long-island-city-ny_402215
     ok: true
     status_code: 200
-    checked_at: '2026-10-10T13:23:56.169974-04:00'
+    checked_at: '2026-10-11T09:44:53.241466-04:00'
   problems:
+  - event date 2026-10-10 is in the past
   - classified not-relevant
-  validated_at: '2026-10-10T13:23:56.169948-04:00'
+  validated_at: '2026-10-11T09:44:53.241437-04:00'
 curated:
   forms: []
   traditions: []

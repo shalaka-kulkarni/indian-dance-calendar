@@ -1,5 +1,5 @@
 id: 2026-10-10-mitchel-athletic-dandiya-night-with-garba
-status: published
+status: past
 was_published: true
 needs_recheck: true
 scraped:
@@ -39,12 +39,12 @@ ai:
   model: hand-classified (routine lacked push access)
   classified_at: '2026-10-03'
 validation:
-  passed: true
+  passed: false
   checks:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: true
     in_metro: true
     classified: true
@@ -52,9 +52,10 @@ validation:
   - url: https://events.sulekha.com/dandiya-night-with-garba-queen-foram-shah-group-in-niew-york_event-in_uniondale-ny_401416
     ok: true
     status_code: 200
-    checked_at: '2026-10-10T13:23:57.563504-04:00'
-  problems: []
-  validated_at: '2026-10-10T13:23:57.563484-04:00'
+    checked_at: '2026-10-11T09:44:53.846654-04:00'
+  problems:
+  - event date 2026-10-10 is in the past
+  validated_at: '2026-10-11T09:44:53.846633-04:00'
 curated:
   forms: []
   traditions: []

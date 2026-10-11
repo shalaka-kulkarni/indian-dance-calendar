@@ -1,7 +1,7 @@
 id: 2026-10-23-ubs-arena-signed-to-god-world
 status: published
 was_published: true
-needs_recheck: true
+needs_recheck: false
 scraped:
   title: Signed to God World Tour 2026 – A Sidhu Moose Wala Hologram Experience
   start: '2026-10-23T20:00:00-04:00'
@@ -51,9 +51,9 @@ validation:
   - url: https://events.sulekha.com/signed-to-god-world-tour-2026-a-sidhu-moose-wala-hologram-experience_event-in_elmont-ny_401914
     ok: true
     status_code: 200
-    checked_at: '2026-10-10T13:25:26.288029-04:00'
+    checked_at: '2026-10-11T09:45:59.973732-04:00'
   problems: []
-  validated_at: '2026-10-10T13:25:26.288004-04:00'
+  validated_at: '2026-10-11T09:45:59.973705-04:00'
 curated:
   forms: []
   traditions: []

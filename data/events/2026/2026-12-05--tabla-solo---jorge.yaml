@@ -1,7 +1,7 @@
 id: 2026-12-05--tabla-solo---jorge
 status: published
 was_published: true
-needs_recheck: true
+needs_recheck: false
 scraped:
   title: Tabla Solo – Jorge Ramiro
   start: '2026-12-05T00:00:00-05:00'
@@ -54,10 +54,10 @@ validation:
   - url: https://chhandayan.org/calendar/2026/12/5/tabla-solo-jorge-ramiro
     ok: true
     status_code: 200
-    checked_at: '2026-10-10T13:27:51.230026-04:00'
+    checked_at: '2026-10-11T09:48:02.586353-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-10T13:27:51.230003-04:00'
+  validated_at: '2026-10-11T09:48:02.586330-04:00'
 curated:
   forms: []
   traditions: []

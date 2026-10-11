@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210477
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-10T13:25:21.171470-04:00'
   - url: https://www.92ny.org/event/ema-nikolovska-and-sean-shibe
     ok: true
     status_code: 200
-    checked_at: '2026-10-10T13:25:21.265627-04:00'
+    checked_at: '2026-10-11T09:45:55.851978-04:00'
+  - url: https://seats.92ny.org/single/210477
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-11T09:45:57.339899-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-10T13:25:21.171445-04:00'
+  validated_at: '2026-10-11T09:45:55.851950-04:00'
 curated:
   forms: []
   traditions: []

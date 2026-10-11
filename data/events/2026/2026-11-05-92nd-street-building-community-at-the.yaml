@@ -50,14 +50,14 @@ validation:
   - url: https://www.92ny.org/event/building-community-at-the-21st-century-university
     ok: true
     status_code: 200
-    checked_at: '2026-10-10T13:26:31.845555-04:00'
+    checked_at: '2026-10-11T09:46:51.994496-04:00'
   - url: https://seats.92ny.org/single/211468
     ok: true
     status_code: 200
-    checked_at: '2026-10-10T13:26:33.451075-04:00'
+    checked_at: '2026-10-11T09:46:53.678863-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-10T13:26:31.845531-04:00'
+  validated_at: '2026-10-11T09:46:51.994472-04:00'
 curated:
   forms: []
   traditions: []

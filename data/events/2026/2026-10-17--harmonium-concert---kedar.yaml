@@ -1,7 +1,7 @@
 id: 2026-10-17--harmonium-concert---kedar
 status: published
 was_published: true
-needs_recheck: true
+needs_recheck: false
 scraped:
   title: Harmonium Concert – Kedar Naphade
   start: '2026-10-17T00:00:00-04:00'
@@ -54,10 +54,10 @@ validation:
   - url: https://chhandayan.org/calendar/2026/8/27/harmonium-concert-kedar-naphade
     ok: true
     status_code: 200
-    checked_at: '2026-10-10T13:24:40.674864-04:00'
+    checked_at: '2026-10-11T09:45:26.446568-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-10T13:24:40.674839-04:00'
+  validated_at: '2026-10-11T09:45:26.446542-04:00'
 curated:
   forms: []
   traditions: []

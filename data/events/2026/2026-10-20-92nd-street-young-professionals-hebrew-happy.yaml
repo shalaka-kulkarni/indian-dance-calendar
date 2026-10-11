@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211479
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-10T13:25:05.651337-04:00'
   - url: https://www.92ny.org/event/young-professionals-hebrew-happy-hour
     ok: true
     status_code: 200
-    checked_at: '2026-10-10T13:25:05.738870-04:00'
+    checked_at: '2026-10-11T09:45:44.953710-04:00'
+  - url: https://seats.92ny.org/single/211479
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-11T09:45:46.517855-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-10T13:25:05.651316-04:00'
+  validated_at: '2026-10-11T09:45:44.953684-04:00'
 curated:
   forms: []
   traditions: []

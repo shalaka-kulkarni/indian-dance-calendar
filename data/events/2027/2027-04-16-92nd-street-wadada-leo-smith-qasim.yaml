@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210689
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-10T13:29:04.711554-04:00'
   - url: https://www.92ny.org/event/wadada-leo-smith-qasim-naqvi-andrew-cyrille
     ok: true
     status_code: 200
-    checked_at: '2026-10-10T13:29:04.798406-04:00'
+    checked_at: '2026-10-11T09:48:58.169043-04:00'
+  - url: https://seats.92ny.org/single/210689
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-11T09:48:59.520439-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-10T13:29:04.711533-04:00'
+  validated_at: '2026-10-11T09:48:58.169021-04:00'
 curated:
   forms: []
   traditions: []

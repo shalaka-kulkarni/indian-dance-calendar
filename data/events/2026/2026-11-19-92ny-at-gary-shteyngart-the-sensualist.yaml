@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/gary-shteyngart
     ok: true
     status_code: 200
-    checked_at: '2026-10-10T13:27:25.019082-04:00'
+    checked_at: '2026-10-11T09:47:41.581680-04:00'
   - url: https://seats.92ny.org/single/211418
     ok: true
     status_code: 200
-    checked_at: '2026-10-10T13:27:27.611824-04:00'
+    checked_at: '2026-10-11T09:47:44.041919-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-10T13:27:25.019061-04:00'
+  validated_at: '2026-10-11T09:47:41.581659-04:00'
 curated:
   forms: []
   traditions: []

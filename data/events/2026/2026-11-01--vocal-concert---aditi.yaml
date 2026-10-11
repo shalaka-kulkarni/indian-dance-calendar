@@ -1,7 +1,7 @@
 id: 2026-11-01--vocal-concert---aditi
 status: published
 was_published: true
-needs_recheck: true
+needs_recheck: false
 scraped:
   title: Vocal Concert – Aditi Chakraborty
   start: '2026-11-01T00:00:00-04:00'
@@ -53,10 +53,10 @@ validation:
   - url: https://chhandayan.org/calendar/2026/11/1/vocal-concert-aditi-chakraborty
     ok: true
     status_code: 200
-    checked_at: '2026-10-10T13:26:19.849652-04:00'
+    checked_at: '2026-10-11T09:46:42.006772-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-10T13:26:19.849628-04:00'
+  validated_at: '2026-10-11T09:46:42.006748-04:00'
 curated:
   forms: []
   traditions: []

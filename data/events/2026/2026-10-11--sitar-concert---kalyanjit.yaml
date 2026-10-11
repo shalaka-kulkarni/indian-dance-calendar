@@ -1,7 +1,7 @@
 id: 2026-10-11--sitar-concert---kalyanjit
 status: published
 was_published: true
-needs_recheck: true
+needs_recheck: false
 scraped:
   title: Sitar Concert – Kalyanjit Das
   start: '2026-10-11T00:00:00-04:00'
@@ -54,10 +54,10 @@ validation:
   - url: https://chhandayan.org/calendar/2025/7/26/sitar-concert-kalyanjit-das-lgsd8
     ok: true
     status_code: 200
-    checked_at: '2026-10-10T13:24:02.983429-04:00'
+    checked_at: '2026-10-11T09:44:57.864094-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-10T13:24:02.983386-04:00'
+  validated_at: '2026-10-11T09:44:57.864069-04:00'
 curated:
   forms: []
   traditions: []
