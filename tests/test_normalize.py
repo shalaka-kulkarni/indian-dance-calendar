@@ -121,3 +121,19 @@ def test_normalize_cleans_title_and_drops_a_venue_that_repeats_it():
     assert scraped.venue == "Prudential Center"
     # Without a house to fall back on, a venue that only repeats the title is dropped.
     assert normalize(raw, Region.NEW_JERSEY).venue == ""
+
+
+
+def test_a_resolved_listing_keeps_its_listing_page_as_identity():
+    from pipeline.scrapers.base import RawEvent as R
+    raw = R(
+        source_id="dance_enthusiast",
+        source_url="https://www.dance-enthusiast.com/dance-listings/events",
+        title="Dasamahavidya: The Search for Wisdom",
+        start_raw="2026-10-15 7:00pm",
+        info_url="https://www.silambamphoenix.org/upcoming-events",
+        extra={"sighting_url": "https://www.dance-enthusiast.com/dance-listings/events/view/Dasamahavidya"},
+    )
+    scraped = normalize(raw, Region.MANHATTAN)
+    assert scraped.info_url == "https://www.silambamphoenix.org/upcoming-events"
+    assert scraped.sources[0].url.endswith("/view/Dasamahavidya")

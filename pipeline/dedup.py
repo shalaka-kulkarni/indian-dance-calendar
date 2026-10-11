@@ -48,6 +48,17 @@ def find_match(candidate: Scraped, existing: list[Event]) -> Event | None:
     return None
 
 
+# Listings sites whose event page only points onward to the presenter's.
+AGGREGATOR_HOSTS = ("dance-enthusiast.com",)
+
+
+def is_aggregator_url(url: str) -> bool:
+    from urllib.parse import urlparse
+
+    host = urlparse(url).netloc.lower().removeprefix("www.")
+    return any(host == h or host.endswith("." + h) for h in AGGREGATOR_HOSTS)
+
+
 def merge_into(event: Event, candidate: Scraped, today: date) -> bool:
     """Merge a new sighting into an existing event. Returns True if scraped
     facts changed (caller decides on re-validation via store.save_event)."""
@@ -75,6 +86,14 @@ def merge_into(event: Event, candidate: Scraped, today: date) -> bool:
             changed = True
     if candidate.is_free and not event.scraped.is_free:
         event.scraped.is_free = True
+        changed = True
+    # The presenter's own page beats a listing site's pointer to it.
+    if (
+        candidate.info_url
+        and is_aggregator_url(event.scraped.info_url)
+        and not is_aggregator_url(candidate.info_url)
+    ):
+        event.scraped.info_url = candidate.info_url
         changed = True
     if not event.scraped.venue and candidate.venue:
         event.scraped.venue = candidate.venue

@@ -90,3 +90,17 @@ def test_merge_sharpens_a_date_only_sighting(sample_event):
     later.start = datetime(day.year, day.month, day.day, 20, 0, tzinfo=ny)
     merge_into(sample_event, later, date(2026, 8, 10))
     assert sample_event.scraped.start.hour == 19
+
+
+
+def test_merge_replaces_a_listing_link_with_the_presenters(sample_event):
+    tde = "https://www.dance-enthusiast.com/dance-listings/events/view/Khankhana"
+    sample_event.scraped.info_url = tde
+    sighting = scraped("Nrityagram Dance Ensemble KHANKHANA", source_id="dance_enthusiast",
+                       url="https://www.joyce.org/khankhana-tickets")
+    assert merge_into(sample_event, sighting, date(2026, 8, 10))
+    assert sample_event.scraped.info_url == "https://www.joyce.org/khankhana-tickets"
+    # A presenter's link is never swapped back for a listing site's.
+    back = scraped("Nrityagram Dance Ensemble KHANKHANA", source_id="x", url=tde)
+    merge_into(sample_event, back, date(2026, 8, 10))
+    assert sample_event.scraped.info_url == "https://www.joyce.org/khankhana-tickets"

@@ -195,7 +195,7 @@ def normalize(
         sources=[
             SourceRecord(
                 source_id=raw.source_id,
-                url=info_url,
+                url=raw.extra.get("sighting_url") or info_url,
                 first_seen=today or date.today(),
                 last_seen=today or date.today(),
             )

@@ -35,6 +35,7 @@ from pipeline.scrapers.html_sources import (
     extract_gibney,
     extract_listing_blocks,
     extract_narthaki,
+    tde_outbound_link,
 )
 from pipeline.scrapers.ics import extract_ics_events
 from pipeline.scrapers.platforms import eventbrite_events, ticketmaster_events
@@ -59,6 +60,34 @@ BESPOKE = {
 }
 
 
+# Listings whose own page is only a pointer to the presenter's. Each card's
+# detail page is read for the onward link, so the calendar sends readers
+# straight to the venue's ticket page instead of to another listing.
+LINK_RESOLVERS = {"dance_enthusiast": tde_outbound_link}
+MAX_RESOLVE = 150
+
+
+def resolve_onward_links(client: httpx.Client, source_id: str, events: list[RawEvent]) -> None:
+    resolver = LINK_RESOLVERS.get(source_id)
+    if resolver is None:
+        return
+    resolved = 0
+    for raw in events[:MAX_RESOLVE]:
+        listing = raw.info_url
+        try:
+            link = resolver(fetch_text(client, listing), listing)
+        except Exception as exc:  # noqa: BLE001 — one page never sinks the source
+            log.debug("resolve %s %s: %s", source_id, listing, exc)
+            continue
+        if link:
+            # The listing page stays the sighting's identity, so two shows that
+            # point at one presenter's "upcoming events" page never merge.
+            raw.extra["sighting_url"] = listing
+            raw.info_url = link
+            resolved += 1
+    log.info("resolve %s: %d of %d listings link to the presenter's page", source_id, resolved, len(events))
+
+
 def scrape_source(client: httpx.Client, source: Source) -> ScrapeResult:
     result = ScrapeResult(source.id)
     try:
@@ -74,6 +103,7 @@ def scrape_source(client: httpx.Client, source: Source) -> ScrapeResult:
             extractor = BESPOKE.get(source.id)
             if extractor:
                 result.events = extractor(html, source.id, source.url)
+                resolve_onward_links(client, source.id, result.events)
             else:
                 result.events = extract_listing_blocks(html, source.id, source.url)
             # JS-rendered listing pages yield nothing here, but their event

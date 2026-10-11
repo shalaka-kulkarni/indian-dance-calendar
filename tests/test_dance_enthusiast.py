@@ -83,3 +83,46 @@ def test_dance_enthusiast_reads_venue_and_clock_time_from_the_card():
     garba = next(e for e in events if e.title == "Navratri Garba")
     assert garba.address == "Jersey City, NJ"
     assert normalize(garba).region == Region.NEW_JERSEY
+
+
+
+# Shape of a listing's detail page, from a live probe on 11 Oct 2026.
+DETAIL = """
+<html><body>
+<div class="social_links"><a href="https://www.facebook.com/pages/New-York-NY/DancEnthusiast/1"><img/></a>
+  <a href="https://instagram.com/dancenthusiast"><img/></a></div>
+<div class="col_110 sfd_content sfd_content_load">
+  <h1>The Journey of Kuchipudi: From Yakshaganam to the Solo</h1>
+  <div class="share_links"><a class="share_link" href="https://www.facebook.com/sharer.php?u=x">Facebook</a>
+    <a class="share_link" href="https://twitter.com/intent/tweet?url=x">Twitter</a></div>
+  <div class="author_info"><p>Thursday, October 15, 2026 - 7:30pm</p></div>
+  <p>Tickets: <a href="https://ci.ovationtix.com/2742/production/1290496">https://ci.ovationtix.com/2742/production/1290496</a></p>
+  <p><a href="http://movingartsprojects.org/"><img src="/banner.jpg"/></a></p>
+</div>
+<p class="nomargin"><a class="designBy" href="http://www.designbrooklyn.com">Design Brooklyn</a></p>
+</body></html>
+"""
+PAGE_URL = "https://www.dance-enthusiast.com/dance-listings/events/view/The-Journey-of-Kuchipudi-2026-10-15"
+
+
+def test_outbound_link_is_the_presenters_ticket_page():
+    from pipeline.scrapers.html_sources import tde_outbound_link
+    assert tde_outbound_link(DETAIL, PAGE_URL) == "https://ci.ovationtix.com/2742/production/1290496"
+
+
+def test_outbound_link_falls_back_to_the_presenters_event_page():
+    from pipeline.scrapers.html_sources import tde_outbound_link
+    page = DETAIL.replace(
+        "https://ci.ovationtix.com/2742/production/1290496",
+        "https://www.silambamphoenix.org/upcoming-events",
+    ).replace("Tickets: ", "")
+    assert tde_outbound_link(page, PAGE_URL) == "https://www.silambamphoenix.org/upcoming-events"
+
+
+def test_outbound_link_ignores_chrome_and_bare_homepages():
+    from pipeline.scrapers.html_sources import tde_outbound_link
+    page = DETAIL.replace(
+        '<a href="https://ci.ovationtix.com/2742/production/1290496">https://ci.ovationtix.com/2742/production/1290496</a>',
+        '<a href="https://presenter.org/">presenter.org</a>',
+    )
+    assert tde_outbound_link(page, PAGE_URL) == ""

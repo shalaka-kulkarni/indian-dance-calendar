@@ -324,3 +324,56 @@ def extract_gibney(html: str, source_id: str, page_url: str) -> list[RawEvent]:
             )
         )
     return found
+
+
+# A Dance Enthusiast listing is a pointer: the presenter's own ticket or event
+# page sits in the body as a plain link. Everything else that leaves the site
+# is chrome — share buttons, the magazine's social accounts, a site-wide
+# sponsor banner (an image link with no text), the web designer's credit.
+TDE_CHROME_HOSTS = (
+    "facebook.com", "instagram.com", "youtube.com", "twitter.com", "x.com",
+    "pinterest.com", "linkedin.com", "tiktok.com", "designbrooklyn.com",
+)
+TDE_CHROME_CLASSES = {"share_links", "share_link", "social_links", "designBy"}
+TICKET_HINT = re.compile(
+    r"ticket|tix|eventbrite|ovationtix|showclix|zeffy|universe\.com|simpletix|"
+    r"ticketleap|brownpaper|eventim|purplepass|\bbuy\b|\bbook\b|register",
+    re.I,
+)
+
+
+def tde_outbound_link(html: str, page_url: str) -> str:
+    """The presenter's own link on a Dance Enthusiast listing page, or "".
+
+    A ticketing link wins over a general one. A link to a bare homepage is not
+    returned: it says less about the event than the listing it replaces.
+    """
+    from urllib.parse import urlparse
+
+    soup = BeautifulSoup(html, "html.parser")
+    scope = soup.select_one(".sfd_content") or soup
+    own_host = urlparse(page_url).netloc.removeprefix("www.")
+    candidates: list[str] = []
+    for a in scope.find_all("a", href=True):
+        href = urljoin(page_url, a["href"].strip())
+        target = urlparse(href)
+        host = target.netloc.lower().removeprefix("www.")
+        if target.scheme not in ("http", "https") or not host or host == own_host:
+            continue
+        if any(host == h or host.endswith("." + h) for h in TDE_CHROME_HOSTS):
+            continue
+        classes = set(a.get("class") or [])
+        for parent in a.parents:
+            classes |= set(parent.get("class") or []) if parent.name else set()
+        if classes & TDE_CHROME_CLASSES:
+            continue
+        if not a.get_text(strip=True):
+            continue  # image banners
+        if not target.path.strip("/"):
+            continue  # bare homepage
+        if href not in candidates:
+            candidates.append(href)
+    for href in candidates:
+        if TICKET_HINT.search(href):
+            return href
+    return candidates[0] if candidates else ""
