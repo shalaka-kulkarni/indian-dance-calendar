@@ -47,12 +47,12 @@ validation:
   - url: https://www.zeffy.com/en-US/ticketing/dancing-into-roses
     ok: true
     status_code: 403
-    checked_at: '2026-10-11T10:03:49.037784-04:00'
+    checked_at: '2026-10-11T10:12:53.321936-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T10:03:49.037760-04:00'
+  validated_at: '2026-10-11T10:12:53.321911-04:00'
 curated:
   forms: []
   traditions: []

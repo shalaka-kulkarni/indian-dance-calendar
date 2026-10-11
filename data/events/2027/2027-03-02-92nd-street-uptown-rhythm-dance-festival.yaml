@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/210452
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:06:50.006904-04:00'
+    checked_at: '2026-10-11T10:15:45.957322-04:00'
   - url: https://www.92ny.org/event/uptown-rhythm-dance-festival
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:06:50.077228-04:00'
+    checked_at: '2026-10-11T10:15:46.048864-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T10:06:50.006879-04:00'
+  validated_at: '2026-10-11T10:15:45.957297-04:00'
 curated:
   forms: []
   traditions: []

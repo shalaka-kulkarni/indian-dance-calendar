@@ -47,12 +47,12 @@ validation:
   - url: https://www.timeout.com/newyork/dance/company-xiv-petite-rouge-review-little-red-riding-hood
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:04:37.584615-04:00'
+    checked_at: '2026-10-11T10:13:46.071915-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T10:04:37.584592-04:00'
+  validated_at: '2026-10-11T10:13:46.071888-04:00'
 curated:
   forms: []
   traditions: []

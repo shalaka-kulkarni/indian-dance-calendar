@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/rachel-cusk-life-of-m
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:05:39.673970-04:00'
+    checked_at: '2026-10-11T10:14:45.307386-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T10:05:39.673943-04:00'
+  validated_at: '2026-10-11T10:14:45.307365-04:00'
 curated:
   forms: []
   traditions: []

@@ -46,12 +46,12 @@ validation:
   link_checks:
   - url: https://baryshnikovarts.org/performance/greef/
     ok: true
-    status_code: 202
-    checked_at: '2026-10-11T10:03:45.096554-04:00'
+    status_code: 200
+    checked_at: '2026-10-11T10:12:49.022920-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T10:03:45.096530-04:00'
+  validated_at: '2026-10-11T10:12:49.022901-04:00'
 curated:
   forms: []
   traditions: []

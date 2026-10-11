@@ -53,11 +53,11 @@ validation:
   - url: https://chhandayan.org/calendar/2023/11/5/dewali-festival-celebration-in-virginia-db3ge-ml6kj
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:05:01.337186-04:00'
+    checked_at: '2026-10-11T10:14:10.618005-04:00'
   problems:
   - no price information
   - relevance confidence too low for auto-publish
-  validated_at: '2026-10-11T10:05:01.337159-04:00'
+  validated_at: '2026-10-11T10:14:10.617980-04:00'
 curated:
   forms: []
   traditions: []

@@ -47,12 +47,12 @@ validation:
   - url: https://amandaselwyndance.org/current-season/fall-2026-open-rehearsal/
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:03:37.873977-04:00'
+    checked_at: '2026-10-11T10:12:43.382688-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T10:03:37.873954-04:00'
+  validated_at: '2026-10-11T10:12:43.382661-04:00'
 curated:
   forms: []
   traditions: []

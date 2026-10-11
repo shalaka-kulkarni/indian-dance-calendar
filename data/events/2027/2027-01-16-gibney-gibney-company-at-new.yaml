@@ -47,11 +47,11 @@ validation:
   - url: https://gibneydance.org/event/gibney-company-at-new-york-city-center/gibney-company-at-new-york-city-center-night-iii/
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:06:39.906287-04:00'
+    checked_at: '2026-10-11T10:15:34.559244-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T10:06:39.906260-04:00'
+  validated_at: '2026-10-11T10:15:34.559221-04:00'
 curated:
   forms: []
   traditions: []

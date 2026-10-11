@@ -47,12 +47,12 @@ validation:
   - url: https://lincolncenter.org/series/lincoln-center-presents/moving-body-andndash-moving-image-185
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:03:22.602142-04:00'
+    checked_at: '2026-10-11T10:12:22.620394-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T10:03:22.602115-04:00'
+  validated_at: '2026-10-11T10:12:22.620369-04:00'
 curated:
   forms: []
   traditions: []

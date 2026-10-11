@@ -48,13 +48,13 @@ validation:
   - url: https://allevents.in/ocala/burnyzz-trunk-or-treat-2026/200030403180819
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:02:23.540069-04:00'
+    checked_at: '2026-10-11T10:11:21.766846-04:00'
   problems:
   - event date 2026-10-10 is in the past
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T10:02:23.540041-04:00'
+  validated_at: '2026-10-11T10:11:21.766826-04:00'
 curated:
   forms: []
   traditions: []

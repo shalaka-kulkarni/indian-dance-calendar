@@ -36,11 +36,11 @@ validation:
   - url: https://queenstheatre.org/events/ignorancia-artificial-lwhg
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:05:54.754070-04:00'
+    checked_at: '2026-10-11T10:15:01.519890-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-10-11T10:05:54.754042-04:00'
+  validated_at: '2026-10-11T10:15:01.519865-04:00'
 curated:
   forms: []
   traditions: []

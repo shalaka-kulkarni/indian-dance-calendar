@@ -47,11 +47,11 @@ validation:
   - url: https://www.zeffy.com/en-US/ticketing/70th-anniversary-festival
     ok: true
     status_code: 403
-    checked_at: '2026-10-11T10:03:44.999972-04:00'
+    checked_at: '2026-10-11T10:12:48.961816-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T10:03:44.999948-04:00'
+  validated_at: '2026-10-11T10:12:48.961794-04:00'
 curated:
   forms: []
   traditions: []

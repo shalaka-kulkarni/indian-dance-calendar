@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/jane-austen-s-sense-and-sensibility
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-11T10:04:50.741439-04:00'
   - url: https://seats.92ny.org/single/211421
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:04:52.739518-04:00'
+    checked_at: '2026-10-11T10:13:59.483541-04:00'
+  - url: https://www.92ny.org/event/jane-austen-s-sense-and-sensibility
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-11T10:13:59.565842-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T10:04:50.741415-04:00'
+  validated_at: '2026-10-11T10:13:59.483509-04:00'
 curated:
   forms: []
   traditions: []

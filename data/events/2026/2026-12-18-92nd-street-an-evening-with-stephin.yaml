@@ -49,14 +49,14 @@ validation:
   - url: https://seats.92ny.org/single/210719
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:06:30.515581-04:00'
+    checked_at: '2026-10-11T10:15:27.918350-04:00'
   - url: https://www.92ny.org/event/an-evening-with-stephin-merritt
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:06:30.584577-04:00'
+    checked_at: '2026-10-11T10:15:28.000591-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T10:06:30.515558-04:00'
+  validated_at: '2026-10-11T10:15:27.918328-04:00'
 curated:
   forms: []
   traditions: []

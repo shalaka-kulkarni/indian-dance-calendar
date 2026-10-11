@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/pierre-laurent-aimard
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:05:47.809476-04:00'
+    checked_at: '2026-10-11T10:14:54.291492-04:00'
   - url: https://seats.92ny.org/single/210442
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:05:49.105369-04:00'
+    checked_at: '2026-10-11T10:14:55.570771-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T10:05:47.809450-04:00'
+  validated_at: '2026-10-11T10:14:54.291466-04:00'
 curated:
   forms: []
   traditions: []

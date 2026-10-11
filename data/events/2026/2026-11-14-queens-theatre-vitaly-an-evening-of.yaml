@@ -35,11 +35,11 @@ validation:
   - url: https://queenstheatre.org/events/vitaly-1j7r
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:05:30.119292-04:00'
+    checked_at: '2026-10-11T10:14:37.503841-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-10-11T10:05:30.119268-04:00'
+  validated_at: '2026-10-11T10:14:37.503817-04:00'
 curated:
   forms: []
   traditions: []

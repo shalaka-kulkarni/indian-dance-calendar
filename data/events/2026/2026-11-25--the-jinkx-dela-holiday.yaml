@@ -48,11 +48,11 @@ validation:
   - url: https://www.nycitycenter.org/events/2026-2027-the-jinkx-and-dela-holiday-show
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:05:59.693369-04:00'
+    checked_at: '2026-10-11T10:15:07.659182-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T10:05:59.693326-04:00'
+  validated_at: '2026-10-11T10:15:07.659159-04:00'
 curated:
   forms: []
   traditions: []

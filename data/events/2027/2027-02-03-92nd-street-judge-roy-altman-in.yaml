@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/judge-roy-altman-israel-on-trial
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-11T10:06:44.224692-04:00'
   - url: https://seats.92ny.org/single/211329
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:06:45.707732-04:00'
+    checked_at: '2026-10-11T10:15:39.714365-04:00'
+  - url: https://www.92ny.org/event/judge-roy-altman-israel-on-trial
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-11T10:15:39.794112-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T10:06:44.224666-04:00'
+  validated_at: '2026-10-11T10:15:39.714344-04:00'
 curated:
   forms: []
   traditions: []

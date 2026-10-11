@@ -45,17 +45,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/hermione-lee-with-rumaan-alam-anita-brookner
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-11T10:05:45.513887-04:00'
   - url: https://seats.92ny.org/single/210880
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:05:47.732760-04:00'
+    checked_at: '2026-10-11T10:14:52.054577-04:00'
+  - url: https://www.92ny.org/event/hermione-lee-with-rumaan-alam-anita-brookner
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-11T10:14:52.137091-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T10:05:45.513864-04:00'
+  validated_at: '2026-10-11T10:14:52.054554-04:00'
 curated:
   forms: []
   traditions: []

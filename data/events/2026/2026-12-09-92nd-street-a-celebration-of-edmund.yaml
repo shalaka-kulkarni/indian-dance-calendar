@@ -47,17 +47,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/a-celebration-of-edmund-white
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-11T10:06:17.488237-04:00'
   - url: https://seats.92ny.org/single/211455
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:06:17.586752-04:00'
+    checked_at: '2026-10-11T10:15:19.021377-04:00'
+  - url: https://www.92ny.org/event/a-celebration-of-edmund-white
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-11T10:15:19.103853-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T10:06:17.488214-04:00'
+  validated_at: '2026-10-11T10:15:19.021350-04:00'
 curated:
   forms: []
   traditions: []

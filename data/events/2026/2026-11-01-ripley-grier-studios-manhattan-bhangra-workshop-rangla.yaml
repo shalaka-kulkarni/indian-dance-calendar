@@ -37,10 +37,10 @@ validation:
   - url: https://allevents.in/new-york/manhattan-bhangra-workshop-rangla-punjab-dance-academy/100002002642095417
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:04:45.214214-04:00'
+    checked_at: '2026-10-11T10:13:52.821464-04:00'
   problems:
   - not yet classified (no API key run)
-  validated_at: '2026-10-11T10:04:45.214188-04:00'
+  validated_at: '2026-10-11T10:13:52.821441-04:00'
 curated:
   forms: []
   traditions: []

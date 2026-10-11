@@ -47,12 +47,12 @@ validation:
   - url: http://peakperfs.org/events
     ok: true
     status_code: 403
-    checked_at: '2026-10-11T10:02:58.207865-04:00'
+    checked_at: '2026-10-11T10:12:02.560585-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T10:02:58.207843-04:00'
+  validated_at: '2026-10-11T10:12:02.560562-04:00'
 curated:
   forms: []
   traditions: []

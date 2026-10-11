@@ -32,14 +32,14 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://kupferbergcenter.org/event/wow/?gad_source=1&gad_campaignid=24258760736&gbraid=0AAAAADc50AjmmgJCyvaDuvWuJ0Q4CI5WR&gclid=Cj0KCQjw8c3VBhCsARIsAA_xJ92YZCyLtaJ7U7CCiDBKhuZIDlcdXAQeU4P_EUXf41t9Wp2X6nJNTTwaAj8kEALw_wcB
+  - url: https://kupferbergcenter.org/event/wow/
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:04:02.073446-04:00'
+    checked_at: '2026-10-11T10:13:05.527521-04:00'
   problems:
   - no price information
   - not yet classified (no API key run)
-  validated_at: '2026-10-11T10:04:02.073418-04:00'
+  validated_at: '2026-10-11T10:13:05.527496-04:00'
 curated:
   forms: []
   traditions: []

@@ -49,11 +49,11 @@ validation:
   - url: https://www.prucenter.com/events/don-omar
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:02:36.313293-04:00'
+    checked_at: '2026-10-11T10:11:40.614430-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T10:02:36.313262-04:00'
+  validated_at: '2026-10-11T10:11:40.614400-04:00'
 curated:
   forms: []
   traditions: []

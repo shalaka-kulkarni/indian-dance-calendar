@@ -47,11 +47,11 @@ validation:
   - url: https://www.nycitycenter.org/events/2026-2027-studio-5
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:01:55.659718-04:00'
+    checked_at: '2026-10-11T10:10:52.970846-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T10:01:55.659693-04:00'
+  validated_at: '2026-10-11T10:10:52.970823-04:00'
 curated:
   forms: []
   traditions: []

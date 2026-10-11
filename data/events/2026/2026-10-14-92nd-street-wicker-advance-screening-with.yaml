@@ -51,14 +51,14 @@ validation:
   - url: https://www.92ny.org/event/wicker
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:02:55.521974-04:00'
+    checked_at: '2026-10-11T10:12:00.203241-04:00'
   - url: https://seats.92ny.org/single/211369
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:02:57.296118-04:00'
+    checked_at: '2026-10-11T10:12:02.018587-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T10:02:55.521949-04:00'
+  validated_at: '2026-10-11T10:12:00.203215-04:00'
 curated:
   forms: []
   traditions: []

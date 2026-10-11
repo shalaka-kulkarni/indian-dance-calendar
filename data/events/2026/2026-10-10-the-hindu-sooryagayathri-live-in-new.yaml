@@ -46,9 +46,9 @@ validation:
   - url: https://events.sulekha.com/sooryagayathri-live-in-new-york-a-musical-celebration-of-lord-rama_event-in_flushing-ny_401191
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:02:29.990545-04:00'
+    checked_at: '2026-10-11T10:11:30.947436-04:00'
   problems: []
-  validated_at: '2026-10-11T10:02:29.990540-04:00'
+  validated_at: '2026-10-11T10:11:30.947431-04:00'
 curated:
   forms: []
   traditions: []

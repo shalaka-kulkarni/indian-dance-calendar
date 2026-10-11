@@ -50,11 +50,11 @@ validation:
   - url: https://events.sulekha.com/dhallywood-award-2026-in-ny_event-in_long-island-city-ny_402215
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:02:25.080693-04:00'
+    checked_at: '2026-10-11T10:11:23.372000-04:00'
   problems:
   - event date 2026-10-10 is in the past
   - classified not-relevant
-  validated_at: '2026-10-11T10:02:25.080665-04:00'
+  validated_at: '2026-10-11T10:11:23.371975-04:00'
 curated:
   forms: []
   traditions: []

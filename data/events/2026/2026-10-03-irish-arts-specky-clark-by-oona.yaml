@@ -44,16 +44,16 @@ validation:
     in_metro: false
     classified: false
   link_checks:
-  - url: https://tickets.irishartscenter.org/overview/3245?_ga=2.106563333.700974511.1784838562-260825102.1784838562&_gl=1*12edaco*_gcl_au*MTE0NjQ0ODgyLjE3ODQ4Mzg1NjI.*_ga*MjYwODI1MTAyLjE3ODQ4Mzg1NjI.*_ga_6T2ZG8MDSN*czE3ODQ4Mzg1NjEkbzEkZzEkdDE3ODQ4Mzg2MTckajQkbDAk
+  - url: https://tickets.irishartscenter.org/overview/3245
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:01:41.777649-04:00'
+    checked_at: '2026-10-11T10:10:44.103430-04:00'
   problems:
   - event date 2026-10-03 is in the past
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T10:01:41.777612-04:00'
+  validated_at: '2026-10-11T10:10:44.103405-04:00'
 curated:
   forms: []
   traditions: []

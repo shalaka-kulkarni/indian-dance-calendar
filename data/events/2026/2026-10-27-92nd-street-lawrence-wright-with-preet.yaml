@@ -49,14 +49,14 @@ validation:
   - url: https://www.92ny.org/event/lawrence-wright
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:04:11.538275-04:00'
+    checked_at: '2026-10-11T10:13:16.625842-04:00'
   - url: https://seats.92ny.org/single/210864
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:04:13.127720-04:00'
+    checked_at: '2026-10-11T10:13:18.731355-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T10:04:11.538251-04:00'
+  validated_at: '2026-10-11T10:13:16.625817-04:00'
 curated:
   forms: []
   traditions: []

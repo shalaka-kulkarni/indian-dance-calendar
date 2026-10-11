@@ -46,12 +46,12 @@ validation:
   - url: https://lincolncenter.org/series/lincoln-center-presents/urban-love-suite-865
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:03:02.246874-04:00'
+    checked_at: '2026-10-11T10:12:06.155139-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T10:03:02.246852-04:00'
+  validated_at: '2026-10-11T10:12:06.155117-04:00'
 curated:
   forms: []
   traditions: []

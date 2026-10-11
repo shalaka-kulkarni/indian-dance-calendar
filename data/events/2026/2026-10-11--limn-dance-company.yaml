@@ -47,12 +47,12 @@ validation:
   - url: https://www.timeout.com/newyork/dance/limon-dance-company-13
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:02:30.573768-04:00'
+    checked_at: '2026-10-11T10:11:31.313974-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T10:02:30.573745-04:00'
+  validated_at: '2026-10-11T10:11:31.313948-04:00'
 curated:
   forms: []
   traditions: []

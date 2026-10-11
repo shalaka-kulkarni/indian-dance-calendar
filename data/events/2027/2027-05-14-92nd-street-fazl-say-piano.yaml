@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/fazil-say
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-11T10:07:07.043023-04:00'
   - url: https://seats.92ny.org/single/210619
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:07:08.269013-04:00'
+    checked_at: '2026-10-11T10:15:58.740974-04:00'
+  - url: https://www.92ny.org/event/fazil-say
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-11T10:15:58.821707-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T10:07:07.042994-04:00'
+  validated_at: '2026-10-11T10:15:58.740950-04:00'
 curated:
   forms: []
   traditions: []

@@ -49,12 +49,12 @@ validation:
   - url: https://www.dance-enthusiast.com/dance-listings/events/view/LAlliance-New-York-Announces-Traces-of-Gounouj-by-Lo-Lrus-FREE-2026-10-03
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:01:40.070967-04:00'
+    checked_at: '2026-10-11T10:10:42.360836-04:00'
   problems:
   - event date 2026-10-03 is in the past
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T10:01:40.070940-04:00'
+  validated_at: '2026-10-11T10:10:42.360813-04:00'
 curated:
   forms: []
   traditions: []

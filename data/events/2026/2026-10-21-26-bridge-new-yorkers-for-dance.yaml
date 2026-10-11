@@ -45,15 +45,15 @@ validation:
     in_metro: false
     classified: false
   link_checks:
-  - url: https://www.dance.nyc/NYFD?utm_source=press+release&utm_medium=email&utm_campaign=NYFD26
+  - url: https://www.dance.nyc/NYFD
     ok: true
     status_code: 403
-    checked_at: '2026-10-11T10:03:35.301740-04:00'
+    checked_at: '2026-10-11T10:12:34.460937-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T10:03:35.301715-04:00'
+  validated_at: '2026-10-11T10:12:34.460915-04:00'
 curated:
   forms: []
   traditions: []

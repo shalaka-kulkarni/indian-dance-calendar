@@ -50,11 +50,11 @@ validation:
   - url: https://www.sopacnow.org/events/the-string-queens-2027/
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:06:56.437704-04:00'
+    checked_at: '2026-10-11T10:15:51.336693-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T10:06:56.437678-04:00'
+  validated_at: '2026-10-11T10:15:51.336666-04:00'
 curated:
   forms: []
   traditions: []

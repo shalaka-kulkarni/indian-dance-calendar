@@ -49,11 +49,11 @@ validation:
   - url: https://www.worksandprocess.org/calendar/works-and-process-at-free-food-refettorio-harlem-masterz-at-work-dance-family
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:02:03.031658-04:00'
+    checked_at: '2026-10-11T10:11:04.576812-04:00'
   problems:
   - event date 2026-10-07 is in the past
   - classified not-relevant
-  validated_at: '2026-10-11T10:02:03.031631-04:00'
+  validated_at: '2026-10-11T10:11:04.576788-04:00'
 curated:
   forms: []
   traditions: []
