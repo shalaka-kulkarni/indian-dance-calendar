@@ -48,10 +48,10 @@ validation:
   - url: https://www.silambamphoenix.org/upcoming-events
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:12:04.748538-04:00'
+    checked_at: '2026-10-12T16:56:17.388429-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-11T10:12:04.748515-04:00'
+  validated_at: '2026-10-12T16:56:17.388404-04:00'
 curated:
   forms: []
   traditions: []

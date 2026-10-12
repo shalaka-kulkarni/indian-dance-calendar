@@ -47,12 +47,12 @@ validation:
   - url: https://ci.ovationtix.com/36035/production/1292748?performanceId=11874779
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:12:15.317034-04:00'
+    checked_at: '2026-10-12T16:56:37.704949-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T10:12:15.316991-04:00'
+  validated_at: '2026-10-12T16:56:37.704923-04:00'
 curated:
   forms: []
   traditions: []

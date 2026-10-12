@@ -39,17 +39,20 @@ validation:
   checks:
     has_info_url: true
     specific_url: true
-    links_live: false
+    links_live: true
     date_valid: false
     price_known: true
     in_metro: true
     classified: false
-  link_checks: []
+  link_checks:
+  - url: https://allevents.in/new-york/battle-of-tables-culinary-studio-indian-curry-cooking-class/10000862237945907
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-12T16:55:53.140368-04:00'
   problems:
-  - links not yet verified (offline run)
   - event date 2026-10-11 is in the past
   - classified not-relevant
-  validated_at: '2026-10-12T16:52:30.299998-04:00'
+  validated_at: '2026-10-12T16:55:53.140340-04:00'
 curated:
   forms: []
   traditions: []

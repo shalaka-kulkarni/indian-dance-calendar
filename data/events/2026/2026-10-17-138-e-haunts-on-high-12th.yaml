@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/pottstown/haunts-on-high-12th-annual-tickets/80006618155054
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:12:12.566584-04:00'
+    checked_at: '2026-10-12T16:56:29.770645-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T10:12:12.566563-04:00'
+  validated_at: '2026-10-12T16:56:29.770620-04:00'
 curated:
   forms: []
   traditions: []

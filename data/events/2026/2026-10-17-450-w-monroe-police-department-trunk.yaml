@@ -47,12 +47,12 @@ validation:
   - url: https://allevents.in/monroe/monroe-police-department-trunk-or-treat/200030512638601
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:12:12.740290-04:00'
+    checked_at: '2026-10-12T16:56:29.926142-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T10:12:12.740267-04:00'
+  validated_at: '2026-10-12T16:56:29.926117-04:00'
 curated:
   forms: []
   traditions: []

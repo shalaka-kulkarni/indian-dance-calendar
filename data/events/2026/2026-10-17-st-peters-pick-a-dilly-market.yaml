@@ -48,12 +48,12 @@ validation:
   - url: https://allevents.in/katy/pick-a-dilly-market-tickets/80001139327966
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:12:18.471871-04:00'
+    checked_at: '2026-10-12T16:56:40.158347-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T10:12:18.471849-04:00'
+  validated_at: '2026-10-12T16:56:40.158322-04:00'
 curated:
   forms: []
   traditions: []

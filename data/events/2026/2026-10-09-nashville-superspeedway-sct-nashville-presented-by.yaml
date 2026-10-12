@@ -47,13 +47,13 @@ validation:
   - url: https://allevents.in/gladeville/sct-nashville-presented-by-hoosier-tire/200030219099747
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:11:18.151868-04:00'
+    checked_at: '2026-10-12T16:55:38.935080-04:00'
   problems:
   - event date 2026-10-09 is in the past
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T10:11:18.151845-04:00'
+  validated_at: '2026-10-12T16:55:38.935054-04:00'
 curated:
   forms: []
   traditions: []

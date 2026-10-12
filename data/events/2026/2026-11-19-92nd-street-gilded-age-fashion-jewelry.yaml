@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://www.92ny.org/event/gilded-age-fashion-and-jewelry
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-11T10:14:55.751686-04:00'
   - url: https://seats.92ny.org/single/211442
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:14:58.106111-04:00'
+    checked_at: '2026-10-12T16:58:58.071827-04:00'
+  - url: https://www.92ny.org/event/gilded-age-fashion-and-jewelry
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-12T16:58:58.088518-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T10:14:55.751665-04:00'
+  validated_at: '2026-10-12T16:58:58.071806-04:00'
 curated:
   forms: []
   traditions: []

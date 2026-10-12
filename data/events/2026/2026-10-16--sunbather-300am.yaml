@@ -46,12 +46,12 @@ validation:
   - url: https://ticketstripe.com/events/6891109553047015
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:12:05.705547-04:00'
+    checked_at: '2026-10-12T16:56:18.236687-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T10:12:05.705527-04:00'
+  validated_at: '2026-10-12T16:56:18.236667-04:00'
 curated:
   forms: []
   traditions: []

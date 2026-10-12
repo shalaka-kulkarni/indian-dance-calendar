@@ -47,11 +47,11 @@ validation:
   - url: https://www.eventbrite.com/e/cassandra-an-ongoing-tragedy-tickets-1988294567575?aff=oddtdtcreator
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:12:05.620416-04:00'
+    checked_at: '2026-10-12T16:56:18.173168-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T10:12:05.620393-04:00'
+  validated_at: '2026-10-12T16:56:18.173145-04:00'
 curated:
   forms: []
   traditions: []

@@ -1,5 +1,5 @@
 id: 2026-10-11--sitar-concert---kalyanjit
-status: published
+status: past
 was_published: true
 needs_recheck: false
 scraped:
@@ -41,12 +41,12 @@ ai:
   model: hand-classified (routine lacked push access)
   classified_at: '2026-10-03'
 validation:
-  passed: true
+  passed: false
   checks:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: false
     in_metro: true
     classified: true
@@ -54,10 +54,11 @@ validation:
   - url: https://chhandayan.org/calendar/2025/7/26/sitar-concert-kalyanjit-das-lgsd8
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:11:32.617239-04:00'
+    checked_at: '2026-10-12T16:55:51.015962-04:00'
   problems:
+  - event date 2026-10-11 is in the past
   - no price information
-  validated_at: '2026-10-11T10:11:32.617213-04:00'
+  validated_at: '2026-10-12T16:55:51.015938-04:00'
 curated:
   forms: []
   traditions: []

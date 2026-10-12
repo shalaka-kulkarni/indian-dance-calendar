@@ -51,11 +51,11 @@ validation:
   - url: https://www.sopacnow.org/events/goldings-bernstein-stewart-organ-trio-2027/
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:15:42.827807-04:00'
+    checked_at: '2026-10-12T17:00:01.826157-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T10:15:42.827780-04:00'
+  validated_at: '2026-10-12T17:00:01.826134-04:00'
 curated:
   forms: []
   traditions: []

@@ -50,11 +50,11 @@ validation:
   - url: https://allevents.in/san-francisco/san-francisco-halloween-bar-crawl-2026-tickets/80001739665779
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:13:01.143667-04:00'
+    checked_at: '2026-10-12T16:57:16.512273-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T10:13:01.143644-04:00'
+  validated_at: '2026-10-12T16:57:16.512221-04:00'
 curated:
   forms: []
   traditions: []

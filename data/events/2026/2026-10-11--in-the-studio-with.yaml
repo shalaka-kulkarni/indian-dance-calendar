@@ -41,7 +41,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: true
     in_metro: true
     classified: false
@@ -49,10 +49,11 @@ validation:
   - url: https://www.eventbrite.com/e/in-the-studio-daniel-gwirtzman-dance-company-at-new-york-city-center-tickets-1997468564246
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:11:31.219974-04:00'
+    checked_at: '2026-10-12T16:55:48.413691-04:00'
   problems:
+  - event date 2026-10-11 is in the past
   - classified not-relevant
-  validated_at: '2026-10-11T10:11:31.219948-04:00'
+  validated_at: '2026-10-12T16:55:48.413654-04:00'
 curated:
   forms: []
   traditions: []

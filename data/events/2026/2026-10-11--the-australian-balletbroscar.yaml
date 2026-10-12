@@ -43,7 +43,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: false
     in_metro: true
     classified: false
@@ -51,11 +51,12 @@ validation:
   - url: https://www.nycitycenter.org/events/instances/7vqwme95/2026-10-11/2026-2027-the-australian-ballet
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:11:35.614425-04:00'
+    checked_at: '2026-10-12T16:55:51.552600-04:00'
   problems:
+  - event date 2026-10-11 is in the past
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T10:11:35.614402-04:00'
+  validated_at: '2026-10-12T16:55:51.552571-04:00'
 curated:
   forms: []
   traditions: []

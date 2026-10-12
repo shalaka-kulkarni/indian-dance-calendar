@@ -49,11 +49,11 @@ validation:
   - url: https://www.tix.com/ticket-sales/guggenheim/3515/event/1476998
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:12:23.354126-04:00'
+    checked_at: '2026-10-12T16:56:43.823307-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T10:12:23.354106-04:00'
+  validated_at: '2026-10-12T16:56:43.823287-04:00'
 curated:
   forms: []
   traditions: []

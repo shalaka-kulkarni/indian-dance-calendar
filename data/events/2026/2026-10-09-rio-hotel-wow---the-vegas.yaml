@@ -47,13 +47,13 @@ validation:
   - url: https://wow-vegas.com/9-years
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:11:20.001327-04:00'
+    checked_at: '2026-10-12T16:55:40.088446-04:00'
   problems:
   - event date 2026-10-09 is in the past
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T10:11:20.001301-04:00'
+  validated_at: '2026-10-12T16:55:40.088420-04:00'
 curated:
   forms: []
   traditions: []

@@ -48,13 +48,13 @@ validation:
   - url: https://allevents.in/simpsonville/fall-fest-with-amy-grant-and-mac-mcanally-ccnb-amphitheatre/200030531028643
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:10:50.642890-04:00'
+    checked_at: '2026-10-12T16:55:05.250513-04:00'
   problems:
   - event date 2026-10-04 is in the past
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T10:10:50.642865-04:00'
+  validated_at: '2026-10-12T16:55:05.250489-04:00'
 curated:
   forms: []
   traditions: []

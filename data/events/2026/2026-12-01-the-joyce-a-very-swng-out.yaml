@@ -47,11 +47,11 @@ validation:
   - url: https://www.joyce.org/performances/a-very-sw-ng-out-holiday-mqyx
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:15:12.758159-04:00'
+    checked_at: '2026-10-12T16:59:15.564017-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T10:15:12.758134-04:00'
+  validated_at: '2026-10-12T16:59:15.563993-04:00'
 curated:
   forms: []
   traditions: []

@@ -47,13 +47,13 @@ validation:
   - url: https://swans-of-harlem-from-the-horses-mouth.eventbrite.com
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:11:55.447663-04:00'
+    checked_at: '2026-10-12T16:56:06.305828-04:00'
   problems:
   - 'info URL is a bare homepage, not an event page: https://swans-of-harlem-from-the-horses-mouth.eventbrite.com'
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T10:11:55.447639-04:00'
+  validated_at: '2026-10-12T16:56:06.305801-04:00'
 curated:
   forms: []
   traditions: []

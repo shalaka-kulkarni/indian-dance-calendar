@@ -51,17 +51,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://my.stnj.org/24950/24951
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-11T10:12:50.565364-04:00'
   - url: https://www.stnj.org/events/detail/the-sixties-show-2026
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:12:50.757941-04:00'
+    checked_at: '2026-10-12T16:57:06.871397-04:00'
+  - url: https://my.stnj.org/24950/24951
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-12T16:57:06.926715-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T10:12:50.565340-04:00'
+  validated_at: '2026-10-12T16:57:06.871373-04:00'
 curated:
   forms: []
   traditions: []

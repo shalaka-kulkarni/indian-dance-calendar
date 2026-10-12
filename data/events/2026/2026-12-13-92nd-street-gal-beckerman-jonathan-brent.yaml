@@ -50,14 +50,14 @@ validation:
   - url: https://seats.92ny.org/single/211174
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:15:22.805962-04:00'
+    checked_at: '2026-10-12T16:59:34.774741-04:00'
   - url: https://www.92ny.org/event/preserving-history-under-fire
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:15:22.888204-04:00'
+    checked_at: '2026-10-12T16:59:34.829980-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T10:15:22.805938-04:00'
+  validated_at: '2026-10-12T16:59:34.774717-04:00'
 curated:
   forms: []
   traditions: []

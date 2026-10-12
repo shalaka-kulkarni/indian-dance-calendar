@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/211431
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-11T10:14:45.739306-04:00'
   - url: https://www.92ny.org/event/clarisse-monahan-with-carole-radziwill
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:14:45.827174-04:00'
+    checked_at: '2026-10-12T16:58:49.818184-04:00'
+  - url: https://seats.92ny.org/single/211431
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-12T16:58:51.431133-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T10:14:45.739280-04:00'
+  validated_at: '2026-10-12T16:58:49.818159-04:00'
 curated:
   forms: []
   traditions: []

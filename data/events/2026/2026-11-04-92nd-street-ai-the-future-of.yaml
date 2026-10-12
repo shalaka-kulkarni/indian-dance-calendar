@@ -50,14 +50,14 @@ validation:
   - url: https://seats.92ny.org/single/211276
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:13:56.854951-04:00'
+    checked_at: '2026-10-12T16:58:08.051526-04:00'
   - url: https://www.92ny.org/event/ai-and-the-future-of-community
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:13:56.954842-04:00'
+    checked_at: '2026-10-12T16:58:08.183933-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T10:13:56.854926-04:00'
+  validated_at: '2026-10-12T16:58:08.051502-04:00'
 curated:
   forms: []
   traditions: []

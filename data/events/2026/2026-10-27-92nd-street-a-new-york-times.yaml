@@ -50,14 +50,14 @@ validation:
   - url: https://www.92ny.org/event/a-new-york-times-games-night
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:13:14.133084-04:00'
+    checked_at: '2026-10-12T16:57:29.006076-04:00'
   - url: https://seats.92ny.org/single/211268
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:13:16.538948-04:00'
+    checked_at: '2026-10-12T16:57:30.587273-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T10:13:14.133060-04:00'
+  validated_at: '2026-10-12T16:57:29.006052-04:00'
 curated:
   forms: []
   traditions: []

@@ -46,11 +46,11 @@ validation:
   - url: https://pioneerworks.org/programs/members-night-broadcast-and-beers
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:15:14.318419-04:00'
+    checked_at: '2026-10-12T16:59:17.004107-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T10:15:14.318398-04:00'
+  validated_at: '2026-10-12T16:59:17.004084-04:00'
 curated:
   forms: []
   traditions: []

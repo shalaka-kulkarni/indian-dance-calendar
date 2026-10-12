@@ -49,11 +49,11 @@ validation:
   - url: https://events.sulekha.com/nye-2027-new-year-new-beginnings-with-dj-amrit-in-ny_event-in_farmingdale-ny_401737
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:15:32.267168-04:00'
+    checked_at: '2026-10-12T16:59:49.614682-04:00'
   problems:
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T10:15:32.267143-04:00'
+  validated_at: '2026-10-12T16:59:49.614658-04:00'
 curated:
   forms: []
   traditions: []

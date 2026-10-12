@@ -47,12 +47,12 @@ validation:
   - url: https://lallianceny.org/event/this-is-unreal/
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:12:03.849908-04:00'
+    checked_at: '2026-10-12T16:56:14.617760-04:00'
   problems:
   - no price information
   - region unknown — can't confirm NYC metro
   - classified not-relevant
-  validated_at: '2026-10-11T10:12:03.849887-04:00'
+  validated_at: '2026-10-12T16:56:14.617738-04:00'
 curated:
   forms: []
   traditions: []

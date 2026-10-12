@@ -48,11 +48,11 @@ validation:
   - url: https://www.prucenter.com/events/bare-knuckle-fighting-championship
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:12:14.817307-04:00'
+    checked_at: '2026-10-12T16:56:37.137088-04:00'
   problems:
   - no price information
   - classified not-relevant
-  validated_at: '2026-10-11T10:12:14.817282-04:00'
+  validated_at: '2026-10-12T16:56:37.137063-04:00'
 curated:
   forms: []
   traditions: []

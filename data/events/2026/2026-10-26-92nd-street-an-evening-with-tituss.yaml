@@ -46,17 +46,17 @@ validation:
     in_metro: true
     classified: false
   link_checks:
-  - url: https://seats.92ny.org/single/210575
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-11T10:13:09.062516-04:00'
   - url: https://www.92ny.org/event/an-evening-with-tituss-burgess
     ok: true
     status_code: 200
-    checked_at: '2026-10-11T10:13:09.152607-04:00'
+    checked_at: '2026-10-12T16:57:23.866929-04:00'
+  - url: https://seats.92ny.org/single/210575
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-12T16:57:25.095139-04:00'
   problems:
   - classified not-relevant
-  validated_at: '2026-10-11T10:13:09.062490-04:00'
+  validated_at: '2026-10-12T16:57:23.866903-04:00'
 curated:
   forms: []
   traditions: []
