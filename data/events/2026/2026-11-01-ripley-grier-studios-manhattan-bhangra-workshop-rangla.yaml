@@ -23,6 +23,20 @@ scraped:
     url: https://allevents.in/new-york/manhattan-bhangra-workshop-rangla-punjab-dance-academy/100002002642095417
     first_seen: '2026-10-11'
     last_seen: '2026-10-11'
+ai:
+  relevant: true
+  kind: workshop
+  art_form: dance
+  traditions:
+  - folk
+  forms:
+  - folk
+  music_styles: []
+  presenter_type: academy_student
+  confidence: high
+  reasoning: Bhangra workshop taught by Rangla Punjab Dance Academy at Ripley-Grier Studios in Manhattan.
+  model: claude-opus-5-5
+  classified_at: '2026-10-12'
 validation:
   passed: false
   checks:
