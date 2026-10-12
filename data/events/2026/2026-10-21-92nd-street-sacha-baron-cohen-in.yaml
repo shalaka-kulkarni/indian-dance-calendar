@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/sacha-baron-cohen
     first_seen: '2026-10-09'
-    last_seen: '2026-10-11'
+    last_seen: '2026-10-12'
 ai:
   relevant: false
   kind: performance

@@ -1,0 +1,48 @@
+id: 2026-12-08-the-joyce-tao-dance-theater
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Tao Dance Theater
+  start: '2026-12-08T19:30:00-05:00'
+  additional_dates: []
+  venue: The Joyce Theater
+  address: The Joyce Theater
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.joyce.org/performances/tao-dance-theater-jwfy
+  ticket_url: ''
+  description_snippet: The company makes its Joyce debut this winter with the melding of two works from
+    the company canon in Numerical Series—13 and 14.
+  content_hash: 13de26a8ca98d049
+  sources:
+  - source_id: joyce
+    url: https://www.joyce.org/performances/tao-dance-theater-jwfy
+    first_seen: '2026-10-12'
+    last_seen: '2026-10-12'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.joyce.org/performances/tao-dance-theater-jwfy
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-12T17:07:56.139199-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-12T17:07:56.139176-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

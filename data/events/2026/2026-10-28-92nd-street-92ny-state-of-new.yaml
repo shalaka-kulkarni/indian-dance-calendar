@@ -1,0 +1,48 @@
+id: 2026-10-28-92nd-street-92ny-state-of-new
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: '92NY State of New York with CEO Seth Pinsky: New York’s Gubernatorial Race'
+  start: '2026-10-28T19:30:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/new-york-s-gubernatorial-race
+  ticket_url: ''
+  description_snippet: As New Yorkers prepare to choose their governor this November, what are the forces
+    shaping the race — and the future of the state?
+  content_hash: a0b1bf55718f780a
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/new-york-s-gubernatorial-race
+    first_seen: '2026-10-12'
+    last_seen: '2026-10-12'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/new-york-s-gubernatorial-race
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-12T17:07:50.480515-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-12T17:07:50.480493-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

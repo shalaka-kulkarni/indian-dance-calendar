@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/signed-to-god-world-tour-2026-a-sidhu-moose-wala-hologram-experience_event-in_elmont-ny_401914
     first_seen: '2026-09-21'
-    last_seen: '2026-10-11'
+    last_seen: '2026-10-12'
 ai:
   relevant: true
   kind: performance
@@ -51,9 +51,9 @@ validation:
   - url: https://events.sulekha.com/signed-to-god-world-tour-2026-a-sidhu-moose-wala-hologram-experience_event-in_elmont-ny_401914
     ok: true
     status_code: 200
-    checked_at: '2026-10-12T16:57:11.209929-04:00'
+    checked_at: '2026-10-12T17:07:45.762704-04:00'
   problems: []
-  validated_at: '2026-10-12T16:57:11.209908-04:00'
+  validated_at: '2026-10-12T17:07:45.762683-04:00'
 curated:
   forms: []
   traditions: []

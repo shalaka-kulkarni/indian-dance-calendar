@@ -24,7 +24,7 @@ scraped:
   - source_id: center_at_west_park
     url: https://www.centeratwestpark.org/calendar/2026/10/19/cwp-film-center-screening-of-no-accident
     first_seen: '2026-10-03'
-    last_seen: '2026-10-11'
+    last_seen: '2026-10-12'
 ai:
   relevant: false
   kind: performance

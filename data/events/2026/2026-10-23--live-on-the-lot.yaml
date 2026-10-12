@@ -20,7 +20,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/live-on-the-lot-radio-pioneer-works-invites-hisham-akira-bharoocha
     first_seen: '2026-10-02'
-    last_seen: '2026-10-11'
+    last_seen: '2026-10-12'
 ai:
   relevant: false
   kind: performance

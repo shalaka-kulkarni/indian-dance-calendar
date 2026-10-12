@@ -1,0 +1,52 @@
+id: 2026-10-26-92nd-street-maira-kalman-joy
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Maira Kalman: Joy'
+  start: '2026-10-26T20:00:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 25.0
+  price_max: 25.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/maira-kalman-joy
+  ticket_url: https://seats.92ny.org/single/211000
+  description_snippet: Maira Kalman discusses her new collection of paintings and prose, Joy .
+  content_hash: b85cb1eb0b1b09c2
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/maira-kalman-joy
+    first_seen: '2026-10-12'
+    last_seen: '2026-10-12'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/211000
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-12T17:07:46.415448-04:00'
+  - url: https://www.92ny.org/event/maira-kalman-joy
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-12T17:07:48.277542-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-12T17:07:46.415427-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -50,10 +50,10 @@ validation:
   - url: https://events.sulekha.com/diwali-on-the-hudson-2026_event-in_new-york-ny_399524
     ok: true
     status_code: 200
-    checked_at: '2026-10-12T16:57:06.638521-04:00'
+    checked_at: '2026-10-12T17:07:45.634435-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-12T16:57:06.638497-04:00'
+  validated_at: '2026-10-12T17:07:45.634414-04:00'
 curated:
   forms:
   - bollywood

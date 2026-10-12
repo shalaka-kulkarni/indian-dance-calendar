@@ -20,7 +20,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/taemin
     first_seen: '2026-08-26'
-    last_seen: '2026-10-11'
+    last_seen: '2026-10-12'
 ai:
   relevant: false
   kind: performance

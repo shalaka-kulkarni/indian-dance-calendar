@@ -1,0 +1,49 @@
+id: 2026-10-23-woodman-family-in-motion
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: In Motion
+  start: '2026-10-23T19:00:00-04:00'
+  additional_dates: []
+  venue: Woodman Family Community & Performance Center
+  address: ''
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://balletri.org/performances/
+  ticket_url: ''
+  description_snippet: In Motion Woodman Family Community & Performance Center Fri. October, 23 @ 7:00pm
+    (+ 3 more)
+  content_hash: 571b20095e5528a0
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/In-Motion-2026-10-23_25
+    first_seen: '2026-10-12'
+    last_seen: '2026-10-12'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://balletri.org/performances/
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-12T17:07:45.918223-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-10-12T17:07:45.918203-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -20,7 +20,7 @@ scraped:
   - source_id: timeout_ny
     url: https://www.timeout.com/newyork/dance/new-york-city-ballet-fall-2026
     first_seen: '2026-09-25'
-    last_seen: '2026-10-11'
+    last_seen: '2026-10-12'
 ai:
   relevant: false
   kind: performance

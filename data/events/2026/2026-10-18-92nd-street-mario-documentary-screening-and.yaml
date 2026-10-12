@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/mario-documentary-screening-and-conversation
     first_seen: '2026-08-28'
-    last_seen: '2026-09-09'
+    last_seen: '2026-10-12'
 ai:
   relevant: false
   kind: performance
