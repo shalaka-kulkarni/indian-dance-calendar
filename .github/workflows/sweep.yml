@@ -20,7 +20,8 @@ permissions:
 jobs:
   sweep:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # Scrape ~11 min plus re-check ~8 min, with room for a slow venue site.
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
         with:

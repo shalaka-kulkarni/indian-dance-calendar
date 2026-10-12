@@ -160,6 +160,12 @@ def ingest(raw_events: list[RawEvent], sources_by_id: dict[str, Source], client:
             event = match
             if merge_into(event, scraped, today):
                 stats["updated"] += 1
+            # A rejected event stays rejected, so classifying and link-checking
+            # it again only costs time. Record the sighting and move on.
+            if event.status == Status.REJECTED:
+                stats["rejected"] += 1
+                save_event(event)
+                continue
         if event.ai is None or event.needs_recheck:
             classification = classify_event(
                 event.scraped,
@@ -246,6 +252,12 @@ def cmd_validate(check_links: bool = True) -> dict:
             if event.was_published:
                 event.validation = validate_past_event(event, client=client)
                 save_event(event)
+            continue
+        # Rejected is final, so re-checking a rejected event's links changes
+        # nothing. There are hundreds of them and the list only grows; checking
+        # them all pushed the 12 Oct 2026 sweep past its time limit and lost it.
+        if event.status == Status.REJECTED:
+            stats["rejected"] += 1
             continue
         # Offline runs can't verify links; never let that demote a live event.
         if not check_links and event.status == Status.PUBLISHED:
