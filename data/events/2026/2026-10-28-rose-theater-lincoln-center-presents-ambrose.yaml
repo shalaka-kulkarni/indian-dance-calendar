@@ -1,5 +1,5 @@
 id: 2026-10-28-rose-theater-lincoln-center-presents-ambrose
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -21,26 +21,35 @@ scraped:
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Lincoln-Center-Presents-Ambrose-Akinmusire-and-Aszure-Barton-A-a-a-B-BEND-2026-10-28_30
     first_seen: '2026-10-14'
     last_seen: '2026-10-14'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: jazz trumpet and contemporary choreography collaboration.'
+  model: claude-opus-5-5
+  classified_at: '2026-10-14'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: false
     in_metro: false
     classified: false
-  link_checks:
-  - url: https://www.lincolncenter.org/series/lincoln-center-presents/ambrose-akinmusire-and-aszure-barton
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-14T11:23:43.754313-04:00'
+  link_checks: []
   problems:
+  - links not yet verified (offline run)
   - no price information
   - region unknown — can't confirm NYC metro
-  - not yet classified (no API key run)
-  validated_at: '2026-10-14T11:23:43.754289-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-14T16:52:54.536555-04:00'
 curated:
   forms: []
   traditions: []

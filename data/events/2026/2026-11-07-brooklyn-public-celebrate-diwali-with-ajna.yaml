@@ -24,6 +24,19 @@ scraped:
     url: https://ajnadance.com/event/celebrate-diwali-with-ajna-dance-at-brooklyn-public-library/
     first_seen: '2026-10-14'
     last_seen: '2026-10-14'
+ai:
+  relevant: true
+  kind: community
+  art_form: both
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: professional_company
+  confidence: high
+  reasoning: Diwali community celebration at Brooklyn Public Library with Indian dance and music by Ajna
+    Dance Company, plus rangoli and diya crafts.
+  model: claude-opus-5-5
+  classified_at: '2026-10-14'
 validation:
   passed: false
   checks:
