@@ -49,10 +49,10 @@ validation:
   - url: https://ci.ovationtix.com/2742/production/1290496
     ok: true
     status_code: 200
-    checked_at: '2026-10-14T11:23:39.710838-04:00'
+    checked_at: '2026-10-14T16:53:41.360116-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-14T11:23:39.710809-04:00'
+  validated_at: '2026-10-14T16:53:41.360086-04:00'
 curated:
   forms: []
   traditions: []

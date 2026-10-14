@@ -47,9 +47,9 @@ validation:
   - url: https://events.sulekha.com/dandiya-night-with-garba-queen-foram-shah-group-in-niew-york_event-in_uniondale-ny_401416
     ok: true
     status_code: 200
-    checked_at: '2026-10-14T11:23:36.531399-04:00'
+    checked_at: '2026-10-14T16:53:38.695818-04:00'
   problems: []
-  validated_at: '2026-10-14T11:23:36.531394-04:00'
+  validated_at: '2026-10-14T16:53:38.695812-04:00'
 curated:
   forms: []
   traditions: []

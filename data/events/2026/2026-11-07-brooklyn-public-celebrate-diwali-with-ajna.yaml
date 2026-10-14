@@ -1,6 +1,6 @@
 id: 2026-11-07-brooklyn-public-celebrate-diwali-with-ajna
-status: needs_attention
-was_published: false
+status: published
+was_published: true
 needs_recheck: false
 scraped:
   title: Celebrate Diwali with Ajna Dance at Brooklyn Public Library
@@ -38,7 +38,7 @@ ai:
   model: claude-opus-5-5
   classified_at: '2026-10-14'
 validation:
-  passed: false
+  passed: true
   checks:
     has_info_url: true
     specific_url: true
@@ -46,16 +46,15 @@ validation:
     date_valid: true
     price_known: false
     in_metro: true
-    classified: false
+    classified: true
   link_checks:
   - url: https://ajnadance.com/event/celebrate-diwali-with-ajna-dance-at-brooklyn-public-library/
     ok: true
     status_code: 200
-    checked_at: '2026-10-14T11:23:48.448871-04:00'
+    checked_at: '2026-10-14T16:53:47.184119-04:00'
   problems:
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-10-14T11:23:48.448847-04:00'
+  validated_at: '2026-10-14T16:53:47.184094-04:00'
 curated:
   forms: []
   traditions: []
