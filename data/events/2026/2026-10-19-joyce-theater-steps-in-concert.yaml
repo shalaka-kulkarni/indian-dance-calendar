@@ -1,0 +1,47 @@
+id: 2026-10-19-joyce-theater-steps-in-concert
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Steps in Concert
+  start: '2026-10-19T19:30:00-04:00'
+  additional_dates: []
+  venue: Joyce Theater
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.stepsnyc.com/steps-in-concert/
+  ticket_url: ''
+  description_snippet: Steps in Concert Joyce Theater Mon. October, 19 @ 7:30pm
+  content_hash: 445fa33fef7da5bb
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/Steps-in-Concert-2026-10-19
+    first_seen: '2026-10-14'
+    last_seen: '2026-10-14'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.stepsnyc.com/steps-in-concert/
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-14T11:23:41.487381-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-14T11:23:41.487356-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

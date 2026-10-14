@@ -21,7 +21,7 @@ scraped:
   - source_id: allevents
     url: https://allevents.in/new-york/battle-of-tables-culinary-studio-indian-curry-cooking-class/10000862237945907
     first_seen: '2026-10-11'
-    last_seen: '2026-10-12'
+    last_seen: '2026-10-14'
 ai:
   relevant: false
   kind: performance

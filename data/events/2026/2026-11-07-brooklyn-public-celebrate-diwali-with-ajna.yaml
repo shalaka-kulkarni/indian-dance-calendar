@@ -1,0 +1,51 @@
+id: 2026-11-07-brooklyn-public-celebrate-diwali-with-ajna
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Celebrate Diwali with Ajna Dance at Brooklyn Public Library
+  start: '2026-11-07T12:00:00Z'
+  end: '2026-11-07T14:00:00Z'
+  additional_dates: []
+  venue: Brooklyn Public Library
+  address: 10 Grand Army Plaza, Brooklyn, NY
+  region: brooklyn
+  is_free: false
+  price_note: ''
+  info_url: https://ajnadance.com/event/celebrate-diwali-with-ajna-dance-at-brooklyn-public-library/
+  ticket_url: ''
+  description_snippet: Join us on November 7, 2026, at the Brooklyn Public Library for an unforgettable
+    celebration of Diwali, the Festival of Lights, featuring vibrant Indian dance, music, and movement.
+    Starting at 12 PM, the Dweck lobby will be open for a rangoli and clay lamp craft activity, which
+    you’ll be able to bring home with you. […] \n
+  content_hash: e112abb67920546e
+  sources:
+  - source_id: ajna_dance
+    url: https://ajnadance.com/event/celebrate-diwali-with-ajna-dance-at-brooklyn-public-library/
+    first_seen: '2026-10-14'
+    last_seen: '2026-10-14'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://ajnadance.com/event/celebrate-diwali-with-ajna-dance-at-brooklyn-public-library/
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-14T11:23:48.448871-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-14T11:23:48.448847-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

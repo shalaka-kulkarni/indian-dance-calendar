@@ -1,0 +1,53 @@
+id: 2026-10-31--vocal-workshop-with-sanjoy
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Vocal Workshop with Sanjoy Banerjee
+  start: '2026-10-31T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://chhandayan.org/calendar/2018/5/5/spring-classical-hindustani-vocal-workshop-hz9d4
+  ticket_url: ''
+  description_snippet: 'Oct 31 2:00 PM 14:00 New York , Workshop Vocal Workshop with Sanjoy Banerjee Saturday,
+    October 31, 2026 2:00 PM 6:00 PM 14:00 18:00 Chhandayan Center For Indian Music (map) Google Calendar
+    ICS Conductor - Sanjoy Banerjee Join a master vocalist an afternoon session of intense study at the
+    Chhandayan Center Dates: Saturday, October 31, 2026 Session: 2:00 - 6:00 pm Get Tickets Sanjoy Banerjee
+    Sanjoy Banerjee is one of the finest vocalists of international repute from India and a distinguished
+    exponent of the Kirana Gharana of North Indian Vocal Classical Music. Sanjoyji was a scholar at ITC
+    Sange'
+  content_hash: ec21592a6bbbf715
+  sources:
+  - source_id: chhandayan
+    url: https://chhandayan.org/calendar/2018/5/5/spring-classical-hindustani-vocal-workshop-hz9d4
+    first_seen: '2026-10-14'
+    last_seen: '2026-10-14'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://chhandayan.org/calendar/2018/5/5/spring-classical-hindustani-vocal-workshop-hz9d4
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-14T11:23:45.417590-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-14T11:23:45.417565-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

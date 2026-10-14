@@ -1,0 +1,49 @@
+id: 2026-11-15-jiva-studio-jiva-baithak-series
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Jiva Baithak Series
+  start: '2026-11-15T15:00:00Z'
+  end: '2026-11-15T17:00:00Z'
+  additional_dates: []
+  venue: Jiva Studio
+  address: 27-28 Thomson Ave. Unit 11, Long Island City, NY
+  region: queens
+  price_min: 25.0
+  price_max: 25.0
+  is_free: false
+  price_note: ''
+  info_url: https://jivaperformingarts.org/event/jiva-baithak-series/
+  ticket_url: https://jivaperformingarts.org/event/jiva-baithak-series/
+  description_snippet: An Afternoon of Carnatic Music
+  content_hash: ca4f562bd9b26b61
+  sources:
+  - source_id: jiva_dance
+    url: https://jivaperformingarts.org/event/jiva-baithak-series/
+    first_seen: '2026-10-14'
+    last_seen: '2026-10-14'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://jivaperformingarts.org/event/jiva-baithak-series/
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-14T11:23:50.696770-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-14T11:23:50.696744-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

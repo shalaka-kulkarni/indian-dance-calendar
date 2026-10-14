@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/fall-saturdays2
     first_seen: '2026-10-09'
-    last_seen: '2026-10-12'
+    last_seen: '2026-10-14'
 ai:
   relevant: false
   kind: performance

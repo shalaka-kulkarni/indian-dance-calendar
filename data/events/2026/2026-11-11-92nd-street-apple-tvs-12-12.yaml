@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/apple-tv-s-12-12-12
     first_seen: '2026-10-07'
-    last_seen: '2026-10-12'
+    last_seen: '2026-10-14'
 ai:
   relevant: false
   kind: performance
