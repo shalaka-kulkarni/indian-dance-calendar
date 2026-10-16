@@ -1,0 +1,48 @@
+id: 2027-02-12-prudential-center-kenshi-yonezu
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Kenshi Yonezu
+  start: '2027-02-12T20:00:00-05:00'
+  end: '2027-02-12T21:00:00-05:00'
+  additional_dates: []
+  venue: Prudential Center
+  address: Kenshi Yonezu
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.prucenter.com/events/kenshi-yonezu
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: d860f0866dc0768c
+  sources:
+  - source_id: prudential_center
+    url: https://www.prucenter.com/events/kenshi-yonezu
+    first_seen: '2026-10-16'
+    last_seen: '2026-10-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.prucenter.com/events/kenshi-yonezu
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-16T11:03:22.942685-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-16T11:03:22.942661-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

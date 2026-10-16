@@ -1,0 +1,53 @@
+id: 2027-02-06-92nd-street-elisabeth-brauss-piano
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Elisabeth Brauss, piano
+  start: '2027-02-06T19:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 45.0
+  price_max: 45.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/elisabeth-brauss
+  ticket_url: https://seats.92ny.org/single/210481
+  description_snippet: The young pianist setting the piano world abuzz, Elisabeth Brauss makes her 92NY
+    debut with a gorgeous program of Mozart, Brahms, Schumann & more.
+  content_hash: d27354723f53bc4c
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/elisabeth-brauss
+    first_seen: '2026-10-16'
+    last_seen: '2026-10-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/elisabeth-brauss
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-16T11:03:22.886168-04:00'
+  - url: https://seats.92ny.org/single/210481
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-16T11:03:22.923536-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-16T11:03:22.886148-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

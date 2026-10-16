@@ -1,0 +1,49 @@
+id: 2026-10-29-92ny-92ny-harkness-dance-center
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: '92NY Harkness Dance Center Presents Christopher Williams: Spectre de la Rose & La Rhétorique
+    des Dieux'
+  start: '2026-10-29T19:00:00-04:00'
+  additional_dates: []
+  venue: 92NY
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.dance-enthusiast.com/dance-listings/events/view/92NY-Harkness-Dance-Center-Presents-Christopher-Williams-Spectre-de-la-Rose-La-Rhtorique-des-Dieux-2026-10-29_30
+  ticket_url: ''
+  description_snippet: '92NY Harkness Dance Center Presents Christopher Williams: Spectre de la Rose &
+    La Rhétorique des Dieux 92NY Thu. October, 29 @ 7:00pm'
+  content_hash: ecac745dcf1af827
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/92NY-Harkness-Dance-Center-Presents-Christopher-Williams-Spectre-de-la-Rose-La-Rhtorique-des-Dieux-2026-10-29_30
+    first_seen: '2026-10-16'
+    last_seen: '2026-10-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.dance-enthusiast.com/dance-listings/events/view/92NY-Harkness-Dance-Center-Presents-Christopher-Williams-Spectre-de-la-Rose-La-Rhtorique-des-Dieux-2026-10-29_30
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-16T11:03:15.877519-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-16T11:03:15.877497-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

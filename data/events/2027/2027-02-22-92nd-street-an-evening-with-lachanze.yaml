@@ -1,0 +1,54 @@
+id: 2027-02-22-92nd-street-an-evening-with-lachanze
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: An Evening with LaChanze
+  start: '2027-02-22T19:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall Enter on 92nd St. between Lexington
+    & 3rd Ave.
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 55.0
+  price_max: 55.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/an-evening-with-lachanze
+  ticket_url: https://seats.92ny.org/single/210684
+  description_snippet: Broadway’s LaChanze, who won a Tony for her star turn in The Color Purple , joins
+    us for a career-spanning concert.
+  content_hash: 553fe127b7f03461
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/an-evening-with-lachanze
+    first_seen: '2026-10-16'
+    last_seen: '2026-10-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/an-evening-with-lachanze
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-16T11:03:23.318257-04:00'
+  - url: https://seats.92ny.org/single/210684
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-16T11:03:23.345820-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-16T11:03:23.318231-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,52 @@
+id: 2026-11-20-92nd-street-92ny-camps-family-shabbat
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 92NY Camps Family Shabbat Dinner
+  start: '2026-11-20T17:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Warburg Lounge
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 18.0
+  price_max: 18.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/92ny-camps-family-shabbat-dinner-xfyj8n06ef
+  ticket_url: https://seats.92ny.org/single/211472
+  description_snippet: ''
+  content_hash: a5a3aefbe6e7af3a
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/92ny-camps-family-shabbat-dinner-xfyj8n06ef
+    first_seen: '2026-10-16'
+    last_seen: '2026-10-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/92ny-camps-family-shabbat-dinner-xfyj8n06ef
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-16T11:03:22.184820-04:00'
+  - url: https://seats.92ny.org/single/211472
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-16T11:03:22.215526-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-16T11:03:22.184797-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

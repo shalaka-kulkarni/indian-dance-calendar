@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/nye-2027-new-year-new-beginnings-with-dj-amrit-in-ny_event-in_farmingdale-ny_401737
     first_seen: '2026-09-11'
-    last_seen: '2026-10-14'
+    last_seen: '2026-10-16'
 ai:
   relevant: false
   kind: performance

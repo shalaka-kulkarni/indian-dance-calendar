@@ -1,0 +1,53 @@
+id: 2026-12-04--vocal-concert-kaustuv-ganguly
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Vocal Concert – Kaustuv Ganguly
+  start: '2026-12-04T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://chhandayan.org/calendar/2025/6/28/vocal-concert-kaustuv-ganguly-n3edn
+  ticket_url: ''
+  description_snippet: Dec 4 8:00 PM 20:00 Baithak , New York , Online Vocal Concert - Kaustuv Ganguly
+    Friday, December 4, 2026 8:00 PM 9:30 PM 20:00 21:30 Chhandayan Center for Indian Music (map) Google
+    Calendar ICS Vocal - Kaustuv Ganguli Tabla - TBD Harmonium -TBD Come join us at the Chhandayan Center
+    for an evening of Hindustani vocal music performed by Dr. Kaustav Kanti Ganguli,. The performance
+    will also be streamed live. Purchase Tickets/Streaming Access Kaustav Ganguli Initiated into music
+    at an age of 4 through his grandfather Late Phanindra Mohan Ganguli he has continued his musical training
+    since the age
+  content_hash: 525fa7f5a2324616
+  sources:
+  - source_id: chhandayan
+    url: https://chhandayan.org/calendar/2025/6/28/vocal-concert-kaustuv-ganguly-n3edn
+    first_seen: '2026-10-16'
+    last_seen: '2026-10-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://chhandayan.org/calendar/2025/6/28/vocal-concert-kaustuv-ganguly-n3edn
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-16T11:03:22.358276-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-16T11:03:22.358251-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

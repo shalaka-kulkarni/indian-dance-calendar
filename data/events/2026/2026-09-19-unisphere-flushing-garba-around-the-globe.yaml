@@ -45,10 +45,10 @@ validation:
   - url: https://www.eventbrite.com/e/garba-around-the-globe-tickets-1992664047808
     ok: false
     status_code: 404
-    checked_at: '2026-10-14T16:53:35.030415-04:00'
+    checked_at: '2026-10-16T11:03:04.082245-04:00'
   problems:
   - 'archive info link dead: https://www.eventbrite.com/e/garba-around-the-globe-tickets-1992664047808'
-  validated_at: '2026-10-14T16:53:35.030409-04:00'
+  validated_at: '2026-10-16T11:03:04.082241-04:00'
 curated:
   forms:
   - folk

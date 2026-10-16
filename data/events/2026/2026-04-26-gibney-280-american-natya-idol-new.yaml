@@ -48,9 +48,9 @@ validation:
   - url: https://natya.org/new-york-natya-idol-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-10-14T16:53:17.239236-04:00'
+    checked_at: '2026-10-16T11:02:42.381991-04:00'
   problems: []
-  validated_at: '2026-10-14T16:53:17.239229-04:00'
+  validated_at: '2026-10-16T11:02:42.381986-04:00'
 curated:
   forms:
   - bharatanatyam

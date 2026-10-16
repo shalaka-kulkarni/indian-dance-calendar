@@ -1,5 +1,5 @@
 id: 2026-10-15--the-journey-of-kuchipudi
-status: published
+status: past
 was_published: true
 needs_recheck: false
 scraped:
@@ -39,20 +39,14 @@ validation:
   passed: true
   checks:
     has_info_url: true
-    specific_url: true
     links_live: true
-    date_valid: true
-    price_known: false
-    in_metro: true
-    classified: true
   link_checks:
   - url: https://ci.ovationtix.com/2742/production/1290496
     ok: true
     status_code: 200
-    checked_at: '2026-10-14T16:53:41.360116-04:00'
-  problems:
-  - no price information
-  validated_at: '2026-10-14T16:53:41.360086-04:00'
+    checked_at: '2026-10-16T11:03:10.770673-04:00'
+  problems: []
+  validated_at: '2026-10-16T11:03:10.770669-04:00'
 curated:
   forms: []
   traditions: []

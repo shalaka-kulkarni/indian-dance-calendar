@@ -1,0 +1,49 @@
+id: 2026-10-16-the-chocolate-this-is-unreal-by
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: '"This Is Unreal" by Liz Santoro & Pierre Godard (North American Premiere)'
+  start: '2026-10-16T19:00:00-04:00'
+  additional_dates: []
+  venue: The Chocolate Factory Theater
+  address: ''
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://lallianceny.org/event/this-is-unreal/
+  ticket_url: ''
+  description_snippet: '"This Is Unreal" by Liz Santoro & Pierre Godard (North American Premiere) The
+    Chocolate Factory Theater Fri. October, 16 @ 7:00pm (+ 2 more)'
+  content_hash: 805c2c402b29a922
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/This-Is-Unreal-by-Liz-Santoro-Pierre-Godard-North-American-Premiere-2026-10-15_17
+    first_seen: '2026-10-16'
+    last_seen: '2026-10-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://lallianceny.org/event/this-is-unreal/
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-16T11:03:11.162189-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-10-16T11:03:11.162166-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

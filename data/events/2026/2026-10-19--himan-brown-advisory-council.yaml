@@ -1,0 +1,52 @@
+id: 2026-10-19--himan-brown-advisory-council
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Himan Brown Advisory Council Present Welcome Back to 92NY Party
+  start: '2026-10-19T17:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  price_min: 10.0
+  price_max: 10.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/himan-brown-welcome-back-to-92ny-party-ukqb3885gb
+  ticket_url: https://seats.92ny.org/single/211428
+  description_snippet: Join us for an evening of fun with an open bar, food/dessert, live music and dancing!
+  content_hash: bd1919bf4dcab015
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/himan-brown-welcome-back-to-92ny-party-ukqb3885gb
+    first_seen: '2026-10-16'
+    last_seen: '2026-10-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/himan-brown-welcome-back-to-92ny-party-ukqb3885gb
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-16T11:03:13.047777-04:00'
+  - url: https://seats.92ny.org/single/211428
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-16T11:03:14.502781-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-16T11:03:13.047755-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

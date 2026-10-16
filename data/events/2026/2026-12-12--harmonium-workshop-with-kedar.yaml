@@ -1,0 +1,53 @@
+id: 2026-12-12--harmonium-workshop-with-kedar
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Harmonium Workshop with Kedar Naphade
+  start: '2026-12-12T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://chhandayan.org/calendar/2023/7/1/2023-tabla-ashram-at-shanti-mandir-793t4-4t8hw-raz7z-dmjhj-6t623-kywhm-6b3mz-r27d3
+  ticket_url: ''
+  description_snippet: 'Dec 12 9:30 AM 09:30 Workshop , New York Harmonium Workshop with Kedar Naphade
+    Saturday, December 12, 2026 9:30 AM 12:00 PM 09:30 12:00 269 W 39th Street, New York City, NY 10018
+    United States (map) Google Calendar ICS Come join Kedar Naphade for a workshop on how to play the
+    harmonium, one of the principal accompanying instruments used in vocal music. Workshop Schedule: Saturday
+    December 12, 2026 9:30am to 12 pm More Information and Registration Kedar Naphade Kedar Naphade (born
+    Jan 10, 1972) received preliminary training in Hindustani Classical Music from his grandfather, Shri
+    Dadasaheb Naph'
+  content_hash: 77ab1ec936793ec2
+  sources:
+  - source_id: chhandayan
+    url: https://chhandayan.org/calendar/2023/7/1/2023-tabla-ashram-at-shanti-mandir-793t4-4t8hw-raz7z-dmjhj-6t623-kywhm-6b3mz-r27d3
+    first_seen: '2026-10-16'
+    last_seen: '2026-10-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://chhandayan.org/calendar/2023/7/1/2023-tabla-ashram-at-shanti-mandir-793t4-4t8hw-raz7z-dmjhj-6t623-kywhm-6b3mz-r27d3
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-16T11:03:22.662307-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-16T11:03:22.662287-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

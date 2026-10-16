@@ -1,0 +1,48 @@
+id: 2026-10-29-alvin-ailey-daniel-gwirtzman-dance-company
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Daniel Gwirtzman Dance Company Announces the World Premiere of FRICTION at Ailey Citigroup Theater
+  start: '2026-10-29T19:00:00-04:00'
+  additional_dates: []
+  venue: Alvin Ailey Citigroup Theatre
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.eventbrite.com/e/friction-daniel-gwirtzman-dance-company-at-ailey-citigroup-theater-tickets-1993685282348?aff=oddtdtcreator
+  ticket_url: ''
+  description_snippet: Daniel Gwirtzman Dance Company Announces the World Premiere of FRICTION at Ailey
+    Citigroup Theater Alvin Ailey Citigroup Theatre Thu. October, 29 @ 7:00pm (+ 2 more)
+  content_hash: 819a92f18b4ee3f1
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/Daniel-Gwirtzman-Dance-Company-Announces-the-World-Premiere-of-FRICTION-at-Ailey-Citigroup-Theater-2026-10-29_31
+    first_seen: '2026-10-16'
+    last_seen: '2026-10-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.eventbrite.com/e/friction-daniel-gwirtzman-dance-company-at-ailey-citigroup-theater-tickets-1993685282348?aff=oddtdtcreator
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-16T11:03:16.704193-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-16T11:03:16.704168-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}
