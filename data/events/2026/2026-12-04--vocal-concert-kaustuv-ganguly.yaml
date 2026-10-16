@@ -26,6 +26,20 @@ scraped:
     url: https://chhandayan.org/calendar/2025/6/28/vocal-concert-kaustuv-ganguly-n3edn
     first_seen: '2026-10-16'
     last_seen: '2026-10-16'
+ai:
+  relevant: true
+  kind: performance
+  art_form: music
+  traditions:
+  - classical
+  forms: []
+  music_styles:
+  - hindustani
+  presenter_type: professional_company
+  confidence: high
+  reasoning: Evening of Hindustani vocal music by Kaustav Kanti Ganguli at the Chhandayan Center.
+  model: claude-opus-5-5
+  classified_at: '2026-10-16'
 validation:
   passed: false
   checks:

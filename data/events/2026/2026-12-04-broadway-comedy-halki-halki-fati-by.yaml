@@ -1,5 +1,5 @@
 id: 2026-12-04-broadway-comedy-halki-halki-fati-by
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -23,24 +23,33 @@ scraped:
     url: https://events.sulekha.com/halki-halki-fati-by-vikas-kush-sharma-in-newyork_event-in_new-york-ny_402322
     first_seen: '2026-10-16'
     last_seen: '2026-10-16'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: Hindi stand-up comedy.'
+  model: claude-opus-5-5
+  classified_at: '2026-10-16'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://events.sulekha.com/halki-halki-fati-by-vikas-kush-sharma-in-newyork_event-in_new-york-ny_402322
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-16T11:03:22.390366-04:00'
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-10-16T11:03:22.390344-04:00'
+  - links not yet verified (offline run)
+  - classified not-relevant
+  validated_at: '2026-10-16T16:52:49.461328-04:00'
 curated:
   forms: []
   traditions: []

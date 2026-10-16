@@ -23,6 +23,18 @@ scraped:
     url: https://events.sulekha.com/punjab-vibe-tour-2026-with-sahil-khan-live-in-concert_event-in_westbury-ny_402316
     first_seen: '2026-10-16'
     last_seen: '2026-10-16'
+ai:
+  relevant: true
+  kind: performance
+  art_form: music
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: medium
+  reasoning: Punjabi music concert tour stop at The Space at Westbury; the listing gives only the title.
+  model: claude-opus-5-5
+  classified_at: '2026-10-16'
 validation:
   passed: false
   checks:
