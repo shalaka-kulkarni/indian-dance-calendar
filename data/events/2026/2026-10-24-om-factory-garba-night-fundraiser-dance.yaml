@@ -52,9 +52,9 @@ validation:
   - url: https://events.sulekha.com/garba-night-fundraiser-dance-for-a-cause-in-newyork_event-in_new-york-ny_401844
     ok: true
     status_code: 200
-    checked_at: '2026-10-16T11:03:15.669979-04:00'
+    checked_at: '2026-10-16T16:53:42.484067-04:00'
   problems: []
-  validated_at: '2026-10-16T11:03:15.669956-04:00'
+  validated_at: '2026-10-16T16:53:42.484024-04:00'
 curated:
   forms: []
   traditions: []
