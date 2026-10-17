@@ -46,9 +46,9 @@ validation:
   - url: https://events.sulekha.com/revolution-sonu-nigam-concert-in-new-york_event-in_uniondale-ny_400866
     ok: true
     status_code: 200
-    checked_at: '2026-10-16T16:53:28.730907-04:00'
+    checked_at: '2026-10-17T11:37:35.586807-04:00'
   problems: []
-  validated_at: '2026-10-16T16:53:28.730902-04:00'
+  validated_at: '2026-10-17T11:37:35.586803-04:00'
 curated:
   forms: []
   traditions: []

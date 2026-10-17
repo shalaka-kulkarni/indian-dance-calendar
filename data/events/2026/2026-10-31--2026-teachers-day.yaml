@@ -49,11 +49,11 @@ validation:
   - url: https://www.cmana.org/etn/2026-teachers-day/
     ok: true
     status_code: 200
-    checked_at: '2026-10-16T16:53:42.638320-04:00'
+    checked_at: '2026-10-17T11:37:47.880584-04:00'
   problems:
   - no price information
   - relevance confidence too low for auto-publish
-  validated_at: '2026-10-16T16:53:42.638293-04:00'
+  validated_at: '2026-10-17T11:37:47.880563-04:00'
 curated:
   forms: []
   traditions: []
