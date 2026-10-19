@@ -47,9 +47,10 @@ validation:
   link_checks:
   - url: https://trinayaninj.org/durgapuja2026/
     ok: true
-    checked_at: '2026-10-19T17:02:50.102067-04:00'
+    status_code: 200
+    checked_at: '2026-10-19T17:06:39.375330-04:00'
   problems: []
-  validated_at: '2026-10-19T17:02:50.102063-04:00'
+  validated_at: '2026-10-19T17:06:39.375325-04:00'
 curated:
   forms:
   - folk
