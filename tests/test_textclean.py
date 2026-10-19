@@ -84,3 +84,11 @@ def test_clean_url_repairs_doubled_scheme_and_drops_tracking():
     # Parameters that identify the event stay, untouched.
     assert clean_url("https://venue.org/show?id=42&utm_source=fb") == "https://venue.org/show?id=42"
     assert clean_url("https://venue.org/show?id=42&date=2026-10-15") == "https://venue.org/show?id=42&date=2026-10-15"
+
+
+def test_clean_url_repairs_a_spaced_doubled_scheme():
+    assert clean_url("http:// https://presenter.org/tickets") == "https://presenter.org/tickets"
+    assert clean_url("https:// presenter.org/tickets") == "https://presenter.org/tickets"
+    assert clean_url("https://presenter.org/fall show") == "https://presenter.org/fall%20show"
+    # Two links run together: keep the last complete one.
+    assert clean_url("https://presenter.org: https://tickets.org/show/1") == "https://tickets.org/show/1"

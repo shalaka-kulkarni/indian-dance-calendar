@@ -372,6 +372,12 @@ def tde_outbound_link(html: str, page_url: str) -> str:
             continue  # image banners
         if not target.path.strip("/"):
             continue  # bare homepage
+        try:
+            import httpx
+
+            httpx.URL(href)
+        except Exception:  # noqa: BLE001 — a link no reader can follow
+            continue
         if href not in candidates:
             candidates.append(href)
     for href in candidates:

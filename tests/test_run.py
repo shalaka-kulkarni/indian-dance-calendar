@@ -26,3 +26,28 @@ def test_validate_skips_rejected_events(monkeypatch, sample_event):
     assert checked == ["other"]
     assert rejected.id not in saved
     assert stats["rejected"] == 1
+
+
+
+def test_one_bad_record_never_sinks_the_ingest(monkeypatch):
+    from pipeline.scrapers.base import RawEvent
+
+    good = RawEvent(source_id="x", source_url="https://v.org/cal", title="Kathak Evening",
+                    start_raw="2099-11-07T19:00:00-05:00", info_url="https://v.org/kathak")
+    bad = RawEvent(source_id="x", source_url="https://v.org/cal", title="Broken",
+                   start_raw="2099-11-08T19:00:00-05:00", info_url="https://v.org/broken")
+    saved = []
+    monkeypatch.setattr(run, "load_all_events", lambda: [])
+    monkeypatch.setattr(run, "save_event", lambda e: saved.append(e.scraped.title))
+    monkeypatch.setattr(run, "classify_event", lambda *a, **k: None)
+    real_validate = run.validate_event
+
+    def flaky(event, **kwargs):
+        if event.scraped.title == "Broken":
+            raise RuntimeError("boom")
+        return real_validate(event, check_links=False)
+
+    monkeypatch.setattr(run, "validate_event", flaky)
+    stats = run.ingest([bad, good], {}, client=None, check_links=False)
+    assert saved == ["Kathak Evening"]
+    assert stats["errors"] == 1

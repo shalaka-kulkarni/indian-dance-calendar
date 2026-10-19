@@ -228,3 +228,14 @@ def test_medium_confidence_still_publishes_at_a_trusted_source(sample_event):
     sample_event.ai = relevant_ai(confidence=Confidence.MEDIUM)
     result = validate_event(sample_event, assume_relevant=True, check_links=False, now=NOW)
     assert result.checks["classified"] is True
+
+
+def test_a_malformed_link_is_broken_not_a_crash():
+    import httpx
+
+    from pipeline.validate import check_link
+
+    with httpx.Client() as client:
+        result = check_link(client, "https://presenter.org: https://tickets.org/show/1")
+    assert result.ok is False
+    assert result.status_code is None

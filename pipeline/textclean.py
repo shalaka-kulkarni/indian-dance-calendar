@@ -147,13 +147,22 @@ _TRACKING_PARAM = re.compile(
     r"mc_cid|mc_eid|msclkid|igshid|_hsenc|_hsmi|mkt_tok)$",
     re.I,
 )
-_DOUBLE_SCHEME = re.compile(r"^(?:https?://)+(https?://)", re.I)
+_DOUBLE_SCHEME = re.compile(r"^(?:https?://\s*)+(https?://)", re.I)
+_SCHEME_GAP = re.compile(r"^(https?://)\s+", re.I)
 
 
 def clean_url(url: str) -> str:
-    """Repair a doubled scheme ("http://https://...") and drop tracking
-    parameters. Every other part of the link is left exactly as given."""
+    """Repair a doubled scheme ("http://https://...", also with a space
+    between), encode stray spaces, and drop tracking parameters. Every other part of the link is left exactly as given."""
     url = _DOUBLE_SCHEME.sub(r"\1", (url or "").strip())
+    url = _SCHEME_GAP.sub(r"\1", url)
+    # Two links run together ("https://site.org: https://site.org/tickets"):
+    # the last complete one is the address that was meant.
+    run_on = re.search(r"\s(https?://\S+)$", url, re.I)
+    if run_on:
+        url = run_on.group(1)
+    # A space typed into a link is never part of the address.
+    url = re.sub(r"\s+", "%20", url)
     parts = urlsplit(url)
     if not parts.query:
         return url

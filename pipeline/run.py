@@ -135,51 +135,61 @@ def ingest(raw_events: list[RawEvent], sources_by_id: dict[str, Source], client:
     existing = load_all_events()
     stats = {"new": 0, "updated": 0, "published": 0, "needs_attention": 0, "rejected": 0, "skipped": 0}
     for raw in raw_events:
-        source = sources_by_id.get(raw.source_id)
-        scraped = normalize(
-            raw,
-            source.region if source else Region.UNKNOWN,
-            today,
-            default_venue=source.venue if source else "",
-        )
-        if scraped is None:
-            stats["skipped"] += 1
-            continue
-        # Skip events already in the past at ingest time — by calendar day,
-        # so a date-only listing for today still gets in.
-        if scraped.start.date() < datetime.now(NY_TZ).date():
-            stats["skipped"] += 1
-            continue
-        match = find_match(scraped, existing)
-        assume = source.assume_relevant if source else False
-        if match is None:
-            event = Event(id=make_event_id(scraped), status=Status.NEEDS_ATTENTION, scraped=scraped)
-            existing.append(event)
-            stats["new"] += 1
-        else:
-            event = match
-            if merge_into(event, scraped, today):
-                stats["updated"] += 1
-            # A rejected event stays rejected, so classifying and link-checking
-            # it again only costs time. Record the sighting and move on.
-            if event.status == Status.REJECTED:
-                stats["rejected"] += 1
-                save_event(event)
-                continue
-        if event.ai is None or event.needs_recheck:
-            classification = classify_event(
-                event.scraped,
-                source.name if source else raw.source_id,
-                source.circuit.value if source else "unknown",
-                assume_relevant=assume,
-            )
-            if classification is not None:
-                event.ai = classification
-        validation = validate_event(event, assume_relevant=assume, client=client, check_links=check_links)
-        status = apply_publish_policy(event, validation)
-        stats[status.value] = stats.get(status.value, 0) + 1
-        save_event(event)
+        try:
+            _ingest_one(raw, sources_by_id, client, check_links, today, existing, stats)
+        except Exception as exc:  # noqa: BLE001 — isolation, as for sources
+            stats["errors"] = stats.get("errors", 0) + 1
+            log.warning("ingest failed for %r (%s): %s: %s",
+                        raw.title[:60], raw.info_url[:100], type(exc).__name__, exc)
     return stats
+
+
+def _ingest_one(raw, sources_by_id, client, check_links, today, existing, stats) -> None:
+    """normalize -> dedup -> classify -> validate -> save, for one raw record."""
+    source = sources_by_id.get(raw.source_id)
+    scraped = normalize(
+        raw,
+        source.region if source else Region.UNKNOWN,
+        today,
+        default_venue=source.venue if source else "",
+    )
+    if scraped is None:
+        stats["skipped"] += 1
+        return
+    # Skip events already in the past at ingest time — by calendar day,
+    # so a date-only listing for today still gets in.
+    if scraped.start.date() < datetime.now(NY_TZ).date():
+        stats["skipped"] += 1
+        return
+    match = find_match(scraped, existing)
+    assume = source.assume_relevant if source else False
+    if match is None:
+        event = Event(id=make_event_id(scraped), status=Status.NEEDS_ATTENTION, scraped=scraped)
+        existing.append(event)
+        stats["new"] += 1
+    else:
+        event = match
+        if merge_into(event, scraped, today):
+            stats["updated"] += 1
+        # A rejected event stays rejected, so classifying and link-checking
+        # it again only costs time. Record the sighting and move on.
+        if event.status == Status.REJECTED:
+            stats["rejected"] += 1
+            save_event(event)
+            return
+    if event.ai is None or event.needs_recheck:
+        classification = classify_event(
+            event.scraped,
+            source.name if source else raw.source_id,
+            source.circuit.value if source else "unknown",
+            assume_relevant=assume,
+        )
+        if classification is not None:
+            event.ai = classification
+    validation = validate_event(event, assume_relevant=assume, client=client, check_links=check_links)
+    status = apply_publish_policy(event, validation)
+    stats[status.value] = stats.get(status.value, 0) + 1
+    save_event(event)
 
 
 def cmd_sweep(check_links: bool = True) -> dict:
@@ -265,7 +275,11 @@ def cmd_validate(check_links: bool = True) -> dict:
         first_source = event.scraped.sources[0].source_id if event.scraped.sources else ""
         source = sources_by_id.get(first_source)
         assume = source.assume_relevant if source else False
-        validation = validate_event(event, assume_relevant=assume, client=client, check_links=check_links)
+        try:
+            validation = validate_event(event, assume_relevant=assume, client=client, check_links=check_links)
+        except Exception as exc:  # noqa: BLE001 — one event never sinks the run
+            log.warning("validate failed for %s: %s: %s", event.id, type(exc).__name__, exc)
+            continue
         status = apply_publish_policy(event, validation)
         stats[status.value] = stats.get(status.value, 0) + 1
         save_event(event)

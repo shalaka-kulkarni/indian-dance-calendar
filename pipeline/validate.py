@@ -59,6 +59,14 @@ GONE_CODES = {404, 410}
 
 def check_link(client: httpx.Client, url: str) -> LinkCheck:
     now = datetime.now(NY_TZ)
+    # A link that cannot even be parsed is not "unreachable for now": no reader
+    # can follow it. httpx raises InvalidURL for these, which is not an
+    # HTTPError, and one such link stopped the whole 19 Oct 2026 sweep.
+    try:
+        httpx.URL(url)
+    except (httpx.InvalidURL, ValueError) as exc:
+        log.warning("link malformed: %r (%s)", url, exc)
+        return LinkCheck(url=url, ok=False, status_code=None, checked_at=now)
     try:
         resp = client.head(url, follow_redirects=True, timeout=LINK_TIMEOUT)
         # Many servers reject HEAD; retry those with GET before judging.
