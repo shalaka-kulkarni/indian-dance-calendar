@@ -20,6 +20,21 @@ scraped:
     url: https://allevents.in/new-york/midtown-dance-bhangra-in-the-plaza/100002001250469025
     first_seen: '2026-10-19'
     last_seen: '2026-10-19'
+ai:
+  relevant: true
+  kind: community
+  art_form: dance
+  traditions:
+  - folk
+  forms:
+  - folk
+  music_styles: []
+  presenter_type: unknown
+  confidence: medium
+  reasoning: Bhangra session in Greeley Square Plaza in the Midtown Dance series; the listing gives only
+    the title, venue and date.
+  model: claude-opus-5-5
+  classified_at: '2026-10-19'
 validation:
   passed: false
   checks:
