@@ -21,7 +21,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/himan-brown-welcome-back-to-92ny-party-ukqb3885gb
     first_seen: '2026-10-16'
-    last_seen: '2026-10-16'
+    last_seen: '2026-10-19'
 ai:
   relevant: false
   kind: performance

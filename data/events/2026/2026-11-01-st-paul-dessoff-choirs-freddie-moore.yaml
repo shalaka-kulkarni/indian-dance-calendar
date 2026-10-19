@@ -1,0 +1,49 @@
+id: 2026-11-01-st-paul-dessoff-choirs-freddie-moore
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Dessoff Choirs, Freddie Moore, Footprints Dance Company, present Symphony in Motion
+  start: '2026-11-01T16:00:00-05:00'
+  additional_dates: []
+  venue: St. Paul & St. Andrew Church
+  address: ''
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://www.dance-enthusiast.com/dance-listings/events/view/Dessoff-Choirs-Freddie-Moore-Footprints-Dance-Company-present-Symphony-in-Motion-2026-11-01
+  ticket_url: ''
+  description_snippet: Dessoff Choirs, Freddie Moore, Footprints Dance Company, present Symphony in Motion
+    St. Paul & St. Andrew Church Sun. November, 1 @ 4:00pm
+  content_hash: 9f244c017a1ba450
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/Dessoff-Choirs-Freddie-Moore-Footprints-Dance-Company-present-Symphony-in-Motion-2026-11-01
+    first_seen: '2026-10-19'
+    last_seen: '2026-10-19'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://www.dance-enthusiast.com/dance-listings/events/view/Dessoff-Choirs-Freddie-Moore-Footprints-Dance-Company-present-Symphony-in-Motion-2026-11-01
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-19T17:04:17.946366-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-10-19T17:04:17.946341-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -20,7 +20,7 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/instances/zpc90na2/2027-03-04/2026-2027-flamenco-festival
     first_seen: '2026-08-21'
-    last_seen: '2026-10-16'
+    last_seen: '2026-10-19'
 ai:
   relevant: false
   kind: performance

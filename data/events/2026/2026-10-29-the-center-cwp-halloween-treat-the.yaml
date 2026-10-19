@@ -24,7 +24,7 @@ scraped:
   - source_id: center_at_west_park
     url: https://www.centeratwestpark.org/calendar/2026/10/29/cwp-halloween-treat-the-man-who-laughs-1
     first_seen: '2026-10-03'
-    last_seen: '2026-10-16'
+    last_seen: '2026-10-19'
 ai:
   relevant: false
   kind: performance

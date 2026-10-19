@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/red-riding-hood
     first_seen: '2026-09-28'
-    last_seen: '2026-10-14'
+    last_seen: '2026-10-19'
 ai:
   relevant: false
   kind: performance

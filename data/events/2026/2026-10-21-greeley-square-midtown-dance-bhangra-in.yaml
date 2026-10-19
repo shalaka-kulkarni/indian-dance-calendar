@@ -1,0 +1,47 @@
+id: 2026-10-21-greeley-square-midtown-dance-bhangra-in
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Midtown Dance: Bhangra in the Plaza'
+  start: '2026-10-21T00:00:00-04:00'
+  additional_dates: []
+  venue: Greeley Square Plaza (Broadway between 32nd and 33rd Streets)
+  address: Greeley Square Park, Broadway, New York, NY, United States, New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/new-york/midtown-dance-bhangra-in-the-plaza/100002001250469025
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 4859c21ac5ff7d3c
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/new-york/midtown-dance-bhangra-in-the-plaza/100002001250469025
+    first_seen: '2026-10-19'
+    last_seen: '2026-10-19'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://allevents.in/new-york/midtown-dance-bhangra-in-the-plaza/100002001250469025
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-19T17:04:10.360330-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-19T17:04:10.360301-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

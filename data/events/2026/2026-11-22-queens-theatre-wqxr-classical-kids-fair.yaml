@@ -1,0 +1,50 @@
+id: 2026-11-22-queens-theatre-wqxr-classical-kids-fair
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: WQXR Classical Kids Fair
+  start: '2026-11-22T12:00:00-05:00'
+  end: '2026-11-22T16:00:00-05:00'
+  additional_dates: []
+  venue: Queens Theatre
+  address: 14 United Nations Avenue South, Corona
+  region: queens
+  is_free: false
+  price_note: ''
+  info_url: https://queenstheatre.org/events/wqxr-classical-kids-fair-91t5
+  ticket_url: ''
+  description_snippet: A free day of music and wonder for our youngest audiences. Queens Theatre is thrilled
+    to welcome WQXR’s Classical Kids Fair for its fifth year. Families can enjoy live performances, instrument
+    discove…
+  content_hash: 48b95ce4f441cb6d
+  sources:
+  - source_id: queens_theatre
+    url: https://queenstheatre.org/events/wqxr-classical-kids-fair-91t5
+    first_seen: '2026-10-19'
+    last_seen: '2026-10-19'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://queenstheatre.org/events/wqxr-classical-kids-fair-91t5
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-19T17:04:25.382650-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-19T17:04:25.382626-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -25,7 +25,7 @@ scraped:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2023/7/1/2023-tabla-ashram-at-shanti-mandir-793t4-4t8hw-raz7z-dmjhj-6t623-kywhm-6b3mz
     first_seen: '2026-10-14'
-    last_seen: '2026-10-16'
+    last_seen: '2026-10-19'
 ai:
   relevant: true
   kind: workshop
@@ -54,10 +54,10 @@ validation:
   - url: https://chhandayan.org/calendar/2023/7/1/2023-tabla-ashram-at-shanti-mandir-793t4-4t8hw-raz7z-dmjhj-6t623-kywhm-6b3mz
     ok: true
     status_code: 200
-    checked_at: '2026-10-17T11:37:53.474495-04:00'
+    checked_at: '2026-10-19T17:04:23.703499-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-17T11:37:53.474475-04:00'
+  validated_at: '2026-10-19T17:04:23.703472-04:00'
 curated:
   forms: []
   traditions: []

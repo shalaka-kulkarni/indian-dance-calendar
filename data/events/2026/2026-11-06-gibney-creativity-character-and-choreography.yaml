@@ -1,0 +1,47 @@
+id: 2026-11-06-gibney-creativity-character-and-choreography
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Creativity, Character, and Choreography: Oona Doherty Repertoire Workshop with Ryan O’Neill'
+  start: '2026-11-06T10:00:00-05:00'
+  additional_dates: []
+  venue: Gibney
+  address: New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://gibneydance.org/event/creativity-character-and-choreography-oona-doherty-repertoire-workshop-with-ryan-oneill/
+  ticket_url: ''
+  description_snippet: About the Workshop
+  content_hash: 82ea7246b04c0927
+  sources:
+  - source_id: gibney
+    url: https://gibneydance.org/event/creativity-character-and-choreography-oona-doherty-repertoire-workshop-with-ryan-oneill/
+    first_seen: '2026-10-19'
+    last_seen: '2026-10-19'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://gibneydance.org/event/creativity-character-and-choreography-oona-doherty-repertoire-workshop-with-ryan-oneill/
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-19T17:04:20.935172-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-19T17:04:20.935144-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

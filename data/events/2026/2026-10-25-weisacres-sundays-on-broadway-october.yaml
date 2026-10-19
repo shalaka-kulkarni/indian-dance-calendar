@@ -1,0 +1,48 @@
+id: 2026-10-25-weisacres-sundays-on-broadway-october
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Sundays on Broadway – October 25
+  start: '2026-10-25T18:00:00-04:00'
+  additional_dates: []
+  venue: WeisAcres
+  address: ''
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://cathyweis.org/weisacres/sundays-on-broadway/
+  ticket_url: ''
+  description_snippet: Sundays on Broadway - October 25 WeisAcres Sun. October, 25 @ 6:00pm
+  content_hash: 8ab55888603867df
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/Sundays-on-Broadway-October-25-2026-10-25
+    first_seen: '2026-10-19'
+    last_seen: '2026-10-19'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://cathyweis.org/weisacres/sundays-on-broadway/
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-19T17:04:12.587326-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-10-19T17:04:12.587303-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

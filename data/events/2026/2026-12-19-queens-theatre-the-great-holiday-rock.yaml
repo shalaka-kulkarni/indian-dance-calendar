@@ -1,0 +1,49 @@
+id: 2026-12-19-queens-theatre-the-great-holiday-rock
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: The Great Holiday Rock Show — for kids!
+  start: '2026-12-19T12:00:00-05:00'
+  additional_dates: []
+  venue: Queens Theatre
+  address: 14 United Nations Avenue South, Corona
+  region: queens
+  is_free: false
+  price_note: ''
+  info_url: https://queenstheatre.org/events/the-great-holiday-rock-show-4mm3
+  ticket_url: ''
+  description_snippet: The Rock and Roll Playhouse is the largest national kid-friendly live concert series
+    having performed to hundreds of thousands of kids and their families. It has hosted over 1,000 shows
+    in more than 3…
+  content_hash: 4b69e76697db0c3d
+  sources:
+  - source_id: queens_theatre
+    url: https://queenstheatre.org/events/the-great-holiday-rock-show-4mm3
+    first_seen: '2026-10-19'
+    last_seen: '2026-10-19'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://queenstheatre.org/events/the-great-holiday-rock-show-4mm3
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-19T17:04:28.517442-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-19T17:04:28.517416-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}
