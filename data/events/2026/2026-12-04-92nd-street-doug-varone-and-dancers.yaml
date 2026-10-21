@@ -1,5 +1,5 @@
 id: 2026-12-04-92nd-street-doug-varone-and-dancers
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -23,28 +23,33 @@ scraped:
     url: https://www.92ny.org/event/doug-varone-and-dancers
     first_seen: '2026-10-21'
     last_seen: '2026-10-21'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: contemporary dance company.'
+  model: claude-opus-5-5
+  classified_at: '2026-10-21'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://www.92ny.org/event/doug-varone-and-dancers
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-21T11:32:18.222141-04:00'
-  - url: https://seats.92ny.org/single/210377
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-21T11:32:18.354265-04:00'
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-10-21T11:32:18.222121-04:00'
+  - links not yet verified (offline run)
+  - classified not-relevant
+  validated_at: '2026-10-21T16:52:57.059751-04:00'
 curated:
   forms: []
   traditions: []
