@@ -1,0 +1,50 @@
+id: 2027-02-05--south-orange-international-blues
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: South Orange International Blues Fest Winter Edition
+  start: '2027-02-05T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/winter-blues-fest-27/
+  ticket_url: ''
+  description_snippet: 'South Orange International Blues Fest Winter Edition FRI, FEB 5, 2027 at 7:30PM
+    Buy Tickets Blues legend Mike Griot curates the 4th Annual South Orange International Blues Festival:
+    Winter Edition. Expect a dynamic lineup, deep-pocket grooves, and soul-stirring sound. It’s Blues
+    for everyone, and the perfect way to warm up winter. Buy Tickets Learn More'
+  content_hash: 27ec5dda5374085a
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/winter-blues-fest-27/
+    first_seen: '2026-10-21'
+    last_seen: '2026-10-21'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/winter-blues-fest-27/
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-21T11:32:19.219333-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-21T11:32:19.219313-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

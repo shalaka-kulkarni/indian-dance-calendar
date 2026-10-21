@@ -1,0 +1,54 @@
+id: 2026-11-11-92nd-street-les-arts-florissants
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Les Arts Florissants
+  start: '2026-11-11T19:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall Enter on 92nd St. between Lexington
+    & 3rd Ave.
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 55.0
+  price_max: 55.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/les-arts-florissants
+  ticket_url: https://seats.92ny.org/single/210438
+  description_snippet: World-renowned Baroque ensemble Les Arts Florissants performs the dramatic, sensuous
+    madrigals of Monteverdi, bringing color & vitality to 400-year-old jewels.
+  content_hash: 83634edfafa66206
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/les-arts-florissants
+    first_seen: '2026-10-21'
+    last_seen: '2026-10-21'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/210438
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-21T11:32:16.385100-04:00'
+  - url: https://www.92ny.org/event/les-arts-florissants
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-21T11:32:16.464194-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-21T11:32:16.385078-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,54 @@
+id: 2026-12-09--92nynexus-schmooze-booze-latkes
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: '92NY/NEXUS Schmooze, Booze & Latkes: A Festive Mixology Experience'
+  start: '2026-12-09T18:30:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  price_min: 29.0
+  price_max: 29.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/nexus-schmooze-booze-and-latkes
+  ticket_url: https://seats.92ny.org/single/211526
+  description_snippet: Celebrate the holiday season with your 92NY/NEXUS crew! Back for a second year,
+    join us to mix, mingle, and learn to shake up popular cocktails with a professional mixologist as
+    we celebrate the Festival of Lights!
+  content_hash: 5d343f8100ba37b3
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/nexus-schmooze-booze-and-latkes
+    first_seen: '2026-10-21'
+    last_seen: '2026-10-21'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/nexus-schmooze-booze-and-latkes
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-21T11:32:18.794105-04:00'
+  - url: https://seats.92ny.org/single/211526
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-21T11:32:18.895883-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-21T11:32:18.794085-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -25,7 +25,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/christmas-with-the-beatles/
     first_seen: '2026-09-28'
-    last_seen: '2026-10-19'
+    last_seen: '2026-10-21'
 ai:
   relevant: false
   kind: performance

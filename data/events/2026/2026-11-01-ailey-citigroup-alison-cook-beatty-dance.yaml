@@ -20,7 +20,7 @@ scraped:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Alison-Cook-Beatty-Dance-presents-ARTISTS-IN-MOTION-2026-2026-11-01
     first_seen: '2026-10-19'
-    last_seen: '2026-10-19'
+    last_seen: '2026-10-21'
 ai:
   relevant: false
   kind: performance

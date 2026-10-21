@@ -1,0 +1,53 @@
+id: 2026-11-09-92nd-street-92nynexus-happy-hour-and
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 92NY/NEXUS Happy Hour and then L&L Joan Baez
+  start: '2026-11-09T18:00:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Weill Art Gallery
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 28.0
+  price_max: 28.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/nexus-happy-hour-joan-baez
+  ticket_url: https://seats.92ny.org/single/211528
+  description_snippet: Join 92NY/NEXUS for Happy Hour at 92NY before the Lyrics and Lyricist Joan Baez
+    Concert!
+  content_hash: 9a906dfda7c0172e
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/nexus-happy-hour-joan-baez
+    first_seen: '2026-10-21'
+    last_seen: '2026-10-21'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/211528
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-21T11:32:15.916160-04:00'
+  - url: https://www.92ny.org/event/nexus-happy-hour-joan-baez
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-21T11:32:16.267352-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-21T11:32:15.916137-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

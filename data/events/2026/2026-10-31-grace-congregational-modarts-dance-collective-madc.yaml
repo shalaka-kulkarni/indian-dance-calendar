@@ -20,7 +20,7 @@ scraped:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/MODArts-Dance-Collective-MADC-presents-Move-to-Change-Residency-Artists-Showing-2026-10-31
     first_seen: '2026-10-19'
-    last_seen: '2026-10-19'
+    last_seen: '2026-10-21'
 ai:
   relevant: false
   kind: performance

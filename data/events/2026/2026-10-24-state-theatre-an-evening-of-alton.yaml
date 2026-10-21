@@ -1,0 +1,59 @@
+id: 2026-10-24-state-theatre-an-evening-of-alton
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: An Evening of Alton Brown
+  start: '2026-10-24T19:30:00-04:00'
+  end: '2026-10-24T19:30:00-04:00'
+  additional_dates: []
+  venue: State Theatre New Jersey
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  price_min: 58.0
+  price_max: 58.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/an-evening-of-alton-brown-2026
+  ticket_url: https://my.stnj.org/25076/25077
+  description_snippet: Although he’s keeping the details under wraps, Brown has said that with An Evening
+    of Alton Brown he’s “stirring up some twists on his greatest hits,” and “spicing things up with new
+    demonstrations, music, and slightly scaled-down mayhem.” No matter what, An Evening of Alton Brown
+    will present Brown as you’ve never seen him—unless, of course, you’ve been invited to his house.Best
+    known for creating and hosting groundbreaking television shows such as Good Eats, Iron Chef America,
+    Cutthroat Kitchen, and Food Network Star, Brown has also built one of the most successful culinary
+    touring franchise
+  content_hash: e38f4a9dd2682427
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/an-evening-of-alton-brown-2026
+    first_seen: '2026-10-21'
+    last_seen: '2026-10-21'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.stnj.org/events/detail/an-evening-of-alton-brown-2026
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-21T11:32:08.637620-04:00'
+  - url: https://my.stnj.org/25076/25077
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-21T11:32:08.754619-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-21T11:32:08.637602-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

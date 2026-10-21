@@ -1,0 +1,59 @@
+id: 2026-10-28-state-theatre-whose-live-anyway
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Whose Live Anyway?
+  start: '2026-10-28T19:30:00-04:00'
+  end: '2026-10-28T19:30:00-04:00'
+  additional_dates: []
+  venue: State Theatre New Jersey
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  price_min: 58.0
+  price_max: 58.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/whose-live-anyway-2026
+  ticket_url: https://my.stnj.org/25090/25091
+  description_snippet: 'The current cast members of the Emmy®-nominated TV show Whose Line Is It Anyway?
+    are proud to present their new improv tour: WHOSE LIVE ANYWAY?WHOSE LIVE ANYWAY? is 90 minutes of
+    hilarious improvised comedy and song all based on audience suggestions. Cast members Ryan Stiles,
+    Greg Proops, Jeff B. Davis, Joel Murray, and Gary Anthony Williams will leave you gasping with the
+    very witty scenes they invent before your eyes. Audience participation is key to the show so bring
+    your suggestions and you might be asked to join the cast onstage! WHOSE LIVE ANYWAY? showcases some
+    of the improv games made'
+  content_hash: 77c7b2bb1e73ec5d
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/whose-live-anyway-2026
+    first_seen: '2026-10-21'
+    last_seen: '2026-10-21'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://my.stnj.org/25090/25091
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-21T11:32:09.000774-04:00'
+  - url: https://www.stnj.org/events/detail/whose-live-anyway-2026
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-21T11:32:09.040352-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-21T11:32:09.000738-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

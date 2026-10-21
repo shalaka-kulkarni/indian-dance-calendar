@@ -20,7 +20,7 @@ scraped:
   - source_id: skirball
     url: https://tickets.nyu.edu/19155
     first_seen: '2026-08-18'
-    last_seen: '2026-10-19'
+    last_seen: '2026-10-21'
 ai:
   relevant: false
   kind: performance

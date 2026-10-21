@@ -1,0 +1,59 @@
+id: 2026-10-29-state-theatre-aziz-ansari-hypothetical-tour
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Aziz Ansari: Hypothetical Tour'
+  start: '2026-10-29T19:00:00-04:00'
+  end: '2026-10-29T23:30:00-04:00'
+  additional_dates: []
+  venue: State Theatre New Jersey
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  price_min: 40.0
+  price_max: 40.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/aziz-ansari-hypothetical-tour
+  ticket_url: https://my.stnj.org/overview/25766
+  description_snippet: '7:00PM SHOW – Limited Tickets9:30PM SHOW – Limited TicketsSee Aziz Ansari live
+    at State Theatre New Jersey for a Netflix Special Taping of his new show, Aziz Ansari: Hypothetical
+    Tour!Aziz Ansari is an award-winning actor, director, writer, and comedian. He co-created, writes,
+    directs, and stars in the Netflix original series Master of None for which he has won two Emmys® for
+    Outstanding Comedy Writing, as well as an Emmy® and DGA Award nomination for directing. He recently
+    released the film Good Fortune, which he wrote, directed, and co-starred in with Keanu Reeves and
+    Seth Rogen. He is also'
+  content_hash: 640faaeda1b6c8e8
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/aziz-ansari-hypothetical-tour
+    first_seen: '2026-10-21'
+    last_seen: '2026-10-21'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://my.stnj.org/overview/25766
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-21T11:32:10.886267-04:00'
+  - url: https://www.stnj.org/events/detail/aziz-ansari-hypothetical-tour
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-21T11:32:10.909931-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-21T11:32:10.886244-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

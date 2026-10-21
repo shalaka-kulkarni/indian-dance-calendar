@@ -19,7 +19,7 @@ scraped:
   - source_id: allevents
     url: https://allevents.in/new-york/midtown-dance-bhangra-in-the-plaza/100002001250469025
     first_seen: '2026-10-19'
-    last_seen: '2026-10-19'
+    last_seen: '2026-10-21'
 ai:
   relevant: true
   kind: community
@@ -49,10 +49,10 @@ validation:
   - url: https://allevents.in/new-york/midtown-dance-bhangra-in-the-plaza/100002001250469025
     ok: true
     status_code: 200
-    checked_at: '2026-10-19T17:06:40.100476-04:00'
+    checked_at: '2026-10-21T11:32:07.570215-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-19T17:06:40.100455-04:00'
+  validated_at: '2026-10-21T11:32:07.570188-04:00'
 curated:
   forms: []
   traditions: []

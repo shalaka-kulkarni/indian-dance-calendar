@@ -1,0 +1,50 @@
+id: 2026-10-29-92nd-street-fashion-icons-with-fern
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Fashion Icons with Fern Mallis: Iris van Herpen'
+  start: '2026-10-29T20:00:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall Enter on 92nd St. between Lexington
+    & 3rd Ave.
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 40.0
+  price_max: 40.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/fashion-icons-iris-van-herpen
+  ticket_url: https://www.92ny.org/event/fashion-icons-iris-van-herpen
+  description_snippet: In a Fashion Icons conversation with Fern Mallis, Iris van Herpen reflects on a
+    career devoted to expanding the boundaries of design.
+  content_hash: 57522df1254bf169
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/fashion-icons-iris-van-herpen
+    first_seen: '2026-10-21'
+    last_seen: '2026-10-21'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/fashion-icons-iris-van-herpen
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-21T11:32:09.146822-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-21T11:32:09.146803-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

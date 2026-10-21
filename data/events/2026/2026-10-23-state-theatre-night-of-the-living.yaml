@@ -1,0 +1,59 @@
+id: 2026-10-23-state-theatre-night-of-the-living
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Night of the Living Drag
+  start: '2026-10-23T20:00:00-04:00'
+  end: '2026-10-23T22:00:00-04:00'
+  additional_dates: []
+  venue: State Theatre New Jersey
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  price_min: 39.0
+  price_max: 39.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/the-night-of-the-living-drag-2026
+  ticket_url: https://my.stnj.org/25586/25587
+  description_snippet: COME EARLY AND VISIT! Before the show from 7pm-8pm, head up to the 2nd-floor lobby
+    and visit some of our partners, including Garden State Equality, New Jersey Gay Men's Chorus, Hyacinth
+    Foundation, Emanuel Lutheran Church, LAZOS, and Jester's Joint Dispensary. This Halloween, welcome
+    to Camp Slayaway.Night of the Living Drag returns with an outrageous ’80s slasher spectacular hosted
+    by Violet Chachki, with performances by Laganja Estranja, Jaida Essence Hall, Raja, Nicole Paige Brooks,
+    and Salina EsTitties. A summer of fun took a deadly turn at Camp Slayaway. Now Violet recounts the
+    t
+  content_hash: d93259e809c11344
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/the-night-of-the-living-drag-2026
+    first_seen: '2026-10-21'
+    last_seen: '2026-10-21'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://my.stnj.org/25586/25587
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-21T11:32:07.978828-04:00'
+  - url: https://www.stnj.org/events/detail/the-night-of-the-living-drag-2026
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-21T11:32:07.994664-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-21T11:32:07.978806-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

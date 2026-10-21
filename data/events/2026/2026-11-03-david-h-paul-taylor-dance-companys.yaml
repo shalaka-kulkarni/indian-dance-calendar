@@ -1,0 +1,48 @@
+id: 2026-11-03-david-h-paul-taylor-dance-companys
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Paul Taylor Dance Company’s 2026 Lincoln Center Season
+  start: '2026-11-03T19:00:00-05:00'
+  additional_dates: []
+  venue: David H. Koch Theater, Lincoln Center
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://paultaylordance.org/gala
+  ticket_url: ''
+  description_snippet: Paul Taylor Dance Company’s 2026 Lincoln Center Season David H. Koch Theater, Lincoln
+    Center Tue. November, 3 @ 7:00pm (+ 16 more)
+  content_hash: e34981930968666a
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/Paul-Taylor-Dance-Companys-2026-Lincoln-Center-Season-2026-11-03_22
+    first_seen: '2026-10-21'
+    last_seen: '2026-10-21'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://paultaylordance.org/gala
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-21T11:32:12.508665-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-21T11:32:12.508640-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

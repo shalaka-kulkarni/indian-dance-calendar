@@ -1,0 +1,58 @@
+id: 2026-10-25-state-theatre-opening-weekend-beethovens-emperor
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Opening Weekend: Beethoven’s “Emperor” & Schubert’s “Great”'
+  start: '2026-10-25T14:00:00-04:00'
+  end: '2026-10-25T16:00:00-04:00'
+  additional_dates: []
+  venue: State Theatre New Jersey
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/opening-weekend-njsymphony
+  ticket_url: https://my.njsymphony.org/24501/24516
+  description_snippet: Xian Zhang conductorGeorge Li pianoNew Jersey SymphonyA new season begins with
+    two of Classical music’s most epic works. Music Director Xian Zhang introduced George Li to New Jersey
+    audiences 10 years ago and he’s since become a true local favorite, returning now for Beethoven’s
+    heroic “Emperor” Piano Concerto. Schubert’s final symphony, also known as “The Great,” was lost in
+    a drawer and never performed during his lifetime—its songful grandeur is one of the wonders of the
+    romantic era.Ludwig van Beethoven Piano Concerto No. 5, “Emperor”Franz Schubert Symphony No. 9 in
+    C Major, “The Great”
+  content_hash: 0db8e6f6b1261e17
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/opening-weekend-njsymphony
+    first_seen: '2026-10-21'
+    last_seen: '2026-10-21'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://my.njsymphony.org/24501/24516
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-21T11:32:08.777938-04:00'
+  - url: https://www.stnj.org/events/detail/opening-weekend-njsymphony
+    ok: true
+    status_code: 406
+    checked_at: '2026-10-21T11:32:08.897844-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-21T11:32:08.777919-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,55 @@
+id: 2026-11-15-92nd-street-jennifer-lopez-the-jlo
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Jennifer Lopez — The JLO Show: Live in Las Vegas Screening and Conversation'
+  start: '2026-11-15T18:00:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall Enter on 92nd St. between Lexington
+    & 3rd Ave.
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 40.0
+  price_max: 40.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/jennifer-lopez
+  ticket_url: https://seats.92ny.org/single/211434
+  description_snippet: 'Join Jennifer Lopez for an advance screening of The JLO Show: Live in Las Vegas
+    , followed by a live, in-person conversation about the concert film, her Las Vegas residency, and
+    her extraordinary career.'
+  content_hash: 3e9e67ad58a2791d
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/jennifer-lopez
+    first_seen: '2026-10-21'
+    last_seen: '2026-10-21'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/jennifer-lopez
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-21T11:32:17.007709-04:00'
+  - url: https://seats.92ny.org/single/211434
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-21T11:32:17.114745-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-21T11:32:17.007689-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}
