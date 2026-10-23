@@ -1,0 +1,54 @@
+id: 2026-12-31--noon-years-eve-party
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Noon Year’s Eve Party The Rock and Roll Playhouse Plays the Music of Harry Styles
+  start: '2026-12-31T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  price_min: 0.0
+  price_max: 0.0
+  is_free: true
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/rock-and-roll-playhouse-harrystyles2026/
+  ticket_url: ''
+  description_snippet: 'Noon Year’s Eve Party The Rock and Roll Playhouse Plays the Music of Harry Styles
+    THU, DEC 31, 2026 at 12 PM On Sale Soon SOPAC’s Noon Year’s Eve Party is back! Ring in 2027 a little
+    early as The Rock and Roll Playhouse, the country’s largest kid-friendly concert series, plays the
+    music of Harry Styles in an interactive, sing-and-dance-along celebration for kids ages 1 to 7 and
+    their grown-ups. Keep the party going at the VIP After Party in The Loft, catered by BGR. New this
+    year: a FREE pre-show story time with the South Orange Public Library at 11AM in the SOPAC Loft. On
+    Sale Soon Learn More'
+  content_hash: 033dc86f48989056
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/rock-and-roll-playhouse-harrystyles2026/
+    first_seen: '2026-10-23'
+    last_seen: '2026-10-23'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/rock-and-roll-playhouse-harrystyles2026/
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-23T11:20:16.976032-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-23T11:20:16.976016-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

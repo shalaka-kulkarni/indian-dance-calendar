@@ -43,10 +43,10 @@ validation:
   link_checks:
   - url: https://ci.ovationtix.com/2742/production/1290496
     ok: true
-    status_code: 200
-    checked_at: '2026-10-21T16:53:41.849777-04:00'
+    status_code: 403
+    checked_at: '2026-10-23T11:19:55.642124-04:00'
   problems: []
-  validated_at: '2026-10-21T16:53:41.849772-04:00'
+  validated_at: '2026-10-23T11:19:55.642117-04:00'
 curated:
   forms: []
   traditions: []

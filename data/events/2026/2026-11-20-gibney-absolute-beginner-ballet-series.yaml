@@ -22,7 +22,7 @@ scraped:
   - source_id: gibney
     url: https://gibneydance.org/event/absolute-beginner-ballet-series-with-kat-wildish/absolute-beginner-ballet-series-with-kat-wildish-session-vi/
     first_seen: '2026-10-03'
-    last_seen: '2026-10-21'
+    last_seen: '2026-10-23'
 ai:
   relevant: false
   kind: performance

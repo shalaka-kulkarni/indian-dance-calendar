@@ -1,0 +1,48 @@
+id: 2026-11-05-nyu-skirball-sankai-juku-totem-void
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: '"Sankai Juku: TOTEM – Void and Height" at NYU Skirball'
+  start: '2026-11-05T19:30:00-05:00'
+  additional_dates: []
+  venue: NYU Skirball
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://tickets.nyu.edu/totem?queueittoken=e_safetynet~ts_1788141114~ce_true~rt_safetynet~h_cffe591e587649f3314ddf73d000b13b9281fdc2f8fbec69ad04c49704929bcb
+  ticket_url: ''
+  description_snippet: '"Sankai Juku: TOTEM - Void and Height" at NYU Skirball NYU Skirball Thu. November,
+    5 @ 7:30pm'
+  content_hash: 4328bb6e65aff6e4
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/Sankai-Juku-TOTEM-Void-and-Height-at-NYU-Skirball-2026-11-05
+    first_seen: '2026-10-23'
+    last_seen: '2026-10-23'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://tickets.nyu.edu/totem?queueittoken=e_safetynet~ts_1788141114~ce_true~rt_safetynet~h_cffe591e587649f3314ddf73d000b13b9281fdc2f8fbec69ad04c49704929bcb
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-23T11:20:01.394260-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-23T11:20:01.394240-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

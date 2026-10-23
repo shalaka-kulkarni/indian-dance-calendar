@@ -1,0 +1,49 @@
+id: 2026-11-21-castle-royale-annual-banquet-with-brazilian
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Annual Banquet with Brazilian Dancers in NY
+  start: '2026-11-21T17:30:00-05:00'
+  end: '2026-11-21T22:00:00-05:00'
+  additional_dates: []
+  venue: Castle Royale
+  address: 92 Waverly Street, Yonkers, NY
+  region: westchester
+  price_min: 125.0
+  price_max: 125.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/annual-banquet-with-brazilian-dancers-in-ny_event-in_yonkers-ny_402462
+  ticket_url: https://events.sulekha.com/annual-banquet-with-brazilian-dancers-in-ny_event-in_yonkers-ny_402462
+  description_snippet: Annual Banquet With Brazilian Dancers In Ny
+  content_hash: 30697e5bb8c69cbb
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/annual-banquet-with-brazilian-dancers-in-ny_event-in_yonkers-ny_402462
+    first_seen: '2026-10-23'
+    last_seen: '2026-10-23'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/annual-banquet-with-brazilian-dancers-in-ny_event-in_yonkers-ny_402462
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-23T11:20:16.045805-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-23T11:20:16.045791-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

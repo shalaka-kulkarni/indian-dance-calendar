@@ -22,7 +22,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/three-american-troubadours-27/
     first_seen: '2026-08-22'
-    last_seen: '2026-10-21'
+    last_seen: '2026-10-23'
 ai:
   relevant: false
   kind: performance

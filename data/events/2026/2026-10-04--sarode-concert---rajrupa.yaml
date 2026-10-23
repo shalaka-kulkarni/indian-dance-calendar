@@ -49,9 +49,9 @@ validation:
   - url: https://chhandayan.org/calendar/2026/10/4/sarode-concert-rajrupa-chowdhury
     ok: true
     status_code: 200
-    checked_at: '2026-10-21T16:53:38.109664-04:00'
+    checked_at: '2026-10-23T11:19:52.529910-04:00'
   problems: []
-  validated_at: '2026-10-21T16:53:38.109659-04:00'
+  validated_at: '2026-10-23T11:19:52.529904-04:00'
 curated:
   forms: []
   traditions: []

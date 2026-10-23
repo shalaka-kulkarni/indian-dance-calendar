@@ -1,0 +1,54 @@
+id: 2026-10-23--upcoming-events
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Upcoming Events
+  start: '2026-10-23T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  price_min: 0.0
+  price_max: 0.0
+  is_free: true
+  price_note: ''
+  info_url: https://asiasociety.org/new-york/events
+  ticket_url: ''
+  description_snippet: Sections + × Upcoming Events Family Programs Past Family Programs Leo Bar Happy
+    Hour Past Events Event Recaps Space Rental Auditorium Garden Court Penthouse Upcoming Events In-person
+    Film Hello, It's Me Friday 23 Oct 2026 6:30 - 8:45 p.m. The first Armenian film to screen at the Cannes
+    Film Festival in 1966, 'Hello, It’s Me' is a fictionalized biography of physicist Artem Alikhanyan.
+    Buy Tickets In-person Film Calendar + Lebbeus/Thaddeus Saturday 24 Oct 2026 12:30 - 2:15 p.m. 'Calendar'
+    follows a photographer who visits Armenia shortly after the country gains independence from the Soviet
+    Union
+  content_hash: f3384ef5d50b6113
+  sources:
+  - source_id: asia_society
+    url: https://asiasociety.org/new-york/events
+    first_seen: '2026-10-23'
+    last_seen: '2026-10-23'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://asiasociety.org/new-york/events
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-23T11:19:58.112874-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-23T11:19:58.112852-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

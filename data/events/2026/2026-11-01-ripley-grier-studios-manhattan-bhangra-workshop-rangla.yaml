@@ -22,7 +22,7 @@ scraped:
   - source_id: allevents
     url: https://allevents.in/new-york/manhattan-bhangra-workshop-rangla-punjab-dance-academy/100002002642095417
     first_seen: '2026-10-11'
-    last_seen: '2026-10-21'
+    last_seen: '2026-10-23'
 ai:
   relevant: true
   kind: workshop
@@ -51,9 +51,9 @@ validation:
   - url: https://allevents.in/new-york/manhattan-bhangra-workshop-rangla-punjab-dance-academy/100002002642095417
     ok: true
     status_code: 200
-    checked_at: '2026-10-21T16:53:45.097937-04:00'
+    checked_at: '2026-10-23T11:20:00.219579-04:00'
   problems: []
-  validated_at: '2026-10-21T16:53:45.097913-04:00'
+  validated_at: '2026-10-23T11:20:00.219560-04:00'
 curated:
   forms: []
   traditions: []

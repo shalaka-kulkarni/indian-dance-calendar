@@ -1,0 +1,50 @@
+id: 2027-01-09--presented-by-wheelhouse-cheese
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Presented by Wheelhouse Cheese & SOPAC The Big Cheese
+  start: '2027-01-09T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/the-big-cheese-27/
+  ticket_url: ''
+  description_snippet: Presented by Wheelhouse Cheese & SOPAC The Big Cheese SAT, JAN 9, 2027 at 7:30PM
+    On Sale Soon Celebrate all things cheese with a screening of the award-winning documentary The Big
+    Cheese , followed by a Q&A with Adam Moskowitz and an all-you-can-eat cheese party with Wheelhouse.
+    On Sale Soon Learn More
+  content_hash: 87ca9b41849faacf
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/the-big-cheese-27/
+    first_seen: '2026-10-23'
+    last_seen: '2026-10-23'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/the-big-cheese-27/
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-23T11:20:18.555309-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-23T11:20:18.555296-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

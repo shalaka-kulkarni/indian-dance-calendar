@@ -20,7 +20,7 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/instances/t7jka45g/2026-11-04/2026-2027-in-the-heights
     first_seen: '2026-08-16'
-    last_seen: '2026-10-21'
+    last_seen: '2026-10-23'
 ai:
   relevant: false
   kind: other

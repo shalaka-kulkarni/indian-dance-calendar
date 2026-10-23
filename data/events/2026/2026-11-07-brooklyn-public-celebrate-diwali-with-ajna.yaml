@@ -23,7 +23,7 @@ scraped:
   - source_id: ajna_dance
     url: https://ajnadance.com/event/celebrate-diwali-with-ajna-dance-at-brooklyn-public-library/
     first_seen: '2026-10-14'
-    last_seen: '2026-10-21'
+    last_seen: '2026-10-23'
 ai:
   relevant: true
   kind: community
@@ -51,10 +51,10 @@ validation:
   - url: https://ajnadance.com/event/celebrate-diwali-with-ajna-dance-at-brooklyn-public-library/
     ok: true
     status_code: 200
-    checked_at: '2026-10-21T16:53:46.463203-04:00'
+    checked_at: '2026-10-23T11:20:03.969677-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-21T16:53:46.463180-04:00'
+  validated_at: '2026-10-23T11:20:03.969663-04:00'
 curated:
   forms: []
   traditions: []

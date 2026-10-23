@@ -1,5 +1,5 @@
 id: 2026-10-21-greeley-square-midtown-dance-bhangra-in
-status: published
+status: past
 was_published: true
 needs_recheck: false
 scraped:
@@ -39,20 +39,14 @@ validation:
   passed: true
   checks:
     has_info_url: true
-    specific_url: true
     links_live: true
-    date_valid: true
-    price_known: false
-    in_metro: true
-    classified: true
   link_checks:
   - url: https://allevents.in/new-york/midtown-dance-bhangra-in-the-plaza/100002001250469025
     ok: true
     status_code: 200
-    checked_at: '2026-10-21T16:53:43.402378-04:00'
-  problems:
-  - no price information
-  validated_at: '2026-10-21T16:53:43.402353-04:00'
+    checked_at: '2026-10-23T11:19:57.516850-04:00'
+  problems: []
+  validated_at: '2026-10-23T11:19:57.516846-04:00'
 curated:
   forms: []
   traditions: []

@@ -20,7 +20,7 @@ scraped:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Cambridge-a-Comps-presents-Omayra-Amaya-Flamenco-Dance-Company-in-VIVENCIAS-2026-10-30_11-01
     first_seen: '2026-10-16'
-    last_seen: '2026-10-21'
+    last_seen: '2026-10-23'
 ai:
   relevant: false
   kind: performance

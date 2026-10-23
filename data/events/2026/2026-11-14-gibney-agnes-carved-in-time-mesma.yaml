@@ -27,7 +27,7 @@ scraped:
   - source_id: jiva_dance
     url: https://jivaperformingarts.org/event/carved-in-time/
     first_seen: '2026-10-05'
-    last_seen: '2026-10-19'
+    last_seen: '2026-10-23'
 ai:
   relevant: true
   kind: performance
@@ -57,9 +57,9 @@ validation:
   - url: https://www.zeffy.com/en-US/ticketing/carved-in-time
     ok: true
     status_code: 403
-    checked_at: '2026-10-21T16:53:48.398961-04:00'
+    checked_at: '2026-10-23T11:20:08.772542-04:00'
   problems: []
-  validated_at: '2026-10-21T16:53:48.398940-04:00'
+  validated_at: '2026-10-23T11:20:08.772528-04:00'
 curated:
   forms:
   - bharatanatyam

@@ -1,0 +1,48 @@
+id: 2026-11-06-new-brunswick-shanghai-ballet-presents-the
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Shanghai Ballet Presents "The Butterfly Lovers"
+  start: '2026-11-06T19:30:00-05:00'
+  additional_dates: []
+  venue: 'NEW BRUNSWICK, NJ: Shanghai Ballet Presents "The Butterfly Lovers" State Theatre New Jersey'
+  address: New Brunswick, NJ
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/shanghai-ballet-2026
+  ticket_url: ''
+  description_snippet: 'NEW BRUNSWICK, NJ: Shanghai Ballet Presents "The Butterfly Lovers" State Theatre
+    New Jersey Fri. November, 6 @ 7:30pm'
+  content_hash: d29ad46598e83dcd
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/NEW-BRUNSWICK-NJ-Shanghai-Ballet-Presents-The-Butterfly-Lovers-2026-11-06
+    first_seen: '2026-10-23'
+    last_seen: '2026-10-23'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.stnj.org/events/detail/shanghai-ballet-2026
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-23T11:20:03.414194-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-23T11:20:03.414174-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

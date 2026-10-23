@@ -1,0 +1,53 @@
+id: 2026-11-14--run-through-the-years
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Run Through the Years: The Decades of Broadway Presented by Seton Hall Theater'
+  start: '2026-11-14T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/run-through-the-years/
+  ticket_url: ''
+  description_snippet: 'Run Through the Years: The Decades of Broadway Presented by Seton Hall Theater
+    SAT, NOV 14, 2026 at 8 PM Buy Tickets Treat yourself to a dessert and drinks night with a Broadway
+    soundtrack! Seton Hall University’s theatre students take you on a decade-by-decade journey from the
+    1950s to today, with showstoppers from Gypsy, Into the Woods, Hadestown and more. It all happens in
+    the intimate SOPAC Loft, where every ticket includes dessert and a cash bar is available. Best of
+    all, your night out gives back: 100% of ticket sales support SOPAC’s work bringing the arts to our
+    community. Buy Tickets L'
+  content_hash: 578e6de0e9bdf09e
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/run-through-the-years/
+    first_seen: '2026-10-23'
+    last_seen: '2026-10-23'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/run-through-the-years/
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-23T11:20:08.571508-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-23T11:20:08.571491-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

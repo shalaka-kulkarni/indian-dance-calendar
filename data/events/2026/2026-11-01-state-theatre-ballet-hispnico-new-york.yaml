@@ -5,22 +5,29 @@ needs_recheck: false
 scraped:
   title: Ballet Hispánico New York Presents CARMEN.maquia
   start: '2026-11-01T15:00:00-05:00'
+  end: '2026-11-01T15:00:00-05:00'
   additional_dates: []
   venue: State Theatre New Jersey
-  address: ''
+  address: 15 Livingston Avenue, New Brunswick
   region: new_jersey
+  price_min: 34.0
+  price_max: 34.0
   is_free: false
   price_note: ''
   info_url: https://www.stnj.org/events/detail/ballet-hispanico-new-york-2026
-  ticket_url: ''
+  ticket_url: https://my.stnj.org/25145/25146
   description_snippet: Ballet Hispánico New York Presents CARMEN.maquia State Theatre New Jersey Sun.
     November, 1 @ 3:00pm
-  content_hash: 1f82b691fc18e075
+  content_hash: 9cf4f47ba900d36d
   sources:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Ballet-Hispnico-New-York-Presents-CARMEN.maquia-2026-11-01
     first_seen: '2026-10-19'
-    last_seen: '2026-10-21'
+    last_seen: '2026-10-23'
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/ballet-hispanico-new-york-2026
+    first_seen: '2026-10-23'
+    last_seen: '2026-10-23'
 ai:
   relevant: false
   kind: performance
