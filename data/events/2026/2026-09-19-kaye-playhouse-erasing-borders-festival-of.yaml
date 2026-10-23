@@ -59,9 +59,9 @@ validation:
   - url: https://iaac.us/dance/
     ok: true
     status_code: 200
-    checked_at: '2026-10-23T11:19:45.488472-04:00'
+    checked_at: '2026-10-23T16:54:27.971308-04:00'
   problems: []
-  validated_at: '2026-10-23T11:19:45.488464-04:00'
+  validated_at: '2026-10-23T16:54:27.971302-04:00'
 curated:
   forms:
   - bharatanatyam
