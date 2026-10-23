@@ -1,5 +1,5 @@
 id: 2026-10-23-ailey-citigroup-the-american-dance-guild
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -21,25 +21,34 @@ scraped:
     url: https://www.dance-enthusiast.com/dance-listings/events/view/The-American-Dance-Guild-70th-Anniversary-Performance-Festival-2026-10-22_25
     first_seen: '2026-10-23'
     last_seen: '2026-10-23'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: modern and contemporary dance festival.'
+  model: claude-opus-5-5
+  classified_at: '2026-10-23'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://www.zeffy.com/en-US/ticketing/70th-anniversary-festival
-    ok: true
-    status_code: 403
-    checked_at: '2026-10-23T11:19:58.257934-04:00'
+  link_checks: []
   problems:
+  - links not yet verified (offline run)
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-10-23T11:19:58.257915-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-23T16:53:45.023692-04:00'
 curated:
   forms: []
   traditions: []

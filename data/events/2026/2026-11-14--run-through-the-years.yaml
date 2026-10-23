@@ -1,5 +1,5 @@
 id: 2026-11-14--run-through-the-years
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -26,25 +26,34 @@ scraped:
     url: https://www.sopacnow.org/events/run-through-the-years/
     first_seen: '2026-10-23'
     last_seen: '2026-10-23'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: Broadway revue.'
+  model: claude-opus-5-5
+  classified_at: '2026-10-23'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://www.sopacnow.org/events/run-through-the-years/
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-23T11:20:08.571508-04:00'
+  link_checks: []
   problems:
+  - links not yet verified (offline run)
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-10-23T11:20:08.571491-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-23T16:53:45.046685-04:00'
 curated:
   forms: []
   traditions: []

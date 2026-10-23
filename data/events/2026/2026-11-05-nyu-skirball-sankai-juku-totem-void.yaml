@@ -1,5 +1,5 @@
 id: 2026-11-05-nyu-skirball-sankai-juku-totem-void
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -21,25 +21,34 @@ scraped:
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Sankai-Juku-TOTEM-Void-and-Height-at-NYU-Skirball-2026-11-05
     first_seen: '2026-10-23'
     last_seen: '2026-10-23'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: Japanese butoh.'
+  model: claude-opus-5-5
+  classified_at: '2026-10-23'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://tickets.nyu.edu/totem?queueittoken=e_safetynet~ts_1788141114~ce_true~rt_safetynet~h_cffe591e587649f3314ddf73d000b13b9281fdc2f8fbec69ad04c49704929bcb
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-23T11:20:01.394260-04:00'
+  link_checks: []
   problems:
+  - links not yet verified (offline run)
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-10-23T11:20:01.394240-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-23T16:53:45.028469-04:00'
 curated:
   forms: []
   traditions: []
