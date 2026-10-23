@@ -126,3 +126,21 @@ def test_outbound_link_ignores_chrome_and_bare_homepages():
         '<a href="https://presenter.org/">presenter.org</a>',
     )
     assert tde_outbound_link(page, PAGE_URL) == ""
+
+
+
+def test_venue_is_read_past_a_city_prefix():
+    page = """
+    <div class="col_1110">
+      <h2 class="date_col_heading">Friday November 6, 2026</h2>
+      <a class="listing_container" href="/dance-listings/events/view/Kathak-Evening-2026-11-06">
+        <div class="imageTitleB"><h2>NEW BRUNSWICK, NJ: Kathak Evening</h2></div>
+        <div>State Theatre New Jersey</div><div>Fri. November, 6 @ 7:30pm</div>
+      </a>
+    </div>
+    """
+    (event,) = extract_dance_enthusiast(page, "dance_enthusiast", "https://www.dance-enthusiast.com/dance-listings/events")
+    assert event.title == "Kathak Evening"
+    assert event.venue == "State Theatre New Jersey"
+    assert event.address == "New Brunswick, NJ"
+    assert event.start_raw == "November 6, 2026 7:30pm"

@@ -105,7 +105,11 @@ def infer_region(venue: str, address: str, fallback: Region = Region.UNKNOWN) ->
 # rather than spending a classification call rejecting each one.
 PLACEHOLDER_TITLE = re.compile(
     r"^(test|sample|dummy|placeholder|example|lorem ipsum|do not use|xxx+)\b"
-    r"|\b(test event|test performance|tbd test)\b",
+    r"|\b(test event|test performance|tbd test)\b"
+    # A calendar's own heading read as if it were an event (Asia Society's
+    # "Upcoming Events", 23 Oct 2026).
+    r"|^(upcoming|past|all|our|featured)\s+(events?|programs?|performances?)$"
+    r"|^(events?\s+)?calendar$",
     re.IGNORECASE,
 )
 

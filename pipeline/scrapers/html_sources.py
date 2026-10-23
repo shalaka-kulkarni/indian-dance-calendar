@@ -234,6 +234,7 @@ def extract_dance_enthusiast(html: str, source_id: str, page_url: str) -> list[R
         if not title:
             continue
         address = ""
+        heading = title  # as printed on the card, city prefix and all
         prefix = TDE_CITY_PREFIX.match(title)
         if prefix:
             city, state = prefix.group(1), prefix.group(2).upper()
@@ -243,7 +244,7 @@ def extract_dance_enthusiast(html: str, source_id: str, page_url: str) -> list[R
             address = f"{city.strip().title()}, {state}"
         seen.add(url)
         text = node.get_text(" ", strip=True)
-        venue, when = tde_venue_and_time(text, title)
+        venue, when = tde_venue_and_time(text, heading)
         price = PRICE_PAT.search(text)
         found.append(
             RawEvent(

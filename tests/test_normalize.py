@@ -58,7 +58,8 @@ def test_normalize_drops_venue_placeholder_rows():
     """City Center publishes real, link-live pages titled 'Test Event A'."""
     from pipeline.scrapers.base import RawEvent
 
-    for title in ("Test Event A - black text", "SAMPLE listing", "Placeholder show"):
+    for title in ("Test Event A - black text", "SAMPLE listing", "Placeholder show",
+                  "Upcoming Events", "Events Calendar"):
         raw = RawEvent(
             source_id="city_center",
             source_url="https://www.nycitycenter.org/events/instances/z423wc3g/",
