@@ -46,9 +46,9 @@ validation:
   - url: https://events.sulekha.com/sufi-sham-with-hansraj-hans-usa-tour-2026_event-in_westbury-ny_401134
     ok: true
     status_code: 200
-    checked_at: '2026-10-23T16:54:25.243904-04:00'
+    checked_at: '2026-10-23T16:55:35.040048-04:00'
   problems: []
-  validated_at: '2026-10-23T16:54:25.243898-04:00'
+  validated_at: '2026-10-23T16:55:35.040040-04:00'
 curated:
   forms: []
   traditions: []

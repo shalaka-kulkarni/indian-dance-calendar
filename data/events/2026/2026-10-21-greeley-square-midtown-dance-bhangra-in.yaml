@@ -44,9 +44,9 @@ validation:
   - url: https://allevents.in/new-york/midtown-dance-bhangra-in-the-plaza/100002001250469025
     ok: true
     status_code: 200
-    checked_at: '2026-10-23T16:54:38.411641-04:00'
+    checked_at: '2026-10-23T16:55:46.042091-04:00'
   problems: []
-  validated_at: '2026-10-23T16:54:38.411635-04:00'
+  validated_at: '2026-10-23T16:55:46.042086-04:00'
 curated:
   forms: []
   traditions: []
