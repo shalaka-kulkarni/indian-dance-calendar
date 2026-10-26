@@ -1,0 +1,48 @@
+id: 2027-02-13--milo-rau-medeas-children
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Milo Rau: Medea’s Children'
+  start: '2027-02-13T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://tickets.nyu.edu/overview/19157
+  ticket_url: ''
+  description_snippet: 'Thu Feb 11 – Sat Feb 13, 2027 Milo Rau: Medea’s Children The children tell it
+    this time. International Documentary Theater Theater Buy Tickets Learn More'
+  content_hash: ff86d8e1877bd7ce
+  sources:
+  - source_id: skirball
+    url: https://tickets.nyu.edu/overview/19157
+    first_seen: '2026-10-26'
+    last_seen: '2026-10-26'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://tickets.nyu.edu/overview/19157
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-26T12:59:53.201806-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-26T12:59:53.201787-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

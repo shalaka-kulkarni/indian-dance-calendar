@@ -1,0 +1,53 @@
+id: 2026-11-02-92nd-street-robert-pinsky-and-philip
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Robert Pinsky and Philip Schultz: The First Two Books of Poems and Enormous Morning'
+  start: '2026-11-02T19:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Warburg Lounge
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 30.0
+  price_max: 30.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/robert-pinsky-and-philip-schultz
+  ticket_url: https://seats.92ny.org/single/210905
+  description_snippet: Robert Pinsky and Philip Schultz read from The First Two Books of Poems and Enormous
+    Morning .
+  content_hash: 3faaf85b94535066
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/robert-pinsky-and-philip-schultz
+    first_seen: '2026-10-26'
+    last_seen: '2026-10-26'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/robert-pinsky-and-philip-schultz
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-26T12:59:24.897492-04:00'
+  - url: https://seats.92ny.org/single/210905
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-26T12:59:28.919981-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-26T12:59:24.897472-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

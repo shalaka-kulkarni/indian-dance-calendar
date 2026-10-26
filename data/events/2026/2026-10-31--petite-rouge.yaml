@@ -20,7 +20,7 @@ scraped:
   - source_id: timeout_ny
     url: https://www.timeout.com/newyork/dance/company-xiv-petite-rouge-review-little-red-riding-hood
     first_seen: '2026-10-09'
-    last_seen: '2026-10-23'
+    last_seen: '2026-10-26'
 ai:
   relevant: false
   kind: performance

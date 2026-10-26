@@ -1,0 +1,49 @@
+id: 2027-01-30-queens-theatre-monkey-king-the-kung
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Monkey King: The Kung Fu Musical'
+  start: '2027-01-30T13:00:00-05:00'
+  additional_dates: []
+  venue: Queens Theatre
+  address: 14 United Nations Avenue South, Corona
+  region: queens
+  is_free: false
+  price_note: ''
+  info_url: https://queenstheatre.org/events/monkey-king-the-kung-fu-musical-hkwz
+  ticket_url: ''
+  description_snippet: An amazing original musical for the whole family, The Monkey King is based on the
+    legendary mythical figure from the beloved 16th-century Chinese novel “Journey to the West,” by Wu
+    Cheng’en. Heartfelt…
+  content_hash: af1511146bdbc356
+  sources:
+  - source_id: queens_theatre
+    url: https://queenstheatre.org/events/monkey-king-the-kung-fu-musical-hkwz
+    first_seen: '2026-10-26'
+    last_seen: '2026-10-26'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://queenstheatre.org/events/monkey-king-the-kung-fu-musical-hkwz
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-26T12:59:50.290398-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-26T12:59:50.290379-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

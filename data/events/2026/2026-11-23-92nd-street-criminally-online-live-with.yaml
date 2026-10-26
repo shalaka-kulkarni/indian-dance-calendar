@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/criminally-online-live
     first_seen: '2026-10-21'
-    last_seen: '2026-10-23'
+    last_seen: '2026-10-26'
 ai:
   relevant: false
   kind: performance

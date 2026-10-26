@@ -1,0 +1,54 @@
+id: 2027-02-21-92nd-street-brentano-string-quartet
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Brentano String Quartet
+  start: '2027-02-21T14:00:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall Enter on 92nd St. between Lexington
+    & 3rd Ave.
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 45.0
+  price_max: 45.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/brentano-string-quartet
+  ticket_url: https://seats.92ny.org/single/210586
+  description_snippet: 'A Beethoven bicentennial event: the world-renowned Brentano String Quartet performs
+    their first cycle of the composer’s complete string quartets.'
+  content_hash: 99e636f87460b2ce
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/brentano-string-quartet
+    first_seen: '2026-10-26'
+    last_seen: '2026-10-26'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/brentano-string-quartet
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-26T12:59:53.296149-04:00'
+  - url: https://seats.92ny.org/single/210586
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-26T12:59:53.462130-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-26T12:59:53.296130-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

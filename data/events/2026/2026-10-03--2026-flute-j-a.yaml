@@ -43,9 +43,9 @@ validation:
   - url: https://www.cmana.org/etn/2026-flute-j-a-jayant/
     ok: true
     status_code: 200
-    checked_at: '2026-10-24T11:58:56.550086-04:00'
+    checked_at: '2026-10-26T12:59:10.698121-04:00'
   problems: []
-  validated_at: '2026-10-24T11:58:56.550078-04:00'
+  validated_at: '2026-10-26T12:59:10.698115-04:00'
 curated:
   forms: []
   traditions: []

@@ -45,9 +45,9 @@ validation:
   - url: https://www.khnj.us/post/khnj-mega-onam-2026
     ok: true
     status_code: 200
-    checked_at: '2026-10-24T11:58:48.831877-04:00'
+    checked_at: '2026-10-26T12:59:01.064392-04:00'
   problems: []
-  validated_at: '2026-10-24T11:58:48.831871-04:00'
+  validated_at: '2026-10-26T12:59:01.064385-04:00'
 curated:
   forms:
   - folk

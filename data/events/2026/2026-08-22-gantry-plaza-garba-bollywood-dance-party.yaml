@@ -49,9 +49,9 @@ validation:
   - url: https://events.sulekha.com/garba-bollywood-dance-party-in-ny_event-in_long-island-city-ny_401246
     ok: true
     status_code: 200
-    checked_at: '2026-10-24T11:58:48.611984-04:00'
+    checked_at: '2026-10-26T12:59:00.742833-04:00'
   problems: []
-  validated_at: '2026-10-24T11:58:48.611978-04:00'
+  validated_at: '2026-10-26T12:59:00.742827-04:00'
 curated:
   forms:
   - folk

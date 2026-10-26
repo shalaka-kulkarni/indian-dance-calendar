@@ -1,5 +1,5 @@
 id: 2026-10-24--chhandayan-2026-all-night-concert
-status: published
+status: past
 was_published: true
 needs_recheck: false
 scraped:
@@ -44,20 +44,14 @@ validation:
   passed: true
   checks:
     has_info_url: true
-    specific_url: true
     links_live: true
-    date_valid: true
-    price_known: false
-    in_metro: true
-    classified: true
   link_checks:
   - url: https://chhandayan.org/calendar/2026/10/24/chhandayan-2026-all-night-concert
     ok: true
     status_code: 200
-    checked_at: '2026-10-24T11:59:03.348595-04:00'
-  problems:
-  - no price information
-  validated_at: '2026-10-24T11:59:03.348571-04:00'
+    checked_at: '2026-10-26T12:59:21.801441-04:00'
+  problems: []
+  validated_at: '2026-10-26T12:59:21.801434-04:00'
 curated:
   forms: []
   traditions: []

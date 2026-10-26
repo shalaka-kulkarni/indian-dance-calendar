@@ -28,7 +28,7 @@ scraped:
   - source_id: state_theatre_nj
     url: https://www.stnj.org/events/detail/aziz-ansari-hypothetical-tour
     first_seen: '2026-10-21'
-    last_seen: '2026-10-23'
+    last_seen: '2026-10-26'
 ai:
   relevant: false
   kind: performance

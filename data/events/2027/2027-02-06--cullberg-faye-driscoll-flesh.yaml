@@ -1,0 +1,48 @@
+id: 2027-02-06--cullberg-faye-driscoll-flesh
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Cullberg / Faye Driscoll: flesh chariot, chariot of flesh'
+  start: '2027-02-06T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://tickets.nyu.edu/overview/19156
+  ticket_url: ''
+  description_snippet: 'Thu Feb 4 – Sat Feb 6, 2027 Cullberg / Faye Driscoll: flesh chariot, chariot of
+    flesh Many bodies, one breath. NORTH AMERICAN PREMIERE Dance International Buy Tickets Learn More'
+  content_hash: 79252f09647db3e6
+  sources:
+  - source_id: skirball
+    url: https://tickets.nyu.edu/overview/19156
+    first_seen: '2026-10-26'
+    last_seen: '2026-10-26'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://tickets.nyu.edu/overview/19156
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-26T12:59:52.093267-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-26T12:59:52.093249-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

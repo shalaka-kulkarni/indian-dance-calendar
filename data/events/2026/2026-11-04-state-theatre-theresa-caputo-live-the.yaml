@@ -1,0 +1,59 @@
+id: 2026-11-04-state-theatre-theresa-caputo-live-the
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Theresa Caputo Live: The Experience'
+  start: '2026-11-04T19:30:00-05:00'
+  end: '2026-11-04T19:30:00-05:00'
+  additional_dates: []
+  venue: State Theatre New Jersey
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  price_min: 5875.0
+  price_max: 5875.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/theresa-caputo-2026
+  ticket_url: https://my.stnj.org/24920/24921
+  description_snippet: 'For more than a decade, Theresa Caputo—known worldwide as the Long Island Medium—has
+    touched the lives of millions of fans, comforting supporters when they need it most. Through personal
+    life stories, candid humor, and intimate details about her gift to communicate with those who have
+    passed on, the beloved television personality and best-selling author delivers healing messages to
+    her audience, reassuring them with the revelation that their deceased loved ones are still with them—just
+    in a different way. Recognized as one of the most renowned mediums for over 20 years, Theresa Caputo
+    Live: Th'
+  content_hash: bbde565fb43f1bc4
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/theresa-caputo-2026
+    first_seen: '2026-10-26'
+    last_seen: '2026-10-26'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.stnj.org/events/detail/theresa-caputo-2026
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-26T12:59:29.795395-04:00'
+  - url: https://my.stnj.org/24920/24921
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-26T12:59:30.228093-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-26T12:59:29.795372-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

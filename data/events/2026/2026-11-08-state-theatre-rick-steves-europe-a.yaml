@@ -1,0 +1,56 @@
+id: 2026-11-08-state-theatre-rick-steves-europe-a
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Rick Steves’ Europe: A Symphonic Journey'
+  start: '2026-11-08T14:00:00-05:00'
+  end: '2026-11-08T16:00:00-05:00'
+  additional_dates: []
+  venue: State Theatre New Jersey
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/rick-steves-europe-nj-symphony
+  ticket_url: https://my.njsymphony.org/24658/24672
+  description_snippet: 'Rick Steves hostNicholas Hersh conductorNew Jersey SymphonyUsually you’ll find
+    Rick Steves touring the great destinations of Europe. Now you can join him on a different journey:
+    A Symphonic Journey. In this unique concert, Rick Steves teams up with the New Jersey Symphony for
+    a performance that combines Europe’s most stirring romantic-era anthems with beautiful high-definition
+    cinematography and Rick’s insights into European history.'
+  content_hash: 08c871f02a533988
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/rick-steves-europe-nj-symphony
+    first_seen: '2026-10-26'
+    last_seen: '2026-10-26'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://my.njsymphony.org/24658/24672
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-26T12:59:34.898006-04:00'
+  - url: https://www.stnj.org/events/detail/rick-steves-europe-nj-symphony
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-26T12:59:35.308402-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-26T12:59:34.897987-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

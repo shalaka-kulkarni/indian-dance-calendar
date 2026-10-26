@@ -27,7 +27,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/rock-and-roll-playhouse-harrystyles2026/
     first_seen: '2026-10-23'
-    last_seen: '2026-10-23'
+    last_seen: '2026-10-26'
 ai:
   relevant: false
   kind: performance

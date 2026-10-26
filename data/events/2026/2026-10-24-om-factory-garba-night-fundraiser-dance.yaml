@@ -1,5 +1,5 @@
 id: 2026-10-24-om-factory-garba-night-fundraiser-dance
-status: published
+status: past
 was_published: true
 needs_recheck: false
 scraped:
@@ -42,19 +42,14 @@ validation:
   passed: true
   checks:
     has_info_url: true
-    specific_url: true
     links_live: true
-    date_valid: true
-    price_known: true
-    in_metro: true
-    classified: true
   link_checks:
   - url: https://events.sulekha.com/garba-night-fundraiser-dance-for-a-cause-in-newyork_event-in_new-york-ny_401844
     ok: true
     status_code: 200
-    checked_at: '2026-10-24T11:59:03.382171-04:00'
+    checked_at: '2026-10-26T12:59:22.312315-04:00'
   problems: []
-  validated_at: '2026-10-24T11:59:03.382149-04:00'
+  validated_at: '2026-10-26T12:59:22.312308-04:00'
 curated:
   forms: []
   traditions: []

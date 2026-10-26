@@ -1,0 +1,51 @@
+id: 2026-11-07-husets-teater-vangeline-theaternew-york-butoh
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Vangeline Theater/New York Butoh Institute Collaborates with Denmark’s Husets Teater for Historic
+    Stage Adaptation
+  start: '2026-11-07T00:00:00-05:00'
+  additional_dates: []
+  venue: Husets Teater (Sort Sal), Halmtorvet 9B, 1700 København V
+  address: ''
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://teaterbilletter.dk/forestillinger/har-doeden-taget-noget-fra-dig-saa-giv-det-tilbage-146646
+  ticket_url: ''
+  description_snippet: Vangeline Theater/New York Butoh Institute Collaborates with Denmark’s Husets Teater
+    for Historic Stage Adaptation Husets Teater (Sort Sal), Halmtorvet 9B, 1700 København V Sat. November,
+    7 @ 12:00am (+ 21 more)
+  content_hash: b27f91e3a25a9504
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/Vangeline-TheaterNew-York-Butoh-Institute-Collaborates-with-Denmarks-Husets-Teater-for-Historic-Stage-Adaptation-2026-11-07_28
+    first_seen: '2026-10-26'
+    last_seen: '2026-10-26'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://teaterbilletter.dk/forestillinger/har-doeden-taget-noget-fra-dig-saa-giv-det-tilbage-146646
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-26T12:59:33.509418-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-10-26T12:59:33.509398-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}
