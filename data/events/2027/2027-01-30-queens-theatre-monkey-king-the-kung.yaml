@@ -1,5 +1,5 @@
 id: 2027-01-30-queens-theatre-monkey-king-the-kung
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -22,25 +22,34 @@ scraped:
     url: https://queenstheatre.org/events/monkey-king-the-kung-fu-musical-hkwz
     first_seen: '2026-10-26'
     last_seen: '2026-10-26'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: Chinese family musical.'
+  model: claude-opus-5-5
+  classified_at: '2026-10-26'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://queenstheatre.org/events/monkey-king-the-kung-fu-musical-hkwz
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-26T12:59:50.290398-04:00'
+  link_checks: []
   problems:
+  - links not yet verified (offline run)
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-10-26T12:59:50.290379-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-26T16:54:06.813681-04:00'
 curated:
   forms: []
   traditions: []

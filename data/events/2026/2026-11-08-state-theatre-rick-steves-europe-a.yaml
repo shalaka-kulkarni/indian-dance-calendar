@@ -1,5 +1,5 @@
 id: 2026-11-08-state-theatre-rick-steves-europe-a
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -25,29 +25,34 @@ scraped:
     url: https://www.stnj.org/events/detail/rick-steves-europe-nj-symphony
     first_seen: '2026-10-26'
     last_seen: '2026-10-26'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: Western symphony concert.'
+  model: claude-opus-5-5
+  classified_at: '2026-10-26'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://my.njsymphony.org/24658/24672
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-26T12:59:34.898006-04:00'
-  - url: https://www.stnj.org/events/detail/rick-steves-europe-nj-symphony
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-26T12:59:35.308402-04:00'
+  link_checks: []
   problems:
+  - links not yet verified (offline run)
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-10-26T12:59:34.897987-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-26T16:54:06.802705-04:00'
 curated:
   forms: []
   traditions: []

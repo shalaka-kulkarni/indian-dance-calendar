@@ -1,5 +1,5 @@
 id: 2026-11-04-state-theatre-theresa-caputo-live-the
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -29,28 +29,33 @@ scraped:
     url: https://www.stnj.org/events/detail/theresa-caputo-2026
     first_seen: '2026-10-26'
     last_seen: '2026-10-26'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: psychic medium show.'
+  model: claude-opus-5-5
+  classified_at: '2026-10-26'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://www.stnj.org/events/detail/theresa-caputo-2026
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-26T12:59:29.795395-04:00'
-  - url: https://my.stnj.org/24920/24921
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-26T12:59:30.228093-04:00'
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-10-26T12:59:29.795372-04:00'
+  - links not yet verified (offline run)
+  - classified not-relevant
+  validated_at: '2026-10-26T16:54:06.780129-04:00'
 curated:
   forms: []
   traditions: []
