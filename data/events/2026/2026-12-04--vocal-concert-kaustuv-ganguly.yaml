@@ -54,10 +54,10 @@ validation:
   - url: https://chhandayan.org/calendar/2025/6/28/vocal-concert-kaustuv-ganguly-n3edn
     ok: true
     status_code: 200
-    checked_at: '2026-10-26T12:59:49.906591-04:00'
+    checked_at: '2026-10-26T16:55:10.903404-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-26T12:59:49.906572-04:00'
+  validated_at: '2026-10-26T16:55:10.903383-04:00'
 curated:
   forms: []
   traditions: []

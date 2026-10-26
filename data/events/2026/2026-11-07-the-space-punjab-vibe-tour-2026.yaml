@@ -49,9 +49,9 @@ validation:
   - url: https://events.sulekha.com/punjab-vibe-tour-2026-with-sahil-khan-live-in-concert_event-in_westbury-ny_402316
     ok: true
     status_code: 200
-    checked_at: '2026-10-26T12:59:34.599145-04:00'
+    checked_at: '2026-10-26T16:55:05.539097-04:00'
   problems: []
-  validated_at: '2026-10-26T12:59:34.599126-04:00'
+  validated_at: '2026-10-26T16:55:05.539076-04:00'
 curated:
   forms: []
   traditions: []
