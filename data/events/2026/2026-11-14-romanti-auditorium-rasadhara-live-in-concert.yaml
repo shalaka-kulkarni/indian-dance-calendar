@@ -50,9 +50,9 @@ validation:
   - url: https://events.sulekha.com/rasadhara-live-in-concert_event-in_new-york-ny_402196
     ok: true
     status_code: 200
-    checked_at: '2026-10-28T12:51:24.440864-04:00'
+    checked_at: '2026-10-28T16:54:51.670614-04:00'
   problems: []
-  validated_at: '2026-10-28T12:51:24.440841-04:00'
+  validated_at: '2026-10-28T16:54:51.670595-04:00'
 curated:
   forms: []
   traditions: []
