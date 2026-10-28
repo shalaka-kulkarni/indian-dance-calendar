@@ -21,7 +21,7 @@ scraped:
   - source_id: queens_theatre
     url: https://queenstheatre.org/events/ignorancia-artificial-lwhg
     first_seen: '2026-10-11'
-    last_seen: '2026-10-26'
+    last_seen: '2026-10-28'
 ai:
   relevant: false
   kind: performance

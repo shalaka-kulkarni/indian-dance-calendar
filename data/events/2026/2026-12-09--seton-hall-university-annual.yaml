@@ -1,0 +1,51 @@
+id: 2026-12-09--seton-hall-university-annual
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Seton Hall University Annual Winter Concert Presented by the Seton Hall Arts Council
+  start: '2026-12-09T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/shu-2026-dec-9/
+  ticket_url: ''
+  description_snippet: Seton Hall University Annual Winter Concert Presented by the Seton Hall Arts Council
+    WED, DEC 9, 2026 at 7:30 PM Buy Tickets Celebrate the spirit of the season with Seton Hall University's
+    annual Winter Concert at SOPAC! Featuring the University Chorus, University Orchestra, and Chamber
+    Choir. Experience an inspiring program of seasonal favorites and choral and orchestral selections
+    that capture the beauty, warmth, and wonder of the holiday season. Buy Tickets Learn More
+  content_hash: 33095806c71a6e77
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/shu-2026-dec-9/
+    first_seen: '2026-10-28'
+    last_seen: '2026-10-28'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/shu-2026-dec-9/
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-28T12:51:35.335108-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-28T12:51:35.335084-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

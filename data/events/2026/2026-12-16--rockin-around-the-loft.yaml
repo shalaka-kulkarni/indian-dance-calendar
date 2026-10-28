@@ -23,7 +23,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/happy-hour-in-the-loft-eli-bolin-allison-posner/
     first_seen: '2026-10-23'
-    last_seen: '2026-10-26'
+    last_seen: '2026-10-28'
 ai:
   relevant: false
   kind: performance

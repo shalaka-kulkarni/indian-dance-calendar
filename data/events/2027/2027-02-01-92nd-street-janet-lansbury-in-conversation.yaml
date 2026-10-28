@@ -1,0 +1,53 @@
+id: 2027-02-01-92nd-street-janet-lansbury-in-conversation
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Janet Lansbury in Conversation with Mr. Chazz: Baby Person'
+  start: '2027-02-01T19:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 40.0
+  price_max: 40.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/janet-lansbury-with-mr-chazz-baby-person
+  ticket_url: https://seats.92ny.org/single/211523
+  description_snippet: Join Janet Lansbury and Mr. Chazz at 92NY for a conversation about Baby Person
+    , rethinking parenting, and raising children with trust and respect.
+  content_hash: d855bf7796d8210a
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/janet-lansbury-with-mr-chazz-baby-person
+    first_seen: '2026-10-28'
+    last_seen: '2026-10-28'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/janet-lansbury-with-mr-chazz-baby-person
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-28T12:51:45.905376-04:00'
+  - url: https://seats.92ny.org/single/211523
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-28T12:51:47.955853-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-28T12:51:45.905356-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

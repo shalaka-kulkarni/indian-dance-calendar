@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/supper-club-with-chama-mama
     first_seen: '2026-08-28'
-    last_seen: '2026-10-26'
+    last_seen: '2026-10-28'
 ai:
   relevant: false
   kind: performance

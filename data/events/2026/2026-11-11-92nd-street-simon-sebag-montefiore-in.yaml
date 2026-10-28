@@ -1,0 +1,54 @@
+id: 2026-11-11-92nd-street-simon-sebag-montefiore-in
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Simon Sebag Montefiore in Conversation with Adam Gopnik: The Cauldron and the Making of the
+    Middle East'
+  start: '2026-11-11T19:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Warburg Lounge
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 25.0
+  price_max: 25.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/simon-sebag-montefiore
+  ticket_url: https://seats.92ny.org/single/211553
+  description_snippet: Join bestselling historian Simon Sebag Montefiore to explore The Cauldron , his
+    sweeping new history of the Middle East, from empires to today’s crises.
+  content_hash: 963b914d19c2d208
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/simon-sebag-montefiore
+    first_seen: '2026-10-28'
+    last_seen: '2026-10-28'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/211553
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-28T12:51:23.922403-04:00'
+  - url: https://www.92ny.org/event/simon-sebag-montefiore
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-28T12:51:24.100053-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-28T12:51:23.922382-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

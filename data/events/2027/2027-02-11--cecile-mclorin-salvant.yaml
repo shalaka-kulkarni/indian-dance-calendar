@@ -1,0 +1,51 @@
+id: 2027-02-11--cecile-mclorin-salvant
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Cecile McLorin Salvant
+  start: '2027-02-11T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/cecile-mclorin-salvant-2027/
+  ticket_url: ''
+  description_snippet: Cecile McLorin Salvant THU, FEB 11, 2027 at 7:30PM On Sale Soon Cécile McLorin
+    Salvant is a three-time GRAMMY Award winning vocalist, composer, and MacArthur Fellow celebrated for
+    her extraordinary musicality and gift for storytelling across jazz, blues, folk, and baroque traditions.
+    Hailed by the late Jessye Norman for the intelligence and musicality that light up every note she
+    sings, Salvant offers an evening of jazz unlike any other. On Sale Soon Learn More
+  content_hash: 091f2b0b812f9781
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/cecile-mclorin-salvant-2027/
+    first_seen: '2026-10-28'
+    last_seen: '2026-10-28'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/cecile-mclorin-salvant-2027/
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-28T12:51:47.978687-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-28T12:51:47.978666-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

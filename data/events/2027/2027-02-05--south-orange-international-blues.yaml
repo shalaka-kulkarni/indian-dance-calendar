@@ -22,7 +22,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/winter-blues-fest-27/
     first_seen: '2026-10-21'
-    last_seen: '2026-10-26'
+    last_seen: '2026-10-28'
 ai:
   relevant: false
   kind: performance

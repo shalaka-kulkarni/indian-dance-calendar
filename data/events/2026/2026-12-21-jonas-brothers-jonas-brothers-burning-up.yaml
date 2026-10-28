@@ -21,7 +21,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/jonas-brothers
     first_seen: '2026-08-18'
-    last_seen: '2026-10-26'
+    last_seen: '2026-10-28'
 ai:
   relevant: false
   kind: performance

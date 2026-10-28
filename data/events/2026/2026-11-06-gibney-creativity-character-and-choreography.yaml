@@ -19,7 +19,7 @@ scraped:
   - source_id: gibney
     url: https://gibneydance.org/event/creativity-character-and-choreography-oona-doherty-repertoire-workshop-with-ryan-oneill/
     first_seen: '2026-10-19'
-    last_seen: '2026-10-26'
+    last_seen: '2026-10-28'
 ai:
   relevant: false
   kind: performance

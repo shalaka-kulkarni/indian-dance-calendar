@@ -23,7 +23,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/classic-stones-live-2027/
     first_seen: '2026-08-18'
-    last_seen: '2026-10-26'
+    last_seen: '2026-10-28'
 ai:
   relevant: false
   kind: performance

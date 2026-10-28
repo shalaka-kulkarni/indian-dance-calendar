@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/paf-new-york-2026-bestiary-of-darkness
     first_seen: '2026-09-02'
-    last_seen: '2026-10-26'
+    last_seen: '2026-10-28'
 ai:
   relevant: false
   kind: performance

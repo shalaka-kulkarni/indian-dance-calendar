@@ -24,7 +24,7 @@ scraped:
   - source_id: state_theatre_nj
     url: https://www.stnj.org/events/detail/rick-steves-europe-nj-symphony
     first_seen: '2026-10-26'
-    last_seen: '2026-10-26'
+    last_seen: '2026-10-28'
 ai:
   relevant: false
   kind: performance

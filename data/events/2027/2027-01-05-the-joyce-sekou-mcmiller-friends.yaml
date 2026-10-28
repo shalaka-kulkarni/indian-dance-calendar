@@ -21,7 +21,7 @@ scraped:
   - source_id: joyce
     url: https://www.joyce.org/performances/sekou-mcmiller-and-friends-7z58
     first_seen: '2026-10-23'
-    last_seen: '2026-10-26'
+    last_seen: '2026-10-28'
 ai:
   relevant: false
   kind: performance

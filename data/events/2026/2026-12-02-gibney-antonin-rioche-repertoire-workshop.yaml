@@ -19,7 +19,7 @@ scraped:
   - source_id: gibney
     url: https://gibneydance.org/event/antonin-rioche-repertoire-workshop-with-eve-marie-dalcourt/
     first_seen: '2026-10-03'
-    last_seen: '2026-10-26'
+    last_seen: '2026-10-28'
 ai:
   relevant: false
   kind: performance

@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/what-are-you-so-afraid-of
     first_seen: '2026-08-16'
-    last_seen: '2026-08-17'
+    last_seen: '2026-10-28'
 ai:
   relevant: false
   kind: other

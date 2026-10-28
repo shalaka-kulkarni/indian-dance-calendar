@@ -24,7 +24,7 @@ scraped:
   - source_id: sopac
     url: https://www.sopacnow.org/events/days-off-26/
     first_seen: '2026-08-28'
-    last_seen: '2026-10-26'
+    last_seen: '2026-10-28'
 ai:
   relevant: false
   kind: performance

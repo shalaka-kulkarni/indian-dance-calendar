@@ -1,0 +1,51 @@
+id: 2027-05-10--seton-hall-university-annual
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Seton Hall University Annual Spring Concert Presented by the Seton Hall Arts Council
+  start: '2027-05-10T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/shu-may-10-2027/
+  ticket_url: ''
+  description_snippet: Seton Hall University Annual Spring Concert Presented by the Seton Hall Arts Council
+    MON, MAY 10, 2027 at 7:30 PM Buy Tickets Celebrate the beauty and renewal of spring with Seton Hall
+    University's annual Spring Concert, A Celebration of Spring, at SOPAC! Featuring the University Chorus,
+    University Orchestra, and Chamber Choir, this uplifting evening showcases the extraordinary talents
+    of Seton Hall's student musicians. Buy Tickets Learn More
+  content_hash: cd60a4aad0671935
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/shu-may-10-2027/
+    first_seen: '2026-10-28'
+    last_seen: '2026-10-28'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/shu-may-10-2027/
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-28T12:51:48.041649-04:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-10-28T12:51:48.041628-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}
