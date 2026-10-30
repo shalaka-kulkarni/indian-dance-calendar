@@ -20,7 +20,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/ASL-tour-of-there-s-no-me-without-you
     first_seen: '2026-10-28'
-    last_seen: '2026-10-28'
+    last_seen: '2026-10-30'
 ai:
   relevant: false
   kind: performance

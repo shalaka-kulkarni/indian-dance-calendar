@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/92ny-nexus-shabbat-dinner
     first_seen: '2026-10-28'
-    last_seen: '2026-10-28'
+    last_seen: '2026-10-30'
 ai:
   relevant: false
   kind: performance

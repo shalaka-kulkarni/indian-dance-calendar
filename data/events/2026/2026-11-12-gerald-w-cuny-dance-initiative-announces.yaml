@@ -1,0 +1,49 @@
+id: 2026-11-12-gerald-w-cuny-dance-initiative-announces
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: CUNY Dance Initiative Announces Stories of War Performance by Exit12 Dance Company
+  start: '2026-11-12T19:00:00-05:00'
+  additional_dates: []
+  venue: Gerald W. Lynch Theater
+  address: ''
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://www.eventbrite.com/e/stories-of-war-in-honor-of-veterans-day-tickets-1999623903925?aff=oddtdtcreator&keep_tld=true#location
+  ticket_url: ''
+  description_snippet: CUNY Dance Initiative Announces Stories of War Performance by Exit12 Dance Company
+    Gerald W. Lynch Theater Thu. November, 12 @ 7:00pm
+  content_hash: 9556225d1419fef4
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/CUNY-Dance-Initiative-Announces-Stories-of-War-Performance-by-Exit12-Dance-Company-2026-11-12
+    first_seen: '2026-10-30'
+    last_seen: '2026-10-30'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://www.eventbrite.com/e/stories-of-war-in-honor-of-veterans-day-tickets-1999623903925?aff=oddtdtcreator&keep_tld=true#location
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-30T12:52:22.620905-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-10-30T12:52:22.620881-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -20,7 +20,7 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/2026-2027-ballet-hispanico
     first_seen: '2026-08-16'
-    last_seen: '2026-10-28'
+    last_seen: '2026-10-30'
 ai:
   relevant: false
   kind: other

@@ -1,0 +1,59 @@
+id: 2026-11-14-state-theatre-cocomelon-sing-a-long-live
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'CoComelon: Sing-a-Long LIVE!'
+  start: '2026-11-14T13:00:00-05:00'
+  end: '2026-11-14T13:00:00-05:00'
+  additional_dates: []
+  venue: State Theatre New Jersey
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  price_min: 34.0
+  price_max: 34.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/cocomelon-sing-a-long-live-2026
+  ticket_url: https://my.stnj.org/25286/25287
+  description_snippet: 'The 5pm performance has been cancelled.CoComelon: Sing-A-Long LIVE is the perfect
+    way to make memories you’ll cherish for years to come! Join Ms. Appleberry, JJ, Cody, Nina, and Cece
+    for a lively Melon Patch musical adventure in this exciting touring production. This interactive live
+    show brings CoComelon’s vibrant world to life, inviting families to sing, dance, and play together.
+    With beloved characters, delightful surprises, and favorite songs like “Wheels on the Bus,” “Animal
+    Dance,” and “If You’re Happy and You Know It,” it’s a celebration of connection and childhood wonder.
+    Don’t miss th'
+  content_hash: 56c660d64569646c
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/cocomelon-sing-a-long-live-2026
+    first_seen: '2026-10-30'
+    last_seen: '2026-10-30'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://my.stnj.org/25286/25287
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-30T12:52:24.803148-04:00'
+  - url: https://www.stnj.org/events/detail/cocomelon-sing-a-long-live-2026
+    ok: true
+    status_code: 406
+    checked_at: '2026-10-30T12:52:24.817157-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-30T12:52:24.803129-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

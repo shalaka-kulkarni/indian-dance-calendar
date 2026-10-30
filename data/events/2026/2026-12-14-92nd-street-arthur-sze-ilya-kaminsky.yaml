@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/an-evening-of-poetry-in-translation
     first_seen: '2026-10-28'
-    last_seen: '2026-10-28'
+    last_seen: '2026-10-30'
 ai:
   relevant: false
   kind: performance

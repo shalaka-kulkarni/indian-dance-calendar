@@ -19,7 +19,7 @@ scraped:
   - source_id: pioneer_works
     url: https://pioneerworks.org/programs/rachel-cusk-life-of-m
     first_seen: '2026-10-07'
-    last_seen: '2026-10-28'
+    last_seen: '2026-10-30'
 ai:
   relevant: false
   kind: performance

@@ -1,0 +1,49 @@
+id: 2026-11-12-performance-garage-hubchat-the-way-back
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'HubChat: The Way Back To Ourselves. A conversation with Floyd McLean Jr. & Guests + Live Performance'
+  start: '2026-11-12T18:00:00-05:00'
+  additional_dates: []
+  venue: Performance Garage
+  address: ''
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://www.eventbrite.com/e/the-way-back-to-ourselves-a-conversation-with-floyd-mclean-jr-guests-tickets-2003364203261
+  ticket_url: ''
+  description_snippet: 'HubChat: The Way Back To Ourselves. A conversation with Floyd McLean Jr. & Guests
+    + Live Performance Performance Garage Thu. November, 12 @ 6:00pm'
+  content_hash: 29ec8e02c628650b
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/HubChat-The-Way-Back-To-Ourselves.-A-conversation-with-Floyd-McLean-Jr.-Guests-Live-Performance-2026-11-12
+    first_seen: '2026-10-30'
+    last_seen: '2026-10-30'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://www.eventbrite.com/e/the-way-back-to-ourselves-a-conversation-with-floyd-mclean-jr-guests-tickets-2003364203261
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-30T12:52:22.675861-04:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-10-30T12:52:22.675842-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

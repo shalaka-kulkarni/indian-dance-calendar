@@ -1,0 +1,54 @@
+id: 2027-04-08-92nd-street-anthony-mcgill-clarinet-conrad
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Anthony McGill, clarinet & Conrad Tao, piano
+  start: '2027-04-08T19:30:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall Enter on 92nd St. between Lexington
+    & 3rd Ave.
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 45.0
+  price_max: 45.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/anthony-mcgill-and-conrad-tao
+  ticket_url: https://seats.92ny.org/single/210627
+  description_snippet: Clarinet superstar Anthony McGill and acclaimed pianist Conrad Tao give their first
+    NYC concert together. Works by Brahms, Berg, and more.
+  content_hash: 7b60f500d4849cb3
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/anthony-mcgill-and-conrad-tao
+    first_seen: '2026-10-30'
+    last_seen: '2026-10-30'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/anthony-mcgill-and-conrad-tao
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-30T12:52:26.923289-04:00'
+  - url: https://seats.92ny.org/single/210627
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-30T12:52:26.997809-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-30T12:52:26.923271-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

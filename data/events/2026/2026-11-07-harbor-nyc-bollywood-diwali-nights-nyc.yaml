@@ -1,0 +1,49 @@
+id: 2026-11-07-harbor-nyc-bollywood-diwali-nights-nyc
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Bollywood Diwali Nights NYC | New York’s Desi Diwali Party
+  start: '2026-11-07T22:30:00-04:00'
+  end: '2026-11-08T04:00:00-04:00'
+  additional_dates: []
+  venue: Harbor NYC
+  address: 621 West 46th Street, New York, NY
+  region: manhattan
+  price_min: 45.0
+  price_max: 45.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/bollywood-diwali-nights-nyc-new-york-s-desi-diwali-party_event-in_new-york-ny_402560
+  ticket_url: https://events.sulekha.com/bollywood-diwali-nights-nyc-new-york-s-desi-diwali-party_event-in_new-york-ny_402560
+  description_snippet: Bollywood Diwali Nights Nyc | New York’s Desi Diwali Party
+  content_hash: 79fcc0facd109595
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/bollywood-diwali-nights-nyc-new-york-s-desi-diwali-party_event-in_new-york-ny_402560
+    first_seen: '2026-10-30'
+    last_seen: '2026-10-30'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/bollywood-diwali-nights-nyc-new-york-s-desi-diwali-party_event-in_new-york-ny_402560
+    ok: true
+    status_code: 200
+    checked_at: '2026-10-30T12:52:20.909957-04:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-10-30T12:52:20.909935-04:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

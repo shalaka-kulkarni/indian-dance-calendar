@@ -25,7 +25,7 @@ scraped:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2025/6/28/vocal-concert-kaustuv-ganguly-n3edn
     first_seen: '2026-10-16'
-    last_seen: '2026-10-28'
+    last_seen: '2026-10-30'
 ai:
   relevant: true
   kind: performance
@@ -54,10 +54,10 @@ validation:
   - url: https://chhandayan.org/calendar/2025/6/28/vocal-concert-kaustuv-ganguly-n3edn
     ok: true
     status_code: 200
-    checked_at: '2026-10-28T16:54:52.636211-04:00'
+    checked_at: '2026-10-30T12:52:26.253167-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-28T16:54:52.636192-04:00'
+  validated_at: '2026-10-30T12:52:26.253148-04:00'
 curated:
   forms: []
   traditions: []

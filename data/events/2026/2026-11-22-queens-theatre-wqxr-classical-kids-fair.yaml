@@ -22,7 +22,7 @@ scraped:
   - source_id: queens_theatre
     url: https://queenstheatre.org/events/wqxr-classical-kids-fair-91t5
     first_seen: '2026-10-19'
-    last_seen: '2026-10-28'
+    last_seen: '2026-10-30'
 ai:
   relevant: false
   kind: performance
