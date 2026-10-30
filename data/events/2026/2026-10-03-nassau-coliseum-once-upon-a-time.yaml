@@ -46,9 +46,9 @@ validation:
   - url: https://events.sulekha.com/once-upon-a-time-with-rahat-fateh-ali-khan-shahzaman-ali-khan-in-ny_event-in_uniondale-ny_400589
     ok: true
     status_code: 200
-    checked_at: '2026-10-30T12:52:09.258439-04:00'
+    checked_at: '2026-10-30T16:53:36.586758-04:00'
   problems: []
-  validated_at: '2026-10-30T12:52:09.258432-04:00'
+  validated_at: '2026-10-30T16:53:36.586752-04:00'
 curated:
   forms: []
   traditions: []
