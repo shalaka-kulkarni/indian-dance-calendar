@@ -1,5 +1,5 @@
 id: 2026-11-12-performance-garage-hubchat-the-way-back
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -21,26 +21,35 @@ scraped:
     url: https://www.dance-enthusiast.com/dance-listings/events/view/HubChat-The-Way-Back-To-Ourselves.-A-conversation-with-Floyd-McLean-Jr.-Guests-Live-Performance-2026-11-12
     first_seen: '2026-10-30'
     last_seen: '2026-10-30'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: talk with contemporary performance.'
+  model: claude-opus-5-5
+  classified_at: '2026-10-30'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: false
     in_metro: false
     classified: false
-  link_checks:
-  - url: https://www.eventbrite.com/e/the-way-back-to-ourselves-a-conversation-with-floyd-mclean-jr-guests-tickets-2003364203261
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-30T12:52:22.675861-04:00'
+  link_checks: []
   problems:
+  - links not yet verified (offline run)
   - no price information
   - region unknown — can't confirm NYC metro
-  - not yet classified (no API key run)
-  validated_at: '2026-10-30T12:52:22.675842-04:00'
+  - classified not-relevant
+  validated_at: '2026-10-30T16:52:39.372377-04:00'
 curated:
   forms: []
   traditions: []

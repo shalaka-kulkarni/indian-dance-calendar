@@ -1,5 +1,5 @@
 id: 2027-11-13-92nd-street-92ny-himan-brown-shabbat
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -23,28 +23,33 @@ scraped:
     url: https://www.92ny.org/event/92ny-himan-brown-shabbat-dinner
     first_seen: '2026-10-30'
     last_seen: '2026-10-30'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: community dinner.'
+  model: claude-opus-5-5
+  classified_at: '2026-10-30'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://www.92ny.org/event/92ny-himan-brown-shabbat-dinner
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-30T12:52:27.867907-04:00'
-  - url: https://seats.92ny.org/single/211585
-    ok: true
-    status_code: 200
-    checked_at: '2026-10-30T12:52:29.722682-04:00'
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-10-30T12:52:27.867889-04:00'
+  - links not yet verified (offline run)
+  - classified not-relevant
+  validated_at: '2026-10-30T16:52:39.423054-04:00'
 curated:
   forms: []
   traditions: []
