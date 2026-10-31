@@ -54,10 +54,10 @@ validation:
   - url: https://chhandayan.org/calendar/2026/12/5/tabla-solo-jorge-ramiro
     ok: true
     status_code: 200
-    checked_at: '2026-10-30T16:53:51.052024-04:00'
+    checked_at: '2026-10-31T13:16:10.546344-04:00'
   problems:
   - no price information
-  validated_at: '2026-10-30T16:53:51.052002-04:00'
+  validated_at: '2026-10-31T13:16:10.546328-04:00'
 curated:
   forms: []
   traditions: []

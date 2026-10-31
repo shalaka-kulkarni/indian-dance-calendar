@@ -57,9 +57,9 @@ validation:
   - url: https://pioneerworks.org/programs/ragas-live-festival-2026
     ok: true
     status_code: 200
-    checked_at: '2026-10-30T16:53:42.623781-04:00'
+    checked_at: '2026-10-31T13:16:01.274330-04:00'
   problems: []
-  validated_at: '2026-10-30T16:53:42.623775-04:00'
+  validated_at: '2026-10-31T13:16:01.274326-04:00'
 curated:
   forms: []
   art_form: music
