@@ -1,0 +1,48 @@
+id: 2026-11-02-prudential-center-seton-hall-vs-saint
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Seton Hall vs. Saint Peter's
+  start: '2026-11-02T19:30:00-05:00'
+  end: '2026-11-02T20:30:00-05:00'
+  additional_dates: []
+  venue: Prudential Center
+  address: Seton Hall vs. Saint Peter's
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.prucenter.com/events/seton-hall-vs-st-peters
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: ffeae962dc15a17b
+  sources:
+  - source_id: prudential_center
+    url: https://www.prucenter.com/events/seton-hall-vs-st-peters
+    first_seen: '2026-11-02'
+    last_seen: '2026-11-02'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.prucenter.com/events/seton-hall-vs-st-peters
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-02T15:34:13.188244-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-02T15:34:13.188217-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

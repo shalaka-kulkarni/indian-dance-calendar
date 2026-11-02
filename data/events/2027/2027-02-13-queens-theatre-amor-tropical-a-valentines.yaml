@@ -1,0 +1,49 @@
+id: 2027-02-13-queens-theatre-amor-tropical-a-valentines
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Amor Tropical! A Valentines Day Special — feat. Uptown Royalty, Liza & Willie
+  start: '2027-02-13T20:00:00-05:00'
+  additional_dates: []
+  venue: Queens Theatre
+  address: 14 United Nations Avenue South, Corona
+  region: queens
+  is_free: false
+  price_note: ''
+  info_url: https://queenstheatre.org/events/amor-tropical-a-valentines-day-special-q81t
+  ticket_url: ''
+  description_snippet: Tropical Love is a vibrant Valentine's Day celebration where music, passion, and
+    romance come together. Follow the intertwined stories of two couples—one whose love blossoms to the
+    irresistible rhythm…
+  content_hash: 50d7138ccaf16aea
+  sources:
+  - source_id: queens_theatre
+    url: https://queenstheatre.org/events/amor-tropical-a-valentines-day-special-q81t
+    first_seen: '2026-11-02'
+    last_seen: '2026-11-02'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://queenstheatre.org/events/amor-tropical-a-valentines-day-special-q81t
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-02T15:34:48.216123-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-02T15:34:48.216100-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

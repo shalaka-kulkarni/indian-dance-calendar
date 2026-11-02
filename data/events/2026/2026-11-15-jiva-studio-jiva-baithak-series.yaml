@@ -22,7 +22,7 @@ scraped:
   - source_id: jiva_dance
     url: https://jivaperformingarts.org/event/jiva-baithak-series/
     first_seen: '2026-10-14'
-    last_seen: '2026-10-30'
+    last_seen: '2026-11-02'
 ai:
   relevant: true
   kind: performance
@@ -52,9 +52,9 @@ validation:
   - url: https://jivaperformingarts.org/event/jiva-baithak-series/
     ok: true
     status_code: 200
-    checked_at: '2026-10-31T13:16:07.900964-04:00'
+    checked_at: '2026-11-02T15:34:38.147656-05:00'
   problems: []
-  validated_at: '2026-10-31T13:16:07.900948-04:00'
+  validated_at: '2026-11-02T15:34:38.147635-05:00'
 curated:
   forms: []
   traditions: []

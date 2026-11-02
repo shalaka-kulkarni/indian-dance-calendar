@@ -1,0 +1,49 @@
+id: 2026-11-14-robert-j-continuum
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Continuum
+  start: '2026-11-14T19:00:00-05:00'
+  additional_dates: []
+  venue: Robert J. Orchard Stage, Emerson Paramount Center
+  address: ''
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://emersontheatres.org/event/continuum/
+  ticket_url: ''
+  description_snippet: Continuum Robert J. Orchard Stage, Emerson Paramount Center Sat. November, 14 @
+    7:00pm
+  content_hash: f0048f98c5f9e23b
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/Continuum-2026-11-14_15
+    first_seen: '2026-11-02'
+    last_seen: '2026-11-02'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://emersontheatres.org/event/continuum/
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-02T15:34:37.740391-05:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-11-02T15:34:37.740368-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,5 +1,5 @@
 id: 2026-11-01-ripley-grier-studios-manhattan-bhangra-workshop-rangla
-status: published
+status: past
 was_published: true
 needs_recheck: false
 scraped:
@@ -41,19 +41,14 @@ validation:
   passed: true
   checks:
     has_info_url: true
-    specific_url: true
     links_live: true
-    date_valid: true
-    price_known: true
-    in_metro: true
-    classified: true
   link_checks:
   - url: https://allevents.in/new-york/manhattan-bhangra-workshop-rangla-punjab-dance-academy/100002002642095417
     ok: true
     status_code: 200
-    checked_at: '2026-10-31T13:16:04.579369-04:00'
+    checked_at: '2026-11-02T15:34:12.812940-05:00'
   problems: []
-  validated_at: '2026-10-31T13:16:04.579352-04:00'
+  validated_at: '2026-11-02T15:34:12.812932-05:00'
 curated:
   forms: []
   traditions: []

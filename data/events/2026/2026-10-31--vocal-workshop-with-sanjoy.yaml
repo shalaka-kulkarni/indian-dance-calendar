@@ -1,5 +1,5 @@
 id: 2026-10-31--vocal-workshop-with-sanjoy
-status: published
+status: past
 was_published: true
 needs_recheck: false
 scraped:
@@ -44,20 +44,14 @@ validation:
   passed: true
   checks:
     has_info_url: true
-    specific_url: true
     links_live: true
-    date_valid: true
-    price_known: false
-    in_metro: true
-    classified: true
   link_checks:
   - url: https://chhandayan.org/calendar/2018/5/5/spring-classical-hindustani-vocal-workshop-hz9d4
     ok: true
     status_code: 200
-    checked_at: '2026-10-31T13:16:03.874010-04:00'
-  problems:
-  - no price information
-  validated_at: '2026-10-31T13:16:03.873991-04:00'
+    checked_at: '2026-11-02T15:34:11.993938-05:00'
+  problems: []
+  validated_at: '2026-11-02T15:34:11.993931-05:00'
 curated:
   forms: []
   traditions: []
