@@ -57,9 +57,9 @@ validation:
   - url: https://www.zeffy.com/en-US/ticketing/carved-in-time
     ok: true
     status_code: 403
-    checked_at: '2026-11-02T15:34:37.662637-05:00'
+    checked_at: '2026-11-02T15:54:02.883054-05:00'
   problems: []
-  validated_at: '2026-11-02T15:34:37.662617-05:00'
+  validated_at: '2026-11-02T15:54:02.883036-05:00'
 curated:
   forms:
   - bharatanatyam

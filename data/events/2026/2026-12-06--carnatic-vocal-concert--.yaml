@@ -53,10 +53,10 @@ validation:
   - url: https://chhandayan.org/calendar/2026/12/6/carnatic-vocal-concert-samanvi-velagapudi
     ok: true
     status_code: 200
-    checked_at: '2026-11-02T15:34:42.922409-05:00'
+    checked_at: '2026-11-02T15:54:04.954970-05:00'
   problems:
   - no price information
-  validated_at: '2026-11-02T15:34:42.922390-05:00'
+  validated_at: '2026-11-02T15:54:04.954945-05:00'
 curated:
   forms: []
   traditions: []
