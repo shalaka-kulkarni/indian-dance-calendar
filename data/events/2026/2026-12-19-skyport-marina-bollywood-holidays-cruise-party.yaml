@@ -1,5 +1,5 @@
 id: 2026-12-19-skyport-marina-bollywood-holidays-cruise-party
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -23,24 +23,33 @@ scraped:
     url: https://events.sulekha.com/bollywood-holidays-cruise-party-desi-dinner-buffet-saturday-night-dec-19_event-in_new-york-ny_402682
     first_seen: '2026-11-04'
     last_seen: '2026-11-04'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: Bollywood party cruise, a DJ night rather than a performance.'
+  model: claude-opus-5-5
+  classified_at: '2026-11-04'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://events.sulekha.com/bollywood-holidays-cruise-party-desi-dinner-buffet-saturday-night-dec-19_event-in_new-york-ny_402682
-    ok: true
-    status_code: 200
-    checked_at: '2026-11-04T13:17:42.108155-05:00'
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-11-04T13:17:42.108138-05:00'
+  - links not yet verified (offline run)
+  - classified not-relevant
+  validated_at: '2026-11-04T15:52:51.423991-05:00'
 curated:
   forms: []
   traditions: []

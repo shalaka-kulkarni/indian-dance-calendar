@@ -1,5 +1,5 @@
 id: 2027-02-02-92nd-street-ann-patchett-and-robin
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -24,28 +24,33 @@ scraped:
     url: https://www.92ny.org/event/ann-patchett-and-robin-preiss-glasser
     first_seen: '2026-11-04'
     last_seen: '2026-11-04'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: author talk.'
+  model: claude-opus-5-5
+  classified_at: '2026-11-04'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://www.92ny.org/event/ann-patchett-and-robin-preiss-glasser
-    ok: true
-    status_code: 200
-    checked_at: '2026-11-04T13:17:42.317687-05:00'
-  - url: https://seats.92ny.org/single/211623
-    ok: true
-    status_code: 200
-    checked_at: '2026-11-04T13:17:44.653512-05:00'
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-11-04T13:17:42.317670-05:00'
+  - links not yet verified (offline run)
+  - classified not-relevant
+  validated_at: '2026-11-04T15:52:51.431722-05:00'
 curated:
   forms: []
   traditions: []
