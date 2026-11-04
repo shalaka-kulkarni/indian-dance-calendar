@@ -1,0 +1,50 @@
+id: 2026-11-15-gibney-gibney-community-day-2026
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Gibney Community Day – 2026
+  start: '2026-11-15T10:30:00-05:00'
+  additional_dates: []
+  venue: Gibney
+  address: New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://gibneydance.org/event/gibney-community-day-2026/
+  ticket_url: ''
+  description_snippet: About Gibney Community Day Join us at Gibney 280 for a full day of FREE classes,
+    workshops, and activities led by Gibney teachers, renters, and community partners, plus a showing
+    by Gibney Company! This day is all about giving back to the community that makes Gibney what it is
+    while welcoming new faces into our […]
+  content_hash: e3422630cac5e3dc
+  sources:
+  - source_id: gibney
+    url: https://gibneydance.org/event/gibney-community-day-2026/
+    first_seen: '2026-11-04'
+    last_seen: '2026-11-04'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://gibneydance.org/event/gibney-community-day-2026/
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-04T13:17:31.445357-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-04T13:17:31.445341-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,53 @@
+id: 2026-11-19-92nd-street-boots-beats-bites-a
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Boots, Beats & Bites: A 92NY/NEXUS Line Dance Social'
+  start: '2026-11-19T18:30:00-05:00'
+  additional_dates: []
+  venue: '92nd Street Y, New York – Location: Classroom'
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 50.0
+  price_max: 50.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/nexus-boots-beats-bites
+  ticket_url: https://seats.92ny.org/single/211613
+  description_snippet: High-energy line dancing meets social fun! Kick off the night with a line dancing
+    class for all levels, then relax and mingle with your 92NY/NEXUS crew over dinner and drinks.
+  content_hash: bdc0947d21196f41
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/nexus-boots-beats-bites
+    first_seen: '2026-11-04'
+    last_seen: '2026-11-04'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/nexus-boots-beats-bites
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-04T13:17:33.095670-05:00'
+  - url: https://seats.92ny.org/single/211613
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-04T13:17:36.085161-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-04T13:17:33.095653-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,53 @@
+id: 2027-03-01-92nd-street-janine-di-giovanni-evidence
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Janine di Giovanni: Evidence'
+  start: '2027-03-01T19:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Warburg Lounge
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 30.0
+  price_max: 30.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/janine-di-giovanni-evidence
+  ticket_url: https://seats.92ny.org/single/211635
+  description_snippet: Acclaimed war correspondent Janine di Giovanni discusses Evidence , her debut novel
+    exploring the legacy of the Bosnian war, motherhood, memory, and survival.
+  content_hash: eb33e97367519b7a
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/janine-di-giovanni-evidence
+    first_seen: '2026-11-04'
+    last_seen: '2026-11-04'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/janine-di-giovanni-evidence
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-04T13:17:47.070410-05:00'
+  - url: https://seats.92ny.org/single/211635
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-04T13:17:49.107415-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-04T13:17:47.070393-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

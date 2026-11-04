@@ -47,9 +47,9 @@ validation:
   - url: https://events.sulekha.com/mumbai-style-garba-ne-dandiya-night-in-newyork_event-in_hicksville-ny_401828
     ok: true
     status_code: 200
-    checked_at: '2026-11-02T15:53:58.579578-05:00'
+    checked_at: '2026-11-04T13:17:21.722171-05:00'
   problems: []
-  validated_at: '2026-11-02T15:53:58.579572-05:00'
+  validated_at: '2026-11-04T13:17:21.722165-05:00'
 curated:
   forms: []
   traditions: []

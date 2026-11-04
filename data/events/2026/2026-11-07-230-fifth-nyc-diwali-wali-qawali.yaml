@@ -1,0 +1,49 @@
+id: 2026-11-07-230-fifth-nyc-diwali-wali-qawali
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'NYC Diwali Wali Qawali: Ft. Majid Ali Khan at 230 Fifth Ave'
+  start: '2026-11-07T19:00:00-04:00'
+  end: '2026-11-07T22:30:00-04:00'
+  additional_dates: []
+  venue: 230 FIFTH ROOFTOP BAR
+  address: 1150 Broadway, New York, NY
+  region: manhattan
+  price_min: 34.99
+  price_max: 34.99
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/nyc-diwali-wali-qawali-ft-majid-ali-khan-at-230-fifth-ave_event-in_new-york-ny_402657
+  ticket_url: https://events.sulekha.com/nyc-diwali-wali-qawali-ft-majid-ali-khan-at-230-fifth-ave_event-in_new-york-ny_402657
+  description_snippet: 'Nyc Diwali Wali Qawali: Ft. Majid Ali Khan At 230 Fifth Ave'
+  content_hash: 28fc54a968d47eef
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/nyc-diwali-wali-qawali-ft-majid-ali-khan-at-230-fifth-ave_event-in_new-york-ny_402657
+    first_seen: '2026-11-04'
+    last_seen: '2026-11-04'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/nyc-diwali-wali-qawali-ft-majid-ali-khan-at-230-fifth-ave_event-in_new-york-ny_402657
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-04T13:17:28.577553-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-04T13:17:28.577533-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

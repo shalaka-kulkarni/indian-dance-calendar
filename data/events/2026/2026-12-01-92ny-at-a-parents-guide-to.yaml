@@ -1,0 +1,49 @@
+id: 2026-12-01-92ny-at-a-parents-guide-to
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: A Parent's Guide to Understanding Neurodivergence
+  start: '2026-12-01T18:30:00-05:00'
+  additional_dates: []
+  venue: 92NY at Redeemer, 150 E 91st
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/understanding-neurodivergence
+  ticket_url: ''
+  description_snippet: Join Spark Your Health and leading expert on neurodivergence, Dr. Robert Melillo,
+    to learn about childhood neurodevelopmental and neurological conditions such as ADHD, autism spectrum
+    disorder, dyslexia, OCD, and sensory processing challenges.
+  content_hash: 621c636158e5d566
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/understanding-neurodivergence
+    first_seen: '2026-11-04'
+    last_seen: '2026-11-04'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/understanding-neurodivergence
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-04T13:17:39.507063-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-04T13:17:39.507045-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,49 @@
+id: 2026-11-24-prudential-center-seton-hall-vs-new
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Seton Hall vs. New Hampshire
+  start: '2026-11-24T19:00:00-05:00'
+  end: '2026-11-24T20:00:00-05:00'
+  additional_dates: []
+  venue: Prudential Center
+  address: Seton Hall vs. New Hampshire
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.prucenter.com/events/seton-hall-vs-univ-of-new-hampshire
+  ticket_url: ''
+  description_snippet: Don't miss all of the exciting Seton Hall Men's Basketball action at Prudential
+    Center.
+  content_hash: 54d073c15d6c7ecf
+  sources:
+  - source_id: prudential_center
+    url: https://www.prucenter.com/events/seton-hall-vs-univ-of-new-hampshire
+    first_seen: '2026-11-04'
+    last_seen: '2026-11-04'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.prucenter.com/events/seton-hall-vs-univ-of-new-hampshire
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-04T13:17:39.183564-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-04T13:17:39.183547-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

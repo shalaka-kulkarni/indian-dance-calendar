@@ -1,0 +1,49 @@
+id: 2026-12-19-skyport-marina-bollywood-holidays-cruise-party
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Bollywood Holidays Cruise Party Desi Dinner Buffet Saturday Night Dec 19
+  start: '2026-12-19T18:00:00-04:00'
+  end: '2026-12-19T22:00:00-04:00'
+  additional_dates: []
+  venue: Skyport Marina
+  address: 2430 FDR Drive North, New York, NY
+  region: manhattan
+  price_min: 39.0
+  price_max: 39.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/bollywood-holidays-cruise-party-desi-dinner-buffet-saturday-night-dec-19_event-in_new-york-ny_402682
+  ticket_url: https://events.sulekha.com/bollywood-holidays-cruise-party-desi-dinner-buffet-saturday-night-dec-19_event-in_new-york-ny_402682
+  description_snippet: Bollywood Holidays Cruise Party Desi Dinner Buffet Saturday Night Dec 19
+  content_hash: 866303ed2e686b09
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/bollywood-holidays-cruise-party-desi-dinner-buffet-saturday-night-dec-19_event-in_new-york-ny_402682
+    first_seen: '2026-11-04'
+    last_seen: '2026-11-04'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/bollywood-holidays-cruise-party-desi-dinner-buffet-saturday-night-dec-19_event-in_new-york-ny_402682
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-04T13:17:42.108155-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-04T13:17:42.108138-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,50 @@
+id: 2027-02-20--soma-sings-lin-manuel-miranda
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: SOMA Sings Lin-Manuel Miranda Presented by SOMA Stage
+  start: '2027-02-20T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/soma-sings-lin-manuel/
+  ticket_url: ''
+  description_snippet: SOMA Sings Lin-Manuel Miranda Presented by SOMA Stage SAT, FEB 20, 2027 at 3:00
+    PM On Sale Soon SOMA Sings returns as local Broadway and SOMA stars celebrate Lin-Manuel Miranda with
+    songs from Hamilton, In the Heights, Moana, Encanto, and more. Fun for the whole family! On Sale Soon
+    Learn More
+  content_hash: f844fec5706461c3
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/soma-sings-lin-manuel/
+    first_seen: '2026-11-04'
+    last_seen: '2026-11-04'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/soma-sings-lin-manuel/
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-04T13:17:46.589520-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-04T13:17:46.589502-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

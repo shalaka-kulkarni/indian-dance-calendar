@@ -47,9 +47,9 @@ validation:
   - url: https://www.flushingtownhall.org/show-details/holi-dance-music-celebration-festival-of-colors
     ok: true
     status_code: 200
-    checked_at: '2026-11-02T15:53:41.025573-05:00'
+    checked_at: '2026-11-04T13:16:45.068463-05:00'
   problems: []
-  validated_at: '2026-11-02T15:53:41.025568-05:00'
+  validated_at: '2026-11-04T13:16:45.068456-05:00'
 curated:
   forms:
   - folk

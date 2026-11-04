@@ -24,7 +24,7 @@ scraped:
   - source_id: center_at_west_park
     url: https://www.centeratwestpark.org/calendar/2026/11/12/kidz-theater-the-little-mermaid-824mw-aw6dz
     first_seen: '2026-11-02'
-    last_seen: '2026-11-02'
+    last_seen: '2026-11-04'
 ai:
   relevant: false
   kind: performance

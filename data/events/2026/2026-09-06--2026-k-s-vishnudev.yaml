@@ -43,9 +43,9 @@ validation:
   - url: https://www.cmana.org/etn/2026-k-s-vishnudev-fall-tour/
     ok: true
     status_code: 200
-    checked_at: '2026-11-02T15:53:49.127086-05:00'
+    checked_at: '2026-11-04T13:17:01.669947-05:00'
   problems: []
-  validated_at: '2026-11-02T15:53:49.127081-05:00'
+  validated_at: '2026-11-04T13:17:01.669943-05:00'
 curated:
   forms: []
   traditions: []

@@ -24,7 +24,7 @@ scraped:
   - source_id: chhandayan
     url: https://chhandayan.org/calendar/2023/11/5/dewali-festival-celebration-in-virginia-db3ge-ml6kj
     first_seen: '2026-08-18'
-    last_seen: '2026-11-02'
+    last_seen: '2026-11-04'
 ai:
   relevant: true
   kind: community
@@ -53,11 +53,11 @@ validation:
   - url: https://chhandayan.org/calendar/2023/11/5/dewali-festival-celebration-in-virginia-db3ge-ml6kj
     ok: true
     status_code: 200
-    checked_at: '2026-11-02T15:54:00.999432-05:00'
+    checked_at: '2026-11-04T13:17:28.170844-05:00'
   problems:
   - no price information
   - relevance confidence too low for auto-publish
-  validated_at: '2026-11-02T15:54:00.999413-05:00'
+  validated_at: '2026-11-04T13:17:28.170826-05:00'
 curated:
   forms: []
   traditions: []

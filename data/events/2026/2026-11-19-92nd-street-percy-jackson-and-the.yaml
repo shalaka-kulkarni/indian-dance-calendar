@@ -1,0 +1,55 @@
+id: 2026-11-19-92nd-street-percy-jackson-and-the
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Percy Jackson and the Olympians : Season 3 Screening and Conversation with the Cast with Josh
+    Horowitz'
+  start: '2026-11-19T17:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall Enter on 92nd St. between Lexington
+    & 3rd Ave.
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 40.0
+  price_max: 40.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/percy-jackson-and-the-olympians-season-3
+  ticket_url: https://seats.92ny.org/single/211619
+  description_snippet: Join the cast of Disney+’s Percy Jackson and the Olympians for a Season 3 screening
+    and behind-the-scenes conversation with Josh Horowitz.
+  content_hash: 5f6df8de41c5bb2c
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/percy-jackson-and-the-olympians-season-3
+    first_seen: '2026-11-04'
+    last_seen: '2026-11-04'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/percy-jackson-and-the-olympians-season-3
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-04T13:17:36.444517-05:00'
+  - url: https://seats.92ny.org/single/211619
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-04T13:17:38.760745-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-04T13:17:36.444499-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}
