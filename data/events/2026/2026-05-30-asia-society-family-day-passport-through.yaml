@@ -44,9 +44,9 @@ validation:
   - url: https://asiasociety.org/new-york/events/family-day-passport-through-asia
     ok: true
     status_code: 200
-    checked_at: '2026-11-04T13:16:47.172712-05:00'
+    checked_at: '2026-11-04T15:53:15.755638-05:00'
   problems: []
-  validated_at: '2026-11-04T13:16:47.172706-05:00'
+  validated_at: '2026-11-04T15:53:15.755632-05:00'
 curated:
   forms:
   - bharatanatyam
