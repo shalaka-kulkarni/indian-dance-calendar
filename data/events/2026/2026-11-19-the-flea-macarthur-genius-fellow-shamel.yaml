@@ -1,0 +1,50 @@
+id: 2026-11-19-the-flea-macarthur-genius-fellow-shamel
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: MacArthur “Genius” Fellow Shamel Pitts’ TRIBE Presents the Remix of BLACK VELVET ON ITS 10TH
+    ANNIVERSARY
+  start: '2026-11-19T19:30:00-05:00'
+  additional_dates: []
+  venue: The Flea Theater
+  address: ''
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://givebutter.com/blackvelvet
+  ticket_url: ''
+  description_snippet: MacArthur “Genius” Fellow Shamel Pitts’ TRIBE Presents the Remix of BLACK VELVET
+    ON ITS 10TH ANNIVERSARY The Flea Theater Thu. November, 19 @ 7:30pm (+ 2 more)
+  content_hash: 02d1aed80770bb3e
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/MacArthur-Genius-Fellow-Shamel-Pitts-TRIBE-Presents-the-Remix-of-BLACK-VELVET-ON-ITS-10TH-ANNIVERSARY-2026-11-19_21
+    first_seen: '2026-11-06'
+    last_seen: '2026-11-06'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://givebutter.com/blackvelvet
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-06T12:42:51.148639-05:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-11-06T12:42:51.148619-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

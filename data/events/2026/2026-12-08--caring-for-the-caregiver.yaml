@@ -1,0 +1,48 @@
+id: 2026-12-08--caring-for-the-caregiver
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Caring for the Caregiver: Supporting Those Who Support Cancer Patients'
+  start: '2026-12-08T18:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/caring-for-the-caregiver
+  ticket_url: ''
+  description_snippet: Join Northwell Health Cancer Institute to learn about the caregiver's role in supporting
+    people with cancer and practical strategies caregivers can use to support themselves.
+  content_hash: a15d8110d6fae3d0
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/caring-for-the-caregiver
+    first_seen: '2026-11-06'
+    last_seen: '2026-11-06'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/caring-for-the-caregiver
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-06T12:43:02.557652-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-06T12:43:02.557635-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

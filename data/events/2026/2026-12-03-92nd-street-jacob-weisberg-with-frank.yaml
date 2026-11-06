@@ -1,0 +1,53 @@
+id: 2026-12-03-92nd-street-jacob-weisberg-with-frank
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Jacob Weisberg with Frank Rich: Profiles in Cowardice'
+  start: '2026-12-03T20:00:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 40.0
+  price_max: 40.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/jacob-weisberg-with-frank-rich-profiles-in-cowardice
+  ticket_url: https://seats.92ny.org/single/211656
+  description_snippet: Jacob Weisberg joins Frank Rich to discuss Profiles in Cowardice , his bestselling
+    examination of power, fear, complicity, and courage in the Trump era.
+  content_hash: 69f7cb30aca52228
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/jacob-weisberg-with-frank-rich-profiles-in-cowardice
+    first_seen: '2026-11-06'
+    last_seen: '2026-11-06'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/jacob-weisberg-with-frank-rich-profiles-in-cowardice
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-06T12:42:59.266788-05:00'
+  - url: https://seats.92ny.org/single/211656
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-06T12:43:02.097456-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-06T12:42:59.266771-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

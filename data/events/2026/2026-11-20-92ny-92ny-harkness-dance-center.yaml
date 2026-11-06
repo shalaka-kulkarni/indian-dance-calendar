@@ -1,0 +1,48 @@
+id: 2026-11-20-92ny-92ny-harkness-dance-center
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: '92NY Harkness Dance Center Presents Bridgman | Packer Dance: Ghost Factory, New York City Premiere'
+  start: '2026-11-20T19:00:00-05:00'
+  additional_dates: []
+  venue: 92NY
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.dance-enthusiast.com/dance-listings/events/view/92NY-Harkness-Dance-Center-Presents-Bridgman-Packer-Dance-Ghost-Factory-New-York-City-Premiere-2026-11-20_21
+  ticket_url: ''
+  description_snippet: '92NY Harkness Dance Center Presents Bridgman | Packer Dance: Ghost Factory, New
+    York City Premiere 92NY Fri. November, 20 @ 7:00pm'
+  content_hash: d14b8f65a532ff29
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/92NY-Harkness-Dance-Center-Presents-Bridgman-Packer-Dance-Ghost-Factory-New-York-City-Premiere-2026-11-20_21
+    first_seen: '2026-11-06'
+    last_seen: '2026-11-06'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.dance-enthusiast.com/dance-listings/events/view/92NY-Harkness-Dance-Center-Presents-Bridgman-Packer-Dance-Ghost-Factory-New-York-City-Premiere-2026-11-20_21
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-06T12:42:53.303404-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-06T12:42:53.303383-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

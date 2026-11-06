@@ -19,7 +19,7 @@ scraped:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Sundays-on-Broadway-November-15-2026-11-15
     first_seen: '2026-11-02'
-    last_seen: '2026-11-04'
+    last_seen: '2026-11-06'
 ai:
   relevant: false
   kind: performance

@@ -1,0 +1,53 @@
+id: 2026-11-16-92nd-street-how-will-the-midterms
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: How Will the Midterms Affect the US-Israel Relationship?
+  start: '2026-11-16T19:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 18.0
+  price_max: 18.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/how-will-the-midterms-affect-the-us-israel-relationship
+  ticket_url: https://seats.92ny.org/single/211235
+  description_snippet: 'This discussion will look beyond the immediate headlines and political maneuvering
+    to ask the larger questions: What direction have Israeli voters chosen?'
+  content_hash: 135a96fe90bb46a5
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/how-will-the-midterms-affect-the-us-israel-relationship
+    first_seen: '2026-11-06'
+    last_seen: '2026-11-06'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/how-will-the-midterms-affect-the-us-israel-relationship
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-06T12:42:46.106005-05:00'
+  - url: https://seats.92ny.org/single/211235
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-06T12:42:49.051621-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-06T12:42:46.105988-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

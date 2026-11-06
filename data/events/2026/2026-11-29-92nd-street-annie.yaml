@@ -1,0 +1,53 @@
+id: 2026-11-29-92nd-street-annie
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Annie
+  start: '2026-11-29T10:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 35.0
+  price_max: 35.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/annie
+  ticket_url: https://seats.92ny.org/single/210776
+  description_snippet: Based on the popular comic strip by Harold Gray, Annie has become a worldwide phenomenon,
+    featuring some of the greatest musical theatre hits ever written, including “Tomorrow.”
+  content_hash: 4e0ad67c2a81b6e9
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/annie
+    first_seen: '2026-11-06'
+    last_seen: '2026-11-06'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/annie
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-06T12:42:54.026445-05:00'
+  - url: https://seats.92ny.org/single/210776
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-06T12:42:59.241386-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-06T12:42:54.026428-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

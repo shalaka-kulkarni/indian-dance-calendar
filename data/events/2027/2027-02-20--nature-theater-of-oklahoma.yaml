@@ -1,0 +1,49 @@
+id: 2027-02-20--nature-theater-of-oklahoma
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Nature Theater of Oklahoma: Pizza or A Door In The Dark Does Not Dance or The Meaning of Life'
+  start: '2027-02-20T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://tickets.nyu.edu/overview/19158
+  ticket_url: ''
+  description_snippet: 'Thu Feb 18 – Sat Feb 20, 2027 Nature Theater of Oklahoma: Pizza or A Door In The
+    Dark Does Not Dance or The Meaning of Life Small opera. Largest things. Pass the parmesan. Chamber
+    Opera International Buy Tickets Learn More'
+  content_hash: cca8c5879166edbb
+  sources:
+  - source_id: skirball
+    url: https://tickets.nyu.edu/overview/19158
+    first_seen: '2026-11-06'
+    last_seen: '2026-11-06'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://tickets.nyu.edu/overview/19158
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-06T12:43:08.044251-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-06T12:43:08.044233-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

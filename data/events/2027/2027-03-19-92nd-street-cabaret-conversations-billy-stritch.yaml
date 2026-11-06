@@ -1,0 +1,53 @@
+id: 2027-03-19-92nd-street-cabaret-conversations-billy-stritch
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Cabaret Conversations: Billy Stritch'
+  start: '2027-03-19T19:30:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Warburg Lounge
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 45.0
+  price_max: 45.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/cabaret-conversations-billy-stritch
+  ticket_url: https://seats.92ny.org/single/211664
+  description_snippet: 92NY’s award-winning interview series, Cabaret Conversations, continues with its
+    second in-person edition, featuring acclaimed pianist, singer, arranger, and songwriter Billy Stritch.
+  content_hash: 74c7d1cf8c2bb836
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/cabaret-conversations-billy-stritch
+    first_seen: '2026-11-06'
+    last_seen: '2026-11-06'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/cabaret-conversations-billy-stritch
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-06T12:43:12.652300-05:00'
+  - url: https://seats.92ny.org/single/211664
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-06T12:43:12.785788-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-06T12:43:12.652282-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

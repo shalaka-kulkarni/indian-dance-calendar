@@ -1,0 +1,47 @@
+id: 2026-12-20-92nd-street-alex-tuchman
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Alex Tuchman
+  start: '2026-12-20T15:00:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Warburg Lounge
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/92ny-faculty-recital-alex-tuchman
+  ticket_url: ''
+  description_snippet: Come enjoy the artistry of the 92NY School of Music Faculty!
+  content_hash: 20c520fb61467741
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/92ny-faculty-recital-alex-tuchman
+    first_seen: '2026-11-06'
+    last_seen: '2026-11-06'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/92ny-faculty-recital-alex-tuchman
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-06T12:43:04.180512-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-06T12:43:04.180495-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

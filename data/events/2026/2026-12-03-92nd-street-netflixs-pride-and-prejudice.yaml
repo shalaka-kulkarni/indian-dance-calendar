@@ -1,0 +1,55 @@
+id: 2026-12-03-92nd-street-netflixs-pride-and-prejudice
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Netflix’s Pride and Prejudice
+  start: '2026-12-03T19:00:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall Enter on 92nd St. between Lexington
+    & 3rd Ave.
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 40.0
+  price_max: 40.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/netflix-s-pride-and-prejudice
+  ticket_url: https://seats.92ny.org/single/211607
+  description_snippet: Join Dolly Alderton, Emma Corrin and Jack Lowden for a special screening and conversation
+    about Netflix’s new six-part adaptation of Jane Austen’s Pride and Prejudice with One Nightstand ’s
+    Charlotte Owen.
+  content_hash: 3a3d0a673658597d
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/netflix-s-pride-and-prejudice
+    first_seen: '2026-11-06'
+    last_seen: '2026-11-06'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/211607
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-06T12:43:02.113580-05:00'
+  - url: https://www.92ny.org/event/netflix-s-pride-and-prejudice
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-06T12:43:02.123788-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-06T12:43:02.113562-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

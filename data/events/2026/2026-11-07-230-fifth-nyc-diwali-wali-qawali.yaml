@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/nyc-diwali-wali-qawali-ft-majid-ali-khan-at-230-fifth-ave_event-in_new-york-ny_402657
     first_seen: '2026-11-04'
-    last_seen: '2026-11-04'
+    last_seen: '2026-11-06'
 ai:
   relevant: true
   kind: performance
@@ -51,9 +51,9 @@ validation:
   - url: https://events.sulekha.com/nyc-diwali-wali-qawali-ft-majid-ali-khan-at-230-fifth-ave_event-in_new-york-ny_402657
     ok: true
     status_code: 200
-    checked_at: '2026-11-04T15:53:41.877550-05:00'
+    checked_at: '2026-11-06T12:42:42.654973-05:00'
   problems: []
-  validated_at: '2026-11-04T15:53:41.877533-05:00'
+  validated_at: '2026-11-06T12:42:42.654955-05:00'
 curated:
   forms: []
   traditions: []

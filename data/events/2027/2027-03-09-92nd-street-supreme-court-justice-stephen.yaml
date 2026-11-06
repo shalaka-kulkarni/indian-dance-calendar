@@ -1,0 +1,54 @@
+id: 2027-03-09-92nd-street-supreme-court-justice-stephen
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Supreme Court Justice Stephen Breyer in Conversation with Ari Melber: A Twentieth-Century Life'
+  start: '2027-03-09T20:00:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall Enter on 92nd St. between Lexington
+    & 3rd Ave.
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 50.0
+  price_max: 50.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/supreme-court-justice-stephen-breyer
+  ticket_url: https://seats.92ny.org/single/211446
+  description_snippet: Former Supreme Court Justice Stephen Breyer discusses his new memoir, A Twentieth-Century
+    Life , and reflects on the Court, the rule of law, public trust, and the future of American democracy.
+  content_hash: 719ed5a1bebf41da
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/supreme-court-justice-stephen-breyer
+    first_seen: '2026-11-06'
+    last_seen: '2026-11-06'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/supreme-court-justice-stephen-breyer
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-06T12:43:10.153220-05:00'
+  - url: https://seats.92ny.org/single/211446
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-06T12:43:12.630991-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-06T12:43:10.153200-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

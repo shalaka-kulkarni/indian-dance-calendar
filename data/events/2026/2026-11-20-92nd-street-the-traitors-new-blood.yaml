@@ -1,0 +1,54 @@
+id: 2026-11-20-92nd-street-the-traitors-new-blood
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'The Traitors: New Blood : The Winner(s) and Finalists in Conversation'
+  start: '2026-11-20T19:00:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall Enter on 92nd St. between Lexington
+    & 3rd Ave.
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 50.0
+  price_max: 50.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/the-traitors-new-blood
+  ticket_url: https://seats.92ny.org/single/211660
+  description_snippet: 'The winner and finalists of The Traitors: New Blood dish on betrayals, bold moves,
+    and shocking twists in a lively conversation featuring clips from Peacock’s hit competition series.'
+  content_hash: 3c7817ada0d703aa
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/the-traitors-new-blood
+    first_seen: '2026-11-06'
+    last_seen: '2026-11-06'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/the-traitors-new-blood
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-06T12:42:51.754004-05:00'
+  - url: https://seats.92ny.org/single/211660
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-06T12:42:53.286816-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-06T12:42:51.753985-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}
