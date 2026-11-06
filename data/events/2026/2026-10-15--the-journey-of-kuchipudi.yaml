@@ -44,9 +44,9 @@ validation:
   - url: https://ci.ovationtix.com/2742/production/1290496
     ok: true
     status_code: 403
-    checked_at: '2026-11-06T12:42:37.239834-05:00'
+    checked_at: '2026-11-06T15:53:43.091471-05:00'
   problems: []
-  validated_at: '2026-11-06T12:42:37.239827-05:00'
+  validated_at: '2026-11-06T15:53:43.091463-05:00'
 curated:
   forms: []
   traditions: []
