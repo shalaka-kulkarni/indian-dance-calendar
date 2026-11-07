@@ -49,9 +49,9 @@ validation:
   - url: https://natlawreview.com/press-releases/kathak-bharatanatyam-and-salsa-converge-alvin-ailey-stage-weekend-only
     ok: true
     status_code: 200
-    checked_at: '2026-11-06T15:53:25.967539-05:00'
+    checked_at: '2026-11-07T12:45:15.312732-05:00'
   problems: []
-  validated_at: '2026-11-06T15:53:25.967532-05:00'
+  validated_at: '2026-11-07T12:45:15.312728-05:00'
 curated:
   forms:
   - kathak
