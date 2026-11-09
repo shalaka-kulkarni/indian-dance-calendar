@@ -37,6 +37,7 @@ def test_infer_region():
     assert infer_region("Mark Morris Dance Center", "3 Lafayette Ave, New York, NY") == Region.BROOKLYN
     assert infer_region("Kupferberg Center for the Arts", "") == Region.QUEENS
     assert infer_region("Tilles Center", "") == Region.LONG_ISLAND
+    assert infer_region("Seaport Museum", "") == Region.MANHATTAN
 
 
 def test_normalize_floor_requirements():

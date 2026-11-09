@@ -55,7 +55,8 @@ REGION_HINTS: list[tuple[re.Pattern, Region]] = [
         r"dixon place|judson|center at west park|theater for the new city|carnegie hall|"
         r"town hall|merkin|kaufman music center|asia society|rubin museum|"
         r"metropolitan museum|met museum|city center|skirball|perelman|pac nyc|\bdrom\b|"
-        r"apollo theater|beacon theatre|kaye playhouse|hunter college|public theater|"
+        r"apollo theater|apollo stages|beacon theatre|kaye playhouse|hunter college|public theater|"
+        r"south street seaport|seaport museum|"
         r"guggenheim|india house|consulate general of india|bhavan", re.I), Region.MANHATTAN),
 ]
 
