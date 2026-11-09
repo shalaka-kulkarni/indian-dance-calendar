@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/bollywood-holidays-cruise-party-desi-dinner-buffet-saturday-night-dec-19_event-in_new-york-ny_402682
     first_seen: '2026-11-04'
-    last_seen: '2026-11-06'
+    last_seen: '2026-11-09'
 ai:
   relevant: false
   kind: performance

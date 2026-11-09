@@ -1,0 +1,59 @@
+id: 2026-11-20-state-theatre-a-christmas-story-the
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'A Christmas Story: The Musical'
+  start: '2026-11-20T19:30:00-05:00'
+  end: '2026-11-22T13:00:00-05:00'
+  additional_dates: []
+  venue: State Theatre New Jersey
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  price_min: 52.0
+  price_max: 52.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/a-christmas-story-the-musical-2026
+  ticket_url: https://my.stnj.org/overview/25029
+  description_snippet: '“A JOYOUS CHRISTMAS MIRACLE!” –Associated PressFrom the songwriting team behind
+    the smash hit Tony® Award-winning musical Dear Evan Hansen and the critically-acclaimed films La La
+    Land and The Greatest Showman, A Christmas Story: The Musical, brings the classic 1983 movie to hilarious
+    life on stage! Set in 1940s Indiana, a young and bespectacled Ralphie Parker schemes his way toward
+    the holiday gift of his dreams, an official Red Ryder® Carbine-Action 200-Shot Range Model Air Rifle.
+    An infamous leg lamp, outrageous pink bunny pajamas, a maniacal department store Santa, and a triple-dog-dare
+    to'
+  content_hash: 10fa239d00a4a9d6
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/a-christmas-story-the-musical-2026
+    first_seen: '2026-11-09'
+    last_seen: '2026-11-09'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.stnj.org/events/detail/a-christmas-story-the-musical-2026
+    ok: true
+    status_code: 406
+    checked_at: '2026-11-09T16:01:07.727787-05:00'
+  - url: https://my.stnj.org/overview/25029
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-09T16:01:07.989777-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-09T16:01:07.727764-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

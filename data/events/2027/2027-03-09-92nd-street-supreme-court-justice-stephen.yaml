@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/supreme-court-justice-stephen-breyer
     first_seen: '2026-11-06'
-    last_seen: '2026-11-06'
+    last_seen: '2026-11-09'
 ai:
   relevant: false
   kind: performance

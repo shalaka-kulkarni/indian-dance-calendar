@@ -1,0 +1,49 @@
+id: 2027-03-21-queens-theatre-dino-light-a-glow-in
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Dino-Light — A Glow in the Dark Adventure
+  start: '2027-03-21T13:00:00-04:00'
+  additional_dates: []
+  venue: Queens Theatre
+  address: 14 United Nations Avenue South, Corona
+  region: queens
+  is_free: false
+  price_note: ''
+  info_url: https://queenstheatre.org/events/dino-light-bq8d
+  ticket_url: ''
+  description_snippet: DINO-LIGHT, formerly known as Darwin the Dinosaur, was the recipient of the prestigious
+    Jim Henson Foundation Grant and first feature-length theatrical production created and performed by
+    creators Ian…
+  content_hash: 75d750e557388b96
+  sources:
+  - source_id: queens_theatre
+    url: https://queenstheatre.org/events/dino-light-bq8d
+    first_seen: '2026-11-09'
+    last_seen: '2026-11-09'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://queenstheatre.org/events/dino-light-bq8d
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-09T16:01:20.321204-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-09T16:01:20.321183-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

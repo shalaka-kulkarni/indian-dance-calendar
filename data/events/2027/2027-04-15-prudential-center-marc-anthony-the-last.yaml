@@ -1,0 +1,49 @@
+id: 2027-04-15-prudential-center-marc-anthony-the-last
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Marc Anthony: THE LAST DANCE TOUR 2027'
+  start: '2027-04-15T20:00:00-04:00'
+  end: '2027-04-15T21:00:00-04:00'
+  additional_dates: []
+  venue: Prudential Center
+  address: 'Marc Anthony: THE LAST DANCE TOUR 2027'
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.prucenter.com/events/marc-anthony
+  ticket_url: ''
+  description_snippet: Marc Anthony is bringing THE LAST DANCE TOUR with special guest Eddie Santiago
+    to Prudential Center on April 15!
+  content_hash: 0cc469e1b61e3709
+  sources:
+  - source_id: prudential_center
+    url: https://www.prucenter.com/events/marc-anthony
+    first_seen: '2026-11-09'
+    last_seen: '2026-11-09'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.prucenter.com/events/marc-anthony
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-09T16:01:21.065821-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-09T16:01:21.065801-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,5 +1,5 @@
 id: 2026-11-07-the-space-punjab-vibe-tour-2026
-status: published
+status: past
 was_published: true
 needs_recheck: false
 scraped:
@@ -39,19 +39,14 @@ validation:
   passed: true
   checks:
     has_info_url: true
-    specific_url: true
     links_live: true
-    date_valid: true
-    price_known: true
-    in_metro: true
-    classified: true
   link_checks:
   - url: https://events.sulekha.com/punjab-vibe-tour-2026-with-sahil-khan-live-in-concert_event-in_westbury-ny_402316
     ok: true
     status_code: 200
-    checked_at: '2026-11-07T12:45:42.680620-05:00'
+    checked_at: '2026-11-09T16:01:05.617567-05:00'
   problems: []
-  validated_at: '2026-11-07T12:45:42.680601-05:00'
+  validated_at: '2026-11-09T16:01:05.617558-05:00'
 curated:
   forms: []
   traditions: []

@@ -1,0 +1,59 @@
+id: 2026-11-23-state-theatre-glenn-miller-orchestra
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Glenn Miller Orchestra
+  start: '2026-11-23T19:00:00-05:00'
+  end: '2026-11-23T19:00:00-05:00'
+  additional_dates: []
+  venue: State Theatre New Jersey
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  price_min: 77.0
+  price_max: 77.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/glenn-miller-orchestra-2026
+  ticket_url: https://my.stnj.org/25092/25093
+  description_snippet: “In The Mood” for swing music? Take a step back in time with the most popular and
+    sought after big band of all time! The World-Famous Glenn Miller Orchestra will perform their greatest
+    hits, including “In The Mood,” “Chattanooga Choo Choo,” “American Patrol,” “A String Of Pearls,” “Little
+    Brown Jug,” “Pennsylvania 6-5000,” “Tuxedo Junction,” and of course their theme song “Moonlight Serenade”
+    as they continue their national tour. The 15 member orchestra, their lead singers, and vocal group
+    will perform their catalog of big band classics just the way they would have over 80 years ago when
+    Glenn
+  content_hash: ac6d80243ef45a3b
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/glenn-miller-orchestra-2026
+    first_seen: '2026-11-09'
+    last_seen: '2026-11-09'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.stnj.org/events/detail/glenn-miller-orchestra-2026
+    ok: true
+    status_code: 406
+    checked_at: '2026-11-09T16:01:12.049990-05:00'
+  - url: https://my.stnj.org/25092/25093
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-09T16:01:12.156575-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-09T16:01:12.049969-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

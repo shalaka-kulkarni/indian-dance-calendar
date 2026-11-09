@@ -1,0 +1,49 @@
+id: 2026-11-14-the-apollo-hopeboykindance-presents-a-collection
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: HopeBoykinDance presents … A Collection. at The Apollo Stages at The Victoria
+  start: '2026-11-14T14:00:00-05:00'
+  additional_dates: []
+  venue: The Apollo Stages at the Victoria Theater
+  address: ''
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://www.apollotheater.org/event/hopeboykindance
+  ticket_url: ''
+  description_snippet: HopeBoykinDance presents … A Collection. at The Apollo Stages at The Victoria The
+    Apollo Stages at the Victoria Theater Sat. November, 14 @ 2:00pm
+  content_hash: 91a5d7c6f317f4ab
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/HopeBoykinDance-presents-A-Collection.-at-The-Apollo-Stages-at-The-Victoria-2026-11-14
+    first_seen: '2026-11-09'
+    last_seen: '2026-11-09'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://www.apollotheater.org/event/hopeboykindance
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-09T16:01:06.413412-05:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-11-09T16:01:06.413387-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

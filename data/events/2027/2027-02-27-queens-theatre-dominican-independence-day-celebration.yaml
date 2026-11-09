@@ -1,0 +1,49 @@
+id: 2027-02-27-queens-theatre-dominican-independence-day-celebration
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Dominican Independence Day Celebration
+  start: '2027-02-27T19:30:00-05:00'
+  additional_dates: []
+  venue: Queens Theatre
+  address: 14 United Nations Avenue South, Corona
+  region: queens
+  is_free: false
+  price_note: ''
+  info_url: https://queenstheatre.org/events/dominican-independence-day-celebration-q8qt
+  ticket_url: ''
+  description_snippet: Celebrate Dominican Independence Day at Queens Theatre with an evening of music,
+    comedy, culture, and community honoring the spirit and influence of the Dominican Republic in Queens.
+    The celebration b…
+  content_hash: c58097e59ee3399b
+  sources:
+  - source_id: queens_theatre
+    url: https://queenstheatre.org/events/dominican-independence-day-celebration-q8qt
+    first_seen: '2026-11-09'
+    last_seen: '2026-11-09'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://queenstheatre.org/events/dominican-independence-day-celebration-q8qt
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-09T16:01:17.751002-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-09T16:01:17.750980-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

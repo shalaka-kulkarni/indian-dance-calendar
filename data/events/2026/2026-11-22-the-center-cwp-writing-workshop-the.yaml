@@ -24,7 +24,7 @@ scraped:
   - source_id: center_at_west_park
     url: https://www.centeratwestpark.org/calendar/2026/11/8/cwp-writing-workshop-t87s3
     first_seen: '2026-11-02'
-    last_seen: '2026-11-06'
+    last_seen: '2026-11-09'
 ai:
   relevant: false
   kind: performance

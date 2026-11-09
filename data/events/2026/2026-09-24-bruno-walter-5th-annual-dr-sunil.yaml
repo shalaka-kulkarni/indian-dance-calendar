@@ -50,9 +50,9 @@ validation:
   - url: https://www.amnewscurtainraiser.com/2026/08/erasing-borders-dance-festival-returns.html
     ok: true
     status_code: 204
-    checked_at: '2026-11-07T12:45:28.527717-05:00'
+    checked_at: '2026-11-09T16:00:51.494725-05:00'
   problems: []
-  validated_at: '2026-11-07T12:45:28.527710-05:00'
+  validated_at: '2026-11-09T16:00:51.494718-05:00'
 curated:
   forms:
   - bharatanatyam

@@ -1,5 +1,5 @@
 id: 2026-11-07-the-delancey-meghna-das-live-at
-status: needs_attention
+status: past
 was_published: false
 needs_recheck: false
 scraped:
@@ -22,7 +22,7 @@ scraped:
   - source_id: allevents
     url: https://allevents.in/new-york/meghna-das-live-at-the-delancey/100002000052190943
     first_seen: '2026-09-09'
-    last_seen: '2026-11-06'
+    last_seen: '2026-11-09'
 ai:
   relevant: true
   kind: performance
@@ -41,7 +41,7 @@ validation:
     has_info_url: true
     specific_url: true
     links_live: true
-    date_valid: true
+    date_valid: false
     price_known: true
     in_metro: true
     classified: false
@@ -49,10 +49,11 @@ validation:
   - url: https://allevents.in/new-york/meghna-das-live-at-the-delancey/100002000052190943
     ok: true
     status_code: 200
-    checked_at: '2026-11-07T12:45:42.354485-05:00'
+    checked_at: '2026-11-09T16:00:22.580786-05:00'
   problems:
+  - event date 2026-11-07 is in the past
   - relevance confidence too low for auto-publish
-  validated_at: '2026-11-07T12:45:42.354465-05:00'
+  validated_at: '2026-11-09T16:00:22.580776-05:00'
 curated:
   forms: []
   traditions: []

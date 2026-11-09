@@ -21,7 +21,7 @@ scraped:
   - source_id: queens_theatre
     url: https://queenstheatre.org/events/amor-tropical-a-valentines-day-special-q81t
     first_seen: '2026-11-02'
-    last_seen: '2026-11-06'
+    last_seen: '2026-11-09'
 ai:
   relevant: false
   kind: performance

@@ -1,0 +1,59 @@
+id: 2026-11-29-state-theatre-maxim-lando-piano
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Maxim Lando, piano
+  start: '2026-11-29T15:00:00-05:00'
+  end: '2026-11-29T15:00:00-05:00'
+  additional_dates: []
+  venue: State Theatre Studio
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  price_min: 30.0
+  price_max: 30.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/maxim-lando-sound-studio-2026
+  ticket_url: https://my.stnj.org/25568/25569
+  description_snippet: Join us for an immersive musical experience that places you in the heart of the
+    performance. Taking place in our intimate Studio space, The Sound Studio series brings you up close
+    and personal with emerging classical performing artists.Schumann Fantasie in C, Op. 17Holst/Lando
+    The PlanetsGershwin/Wild “Embraceable You”Gershwin/Wild “I've Got Rhythm”Maxim Lando has been lauded
+    by the New York Times for his “brilliance and infectious exuberance” along with “impressive delicacy
+    and a wild-eyed danger.” He first made international headlines performing with Lang Lang, Chick Corea,
+    and the Phila
+  content_hash: 3cd247fc08203bef
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/maxim-lando-sound-studio-2026
+    first_seen: '2026-11-09'
+    last_seen: '2026-11-09'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.stnj.org/events/detail/maxim-lando-sound-studio-2026
+    ok: true
+    status_code: 406
+    checked_at: '2026-11-09T16:01:12.504522-05:00'
+  - url: https://my.stnj.org/25568/25569
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-09T16:01:12.667953-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-09T16:01:12.504502-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}
