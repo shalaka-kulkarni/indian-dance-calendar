@@ -8,7 +8,7 @@ scraped:
   additional_dates: []
   venue: Seaport Museum
   address: ''
-  region: unknown
+  region: manhattan
   price_min: 0.0
   price_max: 0.0
   is_free: true
@@ -23,6 +23,19 @@ scraped:
     url: https://www.dance-enthusiast.com/dance-listings/events/view/South-Street-Seaport-Museum-Announces-Diwali-Celebration-at-the-Seaport-Museum-FREE-2026-11-10
     first_seen: '2026-11-09'
     last_seen: '2026-11-09'
+ai:
+  relevant: true
+  kind: community
+  art_form: both
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: medium
+  reasoning: Free Diwali community celebration at the South Street Seaport Museum, listed by a dance listings
+    site; the listing gives only the title, venue and time.
+  model: claude-opus-5-5
+  classified_at: '2026-11-09'
 validation:
   passed: false
   checks:

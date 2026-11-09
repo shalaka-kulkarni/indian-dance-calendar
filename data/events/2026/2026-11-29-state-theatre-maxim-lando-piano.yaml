@@ -1,5 +1,5 @@
 id: 2026-11-29-state-theatre-maxim-lando-piano
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -29,28 +29,33 @@ scraped:
     url: https://www.stnj.org/events/detail/maxim-lando-sound-studio-2026
     first_seen: '2026-11-09'
     last_seen: '2026-11-09'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: Western classical piano recital.'
+  model: claude-opus-5-5
+  classified_at: '2026-11-09'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://www.stnj.org/events/detail/maxim-lando-sound-studio-2026
-    ok: true
-    status_code: 406
-    checked_at: '2026-11-09T16:01:12.504522-05:00'
-  - url: https://my.stnj.org/25568/25569
-    ok: true
-    status_code: 200
-    checked_at: '2026-11-09T16:01:12.667953-05:00'
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-11-09T16:01:12.504502-05:00'
+  - links not yet verified (offline run)
+  - classified not-relevant
+  validated_at: '2026-11-09T16:02:15.053769-05:00'
 curated:
   forms: []
   traditions: []
