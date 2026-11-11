@@ -51,9 +51,9 @@ validation:
   - url: https://www.joyce.org/performances/nrityagram-dance-ensemble-clk1
     ok: true
     status_code: 200
-    checked_at: '2026-11-09T16:02:55.227074-05:00'
+    checked_at: '2026-11-11T13:04:40.572237-05:00'
   problems: []
-  validated_at: '2026-11-09T16:02:55.227068-05:00'
+  validated_at: '2026-11-11T13:04:40.572230-05:00'
 curated:
   forms:
   - odissi

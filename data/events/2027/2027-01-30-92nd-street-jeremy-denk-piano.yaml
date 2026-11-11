@@ -1,0 +1,54 @@
+id: 2027-01-30-92nd-street-jeremy-denk-piano
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Jeremy Denk, piano
+  start: '2027-01-30T19:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall Enter on 92nd St. between Lexington
+    & 3rd Ave.
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 45.0
+  price_max: 45.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/jeremy-denk
+  ticket_url: https://seats.92ny.org/single/210484
+  description_snippet: One of the world’s foremost pianists, Jeremy Denk returns to 92NY with a program
+    to be announced.
+  content_hash: ae121305b942d02b
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/jeremy-denk
+    first_seen: '2026-11-11'
+    last_seen: '2026-11-11'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/jeremy-denk
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-11T13:05:02.233420-05:00'
+  - url: https://seats.92ny.org/single/210484
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-11T13:05:04.429334-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-11T13:05:02.233400-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

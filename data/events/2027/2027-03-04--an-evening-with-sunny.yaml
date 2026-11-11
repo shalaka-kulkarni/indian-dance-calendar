@@ -1,0 +1,52 @@
+id: 2027-03-04--an-evening-with-sunny
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: An Evening with Sunny Hostin
+  start: '2027-03-04T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/sunny-hostin-27/
+  ticket_url: ''
+  description_snippet: An Evening with Sunny Hostin THU, MAR 4, 2027 at 7:00PM On Sale Soon Sunny Hostin
+    is a five-time Emmy winner, two-time New York Times bestselling author, and co-host of The View whose
+    career spans federal prosecution, investigative journalism, and fiction writing. Known for her sharp
+    legal mind, moral clarity, and willingness to say exactly what she thinks, she brings the kind of
+    frank, compelling conversation that has made her one of the most trusted voices in American public
+    life. On Sale Soon Learn More
+  content_hash: d56aeea692b1ed4c
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/sunny-hostin-27/
+    first_seen: '2026-11-11'
+    last_seen: '2026-11-11'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/sunny-hostin-27/
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-11T13:05:08.998552-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-11T13:05:08.998532-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

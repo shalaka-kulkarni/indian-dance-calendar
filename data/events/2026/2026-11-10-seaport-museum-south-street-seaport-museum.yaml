@@ -1,5 +1,5 @@
 id: 2026-11-10-seaport-museum-south-street-seaport-museum
-status: published
+status: past
 was_published: true
 needs_recheck: false
 scraped:
@@ -40,19 +40,14 @@ validation:
   passed: true
   checks:
     has_info_url: true
-    specific_url: true
     links_live: true
-    date_valid: true
-    price_known: true
-    in_metro: true
-    classified: true
   link_checks:
   - url: https://southstreetseaportmuseum.org/diwali/
     ok: true
     status_code: 200
-    checked_at: '2026-11-09T16:03:02.708885-05:00'
+    checked_at: '2026-11-11T13:04:49.772712-05:00'
   problems: []
-  validated_at: '2026-11-09T16:03:02.708864-05:00'
+  validated_at: '2026-11-11T13:04:49.772705-05:00'
 curated:
   forms: []
   traditions: []

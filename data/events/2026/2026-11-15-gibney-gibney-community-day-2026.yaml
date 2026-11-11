@@ -22,7 +22,7 @@ scraped:
   - source_id: gibney
     url: https://gibneydance.org/event/gibney-community-day-2026/
     first_seen: '2026-11-04'
-    last_seen: '2026-11-09'
+    last_seen: '2026-11-11'
 ai:
   relevant: false
   kind: performance

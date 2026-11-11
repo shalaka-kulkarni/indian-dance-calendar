@@ -1,0 +1,47 @@
+id: 2026-11-14--life-in-shadows-the
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Life in Shadows: The Border as Carceral Geography'
+  start: '2026-11-14T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: brooklyn
+  is_free: false
+  price_note: ''
+  info_url: https://pioneerworks.org/programs/life-in-shadows-the-border-as-carceral-geography
+  ticket_url: ''
+  description_snippet: 'program Saturday, Nov 14, 2026 Life in Shadows: The Border as Carceral Geography'
+  content_hash: a017fcd6946413b5
+  sources:
+  - source_id: pioneer_works
+    url: https://pioneerworks.org/programs/life-in-shadows-the-border-as-carceral-geography
+    first_seen: '2026-11-11'
+    last_seen: '2026-11-11'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://pioneerworks.org/programs/life-in-shadows-the-border-as-carceral-geography
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-11T13:04:50.066030-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-11T13:04:50.066007-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

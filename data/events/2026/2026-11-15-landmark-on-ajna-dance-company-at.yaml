@@ -1,0 +1,52 @@
+id: 2026-11-15-landmark-on-ajna-dance-company-at
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Ajna Dance Company at A Night of South Asian Performances
+  start: '2026-11-15T16:00:00Z'
+  end: '2026-11-15T18:00:00Z'
+  additional_dates: []
+  venue: Landmark on Main Street 232 Main Street Port Washington, NY 11050
+  address: 232 Main Street, Port Washington, NY
+  region: long_island
+  is_free: false
+  price_note: ''
+  info_url: https://ajnadance.com/event/a-night-of-south-asian-performances/
+  ticket_url: ''
+  description_snippet: Celebrate the Vibrant Talents of the South Asian Diaspora! Landmark Theater will
+    come alive with an exciting showcase of South Asian dance, music, vocals, and poetry—featuring Ajna
+    Dance Company! Enjoy captivating Bollywood dance performances, the rhythmic beats of dhol and tabla,
+    original poetry readings by talented poets, powerful vocal performances, and so much more. Join […]
+    \n
+  content_hash: 58f7d7d4828f5611
+  sources:
+  - source_id: ajna_dance
+    url: https://ajnadance.com/event/a-night-of-south-asian-performances/
+    first_seen: '2026-11-11'
+    last_seen: '2026-11-11'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://ajnadance.com/event/a-night-of-south-asian-performances/
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-11T13:04:52.082338-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-11T13:04:52.082317-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

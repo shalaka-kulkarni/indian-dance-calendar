@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/vanessa-braganza-renaissance-women-codebreakers
     first_seen: '2026-11-06'
-    last_seen: '2026-11-09'
+    last_seen: '2026-11-11'
 ai:
   relevant: false
   kind: performance

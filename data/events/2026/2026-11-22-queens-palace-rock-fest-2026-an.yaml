@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/rock-fest-2026-an-electrifying-night-of-live-music-in-woodside-ny_event-in_woodside-ny_402691
     first_seen: '2026-11-06'
-    last_seen: '2026-11-09'
+    last_seen: '2026-11-11'
 ai:
   relevant: false
   kind: performance

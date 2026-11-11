@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/ragaboyz-generations-live-in-new-york_event-in_westbury-ny_401984
     first_seen: '2026-09-23'
-    last_seen: '2026-11-09'
+    last_seen: '2026-11-11'
 ai:
   relevant: true
   kind: performance
@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/ragaboyz-generations-live-in-new-york_event-in_westbury-ny_401984
     ok: true
     status_code: 200
-    checked_at: '2026-11-09T16:03:04.433329-05:00'
+    checked_at: '2026-11-11T13:04:53.274663-05:00'
   problems:
   - relevance confidence too low for auto-publish
-  validated_at: '2026-11-09T16:03:04.433308-05:00'
+  validated_at: '2026-11-11T13:04:53.274643-05:00'
 curated:
   forms: []
   traditions: []

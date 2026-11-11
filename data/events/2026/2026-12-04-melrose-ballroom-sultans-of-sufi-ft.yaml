@@ -1,0 +1,49 @@
+id: 2026-12-04-melrose-ballroom-sultans-of-sufi-ft
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Sultans of Sufi Ft. Majid Ali & Sur Sagar at Melrose Ballroom
+  start: '2026-12-04T20:00:00-04:00'
+  end: '2026-12-05T02:00:00-04:00'
+  additional_dates: []
+  venue: MELROSE Ballroom
+  address: 36-08 33rd Street, Astoria, NY
+  region: queens
+  price_min: 35.0
+  price_max: 35.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/sultans-of-sufi-ft-majid-ali-sur-sagar-at-melrose-ballroom_event-in_astoria-ny_402802
+  ticket_url: https://events.sulekha.com/sultans-of-sufi-ft-majid-ali-sur-sagar-at-melrose-ballroom_event-in_astoria-ny_402802
+  description_snippet: Sultans Of Sufi Ft. Majid Ali & Sur Sagar At Melrose Ballroom
+  content_hash: a55e6d80c6d10056
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/sultans-of-sufi-ft-majid-ali-sur-sagar-at-melrose-ballroom_event-in_astoria-ny_402802
+    first_seen: '2026-11-11'
+    last_seen: '2026-11-11'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/sultans-of-sufi-ft-majid-ali-sur-sagar-at-melrose-ballroom_event-in_astoria-ny_402802
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-11T13:04:58.025747-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-11T13:04:58.025730-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

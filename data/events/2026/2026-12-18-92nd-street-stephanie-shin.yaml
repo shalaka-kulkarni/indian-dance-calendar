@@ -1,0 +1,48 @@
+id: 2026-12-18-92nd-street-stephanie-shin
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Stephanie Shin
+  start: '2026-12-18T18:00:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Arnhold Studio
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/fridays-in-arnhold-stephanie-shin
+  ticket_url: ''
+  description_snippet: Join Stephanie Shin for an intimate, first access look at her newest work Teeny
+    Tiny .
+  content_hash: 843e86d4755781b4
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/fridays-in-arnhold-stephanie-shin
+    first_seen: '2026-11-11'
+    last_seen: '2026-11-11'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/fridays-in-arnhold-stephanie-shin
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-11T13:04:58.428103-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-11T13:04:58.428087-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

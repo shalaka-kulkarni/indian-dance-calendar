@@ -1,0 +1,48 @@
+id: 2027-03-10--live-on-stage-jonathan
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'LIVE! ON STAGE: JONATHAN RICHMAN featuring TOMMY LARKINS on the drums!'
+  start: '2027-03-10T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: brooklyn
+  is_free: false
+  price_note: ''
+  info_url: https://pioneerworks.org/programs/jonathan-richman
+  ticket_url: ''
+  description_snippet: 'program Wednesday, Mar 10, 2027 LIVE! ON STAGE: JONATHAN RICHMAN featuring TOMMY
+    LARKINS on the drums!'
+  content_hash: 86467836e737fb0f
+  sources:
+  - source_id: pioneer_works
+    url: https://pioneerworks.org/programs/jonathan-richman
+    first_seen: '2026-11-11'
+    last_seen: '2026-11-11'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://pioneerworks.org/programs/jonathan-richman
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-11T13:05:09.058501-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-11T13:05:09.058481-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

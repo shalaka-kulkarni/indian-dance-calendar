@@ -28,7 +28,7 @@ scraped:
   - source_id: state_theatre_nj
     url: https://www.stnj.org/events/detail/cocomelon-sing-a-long-live-2026
     first_seen: '2026-10-30'
-    last_seen: '2026-11-09'
+    last_seen: '2026-11-11'
 ai:
   relevant: false
   kind: performance
