@@ -25,6 +25,21 @@ scraped:
     url: https://ajnadance.com/event/a-night-of-south-asian-performances/
     first_seen: '2026-11-11'
     last_seen: '2026-11-11'
+ai:
+  relevant: true
+  kind: performance
+  art_form: both
+  traditions:
+  - popular_film
+  forms:
+  - bollywood
+  music_styles: []
+  presenter_type: professional_company
+  confidence: high
+  reasoning: South Asian showcase at Landmark on Main Street in Port Washington with Bollywood dance by
+    Ajna Dance Company alongside dhol, tabla and vocal performances.
+  model: claude-opus-5-5
+  classified_at: '2026-11-11'
 validation:
   passed: false
   checks:
