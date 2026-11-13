@@ -21,7 +21,7 @@ scraped:
   - source_id: joyce
     url: https://www.joyce.org/performances/charlotte-ballet-5sqn
     first_seen: '2026-11-09'
-    last_seen: '2026-11-11'
+    last_seen: '2026-11-13'
 ai:
   relevant: false
   kind: performance

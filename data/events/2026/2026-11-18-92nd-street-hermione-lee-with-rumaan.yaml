@@ -21,7 +21,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/hermione-lee-with-rumaan-alam-anita-brookner
     first_seen: '2026-09-11'
-    last_seen: '2026-11-11'
+    last_seen: '2026-11-13'
 ai:
   relevant: false
   kind: performance

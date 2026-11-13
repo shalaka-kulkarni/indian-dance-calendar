@@ -1,0 +1,50 @@
+id: 2026-12-03-aura-ballroom-dur-e-fishan-meet
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Dur E Fishan Meet & Greet and Musical Night in New York
+  start: '2026-12-03T20:00:00-04:00'
+  end: '2026-12-03T22:30:00-04:00'
+  additional_dates: []
+  venue: Aura Ballroom
+  address: 215 Sunnyside Blvd, Plainview, NY
+  region: unknown
+  price_min: 100.0
+  price_max: 100.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/dur-e-fishan-meet-greet-and-musical-night-in-new-york_event-in_plainview-ny_402819
+  ticket_url: https://events.sulekha.com/dur-e-fishan-meet-greet-and-musical-night-in-new-york_event-in_plainview-ny_402819
+  description_snippet: Dur E Fishan Meet & Greet And Musical Night In New York
+  content_hash: c5d50910b1e167fd
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/dur-e-fishan-meet-greet-and-musical-night-in-new-york_event-in_plainview-ny_402819
+    first_seen: '2026-11-13'
+    last_seen: '2026-11-13'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/dur-e-fishan-meet-greet-and-musical-night-in-new-york_event-in_plainview-ny_402819
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-13T13:00:09.665080-05:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-11-13T13:00:09.665056-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,53 @@
+id: 2027-02-13-92nd-street-alice-in-wonderland
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Alice in Wonderland
+  start: '2027-02-13T10:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 25.0
+  price_max: 25.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/alice-in-wonderland
+  ticket_url: https://seats.92ny.org/single/211688
+  description_snippet: A new version of the beloved classic Alice in Wonderland comes to life in dance
+    and song!
+  content_hash: 881a55e880bf35af
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/alice-in-wonderland
+    first_seen: '2026-11-13'
+    last_seen: '2026-11-13'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/211688
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-13T13:00:15.942791-05:00'
+  - url: https://www.92ny.org/event/alice-in-wonderland
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-13T13:00:16.003391-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-13T13:00:15.942771-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -24,7 +24,7 @@ scraped:
   - source_id: center_at_west_park
     url: https://www.centeratwestpark.org/calendar/2026/11/14/the-axial-playwright-series-presents-fear-less-by-jacquelyn-reingold
     first_seen: '2026-11-02'
-    last_seen: '2026-11-11'
+    last_seen: '2026-11-13'
 ai:
   relevant: false
   kind: performance

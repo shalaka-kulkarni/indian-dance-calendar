@@ -1,0 +1,48 @@
+id: 2026-11-13-bam-fisher-sweat-variant-okwui-okpokwasili
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'sweat variant (Okwui Okpokwasili and Peter Born) presents "adaku, part 2: she shivers with it"'
+  start: '2026-11-13T19:30:00-05:00'
+  additional_dates: []
+  venue: BAM Fisher, Fishman Space
+  address: ''
+  region: brooklyn
+  is_free: false
+  price_note: ''
+  info_url: https://www.bam.org/dance/2026/adaku2
+  ticket_url: ''
+  description_snippet: 'sweat variant (Okwui Okpokwasili and Peter Born) presents "adaku, part 2: she
+    shivers with it" BAM Fisher, Fishman Space Fri. November, 13 @ 7:30pm (+ 4 more)'
+  content_hash: 43d451af7846ae50
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/sweat-variant-Okwui-Okpokwasili-and-Peter-Born-presents-adaku-part-2-she-shivers-with-it-2026-11-11_15
+    first_seen: '2026-11-13'
+    last_seen: '2026-11-13'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.bam.org/dance/2026/adaku2
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-13T13:00:05.325797-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-13T13:00:05.325770-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

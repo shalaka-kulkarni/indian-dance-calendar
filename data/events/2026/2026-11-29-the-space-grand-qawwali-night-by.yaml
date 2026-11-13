@@ -1,0 +1,49 @@
+id: 2026-11-29-the-space-grand-qawwali-night-by
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Grand Qawwali Night by Ali Zaman Zaki Taji
+  start: '2026-11-29T18:00:00-05:00'
+  end: '2026-11-29T22:00:00-05:00'
+  additional_dates: []
+  venue: The Space at Westbury
+  address: 250 Post Ave, Westbury, NY
+  region: long_island
+  price_min: 50.0
+  price_max: 50.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/grand-qawwali-night-by-ali-zaman-zaki-taji_event-in_westbury-ny_402833
+  ticket_url: https://events.sulekha.com/grand-qawwali-night-by-ali-zaman-zaki-taji_event-in_westbury-ny_402833
+  description_snippet: Grand Qawwali Night By Ali Zaman Zaki Taji
+  content_hash: 77fb761371f6a44a
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/grand-qawwali-night-by-ali-zaman-zaki-taji_event-in_westbury-ny_402833
+    first_seen: '2026-11-13'
+    last_seen: '2026-11-13'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/grand-qawwali-night-by-ali-zaman-zaki-taji_event-in_westbury-ny_402833
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-13T13:00:09.518607-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-13T13:00:09.518581-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

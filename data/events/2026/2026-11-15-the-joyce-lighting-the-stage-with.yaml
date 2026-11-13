@@ -19,7 +19,7 @@ scraped:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Lighting-the-Stage-with-GALLIM-2026-11-15
     first_seen: '2026-11-02'
-    last_seen: '2026-11-11'
+    last_seen: '2026-11-13'
 ai:
   relevant: false
   kind: performance

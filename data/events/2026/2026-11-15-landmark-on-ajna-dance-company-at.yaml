@@ -1,6 +1,6 @@
 id: 2026-11-15-landmark-on-ajna-dance-company-at
-status: needs_attention
-was_published: false
+status: published
+was_published: true
 needs_recheck: false
 scraped:
   title: Ajna Dance Company at A Night of South Asian Performances
@@ -24,7 +24,7 @@ scraped:
   - source_id: ajna_dance
     url: https://ajnadance.com/event/a-night-of-south-asian-performances/
     first_seen: '2026-11-11'
-    last_seen: '2026-11-11'
+    last_seen: '2026-11-13'
 ai:
   relevant: true
   kind: performance
@@ -41,7 +41,7 @@ ai:
   model: claude-opus-5-5
   classified_at: '2026-11-11'
 validation:
-  passed: false
+  passed: true
   checks:
     has_info_url: true
     specific_url: true
@@ -49,16 +49,15 @@ validation:
     date_valid: true
     price_known: false
     in_metro: true
-    classified: false
+    classified: true
   link_checks:
   - url: https://ajnadance.com/event/a-night-of-south-asian-performances/
     ok: true
     status_code: 200
-    checked_at: '2026-11-11T13:04:52.082338-05:00'
+    checked_at: '2026-11-13T13:00:07.113965-05:00'
   problems:
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-11-11T13:04:52.082317-05:00'
+  validated_at: '2026-11-13T13:00:07.113940-05:00'
 curated:
   forms: []
   traditions: []
