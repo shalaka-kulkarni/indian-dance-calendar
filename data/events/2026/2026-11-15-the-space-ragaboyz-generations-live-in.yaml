@@ -49,10 +49,10 @@ validation:
   - url: https://events.sulekha.com/ragaboyz-generations-live-in-new-york_event-in_westbury-ny_401984
     ok: true
     status_code: 200
-    checked_at: '2026-11-13T13:00:08.940529-05:00'
+    checked_at: '2026-11-13T15:53:51.832968-05:00'
   problems:
   - relevance confidence too low for auto-publish
-  validated_at: '2026-11-13T13:00:08.940503-05:00'
+  validated_at: '2026-11-13T15:53:51.832945-05:00'
 curated:
   forms: []
   traditions: []

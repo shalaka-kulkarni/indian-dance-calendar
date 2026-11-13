@@ -50,11 +50,11 @@ validation:
   - url: https://events.sulekha.com/dur-e-fishan-meet-greet-and-musical-night-in-new-york_event-in_plainview-ny_402819
     ok: true
     status_code: 200
-    checked_at: '2026-11-13T13:00:09.665080-05:00'
+    checked_at: '2026-11-13T15:53:52.259401-05:00'
   problems:
   - region unknown — can't confirm NYC metro
-  - not yet classified (no API key run)
-  validated_at: '2026-11-13T13:00:09.665056-05:00'
+  - relevance confidence too low for auto-publish
+  validated_at: '2026-11-13T15:53:52.259381-05:00'
 curated:
   forms: []
   traditions: []

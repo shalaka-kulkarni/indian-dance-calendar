@@ -51,10 +51,10 @@ validation:
   link_checks:
   - url: https://jivaperformingarts.org/event/jiva-baithak-series/
     ok: true
-    status_code: 200
-    checked_at: '2026-11-13T13:00:06.040609-05:00'
+    status_code: 202
+    checked_at: '2026-11-13T15:53:50.595740-05:00'
   problems: []
-  validated_at: '2026-11-13T13:00:06.040586-05:00'
+  validated_at: '2026-11-13T15:53:50.595721-05:00'
 curated:
   forms: []
   traditions: []

@@ -49,9 +49,9 @@ validation:
   - url: https://chhandayan.org/calendar/2018/5/5/spring-classical-hindustani-vocal-workshop-hz9d4
     ok: true
     status_code: 200
-    checked_at: '2026-11-13T12:59:57.986586-05:00'
+    checked_at: '2026-11-13T15:53:45.051584-05:00'
   problems: []
-  validated_at: '2026-11-13T12:59:57.986578-05:00'
+  validated_at: '2026-11-13T15:53:45.051577-05:00'
 curated:
   forms: []
   traditions: []
