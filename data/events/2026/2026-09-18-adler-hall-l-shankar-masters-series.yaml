@@ -46,9 +46,9 @@ validation:
   - url: https://worldmusiccentral.org/l-shankar-to-present-decades-of-violin-innovation-in-manhattan/
     ok: true
     status_code: 403
-    checked_at: '2026-11-16T15:54:41.349714-05:00'
+    checked_at: '2026-11-16T15:58:03.170567-05:00'
   problems: []
-  validated_at: '2026-11-16T15:54:41.349708-05:00'
+  validated_at: '2026-11-16T15:58:03.170557-05:00'
 curated:
   forms: []
   art_form: music

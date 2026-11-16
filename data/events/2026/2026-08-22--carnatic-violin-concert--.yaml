@@ -49,9 +49,9 @@ validation:
   - url: https://chhandayan.org/calendar/2026/8/22/carnatic-violin-concert-siddarth-ashokkumar
     ok: true
     status_code: 200
-    checked_at: '2026-11-16T15:54:36.898139-05:00'
+    checked_at: '2026-11-16T15:58:00.405320-05:00'
   problems: []
-  validated_at: '2026-11-16T15:54:36.898133-05:00'
+  validated_at: '2026-11-16T15:58:00.405308-05:00'
 curated:
   forms: []
   traditions: []
