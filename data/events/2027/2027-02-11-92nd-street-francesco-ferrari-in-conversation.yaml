@@ -1,5 +1,5 @@
 id: 2027-02-11-92nd-street-francesco-ferrari-in-conversation
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -23,28 +23,33 @@ scraped:
     url: https://www.92ny.org/event/francesco-ferrari-love-on-the-brain
     first_seen: '2026-11-16'
     last_seen: '2026-11-16'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: science talk.'
+  model: claude-opus-5-5
+  classified_at: '2026-11-16'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://www.92ny.org/event/francesco-ferrari-love-on-the-brain
-    ok: true
-    status_code: 200
-    checked_at: '2026-11-16T15:56:37.067743-05:00'
-  - url: https://seats.92ny.org/single/211673
-    ok: true
-    status_code: 200
-    checked_at: '2026-11-16T15:56:37.173940-05:00'
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-11-16T15:56:37.067726-05:00'
+  - links not yet verified (offline run)
+  - classified not-relevant
+  validated_at: '2026-11-16T15:57:29.413695-05:00'
 curated:
   forms: []
   traditions: []
