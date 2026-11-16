@@ -25,7 +25,7 @@ scraped:
   - source_id: center_at_west_park
     url: https://www.centeratwestpark.org/calendar/2026/11/20/cwp-community-conversation-zoom-with-cwp-executive-director-debby-hirshman
     first_seen: '2026-11-13'
-    last_seen: '2026-11-13'
+    last_seen: '2026-11-16'
 ai:
   relevant: false
   kind: performance

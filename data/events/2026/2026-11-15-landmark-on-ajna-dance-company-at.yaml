@@ -1,5 +1,5 @@
 id: 2026-11-15-landmark-on-ajna-dance-company-at
-status: published
+status: past
 was_published: true
 needs_recheck: false
 scraped:
@@ -44,20 +44,14 @@ validation:
   passed: true
   checks:
     has_info_url: true
-    specific_url: true
     links_live: true
-    date_valid: true
-    price_known: false
-    in_metro: true
-    classified: true
   link_checks:
   - url: https://ajnadance.com/event/a-night-of-south-asian-performances/
     ok: true
     status_code: 200
-    checked_at: '2026-11-14T13:06:00.241731-05:00'
-  problems:
-  - no price information
-  validated_at: '2026-11-14T13:06:00.241709-05:00'
+    checked_at: '2026-11-16T15:56:22.170846-05:00'
+  problems: []
+  validated_at: '2026-11-16T15:56:22.170840-05:00'
 curated:
   forms: []
   traditions: []

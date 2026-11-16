@@ -22,7 +22,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/alice-in-wonderland
     first_seen: '2026-11-13'
-    last_seen: '2026-11-13'
+    last_seen: '2026-11-16'
 ai:
   relevant: false
   kind: performance

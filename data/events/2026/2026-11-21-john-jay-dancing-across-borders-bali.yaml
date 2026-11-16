@@ -1,0 +1,49 @@
+id: 2026-11-21-john-jay-dancing-across-borders-bali
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Dancing Across Borders: Bali in NYC!'
+  start: '2026-11-21T16:00:00-05:00'
+  additional_dates: []
+  venue: John Jay College’s the Gerald W. Lynch Theater
+  address: ''
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://www.dance-enthusiast.com/dance-listings/events/view/Dancing-Across-Borders-Bali-in-NYC-2026-11-21
+  ticket_url: ''
+  description_snippet: 'Dancing Across Borders: Bali in NYC! John Jay College’s The Gerald W. Lynch Theater
+    Sat. November, 21 @ 4:00pm'
+  content_hash: ac7485987d626722
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/Dancing-Across-Borders-Bali-in-NYC-2026-11-21
+    first_seen: '2026-11-16'
+    last_seen: '2026-11-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://www.dance-enthusiast.com/dance-listings/events/view/Dancing-Across-Borders-Bali-in-NYC-2026-11-21
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-16T15:56:23.978997-05:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-11-16T15:56:23.978979-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

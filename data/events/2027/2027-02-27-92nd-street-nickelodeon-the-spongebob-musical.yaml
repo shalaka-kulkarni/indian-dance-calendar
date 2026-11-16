@@ -1,0 +1,52 @@
+id: 2027-02-27-92nd-street-nickelodeon-the-spongebob-musical
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Nickelodeon™ The SpongeBob Musical: Theatre for Young Audiences Edition'
+  start: '2027-02-27T14:00:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 30.0
+  price_max: 30.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/the-spongebob-musical
+  ticket_url: https://seats.92ny.org/single/211749
+  description_snippet: Plunge into this stunning all-singing, all-dancing, dynamic stage show!
+  content_hash: 6614322ec46ab136
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/the-spongebob-musical
+    first_seen: '2026-11-16'
+    last_seen: '2026-11-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/211749
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-16T15:56:37.981345-05:00'
+  - url: https://www.92ny.org/event/the-spongebob-musical
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-16T15:56:38.059937-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-16T15:56:37.981327-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

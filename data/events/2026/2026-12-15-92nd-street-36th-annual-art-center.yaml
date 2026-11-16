@@ -1,0 +1,48 @@
+id: 2026-12-15-92nd-street-36th-annual-art-center
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 36th Annual Art Center Faculty Exhibition Opening Reception
+  start: '2026-12-15T17:00:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Weill Art Gallery
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/36th-annual-faculty-exhibition-opening-reception
+  ticket_url: ''
+  description_snippet: Join the Art Center community of artists to celebrate the work of our extraordinary
+    Art Center Faculty Members.
+  content_hash: 6de21774087d3535
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/36th-annual-faculty-exhibition-opening-reception
+    first_seen: '2026-11-16'
+    last_seen: '2026-11-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/36th-annual-faculty-exhibition-opening-reception
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-16T15:56:34.590717-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-16T15:56:34.590699-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

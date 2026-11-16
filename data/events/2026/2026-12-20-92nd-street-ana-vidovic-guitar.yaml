@@ -1,0 +1,54 @@
+id: 2026-12-20-92nd-street-ana-vidovic-guitar
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Ana Vidovic, guitar
+  start: '2026-12-20T14:00:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall Enter on 92nd St. between Lexington
+    & 3rd Ave.
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 45.0
+  price_max: 45.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/ana-vidovic
+  ticket_url: https://seats.92ny.org/single/210466
+  description_snippet: Ana Vidovic – one of the world’s premier classical guitarists – returns to 92NY’s
+    Art of the Guitar with a new program to be announced.
+  content_hash: 9549d33da44861d2
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/ana-vidovic
+    first_seen: '2026-11-16'
+    last_seen: '2026-11-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/ana-vidovic
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-16T15:56:34.692742-05:00'
+  - url: https://seats.92ny.org/single/210466
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-16T15:56:34.803319-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-16T15:56:34.692725-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

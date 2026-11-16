@@ -46,9 +46,9 @@ validation:
   - url: https://events.sulekha.com/sufi-sham-with-hansraj-hans-last-show-in-new-york_event-in_hicksville-ny_402038
     ok: true
     status_code: 200
-    checked_at: '2026-11-14T13:05:53.564535-05:00'
+    checked_at: '2026-11-16T15:56:16.735059-05:00'
   problems: []
-  validated_at: '2026-11-14T13:05:53.564528-05:00'
+  validated_at: '2026-11-16T15:56:16.735052-05:00'
 curated:
   forms: []
   traditions: []

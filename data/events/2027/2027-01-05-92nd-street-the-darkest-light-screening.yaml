@@ -1,0 +1,54 @@
+id: 2027-01-05-92nd-street-the-darkest-light-screening
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'The Darkest Light : Screening and Talkback with Simon Mendes, Neshama Carlebach, Donna Zerner
+    and Rabbi Angela Buchdahl'
+  start: '2027-01-05T19:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 18.0
+  price_max: 18.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/the-darkest-light
+  ticket_url: https://seats.92ny.org/single/211722
+  description_snippet: Join us for a screening of The Darkest Light and a conversation about Rabbi Shlomo
+    Carlebach’s legacy, sexual misconduct allegations, and accountability.
+  content_hash: 6965b37ad2a1d2da
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/the-darkest-light
+    first_seen: '2026-11-16'
+    last_seen: '2026-11-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/211722
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-16T15:56:34.882732-05:00'
+  - url: https://www.92ny.org/event/the-darkest-light
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-16T15:56:34.959079-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-16T15:56:34.882716-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

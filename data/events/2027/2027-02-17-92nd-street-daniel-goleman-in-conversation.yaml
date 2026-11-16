@@ -1,0 +1,53 @@
+id: 2027-02-17-92nd-street-daniel-goleman-in-conversation
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Daniel Goleman in Conversation with Laurie Anderson: Spiritual Intelligence'
+  start: '2027-02-17T19:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 40.0
+  price_max: 40.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/daniel-goleman-with-laurie-anderson
+  ticket_url: https://seats.92ny.org/single/211725
+  description_snippet: Daniel Goleman and Laurie Anderson explore Buddhist philosophy, meditation, creativity,
+    and the path to awakening.
+  content_hash: d51005eff15221b2
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/daniel-goleman-with-laurie-anderson
+    first_seen: '2026-11-16'
+    last_seen: '2026-11-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/daniel-goleman-with-laurie-anderson
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-16T15:56:37.540697-05:00'
+  - url: https://seats.92ny.org/single/211725
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-16T15:56:37.901122-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-16T15:56:37.540679-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

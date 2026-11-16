@@ -1,0 +1,49 @@
+id: 2027-02-02-the-joyce-black-grace
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Black Grace
+  start: '2027-02-02T19:30:00-05:00'
+  additional_dates: []
+  venue: The Joyce Theater
+  address: The Joyce Theater
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.joyce.org/performances/black-grace-s3t2
+  ticket_url: ''
+  description_snippet: Black Grace brings its distinct “exhilarating, seemingly inexhaustible energy”
+    (The New York Times) back to The Joyce for a third season with a mixed repertoire performed by some
+    of New Zealand's fine…
+  content_hash: bb670cec03d2eeeb
+  sources:
+  - source_id: joyce
+    url: https://www.joyce.org/performances/black-grace-s3t2
+    first_seen: '2026-11-16'
+    last_seen: '2026-11-16'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.joyce.org/performances/black-grace-s3t2
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-16T15:56:35.390661-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-16T15:56:35.390644-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

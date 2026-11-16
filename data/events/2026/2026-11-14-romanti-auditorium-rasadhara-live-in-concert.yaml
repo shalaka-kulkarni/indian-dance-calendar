@@ -1,5 +1,5 @@
 id: 2026-11-14-romanti-auditorium-rasadhara-live-in-concert
-status: published
+status: past
 was_published: true
 needs_recheck: false
 scraped:
@@ -40,19 +40,14 @@ validation:
   passed: true
   checks:
     has_info_url: true
-    specific_url: true
     links_live: true
-    date_valid: true
-    price_known: true
-    in_metro: true
-    classified: true
   link_checks:
   - url: https://events.sulekha.com/rasadhara-live-in-concert_event-in_new-york-ny_402196
     ok: true
     status_code: 200
-    checked_at: '2026-11-14T13:05:58.639918-05:00'
+    checked_at: '2026-11-16T15:56:20.549704-05:00'
   problems: []
-  validated_at: '2026-11-14T13:05:58.639896-05:00'
+  validated_at: '2026-11-16T15:56:20.549698-05:00'
 curated:
   forms: []
   traditions: []
