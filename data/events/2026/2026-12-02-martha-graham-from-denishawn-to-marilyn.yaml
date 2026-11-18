@@ -1,0 +1,49 @@
+id: 2026-12-02-martha-graham-from-denishawn-to-marilyn
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'From Denishawn to Marilyn Monroe: Jack Cole Revealed!'
+  start: '2026-12-02T18:30:00-05:00'
+  additional_dates: []
+  venue: Martha Graham Studio Theater
+  address: ''
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://marthagraham.org/studioseries/
+  ticket_url: ''
+  description_snippet: 'From Denishawn to Marilyn Monroe: Jack Cole Revealed! Martha Graham Studio Theater
+    Wed. December, 2 @ 6:30pm'
+  content_hash: e6356bb4a9f4a3b9
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/From-Denishawn-to-Marilyn-Monroe-Jack-Cole-Revealed-2026-12-02
+    first_seen: '2026-11-18'
+    last_seen: '2026-11-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://marthagraham.org/studioseries/
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-18T14:01:50.828003-05:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-11-18T14:01:50.827981-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

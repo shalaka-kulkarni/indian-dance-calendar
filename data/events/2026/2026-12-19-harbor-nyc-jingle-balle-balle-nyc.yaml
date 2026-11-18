@@ -1,0 +1,49 @@
+id: 2026-12-19-harbor-nyc-jingle-balle-balle-nyc
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'JINGLE BALLE BALLE: NYC BOLLYWOOD & BHANGRA HOLIDAY PARTY'
+  start: '2026-12-19T00:00:00-05:00'
+  end: '2026-12-20T00:00:00-05:00'
+  additional_dates: []
+  venue: Harbor NYC
+  address: 621 West 46th Street, New York, NY
+  region: manhattan
+  price_min: 23.18
+  price_max: 161.9
+  is_free: false
+  price_note: ''
+  info_url: https://allevents.in/new-york/jingle-balle-balle-nyc-bollywood-and-bhangra-holiday-party/100002004870871747
+  ticket_url: https://allevents.in/new-york/jingle-balle-balle-nyc-bollywood-and-bhangra-holiday-party/100002004870871747
+  description_snippet: ''
+  content_hash: 0606b7e8047bc836
+  sources:
+  - source_id: allevents
+    url: https://allevents.in/new-york/jingle-balle-balle-nyc-bollywood-and-bhangra-holiday-party/100002004870871747
+    first_seen: '2026-11-18'
+    last_seen: '2026-11-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://allevents.in/new-york/jingle-balle-balle-nyc-bollywood-and-bhangra-holiday-party/100002004870871747
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-18T14:01:53.188209-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-18T14:01:53.188192-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

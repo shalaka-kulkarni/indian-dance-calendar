@@ -49,9 +49,9 @@ validation:
   - url: https://ajnadance.com/event/a-night-of-south-asian-performances/
     ok: true
     status_code: 200
-    checked_at: '2026-11-16T15:58:20.159648-05:00'
+    checked_at: '2026-11-18T14:01:48.595592-05:00'
   problems: []
-  validated_at: '2026-11-16T15:58:20.159642-05:00'
+  validated_at: '2026-11-18T14:01:48.595588-05:00'
 curated:
   forms: []
   traditions: []

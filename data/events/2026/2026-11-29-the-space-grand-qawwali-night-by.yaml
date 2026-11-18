@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/grand-qawwali-night-by-ali-zaman-zaki-taji_event-in_westbury-ny_402833
     first_seen: '2026-11-13'
-    last_seen: '2026-11-16'
+    last_seen: '2026-11-18'
 ai:
   relevant: true
   kind: performance
@@ -51,9 +51,9 @@ validation:
   - url: https://events.sulekha.com/grand-qawwali-night-by-ali-zaman-zaki-taji_event-in_westbury-ny_402833
     ok: true
     status_code: 200
-    checked_at: '2026-11-16T15:58:21.474206-05:00'
+    checked_at: '2026-11-18T14:01:50.476072-05:00'
   problems: []
-  validated_at: '2026-11-16T15:58:21.474180-05:00'
+  validated_at: '2026-11-18T14:01:50.476054-05:00'
 curated:
   forms: []
   traditions: []

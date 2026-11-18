@@ -1,0 +1,48 @@
+id: 2027-04-17--what-belongs-to-you
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: What Belongs to You
+  start: '2027-04-17T00:00:00-04:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://tickets.nyu.edu/overview/19161
+  ticket_url: ''
+  description_snippet: Thu Apr 15 – Sat Apr 17, 2027 What Belongs to You Desire keeps its own accounts.
+    Opera NYC Premiere Skirball Presents Buy Tickets Learn More
+  content_hash: d3ba6115809f2f9c
+  sources:
+  - source_id: skirball
+    url: https://tickets.nyu.edu/overview/19161
+    first_seen: '2026-11-18'
+    last_seen: '2026-11-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://tickets.nyu.edu/overview/19161
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-18T14:01:54.752898-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-18T14:01:54.752880-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

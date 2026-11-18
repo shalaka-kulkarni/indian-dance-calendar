@@ -1,0 +1,52 @@
+id: 2027-01-22--class-act-performing-arts
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Class Act Performing Arts Studio Timeless Celebrating the icons and anthems of Broadway and pop
+    culture. Now and forever
+  start: '2027-01-22T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/timeless/
+  ticket_url: ''
+  description_snippet: Class Act Performing Arts Studio Timeless Celebrating the icons and anthems of
+    Broadway and pop culture. Now and forever FRI, JAN 22, 2027 at 7:00 PM SAT, JAN 23 2027 at 2:00 PM
+    SAT, JAN 23 2027 at 7:00 PM Class Act Performing Arts Studio’s Musical Theatre and Dance Company brings
+    Broadway showstoppers and pop anthems to the SOPAC stage in Timeless , a high-energy revue packed
+    with powerhouse vocals and exciting choreography. Learn More
+  content_hash: ee51743a4817f0a9
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/timeless/
+    first_seen: '2026-11-18'
+    last_seen: '2026-11-18'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/timeless/
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-18T14:01:53.837304-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-18T14:01:53.837286-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}
