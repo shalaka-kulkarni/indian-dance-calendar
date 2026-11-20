@@ -1,0 +1,54 @@
+id: 2026-12-17-92nd-street-jonathan-van-meter-in
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Jonathan Van Meter in Conversation with Amy Schumer: Citizen Kim'
+  start: '2026-12-17T18:00:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall Enter on 92nd St. between Lexington
+    & 3rd Ave.
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 20.0
+  price_max: 20.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/jonathan-van-meter-with-amy-schumer-citizen-kim
+  ticket_url: https://seats.92ny.org/single/211791
+  description_snippet: Join Jonathan Van Meter and Amy Schumer for a funny, revealing conversation about
+    Citizen Kim , celebrity culture, and how Kim Kardashian reshaped fame.
+  content_hash: 6de82faec4637198
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/jonathan-van-meter-with-amy-schumer-citizen-kim
+    first_seen: '2026-11-20'
+    last_seen: '2026-11-20'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/jonathan-van-meter-with-amy-schumer-citizen-kim
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-20T13:48:56.694838-05:00'
+  - url: https://seats.92ny.org/single/211791
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-20T13:48:56.756557-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-20T13:48:56.694818-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

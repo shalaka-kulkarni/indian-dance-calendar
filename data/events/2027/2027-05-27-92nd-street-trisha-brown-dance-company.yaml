@@ -1,0 +1,54 @@
+id: 2027-05-27-92nd-street-trisha-brown-dance-company
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Trisha Brown Dance Company
+  start: '2027-05-27T19:00:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall Enter on 92nd St. between Lexington
+    & 3rd Ave.
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 45.0
+  price_max: 45.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/trisha-brown-dance-company
+  ticket_url: https://seats.92ny.org/single/210355
+  description_snippet: Step inside Trisha Brown’s radical world in an immersive evening of live performance,
+    installations, and iconic works unfolding throughout 92NY.
+  content_hash: 9bd127a841ac7d69
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/trisha-brown-dance-company
+    first_seen: '2026-11-20'
+    last_seen: '2026-11-20'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/trisha-brown-dance-company
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-20T13:48:58.244157-05:00'
+  - url: https://seats.92ny.org/single/210355
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-20T13:48:58.318736-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-20T13:48:58.244134-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,59 @@
+id: 2026-12-05-state-theatre-joanie-leeds
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Joanie Leeds
+  start: '2026-12-05T10:00:00-05:00'
+  end: '2026-12-05T13:00:00-05:00'
+  additional_dates: []
+  venue: State Theatre Studio
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  price_min: 5.0
+  price_max: 5.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/mc-joanieleeds-2026
+  ticket_url: https://my.stnj.org/overview/25721
+  description_snippet: Grammy® Award-winning singer-songwriter Joanie Leeds brings her high-energy, award-winning
+    children’s music to the State Theatre for a festive December celebration! Get ready to sing, dance,
+    and laugh along with Joanie as she fills the room with joyful music.Milk & Cookies is a lively, interactive
+    storytelling and music series for families. This program, which takes place in our Studio, is the
+    perfect way to introduce children ages 3-8 to live theater. Includes a cookie and a carton of milk
+    for every child after the show.The 12pm show is a Sensory-Friendly Performance, specially designed
+    to pr
+  content_hash: 338b207095a225c2
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/mc-joanieleeds-2026
+    first_seen: '2026-11-20'
+    last_seen: '2026-11-20'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.stnj.org/events/detail/mc-joanieleeds-2026
+    ok: true
+    status_code: 406
+    checked_at: '2026-11-20T13:48:56.205288-05:00'
+  - url: https://my.stnj.org/overview/25721
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-20T13:48:56.268604-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-20T13:48:56.205267-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

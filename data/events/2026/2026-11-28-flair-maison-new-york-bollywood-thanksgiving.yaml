@@ -1,0 +1,49 @@
+id: 2026-11-28-flair-maison-new-york-bollywood-thanksgiving
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: New York Bollywood Thanksgiving Party at Flair Maison
+  start: '2026-11-28T22:00:00-04:00'
+  end: '2026-11-29T03:00:00-04:00'
+  additional_dates: []
+  venue: Flair Maison
+  address: 326 West 37th Street, New York, NY
+  region: manhattan
+  price_min: 19.99
+  price_max: 19.99
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/new-york-bollywood-thanksgiving-party-at-flair-maison_event-in_new-york-ny_402902
+  ticket_url: https://events.sulekha.com/new-york-bollywood-thanksgiving-party-at-flair-maison_event-in_new-york-ny_402902
+  description_snippet: New York Bollywood Thanksgiving Party At Flair Maison
+  content_hash: 07a2dad558aedaae
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/new-york-bollywood-thanksgiving-party-at-flair-maison_event-in_new-york-ny_402902
+    first_seen: '2026-11-20'
+    last_seen: '2026-11-20'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/new-york-bollywood-thanksgiving-party-at-flair-maison_event-in_new-york-ny_402902
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-20T13:48:53.305644-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-20T13:48:53.305623-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

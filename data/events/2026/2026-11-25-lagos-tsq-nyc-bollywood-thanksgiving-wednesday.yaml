@@ -1,0 +1,49 @@
+id: 2026-11-25-lagos-tsq-nyc-bollywood-thanksgiving-wednesday
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: NYC Bollywood Thanksgiving Wednesday Party at Lagos Times Square
+  start: '2026-11-25T22:00:00-04:00'
+  end: '2026-11-26T03:00:00-04:00'
+  additional_dates: []
+  venue: Lagos TSQ
+  address: 727 7th Avenue, New York, NY
+  region: manhattan
+  price_min: 19.99
+  price_max: 19.99
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/nyc-bollywood-thanksgiving-wednesday-party-at-lagos-times-square_event-in_new-york-ny_402900
+  ticket_url: https://events.sulekha.com/nyc-bollywood-thanksgiving-wednesday-party-at-lagos-times-square_event-in_new-york-ny_402900
+  description_snippet: Nyc Bollywood Thanksgiving Wednesday Party At Lagos Times Square
+  content_hash: c678f8011b192bd6
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/nyc-bollywood-thanksgiving-wednesday-party-at-lagos-times-square_event-in_new-york-ny_402900
+    first_seen: '2026-11-20'
+    last_seen: '2026-11-20'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/nyc-bollywood-thanksgiving-wednesday-party-at-lagos-times-square_event-in_new-york-ny_402900
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-20T13:48:53.206564-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-20T13:48:53.206544-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

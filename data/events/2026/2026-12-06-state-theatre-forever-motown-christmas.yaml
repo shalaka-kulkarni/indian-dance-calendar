@@ -1,0 +1,59 @@
+id: 2026-12-06-state-theatre-forever-motown-christmas
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Forever Motown Christmas
+  start: '2026-12-06T19:00:00-05:00'
+  end: '2026-12-06T19:00:00-05:00'
+  additional_dates: []
+  venue: State Theatre New Jersey
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  price_min: 35.0
+  price_max: 35.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/forever-motown-christmas-2026
+  ticket_url: https://my.stnj.org/25538/25539
+  description_snippet: Celebrate the Christmas season with the hits of Motown! Performed by a cast of
+    veteran entertainers including former members of The Jones, Main Ingredient, and The Marvelettes,
+    along with Broadway performers who have starred in Dream Girls, Your Arms Too Short to Box With God,
+    Porgy & Bess, and Showboat, Forever Motown is an entertainment bonanza.This high-energy trip down
+    memory lane features the songs America grew up with. Great attention to detail was paid by musical
+    director Gary Kupper (who had his own Broadway hit show, Freckleface Strawberry, and is currently
+    in production with a new mu
+  content_hash: 400142e114a9539c
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/forever-motown-christmas-2026
+    first_seen: '2026-11-20'
+    last_seen: '2026-11-20'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://my.stnj.org/25538/25539
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-20T13:48:56.342034-05:00'
+  - url: https://www.stnj.org/events/detail/forever-motown-christmas-2026
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-20T13:48:56.382783-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-20T13:48:56.342011-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,48 @@
+id: 2026-12-03-ailey-citigroup-acpw-dance-company-fall
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: ACPW Dance Company Fall Season 2026
+  start: '2026-12-03T19:30:00-05:00'
+  additional_dates: []
+  venue: Ailey Citigroup Theater
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: http://Www.acoronaworks.com/buytickets
+  ticket_url: ''
+  description_snippet: ACPW Dance Company Fall Season 2026 Ailey Citigroup Theater Thu. December, 3 @
+    7:30pm
+  content_hash: 2b28e48f59aaff42
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/ACPW-Dance-Company-Fall-Season-2026-2026-12-03
+    first_seen: '2026-11-20'
+    last_seen: '2026-11-20'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: http://Www.acoronaworks.com/buytickets
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-20T13:48:54.379446-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-20T13:48:54.379428-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

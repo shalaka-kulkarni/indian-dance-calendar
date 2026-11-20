@@ -1,0 +1,49 @@
+id: 2026-12-01-92nd-street-neons-clarissa-screening-and
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'NEON’s Clarissa : Screening and Conversation'
+  start: '2026-12-01T19:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/neon-s-clarissa
+  ticket_url: ''
+  description_snippet: A screening of NEON’s Clarissa , a bold reimagining of Mrs. Dalloway , followed
+    by a conversation with Sophie Okonedo, Ayo Edebiri, India Amarteifio, Toheeb Jimah, and directors
+    Arie and Chuko Esiri.
+  content_hash: bf6afcf2383f9322
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/neon-s-clarissa
+    first_seen: '2026-11-20'
+    last_seen: '2026-11-20'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/neon-s-clarissa
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-20T13:48:53.692957-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-20T13:48:53.692937-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

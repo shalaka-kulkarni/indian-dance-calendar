@@ -46,9 +46,9 @@ validation:
   - url: https://ajnadance.com/event/celebrate-diwali-with-ajna-dance-at-brooklyn-public-library/
     ok: true
     status_code: 200
-    checked_at: '2026-11-18T15:54:26.430646-05:00'
+    checked_at: '2026-11-20T13:48:46.074695-05:00'
   problems: []
-  validated_at: '2026-11-18T15:54:26.430639-05:00'
+  validated_at: '2026-11-20T13:48:46.074689-05:00'
 curated:
   forms: []
   traditions: []

@@ -1,0 +1,54 @@
+id: 2027-02-09-92nd-street-orna-guralnik-in-conversation
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Orna Guralnik in Conversation: Couples'
+  start: '2027-02-09T20:00:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall Enter on 92nd St. between Lexington
+    & 3rd Ave.
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 50.0
+  price_max: 50.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/orna-guralnik-couples
+  ticket_url: https://seats.92ny.org/single/211763
+  description_snippet: Join Couples Therapy star Orna Guralnik to discuss her new book, Couples , and
+    explore the psychology of love, intimacy, conflict, and connection.
+  content_hash: 78b229483f5c37c4
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/orna-guralnik-couples
+    first_seen: '2026-11-20'
+    last_seen: '2026-11-20'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/orna-guralnik-couples
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-20T13:48:57.166269-05:00'
+  - url: https://seats.92ny.org/single/211763
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-20T13:48:57.197096-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-20T13:48:57.166248-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

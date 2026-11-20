@@ -1,0 +1,53 @@
+id: 2026-12-17-92nd-street-92nynexus-come-play-with
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: '92NY/NEXUS: Come Play with Us – Board Game Night!'
+  start: '2026-12-17T19:00:00-05:00'
+  additional_dates: []
+  venue: '92nd Street Y, New York – Location: Classroom'
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 35.0
+  price_max: 35.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/92ny-nexus-board-game-night
+  ticket_url: https://seats.92ny.org/single/211796
+  description_snippet: Join your 92NY/NEXUS crew for a night of board games, great food, drinks, and plenty
+    of laughs! Come play, connect, and unwind. Dinner and drinks included!
+  content_hash: d6a596cd845b8258
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/92ny-nexus-board-game-night
+    first_seen: '2026-11-20'
+    last_seen: '2026-11-20'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/92ny-nexus-board-game-night
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-20T13:48:56.641030-05:00'
+  - url: https://seats.92ny.org/single/211796
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-20T13:48:56.676115-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-20T13:48:56.641009-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

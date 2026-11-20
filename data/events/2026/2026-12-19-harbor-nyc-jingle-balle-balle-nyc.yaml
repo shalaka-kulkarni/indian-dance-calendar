@@ -22,7 +22,7 @@ scraped:
   - source_id: allevents
     url: https://allevents.in/new-york/jingle-balle-balle-nyc-bollywood-and-bhangra-holiday-party/100002004870871747
     first_seen: '2026-11-18'
-    last_seen: '2026-11-18'
+    last_seen: '2026-11-20'
 ai:
   relevant: false
   kind: performance

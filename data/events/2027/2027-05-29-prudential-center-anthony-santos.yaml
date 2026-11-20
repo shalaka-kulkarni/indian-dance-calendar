@@ -1,0 +1,48 @@
+id: 2027-05-29-prudential-center-anthony-santos
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Anthony Santos
+  start: '2027-05-29T20:00:00-04:00'
+  end: '2027-05-29T21:00:00-04:00'
+  additional_dates: []
+  venue: Prudential Center
+  address: Anthony Santos
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.prucenter.com/events/anthony-santos
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 74bb703435e022e0
+  sources:
+  - source_id: prudential_center
+    url: https://www.prucenter.com/events/anthony-santos
+    first_seen: '2026-11-20'
+    last_seen: '2026-11-20'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.prucenter.com/events/anthony-santos
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-20T13:48:58.373171-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-20T13:48:58.373146-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -1,0 +1,53 @@
+id: 2026-11-24-92nd-street-tuesday-night-happy-hour
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Tuesday Night Happy Hour: Jewish Young Professionals and Israelis in NYC'
+  start: '2026-11-24T18:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Weill Art Gallery
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 18.0
+  price_max: 18.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/tuesday-night-happy-hour
+  ticket_url: https://seats.92ny.org/single/211785
+  description_snippet: Raise a glass and say L’Chaim! Join Israelis and young Jewish professionals for
+    a night of simcha, connection, and community.
+  content_hash: 91d13249209802e7
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/tuesday-night-happy-hour
+    first_seen: '2026-11-20'
+    last_seen: '2026-11-20'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/211785
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-20T13:48:51.570131-05:00'
+  - url: https://www.92ny.org/event/tuesday-night-happy-hour
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-20T13:48:53.091522-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-20T13:48:51.570110-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}
