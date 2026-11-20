@@ -49,9 +49,9 @@ validation:
   - url: https://chhandayan.org/calendar/2026/10/9/carnatic-vocal-concert-chandralekha-gangavarpu
     ok: true
     status_code: 200
-    checked_at: '2026-11-20T13:48:36.322850-05:00'
+    checked_at: '2026-11-20T15:53:52.338602-05:00'
   problems: []
-  validated_at: '2026-11-20T13:48:36.322843-05:00'
+  validated_at: '2026-11-20T15:53:52.338594-05:00'
 curated:
   forms: []
   traditions: []

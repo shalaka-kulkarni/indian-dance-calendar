@@ -43,9 +43,9 @@ validation:
   - url: https://ethical.nyc/events/worldclassmusic-live-presents-rakesh-chaurasia-salar-nader/
     ok: true
     status_code: 200
-    checked_at: '2026-11-20T13:48:34.439758-05:00'
+    checked_at: '2026-11-20T15:53:50.369103-05:00'
   problems: []
-  validated_at: '2026-11-20T13:48:34.439752-05:00'
+  validated_at: '2026-11-20T15:53:50.369095-05:00'
 curated:
   forms: []
   art_form: music

@@ -51,9 +51,9 @@ validation:
   - url: https://events.sulekha.com/legacy-udit-narayan-aditya-narayan-live-in-new-york_event-in_greenvale-ny_401310
     ok: true
     status_code: 200
-    checked_at: '2026-11-20T13:48:51.309495-05:00'
+    checked_at: '2026-11-20T15:54:05.398420-05:00'
   problems: []
-  validated_at: '2026-11-20T13:48:51.309473-05:00'
+  validated_at: '2026-11-20T15:54:05.398396-05:00'
 curated:
   forms: []
   traditions: []
