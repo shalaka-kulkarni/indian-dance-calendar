@@ -49,9 +49,9 @@ validation:
   - url: https://chhandayan.org/calendar/2026/10/3/vocal-concert-tharini-nagarkar
     ok: true
     status_code: 200
-    checked_at: '2026-11-20T15:53:51.414122-05:00'
+    checked_at: '2026-11-21T14:17:56.151781-05:00'
   problems: []
-  validated_at: '2026-11-20T15:53:51.414114-05:00'
+  validated_at: '2026-11-21T14:17:56.151774-05:00'
 curated:
   forms: []
   traditions: []
