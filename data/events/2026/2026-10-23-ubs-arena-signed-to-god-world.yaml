@@ -46,9 +46,9 @@ validation:
   - url: https://events.sulekha.com/signed-to-god-world-tour-2026-a-sidhu-moose-wala-hologram-experience_event-in_elmont-ny_401914
     ok: true
     status_code: 200
-    checked_at: '2026-11-23T16:37:27.174882-05:00'
+    checked_at: '2026-11-23T17:15:54.905285-05:00'
   problems: []
-  validated_at: '2026-11-23T16:37:27.174875-05:00'
+  validated_at: '2026-11-23T17:15:54.905278-05:00'
 curated:
   forms: []
   traditions: []

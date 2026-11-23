@@ -54,10 +54,10 @@ validation:
   - url: https://chhandayan.org/calendar/2027/1/8/carnatic-vocal-concert-sidarth-kaushik
     ok: true
     status_code: 200
-    checked_at: '2026-11-23T16:37:38.196797-05:00'
+    checked_at: '2026-11-23T17:16:26.666692-05:00'
   problems:
   - no price information
-  validated_at: '2026-11-23T16:37:38.196775-05:00'
+  validated_at: '2026-11-23T17:16:26.666672-05:00'
 curated:
   forms: []
   traditions: []

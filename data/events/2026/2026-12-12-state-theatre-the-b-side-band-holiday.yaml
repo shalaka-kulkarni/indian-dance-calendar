@@ -1,0 +1,59 @@
+id: 2026-12-12-state-theatre-the-b-side-band-holiday
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: The B-Side Band Holiday Jam
+  start: '2026-12-12T10:00:00-05:00'
+  end: '2026-12-12T13:00:00-05:00'
+  additional_dates: []
+  venue: State Theatre Studio
+  address: 15 Livingston Avenue, New Brunswick
+  region: new_jersey
+  price_min: 5.0
+  price_max: 5.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.stnj.org/events/detail/mc-bsideholidayjam-2026
+  ticket_url: https://my.stnj.org/overview/25726
+  description_snippet: Celebrate the holidays with us at Milk & Cookies! The party band, The B-Side Band,
+    perform a family-friendly set of Pop, Soul, and holiday favorites for a festive, fun Saturday!Milk
+    & Cookies is a lively, interactive storytelling and music series for families. This program takes
+    place in our Studio and is the perfect way to introduce children ages 3-8 to live theater. Each child
+    receives a cookie and a carton of milk after the show.The 12pm show is a Sensory-Friendly Performance,
+    specially designed to provide a safe, welcoming environment for kids on the autism spectrum or with
+    sensory sensiti
+  content_hash: 54709a8070155959
+  sources:
+  - source_id: state_theatre_nj
+    url: https://www.stnj.org/events/detail/mc-bsideholidayjam-2026
+    first_seen: '2026-11-23'
+    last_seen: '2026-11-23'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://my.stnj.org/overview/25726
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-23T17:16:25.551457-05:00'
+  - url: https://www.stnj.org/events/detail/mc-bsideholidayjam-2026
+    ok: true
+    status_code: 406
+    checked_at: '2026-11-23T17:16:26.437825-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-23T17:16:25.551433-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}
