@@ -1,0 +1,49 @@
+id: 2026-11-24-online-vangeline-announces-new-video
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Vangeline Announces New Video on-Demand Platform
+  start: '2026-11-24T00:00:00-05:00'
+  additional_dates: []
+  venue: Online
+  address: ''
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://www.curios.com/creators/vangeline-78X728
+  ticket_url: ''
+  description_snippet: Vangeline Announces New Video On-Demand Platform Online Tue. November, 24, All
+    Day
+  content_hash: ed35cb879fe299c0
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/Vangeline-Announces-New-Video-On-Demand-Platform-2026-11-24
+    first_seen: '2026-11-23'
+    last_seen: '2026-11-23'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://www.curios.com/creators/vangeline-78X728
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-23T16:35:07.711198-05:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-11-23T16:35:07.711173-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

@@ -23,7 +23,7 @@ scraped:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/sam-wasson-on-frank-capra
     first_seen: '2026-11-20'
-    last_seen: '2026-11-20'
+    last_seen: '2026-11-23'
 ai:
   relevant: false
   kind: performance

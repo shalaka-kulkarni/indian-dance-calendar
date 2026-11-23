@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/new-york-bollywood-thanksgiving-party-at-flair-maison_event-in_new-york-ny_402902
     first_seen: '2026-11-20'
-    last_seen: '2026-11-20'
+    last_seen: '2026-11-23'
 ai:
   relevant: false
   kind: performance

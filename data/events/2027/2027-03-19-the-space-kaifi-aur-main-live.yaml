@@ -1,0 +1,49 @@
+id: 2027-03-19-the-space-kaifi-aur-main-live
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Kaifi Aur Main – Live in New York
+  start: '2027-03-19T20:00:00-04:00'
+  end: '2027-03-19T22:30:00-04:00'
+  additional_dates: []
+  venue: The Space at Westbury
+  address: 250 Post Ave, Westbury, NY
+  region: long_island
+  price_min: 59.0
+  price_max: 59.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/kaifi-aur-main-live-in-new-york_event-in_westbury-ny_402968
+  ticket_url: https://events.sulekha.com/kaifi-aur-main-live-in-new-york_event-in_westbury-ny_402968
+  description_snippet: Kaifi Aur Main - Live In New York
+  content_hash: 9572514db08d0eeb
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/kaifi-aur-main-live-in-new-york_event-in_westbury-ny_402968
+    first_seen: '2026-11-23'
+    last_seen: '2026-11-23'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/kaifi-aur-main-live-in-new-york_event-in_westbury-ny_402968
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-23T16:35:12.620013-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-23T16:35:12.619976-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

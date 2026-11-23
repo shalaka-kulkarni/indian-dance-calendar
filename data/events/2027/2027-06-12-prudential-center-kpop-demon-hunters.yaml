@@ -4,7 +4,7 @@ was_published: false
 needs_recheck: false
 scraped:
   title: KPop Demon Hunters
-  start: '2027-06-12T00:00:00-04:00'
+  start: '2027-06-12T16:00:00-04:00'
   end: '2027-06-12T23:59:59-04:00'
   additional_dates: []
   venue: Prudential Center
@@ -15,12 +15,12 @@ scraped:
   info_url: https://www.prucenter.com/events/kpop-demon-hunters
   ticket_url: ''
   description_snippet: ''
-  content_hash: db095ef2e1c4d1b6
+  content_hash: aaee00e2f8f3160a
   sources:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/kpop-demon-hunters
     first_seen: '2026-11-16'
-    last_seen: '2026-11-16'
+    last_seen: '2026-11-23'
 ai:
   relevant: false
   kind: performance

@@ -9,19 +9,21 @@ scraped:
   venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
   address: 1395 Lexington Ave, New York, NY
   region: manhattan
+  price_min: 30.0
+  price_max: 30.0
   is_free: false
   price_note: ''
   info_url: https://www.92ny.org/event/neon-s-clarissa
-  ticket_url: ''
+  ticket_url: https://seats.92ny.org/single/211812
   description_snippet: A screening of NEON’s Clarissa , a bold reimagining of Mrs. Dalloway , followed
     by a conversation with Sophie Okonedo, Ayo Edebiri, India Amarteifio, Toheeb Jimah, and directors
     Arie and Chuko Esiri.
-  content_hash: bf6afcf2383f9322
+  content_hash: 736769a5880ee74e
   sources:
   - source_id: ninety_second_y
     url: https://www.92ny.org/event/neon-s-clarissa
     first_seen: '2026-11-20'
-    last_seen: '2026-11-20'
+    last_seen: '2026-11-23'
 ai:
   relevant: false
   kind: performance

@@ -1,0 +1,49 @@
+id: 2026-12-06-mignolo-arts-mignolo-artweek-intercultural-dance
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Mignolo ArtWeek – Intercultural Dance Day
+  start: '2026-12-06T17:00:00-05:00'
+  additional_dates: []
+  venue: Mignolo Arts Center
+  address: ''
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://www.mignolo.art/events/artweek26
+  ticket_url: ''
+  description_snippet: Mignolo ArtWeek - Intercultural Dance Day Mignolo Arts Center Sun. December, 6
+    @ 5:00pm
+  content_hash: 736c87251e39da53
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/Mignolo-ArtWeek-Intercultural-Dance-Day-2026-12-06
+    first_seen: '2026-11-23'
+    last_seen: '2026-11-23'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://www.mignolo.art/events/artweek26
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-23T16:35:10.014567-05:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-11-23T16:35:10.014547-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

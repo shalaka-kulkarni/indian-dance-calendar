@@ -1,0 +1,49 @@
+id: 2027-04-17-queens-theatre-san-jose-taiko-cherry
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: San Jose Taiko — Cherry Blossom Special
+  start: '2027-04-17T13:00:00-04:00'
+  additional_dates: []
+  venue: Queens Theatre
+  address: 14 United Nations Avenue South, Corona
+  region: queens
+  is_free: false
+  price_note: ''
+  info_url: https://queenstheatre.org/events/san-jose-taiko-8gps
+  ticket_url: ''
+  description_snippet: Experience the thunderous, joyful power of live taiko drumming with San Jose Taiko,
+    one of the world's premier Japanese drumming ensembles. Taiko, the Japanese word for drum, comes to
+    life in SJT's si…
+  content_hash: eb17aa367faa0833
+  sources:
+  - source_id: queens_theatre
+    url: https://queenstheatre.org/events/san-jose-taiko-8gps
+    first_seen: '2026-11-23'
+    last_seen: '2026-11-23'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://queenstheatre.org/events/san-jose-taiko-8gps
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-23T16:35:14.427853-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-23T16:35:14.427831-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}
