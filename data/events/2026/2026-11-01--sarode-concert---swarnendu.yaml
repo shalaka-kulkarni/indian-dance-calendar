@@ -48,9 +48,9 @@ validation:
   - url: https://chhandayan.org/calendar/2026/11/1/sarode-concert-swarnendu
     ok: true
     status_code: 200
-    checked_at: '2026-11-23T16:34:59.307471-05:00'
+    checked_at: '2026-11-23T16:37:27.700846-05:00'
   problems: []
-  validated_at: '2026-11-23T16:34:59.307465-05:00'
+  validated_at: '2026-11-23T16:37:27.700838-05:00'
 curated:
   forms: []
   traditions: []
