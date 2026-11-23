@@ -1,5 +1,5 @@
 id: 2026-12-05-the-solomon-works-process-presents-peter
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -23,25 +23,34 @@ scraped:
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Works-Process-Presents-Peter-the-Wolf-by-Sergei-Prokofiev-with-Isaac-Mizrahi-featuring-Dance-Heginbotham-2026-12-05_13
     first_seen: '2026-11-23'
     last_seen: '2026-11-23'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: Western classical music with contemporary dance.'
+  model: claude-opus-5-5
+  classified_at: '2026-11-23'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: false
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://www.dance-enthusiast.com/dance-listings/events/view/Works-Process-Presents-Peter-the-Wolf-by-Sergei-Prokofiev-with-Isaac-Mizrahi-featuring-Dance-Heginbotham-2026-12-05_13
-    ok: true
-    status_code: 200
-    checked_at: '2026-11-23T16:35:09.469601-05:00'
+  link_checks: []
   problems:
+  - links not yet verified (offline run)
   - no price information
-  - not yet classified (no API key run)
-  validated_at: '2026-11-23T16:35:09.469580-05:00'
+  - classified not-relevant
+  validated_at: '2026-11-23T16:36:30.358738-05:00'
 curated:
   forms: []
   traditions: []

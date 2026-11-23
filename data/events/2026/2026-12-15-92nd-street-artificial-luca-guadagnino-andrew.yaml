@@ -1,5 +1,5 @@
 id: 2026-12-15-92nd-street-artificial-luca-guadagnino-andrew
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -25,28 +25,33 @@ scraped:
     url: https://www.92ny.org/event/artificial
     first_seen: '2026-11-23'
     last_seen: '2026-11-23'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: film talk.'
+  model: claude-opus-5-5
+  classified_at: '2026-11-23'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://seats.92ny.org/single/211835
-    ok: true
-    status_code: 200
-    checked_at: '2026-11-23T16:35:10.125285-05:00'
-  - url: https://www.92ny.org/event/artificial
-    ok: true
-    status_code: 200
-    checked_at: '2026-11-23T16:35:11.726301-05:00'
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-11-23T16:35:10.125259-05:00'
+  - links not yet verified (offline run)
+  - classified not-relevant
+  validated_at: '2026-11-23T16:36:30.378715-05:00'
 curated:
   forms: []
   traditions: []

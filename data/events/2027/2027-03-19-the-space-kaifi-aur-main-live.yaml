@@ -23,6 +23,19 @@ scraped:
     url: https://events.sulekha.com/kaifi-aur-main-live-in-new-york_event-in_westbury-ny_402968
     first_seen: '2026-11-23'
     last_seen: '2026-11-23'
+ai:
+  relevant: true
+  kind: performance
+  art_form: music
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: low
+  reasoning: Title points to a stage tribute to the Urdu poet Kaifi Azmi, which may be largely spoken
+    theatre; the listing says nothing about live music, so it is held rather than published.
+  model: claude-opus-5-5
+  classified_at: '2026-11-23'
 validation:
   passed: false
   checks:
