@@ -49,9 +49,9 @@ validation:
   - url: https://chhandayan.org/calendar/2026/10/24/chhandayan-2026-all-night-concert
     ok: true
     status_code: 200
-    checked_at: '2026-11-25T15:07:36.894466-05:00'
+    checked_at: '2026-11-25T15:53:22.980281-05:00'
   problems: []
-  validated_at: '2026-11-25T15:07:36.894459-05:00'
+  validated_at: '2026-11-25T15:53:22.980275-05:00'
 curated:
   forms: []
   traditions: []
