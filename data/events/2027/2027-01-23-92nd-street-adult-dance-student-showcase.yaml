@@ -1,5 +1,5 @@
 id: 2027-01-23-92nd-street-adult-dance-student-showcase
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -24,28 +24,33 @@ scraped:
     url: https://www.92ny.org/event/adult-student-dance-showcase
     first_seen: '2026-11-23'
     last_seen: '2026-11-25'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: adult student dance showcase with no Indian form named.'
+  model: claude-opus-5-5
+  classified_at: '2026-11-25'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: true
     in_metro: true
     classified: false
-  link_checks:
-  - url: https://seats.92ny.org/single/211708
-    ok: true
-    status_code: 200
-    checked_at: '2026-11-25T15:07:54.012518-05:00'
-  - url: https://www.92ny.org/event/adult-student-dance-showcase
-    ok: true
-    status_code: 200
-    checked_at: '2026-11-25T15:07:54.032961-05:00'
+  link_checks: []
   problems:
-  - not yet classified (no API key run)
-  validated_at: '2026-11-25T15:07:54.012483-05:00'
+  - links not yet verified (offline run)
+  - classified not-relevant
+  validated_at: '2026-11-25T15:52:32.862382-05:00'
 curated:
   forms: []
   traditions: []
