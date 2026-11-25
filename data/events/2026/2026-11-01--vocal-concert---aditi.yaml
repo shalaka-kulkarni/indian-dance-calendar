@@ -48,10 +48,10 @@ validation:
   - url: https://chhandayan.org/calendar/2026/11/1/vocal-concert-aditi-chakraborty
     ok: false
     status_code: 404
-    checked_at: '2026-11-23T17:15:55.644744-05:00'
+    checked_at: '2026-11-25T15:07:37.472350-05:00'
   problems:
   - 'archive info link dead: https://chhandayan.org/calendar/2026/11/1/vocal-concert-aditi-chakraborty'
-  validated_at: '2026-11-23T17:15:55.644738-05:00'
+  validated_at: '2026-11-25T15:07:37.472344-05:00'
 curated:
   forms: []
   traditions: []

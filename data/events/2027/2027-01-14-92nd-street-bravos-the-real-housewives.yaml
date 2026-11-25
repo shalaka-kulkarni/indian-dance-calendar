@@ -1,0 +1,55 @@
+id: 2027-01-14-92nd-street-bravos-the-real-housewives
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Bravo’s The Real Housewives of New Jersey : Teresa Giudice, Melissa Gorga, and Dolores Catania
+    in Conversation with Emily Orozco'
+  start: '2027-01-14T17:30:00-05:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Geffen Stage at Kaufmann Concert Hall Enter on 92nd St. between Lexington
+    & 3rd Ave.
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 50.0
+  price_max: 50.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/bravo-s-the-real-housewives-of-new-jersey
+  ticket_url: https://seats.92ny.org/single/211844
+  description_snippet: Join Teresa Giudice, Melissa Gorga, and Dolores Catania for a and conversation
+    event celebrating Season 15 of Bravo’s The Real Housewives of New Jersey , moderated by Emily Orozco.
+  content_hash: 5991e3222921a9aa
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/bravo-s-the-real-housewives-of-new-jersey
+    first_seen: '2026-11-25'
+    last_seen: '2026-11-25'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.92ny.org/event/bravo-s-the-real-housewives-of-new-jersey
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-25T15:07:49.989883-05:00'
+  - url: https://seats.92ny.org/single/211844
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-25T15:07:53.200642-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-25T15:07:49.989868-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

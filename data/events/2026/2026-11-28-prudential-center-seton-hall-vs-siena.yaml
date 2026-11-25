@@ -1,0 +1,48 @@
+id: 2026-11-28-prudential-center-seton-hall-vs-siena
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Seton Hall vs. Siena
+  start: '2026-11-28T12:00:00-05:00'
+  end: '2026-11-28T13:00:00-05:00'
+  additional_dates: []
+  venue: Prudential Center
+  address: Seton Hall vs. Siena
+  region: new_jersey
+  is_free: false
+  price_note: ''
+  info_url: https://www.prucenter.com/events/seton-hall-vs-siena
+  ticket_url: ''
+  description_snippet: ''
+  content_hash: 62e2e63d68d9e954
+  sources:
+  - source_id: prudential_center
+    url: https://www.prucenter.com/events/seton-hall-vs-siena
+    first_seen: '2026-11-25'
+    last_seen: '2026-11-25'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.prucenter.com/events/seton-hall-vs-siena
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-25T15:07:46.923064-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-25T15:07:46.923035-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

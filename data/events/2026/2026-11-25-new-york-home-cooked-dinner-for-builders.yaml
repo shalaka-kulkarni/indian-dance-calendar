@@ -20,7 +20,7 @@ scraped:
   - source_id: allevents
     url: https://allevents.in/new-york/home-cooked-dinner-for-builders/4700031093563114
     first_seen: '2026-11-23'
-    last_seen: '2026-11-23'
+    last_seen: '2026-11-25'
 ai:
   relevant: false
   kind: performance

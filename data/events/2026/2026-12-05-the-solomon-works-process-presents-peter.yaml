@@ -22,7 +22,7 @@ scraped:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Works-Process-Presents-Peter-the-Wolf-by-Sergei-Prokofiev-with-Isaac-Mizrahi-featuring-Dance-Heginbotham-2026-12-05_13
     first_seen: '2026-11-23'
-    last_seen: '2026-11-23'
+    last_seen: '2026-11-25'
 ai:
   relevant: false
   kind: performance

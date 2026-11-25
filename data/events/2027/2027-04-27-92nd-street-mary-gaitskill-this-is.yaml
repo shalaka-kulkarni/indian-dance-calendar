@@ -1,0 +1,53 @@
+id: 2027-04-27-92nd-street-mary-gaitskill-this-is
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'Mary Gaitskill: This Is Pleasure … and This Is Pain'
+  start: '2027-04-27T20:00:00-04:00'
+  additional_dates: []
+  venue: 92nd Street Y, New York – Buttenwieser Hall at The Arnhold Center
+  address: 1395 Lexington Ave, New York, NY
+  region: manhattan
+  price_min: 30.0
+  price_max: 30.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.92ny.org/event/mary-gaitskill
+  ticket_url: https://seats.92ny.org/single/211854
+  description_snippet: Join acclaimed author Mary Gaitskill for a provocative conversation about desire,
+    self-deception, human connection, and the complexities of change.
+  content_hash: c196e521bbabc674
+  sources:
+  - source_id: ninety_second_y
+    url: https://www.92ny.org/event/mary-gaitskill
+    first_seen: '2026-11-25'
+    last_seen: '2026-11-25'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://seats.92ny.org/single/211854
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-25T15:07:58.268166-05:00'
+  - url: https://www.92ny.org/event/mary-gaitskill
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-25T15:07:58.303783-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-25T15:07:58.268148-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

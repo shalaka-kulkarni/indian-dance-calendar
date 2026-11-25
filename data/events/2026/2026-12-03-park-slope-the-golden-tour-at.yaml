@@ -1,0 +1,50 @@
+id: 2026-12-03-park-slope-the-golden-tour-at
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'The Golden Tour at Park Slope: Free Holiday Dance Performance and Workshop'
+  start: '2026-12-03T14:00:00-05:00'
+  additional_dates: []
+  venue: Park Slope Center for Successful Aging
+  address: ''
+  region: unknown
+  price_min: 0.0
+  price_max: 0.0
+  is_free: true
+  price_note: ''
+  info_url: https://www.dvpnyc.org/golden-tour
+  ticket_url: ''
+  description_snippet: 'The Golden Tour at Park Slope: Free Holiday Dance Performance and Workshop Park
+    Slope Center for Successful Aging Thu. December, 3 @ 2:00pm'
+  content_hash: 90516a6763999055
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/The-Golden-Tour-at-Park-Slope-Free-Holiday-Dance-Performance-and-Workshop-2026-12-03
+    first_seen: '2026-11-25'
+    last_seen: '2026-11-25'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://www.dvpnyc.org/golden-tour
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-25T15:07:47.638904-05:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-11-25T15:07:47.638887-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

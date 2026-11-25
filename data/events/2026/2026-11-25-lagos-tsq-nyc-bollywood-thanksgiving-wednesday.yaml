@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/nyc-bollywood-thanksgiving-wednesday-party-at-lagos-times-square_event-in_new-york-ny_402900
     first_seen: '2026-11-20'
-    last_seen: '2026-11-23'
+    last_seen: '2026-11-25'
 ai:
   relevant: false
   kind: performance

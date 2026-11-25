@@ -1,0 +1,51 @@
+id: 2027-01-08--the-mixtape-your-favorite
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'The Mixtape: Your Favorite Songs from Every Decade Happy Hour in the Loft with Whiskey & Sugar'
+  start: '2027-01-08T00:00:00-05:00'
+  additional_dates: []
+  venue: ''
+  address: ''
+  region: new_jersey
+  price_min: 5.0
+  price_max: 5.0
+  is_free: false
+  price_note: ''
+  info_url: https://www.sopacnow.org/events/happy-hour-in-the-loft-whiskeyandsugar/
+  ticket_url: ''
+  description_snippet: 'The Mixtape: Your Favorite Songs from Every Decade Happy Hour in the Loft with
+    Whiskey & Sugar FRI, JAN 8, 2027 at 6:30PM Buy Tickets Jersey band Whiskey & Sugar bring The Mixtape
+    to the Loft with singalong favorites from every decade and happy hour drinks. $5 cover. Buy Tickets
+    Learn More'
+  content_hash: c480f9394cd6135d
+  sources:
+  - source_id: sopac
+    url: https://www.sopacnow.org/events/happy-hour-in-the-loft-whiskeyandsugar/
+    first_seen: '2026-11-25'
+    last_seen: '2026-11-25'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.sopacnow.org/events/happy-hour-in-the-loft-whiskeyandsugar/
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-25T15:07:49.883992-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-25T15:07:49.883976-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

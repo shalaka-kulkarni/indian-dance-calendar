@@ -20,11 +20,11 @@ scraped:
   - source_id: city_center
     url: https://www.nycitycenter.org/events/2026-2027-alvin-ailey-american-dance-theater
     first_seen: '2026-08-16'
-    last_seen: '2026-11-23'
+    last_seen: '2026-11-25'
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Alvin-Ailey-American-Dance-Theaters-New-York-City-Center-Season-December-2-2026-January-3-2027-2026-12-02_2027-01-03
     first_seen: '2026-11-18'
-    last_seen: '2026-11-23'
+    last_seen: '2026-11-25'
 ai:
   relevant: false
   kind: other

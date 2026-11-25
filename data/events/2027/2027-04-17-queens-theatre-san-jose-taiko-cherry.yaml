@@ -21,7 +21,7 @@ scraped:
   - source_id: queens_theatre
     url: https://queenstheatre.org/events/san-jose-taiko-8gps
     first_seen: '2026-11-23'
-    last_seen: '2026-11-23'
+    last_seen: '2026-11-25'
 ai:
   relevant: false
   kind: performance

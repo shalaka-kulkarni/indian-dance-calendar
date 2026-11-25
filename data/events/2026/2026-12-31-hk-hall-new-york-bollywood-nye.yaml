@@ -1,0 +1,49 @@
+id: 2026-12-31-hk-hall-new-york-bollywood-nye
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: New York Bollywood NYE 2026 Party Ft. Vish, Jenzee, Browny at Hk Hall
+  start: '2026-12-31T21:00:00-05:00'
+  end: '2027-01-01T03:00:00-05:00'
+  additional_dates: []
+  venue: HK HALL
+  address: 605 West 48th Street, New York, NY
+  region: manhattan
+  price_min: 35.0
+  price_max: 35.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/new-york-bollywood-nye-2026-party-ft-vish-jenzee-browny-at-hk-hall_event-in_new-york-ny_403015
+  ticket_url: https://events.sulekha.com/new-york-bollywood-nye-2026-party-ft-vish-jenzee-browny-at-hk-hall_event-in_new-york-ny_403015
+  description_snippet: New York Bollywood Nye 2026 Party Ft. Vish, Jenzee, Browny At Hk Hall
+  content_hash: 1c6e39b54e85cfcc
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/new-york-bollywood-nye-2026-party-ft-vish-jenzee-browny-at-hk-hall_event-in_new-york-ny_403015
+    first_seen: '2026-11-25'
+    last_seen: '2026-11-25'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/new-york-bollywood-nye-2026-party-ft-vish-jenzee-browny-at-hk-hall_event-in_new-york-ny_403015
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-25T15:07:49.740656-05:00'
+  problems:
+  - not yet classified (no API key run)
+  validated_at: '2026-11-25T15:07:49.740637-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

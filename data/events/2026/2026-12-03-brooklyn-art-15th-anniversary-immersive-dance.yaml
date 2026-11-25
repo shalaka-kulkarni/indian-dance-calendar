@@ -1,0 +1,48 @@
+id: 2026-12-03-brooklyn-art-15th-anniversary-immersive-dance
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 15th Anniversary Immersive Dance Retrospective
+  start: '2026-12-03T19:00:00-05:00'
+  additional_dates: []
+  venue: Brooklyn Art Haus
+  address: ''
+  region: brooklyn
+  is_free: false
+  price_note: ''
+  info_url: https://www.eventbrite.com/e/bodystories-teresa-fellion-dance-fifteen-year-retrospective-tickets-2002233217452?aff=oddtdtcreator
+  ticket_url: ''
+  description_snippet: 15th Anniversary Immersive Dance Retrospective Brooklyn Art Haus Thu. December,
+    3 @ 7:00pm
+  content_hash: 0bdbf10f62e57fef
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/15th-Anniversary-Immersive-Dance-Retrospective-2026-12-03_06
+    first_seen: '2026-11-25'
+    last_seen: '2026-11-25'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://www.eventbrite.com/e/bodystories-teresa-fellion-dance-fifteen-year-retrospective-tickets-2002233217452?aff=oddtdtcreator
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-25T15:07:47.590638-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-25T15:07:47.590618-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

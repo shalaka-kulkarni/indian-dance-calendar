@@ -1,0 +1,50 @@
+id: 2026-12-08-jackie-robinson-the-golden-tour-at
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: 'The Golden Tour at Jackie Robinson Senior Center: Free Holiday Dance Performance and Workshop'
+  start: '2026-12-08T13:00:00-05:00'
+  additional_dates: []
+  venue: Jackie Robinson Senior Center
+  address: ''
+  region: unknown
+  price_min: 0.0
+  price_max: 0.0
+  is_free: true
+  price_note: ''
+  info_url: https://www.dvpnyc.org/golden-tour
+  ticket_url: ''
+  description_snippet: 'The Golden Tour at Jackie Robinson Senior Center: Free Holiday Dance Performance
+    and Workshop Jackie Robinson Senior Center Tue. December, 8 @ 1:00pm'
+  content_hash: 353e0b6de1a9a169
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/The-Golden-Tour-at-Jackie-Robinson-Senior-Center-Free-Holiday-Dance-Performance-and-Workshop-2026-12-08
+    first_seen: '2026-11-25'
+    last_seen: '2026-11-25'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://www.dvpnyc.org/golden-tour
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-25T15:07:47.976230-05:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-11-25T15:07:47.976215-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

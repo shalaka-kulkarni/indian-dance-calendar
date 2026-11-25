@@ -45,9 +45,9 @@ validation:
   - url: https://southstreetseaportmuseum.org/diwali/
     ok: true
     status_code: 200
-    checked_at: '2026-11-23T17:16:21.665990-05:00'
+    checked_at: '2026-11-25T15:07:42.627707-05:00'
   problems: []
-  validated_at: '2026-11-23T17:16:21.665983-05:00'
+  validated_at: '2026-11-25T15:07:42.627696-05:00'
 curated:
   forms: []
   traditions: []
