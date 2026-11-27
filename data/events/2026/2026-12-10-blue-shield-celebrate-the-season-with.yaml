@@ -1,5 +1,5 @@
 id: 2026-12-10-blue-shield-celebrate-the-season-with
-status: needs_attention
+status: rejected
 was_published: false
 needs_recheck: false
 scraped:
@@ -23,26 +23,35 @@ scraped:
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Celebrate-the-Season-with-Smuins-The-Christmas-Ballet-at-Blue-Shield-of-California-Theater-at-Yerba-Buena-Center-for-the-2026-12
     first_seen: '2026-11-27'
     last_seen: '2026-11-27'
+ai:
+  relevant: false
+  kind: performance
+  art_form: dance
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: high
+  reasoning: 'Not Indian dance or music: ballet in San Francisco, outside the metro.'
+  model: claude-opus-5-5
+  classified_at: '2026-11-27'
 validation:
   passed: false
   checks:
     has_info_url: true
     specific_url: true
-    links_live: true
+    links_live: false
     date_valid: true
     price_known: false
     in_metro: false
     classified: false
-  link_checks:
-  - url: https://www.dance-enthusiast.com/dance-listings/events/view/Celebrate-the-Season-with-Smuins-The-Christmas-Ballet-at-Blue-Shield-of-California-Theater-at-Yerba-Buena-Center-for-the-2026-12
-    ok: true
-    status_code: 200
-    checked_at: '2026-11-27T14:39:11.504375-05:00'
+  link_checks: []
   problems:
+  - links not yet verified (offline run)
   - no price information
   - region unknown — can't confirm NYC metro
-  - not yet classified (no API key run)
-  validated_at: '2026-11-27T14:39:11.504358-05:00'
+  - classified not-relevant
+  validated_at: '2026-11-27T15:52:46.829899-05:00'
 curated:
   forms: []
   traditions: []

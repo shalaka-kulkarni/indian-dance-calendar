@@ -23,6 +23,19 @@ scraped:
     url: https://events.sulekha.com/dur-e-fishan-meet-greet-and-musical-night-in-new-york_event-in_bayville-ny_402819
     first_seen: '2026-11-27'
     last_seen: '2026-11-27'
+ai:
+  relevant: true
+  kind: performance
+  art_form: music
+  traditions: []
+  forms: []
+  music_styles: []
+  presenter_type: unknown
+  confidence: low
+  reasoning: Celebrity meet-and-greet with a musical night, relisted at a new venue; the listing does
+    not say who performs or what music, so it is held rather than published.
+  model: claude-opus-5-5
+  classified_at: '2026-11-27'
 validation:
   passed: false
   checks:
