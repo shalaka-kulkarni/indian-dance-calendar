@@ -45,9 +45,9 @@ validation:
   - url: https://www.prucenter.com/events/shreya-ghoshal
     ok: true
     status_code: 200
-    checked_at: '2026-11-27T14:38:40.003474-05:00'
+    checked_at: '2026-11-27T15:53:17.249069-05:00'
   problems: []
-  validated_at: '2026-11-27T14:38:40.003469-05:00'
+  validated_at: '2026-11-27T15:53:17.249062-05:00'
 curated:
   forms: []
   traditions: []

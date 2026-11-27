@@ -50,10 +50,10 @@ validation:
   - url: https://events.sulekha.com/kaifi-aur-main-live-in-new-york_event-in_westbury-ny_402968
     ok: true
     status_code: 200
-    checked_at: '2026-11-27T14:39:15.147229-05:00'
+    checked_at: '2026-11-27T15:53:42.298968-05:00'
   problems:
   - relevance confidence too low for auto-publish
-  validated_at: '2026-11-27T14:39:15.147211-05:00'
+  validated_at: '2026-11-27T15:53:42.298949-05:00'
 curated:
   forms: []
   traditions: []

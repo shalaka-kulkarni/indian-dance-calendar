@@ -51,9 +51,9 @@ validation:
   - url: https://events.sulekha.com/sultans-of-sufi-ft-majid-ali-sur-sagar-at-melrose-ballroom_event-in_astoria-ny_402802
     ok: true
     status_code: 200
-    checked_at: '2026-11-27T14:39:11.198609-05:00'
+    checked_at: '2026-11-27T15:53:41.375856-05:00'
   problems: []
-  validated_at: '2026-11-27T14:39:11.198589-05:00'
+  validated_at: '2026-11-27T15:53:41.375838-05:00'
 curated:
   forms: []
   traditions: []
