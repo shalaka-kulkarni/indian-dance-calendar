@@ -20,7 +20,7 @@ scraped:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/92NY-Harkness-Dance-Center-Presents-Doug-Varone-and-Dancers-40th-Anniversary-Celebration-2026-12-04_05
     first_seen: '2026-11-20'
-    last_seen: '2026-11-25'
+    last_seen: '2026-11-27'
 ai:
   relevant: false
   kind: performance

@@ -47,9 +47,9 @@ validation:
   - url: https://theindianeye.com/2026/07/28/battery-dance-presents-the-45th-annual-battery-dance-festival-on-august-10-16-2026/
     ok: true
     status_code: 200
-    checked_at: '2026-11-25T15:53:06.114588-05:00'
+    checked_at: '2026-11-27T14:38:38.444142-05:00'
   problems: []
-  validated_at: '2026-11-25T15:53:06.114581-05:00'
+  validated_at: '2026-11-27T14:38:38.444121-05:00'
 curated:
   forms:
   - bharatanatyam

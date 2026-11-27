@@ -20,7 +20,7 @@ scraped:
   - source_id: dance_enthusiast
     url: https://www.dance-enthusiast.com/dance-listings/events/view/Mignolo-ArtWeek-Intercultural-Dance-Day-2026-12-06
     first_seen: '2026-11-23'
-    last_seen: '2026-11-25'
+    last_seen: '2026-11-27'
 ai:
   relevant: false
   kind: performance

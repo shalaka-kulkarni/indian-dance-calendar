@@ -22,7 +22,7 @@ scraped:
   - source_id: gibney
     url: https://gibneydance.org/event/mass-moca/
     first_seen: '2026-11-18'
-    last_seen: '2026-11-25'
+    last_seen: '2026-11-27'
 ai:
   relevant: false
   kind: performance

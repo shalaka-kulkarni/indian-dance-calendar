@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/nyc-bollywood-christmas-party-ft-dj-simz-at-230-fifth-rooftop-bar_event-in_new-york-ny_403014
     first_seen: '2026-11-25'
-    last_seen: '2026-11-25'
+    last_seen: '2026-11-27'
 ai:
   relevant: false
   kind: performance

@@ -1,0 +1,48 @@
+id: 2026-12-11-baryshnikov-arts-toad-mountain-world-premiere
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Toad Mountain World Premiere December 11 & 12, 2026
+  start: '2026-12-11T19:00:00-05:00'
+  additional_dates: []
+  venue: Baryshnikov Arts Center
+  address: ''
+  region: manhattan
+  is_free: false
+  price_note: ''
+  info_url: https://baryshnikovarts.org/performance/toad-mountain/
+  ticket_url: ''
+  description_snippet: Toad Mountain World Premiere December 11 & 12, 2026 Baryshnikov Arts Center Fri.
+    December, 11 @ 7:00pm
+  content_hash: 6a844532b3bed56b
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/Toad-Mountain-World-Premiere-December-11-12-2026-2026-12-11_12
+    first_seen: '2026-11-27'
+    last_seen: '2026-11-27'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: true
+    classified: false
+  link_checks:
+  - url: https://baryshnikovarts.org/performance/toad-mountain/
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-27T14:39:13.820734-05:00'
+  problems:
+  - no price information
+  - not yet classified (no API key run)
+  validated_at: '2026-11-27T14:39:13.820710-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

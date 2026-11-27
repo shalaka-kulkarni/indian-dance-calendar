@@ -20,7 +20,7 @@ scraped:
   - source_id: prudential_center
     url: https://www.prucenter.com/events/kpop-demon-hunters
     first_seen: '2026-11-16'
-    last_seen: '2026-11-25'
+    last_seen: '2026-11-27'
 ai:
   relevant: false
   kind: performance

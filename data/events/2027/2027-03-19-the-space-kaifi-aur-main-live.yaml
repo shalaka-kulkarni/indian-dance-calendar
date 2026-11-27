@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/kaifi-aur-main-live-in-new-york_event-in_westbury-ny_402968
     first_seen: '2026-11-23'
-    last_seen: '2026-11-25'
+    last_seen: '2026-11-27'
 ai:
   relevant: true
   kind: performance
@@ -50,10 +50,10 @@ validation:
   - url: https://events.sulekha.com/kaifi-aur-main-live-in-new-york_event-in_westbury-ny_402968
     ok: true
     status_code: 200
-    checked_at: '2026-11-25T15:53:33.121400-05:00'
+    checked_at: '2026-11-27T14:39:15.147229-05:00'
   problems:
   - relevance confidence too low for auto-publish
-  validated_at: '2026-11-25T15:53:33.121381-05:00'
+  validated_at: '2026-11-27T14:39:15.147211-05:00'
 curated:
   forms: []
   traditions: []

@@ -46,9 +46,9 @@ validation:
   - url: https://events.sulekha.com/ghazal-evening-with-ustad-hamid-ali-khan-living-legend-of-patiala-gharana_event-in_hicksville-ny_402118
     ok: true
     status_code: 200
-    checked_at: '2026-11-25T15:53:18.415660-05:00'
+    checked_at: '2026-11-27T14:38:48.706645-05:00'
   problems: []
-  validated_at: '2026-11-25T15:53:18.415653-05:00'
+  validated_at: '2026-11-27T14:38:48.706634-05:00'
 curated:
   forms: []
   traditions: []

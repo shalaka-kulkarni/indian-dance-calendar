@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/new-york-bollywood-nye-2026-party-ft-vish-jenzee-browny-at-hk-hall_event-in_new-york-ny_403015
     first_seen: '2026-11-25'
-    last_seen: '2026-11-25'
+    last_seen: '2026-11-27'
 ai:
   relevant: false
   kind: performance

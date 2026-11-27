@@ -1,0 +1,51 @@
+id: 2026-12-10-blue-shield-celebrate-the-season-with
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Celebrate the Season with "Smuin’s The Christmas Ballet” at Blue Shield of California Theater
+    at Yerba Buena Center for the
+  start: '2026-12-10T19:30:00-05:00'
+  additional_dates: []
+  venue: Blue Shield of California Theater at Yerba Buena Center for the Arts
+  address: ''
+  region: unknown
+  is_free: false
+  price_note: ''
+  info_url: https://www.dance-enthusiast.com/dance-listings/events/view/Celebrate-the-Season-with-Smuins-The-Christmas-Ballet-at-Blue-Shield-of-California-Theater-at-Yerba-Buena-Center-for-the-2026-12
+  ticket_url: ''
+  description_snippet: Celebrate the Season with "Smuin’s The Christmas Ballet” at Blue Shield of California
+    Theater at Yerba Buena Center for the Blue Shield of California Theater at Yerba Buena Center for
+    the Arts Thu. December, 10 @ 7:30pm (+ 10 more)
+  content_hash: f3e6370bb2409e48
+  sources:
+  - source_id: dance_enthusiast
+    url: https://www.dance-enthusiast.com/dance-listings/events/view/Celebrate-the-Season-with-Smuins-The-Christmas-Ballet-at-Blue-Shield-of-California-Theater-at-Yerba-Buena-Center-for-the-2026-12
+    first_seen: '2026-11-27'
+    last_seen: '2026-11-27'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: false
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://www.dance-enthusiast.com/dance-listings/events/view/Celebrate-the-Season-with-Smuins-The-Christmas-Ballet-at-Blue-Shield-of-California-Theater-at-Yerba-Buena-Center-for-the-2026-12
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-27T14:39:11.504375-05:00'
+  problems:
+  - no price information
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-11-27T14:39:11.504358-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}

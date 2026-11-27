@@ -22,7 +22,7 @@ scraped:
   - source_id: sulekha
     url: https://events.sulekha.com/nyc-bollywood-bhangra-night-ft-dj-browny-at-melrose-ballroom_event-in_astoria-ny_403012
     first_seen: '2026-11-25'
-    last_seen: '2026-11-25'
+    last_seen: '2026-11-27'
 ai:
   relevant: false
   kind: performance

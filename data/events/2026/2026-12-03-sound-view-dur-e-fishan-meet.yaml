@@ -1,0 +1,50 @@
+id: 2026-12-03-sound-view-dur-e-fishan-meet
+status: needs_attention
+was_published: false
+needs_recheck: false
+scraped:
+  title: Dur E Fishan Meet & Greet and Musical Night in New York
+  start: '2026-12-03T20:00:00-05:00'
+  end: '2026-12-03T22:30:00-05:00'
+  additional_dates: []
+  venue: Sound View
+  address: 45Avenue, Bayville, NY
+  region: unknown
+  price_min: 100.0
+  price_max: 100.0
+  is_free: false
+  price_note: ''
+  info_url: https://events.sulekha.com/dur-e-fishan-meet-greet-and-musical-night-in-new-york_event-in_bayville-ny_402819
+  ticket_url: https://events.sulekha.com/dur-e-fishan-meet-greet-and-musical-night-in-new-york_event-in_bayville-ny_402819
+  description_snippet: Dur E Fishan Meet & Greet And Musical Night In New York
+  content_hash: c53c60989ec5d572
+  sources:
+  - source_id: sulekha
+    url: https://events.sulekha.com/dur-e-fishan-meet-greet-and-musical-night-in-new-york_event-in_bayville-ny_402819
+    first_seen: '2026-11-27'
+    last_seen: '2026-11-27'
+validation:
+  passed: false
+  checks:
+    has_info_url: true
+    specific_url: true
+    links_live: true
+    date_valid: true
+    price_known: true
+    in_metro: false
+    classified: false
+  link_checks:
+  - url: https://events.sulekha.com/dur-e-fishan-meet-greet-and-musical-night-in-new-york_event-in_bayville-ny_402819
+    ok: true
+    status_code: 200
+    checked_at: '2026-11-27T14:39:10.954430-05:00'
+  problems:
+  - region unknown — can't confirm NYC metro
+  - not yet classified (no API key run)
+  validated_at: '2026-11-27T14:39:10.954410-05:00'
+curated:
+  forms: []
+  traditions: []
+  music_styles: []
+  editor_note: ''
+  overrides: {}
